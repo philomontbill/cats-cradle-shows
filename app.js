@@ -1,23 +1,52 @@
-// Cat's Cradle Show Discovery App
+// Soundcheck - Multi-Venue Show Discovery App
 class ShowsApp {
     constructor() {
         this.data = null;
         this.activePlayer = null;
+        this.currentVenue = 'catscradle';
         this.init();
     }
 
     async init() {
+        this.setupVenueButtons();
+        await this.loadVenue(this.currentVenue);
+    }
+
+    setupVenueButtons() {
+        document.querySelectorAll('.venue-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const venue = btn.dataset.venue;
+                if (venue !== this.currentVenue) {
+                    this.switchVenue(venue);
+                }
+            });
+        });
+    }
+
+    async switchVenue(venue) {
+        // Update button states
+        document.querySelectorAll('.venue-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.venue === venue);
+        });
+
+        this.currentVenue = venue;
+        this.activePlayer = null;
+        await this.loadVenue(venue);
+    }
+
+    async loadVenue(venue) {
         try {
-            await this.loadData();
+            await this.loadData(venue);
             this.renderStats();
             this.renderShows();
         } catch (error) {
-            this.showError();
+            this.showError(venue);
         }
     }
 
-    async loadData() {
-        const response = await fetch(`shows.json?t=${Date.now()}`);
+    async loadData(venue) {
+        const filename = `shows-${venue}.json`;
+        const response = await fetch(`${filename}?t=${Date.now()}`);
         if (!response.ok) {
             throw new Error('Data not found');
         }
@@ -30,9 +59,10 @@ class ShowsApp {
 
         const total = this.data.total_shows || 0;
         const withVideo = this.data.shows_with_video || 0;
+        const venueName = this.data.venue?.name || '';
 
         stats.innerHTML = `
-            <strong>${total}</strong> upcoming shows &bull;
+            <strong>${total}</strong> upcoming shows at ${venueName} &bull;
             <strong>${withVideo}</strong> with instant preview
         `;
     }
@@ -42,7 +72,7 @@ class ShowsApp {
         const shows = this.data?.shows || [];
 
         if (shows.length === 0) {
-            this.showError();
+            this.showError(this.currentVenue);
             return;
         }
 
@@ -53,8 +83,9 @@ class ShowsApp {
             const show = shows[index];
             if (show.youtube_id) {
                 header.addEventListener('click', (e) => {
-                    // Don't trigger if clicking on opener
-                    if (e.target.classList.contains('opener-name')) return;
+                    // Don't trigger if clicking on opener or ticket button
+                    if (e.target.classList.contains('opener-name') ||
+                        e.target.classList.contains('ticket-btn')) return;
                     this.togglePlayer(index, show.youtube_id);
                 });
             }
@@ -94,7 +125,7 @@ class ShowsApp {
                </div>`
             : '';
 
-        const ticketUrl = show.event_url || '#';
+        const ticketUrl = show.event_url || show.ticket_url || '#';
 
         return `
             <div class="show-card ${hasVideo ? 'has-video' : 'no-video'}" data-index="${index}">
@@ -162,11 +193,17 @@ class ShowsApp {
         }, 100);
     }
 
-    showError() {
+    showError(venue) {
+        const venueNames = {
+            'catscradle': "Cat's Cradle",
+            'mohawk': 'Mohawk Austin'
+        };
+        const name = venueNames[venue] || venue;
+
         document.getElementById('shows-grid').innerHTML = `
             <div class="loading">
-                <p>No shows data found.</p>
-                <p>Run <code>python scraper.py</code> to fetch shows.</p>
+                <p>No shows data found for ${name}.</p>
+                <p>Coming soon!</p>
             </div>
         `;
         document.getElementById('stats').innerHTML = '';

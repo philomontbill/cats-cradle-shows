@@ -434,10 +434,10 @@ class CatsCradleScraper:
             'last_updated': datetime.now().isoformat()
         }
 
-        with open('shows.json', 'w', encoding='utf-8') as f:
+        with open('shows-catscradle.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        print(f"\nSaved {len(shows)} shows to shows.json")
+        print(f"\nSaved {len(shows)} shows to shows-catscradle.json")
         print(f"  - {data['shows_with_video']} have YouTube videos")
         print(f"  - {data['shows_with_image']} have images")
 

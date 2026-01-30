@@ -47,6 +47,36 @@ body {
     font-size: 1.1rem;
 }
 
+.venue-selector {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.venue-btn {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.venue-btn:hover {
+    border-color: var(--text-muted);
+    color: var(--text);
+}
+
+.venue-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+}
+
 .about {
     max-width: 600px;
     margin: 20px auto 0;
