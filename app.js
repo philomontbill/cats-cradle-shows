@@ -94,6 +94,8 @@ class ShowsApp {
                </div>`
             : '';
 
+        const ticketUrl = show.event_url || '#';
+
         return `
             <div class="show-card ${hasVideo ? 'has-video' : 'no-video'}" data-index="${index}">
                 <div class="show-header">
@@ -109,7 +111,10 @@ class ShowsApp {
                             ${timesHtml}
                         </div>
                     </div>
-                    <div class="venue-tag">${this.escapeHtml(show.venue)}</div>
+                    <div class="card-right">
+                        <div class="venue-tag">${this.escapeHtml(show.venue)}</div>
+                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" onclick="event.stopPropagation()">Get Tickets</a>
+                    </div>
                 </div>
                 <div class="player-container" id="player-${index}">
                     <div class="player-wrapper"></div>

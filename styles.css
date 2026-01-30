@@ -184,6 +184,14 @@ body {
     gap: 4px;
 }
 
+.card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
 .venue-tag {
     background: var(--border);
     color: var(--text);
@@ -192,6 +200,24 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
     white-space: nowrap;
+}
+
+.ticket-btn {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.ticket-btn:hover {
+    background: var(--accent);
+    color: var(--bg);
 }
 
 .support-acts {
@@ -297,7 +323,10 @@ body {
         font-size: 1.1rem;
     }
 
-    .venue-tag {
-        margin-left: auto;
+    .card-right {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 8px;
     }
 }
