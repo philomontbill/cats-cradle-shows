@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #0f0f0f;
+    --card-bg: #1a1a1a;
+    --card-hover: #222;
+    --text: #fff;
+    --text-muted: #888;
+    --accent: #ff4444;
+    --accent-hover: #ff6666;
+    --border: #333;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    padding: 60px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* Main Content */
+.main {
+    padding: 40px 0;
+}
+
+.stats {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.stats strong {
+    color: var(--text);
+}
+
+/* Shows Grid */
+.shows-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Show Card */
+.show-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: background 0.2s;
+}
+
+.show-card:hover {
+    background: var(--card-hover);
+}
+
+.show-header {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* Show Image */
+.show-image {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--border);
+}
+
+.show-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.show-info {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Opener styling */
+.opener {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+.opener-name {
+    color: #5cacee;
+}
+
+.opener-name.has-video {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+}
+
+.opener-name.has-video:hover {
+    color: #7dc0f7;
+    text-decoration-style: solid;
+}
+
+/* Show times */
+.show-times {
+    display: inline-flex;
+    gap: 12px;
+    margin-left: 8px;
+}
+
+.show-times span {
+    color: var(--text-muted);
+}
+
+.artist-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-icon {
+    color: var(--accent);
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.show-card:hover .play-icon,
+.show-card.has-video:hover .play-icon {
+    opacity: 1;
+}
+
+.show-card.no-video .play-icon {
+    display: none;
+}
+
+.show-meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.show-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.venue-tag {
+    background: var(--border);
+    color: var(--text);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.support-acts {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* YouTube Player */
+.player-container {
+    display: none;
+    padding: 0 20px 20px;
+}
+
+.player-container.active {
+    display: block;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
+}
+
+.player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading code {
+    background: var(--card-bg);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid var(--border);
+    padding: 30px 0;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* No Video State */
+.show-card.no-video .show-header {
+    cursor: default;
+}
+
+.show-card.no-video:hover {
+    background: var(--card-bg);
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .header {
+        padding: 40px 0 30px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .show-header {
+        flex-wrap: wrap;
+    }
+
+    .show-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .artist-name {
+        font-size: 1.1rem;
+    }
+
+    .venue-tag {
+        margin-left: auto;
+    }
+}
