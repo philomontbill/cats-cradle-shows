@@ -47,6 +47,36 @@ body {
     font-size: 1.1rem;
 }
 
+.about {
+    max-width: 600px;
+    margin: 20px auto 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.instructions {
+    max-width: 600px;
+    margin: 16px auto;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 6px;
+}
+
+.signoff {
+    max-width: 600px;
+    margin: 16px auto 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
 /* Main Content */
 .main {
     padding: 40px 0;
