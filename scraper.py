@@ -107,7 +107,8 @@ class CatsCradleScraper:
                 if '/event/' in href:
                     if href.startswith('/'):
                         href = f"https://catscradle.com{href}"
-                    if href not in urls:
+                    # Only include catscradle.com URLs, not partner venues
+                    if 'catscradle.com' in href and href not in urls:
                         urls.append(href)
 
             return urls
@@ -253,7 +254,7 @@ class CatsCradleScraper:
             ]
 
             def is_valid_opener(text):
-                if not text or len(text) < 3 or len(text) > 50:
+                if not text or len(text) < 3 or len(text) > 150:
                     return False
                 text_lower = text.lower()
                 return not any(skip in text_lower for skip in skip_patterns)

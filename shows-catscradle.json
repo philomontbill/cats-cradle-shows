@@ -6,28 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Chapel Hill Alt-Country Show – Davie Circle, The Jackson Slater Band, Bill Moore and his Secret Admirers, Yakamashii",
-      "date": "Fri, Jan 30",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chapel_2102731768845073-2.jpg",
-      "event_url": "https://catscradle.com/event/chapel-hill-alt-country-show-davie-circle-the-jackson-slater-band-bill-moore-and-his-secret-admirers-yakamashii/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "ShvwIdpxyG8"
-    },
-    {
-      "artist": "Josh Ritter",
-      "date": "Fri, Jan 30",
-      "venue": "Haw River Ballroom",
-      "opener": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2025/11/JoshRitter-1000.jpeg",
-      "event_url": "https://catscradle.com/event/josh-ritter/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "WrBAdzACig0"
-    },
-    {
       "artist": "Josh Ritter",
       "date": "Sat, Jan 31",
       "venue": "Haw River Ballroom",
@@ -86,18 +64,6 @@
       "opener_youtube_id": "o01XCuD-opU"
     },
     {
-      "artist": "NIGHT MOVES",
-      "date": "Sun, Feb 01",
-      "venue": "Cat's Cradle",
-      "opener": "JOHNNY DELAWARE",
-      "doors": null,
-      "showtime": null,
-      "image": "https://motorcomusic.com/wp-content/uploads/2025/10/Night-Moves-PC-Shawn-Brackbill-DSC_3568-300dpi-900x601.jpg",
-      "event_url": "https://motorcomusic.com/event/night-moves/",
-      "youtube_id": "BgpOP3Kn4Qw",
-      "opener_youtube_id": "o01XCuD-opU"
-    },
-    {
       "artist": "Friendship",
       "date": "Mon, Feb 02",
       "venue": "Cat's Cradle Back Room",
@@ -143,7 +109,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Fancy_2082941765328474.jpg",
       "event_url": "https://catscradle.com/event/fancy-gap-lua-flora/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "ih0PV43q7ak",
-      "opener_youtube_id": "lCIAaijUhHQ"
+      "opener_youtube_id": "eejoD4OyiGc"
     },
     {
       "artist": "Tobacco Road",
@@ -155,7 +121,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tobacco_2079781765109354.jpg",
       "event_url": "https://catscradle.com/event/tobacco-road/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "af0rV6dli_o",
-      "opener_youtube_id": "Wf0QbqHASe8"
+      "opener_youtube_id": "Ne5512NS_0Q"
     },
     {
       "artist": "Jonah Kagen",
@@ -266,13 +232,13 @@
       "artist": "26th Annual Bob Marley Bash",
       "date": "Sat, Feb 14",
       "venue": "Cat's Cradle",
-      "opener": "Charley Ward at the",
+      "opener": "Mickey Mills & Steel, Dub Addis, Zion Project, Joel Keel + DJ Ras J",
       "doors": "8 pm",
       "showtime": "8:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-26th_2127551768318771.jpg",
       "event_url": "https://catscradle.com/event/26th-annual-bob-marley-bash/cats-cradle/carrboro-north-carolina/",
       "youtube_id": null,
-      "opener_youtube_id": "eLyIeXUwMcU"
+      "opener_youtube_id": "WxIoMK_9oDk"
     },
     {
       "artist": "7th Annual Cupid’s Jam – Benefit Concert for TABLE",
@@ -295,10 +261,45 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Knock_2089161765461671.jpg",
       "event_url": "https://catscradle.com/event/knock-on-wood-a-stax-records-tribute-3/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "6iwqDGQK5nA"
+    },
+    {
+      "artist": "Drink The Sea",
+      "date": "Tue, Feb 17",
+      "venue": "Haw River Ballroom",
+      "opener": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Drink_1934781757932035.jpg",
+      "event_url": "https://catscradle.com/event/drink-the-sea/haw-river-ballroom/saxapahaw-north-carolina/",
+      "youtube_id": "An3eUoEpRaU"
+    },
+    {
+      "artist": "The Jack Wharff Band",
+      "date": "Thu, Feb 19",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Max Alan",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2031361762876015.jpg",
+      "event_url": "https://catscradle.com/event/the-jack-wharff-band-2/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "eSqWjbOBjCo",
+      "opener_youtube_id": "hqPP7RDGGGA"
+    },
+    {
+      "artist": "Chris Chism EP Release",
+      "date": "Fri, Feb 20",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Nicole Tester, Lonnie Rott, Omar Ruiz-Lopez",
+      "doors": "6:30 pm",
+      "showtime": "7:30 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
+      "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "WtbEwEVRyaI",
+      "opener_youtube_id": "PaHydRtYAiU"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-01-30T11:43:10.854488"
+  "last_updated": "2026-01-31T10:29:42.758069"
 }
