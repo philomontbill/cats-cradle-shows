@@ -64,6 +64,7 @@ class ShowsApp {
         stats.innerHTML = `
             <strong>${total}</strong> upcoming shows at ${venueName} &bull;
             <strong>${withVideo}</strong> with instant preview
+            <p class="click-hint">Click any artist to hear their music. Opening acts are in <span class="blue-text">Blue</span>.</p>
         `;
     }
 
@@ -105,7 +106,6 @@ class ShowsApp {
     }
 
     createShowCard(show, index) {
-        const hasVideo = !!show.youtube_id;
         const hasImage = !!show.image;
 
         const imageHtml = hasImage
@@ -115,7 +115,7 @@ class ShowsApp {
             : '';
 
         const openerHtml = show.opener
-            ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}">${this.escapeHtml(show.opener)}</span></div>`
+            ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}">${this.escapeHtml(show.opener)}${show.opener_youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</span></div>`
             : '';
 
         const timesHtml = (show.doors || show.showtime)
@@ -128,14 +128,11 @@ class ShowsApp {
         const ticketUrl = show.event_url || show.ticket_url || '#';
 
         return `
-            <div class="show-card ${hasVideo ? 'has-video' : 'no-video'}" data-index="${index}">
+            <div class="show-card" data-index="${index}">
                 <div class="show-header">
                     ${imageHtml}
                     <div class="show-info">
-                        <div class="artist-name">
-                            ${this.escapeHtml(show.artist)}
-                            <span class="play-icon">&#9658;</span>
-                        </div>
+                        <div class="artist-name ${show.youtube_id ? 'has-video' : ''}">${this.escapeHtml(show.artist)}${show.youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</div>
                         ${openerHtml}
                         <div class="show-meta">
                             <span>${this.escapeHtml(show.date)}</span>

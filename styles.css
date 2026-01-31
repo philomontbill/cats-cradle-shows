@@ -44,7 +44,8 @@ body {
 
 .subtitle {
     color: var(--text-muted);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    margin-top: 20px;
 }
 
 .venue-selector {
@@ -77,6 +78,16 @@ body {
     color: var(--bg);
 }
 
+.click-hint {
+    margin-top: 10px;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.blue-text {
+    color: #5cacee;
+}
+
 .about {
     max-width: 600px;
     margin: 20px auto 0;
@@ -85,27 +96,6 @@ body {
     line-height: 1.6;
 }
 
-.instructions {
-    max-width: 600px;
-    margin: 16px auto;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    line-height: 1.6;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.instructions li {
-    margin-bottom: 6px;
-}
-
-.signoff {
-    max-width: 600px;
-    margin: 16px auto 0;
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    font-style: italic;
-}
 
 /* Main Content */
 .main {
@@ -209,25 +199,22 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 6px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+}
+
+.artist-name.has-video {
+    cursor: pointer;
 }
 
 .play-icon {
     color: var(--accent);
-    font-size: 1rem;
+    font-size: 0.9rem;
     opacity: 0;
     transition: opacity 0.2s;
 }
 
-.show-card:hover .play-icon,
-.show-card.has-video:hover .play-icon {
+.artist-name.has-video:hover .play-icon,
+.opener-name.has-video:hover .play-icon {
     opacity: 1;
-}
-
-.show-card.no-video .play-icon {
-    display: none;
 }
 
 .show-meta {
@@ -345,20 +332,33 @@ body {
 /* Footer */
 .footer {
     border-top: 1px solid var(--border);
-    padding: 30px 0;
-    text-align: center;
+    padding: 40px 0;
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
-/* No Video State */
-.show-card.no-video .show-header {
-    cursor: default;
+.about-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.7;
 }
 
-.show-card.no-video:hover {
-    background: var(--card-bg);
+.about-section h3 {
+    color: var(--text);
+    font-size: 1.2rem;
+    margin-bottom: 16px;
 }
+
+.about-section p {
+    margin-bottom: 12px;
+}
+
+.about-section .signoff {
+    margin-top: 20px;
+    font-style: italic;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 600px) {
