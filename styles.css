@@ -359,6 +359,19 @@ body {
     font-style: italic;
 }
 
+.about-section .contact {
+    margin-top: 16px;
+}
+
+.about-section .contact a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.about-section .contact a:hover {
+    text-decoration: underline;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 600px) {
