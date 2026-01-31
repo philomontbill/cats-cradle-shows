@@ -40,6 +40,15 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    height: 85px;
+    width: auto;
 }
 
 .subtitle {
@@ -381,6 +390,10 @@ body {
 
     .header h1 {
         font-size: 2rem;
+    }
+
+    .logo-icon {
+        height: 55px;
     }
 
     .show-header {
