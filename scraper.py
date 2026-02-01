@@ -130,14 +130,23 @@ class CatsCradleScraper:
             if not artist:
                 return None
 
+            # Extract notice/alert line (e.g., "Rescheduled", "Sold Out")
+            notice = self.extract_notice(soup)
+
             # Extract date
             date = self.extract_date(soup)
 
             # Extract venue
-            venue = self.extract_venue(soup)
+            venue = self.extract_venue(soup, url)
 
             # Extract opener
             opener = self.extract_opener(soup)
+
+            # If opener looks like a notice, move it to notice field
+            if opener and re.search(r'rescheduled|postponed|cancelled|canceled|new date', opener, re.IGNORECASE):
+                if not notice:
+                    notice = opener
+                opener = None
 
             # Extract door and show times
             doors_time, show_time = self.extract_times(soup)
@@ -150,6 +159,7 @@ class CatsCradleScraper:
                 'date': date,
                 'venue': venue,
                 'opener': opener,
+                'notice': notice,
                 'doors': doors_time,
                 'showtime': show_time,
                 'image': image,
@@ -181,6 +191,37 @@ class CatsCradleScraper:
                 return name
 
         return None
+
+    def extract_notice(self, soup):
+        """Extract notice/alert line (e.g., 'Rescheduled', 'Cat's Cradle Presents')"""
+        try:
+            # Skip these generic texts
+            skip_texts = ['privacy policy', 'terms', 'cookie', 'subscribe', 'newsletter', 'menu']
+
+            # Look for specific notice patterns in the page
+            text = soup.get_text()
+
+            # Check for important notices
+            notice_patterns = [
+                r'(rescheduled[^.]*)',
+                r'(postponed[^.]*)',
+                r'(cancelled[^.]*)',
+                r'(canceled[^.]*)',
+                r'(sold out)',
+                r'(new date[^.]*)',
+                r"(cat'?s cradle presents)",
+            ]
+
+            for pattern in notice_patterns:
+                match = re.search(pattern, text, re.IGNORECASE)
+                if match:
+                    notice = match.group(1).strip()
+                    if len(notice) < 80:
+                        return notice
+
+            return None
+        except Exception:
+            return None
 
     def extract_date(self, soup):
         """Extract the show date"""
@@ -232,11 +273,14 @@ class CatsCradleScraper:
         except:
             return date_str
 
-    def extract_venue(self, soup):
+    def extract_venue(self, soup, url=''):
         """Determine which venue section"""
         text = soup.get_text().lower()
+        url_lower = url.lower()
 
-        if 'back room' in text:
+        if 'motorco' in text or 'motorco' in url_lower:
+            return "Motorco Music Hall"
+        elif 'back room' in text:
             return "Cat's Cradle Back Room"
         elif 'haw river' in text or 'ballroom' in text:
             return "Haw River Ballroom"

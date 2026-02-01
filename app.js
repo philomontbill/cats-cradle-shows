@@ -114,6 +114,10 @@ class ShowsApp {
                </div>`
             : '';
 
+        const noticeHtml = show.notice
+            ? `<div class="show-notice">${this.escapeHtml(show.notice)}</div>`
+            : '';
+
         const openerHtml = show.opener
             ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}">${this.escapeHtml(show.opener)}${show.opener_youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</span></div>`
             : '';
@@ -132,6 +136,7 @@ class ShowsApp {
                 <div class="show-header">
                     ${imageHtml}
                     <div class="show-info">
+                        ${noticeHtml}
                         <div class="artist-name ${show.youtube_id ? 'has-video' : ''}">${this.escapeHtml(show.artist)}${show.youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</div>
                         ${openerHtml}
                         <div class="show-meta">

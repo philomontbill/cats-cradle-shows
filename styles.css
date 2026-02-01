@@ -204,6 +204,12 @@ body {
     color: var(--text-muted);
 }
 
+.show-notice {
+    font-size: 0.85rem;
+    color: #f0ad4e;
+    margin-bottom: 4px;
+}
+
 .artist-name {
     font-size: 1.3rem;
     font-weight: 600;
