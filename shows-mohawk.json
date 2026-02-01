@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Summer Salt",
-      "date": "Fri, Jan 30",
-      "venue": "Mohawk Outdoor",
-      "opener": "Boyscott, Wabie",
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648722221330",
-      "ticket_url": "https://www.etix.com/ticket/p/84624054/summer-salt-austin-mohawk-outdoor",
-      "youtube_id": "5oNqaRLDOi0",
-      "opener_youtube_id": "DzGNDdfCHvY"
-    },
-    {
-      "artist": "shame",
-      "date": "Sat, Jan 31",
-      "venue": "Mohawk Outdoor",
-      "opener": "Ghostwoman",
-      "doors": "7:00pm",
-      "showtime": "6:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2853111880152126459",
-      "ticket_url": "https://www.etix.com/ticket/p/38396857/shame-austin-mohawk-outdoor",
-      "youtube_id": "J2EbM47ELxM",
-      "opener_youtube_id": "SSBAgGZTXqE"
-    },
-    {
       "artist": "Andrew Cashen and the Disciples of Creation",
       "date": "Fri, Feb 06",
       "venue": "Mohawk Outdoor",
@@ -45,12 +21,13 @@
       "artist": "Shakey Graves",
       "date": "Sat, Feb 07",
       "venue": "Mohawk Outdoor",
-      "opener": null,
+      "opener": "Good Looks, Tele Novella",
       "doors": "7:00pm",
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648518293447",
       "ticket_url": "https://www.etix.com/ticket/p/34686712/shakey-graves-austin-resound-presents",
-      "youtube_id": "23TBwklpKc8"
+      "youtube_id": "23TBwklpKc8",
+      "opener_youtube_id": "DbOtfn9-SxQ"
     },
     {
       "artist": "Soul Exchange",
@@ -73,7 +50,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648510519300",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510521159",
-      "youtube_id": "ruAZQp6YGpE",
+      "youtube_id": "gzbQuXeE8nU",
       "opener_youtube_id": "QORqJDxXx0w"
     },
     {
@@ -97,7 +74,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648512771711",
       "ticket_url": "https://www.etix.com/ticket/p/50267554/annabelle-chairlegs-album-release-austin-mohawk-outdoor",
-      "youtube_id": "mEZVrTJ7IsU",
+      "youtube_id": "HVvjIrJprwQ",
       "opener_youtube_id": "4fLexTr8g7M"
     },
     {
@@ -110,19 +87,19 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "4KHPyJ2EhyM"
+      "opener_youtube_id": "n2fst5q-WIc"
     },
     {
       "artist": "Come and Shave It",
       "date": "Fri, Feb 20",
       "venue": "Mohawk Indoor",
-      "opener": "Dj Jester the Filipino Fist",
+      "opener": "A Beard and Moustache Competition, Dj Jester the Filipino Fist",
       "doors": "7:00pm",
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648506488717",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510642214",
       "youtube_id": "gtFA0Ba6u0E",
-      "opener_youtube_id": "vABbkrKi8Ac"
+      "opener_youtube_id": "j42E15aoH1E"
     },
     {
       "artist": "Electric Feels",
@@ -180,7 +157,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "87l-84irDlo"
+      "youtube_id": "h9rQ6GMxBYQ"
     },
     {
       "artist": "RIP MTV",
@@ -192,7 +169,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "9EKi2E9dVY8"
+      "opener_youtube_id": "Jprla2NvHY0"
     },
     {
       "artist": "The Summer Set",
@@ -274,7 +251,7 @@
       "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648504504749",
       "ticket_url": "https://www.etix.com/ticket/p/91863435/heated-rivalry-night-austin-resound-presents",
-      "youtube_id": "9lk6eI9Rk3s"
+      "youtube_id": "46qw3T9lz3Y"
     },
     {
       "artist": "The California Honeydrops",
@@ -297,10 +274,34 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
       "youtube_id": "9Gj_nIZynv8"
+    },
+    {
+      "artist": "Ratboys",
+      "date": "Sat, Mar 28",
+      "venue": "Mohawk Outdoor",
+      "opener": "Villagerrr",
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648707943645",
+      "ticket_url": "https://www.etix.com/ticket/p/87764085/ratboys-austin-mohawk-outdoor",
+      "youtube_id": "KYUMoL9FrIA",
+      "opener_youtube_id": "TIKFfi9qD98"
+    },
+    {
+      "artist": "Sweet Pill",
+      "date": "Sun, Mar 29",
+      "venue": "Mohawk Outdoor",
+      "opener": "Heart To Gold, Spaced",
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556382599",
+      "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
+      "youtube_id": "SGPr0ASYOf4",
+      "opener_youtube_id": "xAnNUkkNUFY"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-01-30T14:42:12.837333"
+  "last_updated": "2026-02-01T18:27:48.658062"
 }

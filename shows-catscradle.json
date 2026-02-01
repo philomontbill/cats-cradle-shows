@@ -6,36 +6,14 @@
   },
   "shows": [
     {
-      "artist": "Josh Ritter",
-      "date": "Sat, Jan 31",
-      "venue": "Haw River Ballroom",
-      "opener": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2025/11/JoshRitter-1000.jpeg",
-      "event_url": "https://catscradle.com/event/josh-ritter-2/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "WrBAdzACig0"
-    },
-    {
-      "artist": "Mega Colossus, Mortal Man, Archaos",
-      "date": "Sat, Jan 31",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "doors": "8 pm",
-      "showtime": "9 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Mega_2127651768817368.jpg",
-      "event_url": "https://catscradle.com/event/mega-colossus-mortal-man-archaos/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "zRS5ziGuESw"
-    },
-    {
       "artist": "Bronwyn Keith-Hynes",
       "date": "Sun, Feb 01",
-      "venue": "Cat's Cradle",
+      "venue": "Cat's Cradle Back Room",
       "opener": "Sugaree String Society",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Bronwyn_2049801763895676.jpg",
-      "event_url": "https://catscradle.com/event/bronwyn-keith-hynes/cats-cradle/carrboro-north-carolina/",
+      "event_url": "https://catscradle.com/event/bronwyn-keith-hynes/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "hs_nP9HxvXo",
       "opener_youtube_id": "ECohNAMaSL8"
     },
@@ -72,7 +50,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Friendship_2048521763682501.jpg",
       "event_url": "https://catscradle.com/event/friendship/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "3z5dO_jx5Q0",
+      "youtube_id": "oCzEfGOaXH0",
       "opener_youtube_id": "fEFW2ry1ucg"
     },
     {
@@ -84,7 +62,7 @@
       "showtime": "7:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Matt_1958991760444474.jpg",
       "event_url": "https://catscradle.com/event/matt-pryor/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "X81ktusEj0w",
+      "youtube_id": "t8SRdtZVusc",
       "opener_youtube_id": "f8qWbowzwZU"
     },
     {
@@ -109,7 +87,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Fancy_2082941765328474.jpg",
       "event_url": "https://catscradle.com/event/fancy-gap-lua-flora/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "ih0PV43q7ak",
-      "opener_youtube_id": "eejoD4OyiGc"
+      "opener_youtube_id": "x4hz0qxZ_Nw"
     },
     {
       "artist": "Tobacco Road",
@@ -120,8 +98,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tobacco_2079781765109354.jpg",
       "event_url": "https://catscradle.com/event/tobacco-road/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "af0rV6dli_o",
-      "opener_youtube_id": "Ne5512NS_0Q"
+      "youtube_id": "rEDEBSAR3Ng",
+      "opener_youtube_id": "Wf0QbqHASe8"
     },
     {
       "artist": "Jonah Kagen",
@@ -133,7 +111,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Jonah_1943051759406472.jpg",
       "event_url": "https://catscradle.com/event/jonah-kagen/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "LkAvm9-2jGQ",
-      "opener_youtube_id": "8lHZIQcOXIE"
+      "opener_youtube_id": "EegN-0yLWiQ"
     },
     {
       "artist": "No Cocker: Mad Dogs & Englishmen Tribute",
@@ -146,6 +124,18 @@
       "event_url": "https://catscradle.com/event/no-cocker-mad-dogs-englishmen-tribute/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "oyeQnGUomHM",
       "opener_youtube_id": "DPX02JtzJlU"
+    },
+    {
+      "artist": "Mega Colossus",
+      "date": "Sun, Feb 08",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Rescheduled from January 31",
+      "doors": "8 pm",
+      "showtime": "9 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/mega-colossus-mortal-man-archaos.jpg",
+      "event_url": "https://catscradle.com/event/mega-colossus-2/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "zRS5ziGuESw",
+      "opener_youtube_id": "sK4wfn6tywQ"
     },
     {
       "artist": "Electric Guest",
@@ -180,7 +170,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "npgl1ESUn_o"
+      "youtube_id": "8JCVdqlrwEM"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -191,7 +181,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Blue_2110341766052517.jpg",
       "event_url": "https://catscradle.com/event/blue-cactus-skylar-gudasz/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "8Z0w-fcVvV4"
+      "youtube_id": "FZybf-vXCBM"
     },
     {
       "artist": "Margo Price – Wild",
@@ -295,11 +285,22 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "PaHydRtYAiU"
+      "opener_youtube_id": "yzp661UY9cg"
+    },
+    {
+      "artist": "Vincent Neil Emerson",
+      "date": "Fri, Feb 20",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2025/10/Vincent-Neil-Emerson_DSC1921-1000.jpg",
+      "event_url": "https://catscradle.com/event/vincent-neil-emerson/motorco-music-hall/durham-north-carolina/",
+      "youtube_id": "LHC9f5ICNJ0"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-01-31T10:29:42.758069"
+  "last_updated": "2026-02-01T18:27:04.085171"
 }
