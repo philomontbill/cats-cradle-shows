@@ -356,9 +356,15 @@ body {
     color: var(--text);
 }
 
-.how-it-works img {
-    max-width: 100%;
-    height: auto;
+.how-it-works-image {
+    background-image: url('how-it-works.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 1536 / 1024;
+    margin: 0 auto;
     border-radius: 12px;
 }
 
