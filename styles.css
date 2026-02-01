@@ -105,7 +105,6 @@ body {
     line-height: 1.6;
 }
 
-
 /* Main Content */
 .main {
     padding: 40px 0;
@@ -280,12 +279,6 @@ body {
 .ticket-btn:hover {
     background: var(--accent);
     color: var(--bg);
-}
-
-.support-acts {
-    margin-top: 8px;
-    font-size: 0.85rem;
-    color: var(--text-muted);
 }
 
 /* YouTube Player */
