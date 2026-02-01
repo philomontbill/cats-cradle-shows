@@ -132,11 +132,22 @@ class MohawkScraper:
                 dtf_links = event.get('dtfLinks', [])
                 ticket_url = dtf_links[0] if dtf_links else None
 
+            # Check for sold out or other status
+            notice = None
+            availability = event.get('availability', '').upper()
+            if availability == 'SOLD_OUT':
+                notice = "Sold Out"
+            elif availability == 'CANCELLED':
+                notice = "Cancelled"
+            elif availability == 'POSTPONED':
+                notice = "Postponed"
+
             return {
                 'artist': headliner,
                 'date': date,
                 'venue': venue,
                 'opener': opener,
+                'notice': notice,
                 'doors': doors,
                 'showtime': showtime,
                 'image': image,
