@@ -198,7 +198,8 @@ class ShowsApp {
     showError(venue) {
         const venueNames = {
             'catscradle': "Cat's Cradle",
-            'mohawk': 'Mohawk Austin'
+            'mohawk': 'Mohawk Austin',
+            'elevation27': 'Elevation 27'
         };
         const name = venueNames[venue] || venue;
 
