@@ -6,45 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Bronwyn Keith-Hynes",
-      "date": "Sun, Feb 01",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Sugaree String Society",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Bronwyn_2049801763895676.jpg",
-      "event_url": "https://catscradle.com/event/bronwyn-keith-hynes/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "hs_nP9HxvXo",
-      "opener_youtube_id": "ECohNAMaSL8"
-    },
-    {
-      "artist": "Candi Jenkins",
-      "date": "Sun, Feb 01",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Kit Mckay Band",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Candi_2142171767614867-2.jpg",
-      "event_url": "https://catscradle.com/event/candi-jenkins/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "X0yrmT0D484",
-      "opener_youtube_id": "9OFhuwGy2-4"
-    },
-    {
-      "artist": "Night Moves",
-      "date": "Sun, Feb 01",
-      "venue": "Motorco Music Hall",
-      "opener": "Johnny Delaware",
-      "notice": "Cat's Cradle Presents",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2025/10/NightMovesDSC_3435_1-1000.jpg",
-      "event_url": "https://catscradle.com/event/night-moves-2/motorco-music-hall/durham-north-carolina/",
-      "youtube_id": "BgpOP3Kn4Qw",
-      "opener_youtube_id": "o01XCuD-opU"
-    },
-    {
       "artist": "Friendship",
       "date": "Mon, Feb 02",
       "venue": "Cat's Cradle Back Room",
@@ -54,7 +15,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Friendship_2048521763682501.jpg",
       "event_url": "https://catscradle.com/event/friendship/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "3z5dO_jx5Q0",
+      "youtube_id": "xB_fN-Ghb2w",
       "opener_youtube_id": "fEFW2ry1ucg"
     },
     {
@@ -67,7 +28,7 @@
       "showtime": "7:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Matt_1958991760444474.jpg",
       "event_url": "https://catscradle.com/event/matt-pryor/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "X81ktusEj0w",
+      "youtube_id": "t8SRdtZVusc",
       "opener_youtube_id": "f8qWbowzwZU"
     },
     {
@@ -94,33 +55,33 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Fancy_2082941765328474.jpg",
       "event_url": "https://catscradle.com/event/fancy-gap-lua-flora/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "ih0PV43q7ak",
-      "opener_youtube_id": "lCIAaijUhHQ"
+      "opener_youtube_id": "eejoD4OyiGc"
     },
     {
       "artist": "Tobacco Road",
       "date": "Fri, Feb 06",
       "venue": "Cat's Cradle Back Room",
       "opener": "Fudge",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tobacco_2079781765109354.jpg",
       "event_url": "https://catscradle.com/event/tobacco-road/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "af0rV6dli_o",
-      "opener_youtube_id": "Wf0QbqHASe8"
+      "opener_youtube_id": "Ne5512NS_0Q"
     },
     {
       "artist": "Jonah Kagen",
       "date": "Sat, Feb 07",
       "venue": "Cat's Cradle",
       "opener": "Anna Graves",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Jonah_1943051759406472.jpg",
       "event_url": "https://catscradle.com/event/jonah-kagen/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "LkAvm9-2jGQ",
-      "opener_youtube_id": "8lHZIQcOXIE"
+      "opener_youtube_id": "EegN-0yLWiQ"
     },
     {
       "artist": "No Cocker: Mad Dogs & Englishmen Tribute",
@@ -183,7 +144,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "npgl1ESUn_o"
+      "youtube_id": "8JCVdqlrwEM"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -195,7 +156,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Blue_2110341766052517.jpg",
       "event_url": "https://catscradle.com/event/blue-cactus-skylar-gudasz/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "8Z0w-fcVvV4"
+      "youtube_id": "FZybf-vXCBM"
     },
     {
       "artist": "Margo Price – Wild",
@@ -307,8 +268,8 @@
       "showtime": "7:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "w6zDJJ95dMQ",
-      "opener_youtube_id": "kfHUvla5teQ"
+      "youtube_id": "WtbEwEVRyaI",
+      "opener_youtube_id": "yzp661UY9cg"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -321,10 +282,49 @@
       "image": "https://catscradle.com/wp-content/uploads/2025/10/Vincent-Neil-Emerson_DSC1921-1000.jpg",
       "event_url": "https://catscradle.com/event/vincent-neil-emerson/motorco-music-hall/durham-north-carolina/",
       "youtube_id": "LHC9f5ICNJ0"
+    },
+    {
+      "artist": "Peter McPoland: Big Lucky Tour",
+      "date": "Sat, Feb 21",
+      "venue": "Cat's Cradle",
+      "opener": "DUG",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
+      "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "PcqWYLat8mc",
+      "opener_youtube_id": "E3ru5vfyqZU"
+    },
+    {
+      "artist": "Vacation Manor",
+      "date": "Sat, Feb 21",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Rhineland",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Vacation_2149641767873672.jpg",
+      "event_url": "https://catscradle.com/event/vacation-manor/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "tGl3l16Ngvg",
+      "opener_youtube_id": "0iYh8KrzFk8"
+    },
+    {
+      "artist": "Briscoe",
+      "date": "Sun, Feb 22",
+      "venue": "Cat's Cradle",
+      "opener": "Jack Blocker",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
+      "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "yEUrcsny2XA",
+      "opener_youtube_id": "vRQcIQyZoPE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-01T14:20:20.791738"
+  "last_updated": "2026-02-02T05:28:06.984591"
 }
