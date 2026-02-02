@@ -429,6 +429,18 @@ body {
         height: 45px;
     }
 
+    .venue-selector {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding: 0 20px;
+        margin: 20px -20px 0;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .venue-btn {
+        flex-shrink: 0;
+    }
+
     .show-header {
         flex-wrap: wrap;
     }
