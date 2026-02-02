@@ -38,4 +38,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add shows-catscradle.json shows-mohawk.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
+          git pull --rebase
           git push
