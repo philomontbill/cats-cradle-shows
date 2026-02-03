@@ -38,11 +38,14 @@ jobs:
       - name: Run The Social scraper
         run: python scraper_thesocial.py
 
+      - name: Run Bowery Ballroom scraper
+        run: python scraper_mercuryeast.py
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add shows-catscradle.json shows-mohawk.json shows-elevation27.json shows-thesocial.json
+          git add shows-catscradle.json shows-mohawk.json shows-elevation27.json shows-thesocial.json shows-boweryballroom.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
