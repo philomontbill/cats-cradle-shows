@@ -1,0 +1,169 @@
+{
+  "venue": {
+    "name": "The Social",
+    "location": "Orlando, FL",
+    "website": "https://www.thesocial.org"
+  },
+  "shows": [
+    {
+      "artist": "redveil",
+      "date": "Tue, Feb 17",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/1-4-819x1024.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/redveil-the-sankofa-tour/",
+      "youtube_id": "DGTWsToS4b4"
+    },
+    {
+      "artist": "Aries",
+      "date": "Thu, Feb 19",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/Press-Photo-1024x724.png?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/aries-glass-jaw-world-tour/",
+      "youtube_id": "dSA1oUhCdy8"
+    },
+    {
+      "artist": "Nep - Florida Girl Goes To…",
+      "date": "Tue, Feb 24",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "6:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/Main-Press-Photo-731x1024.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/nep-florida-girl-goes-to/",
+      "youtube_id": "KRIIc-tqDAE"
+    },
+    {
+      "artist": "LETDOWN",
+      "date": "Sat, Mar 07",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "6:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/letdown/",
+      "youtube_id": "PsKg8dEWWco"
+    },
+    {
+      "artist": "Yellow Days",
+      "date": "Fri, Mar 13",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "6:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/PRESS-SHOT-YD--819x1024.png?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/yellow-days/",
+      "youtube_id": "fB59rvDjKNA"
+    },
+    {
+      "artist": "yung kai",
+      "date": "Tue, Mar 31",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/250303_MSOLIE_071-683x1024.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/yung-kai/",
+      "youtube_id": "IpFX2vq8HKw"
+    },
+    {
+      "artist": "VARIALS",
+      "date": "Thu, Apr 02",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "6:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/2026-Promo-1024x1024.png?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/varials/",
+      "youtube_id": "jI-kfogKQT4"
+    },
+    {
+      "artist": "Allie X",
+      "date": "Sun, Apr 12",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/Screenshot-2025-05-17-at-2.41.50-PM-1024x750.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/allie-x/",
+      "youtube_id": "LL7f-w6WNw4"
+    },
+    {
+      "artist": "Sports",
+      "date": "Mon, Apr 13",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/ebqka_ym.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/sports/",
+      "youtube_id": "A2_O5ZQJYMk"
+    },
+    {
+      "artist": "Indigo de Souza",
+      "date": "Thu, Apr 16",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/IndigoDeSouza_PC-HannahSommer-RESCAN005-1024x732.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/indigo-de-souza/",
+      "youtube_id": "QgDDJdIJdhM"
+    },
+    {
+      "artist": "Arcy Drive",
+      "date": "Mon, Apr 20",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/PRESS-PHOTO-APPROVED-AD-Spring-Tour-26-1024x683.jpg?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/arcy-drive/",
+      "youtube_id": "9_7B85Po-es"
+    },
+    {
+      "artist": "Krooked Kings",
+      "date": "Tue, Apr 28",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "7:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/Screenshot-2025-12-18-123935.png?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/krooked-kings-2/",
+      "youtube_id": "swZrJv5zNjE"
+    },
+    {
+      "artist": "DANCE",
+      "date": "Sat, May 09",
+      "venue": "The Social",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "6:00pm",
+      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/Screenshot-2025-12-18-130603.png?lossy=1&strip=1&webp=1",
+      "ticket_url": "https://tkx.live/events/dance-with-the-dead-magic-sword/",
+      "youtube_id": "ZwXlTqjyf54"
+    }
+  ],
+  "total_shows": 13,
+  "shows_with_video": 13,
+  "shows_with_image": 13,
+  "last_updated": "2026-02-03T09:43:13.635898"
+}
