@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Friendship",
-      "date": "Mon, Feb 02",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Natalie Jane Hill",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Friendship_2048521763682501.jpg",
-      "event_url": "https://catscradle.com/event/friendship/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "xB_fN-Ghb2w",
-      "opener_youtube_id": "fEFW2ry1ucg"
-    },
-    {
       "artist": "Matt Pryor",
       "date": "Wed, Feb 04",
       "venue": "Cat's Cradle Back Room",
@@ -67,15 +54,15 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tobacco_2079781765109354.jpg",
       "event_url": "https://catscradle.com/event/tobacco-road/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "af0rV6dli_o",
-      "opener_youtube_id": "Ne5512NS_0Q"
+      "youtube_id": "rEDEBSAR3Ng",
+      "opener_youtube_id": "Wf0QbqHASe8"
     },
     {
       "artist": "Jonah Kagen",
       "date": "Sat, Feb 07",
       "venue": "Cat's Cradle",
       "opener": "Anna Graves",
-      "notice": "Sold Out",
+      "notice": null,
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Jonah_1943051759406472.jpg",
@@ -144,7 +131,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "8JCVdqlrwEM"
+      "youtube_id": "npgl1ESUn_o"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -321,10 +308,23 @@
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
       "opener_youtube_id": "vRQcIQyZoPE"
+    },
+    {
+      "artist": "Nuovo Testamento",
+      "date": "Mon, Feb 23",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Dark Chisme",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nuovo_2011201762088471.jpg",
+      "event_url": "https://catscradle.com/event/nuovo-testamento/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "B54XuMrcFpg",
+      "opener_youtube_id": "OTTW_QD2Si0"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-02T05:28:06.984591"
+  "last_updated": "2026-02-03T05:19:28.266246"
 }

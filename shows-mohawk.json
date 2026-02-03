@@ -41,7 +41,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648516077439",
       "ticket_url": "https://www.etix.com/ticket/p/55571185/soul-exchange-austin-mohawk-austintxindoor",
-      "youtube_id": "Qf-M3EwUuWw",
+      "youtube_id": "-lEnHi8G_pU",
       "opener_youtube_id": "wJoU6Vbf-_o"
     },
     {
@@ -94,7 +94,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "n2fst5q-WIc"
+      "opener_youtube_id": "4KHPyJ2EhyM"
     },
     {
       "artist": "Come and Shave It",
@@ -195,7 +195,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648624143649",
       "ticket_url": "https://www.etix.com/ticket/p/39723046/the-summer-set-austin-resound-presents",
-      "youtube_id": "8UgIX_uL-zM",
+      "youtube_id": "H2OxN8sZuok",
       "opener_youtube_id": "960AM_-TTZs"
     },
     {
@@ -272,7 +272,7 @@
       "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648504504749",
       "ticket_url": "https://www.etix.com/ticket/p/91863435/heated-rivalry-night-austin-resound-presents",
-      "youtube_id": "9lk6eI9Rk3s"
+      "youtube_id": "lKO26odltss"
     },
     {
       "artist": "The California Honeydrops",
@@ -328,5 +328,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-02T05:28:47.979821"
+  "last_updated": "2026-02-03T05:20:10.120238"
 }
