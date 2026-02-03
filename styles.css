@@ -60,7 +60,8 @@ body {
 .venue-selector {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-top: 20px;
 }
 
@@ -68,9 +69,9 @@ body {
     background: transparent;
     color: var(--text-muted);
     border: 1px solid var(--border);
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-size: 0.95rem;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s;
@@ -430,15 +431,13 @@ body {
     }
 
     .venue-selector {
-        overflow-x: auto;
-        justify-content: flex-start;
-        padding: 0 20px;
-        margin: 20px -20px 0;
-        -webkit-overflow-scrolling: touch;
+        justify-content: center;
+        padding: 0 10px;
     }
 
     .venue-btn {
-        flex-shrink: 0;
+        padding: 4px 10px;
+        font-size: 0.75rem;
     }
 
     .show-header {
