@@ -29,7 +29,20 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648518293447",
       "ticket_url": "https://www.etix.com/ticket/p/34686712/shakey-graves-austin-resound-presents",
       "youtube_id": "23TBwklpKc8",
-      "opener_youtube_id": "DbOtfn9-SxQ"
+      "opener_youtube_id": "4AwRIEHCBL0"
+    },
+    {
+      "artist": "Shakey Graves After party",
+      "date": "Sat, Feb 07",
+      "venue": "Mohawk Indoor",
+      "opener": "Dj Baby Jake, Dj Hair of the Dog",
+      "notice": null,
+      "doors": "",
+      "showtime": "",
+      "image": "http://www.prekindle.com/images/placeholder.png",
+      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648500533071",
+      "youtube_id": "rmo5u9OjafE",
+      "opener_youtube_id": "XpzjreCXh6I"
     },
     {
       "artist": "Soul Exchange",
@@ -54,8 +67,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648510519300",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510521159",
-      "youtube_id": "gzbQuXeE8nU",
-      "opener_youtube_id": "QORqJDxXx0w"
+      "youtube_id": "cCYHHQvzclQ",
+      "opener_youtube_id": "89Cg5LiXCw8"
     },
     {
       "artist": "Ladies First",
@@ -94,7 +107,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "4KHPyJ2EhyM"
+      "opener_youtube_id": "n2fst5q-WIc"
     },
     {
       "artist": "Come and Shave It",
@@ -136,18 +149,6 @@
       "opener_youtube_id": "EqwjdX3PAR0"
     },
     {
-      "artist": "Cory Branan",
-      "date": "Fri, Feb 27",
-      "venue": "Mohawk Indoor",
-      "opener": null,
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
-      "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
-      "youtube_id": "4EGi-dPtt9U"
-    },
-    {
       "artist": "Colony House",
       "date": "Fri, Feb 27",
       "venue": "Mohawk Outdoor",
@@ -159,6 +160,18 @@
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
       "youtube_id": "vHpaFGWGMTY",
       "opener_youtube_id": "Os8d8eyGhiA"
+    },
+    {
+      "artist": "Cory Branan",
+      "date": "Fri, Feb 27",
+      "venue": "Mohawk Indoor",
+      "opener": null,
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
+      "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
+      "youtube_id": "4EGi-dPtt9U"
     },
     {
       "artist": "SZN4",
@@ -183,7 +196,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "9EKi2E9dVY8"
+      "opener_youtube_id": "Jprla2NvHY0"
     },
     {
       "artist": "The Summer Set",
@@ -195,7 +208,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648624143649",
       "ticket_url": "https://www.etix.com/ticket/p/39723046/the-summer-set-austin-resound-presents",
-      "youtube_id": "H2OxN8sZuok",
+      "youtube_id": "8UgIX_uL-zM",
       "opener_youtube_id": "960AM_-TTZs"
     },
     {
@@ -208,7 +221,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "FEd3foWG2Hk",
+      "youtube_id": "slOVLJ6vwlg",
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
@@ -272,7 +285,7 @@
       "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648504504749",
       "ticket_url": "https://www.etix.com/ticket/p/91863435/heated-rivalry-night-austin-resound-presents",
-      "youtube_id": "lKO26odltss"
+      "youtube_id": "F0NLi6vNv8o"
     },
     {
       "artist": "The California Honeydrops",
@@ -308,25 +321,12 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648707943645",
       "ticket_url": "https://www.etix.com/ticket/p/87764085/ratboys-austin-mohawk-outdoor",
-      "youtube_id": "KYUMoL9FrIA",
+      "youtube_id": "lX5adLHQobY",
       "opener_youtube_id": "TIKFfi9qD98"
-    },
-    {
-      "artist": "Sweet Pill",
-      "date": "Sun, Mar 29",
-      "venue": "Mohawk Outdoor",
-      "opener": "Heart To Gold, Spaced",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556382599",
-      "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
-      "youtube_id": "SGPr0ASYOf4",
-      "opener_youtube_id": "xAnNUkkNUFY"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-03T05:20:10.120238"
+  "last_updated": "2026-02-04T05:14:12.915985"
 }

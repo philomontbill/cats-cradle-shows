@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "The Veldt",
-      "date": "Tue, Feb 03",
+      "date": "Wed, Feb 03",
       "venue": "Bowery Ballroom",
       "opener": "Blak Emoji, Bird Streets",
       "notice": null,
@@ -20,7 +20,7 @@
     },
     {
       "artist": "Jonah Kagen: Sunflowers & Leather Tour",
-      "date": "Tue, Feb 03",
+      "date": "Wed, Feb 03",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -28,7 +28,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d47/c5105064-2c6a-422b-9125-fd06c1e6bd47_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jonah-kagen-sunflowers-leather-tour-2/",
-      "youtube_id": "F0d4fCaECiw"
+      "youtube_id": "GmUf-fEL4Ic"
     },
     {
       "artist": "Kashus Culpepper",
@@ -52,7 +52,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b44/1577ab25-74d1-449d-b5dd-b99e853c7b44_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jonah-kagen-sunflowers-leather-tour/",
-      "youtube_id": "F0d4fCaECiw"
+      "youtube_id": "GmUf-fEL4Ic"
     },
     {
       "artist": "Kashus Culpepper",
@@ -64,7 +64,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/c0d/1d96c923-764f-4be4-9758-7f15f5bd1c0d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kashus-culpepper/",
-      "youtube_id": "xA7-Qsprjps"
+      "youtube_id": "LbfN18u5MaY"
     },
     {
       "artist": "SPRINTS",
@@ -112,7 +112,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/4d8/bdd6aab8-131d-4e93-bd65-0b607d7614d8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/esdeekid-rebel-tour-reinforced-by-rico-ace/",
-      "youtube_id": "gxZDWuFLjyM"
+      "youtube_id": "lxS4N4o9O1Q"
     },
     {
       "artist": "SosMula",
@@ -148,7 +148,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/3ed/93f2bede-a6a2-4571-bba8-b4652f5ef3ed_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/final-call/",
-      "youtube_id": "OtglfWpHptE"
+      "youtube_id": "3X2w8CMC3D0"
     },
     {
       "artist": "Cate",
@@ -172,7 +172,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/795/89d0a154-6728-4dc5-8191-0757cbc91795_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/orchestre-moto/",
-      "youtube_id": "d_Q-o5g_gUE"
+      "youtube_id": "PbCsGC4qdsg"
     },
     {
       "artist": "Hana Eid",
@@ -220,7 +220,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/91b/afec080f-0b6d-4d10-8567-37f1eb21691b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/stella-prince/",
-      "youtube_id": "_G5B2lPf7VM"
+      "youtube_id": "3popwn54B94"
     },
     {
       "artist": "kylekelly",
@@ -232,7 +232,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/3c9/8abe853e-94d4-4619-9fea-6cba9d4743c9_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kylekelly/",
-      "youtube_id": "OXWtKYFshZI"
+      "youtube_id": "gzEBmehs2xQ"
     },
     {
       "artist": "Rubio",
@@ -310,5 +310,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-03T16:02:00.114835"
+  "last_updated": "2026-02-04T05:16:31.207178"
 }
