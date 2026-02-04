@@ -200,6 +200,7 @@ class ShowsApp {
             'catscradle': "Cat's Cradle",
             'local506': 'Local 506',
             'motorco': 'Motorco Music Hall',
+            'kings': 'Kings',
             'mohawk': 'Mohawk Austin',
             'elevation27': 'Elevation 27',
             'pinhook': 'The Pinhook',
