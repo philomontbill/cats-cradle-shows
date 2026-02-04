@@ -201,6 +201,7 @@ class ShowsApp {
             'mohawk': 'Mohawk Austin',
             'elevation27': 'Elevation 27',
             'pinhook': 'The Pinhook',
+            'lincoln': 'Lincoln Theatre',
             'thesocial': 'The Social',
             'boweryballroom': 'Bowery Ballroom'
         };
