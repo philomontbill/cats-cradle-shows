@@ -362,6 +362,23 @@ body {
     border-radius: 12px;
 }
 
+/* Beyond the Triangle */
+.beyond-triangle {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid var(--border);
+}
+
+.beyond-triangle h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--text-muted);
+}
+
+.beyond-triangle .venue-selector {
+    margin-top: 0;
+}
+
 /* Footer */
 .footer {
     border-top: 1px solid var(--border);
