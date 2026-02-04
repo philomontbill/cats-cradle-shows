@@ -198,6 +198,7 @@ class ShowsApp {
     showError(venue) {
         const venueNames = {
             'catscradle': "Cat's Cradle",
+            'local506': 'Local 506',
             'mohawk': 'Mohawk Austin',
             'elevation27': 'Elevation 27',
             'pinhook': 'The Pinhook',
