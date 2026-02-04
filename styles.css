@@ -377,6 +377,7 @@ body {
 
 .beyond-triangle .venue-selector {
     margin-top: 0;
+    justify-content: center;
 }
 
 /* Footer */
@@ -385,18 +386,19 @@ body {
     padding: 40px 0;
     color: var(--text-muted);
     font-size: 0.95rem;
+    text-align: center;
 }
 
 .about-section {
     max-width: 600px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     line-height: 1.7;
 }
 
 .about-section h3 {
     color: var(--text);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 16px;
 }
 
@@ -405,8 +407,10 @@ body {
 }
 
 .about-section .goals-list {
-    margin: 16px 0;
+    margin: 16px auto;
     padding-left: 24px;
+    text-align: left;
+    display: inline-block;
 }
 
 .about-section .goals-list li {
