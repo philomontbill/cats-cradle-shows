@@ -199,6 +199,7 @@ class ShowsApp {
         const venueNames = {
             'catscradle': "Cat's Cradle",
             'local506': 'Local 506',
+            'motorco': 'Motorco Music Hall',
             'mohawk': 'Mohawk Austin',
             'elevation27': 'Elevation 27',
             'pinhook': 'The Pinhook',
