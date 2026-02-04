@@ -199,7 +199,10 @@ class ShowsApp {
         const venueNames = {
             'catscradle': "Cat's Cradle",
             'mohawk': 'Mohawk Austin',
-            'elevation27': 'Elevation 27'
+            'elevation27': 'Elevation 27',
+            'pinhook': 'The Pinhook',
+            'thesocial': 'The Social',
+            'boweryballroom': 'Bowery Ballroom'
         };
         const name = venueNames[venue] || venue;
 

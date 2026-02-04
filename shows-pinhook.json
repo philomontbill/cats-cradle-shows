@@ -1,0 +1,288 @@
+{
+  "venue": {
+    "name": "The Pinhook",
+    "location": "Durham, NC",
+    "website": "https://thepinhook.com"
+  },
+  "shows": [
+    {
+      "venue": "The Pinhook",
+      "artist": "Blends With Friends (Open Decks)",
+      "date": "Wed, Feb 04",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Blends_1297381765321561.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/86182633/blends-with-friends-open-decks-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "O78lvU6_aEE"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Emma Jane / bedrumor / Airport Baby",
+      "date": "Thu, Feb 05",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Emma_1298211767047181.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/61062872/emma-jane-bedrumor-airport-baby-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "1bxA6so1OV8"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "C. Shreve The Professor / OC from NC / Tab-One / SkyBlew / Frank the Fre$h / Katie Blvd",
+      "date": "Fri, Feb 06",
+      "doors": "8:30 pm",
+      "showtime": "9 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-C_1298941768494956.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/53434523/cshreve-the-professor-oc-from-nc-tabone-skyblew-frank-the-freh-katie-blvd-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "RSjvsJaYSB0"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Vermilion Green / Red October / Yuno",
+      "date": "Sat, Feb 07",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Vermilion_1298111766615155.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/55161616/vermilion-green-red-october-yuno-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "LvetJ9U_tVY"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Alcantara / General Purpose / Lazaris Pit",
+      "date": "Sun, Feb 08",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/10/etix-Alcantara_1294131760998625.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/61400685/alcantara-general-purpose-lazaris-pit-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "ebJ5CIZDYlM"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Mean Habit / Hex Files / Salt Man",
+      "date": "Wed, Feb 11",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2021/09/The-Pinhook-Default-Event-Image.png",
+      "ticket_url": "https://www.etix.com/ticket/p/86100029/mean-habit-hex-files-salt-man-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "Wh3_i34_eP4"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Sister Wife Sex Strike / Clover-Lynn / Frog Legs",
+      "date": "Thu, Feb 12",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/09/etix-Sister_1292751759147554.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/42377424/sister-wife-sex-strike-cloverlynn-frog-legs-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "hTgA0wC3Ic8"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Marissa Nadler / Maria BC",
+      "date": "Fri, Feb 13",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/08/etix-Marissa_1290021755028554.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/77607135/marissa-nadler-maria-bc-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "DrrMZyeU_Y8"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "OnlyFriends: A queer platonic love dance party",
+      "date": "Sat, Feb 14",
+      "doors": "8:30 pm",
+      "showtime": "9 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/onlyfriends-a-queer-platonic-love-dance-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/79314868/onlyfriendsa-queer-platonic-love-dance-party-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "J6Xg9sA6XWA"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Runo Plum / Lutalo (solo)",
+      "date": "Sun, Feb 15",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/10/etix-Runo_1294251761054978.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/96225184/runo-plum-lutalo-solo-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "NmbtaXc25UA"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Thelma and the Sleaze / Meltdown Rodeo",
+      "date": "Mon, Feb 16",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Thelma_1299071768498575.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/88356207/thelma-and-the-sleaze-meltdown-rodeo-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "-8kE70JwZtI"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "date": "Tue, Feb 17",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297421765321563.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/85806052/queer-country-nightall-yall-led-line-dancing-some-karaoke-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "2Xw5ZtzMlSs"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Temptation Titties and Trombones: Franny Starlight and the Brass Boudoir",
+      "date": "Wed, Feb 18",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Temptation_1298901768494371.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/81740774/temptation-titties-and-trombonesfranny-starlight-and-the-brass-boudoir-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "KAnv6uFx0mo"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The Asheville Mountain Boys / Sonya Badigian & Tatiana Hargreaves",
+      "date": "Thu, Feb 19",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1298381768125963.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/92600035/the-asheville-mountain-boys-sonya-badigian-tatiana-hargreaves-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "3X7uWaF21v0"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The Hour Glass Kids / Sugar Snap Peas / Emmerson Bruno and the undercurrents",
+      "date": "Fri, Feb 20",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299001768496162.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/62502978/the-hour-glass-kids-sugar-snap-peas-emmerson-bruno-and-the-undercurrents-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "ZaHfWqmC18A"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Dunums / RIBS / Little Chair",
+      "date": "Sat, Feb 21",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/dunums-ribs-little-chair.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/79760295/dunums-ribs-little-chair-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "6Fbg2rszTdg"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "House of BLK",
+      "date": "Sat, Feb 21",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/house-of-blk.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/53392917/house-of-blk-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "znlFu_lemsU"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "G-Clef’s Graduation Celebration + Film Screening",
+      "date": "Sun, Feb 22",
+      "doors": "2:30 pm",
+      "showtime": "3 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/g-clefs-graduation-celebration-film-screening.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/47299895/gclefs-graduation-celebration-film-screening-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "CV4jPnRbNe4"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Makaya McCraven",
+      "date": "Mon, Feb 23",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298701768337162.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/90224535/makaya-mccraven-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "w3giWDYxPTI"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Makaya McCraven",
+      "date": "Mon, Feb 23",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298741768337165.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/64111957/makaya-mccraven-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "w3giWDYxPTI"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Hex Files / Little Chair / Future Fix / Woke County Speedway",
+      "date": "Wed, Feb 25",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/hex-files-little-chair-future-fix-woke-county-speedway.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/42127270/hex-files-little-chair-future-fix-woke-county-speedway-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "l47M2nMN2SQ"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Advance Base / Moontype / Moon Racer",
+      "date": "Thu, Feb 26",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Advance_1296731764776156.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/73369336/advance-base-moontype-moon-racer-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "8QE-i2Ryrmg"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Le Frique, Discover Afrique: An All Afrocentric Cabaret Dance party.",
+      "date": "Fri, Feb 27",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/le-frique-discover-afrique-an-all-afrocentric-cabaret-dance-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/52555205/le-friquediscover-afriquean-all-afrocentric-cabaret-dance-party-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "aXgSHL7efKg"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "A Beacon School / le Lotus",
+      "date": "Sat, Feb 28",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-A_1298521768150556.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/71230565/a-beacon-school-le-lotus-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "8yGDEpMCB3U"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The Faux Paws",
+      "date": "Sun, Mar 01",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/the-faux-paws.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/81881470/the-faux-paws-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "EqGoecdZJyE"
+    }
+  ],
+  "total_shows": 25,
+  "shows_with_video": 25,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-04T13:54:44.510555"
+}
