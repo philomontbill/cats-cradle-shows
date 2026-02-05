@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "25th Anniversary of musicforthemorningafter Pete Yorn solo acoustic",
-      "date": "Wed, Feb 04",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-A_907171758452848.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/51504560/25th-anniversary-of-musicforthemorningafter-pete-yorn-solo-acoustic-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "S4SX1v0GPDE"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "High June",
       "date": "Thu, Feb 12",
       "doors": "7 pm",
@@ -27,7 +16,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/74190216/high-june-wthe-band-fudge-pilot-light-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "uL7FFe_F3ls",
-      "opener_youtube_id": "Wf0QbqHASe8"
+      "opener_youtube_id": "Ne5512NS_0Q"
     },
     {
       "venue": "Lincoln Theatre",
@@ -49,7 +38,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-ZOSO_906441757439704.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/85824735/zoso-the-ultimate-led-zeppelin-experience-wsun-moon-stars-black-sabbath-tribute-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "oZxIB10EoDY",
+      "youtube_id": "zXWIPdCeUEc",
       "opener_youtube_id": "CR2_C8hEGGU"
     },
     {
@@ -62,7 +51,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-ZOSO_906441757439704.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/87518026/zoso-the-ultimate-led-zeppelin-experience-wthe-whom-who-tribute-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "oZxIB10EoDY",
+      "youtube_id": "zXWIPdCeUEc",
       "opener_youtube_id": "PNbBDrceCy8"
     },
     {
@@ -104,10 +93,12 @@
       "date": "Fri, Feb 20",
       "doors": "7 pm",
       "showtime": "8 pm",
+      "opener": "w/ Mellow Swells",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Stop_912991763649780.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/92071367/stop-light-observations-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "j-eZMdB1wOA"
+      "youtube_id": "j-eZMdB1wOA",
+      "opener_youtube_id": "U48wJqFfWBM"
     },
     {
       "venue": "Lincoln Theatre",
@@ -119,8 +110,8 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/08/etix-Jupiter_905161756139901.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/55760640/jupiter-coyote-wbarefoot-manner-old-habits-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "uaFdhQ03SOk",
-      "opener_youtube_id": "-zbnzGSE14Y"
+      "youtube_id": "FHm6wk54VVE",
+      "opener_youtube_id": "8POm1lPNbvQ"
     },
     {
       "venue": "Lincoln Theatre",
@@ -168,7 +159,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/driver-lexx.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/41086736/driver-lexx-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "0lxA1FXOiv0"
+      "youtube_id": "Kak_LYG_0dU"
     },
     {
       "venue": "Lincoln Theatre",
@@ -180,7 +171,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook.jpg",
       "ticket_url": "https://www.etix.com/ticket/p/70025932/shakedown-citi-raleigh-kings-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "BkvIoU3aNaI",
+      "youtube_id": "forxTCebpPI",
       "opener_youtube_id": "YlXtrnh-Ejo"
     },
     {
@@ -217,7 +208,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/rare-of-breed-the-restoration-tour-w-just-nate-musik-dj-winn.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/85995412/rare-of-breedthe-restoration-tour-wjust-nate-musik-dj-winn-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "n6pLp_CvXrg",
+      "youtube_id": "_u9P1R_C7FY",
       "opener_youtube_id": "UPuQ9HDpjUk"
     },
     {
@@ -231,7 +222,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/68612864/fireside-collective-wof-good-nature-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "9sDZrahivvA",
-      "opener_youtube_id": "PR_O_Impm9U"
+      "opener_youtube_id": "AKCXDrS8iTI"
     },
     {
       "venue": "Lincoln Theatre",
@@ -275,7 +266,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/cosmic-charlie.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/82238288/cosmic-charlie-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "LfChgN8TRKo"
+      "youtube_id": "TOT4y53YvfQ"
     },
     {
       "venue": "Lincoln Theatre",
@@ -285,7 +276,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Earlybirds_912721763379419.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/79791808/earlybirds-club-raleigh-lincoln-theatre?partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "jiEPsMnC2Co"
+      "youtube_id": "Oc0qXk0vkFE"
     },
     {
       "venue": "Lincoln Theatre",
@@ -296,11 +287,21 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/496252936_10230293512944654_5390847582645427644_n.jpg",
       "ticket_url": "https://www.etix.com/ticket/p/41012569/lincoln-theatre-presentsbj-barham-solo-raleigh-the-rialto-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "oviYjUnXq60"
+      "youtube_id": "59zwHufZHkY"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Daniel Donato’s Cosmic Country 3 Show Package",
+      "date": "Fri, Mar 27",
+      "showtime": "8:30 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
+      "ticket_url": "https://www.etix.com/ticket/k/29210852/daniel-donatos-cosmic-country-3-show-package-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "dq078h7qcPY"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-04T14:01:32.868861"
+  "last_updated": "2026-02-05T05:22:44.979576"
 }

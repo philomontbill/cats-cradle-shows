@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Matt Pryor",
-      "date": "Wed, Feb 04",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "With Love, Small Uncle",
-      "notice": null,
-      "doors": "6:30 pm",
-      "showtime": "7:30 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Matt_1958991760444474.jpg",
-      "event_url": "https://catscradle.com/event/matt-pryor/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "X81ktusEj0w",
-      "opener_youtube_id": "f8qWbowzwZU"
-    },
-    {
       "artist": "Bad Bad Hats",
       "date": "Thu, Feb 05",
       "venue": "Cat's Cradle Back Room",
@@ -42,7 +29,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Fancy_2082941765328474.jpg",
       "event_url": "https://catscradle.com/event/fancy-gap-lua-flora/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "H1CFH422jkg",
-      "opener_youtube_id": "x4hz0qxZ_Nw"
+      "opener_youtube_id": "eejoD4OyiGc"
     },
     {
       "artist": "Tobacco Road",
@@ -62,7 +49,7 @@
       "date": "Sat, Feb 07",
       "venue": "Cat's Cradle",
       "opener": "Anna Graves",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Jonah_1943051759406472.jpg",
@@ -118,7 +105,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Langhorne_2035331763032271.jpg",
       "event_url": "https://catscradle.com/event/langhorne-slim-the-dreamin-kind-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "X-kpzd4g0xk",
+      "youtube_id": "Kj81imHRzAU",
       "opener_youtube_id": "xCNTILYP3Ds"
     },
     {
@@ -131,7 +118,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "_43q7bJyuNI"
+      "youtube_id": "npgl1ESUn_o"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -280,7 +267,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "PcqWYLat8mc",
+      "youtube_id": "b-TANl-GBT8",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -306,7 +293,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "cztRs0pgHeQ",
+      "youtube_id": "yEUrcsny2XA",
       "opener_youtube_id": "vRQcIQyZoPE"
     },
     {
@@ -321,10 +308,23 @@
       "event_url": "https://catscradle.com/event/nuovo-testamento/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "B54XuMrcFpg",
       "opener_youtube_id": "OTTW_QD2Si0"
+    },
+    {
+      "artist": "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom",
+      "date": "Wed, Feb 25",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Six More Miles with North State Grass",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
+      "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "SVlu8Bjv1H0",
+      "opener_youtube_id": "3Q6Ua3sctYc"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-04T05:13:30.684116"
+  "last_updated": "2026-02-05T05:20:56.619124"
 }

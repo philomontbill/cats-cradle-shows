@@ -29,7 +29,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648518293447",
       "ticket_url": "https://www.etix.com/ticket/p/34686712/shakey-graves-austin-resound-presents",
       "youtube_id": "23TBwklpKc8",
-      "opener_youtube_id": "4AwRIEHCBL0"
+      "opener_youtube_id": "Hw8htWQnATo"
     },
     {
       "artist": "Shakey Graves After party",
@@ -54,7 +54,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648516077439",
       "ticket_url": "https://www.etix.com/ticket/p/55571185/soul-exchange-austin-mohawk-austintxindoor",
-      "youtube_id": "-lEnHi8G_pU",
+      "youtube_id": "Qf-M3EwUuWw",
       "opener_youtube_id": "wJoU6Vbf-_o"
     },
     {
@@ -67,8 +67,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648510519300",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510521159",
-      "youtube_id": "cCYHHQvzclQ",
-      "opener_youtube_id": "89Cg5LiXCw8"
+      "youtube_id": "G9dVHFk41GY",
+      "opener_youtube_id": "QORqJDxXx0w"
     },
     {
       "artist": "Ladies First",
@@ -93,7 +93,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648512771711",
       "ticket_url": "https://www.etix.com/ticket/p/50267554/annabelle-chairlegs-album-release-austin-mohawk-outdoor",
-      "youtube_id": "HVvjIrJprwQ",
+      "youtube_id": "mEZVrTJ7IsU",
       "opener_youtube_id": "4fLexTr8g7M"
     },
     {
@@ -107,7 +107,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "n2fst5q-WIc"
+      "opener_youtube_id": "4KHPyJ2EhyM"
     },
     {
       "artist": "Come and Shave It",
@@ -158,7 +158,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "vHpaFGWGMTY",
+      "youtube_id": "NRiOvSqn8aw",
       "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
@@ -177,13 +177,14 @@
       "artist": "SZN4",
       "date": "Sat, Feb 28",
       "venue": "Mohawk Outdoor",
-      "opener": null,
+      "opener": "Grace Womack",
       "notice": null,
       "doors": "7:00pm",
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "nPupdje9Nug"
+      "youtube_id": "87l-84irDlo",
+      "opener_youtube_id": "BEildxKZrMs"
     },
     {
       "artist": "RIP MTV",
@@ -196,7 +197,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "Jprla2NvHY0"
+      "opener_youtube_id": "9EKi2E9dVY8"
     },
     {
       "artist": "The Summer Set",
@@ -221,7 +222,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "slOVLJ6vwlg",
+      "youtube_id": "FEd3foWG2Hk",
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
@@ -285,7 +286,7 @@
       "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648504504749",
       "ticket_url": "https://www.etix.com/ticket/p/91863435/heated-rivalry-night-austin-resound-presents",
-      "youtube_id": "F0NLi6vNv8o"
+      "youtube_id": "9lk6eI9Rk3s"
     },
     {
       "artist": "The California Honeydrops",
@@ -328,5 +329,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-04T05:14:12.915985"
+  "last_updated": "2026-02-05T05:24:07.759154"
 }

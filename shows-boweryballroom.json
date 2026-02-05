@@ -6,33 +6,8 @@
   },
   "shows": [
     {
-      "artist": "The Veldt",
-      "date": "Wed, Feb 03",
-      "venue": "Bowery Ballroom",
-      "opener": "Blak Emoji, Bird Streets",
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/ac6/e8184fc9-de09-4f03-8464-37fb3fb1fac6_1861311_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-veldt/",
-      "youtube_id": "Pfw6KIFeGSc",
-      "opener_youtube_id": "PQRzhUzTsBs"
-    },
-    {
-      "artist": "Jonah Kagen: Sunflowers & Leather Tour",
-      "date": "Wed, Feb 03",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/d47/c5105064-2c6a-422b-9125-fd06c1e6bd47_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/jonah-kagen-sunflowers-leather-tour-2/",
-      "youtube_id": "GmUf-fEL4Ic"
-    },
-    {
       "artist": "Kashus Culpepper",
-      "date": "Wed, Feb 04",
+      "date": "Thu, Feb 04",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -44,7 +19,7 @@
     },
     {
       "artist": "Jonah Kagen: Sunflowers & Leather Tour",
-      "date": "Wed, Feb 04",
+      "date": "Thu, Feb 04",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -64,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/c0d/1d96c923-764f-4be4-9758-7f15f5bd1c0d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kashus-culpepper/",
-      "youtube_id": "LbfN18u5MaY"
+      "youtube_id": "xA7-Qsprjps"
     },
     {
       "artist": "SPRINTS",
@@ -148,7 +123,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/3ed/93f2bede-a6a2-4571-bba8-b4652f5ef3ed_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/final-call/",
-      "youtube_id": "3X2w8CMC3D0"
+      "youtube_id": "OtglfWpHptE"
     },
     {
       "artist": "Cate",
@@ -172,7 +147,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/795/89d0a154-6728-4dc5-8191-0757cbc91795_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/orchestre-moto/",
-      "youtube_id": "PbCsGC4qdsg"
+      "youtube_id": "d_Q-o5g_gUE"
     },
     {
       "artist": "Hana Eid",
@@ -232,7 +207,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/3c9/8abe853e-94d4-4619-9fea-6cba9d4743c9_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kylekelly/",
-      "youtube_id": "gzEBmehs2xQ"
+      "youtube_id": "OXWtKYFshZI"
     },
     {
       "artist": "Rubio",
@@ -256,7 +231,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/Feb-12th-Show-Flyer-1-1-scaled.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/john-roberts/",
-      "youtube_id": "yjhSh49oCt8"
+      "youtube_id": "B45DKcI2vyc"
     },
     {
       "artist": "Highvyn",
@@ -305,10 +280,35 @@
       "image": "https://s1.ticketm.net/dam/e/97c/4ee55817-b41b-4b31-9deb-6de83007497c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-black-heart-procession/",
       "youtube_id": "feIpGKZxbvU"
+    },
+    {
+      "artist": "Lee Fields",
+      "date": "Sat, Feb 14",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/10/Lee-Fields_Valentines-Day57.jpeg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/lee-fields/",
+      "youtube_id": "7LuwyvAl1rU"
+    },
+    {
+      "artist": "THE RED PARTY: LOVE WILL TEAR US APART",
+      "date": "Sat, Feb 14",
+      "venue": "Bowery Ballroom",
+      "opener": "your DJs Sean Templar &amp; Jarek PLUS VERY SPECIAL GUEST DJS Mistress McCutchan &amp; Sean Detra Spinning Coldwave, Goth &amp; Heartbreak all Night! Doors 10pm - 4am $15 All Night Mercury Lounge 217 East Houston, NYC",
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/699/f6ac9d75-f0cf-4473-9f0f-222780459699_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-love-will-tear-us-apart/",
+      "youtube_id": "674KGKRQBPE",
+      "opener_youtube_id": "HgpIJyJ5WXA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-04T05:16:31.207178"
+  "last_updated": "2026-02-05T05:26:30.213145"
 }

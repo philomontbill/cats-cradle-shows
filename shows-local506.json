@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Koffin Kats",
-      "date": "Wed, Feb 04",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "w/ Playboy Manbaby",
-      "image": "https://local506.com/wp-content/uploads/2025/11/koffinkats_506_square.jpg",
-      "ticket_url": "https://local506.com/event/koffin-kats/local-506/",
-      "notice": null,
-      "youtube_id": "PTV_p4jKx8Q",
-      "opener_youtube_id": "OF1MKXUzbOQ"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Melodramatic",
       "date": "Thu, Feb 05",
       "doors": "7 pm",
@@ -29,7 +16,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/55555182/melodramatic-with-kill-the-buddha-and-alexa-jenson-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "tKj8rgi8TeI",
-      "opener_youtube_id": "__9HB_zsGvU"
+      "opener_youtube_id": "b4d6vw6mFEQ"
     },
     {
       "venue": "Local 506",
@@ -55,7 +42,7 @@
       "ticket_url": "https://local506.com/event/outta-pocket-and-invoke-with-eyez-wide-shut-deprave-and-skin-you-alive/",
       "notice": null,
       "youtube_id": "LFdxiiyoB3w",
-      "opener_youtube_id": "3PQ0Ae9_05A"
+      "opener_youtube_id": "oJADFP8Xe58"
     },
     {
       "venue": "Local 506",
@@ -79,7 +66,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/two-of-cups-fest-a-night-of-duos-featuring-weird-god-ex-iguana-vulture-twin-moon-womb-pornbred-and-kardashevix.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/66843678/two-of-cups-festa-night-of-duos-featuring-weird-godex-iguanavulture-twinmoon-wombpornbredand-kardashevix-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "z2sZNhkJc4U"
+      "youtube_id": "Y9ttJSDvKsg"
     },
     {
       "venue": "Local 506",
@@ -96,6 +83,19 @@
     },
     {
       "venue": "Local 506",
+      "artist": "Persistent Itch and Nathan Arizona & The New Mexicans",
+      "date": "Fri, Feb 20",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Bruteus",
+      "image": "https://local506.com/wp-content/uploads/2026/02/persistent-itch-and-nathan-arizona-the-new-mexicans-with-bruteus.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/49531944/persistent-itch-and-nathan-arizona-the-new-mexicans-with-bruteus-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": "c3Zg5cYag_c",
+      "opener_youtube_id": "G7pa-KLBfbc"
+    },
+    {
+      "venue": "Local 506",
       "artist": "Brian Lawton and Rob Dimauro’s Birthday Bash",
       "date": "Sat, Feb 21",
       "doors": "7 pm",
@@ -104,7 +104,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/brian-lawton-and-rob-dimauros-birthday-bash-with-lets-sabbath-and-one-after-919.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/38773237/brian-lawton-and-rob-dimauros-birthday-bash-with-lets-sabbath-and-one-after-919-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "2A56uokVXcM",
+      "youtube_id": "8ysYkkpO72A",
       "opener_youtube_id": "mfTpjrzas5E"
     },
     {
@@ -117,7 +117,7 @@
       "image": "https://local506.com/wp-content/uploads/2025/10/siamese_506.jpg",
       "ticket_url": "https://local506.com/event/siamese-us-headline-tour-2026/local-506/",
       "notice": null,
-      "youtube_id": "pdNsCgM0EDI",
+      "youtube_id": "rVpDs67Y7i8",
       "opener_youtube_id": "6p03KD5IBrI"
     },
     {
@@ -144,7 +144,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/89298582/early-exit-with-foundit-and-colormekrazy-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "rnrL2bbTSUI",
-      "opener_youtube_id": "ozFL45UuS-U"
+      "opener_youtube_id": "T-idIxR1M2I"
     },
     {
       "venue": "Local 506",
@@ -217,7 +217,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/snide-and-knub-with-snowblinder-and-dead-halos.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "xH7cSSKnkL4",
+      "youtube_id": "_DyW7jWaO-0",
       "opener_youtube_id": "XxDNqnkow4A"
     },
     {
@@ -270,7 +270,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/41195371/the-everymen-with-julian-calendar-and-sonic-blooms-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "N7F8Yc18bps",
-      "opener_youtube_id": "2Sql9X4H0VY"
+      "opener_youtube_id": "cJFS8Xma6D0"
     },
     {
       "venue": "Local 506",
@@ -313,20 +313,20 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Red October",
-      "date": "Thu, Apr 02",
+      "artist": "Treasure Pains and Null",
+      "date": "Wed, Apr 01",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Hemlock Theory and Under The Catacombs of Paris",
-      "image": "https://local506.com/wp-content/uploads/2026/02/red-october-with-hemlock-theory-and-under-the-catacombs-of-paris.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/98021367/red-october-with-hemlock-theory-and-under-the-catacombs-of-paris-chapel-hill-local-506?partner_id=100",
+      "opener": "Dug and Snide",
+      "image": "https://local506.com/wp-content/uploads/2026/02/treasure-pains-and-null-with-dug-and-snide.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/36604784/treasure-pains-and-null-with-dug-and-snide-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "X52ki7PctKA",
-      "opener_youtube_id": "Sc4I8pi0KQQ"
+      "youtube_id": "hm1I7mP5XSY",
+      "opener_youtube_id": "E3ru5vfyqZU"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-04T14:04:34.116762"
+  "last_updated": "2026-02-05T05:21:39.841745"
 }
