@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Emma Jane / bedrumor / Airport Baby",
-      "date": "Thu, Feb 05",
-      "doors": "6:30 pm",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Emma_1298211767047181.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/61062872/emma-jane-bedrumor-airport-baby-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "0rQfSAoC6Cs"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "C. Shreve The Professor / OC from NC / Tab-One / SkyBlew / Frank the Fre$h / Katie Blvd",
       "date": "Fri, Feb 06",
       "doors": "8:30 pm",
@@ -40,6 +29,17 @@
     },
     {
       "venue": "The Pinhook",
+      "artist": "Michael Jackson Tribute Night",
+      "date": "Sat, Feb 07",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/michael-jackson-tribute-night.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/86127240/michael-jackson-tribute-night-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "qeVrRxqMeuw"
+    },
+    {
+      "venue": "The Pinhook",
       "artist": "Alcantara / General Purpose / Lazaris Pit",
       "date": "Sun, Feb 08",
       "doors": "7:30 pm",
@@ -58,7 +58,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2021/09/The-Pinhook-Default-Event-Image.png",
       "ticket_url": "https://www.etix.com/ticket/p/86100029/mean-habit-hex-files-salt-man-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "M-hot7SSU-4"
+      "youtube_id": "Wh3_i34_eP4"
     },
     {
       "venue": "The Pinhook",
@@ -124,7 +124,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297421765321563.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/85806052/queer-country-nightall-yall-led-line-dancing-some-karaoke-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "2Xw5ZtzMlSs"
+      "youtube_id": "7iefUjgC2BM"
     },
     {
       "venue": "The Pinhook",
@@ -157,7 +157,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299001768496162.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/62502978/the-hour-glass-kids-sugar-snap-peas-emmerson-bruno-and-the-undercurrents-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "C92YJIcWJnc"
+      "youtube_id": "fkiDSbICaHc"
     },
     {
       "venue": "The Pinhook",
@@ -179,7 +179,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/house-of-blk.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/53392917/house-of-blk-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "D57lqYjCnyU"
+      "youtube_id": "znlFu_lemsU"
     },
     {
       "venue": "The Pinhook",
@@ -190,7 +190,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/g-clefs-graduation-celebration-film-screening.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/47299895/gclefs-graduation-celebration-film-screening-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "nYBZqZb7jQ0"
+      "youtube_id": "Ay_bx-QdaRY"
     },
     {
       "venue": "The Pinhook",
@@ -201,7 +201,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298701768337162.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/90224535/makaya-mccraven-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "w3giWDYxPTI"
+      "youtube_id": "wGcksKb4UDg"
     },
     {
       "venue": "The Pinhook",
@@ -212,7 +212,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298741768337165.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/64111957/makaya-mccraven-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "w3giWDYxPTI"
+      "youtube_id": "wGcksKb4UDg"
     },
     {
       "venue": "The Pinhook",
@@ -223,7 +223,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/hex-files-little-chair-future-fix-woke-county-speedway.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/42127270/hex-files-little-chair-future-fix-woke-county-speedway-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "RvrPB5rFndA"
+      "youtube_id": "l47M2nMN2SQ"
     },
     {
       "venue": "The Pinhook",
@@ -278,11 +278,11 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297331765320978.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "q3esGD6lcMM"
+      "youtube_id": "Ik-FBC1uYQo"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-05T05:22:09.814559"
+  "last_updated": "2026-02-06T05:20:36.386933"
 }

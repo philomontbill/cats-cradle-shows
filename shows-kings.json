@@ -7,16 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Thu, Feb 5",
-      "artist": "Glitterer",
-      "opener": "Graham Hunt, Prize Horse",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/glitterer",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/10/glitterer-1-150x150.jpeg",
+      "date": "Fri, Feb 6",
+      "artist": "[LATE!] Roadtrip to Raleigh Official Friday Night Afterparty",
+      "opener": "John Howie Jr. & The Rosewood Bluff",
+      "showtime": "11:45pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/late-roadtrip-to-raleigh-official-friday-night-afterparty",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_8603-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "L7NgGVz4pHE",
-      "opener_youtube_id": "DcMiK_FLW7Y"
+      "youtube_id": "ryCa7GLPoWQ",
+      "opener_youtube_id": "QuxI0QcPenc"
     },
     {
       "venue": "Kings",
@@ -30,19 +30,6 @@
       "doors": null,
       "youtube_id": "g7ZLjHhsYZY",
       "opener_youtube_id": "16c_tqlu894"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Feb 6",
-      "artist": "[LATE!] Roadtrip to Raleigh Official Friday Night Afterparty",
-      "opener": "John Howie Jr. & The Rosewood Bluff",
-      "showtime": "11:45pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/late-roadtrip-to-raleigh-official-friday-night-afterparty",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_8603-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "ryCa7GLPoWQ",
-      "opener_youtube_id": "QuxI0QcPenc"
     },
     {
       "venue": "Kings",
@@ -80,7 +67,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/10/kayodot-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "86rKrABDRXk",
+      "youtube_id": "LDewElTXwDs",
       "opener_youtube_id": "Peq2h2V6LNY"
     },
     {
@@ -154,7 +141,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "FhUJpnxF7EY",
+      "youtube_id": "XqtIN02Hacg",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -202,7 +189,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "c13x8mo-fRE",
+      "youtube_id": "UZHaXw2_DLc",
       "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
@@ -216,7 +203,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "XNOJnGb-3V4",
-      "opener_youtube_id": "tJVpBMILMIc"
+      "opener_youtube_id": "y0Z0-yYXmZY"
     },
     {
       "venue": "Kings",
@@ -253,7 +240,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "SJNVNb2sCJg"
+      "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
       "venue": "Kings",
@@ -290,7 +277,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "odDoy3XcHZs"
+      "youtube_id": "TLUvO8vwoAM"
     },
     {
       "venue": "Kings",
@@ -315,10 +302,23 @@
       "doors": null,
       "youtube_id": "Ch1lNNwwa90",
       "opener_youtube_id": "x5830sQZWNg"
+    },
+    {
+      "venue": "Kings",
+      "date": "Wed, Mar 18",
+      "artist": "Kxllswxtch",
+      "opener": "Warlord Colossus, Druidess",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/kxllswxtch",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/ks-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "csZTPVCLHyk",
+      "opener_youtube_id": "I8EpCcQbO18"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-05T05:23:25.946541"
+  "last_updated": "2026-02-06T05:21:52.081550"
 }

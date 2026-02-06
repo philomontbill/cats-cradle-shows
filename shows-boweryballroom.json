@@ -7,31 +7,7 @@
   "shows": [
     {
       "artist": "Kashus Culpepper",
-      "date": "Thu, Feb 04",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/c0d/1d96c923-764f-4be4-9758-7f15f5bd1c0d_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/kashus-culpepper-2/",
-      "youtube_id": "xA7-Qsprjps"
-    },
-    {
-      "artist": "Jonah Kagen: Sunflowers & Leather Tour",
-      "date": "Thu, Feb 04",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/b44/1577ab25-74d1-449d-b5dd-b99e853c7b44_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/jonah-kagen-sunflowers-leather-tour/",
-      "youtube_id": "GmUf-fEL4Ic"
-    },
-    {
-      "artist": "Kashus Culpepper",
-      "date": "Thu, Feb 05",
+      "date": "Fri, Feb 05",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -43,7 +19,7 @@
     },
     {
       "artist": "SPRINTS",
-      "date": "Thu, Feb 05",
+      "date": "Fri, Feb 05",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -55,7 +31,7 @@
     },
     {
       "artist": "Cooper Moore, Nudey, Molly Sierra",
-      "date": "Thu, Feb 05",
+      "date": "Fri, Feb 05",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -63,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/2e6/903bd0a1-84c7-4c40-88f9-9a54176b72e6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cooper-moore-nudey-molly-sierra/",
-      "youtube_id": "iOCg3MhYiLQ"
+      "youtube_id": "kxctTcxztX4"
     },
     {
       "artist": "Carter Faith",
@@ -207,7 +183,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/3c9/8abe853e-94d4-4619-9fea-6cba9d4743c9_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kylekelly/",
-      "youtube_id": "OXWtKYFshZI"
+      "youtube_id": "O9OvM3HnATo"
     },
     {
       "artist": "Rubio",
@@ -267,7 +243,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b8d/0a2e9a1a-e659-4d9b-abf8-c49818e66b8d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cashtarr/",
-      "youtube_id": "VXfZ74JCFQg"
+      "youtube_id": "lUHbWqKHuB4"
     },
     {
       "artist": "The Black Heart Procession",
@@ -304,11 +280,35 @@
       "image": "https://s1.ticketm.net/dam/e/699/f6ac9d75-f0cf-4473-9f0f-222780459699_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-love-will-tear-us-apart/",
       "youtube_id": "674KGKRQBPE",
-      "opener_youtube_id": "HgpIJyJ5WXA"
+      "opener_youtube_id": "EmdhRtVPsBE"
+    },
+    {
+      "artist": "Azure",
+      "date": "Sun, Feb 15",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "5pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/b51/92214f63-19ed-450e-b317-addf1fbdfb51_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/azure/",
+      "youtube_id": "ZVbXHQ47YB0"
+    },
+    {
+      "artist": "Nightmare of You",
+      "date": "Sun, Feb 15",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/nightmare-of-you/",
+      "youtube_id": "SvnJtDax9A4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-05T05:26:30.213145"
+  "last_updated": "2026-02-06T05:25:17.451726"
 }

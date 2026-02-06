@@ -29,7 +29,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648518293447",
       "ticket_url": "https://www.etix.com/ticket/p/34686712/shakey-graves-austin-resound-presents",
       "youtube_id": "23TBwklpKc8",
-      "opener_youtube_id": "Hw8htWQnATo"
+      "opener_youtube_id": "DbOtfn9-SxQ"
     },
     {
       "artist": "Shakey Graves After party",
@@ -42,7 +42,7 @@
       "image": "http://www.prekindle.com/images/placeholder.png",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648500533071",
       "youtube_id": "rmo5u9OjafE",
-      "opener_youtube_id": "XpzjreCXh6I"
+      "opener_youtube_id": "Xq8S5RFAp5s"
     },
     {
       "artist": "Soul Exchange",
@@ -54,7 +54,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648516077439",
       "ticket_url": "https://www.etix.com/ticket/p/55571185/soul-exchange-austin-mohawk-austintxindoor",
-      "youtube_id": "Qf-M3EwUuWw",
+      "youtube_id": "-lEnHi8G_pU",
       "opener_youtube_id": "wJoU6Vbf-_o"
     },
     {
@@ -67,7 +67,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648510519300",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510521159",
-      "youtube_id": "G9dVHFk41GY",
+      "youtube_id": "gzbQuXeE8nU",
       "opener_youtube_id": "QORqJDxXx0w"
     },
     {
@@ -93,7 +93,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648512771711",
       "ticket_url": "https://www.etix.com/ticket/p/50267554/annabelle-chairlegs-album-release-austin-mohawk-outdoor",
-      "youtube_id": "mEZVrTJ7IsU",
+      "youtube_id": "HVvjIrJprwQ",
       "opener_youtube_id": "4fLexTr8g7M"
     },
     {
@@ -165,13 +165,14 @@
       "artist": "Cory Branan",
       "date": "Fri, Feb 27",
       "venue": "Mohawk Indoor",
-      "opener": null,
+      "opener": "Fugitive Visions",
       "notice": null,
       "doors": "7:00pm",
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
-      "youtube_id": "4EGi-dPtt9U"
+      "youtube_id": "4EGi-dPtt9U",
+      "opener_youtube_id": "LXLoL7h5PKc"
     },
     {
       "artist": "SZN4",
@@ -183,7 +184,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "87l-84irDlo",
+      "youtube_id": "nPupdje9Nug",
       "opener_youtube_id": "BEildxKZrMs"
     },
     {
@@ -209,7 +210,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648624143649",
       "ticket_url": "https://www.etix.com/ticket/p/39723046/the-summer-set-austin-resound-presents",
-      "youtube_id": "8UgIX_uL-zM",
+      "youtube_id": "H2OxN8sZuok",
       "opener_youtube_id": "960AM_-TTZs"
     },
     {
@@ -254,7 +255,7 @@
       "artist": "Nothing",
       "date": "Wed, Mar 11",
       "venue": "Mohawk Outdoor",
-      "opener": "Full Body 2, Cryogeyser, Vmo A.k.a.. Violent Magic Orchestra",
+      "opener": "Full Body 2, Touch Girl Apple Blossom, Cryogeyser, Vmo A.k.a.. Violent Magic Orchestra, dottie",
       "notice": null,
       "doors": "6:00pm",
       "showtime": "6:30pm",
@@ -286,7 +287,7 @@
       "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648504504749",
       "ticket_url": "https://www.etix.com/ticket/p/91863435/heated-rivalry-night-austin-resound-presents",
-      "youtube_id": "9lk6eI9Rk3s"
+      "youtube_id": "46qw3T9lz3Y"
     },
     {
       "artist": "The California Honeydrops",
@@ -310,7 +311,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "9Gj_nIZynv8"
+      "youtube_id": "-E4HZt8u5QI"
     },
     {
       "artist": "Ratboys",
@@ -322,12 +323,12 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648707943645",
       "ticket_url": "https://www.etix.com/ticket/p/87764085/ratboys-austin-mohawk-outdoor",
-      "youtube_id": "lX5adLHQobY",
+      "youtube_id": "KYUMoL9FrIA",
       "opener_youtube_id": "TIKFfi9qD98"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-05T05:24:07.759154"
+  "last_updated": "2026-02-06T05:22:33.926615"
 }

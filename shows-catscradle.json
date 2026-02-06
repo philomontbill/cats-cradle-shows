@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Bad Bad Hats",
-      "date": "Thu, Feb 05",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Smut",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Bad_2014781762185987.jpg",
-      "event_url": "https://catscradle.com/event/bad-bad-hats-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "ZOUC6m82xEc",
-      "opener_youtube_id": "GzDiPl6hCuw"
-    },
-    {
-      "artist": "Fancy Gap, Lua Flora",
-      "date": "Thu, Feb 05",
-      "venue": "Cat's Cradle",
-      "opener": "Davie Circle",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Fancy_2082941765328474.jpg",
-      "event_url": "https://catscradle.com/event/fancy-gap-lua-flora/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "H1CFH422jkg",
-      "opener_youtube_id": "eejoD4OyiGc"
-    },
-    {
       "artist": "Tobacco Road",
       "date": "Fri, Feb 06",
       "venue": "Cat's Cradle Back Room",
@@ -41,8 +15,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tobacco_2079781765109354.jpg",
       "event_url": "https://catscradle.com/event/tobacco-road/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "af0rV6dli_o",
-      "opener_youtube_id": "Wf0QbqHASe8"
+      "youtube_id": "rEDEBSAR3Ng",
+      "opener_youtube_id": "V0zVo1zmBZI"
     },
     {
       "artist": "Jonah Kagen",
@@ -105,7 +79,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Langhorne_2035331763032271.jpg",
       "event_url": "https://catscradle.com/event/langhorne-slim-the-dreamin-kind-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Kj81imHRzAU",
+      "youtube_id": "1kDX6JVNVCE",
       "opener_youtube_id": "xCNTILYP3Ds"
     },
     {
@@ -118,7 +92,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "npgl1ESUn_o"
+      "youtube_id": "Jcwcy_Djlr4"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -267,7 +241,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "b-TANl-GBT8",
+      "youtube_id": "PcqWYLat8mc",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -320,11 +294,36 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "SVlu8Bjv1H0",
-      "opener_youtube_id": "3Q6Ua3sctYc"
+      "opener_youtube_id": "0FXmm8xVtNE"
+    },
+    {
+      "artist": "STS9",
+      "date": "Thu, Feb 26",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
+      "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "Pbmh8AyOgko"
+    },
+    {
+      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
+      "date": "Thu, Feb 26",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Maggie Halfman",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
+      "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "kziZgJFvgiA",
+      "opener_youtube_id": "CmPhbm1JUfI"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-05T05:20:56.619124"
+  "last_updated": "2026-02-06T05:19:23.015957"
 }
