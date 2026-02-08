@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Jonah Kagen",
-      "date": "Sat, Feb 07",
-      "venue": "Cat's Cradle",
-      "opener": "Anna Graves",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Jonah_1943051759406472.jpg",
-      "event_url": "https://catscradle.com/event/jonah-kagen/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "LkAvm9-2jGQ",
-      "opener_youtube_id": "EegN-0yLWiQ"
-    },
-    {
-      "artist": "No Cocker: Mad Dogs & Englishmen Tribute",
-      "date": "Sat, Feb 07",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Jimmy Ray Swagger & The Fussy Eaters",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-No_2146421767777611.jpg",
-      "event_url": "https://catscradle.com/event/no-cocker-mad-dogs-englishmen-tribute/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "oyeQnGUomHM",
-      "opener_youtube_id": "DPX02JtzJlU"
-    },
-    {
       "artist": "Mega Colossus",
       "date": "Sun, Feb 08",
       "venue": "Cat's Cradle Back Room",
@@ -66,7 +40,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Langhorne_2035331763032271.jpg",
       "event_url": "https://catscradle.com/event/langhorne-slim-the-dreamin-kind-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Kj81imHRzAU",
+      "youtube_id": "X-kpzd4g0xk",
       "opener_youtube_id": "xCNTILYP3Ds"
     },
     {
@@ -103,7 +77,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Margo_1953051759669648.jpg",
       "event_url": "https://catscradle.com/event/margo-price-wild-at-heart-tour/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "uyhzsMWC4sw",
+      "youtube_id": "b8dviCHB3kY",
       "opener_youtube_id": "3iZgcBTCqx8"
     },
     {
@@ -204,7 +178,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "yzp661UY9cg"
+      "opener_youtube_id": "PaHydRtYAiU"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -255,7 +229,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
-      "opener_youtube_id": "Tgnit_V7me8"
+      "opener_youtube_id": "vRQcIQyZoPE"
     },
     {
       "artist": "Nuovo Testamento",
@@ -305,12 +279,51 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
       "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Yy0OjaMJPh4",
+      "youtube_id": "kziZgJFvgiA",
       "opener_youtube_id": "CmPhbm1JUfI"
+    },
+    {
+      "artist": "Paul McDonald & the Mourning Doves",
+      "date": "Fri, Feb 27",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "West King Street",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
+      "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "yEijSFL3h7o",
+      "opener_youtube_id": "9hIW-wLddIo"
+    },
+    {
+      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
+      "date": "Sat, Feb 28",
+      "venue": "Cat's Cradle",
+      "opener": "special guest Bobcat Goldthwait",
+      "notice": "Sold Out",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
+      "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "VwJc4vgSqlU",
+      "opener_youtube_id": "X6UIC9S5K0s"
+    },
+    {
+      "artist": "Nep",
+      "date": "Sat, Feb 28",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "briZB",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nep_2027011762682847.jpg",
+      "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "KRIIc-tqDAE",
+      "opener_youtube_id": "1Qn8mLzvqMw"
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 22,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-07T05:09:25.583051"
+  "total_shows": 25,
+  "shows_with_video": 23,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-08T05:27:07.137339"
 }

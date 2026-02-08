@@ -6,44 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Carter Faith",
-      "date": "Sat, Feb 06",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/cfd/2af92abf-a018-4a9e-9303-520e8066bcfd_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/carter-faith/",
-      "youtube_id": "FTGq4amVO4k"
-    },
-    {
-      "artist": "ESDEEKID REBEL TOUR REINFORCED BY RICO ACE",
-      "date": "Sat, Feb 06",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/4d8/bdd6aab8-131d-4e93-bd65-0b607d7614d8_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/esdeekid-rebel-tour-reinforced-by-rico-ace/",
-      "youtube_id": "lxS4N4o9O1Q"
-    },
-    {
-      "artist": "SosMula",
-      "date": "Sat, Feb 06",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/e45/635d7a14-b3bb-4b3c-84b1-734df2071e45_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/sosmula/",
-      "youtube_id": "w14TxfyzYB0"
-    },
-    {
       "artist": "Mat Kerekes\\' Luna & the Wild Blue Everything 10-Year Anniversary Tour",
-      "date": "Sat, Feb 07",
+      "date": "Sun, Feb 07",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -55,7 +19,7 @@
     },
     {
       "artist": "Final Call",
-      "date": "Sat, Feb 07",
+      "date": "Sun, Feb 07",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -171,7 +135,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/Feb-12th-Show-Flyer-1-1-scaled.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/john-roberts/",
-      "youtube_id": "yjhSh49oCt8"
+      "youtube_id": "B45DKcI2vyc"
     },
     {
       "artist": "Highvyn",
@@ -195,7 +159,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/f8d/26ebcbfa-aa82-4a59-a93f-8cf36da52f8d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/agriculture-the-spiritual-sound-tour/",
-      "youtube_id": "hXB4kmwaCD0"
+      "youtube_id": "D8t6SoKQrz0"
     },
     {
       "artist": "Cash$tarr",
@@ -207,7 +171,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/Cashtarr-NYC-Poster-V4-scaled.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cashtarr/",
-      "youtube_id": "wif76NmqSHs"
+      "youtube_id": "VXfZ74JCFQg"
     },
     {
       "artist": "The Black Heart Procession",
@@ -231,7 +195,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/10/Lee-Fields_Valentines-Day57.jpeg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/lee-fields/",
-      "youtube_id": "0izlYypNyu0"
+      "youtube_id": "7LuwyvAl1rU"
     },
     {
       "artist": "THE RED PARTY: LOVE WILL TEAR US APART",
@@ -268,7 +232,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/nightmare-of-you/",
-      "youtube_id": "VGUxGhH-Zxc"
+      "youtube_id": "SvnJtDax9A4"
     },
     {
       "artist": "Kanii",
@@ -280,7 +244,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/c34/7e6282ec-ade5-4acf-ab8b-0a4663085c34_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kanii/",
-      "youtube_id": "IConY8MK8ZM"
+      "youtube_id": "RV0JXtRUIvE"
     },
     {
       "artist": "Alex Sampson",
@@ -305,10 +269,46 @@
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/11/local_dates_example.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/wheel/",
       "youtube_id": "jwJsQCetgDU"
+    },
+    {
+      "artist": "Noah Rinker",
+      "date": "Wed, Feb 18",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/noah-rinker/",
+      "youtube_id": "z4s4VyzG3Fc"
+    },
+    {
+      "artist": "Trueblood",
+      "date": "Wed, Feb 18",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/d18/5ce999cc-1de4-445e-af32-464c247b1d18_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/trueblood/",
+      "youtube_id": "lKV8Qm-XFIw"
+    },
+    {
+      "artist": "Blessing Offor",
+      "date": "Thu, Feb 19",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/8dc/1b171936-a1b5-44f5-b795-48bf49ee38dc_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/blessing-offor/",
+      "youtube_id": "I6lp1Oxb9L4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-07T05:14:57.109232"
+  "last_updated": "2026-02-08T05:35:03.374504"
 }
