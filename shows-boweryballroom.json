@@ -6,32 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Mat Kerekes\\' Luna & the Wild Blue Everything 10-Year Anniversary Tour",
-      "date": "Sun, Feb 07",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/777/27023115-2771-4abb-890f-9bdb507c2777_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/mat-kerekes-luna-the-wild-blue-everything-10-year-anniversary-tour/",
-      "youtube_id": "zVzac32kx3M"
-    },
-    {
-      "artist": "Final Call",
-      "date": "Sun, Feb 07",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/3ed/93f2bede-a6a2-4571-bba8-b4652f5ef3ed_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/final-call/",
-      "youtube_id": "OtglfWpHptE"
-    },
-    {
       "artist": "Cate",
-      "date": "Sun, Feb 08",
+      "date": "Mon, Feb 08",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -43,7 +19,7 @@
     },
     {
       "artist": "Orchestre Moto",
-      "date": "Sun, Feb 08",
+      "date": "Mon, Feb 08",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -99,7 +75,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/91b/afec080f-0b6d-4d10-8567-37f1eb21691b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/stella-prince/",
-      "youtube_id": "_G5B2lPf7VM"
+      "youtube_id": "3popwn54B94"
     },
     {
       "artist": "kylekelly",
@@ -159,7 +135,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/f8d/26ebcbfa-aa82-4a59-a93f-8cf36da52f8d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/agriculture-the-spiritual-sound-tour/",
-      "youtube_id": "D8t6SoKQrz0"
+      "youtube_id": "hXB4kmwaCD0"
     },
     {
       "artist": "Cash$tarr",
@@ -220,7 +196,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b51/92214f63-19ed-450e-b317-addf1fbdfb51_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/azure/",
-      "youtube_id": "tk85ht_Eqj4"
+      "youtube_id": "ZVbXHQ47YB0"
     },
     {
       "artist": "Nightmare of You",
@@ -304,11 +280,36 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8dc/1b171936-a1b5-44f5-b795-48bf49ee38dc_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/blessing-offor/",
-      "youtube_id": "I6lp1Oxb9L4"
+      "youtube_id": "jXtArKwakgk"
+    },
+    {
+      "artist": "Fat Trout Trailer Park, Big Band",
+      "date": "Thu, Feb 19",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/a56/477b27c1-94e1-496f-844a-8ce4657aea56_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
+      "youtube_id": "88EzPV3Yw9M"
+    },
+    {
+      "artist": "Letdown.",
+      "date": "Fri, Feb 20",
+      "venue": "Bowery Ballroom",
+      "opener": "Blame My Youth, YOUTHYEAR",
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/ab8/3899520f-0dc8-4c40-8216-571dc78dfab8_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/letdown/",
+      "youtube_id": "PsKg8dEWWco",
+      "opener_youtube_id": "11Q1-E62Cms"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-08T05:35:03.374504"
+  "last_updated": "2026-02-09T05:46:40.739033"
 }

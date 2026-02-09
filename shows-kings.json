@@ -7,27 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Sun, Feb 8",
-      "artist": "Doll Domination: Lana Del Rey",
-      "opener": "Poison",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/doll-domination-lana-del-rey",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/6492BF5E-26A8-4BB6-B1C3-8A248B140AAD-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "NNRcbunVeO0",
-      "opener_youtube_id": "_88L-CU7PD4"
-    },
-    {
-      "venue": "Kings",
       "date": "Tue, Feb 10",
       "artist": "Sub Rosa",
+      "opener": "Ex Iguana, D.M. Rorschach",
       "showtime": "10:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "gQebl9x7HSA"
+      "youtube_id": "gQebl9x7HSA",
+      "opener_youtube_id": "Peq2h2V6LNY"
     },
     {
       "venue": "Kings",
@@ -77,7 +66,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
+      "youtube_id": "QPgqO-GaT7I"
     },
     {
       "venue": "Kings",
@@ -124,7 +113,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "ANTY12VVI6o",
+      "youtube_id": "tGivipiEv6c",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -149,7 +138,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "tY8B0uQpwZs",
-      "opener_youtube_id": "LH_cClbSlSU"
+      "opener_youtube_id": "2gCVIKq6O8E"
     },
     {
       "venue": "Kings",
@@ -160,18 +149,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/psycodelics-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "jIZQHtMhNms"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Feb 27",
-      "artist": "The Crowded Table",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-crowded-table",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Crowdedtable.Rileykathleenimages.2024-00809-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "ZPfI8zBWub4"
+      "youtube_id": "FL9bejY0chA"
     },
     {
       "venue": "Kings",
@@ -184,7 +162,18 @@
       "notice": null,
       "doors": null,
       "youtube_id": "UZHaXw2_DLc",
-      "opener_youtube_id": "84vvHdNMmxQ"
+      "opener_youtube_id": "WbUCKpEEpug"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Feb 27",
+      "artist": "The Crowded Table",
+      "showtime": "7:30pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-crowded-table",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Crowdedtable.Rileykathleenimages.2024-00809-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "ZPfI8zBWub4"
     },
     {
       "venue": "Kings",
@@ -234,7 +223,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "SJNVNb2sCJg"
+      "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
       "venue": "Kings",
@@ -271,7 +260,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "cc_iUrME_24"
+      "youtube_id": "TLUvO8vwoAM"
     },
     {
       "venue": "Kings",
@@ -282,7 +271,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/jmsn-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "60rLYaz9Q1w"
+      "youtube_id": "LKKrnjfH3nQ"
     },
     {
       "venue": "Kings",
@@ -309,10 +298,23 @@
       "doors": null,
       "youtube_id": "csZTPVCLHyk",
       "opener_youtube_id": "I8EpCcQbO18"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Mar 20",
+      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "opener": "Magenta Wave",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/e8876efc-fbc1-4812-b6b2-7eb9febc9b68-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "G2j7v6JgWHw",
+      "opener_youtube_id": "RoDRQZZFWV4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-08T05:29:34.043265"
+  "last_updated": "2026-02-09T05:43:49.042606"
 }

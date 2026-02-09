@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Mega Colossus",
-      "date": "Sun, Feb 08",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": "Rescheduled from January 31",
-      "doors": "8 pm",
-      "showtime": "9 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/mega-colossus-mortal-man-archaos.jpg",
-      "event_url": "https://catscradle.com/event/mega-colossus-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "zRS5ziGuESw"
-    },
-    {
       "artist": "Electric Guest",
       "date": "Tue, Feb 10",
       "venue": "Cat's Cradle",
@@ -27,7 +15,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Electric_1931681757336822.jpg",
       "event_url": "https://catscradle.com/event/electric-guest/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "1H7NKHrV4_w",
+      "youtube_id": "5rmZPJA3Py0",
       "opener_youtube_id": "L5-1FfDBYaM"
     },
     {
@@ -53,7 +41,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "FoUXXnUSe5k"
+      "youtube_id": "Jcwcy_Djlr4"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -77,8 +65,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Margo_1953051759669648.jpg",
       "event_url": "https://catscradle.com/event/margo-price-wild-at-heart-tour/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "b8dviCHB3kY",
-      "opener_youtube_id": "3iZgcBTCqx8"
+      "youtube_id": "uyhzsMWC4sw",
+      "opener_youtube_id": "_FjCpS-Swu0"
     },
     {
       "artist": "The Connells",
@@ -178,7 +166,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "PaHydRtYAiU"
+      "opener_youtube_id": "yzp661UY9cg"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -202,7 +190,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "PcqWYLat8mc",
+      "youtube_id": "-Pn2oKSo14I",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -255,7 +243,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "SVlu8Bjv1H0",
-      "opener_youtube_id": "oPLQjPSVd1U"
+      "opener_youtube_id": "0FXmm8xVtNE"
     },
     {
       "artist": "STS9",
@@ -292,7 +280,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "yEijSFL3h7o",
+      "youtube_id": "FFoFm61748I",
       "opener_youtube_id": "9hIW-wLddIo"
     },
     {
@@ -320,10 +308,23 @@
       "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "KRIIc-tqDAE",
       "opener_youtube_id": "1Qn8mLzvqMw"
+    },
+    {
+      "artist": "Al Olender",
+      "date": "Tue, Mar 03",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Abigail Dempsey",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Al_2103601765879871.jpg",
+      "event_url": "https://catscradle.com/event/al-olender/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "q7Dn8hKTGOM",
+      "opener_youtube_id": "XyUeYV1LDPw"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-08T05:27:07.137339"
+  "last_updated": "2026-02-09T05:41:25.277088"
 }

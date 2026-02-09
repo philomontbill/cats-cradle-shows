@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Shakey Graves",
-      "date": "Sat, Feb 07",
-      "venue": "Mohawk Outdoor",
-      "opener": "Good Looks, Tele Novella",
-      "notice": "Sold Out",
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648518293447",
-      "ticket_url": "https://www.etix.com/ticket/p/34686712/shakey-graves-austin-resound-presents",
-      "youtube_id": "23TBwklpKc8",
-      "opener_youtube_id": "4AwRIEHCBL0"
-    },
-    {
-      "artist": "Shakey Graves After party",
-      "date": "Sat, Feb 07",
-      "venue": "Mohawk Indoor",
-      "opener": "Dj Baby Jake, Dj Hair of the Dog",
-      "notice": null,
-      "doors": "",
-      "showtime": "",
-      "image": "http://www.prekindle.com/images/placeholder.png",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648500533071",
-      "youtube_id": "rmo5u9OjafE",
-      "opener_youtube_id": "nEm30v0eoEE"
-    },
-    {
       "artist": "Soul Exchange",
       "date": "Sun, Feb 08",
       "venue": "Mohawk Indoor",
@@ -41,8 +15,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648516077439",
       "ticket_url": "https://www.etix.com/ticket/p/55571185/soul-exchange-austin-mohawk-austintxindoor",
-      "youtube_id": "-lEnHi8G_pU",
-      "opener_youtube_id": "2fXiAATbamw"
+      "youtube_id": "Qf-M3EwUuWw",
+      "opener_youtube_id": "wJoU6Vbf-_o"
     },
     {
       "artist": "HBO QUIZZO: Galentine's Edition",
@@ -54,7 +28,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648510519300",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510521159",
-      "youtube_id": "ruAZQp6YGpE",
+      "youtube_id": "cCYHHQvzclQ",
       "opener_youtube_id": "QORqJDxXx0w"
     },
     {
@@ -68,7 +42,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505294152",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648505345773",
       "youtube_id": "8Qimg_q7LbQ",
-      "opener_youtube_id": "Pe5IzkBHIDg"
+      "opener_youtube_id": "A__BJN9sXbA"
     },
     {
       "artist": "Annabelle Chairlegs Album Release",
@@ -80,7 +54,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648512771711",
       "ticket_url": "https://www.etix.com/ticket/p/50267554/annabelle-chairlegs-album-release-austin-mohawk-outdoor",
-      "youtube_id": "HVvjIrJprwQ",
+      "youtube_id": "mEZVrTJ7IsU",
       "opener_youtube_id": "4fLexTr8g7M"
     },
     {
@@ -94,7 +68,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "4KHPyJ2EhyM"
+      "opener_youtube_id": "n2fst5q-WIc"
     },
     {
       "artist": "Come and Shave It",
@@ -171,7 +145,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "nPupdje9Nug",
+      "youtube_id": "87l-84irDlo",
       "opener_youtube_id": "BEildxKZrMs"
     },
     {
@@ -185,7 +159,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "Jprla2NvHY0"
+      "opener_youtube_id": "9EKi2E9dVY8"
     },
     {
       "artist": "The Summer Set",
@@ -210,21 +184,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "slOVLJ6vwlg",
-      "opener_youtube_id": "wiAD_9A60Ys"
-    },
-    {
-      "artist": "Clover County",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Indoor",
-      "opener": "Ethansroom",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
-      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
-      "youtube_id": "VXPeyzCI1HE",
-      "opener_youtube_id": "DMbAjG_pK28"
+      "youtube_id": "FEd3foWG2Hk",
+      "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
       "artist": "Yellow Days",
@@ -237,6 +198,19 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
       "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
       "youtube_id": "fB59rvDjKNA"
+    },
+    {
+      "artist": "Clover County",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Indoor",
+      "opener": "Ethansroom",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
+      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
+      "youtube_id": "tNr4SrwNcmc",
+      "opener_youtube_id": "DMbAjG_pK28"
     },
     {
       "artist": "Nothing",
@@ -325,10 +299,36 @@
       "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
       "youtube_id": "SGPr0ASYOf4",
       "opener_youtube_id": "xAnNUkkNUFY"
+    },
+    {
+      "artist": "Model/Actriz",
+      "date": "Fri, Apr 03",
+      "venue": "Mohawk Outdoor",
+      "opener": "Touching Ice",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593580159",
+      "ticket_url": "https://www.etix.com/ticket/p/90006677/modelactriz-austin-resound-presents",
+      "youtube_id": "37ptdYkJ1d0",
+      "opener_youtube_id": "Mqpb-LBM0PA"
+    },
+    {
+      "artist": "Drug Church, White Reaper",
+      "date": "Sat, Apr 04",
+      "venue": "Mohawk Outdoor",
+      "opener": "Death Lens",
+      "notice": null,
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
+      "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
+      "youtube_id": "BB-jGY5B5yw",
+      "opener_youtube_id": "ohTEyCgvIM0"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-08T05:30:14.374812"
+  "last_updated": "2026-02-09T05:44:29.395782"
 }
