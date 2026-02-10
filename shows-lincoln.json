@@ -9,14 +9,14 @@
       "venue": "Lincoln Theatre",
       "artist": "High June",
       "date": "Thu, Feb 12",
-      "doors": "7 pm",
-      "showtime": "8 pm",
+      "doors": "6:30 pm",
+      "showtime": "7:30 pm",
       "opener": "The Band Fudge & Pilot Light",
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/high-june-w-the-band-fudge-pilot-light.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/74190216/high-june-wthe-band-fudge-pilot-light-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "uL7FFe_F3ls",
-      "opener_youtube_id": "z-LacaR40jg"
+      "opener_youtube_id": "Wf0QbqHASe8"
     },
     {
       "venue": "Lincoln Theatre",
@@ -26,7 +26,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-ZOSO_906441757439704.jfif",
       "ticket_url": "https://www.etix.com/ticket/k/16376588/zoso-the-ultimate-led-zeppelin-experience-2-day-ticket-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "zXWIPdCeUEc"
+      "youtube_id": "j_28gcm64Ok"
     },
     {
       "venue": "Lincoln Theatre",
@@ -52,7 +52,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/87518026/zoso-the-ultimate-led-zeppelin-experience-wthe-whom-who-tribute-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "oZxIB10EoDY",
-      "opener_youtube_id": "PNbBDrceCy8"
+      "opener_youtube_id": "_HDMCCLlGl4"
     },
     {
       "venue": "Lincoln Theatre",
@@ -85,7 +85,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2022/03/Lincoln-Theatre-Default-Event-Image.jpg",
       "ticket_url": "https://www.etix.com/ticket/p/80110912/monaleowho-did-the-body-tour-raleigh-lincoln-theatre?partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "8ao96fv7y8I"
+      "youtube_id": "NVpeXAQPEW8"
     },
     {
       "venue": "Lincoln Theatre",
@@ -110,7 +110,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/08/etix-Jupiter_905161756139901.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/55760640/jupiter-coyote-wbarefoot-manner-old-habits-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "XKNijVN8tr8",
+      "youtube_id": "uaFdhQ03SOk",
       "opener_youtube_id": "-zbnzGSE14Y"
     },
     {
@@ -148,7 +148,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Lotus_911121762164247.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/69832647/lotus-rise-of-the-anglerfish-tour-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "-FzlIEJCIZU"
+      "youtube_id": "nImZ7q9g24k"
     },
     {
       "venue": "Lincoln Theatre",
@@ -196,7 +196,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/nc-songwriters-show-feat-jon-wood-steph-maguire-tan-sanders-drew-johnson-sophie-taylor-roy-stewart-brent-underwood-adam-fisher.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/99064014/nc-songwriters-show-featjon-woodsteph-maguiretan-sandersdrew-johnsonsophie-taylorroy-stewartbrent-underwoodadam-fisher-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "4xQ-KKnQ3tw"
+      "youtube_id": "misBm1sPWCI"
     },
     {
       "venue": "Lincoln Theatre",
@@ -266,7 +266,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/cosmic-charlie.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/82238288/cosmic-charlie-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "TOT4y53YvfQ"
+      "youtube_id": "LfChgN8TRKo"
     },
     {
       "venue": "Lincoln Theatre",
@@ -276,7 +276,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Earlybirds_912721763379419.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/79791808/earlybirds-club-raleigh-lincoln-theatre?partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "OSKzTFYm-es"
+      "youtube_id": "Oc0qXk0vkFE"
     },
     {
       "venue": "Lincoln Theatre",
@@ -297,11 +297,11 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
       "ticket_url": "https://www.etix.com/ticket/k/29210852/daniel-donatos-cosmic-country-3-show-package-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "K4nFody8Dm8"
+      "youtube_id": "l741rwH_ZFs"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-09T05:43:11.603931"
+  "last_updated": "2026-02-10T05:43:23.144645"
 }

@@ -6,32 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Cate",
-      "date": "Mon, Feb 08",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "5pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/51e/87c97614-4255-421c-83d3-4ff5e614451e_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/cate/",
-      "youtube_id": "jP1jDykzcrk"
-    },
-    {
-      "artist": "Orchestre Moto",
-      "date": "Mon, Feb 08",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/795/89d0a154-6728-4dc5-8191-0757cbc91795_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/orchestre-moto/",
-      "youtube_id": "d_Q-o5g_gUE"
-    },
-    {
       "artist": "Hana Eid",
-      "date": "Mon, Feb 09",
+      "date": "Tue, Feb 09",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -87,7 +63,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/3c9/8abe853e-94d4-4619-9fea-6cba9d4743c9_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kylekelly/",
-      "youtube_id": "nUmH6FBgGEg"
+      "youtube_id": "O9OvM3HnATo"
     },
     {
       "artist": "Rubio",
@@ -159,7 +135,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/97c/4ee55817-b41b-4b31-9deb-6de83007497c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-black-heart-procession/",
-      "youtube_id": "feIpGKZxbvU"
+      "youtube_id": "fB1OV3CgjTs"
     },
     {
       "artist": "Lee Fields",
@@ -184,7 +160,7 @@
       "image": "https://s1.ticketm.net/dam/e/699/f6ac9d75-f0cf-4473-9f0f-222780459699_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-love-will-tear-us-apart/",
       "youtube_id": "674KGKRQBPE",
-      "opener_youtube_id": "EmdhRtVPsBE"
+      "opener_youtube_id": "gml6qF5I4DI"
     },
     {
       "artist": "Azure",
@@ -220,7 +196,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/c34/7e6282ec-ade5-4acf-ab8b-0a4663085c34_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kanii/",
-      "youtube_id": "RV0JXtRUIvE"
+      "youtube_id": "IConY8MK8ZM"
     },
     {
       "artist": "Alex Sampson",
@@ -306,10 +282,34 @@
       "ticket_url": "https://mercuryeastpresents.com/tm-event/letdown/",
       "youtube_id": "PsKg8dEWWco",
       "opener_youtube_id": "11Q1-E62Cms"
+    },
+    {
+      "artist": "Tyler Braden",
+      "date": "Fri, Feb 20",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/7a6/882223fb-d631-4343-86c6-73c2d629a7a6_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-braden/",
+      "youtube_id": "hMfWn4XuG5E"
+    },
+    {
+      "artist": "Louden Swain",
+      "date": "Fri, Feb 20",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/5c4/9bb5fe1c-9a60-4990-8863-34fae7d025c4_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/louden-swain/",
+      "youtube_id": "BNz94GcYMho"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-09T05:46:40.739033"
+  "last_updated": "2026-02-10T05:46:31.638213"
 }

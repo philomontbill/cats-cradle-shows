@@ -28,7 +28,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/10/kayodot-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "LDewElTXwDs",
+      "youtube_id": "86rKrABDRXk",
       "opener_youtube_id": "Peq2h2V6LNY"
     },
     {
@@ -60,17 +60,6 @@
     {
       "venue": "Kings",
       "date": "Tue, Feb 17",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "QPgqO-GaT7I"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Feb 17",
       "artist": "[Early show!] Sword II",
       "opener": "fantasy of a broken heart",
       "showtime": "7:30pm",
@@ -80,6 +69,17 @@
       "doors": null,
       "youtube_id": "k951VEgUsfY",
       "opener_youtube_id": "NVTidu1H7KM"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Feb 17",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -113,7 +113,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "tGivipiEv6c",
+      "youtube_id": "O66Huo4ldfY",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -137,8 +137,8 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "tY8B0uQpwZs",
-      "opener_youtube_id": "2gCVIKq6O8E"
+      "youtube_id": "GxX0cmbP4n4",
+      "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
       "venue": "Kings",
@@ -161,8 +161,8 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "UZHaXw2_DLc",
-      "opener_youtube_id": "WbUCKpEEpug"
+      "youtube_id": "mb8ClskEGQY",
+      "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
       "venue": "Kings",
@@ -186,7 +186,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "XNOJnGb-3V4",
-      "opener_youtube_id": "i47n-P2Y_Bc"
+      "opener_youtube_id": "jxZpk0XEpWQ"
     },
     {
       "venue": "Kings",
@@ -203,6 +203,19 @@
     },
     {
       "venue": "Kings",
+      "date": "Fri, Mar 6",
+      "artist": "The Bleeding Hearts",
+      "opener": "Dallas Tetnus, The Sonic Blooms",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-bleeding-hearts",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/tbh-blocks-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "GrKi-eR9kdQ",
+      "opener_youtube_id": "qcBKyAujWFM"
+    },
+    {
+      "venue": "Kings",
       "date": "Sat, Mar 7",
       "artist": "Shakedown Citi",
       "showtime": "8:30pm",
@@ -210,7 +223,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "forxTCebpPI"
+      "youtube_id": "OLsJVVJtqVA"
     },
     {
       "venue": "Kings",
@@ -223,7 +236,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "f1EVoVOSK5k"
+      "opener_youtube_id": "e9oBjVk3irI"
     },
     {
       "venue": "Kings",
@@ -260,7 +273,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "TLUvO8vwoAM"
+      "youtube_id": "odDoy3XcHZs"
     },
     {
       "venue": "Kings",
@@ -298,23 +311,10 @@
       "doors": null,
       "youtube_id": "csZTPVCLHyk",
       "opener_youtube_id": "I8EpCcQbO18"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Mar 20",
-      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
-      "opener": "Magenta Wave",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/e8876efc-fbc1-4812-b6b2-7eb9febc9b68-150x150.jpg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "G2j7v6JgWHw",
-      "opener_youtube_id": "RoDRQZZFWV4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-09T05:43:49.042606"
+  "last_updated": "2026-02-10T05:44:00.733670"
 }
