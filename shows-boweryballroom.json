@@ -6,20 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Hana Eid",
-      "date": "Tue, Feb 09",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/80c/e178a7df-323d-42a7-a04e-1f717c63f80c_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/hana-eid/",
-      "youtube_id": "2gyeO1Ev778"
-    },
-    {
       "artist": "Paloma Lopez",
-      "date": "Tue, Feb 10",
+      "date": "Wed, Feb 10",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,11 +15,11 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/processed-86E8A64D-CF75-4FD7-893E-DC0A9E299631.jpeg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/paloma-lopez/",
-      "youtube_id": "T2tCXQkVitk"
+      "youtube_id": "DKe6ItDCSh0"
     },
     {
-      "artist": "Skye Newman",
-      "date": "Tue, Feb 10",
+      "artist": "*LOW TICKETS* Skye Newman",
+      "date": "Wed, Feb 10",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -39,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/de7/5a10e4aa-7618-4ea9-93c5-7df91b6b3de7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/skye-newman/",
-      "youtube_id": "dCbk0idfI-4"
+      "youtube_id": "BjS4hgZe0pg"
     },
     {
       "artist": "Stella Prince",
@@ -135,7 +123,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/97c/4ee55817-b41b-4b31-9deb-6de83007497c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-black-heart-procession/",
-      "youtube_id": "fB1OV3CgjTs"
+      "youtube_id": "feIpGKZxbvU"
     },
     {
       "artist": "Lee Fields",
@@ -160,7 +148,7 @@
       "image": "https://s1.ticketm.net/dam/e/699/f6ac9d75-f0cf-4473-9f0f-222780459699_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-love-will-tear-us-apart/",
       "youtube_id": "674KGKRQBPE",
-      "opener_youtube_id": "gml6qF5I4DI"
+      "opener_youtube_id": "EmdhRtVPsBE"
     },
     {
       "artist": "Azure",
@@ -184,7 +172,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/nightmare-of-you/",
-      "youtube_id": "SvnJtDax9A4"
+      "youtube_id": "VGUxGhH-Zxc"
     },
     {
       "artist": "Kanii",
@@ -256,7 +244,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8dc/1b171936-a1b5-44f5-b795-48bf49ee38dc_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/blessing-offor/",
-      "youtube_id": "jXtArKwakgk"
+      "youtube_id": "I6lp1Oxb9L4"
     },
     {
       "artist": "Fat Trout Trailer Park, Big Band",
@@ -266,9 +254,9 @@
       "notice": null,
       "doors": "9pm",
       "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/a56/477b27c1-94e1-496f-844a-8ce4657aea56_TABLET_LANDSCAPE_16_9.jpg",
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/FTTP-ML-show-2_26-1-scaled.jpeg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
-      "youtube_id": "88EzPV3Yw9M"
+      "youtube_id": "o5FPfJFC_5s"
     },
     {
       "artist": "Letdown.",
@@ -306,10 +294,22 @@
       "image": "https://s1.ticketm.net/dam/a/5c4/9bb5fe1c-9a60-4990-8863-34fae7d025c4_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/louden-swain/",
       "youtube_id": "BNz94GcYMho"
+    },
+    {
+      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket)  - Celestun Tour",
+      "date": "Sat, Feb 21",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
+      "youtube_id": "kziZgJFvgiA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-10T05:46:31.638213"
+  "last_updated": "2026-02-11T05:46:40.171323"
 }

@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Feb 10",
-      "artist": "Sub Rosa",
-      "opener": "Ex Iguana, D.M. Rorschach",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "gQebl9x7HSA",
-      "opener_youtube_id": "Peq2h2V6LNY"
-    },
-    {
-      "venue": "Kings",
       "date": "Wed, Feb 11",
       "artist": "Kayo Dot",
       "opener": "Ex Iguana, D.M. Rorschach",
@@ -60,6 +47,17 @@
     {
       "venue": "Kings",
       "date": "Tue, Feb 17",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Feb 17",
       "artist": "[Early show!] Sword II",
       "opener": "fantasy of a broken heart",
       "showtime": "7:30pm",
@@ -72,25 +70,16 @@
     },
     {
       "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
       "date": "Thu, Feb 19",
       "artist": "Valgur – ‘Fantasy Tour’",
+      "opener": "Tiger Knives",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/valgur-fantasy-tour",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/valgur-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "5g-mUswtNJQ"
+      "youtube_id": "5g-mUswtNJQ",
+      "opener_youtube_id": "Tn2SLUKuPYQ"
     },
     {
       "venue": "Kings",
@@ -113,7 +102,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "O66Huo4ldfY",
+      "youtube_id": "tGivipiEv6c",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -137,7 +126,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "GxX0cmbP4n4",
+      "youtube_id": "nvKBevHza4c",
       "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
@@ -154,19 +143,6 @@
     {
       "venue": "Kings",
       "date": "Fri, Feb 27",
-      "artist": "SINIESTRE Latin Goth Prom: Tesoro’s Eternal Youth Edition",
-      "opener": "hosts Tesoro, Kali Fuchis, & Saga Wolf",
-      "showtime": "10:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/siniestre-latin-goth-prom-tesoros-eternal-youth-edition",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "mb8ClskEGQY",
-      "opener_youtube_id": "84vvHdNMmxQ"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Feb 27",
       "artist": "The Crowded Table",
       "showtime": "7:30pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-crowded-table",
@@ -174,6 +150,19 @@
       "notice": null,
       "doors": null,
       "youtube_id": "ZPfI8zBWub4"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Feb 27",
+      "artist": "SINIESTRE Latin Goth Prom: Tesoro’s Eternal Youth Edition",
+      "opener": "hosts Tesoro, Kali Fuchis, & Saga Wolf",
+      "showtime": "10:30pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/siniestre-latin-goth-prom-tesoros-eternal-youth-edition",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "UZHaXw2_DLc",
+      "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
       "venue": "Kings",
@@ -211,7 +200,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/tbh-blocks-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "GrKi-eR9kdQ",
+      "youtube_id": "XGufRiMnpGI",
       "opener_youtube_id": "qcBKyAujWFM"
     },
     {
@@ -223,7 +212,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "OLsJVVJtqVA"
+      "youtube_id": "forxTCebpPI"
     },
     {
       "venue": "Kings",
@@ -236,7 +225,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "e9oBjVk3irI"
+      "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
       "venue": "Kings",
@@ -311,10 +300,23 @@
       "doors": null,
       "youtube_id": "csZTPVCLHyk",
       "opener_youtube_id": "I8EpCcQbO18"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Mar 20",
+      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "opener": "Magenta Wave",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/e8876efc-fbc1-4812-b6b2-7eb9febc9b68-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "NbP34ococTs",
+      "opener_youtube_id": "RoDRQZZFWV4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-10T05:44:00.733670"
+  "last_updated": "2026-02-11T05:42:38.335931"
 }

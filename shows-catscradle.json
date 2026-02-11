@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Electric Guest",
-      "date": "Tue, Feb 10",
-      "venue": "Cat's Cradle",
-      "opener": "Snacktime",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Electric_1931681757336822.jpg",
-      "event_url": "https://catscradle.com/event/electric-guest/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "5rmZPJA3Py0",
-      "opener_youtube_id": "L5-1FfDBYaM"
-    },
-    {
       "artist": "Langhorne Slim – The Dreamin’ Kind Tour",
       "date": "Wed, Feb 11",
       "venue": "Cat's Cradle",
@@ -41,7 +28,7 @@
       "showtime": "10 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
       "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Jcwcy_Djlr4"
+      "youtube_id": "FoUXXnUSe5k"
     },
     {
       "artist": "Blue Cactus, Skylar Gudasz",
@@ -190,7 +177,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "lyuAVa71H2U",
+      "youtube_id": "PcqWYLat8mc",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -242,7 +229,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Remymr4R4J0",
+      "youtube_id": "SVlu8Bjv1H0",
       "opener_youtube_id": "0FXmm8xVtNE"
     },
     {
@@ -250,7 +237,7 @@
       "date": "Thu, Feb 26",
       "venue": "Cat's Cradle",
       "opener": null,
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
@@ -321,10 +308,23 @@
       "event_url": "https://catscradle.com/event/al-olender/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "q7Dn8hKTGOM",
       "opener_youtube_id": "XyUeYV1LDPw"
+    },
+    {
+      "artist": "Goldie Boutilier",
+      "date": "Tue, Mar 03",
+      "venue": "Cat's Cradle",
+      "opener": "Syd Taylor",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Goldie_2021131762431071.jpg",
+      "event_url": "https://catscradle.com/event/goldie-boutilier/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "2-weJSyo00s",
+      "opener_youtube_id": "JeZl78PrFAw"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-10T05:41:36.755548"
+  "last_updated": "2026-02-11T05:40:09.791832"
 }
