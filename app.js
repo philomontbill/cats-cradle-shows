@@ -32,6 +32,7 @@ class ShowsApp {
         this.currentVenue = venue;
         this.activePlayer = null;
         await this.loadVenue(venue);
+        document.getElementById('stats').scrollIntoView({ behavior: 'smooth' });
     }
 
     async loadVenue(venue) {
@@ -206,7 +207,8 @@ class ShowsApp {
             'pinhook': 'The Pinhook',
             'lincoln': 'Lincoln Theatre',
             'thesocial': 'The Social',
-            'boweryballroom': 'Bowery Ballroom'
+            'boweryballroom': 'Bowery Ballroom',
+            'elclub': 'El Club'
         };
         const name = venueNames[venue] || venue;
 
