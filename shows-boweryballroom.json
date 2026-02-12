@@ -6,32 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Paloma Lopez",
-      "date": "Wed, Feb 10",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/processed-86E8A64D-CF75-4FD7-893E-DC0A9E299631.jpeg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/paloma-lopez/",
-      "youtube_id": "DKe6ItDCSh0"
-    },
-    {
-      "artist": "*LOW TICKETS* Skye Newman",
-      "date": "Wed, Feb 10",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/de7/5a10e4aa-7618-4ea9-93c5-7df91b6b3de7_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/skye-newman/",
-      "youtube_id": "BjS4hgZe0pg"
-    },
-    {
       "artist": "Stella Prince",
-      "date": "Wed, Feb 11",
+      "date": "Thu, Feb 11",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -43,7 +19,7 @@
     },
     {
       "artist": "kylekelly",
-      "date": "Wed, Feb 11",
+      "date": "Thu, Feb 11",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -75,7 +51,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/Feb-12th-Show-Flyer-1-1-scaled.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/john-roberts/",
-      "youtube_id": "B45DKcI2vyc"
+      "youtube_id": "yjhSh49oCt8"
     },
     {
       "artist": "Highvyn",
@@ -114,18 +90,6 @@
       "youtube_id": "VXfZ74JCFQg"
     },
     {
-      "artist": "The Black Heart Procession",
-      "date": "Sat, Feb 14",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/97c/4ee55817-b41b-4b31-9deb-6de83007497c_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-black-heart-procession/",
-      "youtube_id": "feIpGKZxbvU"
-    },
-    {
       "artist": "Lee Fields",
       "date": "Sat, Feb 14",
       "venue": "Bowery Ballroom",
@@ -135,7 +99,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/10/Lee-Fields_Valentines-Day57.jpeg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/lee-fields/",
-      "youtube_id": "7LuwyvAl1rU"
+      "youtube_id": "0izlYypNyu0"
     },
     {
       "artist": "THE RED PARTY: LOVE WILL TEAR US APART",
@@ -160,7 +124,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b51/92214f63-19ed-450e-b317-addf1fbdfb51_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/azure/",
-      "youtube_id": "ZVbXHQ47YB0"
+      "youtube_id": "tk85ht_Eqj4"
     },
     {
       "artist": "Nightmare of You",
@@ -172,7 +136,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/nightmare-of-you/",
-      "youtube_id": "VGUxGhH-Zxc"
+      "youtube_id": "SvnJtDax9A4"
     },
     {
       "artist": "Kanii",
@@ -184,7 +148,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/c34/7e6282ec-ade5-4acf-ab8b-0a4663085c34_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kanii/",
-      "youtube_id": "IConY8MK8ZM"
+      "youtube_id": "SqiPY1kqs9A"
     },
     {
       "artist": "Alex Sampson",
@@ -256,7 +220,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/FTTP-ML-show-2_26-1-scaled.jpeg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
-      "youtube_id": "o5FPfJFC_5s"
+      "youtube_id": "88EzPV3Yw9M"
     },
     {
       "artist": "Letdown.",
@@ -305,11 +269,48 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
-      "youtube_id": "kziZgJFvgiA"
+      "youtube_id": "Yy0OjaMJPh4"
+    },
+    {
+      "artist": "Kevin Devine: 20 Years of Split The Country.. & Put Your Ghost To Rest",
+      "date": "Sat, Feb 21",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/f84/e7497f5e-c997-4172-a895-18f457dcaf84_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/kevin-devine-20-years-of-split-the-country-put-your-ghost-to-rest/",
+      "youtube_id": "4LoJNYu_qUk"
+    },
+    {
+      "artist": "The Baxbys present NYC Prom",
+      "date": "Sat, Feb 21",
+      "venue": "Bowery Ballroom",
+      "opener": "DJ Sipper",
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/be6/9a911d69-360d-4590-b379-e0b357f4abe6_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-baxbys-present-nyc-prom/",
+      "youtube_id": "s5KKNSTrPzQ",
+      "opener_youtube_id": "vMOMEFlBz-E"
+    },
+    {
+      "artist": "Ahi",
+      "date": "Sun, Feb 22",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/974/087b3ee9-76cb-4886-a894-916a1d50f974_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ahi/",
+      "youtube_id": "Mkca09ZonoE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-11T05:46:40.171323"
+  "last_updated": "2026-02-12T05:36:49.346828"
 }

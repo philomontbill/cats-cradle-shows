@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Langhorne Slim – The Dreamin’ Kind Tour",
-      "date": "Wed, Feb 11",
-      "venue": "Cat's Cradle",
-      "opener": "Laney Jones and the Spirits",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Langhorne_2035331763032271.jpg",
-      "event_url": "https://catscradle.com/event/langhorne-slim-the-dreamin-kind-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "X-kpzd4g0xk",
-      "opener_youtube_id": "xCNTILYP3Ds"
-    },
-    {
       "artist": "Be My Angel: WXYC Valentine’s Dance",
       "date": "Thu, Feb 12",
       "venue": "Cat's Cradle Back Room",
@@ -66,7 +53,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2117351766405937.jpg",
       "event_url": "https://catscradle.com/event/the-connells-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "IGj24KHhMFw",
-      "opener_youtube_id": "rnrL2bbTSUI"
+      "opener_youtube_id": "EMV-y5Y4Mxo"
     },
     {
       "artist": "Amelia Day",
@@ -177,7 +164,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "PcqWYLat8mc",
+      "youtube_id": "3cJF2FmamnI",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -204,7 +191,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
-      "opener_youtube_id": "vRQcIQyZoPE"
+      "opener_youtube_id": "Tgnit_V7me8"
     },
     {
       "artist": "Nuovo Testamento",
@@ -254,7 +241,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
       "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "kziZgJFvgiA",
+      "youtube_id": "Yy0OjaMJPh4",
       "opener_youtube_id": "CmPhbm1JUfI"
     },
     {
@@ -268,7 +255,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "yDM1mU0urwg",
-      "opener_youtube_id": "9hIW-wLddIo"
+      "opener_youtube_id": "cUtK8CgJYk4"
     },
     {
       "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
@@ -280,7 +267,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Tb_OWQ4-Ivg",
+      "youtube_id": "VwJc4vgSqlU",
       "opener_youtube_id": "X6UIC9S5K0s"
     },
     {
@@ -320,11 +307,24 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Goldie_2021131762431071.jpg",
       "event_url": "https://catscradle.com/event/goldie-boutilier/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "2-weJSyo00s",
-      "opener_youtube_id": "JeZl78PrFAw"
+      "opener_youtube_id": "MnXwCdoNnmc"
+    },
+    {
+      "artist": "Coma Cinema",
+      "date": "Wed, Mar 04",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Trace Mountains, honeygaze",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Coma_2045081763505072.jpg",
+      "event_url": "https://catscradle.com/event/coma-cinema/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "HyP3ND7Xm4A",
+      "opener_youtube_id": "WzRufA4b3dg"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-11T05:40:09.791832"
+  "last_updated": "2026-02-12T05:28:37.001376"
 }
