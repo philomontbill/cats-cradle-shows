@@ -220,14 +220,78 @@ body {
     cursor: pointer;
 }
 
+.no-preview-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.no-preview-content {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    max-width: 320px;
+    text-align: center;
+    position: relative;
+}
+
+.no-preview-content p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.no-preview-content strong {
+    color: var(--text);
+}
+
+.no-preview-content a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.no-preview-content a:hover {
+    text-decoration: underline;
+}
+
+.no-preview-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.no-preview-close:hover {
+    color: var(--text);
+}
+
 .play-icon {
     color: var(--accent);
     font-size: 0.9rem;
+    opacity: 1;
+}
+
+.play-icon.no-video {
+    opacity: 0.4;
+}
+
+.opener-name .play-icon {
     opacity: 0;
     transition: opacity 0.2s;
 }
 
-.artist-name.has-video:hover .play-icon,
 .opener-name.has-video:hover .play-icon {
     opacity: 1;
 }

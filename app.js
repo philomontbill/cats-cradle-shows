@@ -83,14 +83,16 @@ class ShowsApp {
         // Add click handlers for headliners
         container.querySelectorAll('.show-header').forEach((header, index) => {
             const show = shows[index];
-            if (show.youtube_id) {
-                header.addEventListener('click', (e) => {
-                    // Don't trigger if clicking on opener or ticket button
-                    if (e.target.classList.contains('opener-name') ||
-                        e.target.classList.contains('ticket-btn')) return;
+            header.addEventListener('click', (e) => {
+                // Don't trigger if clicking on opener or ticket button
+                if (e.target.classList.contains('opener-name') ||
+                    e.target.classList.contains('ticket-btn')) return;
+                if (show.youtube_id) {
                     this.togglePlayer(index, show.youtube_id);
-                });
-            }
+                } else {
+                    this.showNoPreview(show.artist);
+                }
+            });
         });
 
         // Add click handlers for openers
@@ -138,7 +140,7 @@ class ShowsApp {
                     ${imageHtml}
                     <div class="show-info">
                         ${noticeHtml}
-                        <div class="artist-name ${show.youtube_id ? 'has-video' : ''}">${this.escapeHtml(show.artist)}${show.youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</div>
+                        <div class="artist-name has-video">${this.escapeHtml(show.artist)} <span class="play-icon ${show.youtube_id ? '' : 'no-video'}">&#9658;</span></div>
                         ${openerHtml}
                         <div class="show-meta">
                             <span>${this.escapeHtml(show.date)}</span>
@@ -194,6 +196,28 @@ class ShowsApp {
         setTimeout(() => {
             card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }, 100);
+    }
+
+    showNoPreview(artist) {
+        // Remove any existing popup
+        const existing = document.querySelector('.no-preview-popup');
+        if (existing) existing.remove();
+
+        const popup = document.createElement('div');
+        popup.className = 'no-preview-popup';
+        popup.innerHTML = `
+            <div class="no-preview-content">
+                <p>No preview yet for <strong>${this.escapeHtml(artist)}</strong></p>
+                <p>Are you the artist? <a href="mailto:localsoundcheck@gmail.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>
+                <button class="no-preview-close">&times;</button>
+            </div>
+        `;
+        document.body.appendChild(popup);
+
+        popup.querySelector('.no-preview-close').addEventListener('click', () => popup.remove());
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) popup.remove();
+        });
     }
 
     showError(venue) {
