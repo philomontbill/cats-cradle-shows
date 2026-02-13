@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Be My Angel: WXYC Valentine’s Dance",
-      "date": "Thu, Feb 12",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": null,
-      "doors": "9:30 pm",
-      "showtime": "10 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Be_2179741769620604.jpg",
-      "event_url": "https://catscradle.com/event/be-my-angel-wxyc-valentines-dance/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "FoUXXnUSe5k"
-    },
-    {
       "artist": "Blue Cactus, Skylar Gudasz",
       "date": "Fri, Feb 13",
       "venue": "Cat's Cradle Back Room",
@@ -53,7 +41,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2117351766405937.jpg",
       "event_url": "https://catscradle.com/event/the-connells-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "IGj24KHhMFw",
-      "opener_youtube_id": "EMV-y5Y4Mxo"
+      "opener_youtube_id": "rnrL2bbTSUI"
     },
     {
       "artist": "Amelia Day",
@@ -121,7 +109,7 @@
       "date": "Thu, Feb 19",
       "venue": "Cat's Cradle Back Room",
       "opener": "Max Alan",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2031361762876015.jpg",
@@ -140,7 +128,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "yzp661UY9cg"
+      "opener_youtube_id": "VHVfWPPhw_Q"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -164,7 +152,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "3cJF2FmamnI",
+      "youtube_id": "PcqWYLat8mc",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -191,7 +179,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
-      "opener_youtube_id": "Tgnit_V7me8"
+      "opener_youtube_id": "vRQcIQyZoPE"
     },
     {
       "artist": "Nuovo Testamento",
@@ -229,7 +217,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
       "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Pbmh8AyOgko"
+      "youtube_id": "8dRDpd6edJQ"
     },
     {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
@@ -241,8 +229,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
       "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Yy0OjaMJPh4",
-      "opener_youtube_id": "CmPhbm1JUfI"
+      "youtube_id": "kziZgJFvgiA",
+      "opener_youtube_id": "ad6tgcInO6o"
     },
     {
       "artist": "Paul McDonald & the Mourning Doves",
@@ -254,8 +242,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "yDM1mU0urwg",
-      "opener_youtube_id": "cUtK8CgJYk4"
+      "youtube_id": "yEijSFL3h7o",
+      "opener_youtube_id": "9hIW-wLddIo"
     },
     {
       "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
@@ -267,7 +255,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "VwJc4vgSqlU",
+      "youtube_id": "Tb_OWQ4-Ivg",
       "opener_youtube_id": "X6UIC9S5K0s"
     },
     {
@@ -321,10 +309,23 @@
       "event_url": "https://catscradle.com/event/coma-cinema/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "HyP3ND7Xm4A",
       "opener_youtube_id": "WzRufA4b3dg"
+    },
+    {
+      "artist": "Rivalry Night",
+      "date": "Thu, Mar 05",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",
+      "notice": null,
+      "doors": "6:30 pm",
+      "showtime": "7:30 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
+      "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "_WaG4xiKpVM",
+      "opener_youtube_id": "HPi3PpuCyo8"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-12T05:28:37.001376"
+  "last_updated": "2026-02-13T05:25:10.338302"
 }
