@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Fri, Feb 13",
-      "artist": "The Great Cover Up 2026 – Night 5",
-      "opener": "Paul Siler",
-      "showtime": "7:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-night-5",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "4R3MdxLxJCQ",
-      "opener_youtube_id": "QdCX-CDWGJA"
-    },
-    {
-      "venue": "Kings",
       "date": "Sat, Feb 14",
       "artist": "The Great Cover Up 2026 – Night 6 (Valentine’s Day Edition)",
       "opener": "Paul Siler",
@@ -30,17 +17,6 @@
       "doors": null,
       "youtube_id": "4R3MdxLxJCQ",
       "opener_youtube_id": "QdCX-CDWGJA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -57,6 +33,17 @@
     },
     {
       "venue": "Kings",
+      "date": "Tue, Feb 17",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
+    },
+    {
+      "venue": "Kings",
       "date": "Thu, Feb 19",
       "artist": "Valgur – ‘Fantasy Tour’",
       "opener": "Tiger Knives",
@@ -65,7 +52,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/valgur-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "5g-mUswtNJQ",
+      "youtube_id": "EhDKTDCIlDQ",
       "opener_youtube_id": "Tn2SLUKuPYQ"
     },
     {
@@ -176,7 +163,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/tbh-blocks-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "QylmWgVfsNY",
+      "youtube_id": "GrKi-eR9kdQ",
       "opener_youtube_id": "qcBKyAujWFM"
     },
     {
@@ -201,7 +188,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "f1EVoVOSK5k"
+      "opener_youtube_id": "EkV0ir1lFTQ"
     },
     {
       "venue": "Kings",
@@ -238,7 +225,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "cc_iUrME_24"
+      "youtube_id": "JUHZ2eTHxSI"
     },
     {
       "venue": "Kings",
@@ -249,7 +236,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/jmsn-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "LKKrnjfH3nQ"
+      "youtube_id": "60rLYaz9Q1w"
     },
     {
       "venue": "Kings",
@@ -275,7 +262,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "csZTPVCLHyk",
-      "opener_youtube_id": "I8EpCcQbO18"
+      "opener_youtube_id": "2uYANmma4OI"
     },
     {
       "venue": "Kings",
@@ -287,8 +274,8 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/e8876efc-fbc1-4812-b6b2-7eb9febc9b68-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "Qfm2mmA-Rfs",
-      "opener_youtube_id": "RoDRQZZFWV4"
+      "youtube_id": "-eehu8w0mCs",
+      "opener_youtube_id": "35NTpCGAtB0"
     },
     {
       "venue": "Kings",
@@ -300,7 +287,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/621849706_1976353470430044_8126977795064089395_n-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "X2z7nL-6vzQ",
+      "youtube_id": "4wDH7m-t33A",
       "opener_youtube_id": "wO0bgJQuszU"
     },
     {
@@ -313,12 +300,25 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/lalalala-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "AY8Q4emVqEk",
+      "youtube_id": "GvJUGY0EhcA",
       "opener_youtube_id": "JgHMGvq14eA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Apr 2",
+      "artist": "Scarhaven",
+      "opener": "Honeyknife",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/scarhaven",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/scarhaven-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "n2S-3h_Pocw",
+      "opener_youtube_id": "Anx2xrhcEKg"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-13T05:27:12.461132"
+  "last_updated": "2026-02-14T05:15:09.693305"
 }

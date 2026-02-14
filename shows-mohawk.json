@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Ladies First",
-      "date": "Thu, Feb 12",
-      "venue": "Mohawk Indoor",
-      "opener": "Leila Sunier, Sophie Seng, Somebody Someone, Karaoke With Cupcake",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505294152",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648505345773",
-      "youtube_id": "8Qimg_q7LbQ",
-      "opener_youtube_id": "A__BJN9sXbA"
-    },
-    {
       "artist": "Annabelle Chairlegs Album Release",
       "date": "Fri, Feb 13",
       "venue": "Mohawk Outdoor",
@@ -42,7 +29,20 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
       "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
       "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "4KHPyJ2EhyM"
+      "opener_youtube_id": "n2fst5q-WIc"
+    },
+    {
+      "artist": "Mareux Afterparty",
+      "date": "Sat, Feb 14",
+      "venue": "Mohawk Indoor",
+      "opener": "Dj Godishelleyduval, Dj Devil Woman",
+      "notice": null,
+      "doors": "9:00pm",
+      "showtime": "9:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648491951465",
+      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648491952299",
+      "youtube_id": "3B1kFZ3LfLM",
+      "opener_youtube_id": "BqDjMZKf-wg"
     },
     {
       "artist": "Come and Shave It",
@@ -54,7 +54,7 @@
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648506488717",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510642214",
-      "youtube_id": "hhSs1j2KaiU",
+      "youtube_id": "gtFA0Ba6u0E",
       "opener_youtube_id": "j42E15aoH1E"
     },
     {
@@ -94,7 +94,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
       "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "Os8d8eyGhiA"
+      "opener_youtube_id": "SzexmhHlkC8"
     },
     {
       "artist": "Cory Branan",
@@ -106,7 +106,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
-      "youtube_id": "9iWzaARD7NI",
+      "youtube_id": "BbdnDH_JBkQ",
       "opener_youtube_id": "LXLoL7h5PKc"
     },
     {
@@ -159,7 +159,19 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
       "youtube_id": "FEd3foWG2Hk",
-      "opener_youtube_id": "VBSJTfmNnFI"
+      "opener_youtube_id": "wiAD_9A60Ys"
+    },
+    {
+      "artist": "Yellow Days",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Outdoor",
+      "opener": null,
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
+      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
+      "youtube_id": "fB59rvDjKNA"
     },
     {
       "artist": "Clover County",
@@ -175,18 +187,6 @@
       "opener_youtube_id": "DMbAjG_pK28"
     },
     {
-      "artist": "Yellow Days",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Outdoor",
-      "opener": null,
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
-      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
-      "youtube_id": "fB59rvDjKNA"
-    },
-    {
       "artist": "HBO QUIZZO: Heated Rivalry",
       "date": "Mon, Mar 09",
       "venue": "Mohawk Indoor",
@@ -196,8 +196,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": "n6r9lVesmxs",
-      "opener_youtube_id": "QORqJDxXx0w"
+      "youtube_id": "s6MCt7w1a_g",
+      "opener_youtube_id": "fMMxW22xPm8"
     },
     {
       "artist": "Nothing",
@@ -222,7 +222,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": "K3SUPPeuRdU",
+      "youtube_id": "IqkXonvel6o",
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
@@ -247,8 +247,8 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": "_8FmUlp9rm4",
-      "opener_youtube_id": "CDl9ZMfj6aE"
+      "youtube_id": "eyE7o8l_6xI",
+      "opener_youtube_id": "ao--67ac23g"
     },
     {
       "artist": "The California Honeydrops",
@@ -272,7 +272,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "9Gj_nIZynv8"
+      "youtube_id": "-E4HZt8u5QI"
     },
     {
       "artist": "Oof Fighters",
@@ -330,5 +330,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-13T05:27:54.851240"
+  "last_updated": "2026-02-14T05:15:49.505857"
 }

@@ -6,44 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Blue Cactus, Skylar Gudasz",
-      "date": "Fri, Feb 13",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Blue_2110341766052517.jpg",
-      "event_url": "https://catscradle.com/event/blue-cactus-skylar-gudasz/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "FZybf-vXCBM"
-    },
-    {
-      "artist": "Margo Price – Wild",
-      "date": "Fri, Feb 13",
-      "venue": "Haw River Ballroom",
-      "opener": "Sean Thompson's Weird Ears",
-      "notice": "Cat's Cradle Presents",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Margo_1953051759669648.jpg",
-      "event_url": "https://catscradle.com/event/margo-price-wild-at-heart-tour/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "uyhzsMWC4sw",
-      "opener_youtube_id": "_FjCpS-Swu0"
-    },
-    {
-      "artist": "The Connells",
-      "date": "Fri, Feb 13",
-      "venue": "Cat's Cradle",
-      "opener": "Early Exit",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2117351766405937.jpg",
-      "event_url": "https://catscradle.com/event/the-connells-4/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "IGj24KHhMFw",
-      "opener_youtube_id": "rnrL2bbTSUI"
-    },
-    {
       "artist": "Amelia Day",
       "date": "Sat, Feb 14",
       "venue": "Cat's Cradle Back Room",
@@ -128,7 +90,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "VHVfWPPhw_Q"
+      "opener_youtube_id": "gOoa428Cifo"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -152,7 +114,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "PcqWYLat8mc",
+      "youtube_id": "lyuAVa71H2U",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -179,7 +141,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
-      "opener_youtube_id": "vRQcIQyZoPE"
+      "opener_youtube_id": "Tgnit_V7me8"
     },
     {
       "artist": "Nuovo Testamento",
@@ -205,7 +167,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "SVlu8Bjv1H0",
-      "opener_youtube_id": "0FXmm8xVtNE"
+      "opener_youtube_id": "nXckq6QfL7w"
     },
     {
       "artist": "STS9",
@@ -217,7 +179,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
       "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "8dRDpd6edJQ"
+      "youtube_id": "Pbmh8AyOgko"
     },
     {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
@@ -242,8 +204,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "yEijSFL3h7o",
-      "opener_youtube_id": "9hIW-wLddIo"
+      "youtube_id": "yDM1mU0urwg",
+      "opener_youtube_id": "cUtK8CgJYk4"
     },
     {
       "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
@@ -269,7 +231,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nep_2027011762682847.jpg",
       "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "KRIIc-tqDAE",
-      "opener_youtube_id": "1Qn8mLzvqMw"
+      "opener_youtube_id": "2e_3ChbQmxU"
     },
     {
       "artist": "Al Olender",
@@ -322,10 +284,49 @@
       "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "_WaG4xiKpVM",
       "opener_youtube_id": "HPi3PpuCyo8"
+    },
+    {
+      "artist": "Nothing",
+      "date": "Thu, Mar 05",
+      "venue": "Cat's Cradle",
+      "opener": "Full Body 2, Cryogeyser, VMO a.k.a. Violent Magic Orchestra",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nothing_2079611765094891.jpg",
+      "event_url": "https://catscradle.com/event/nothing/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "xSZs27QQr1k",
+      "opener_youtube_id": "xe7rEv5UgRA"
+    },
+    {
+      "artist": "Immortal Technique",
+      "date": "Fri, Mar 06",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Poison Pen, DJ Static",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Immortal_2172071768819653.jpg",
+      "event_url": "https://catscradle.com/event/immortal-technique/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "OqgIKOXykHo",
+      "opener_youtube_id": "toLv5DvCrNE"
+    },
+    {
+      "artist": "The Nude Party",
+      "date": "Fri, Mar 06",
+      "venue": "Cat's Cradle",
+      "opener": "Six Foot Blonde",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_1969181760875663.jpg",
+      "event_url": "https://catscradle.com/event/the-nude-party/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "K-cM0SX0ghw",
+      "opener_youtube_id": "MAVev6WtbzI"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-02-13T05:25:10.338302"
+  "last_updated": "2026-02-14T05:12:42.414627"
 }
