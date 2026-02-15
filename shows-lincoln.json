@@ -7,29 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "ZOSO The Ultimate Led Zeppelin Experience 2 Day Ticket",
-      "date": "Fri, Feb 13",
-      "showtime": "8 pm",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-ZOSO_906441757439704.jfif",
-      "ticket_url": "https://www.etix.com/ticket/k/16376588/zoso-the-ultimate-led-zeppelin-experience-2-day-ticket-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "zXWIPdCeUEc"
-    },
-    {
-      "venue": "Lincoln Theatre",
-      "artist": "ZOSO – The Ultimate Led Zeppelin Experience",
-      "date": "Sat, Feb 14",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "The Whom (Who Tribute)",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-ZOSO_906441757439704.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/87518026/zoso-the-ultimate-led-zeppelin-experience-wthe-whom-who-tribute-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "oZxIB10EoDY",
-      "opener_youtube_id": "_HDMCCLlGl4"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "On The Border (The Ultimate Eagles Tribute)",
       "date": "Sun, Feb 15",
       "doors": "7 pm",
@@ -41,15 +18,15 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Railroad Earth",
+      "artist": "Railroad Earth w/ Jason Carter Band",
       "date": "Wed, Feb 18",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
       "opener": "w/ Jason Carter Band",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-An_911641762690086.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/58928689/railroad-earth-raleigh-lincoln-theatre?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/58928689/railroad-earth-wjason-carter-band-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "VYN1oPe4kR8",
+      "youtube_id": "jigvpZByKi4",
       "opener_youtube_id": "VORicPNmJbM"
     },
     {
@@ -86,8 +63,8 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/08/etix-Jupiter_905161756139901.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/55760640/jupiter-coyote-wbarefoot-manner-old-habits-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "FHm6wk54VVE",
-      "opener_youtube_id": "-zbnzGSE14Y"
+      "youtube_id": "uaFdhQ03SOk",
+      "opener_youtube_id": "3XRWOozgKFc"
     },
     {
       "venue": "Lincoln Theatre",
@@ -148,7 +125,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/70025932/shakedown-citi-raleigh-kings-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "forxTCebpPI",
-      "opener_youtube_id": "YlXtrnh-Ejo"
+      "opener_youtube_id": "sxkjvKBPQjo"
     },
     {
       "venue": "Lincoln Theatre",
@@ -161,7 +138,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/77373961/mo-lowda-the-humble-wdeaf-andrews-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "e-GFjxy8yHo",
-      "opener_youtube_id": "LR4-K7PdAB4"
+      "opener_youtube_id": "IclYceWSZOc"
     },
     {
       "venue": "Lincoln Theatre",
@@ -172,7 +149,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/nc-songwriters-show-feat-jon-wood-steph-maguire-tan-sanders-drew-johnson-sophie-taylor-roy-stewart-brent-underwood-adam-fisher.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/99064014/nc-songwriters-show-featjon-woodsteph-maguiretan-sandersdrew-johnsonsophie-taylorroy-stewartbrent-underwoodadam-fisher-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "yTuAWhfWcZ8"
+      "youtube_id": "oBP0dJ_AwNY"
     },
     {
       "venue": "Lincoln Theatre",
@@ -184,7 +161,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/rare-of-breed-the-restoration-tour-w-just-nate-musik-dj-winn.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/85995412/rare-of-breedthe-restoration-tour-wjust-nate-musik-dj-winn-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "-CeVNAmpLxk",
+      "youtube_id": "_u9P1R_C7FY",
       "opener_youtube_id": "UPuQ9HDpjUk"
     },
     {
@@ -198,7 +175,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/68612864/fireside-collective-wof-good-nature-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "9sDZrahivvA",
-      "opener_youtube_id": "AKCXDrS8iTI"
+      "opener_youtube_id": "PR_O_Impm9U"
     },
     {
       "venue": "Lincoln Theatre",
@@ -242,7 +219,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/cosmic-charlie.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/82238288/cosmic-charlie-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "TOT4y53YvfQ"
+      "youtube_id": "xwK1SCg2jVw"
     },
     {
       "venue": "Lincoln Theatre",
@@ -273,7 +250,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
       "ticket_url": "https://www.etix.com/ticket/k/29210852/daniel-donatos-cosmic-country-3-show-package-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "ruTLZMNQx_w"
+      "youtube_id": "IxI7GsyHyDs"
     },
     {
       "venue": "Lincoln Theatre",
@@ -295,11 +272,35 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/12/etix-Dogs_913781765195474.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/90259257/dogs-in-a-pile-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "UZAheFvSEOk"
+      "youtube_id": "Kda2-0ALwYA"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Old 97’s",
+      "date": "Tue, Apr 07",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/old-97s.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/55972713/old-97s-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "ZC-9kxsNGyc"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Knot Your Kind – A tribute to Slipknot",
+      "date": "Fri, Apr 10",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "w/ Enrage (tribute to Rage Against The Machine)",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2025/10/KYK4-10.jpg",
+      "ticket_url": "https://www.etix.com/ticket/p/98865715/knot-your-kind-a-tribute-to-slipknot-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "IK3hOYR6OaI",
+      "opener_youtube_id": "32vyLhQo4Y8"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-14T05:14:31.446894"
+  "last_updated": "2026-02-15T05:24:54.878812"
 }

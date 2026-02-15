@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Two Of Cups Fest: A Night of Duos featuring Weird God, Ex Iguana, Vulture Twin, Moon Womb, Pornbred, and Kardashevix",
-      "date": "Sat, Feb 14",
-      "doors": "6 pm",
-      "showtime": "7 pm",
-      "image": "https://local506.com/wp-content/uploads/2026/01/two-of-cups-fest-a-night-of-duos-featuring-weird-god-ex-iguana-vulture-twin-moon-womb-pornbred-and-kardashevix.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/66843678/two-of-cups-festa-night-of-duos-featuring-weird-godex-iguanavulture-twinmoon-wombpornbredand-kardashevix-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "Oh4vrw5vA7Q"
-    },
-    {
-      "venue": "Local 506",
       "artist": "ShinN",
       "date": "Sun, Feb 15",
       "doors": "7 pm",
@@ -40,7 +29,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/49531944/persistent-itch-and-nathan-arizona-the-new-mexicans-with-bruteus-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "IUnFeLJWv84",
-      "opener_youtube_id": "ZwSXPfhzJbk"
+      "opener_youtube_id": "G7pa-KLBfbc"
     },
     {
       "venue": "Local 506",
@@ -63,7 +52,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/02/IMG_20260206_164902.png",
       "ticket_url": "https://local506.com/event/shameless-boutique-blowout-sale/",
       "notice": null,
-      "youtube_id": "AG-HP9UoPiw"
+      "youtube_id": "jhbRRYNLWUo"
     },
     {
       "venue": "Local 506",
@@ -141,7 +130,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/81292975/oort-patrol-with-small-doses-and-chiroptera-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "FgB7naB-gQ8",
-      "opener_youtube_id": "39Ylug2cBNk"
+      "opener_youtube_id": "oIKPwaslKsg"
     },
     {
       "venue": "Local 506",
@@ -175,7 +164,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/blax-the-money-prayers-abundance-tour-with-product-of-hip-hop-and-concept-1.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68443483/blaxthe-moneyprayers-abundance-tour-with-product-of-hip-hop-and-concept-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "-0kcet4aPpQ",
+      "youtube_id": "gCxcMgt_YQ0",
       "opener_youtube_id": "Lxtbhqklnwo"
     },
     {
@@ -188,8 +177,8 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/the-unsustainables-and-bad-leavers-with-sound-system-seven-1.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/38683288/the-unsustainables-and-bad-leavers-with-sound-system-seven-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "06rK3BQNbbU",
-      "opener_youtube_id": "GrS0lrO2zFE"
+      "youtube_id": "8NqCT669tow",
+      "opener_youtube_id": "2VtlM2ApzPo"
     },
     {
       "venue": "Local 506",
@@ -212,7 +201,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/01/snide-and-knub-with-snowblinder-and-dead-halos.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "xH7cSSKnkL4",
+      "youtube_id": "_DyW7jWaO-0",
       "opener_youtube_id": "WW6YidH0kYk"
     },
     {
@@ -278,7 +267,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/41195371/the-everymen-with-julian-calendar-and-sonic-blooms-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "N7F8Yc18bps",
-      "opener_youtube_id": "Zsip_ID37VE"
+      "opener_youtube_id": "w4fravaIiiM"
     },
     {
       "venue": "Local 506",
@@ -318,10 +307,23 @@
       "notice": null,
       "youtube_id": "n_iRssjW4DQ",
       "opener_youtube_id": "YpCdz3awwzA"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Racoma",
+      "date": "Sat, Mar 28",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "opener": "St. Yuma",
+      "image": "https://local506.com/wp-content/uploads/2026/01/racoma-w-st-yuma.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/96743604/racoma-wstyuma-chapel-hill-local-506-cil?partner_id=100",
+      "notice": null,
+      "youtube_id": "-oQ1J7jek9c",
+      "opener_youtube_id": "9IDYYySG4ys"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-14T05:13:22.627935"
+  "last_updated": "2026-02-15T05:23:47.269669"
 }
