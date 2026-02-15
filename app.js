@@ -208,7 +208,7 @@ class ShowsApp {
         popup.innerHTML = `
             <div class="no-preview-content">
                 <p>No preview yet for <strong>${this.escapeHtml(artist)}</strong></p>
-                <p>Are you the artist? <a href="mailto:localsoundcheck@gmail.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>
+                <p>Are you the artist? <a href="mailto:info@localsoundcheck.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>
                 <button class="no-preview-close">&times;</button>
             </div>
         `;
