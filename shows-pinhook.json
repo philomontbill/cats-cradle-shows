@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Runo Plum / Lutalo (solo)",
-      "date": "Sun, Feb 15",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/10/etix-Runo_1294251761054978.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/96225184/runo-plum-lutalo-solo-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "Ns5lh5VtbJ8"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Thelma and the Sleaze / Meltdown Rodeo",
       "date": "Mon, Feb 16",
       "doors": "7 pm",
@@ -58,7 +47,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1298381768125963.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/92600035/the-asheville-mountain-boys-sonya-badigian-tatiana-hargreaves-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "UkUuNUaHXHI"
+      "youtube_id": "3X7uWaF21v0"
     },
     {
       "venue": "The Pinhook",
@@ -80,7 +69,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/dunums-ribs-little-chair.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/79760295/dunums-ribs-little-chair-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "M09v4P1pzds"
+      "youtube_id": "6Fbg2rszTdg"
     },
     {
       "venue": "The Pinhook",
@@ -102,7 +91,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/g-clefs-graduation-celebration-film-screening.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/47299895/gclefs-graduation-celebration-film-screening-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "u8Q-sKd8Xrg"
+      "youtube_id": "-JfEJq56IwI"
     },
     {
       "venue": "The Pinhook",
@@ -113,7 +102,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/survival-tactics-cardigan-guard-dog-altair-kareem-dj-dymiria-decadent.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/47368285/survival-tactics-cardigan-guard-dog-altair-kareem-dj-dymiria-decadent-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "dSYE7xOKoZo"
+      "youtube_id": "dc-klPfXjTY"
     },
     {
       "venue": "The Pinhook",
@@ -201,7 +190,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297331765320978.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "hU_hAY8yyvQ"
+      "youtube_id": "Ik-FBC1uYQo"
     },
     {
       "venue": "The Pinhook",
@@ -212,7 +201,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Blends_1298481768149959.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/67977725/blends-with-friends-open-decks-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "v425UTqkrI0"
+      "youtube_id": "b-24kkrKp1Y"
     },
     {
       "venue": "The Pinhook",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/77563078/emanuel-wynter-tre-charles-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "Rw1suYWh39w"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Mellow Swells Album Release w/ Sonny Miles",
+      "date": "Fri, Mar 13",
+      "doors": "8 pm",
+      "showtime": "9 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/mellow-swells-album-release.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/82256035/mellow-swells-album-release-wsonny-miles-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "U48wJqFfWBM"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-15T05:24:18.616851"
+  "last_updated": "2026-02-16T05:41:45.640631"
 }

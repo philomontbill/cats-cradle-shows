@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Mareux",
-      "date": "Sat, Feb 14",
-      "venue": "Mohawk Outdoor",
-      "opener": "La Texana",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648652392221",
-      "ticket_url": "https://www.etix.com/ticket/p/66455029/mareux-austin-resound-presents",
-      "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "4KHPyJ2EhyM"
-    },
-    {
-      "artist": "Mareux Afterparty",
-      "date": "Sat, Feb 14",
-      "venue": "Mohawk Indoor",
-      "opener": "Dj Godishelleyduval, Dj Devil Woman",
-      "notice": null,
-      "doors": "9:00pm",
-      "showtime": "9:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648491951465",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648491952299",
-      "youtube_id": "BOA35nEa8YA",
-      "opener_youtube_id": "BqDjMZKf-wg"
-    },
-    {
       "artist": "Come and Shave It",
       "date": "Fri, Feb 20",
       "venue": "Mohawk Indoor",
@@ -67,8 +41,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648538141274",
       "ticket_url": "https://www.etix.com/ticket/p/48197414/lowdown-brass-band-austin-resound-presents",
-      "youtube_id": "wCYrSJAybvM",
-      "opener_youtube_id": "EqwjdX3PAR0"
+      "youtube_id": "IjpPmdiWys8",
+      "opener_youtube_id": "vxdrut2Qeb4"
     },
     {
       "artist": "Colony House",
@@ -80,7 +54,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "7lDuiMyIZu4",
+      "youtube_id": "NRiOvSqn8aw",
       "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
@@ -106,7 +80,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "87l-84irDlo",
+      "youtube_id": "cf0oYTM-yM4",
       "opener_youtube_id": "BEildxKZrMs"
     },
     {
@@ -145,7 +119,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "Rb95dnw8MAc",
+      "youtube_id": "FEd3foWG2Hk",
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
@@ -183,8 +157,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": "zdLeOlZPQtE",
-      "opener_youtube_id": "89Cg5LiXCw8"
+      "youtube_id": "3_LBDDVcXf8",
+      "opener_youtube_id": "QORqJDxXx0w"
     },
     {
       "artist": "Nothing",
@@ -234,7 +208,7 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": "_8FmUlp9rm4",
+      "youtube_id": "LSjRaHmCOYY",
       "opener_youtube_id": "CDl9ZMfj6aE"
     },
     {
@@ -259,7 +233,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "9Gj_nIZynv8"
+      "youtube_id": "-E4HZt8u5QI"
     },
     {
       "artist": "Oof Fighters",
@@ -271,7 +245,7 @@
       "showtime": "9:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648493196884",
       "ticket_url": "https://www.etix.com/ticket/p/47374733/oof-fighters-austin-mohawk-austintxindoor",
-      "youtube_id": "ebJ2brErERQ",
+      "youtube_id": "5Q69lrix0h4",
       "opener_youtube_id": "o6ybSsTn1w0"
     },
     {
@@ -324,11 +298,37 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
       "youtube_id": "BB-jGY5B5yw",
-      "opener_youtube_id": "ohTEyCgvIM0"
+      "opener_youtube_id": "DaxR2hohavI"
+    },
+    {
+      "artist": "Sarah Kinsley",
+      "date": "Tue, Apr 07",
+      "venue": "Mohawk Outdoor",
+      "opener": "Girlpuppy",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648569899340",
+      "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
+      "youtube_id": "QgJIhQkVuTM",
+      "opener_youtube_id": "Rp6jCtnhCDs"
+    },
+    {
+      "artist": "Touché Amoré",
+      "date": "Wed, Apr 08",
+      "venue": "Mohawk Outdoor",
+      "opener": "Jeromes Dream, Porcelain",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
+      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
+      "youtube_id": "Ijmhb8is-vc",
+      "opener_youtube_id": "Sv9xV6_k-FQ"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-15T05:26:21.470476"
+  "last_updated": "2026-02-16T05:43:37.436379"
 }
