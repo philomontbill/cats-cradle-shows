@@ -15,7 +15,7 @@ class Local506Scraper(BaseScraper):
     venue_name = "Local 506"
     venue_location = "Chapel Hill, NC"
     venue_website = "https://local506.com"
-    output_filename = "shows-local506.json"
+    output_filename = "data/shows-local506.json"
 
     def scrape_shows(self):
         """Main scraping function"""

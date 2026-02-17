@@ -15,7 +15,7 @@ class TheSocialScraper(BaseScraper):
     venue_name = "The Social"
     venue_location = "Orlando, FL"
     venue_website = "https://www.thesocial.org"
-    output_filename = "shows-thesocial.json"
+    output_filename = "data/shows-thesocial.json"
 
     def __init__(self):
         super().__init__()

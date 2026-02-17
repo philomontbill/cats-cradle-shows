@@ -14,7 +14,7 @@ class MohawkScraper(BaseScraper):
     venue_name = "Mohawk"
     venue_location = "Austin, TX"
     venue_website = "https://www.mohawkaustin.com"
-    output_filename = "shows-mohawk.json"
+    output_filename = "data/shows-mohawk.json"
 
     def __init__(self):
         super().__init__()

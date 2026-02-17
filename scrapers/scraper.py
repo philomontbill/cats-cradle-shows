@@ -15,7 +15,7 @@ class CatsCradleScraper(BaseScraper):
     venue_name = "Cat's Cradle"
     venue_location = "Carrboro, NC"
     venue_website = "https://catscradle.com"
-    output_filename = "shows-catscradle.json"
+    output_filename = "data/shows-catscradle.json"
 
     def scrape_shows(self):
         """Main scraping function"""

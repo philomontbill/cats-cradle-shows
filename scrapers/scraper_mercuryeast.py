@@ -19,7 +19,7 @@ class MercuryEastScraper(BaseScraper):
     venue_name = "Mercury East"  # Parent company
     venue_location = "New York, NY"
     venue_website = "https://mercuryeastpresents.com"
-    output_filename = "shows-mercuryeast.json"  # Not used directly
+    output_filename = "data/shows-mercuryeast.json"  # Not used directly
 
     # Venue configurations
     VENUES = {
@@ -27,14 +27,14 @@ class MercuryEastScraper(BaseScraper):
             'name': 'Bowery Ballroom',
             'location': 'New York, NY',
             'website': 'https://www.boweryballroom.com',
-            'output': 'shows-boweryballroom.json',
+            'output': 'data/shows-boweryballroom.json',
             'filter': 'bowery'
         },
         'mercurylounge': {
             'name': 'Mercury Lounge',
             'location': 'New York, NY',
             'website': 'https://www.mercuryloungenyc.com',
-            'output': 'shows-mercurylounge.json',
+            'output': 'data/shows-mercurylounge.json',
             'filter': 'mercury lounge'
         }
     }

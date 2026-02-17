@@ -15,7 +15,7 @@ class KingsScraper(BaseScraper):
     venue_name = "Kings"
     venue_location = "Raleigh, NC"
     venue_website = "https://kingsraleigh.com"
-    output_filename = "shows-kings.json"
+    output_filename = "data/shows-kings.json"
 
     def scrape_shows(self):
         """Main scraping function"""

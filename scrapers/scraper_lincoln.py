@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-The Pinhook Scraper
-Scrapes upcoming shows from thepinhook.com
+Lincoln Theatre Scraper
+Scrapes upcoming shows from lincolntheatre.com (Raleigh, NC)
 """
 
 import requests
@@ -11,15 +11,15 @@ import time
 from base_scraper import BaseScraper
 
 
-class PinhookScraper(BaseScraper):
-    venue_name = "The Pinhook"
-    venue_location = "Durham, NC"
-    venue_website = "https://thepinhook.com"
-    output_filename = "shows-pinhook.json"
+class LincolnTheatreScraper(BaseScraper):
+    venue_name = "Lincoln Theatre"
+    venue_location = "Raleigh, NC"
+    venue_website = "https://lincolntheatre.com"
+    output_filename = "data/shows-lincoln.json"
 
     def scrape_shows(self):
         """Main scraping function"""
-        print("\nFetching events from The Pinhook...")
+        print("\nFetching events from Lincoln Theatre...")
 
         shows = self._fetch_events()
 
@@ -40,11 +40,23 @@ class PinhookScraper(BaseScraper):
 
         return shows
 
+    def _clean_html_entities(self, text):
+        """Clean up HTML entities in text"""
+        if not text:
+            return text
+        import html
+        text = html.unescape(text)
+        # Also handle some common ones manually
+        text = text.replace('&#038;', '&')
+        text = text.replace('&#8217;', "'")
+        text = text.replace('&#8211;', '–')
+        return text
+
     def _fetch_events(self):
         """Fetch and parse events from the events page"""
         try:
             response = requests.get(
-                'https://thepinhook.com/events/',
+                'https://lincolntheatre.com/events/',
                 headers=self.headers,
                 timeout=15
             )
@@ -53,17 +65,10 @@ class PinhookScraper(BaseScraper):
             soup = BeautifulSoup(response.content, 'html.parser')
             shows = []
 
-            # Find event containers - try multiple selectors
-            event_containers = soup.find_all('div', class_='eventWrapper')
+            # Find event containers
+            event_containers = soup.find_all('div', class_='rhpSingleEvent')
             if not event_containers:
-                event_containers = soup.find_all('div', class_='rhpSingleEvent')
-            if not event_containers:
-                # Try finding by event links
-                event_links = soup.find_all('a', class_='eventMoreInfo')
-                for link in event_links:
-                    container = link.find_parent('div', class_=True)
-                    if container and container not in event_containers:
-                        event_containers.append(container)
+                event_containers = soup.find_all('div', class_='eventWrapper')
 
             for container in event_containers[:30]:
                 show = self._parse_event(container)
@@ -83,20 +88,23 @@ class PinhookScraper(BaseScraper):
                 'venue': self.venue_name
             }
 
-            # Extract artist name
-            title_elem = container.find('h2') or container.find(id='eventTitle')
-            if title_elem:
-                show['artist'] = title_elem.get_text().strip()
-            else:
-                # Try finding title link
-                title_link = container.find('a', href=lambda x: x and '/event/' in x)
-                if title_link:
-                    show['artist'] = title_link.get_text().strip()
+            # Extract artist name from title link
+            title_link = container.find('a', class_='url')
+            if title_link:
+                show['artist'] = title_link.get('title', '').strip()
+                if not show['artist']:
+                    # Try text content
+                    h2 = container.find('h2')
+                    if h2:
+                        show['artist'] = h2.get_text().strip()
 
             if not show.get('artist'):
                 return None
 
-            # Extract date - look for eventDate div with eventMonth class
+            # Clean up HTML entities
+            show['artist'] = self._clean_html_entities(show['artist'])
+
+            # Extract date from eventDate div
             date_elem = container.find(id='eventDate')
             if not date_elem:
                 date_elem = container.find(class_='eventMonth')
@@ -105,20 +113,17 @@ class PinhookScraper(BaseScraper):
 
             if date_elem:
                 date_text = date_elem.get_text().strip()
-                # Format is like "Wed, Feb 04"
+                # Format is like "Wed, Feb 04" or "Thu, Feb 01 - thu, Feb 05" for multi-day
+                # Just take the first date for multi-day events
                 match = re.search(r'(\w{3}),?\s+(\w{3})\s+(\d{1,2})', date_text)
                 if match:
                     show['date'] = f"{match.group(1)}, {match.group(2)} {match.group(3)}"
                 else:
-                    # Try other patterns
-                    match2 = re.search(r'(\w+)\s+(\d{1,2})', date_text)
-                    if match2:
-                        show['date'] = self.format_date_standard(f"{match2.group(1)} {match2.group(2)}")
-
-            if not show.get('date'):
+                    show['date'] = 'TBD'
+            else:
                 show['date'] = 'TBD'
 
-            # Extract times (doors/show)
+            # Extract times from page text
             container_text = container.get_text()
 
             doors_match = re.search(r'Doors?:?\s*(\d{1,2}(?::\d{2})?\s*[ap]m)', container_text, re.IGNORECASE)
@@ -129,22 +134,22 @@ class PinhookScraper(BaseScraper):
             if show_match:
                 show['showtime'] = show_match.group(1).lower()
 
-            # Extract opener from subheader or "with" pattern
+            # Extract opener from subheader or "w/" pattern
             subheader = container.find(class_='eventSubHeader')
             if subheader:
                 opener_text = subheader.get_text().strip()
-                # Remove presenter info like "andmoreagain presents"
-                opener_text = re.sub(r'.*presents\s*', '', opener_text, flags=re.IGNORECASE)
-                if opener_text and len(opener_text) > 2:
+                opener_text = self._clean_html_entities(opener_text)
+                if opener_text and len(opener_text) > 2 and len(opener_text) < 150:
                     show['opener'] = opener_text
 
-            # Also check for "with" pattern
+            # Also check for "w/" or "with" pattern in title
             if not show.get('opener'):
-                with_match = re.search(r'\bwith\s+([A-Z][^,\n]+?)(?:\s*,|\s*\n|\s*Doors|\s*Show|\s*$)', container_text)
-                if with_match:
-                    opener = with_match.group(1).strip()
-                    if len(opener) > 2 and len(opener) < 100:
-                        show['opener'] = opener
+                artist = show.get('artist', '')
+                w_match = re.search(r'\s+[wW]/\s+(.+)$', artist)
+                if w_match:
+                    show['opener'] = w_match.group(1).strip()
+                    # Clean up artist name
+                    show['artist'] = artist[:w_match.start()].strip()
 
             # Extract image
             img = container.find('img')
@@ -152,7 +157,7 @@ class PinhookScraper(BaseScraper):
                 src = img.get('src') or img.get('data-src')
                 if src:
                     if src.startswith('/'):
-                        src = f"https://thepinhook.com{src}"
+                        src = f"https://lincolntheatre.com{src}"
                     show['image'] = src
 
             # Extract ticket URL (ETIX)
@@ -160,22 +165,21 @@ class PinhookScraper(BaseScraper):
             if ticket_link:
                 show['ticket_url'] = ticket_link.get('href')
             else:
-                # Try "More Info" link as fallback
-                more_info = container.find('a', class_='eventMoreInfo')
-                if more_info:
-                    href = more_info.get('href')
+                # Try event page link as fallback
+                event_link = container.find('a', class_='url')
+                if event_link:
+                    href = event_link.get('href')
                     if href:
-                        if href.startswith('/'):
-                            href = f"https://thepinhook.com{href}"
                         show['ticket_url'] = href
 
-            # Check for notices (sold out, etc)
+            # Check for notices
             show['notice'] = None
-            if 'sold out' in container_text.lower():
+            text_lower = container_text.lower()
+            if 'sold out' in text_lower:
                 show['notice'] = 'Sold Out'
-            elif 'cancelled' in container_text.lower() or 'canceled' in container_text.lower():
+            elif 'cancelled' in text_lower or 'canceled' in text_lower:
                 show['notice'] = 'Cancelled'
-            elif 'postponed' in container_text.lower():
+            elif 'postponed' in text_lower:
                 show['notice'] = 'Postponed'
 
             return show
@@ -185,11 +189,11 @@ class PinhookScraper(BaseScraper):
 
 
 def main():
-    scraper = PinhookScraper()
+    scraper = LincolnTheatreScraper()
     shows = scraper.scrape_shows()
 
     if shows:
-        print("\nDone! The Pinhook shows ready.")
+        print("\nDone! Lincoln Theatre shows ready.")
     else:
         print("\nNo shows found. Check connection and try again.")
 

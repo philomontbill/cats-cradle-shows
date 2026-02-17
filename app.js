@@ -46,7 +46,7 @@ class ShowsApp {
     }
 
     async loadData(venue) {
-        const filename = `shows-${venue}.json`;
+        const filename = `data/shows-${venue}.json`;
         const response = await fetch(`${filename}?t=${Date.now()}`);
         if (!response.ok) {
             throw new Error('Data not found');

@@ -16,7 +16,7 @@ class MotorcoScraper(BaseScraper):
     venue_name = "Motorco Music Hall"
     venue_location = "Durham, NC"
     venue_website = "https://motorcomusic.com"
-    output_filename = "shows-motorco.json"
+    output_filename = "data/shows-motorco.json"
 
     def scrape_shows(self):
         """Main scraping function"""

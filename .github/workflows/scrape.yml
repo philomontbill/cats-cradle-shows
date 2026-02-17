@@ -27,40 +27,40 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run Cat's Cradle scraper
-        run: python scraper.py
+        run: python scrapers/scraper.py
 
       - name: Run Local 506 scraper
-        run: python scraper_local506.py
+        run: python scrapers/scraper_local506.py
 
       - name: Run Motorco scraper
-        run: python scraper_motorco.py
+        run: python scrapers/scraper_motorco.py
 
       - name: Run The Pinhook scraper
-        run: python scraper_pinhook.py
+        run: python scrapers/scraper_pinhook.py
 
       - name: Run Lincoln Theatre scraper
-        run: python scraper_lincoln.py
+        run: python scrapers/scraper_lincoln.py
 
       - name: Run Kings scraper
-        run: python scraper_kings.py
+        run: python scrapers/scraper_kings.py
 
       - name: Run Mohawk scraper
-        run: python scraper_mohawk.py
+        run: python scrapers/scraper_mohawk.py
 
       - name: Run Elevation 27 scraper
-        run: python scraper_elevation27.py
+        run: python scrapers/scraper_elevation27.py
 
       - name: Run The Social scraper
-        run: python scraper_thesocial.py
+        run: python scrapers/scraper_thesocial.py
 
       - name: Run Bowery Ballroom scraper
-        run: python scraper_mercuryeast.py
+        run: python scrapers/scraper_mercuryeast.py
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add shows-catscradle.json shows-local506.json shows-motorco.json shows-pinhook.json shows-lincoln.json shows-kings.json shows-mohawk.json shows-elevation27.json shows-thesocial.json shows-boweryballroom.json
+          git add data/shows-catscradle.json data/shows-local506.json data/shows-motorco.json data/shows-pinhook.json data/shows-lincoln.json data/shows-kings.json data/shows-mohawk.json data/shows-elevation27.json data/shows-thesocial.json data/shows-boweryballroom.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
           git pull --rebase
           git push

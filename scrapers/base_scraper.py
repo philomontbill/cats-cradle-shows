@@ -4,12 +4,15 @@ Base Scraper class with shared functionality for all venue scrapers.
 Each venue scraper inherits from this and implements venue-specific logic.
 """
 
+import os
 import requests
 import json
 import re
 import time
 from datetime import datetime
 from urllib.parse import quote_plus
+
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 class BaseScraper:
@@ -32,7 +35,7 @@ class BaseScraper:
     def _load_overrides(self):
         """Load manual YouTube overrides from overrides.json"""
         try:
-            with open('overrides.json', 'r') as f:
+            with open(os.path.join(_SCRIPT_DIR, 'overrides.json'), 'r') as f:
                 return json.load(f)
         except FileNotFoundError:
             return {"artist_youtube": {}, "opener_youtube": {}}

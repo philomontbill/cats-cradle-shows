@@ -15,7 +15,7 @@ class Elevation27Scraper(BaseScraper):
     venue_name = "Elevation 27"
     venue_location = "Virginia Beach, VA"
     venue_website = "https://www.elevation27.com"
-    output_filename = "shows-elevation27.json"
+    output_filename = "data/shows-elevation27.json"
 
     def scrape_shows(self):
         """Main scraping function"""
