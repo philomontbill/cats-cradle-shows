@@ -7,22 +7,11 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Thelma and the Sleaze / Meltdown Rodeo",
-      "date": "Mon, Feb 16",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Thelma_1299071768498575.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/88356207/thelma-and-the-sleaze-meltdown-rodeo-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "-8kE70JwZtI"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Feb 17",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297421765321563.jfif",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night-all-yall-led-line-dancing-some-karaoke.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/85806052/queer-country-nightall-yall-led-line-dancing-some-karaoke-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "7iefUjgC2BM"
@@ -80,7 +69,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/house-of-blk.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/53392917/house-of-blk-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "znlFu_lemsU"
+      "youtube_id": "jRitiuKoKa0"
     },
     {
       "venue": "The Pinhook",
@@ -113,7 +102,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298701768337162.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/90224535/makaya-mccraven-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "w3giWDYxPTI"
+      "youtube_id": "arcdkDT1LH8"
     },
     {
       "venue": "The Pinhook",
@@ -124,7 +113,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298741768337165.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/64111957/makaya-mccraven-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "w3giWDYxPTI"
+      "youtube_id": "arcdkDT1LH8"
     },
     {
       "venue": "The Pinhook",
@@ -187,7 +176,7 @@
       "date": "Tue, Mar 03",
       "doors": "7:30 pm",
       "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Queer_1297331765320978.jfif",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "Ik-FBC1uYQo"
@@ -201,7 +190,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Blends_1298481768149959.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/67977725/blends-with-friends-open-decks-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "b-24kkrKp1Y"
+      "youtube_id": "5IeoQ6s-NKI"
     },
     {
       "venue": "The Pinhook",
@@ -234,7 +223,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/cartoon-smokeshow-a-drag-and-burlesque-rewind.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/57465951/cartoon-smokeshowa-drag-and-burlesque-rewind-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "t8YJLmXfsmw"
+      "youtube_id": "A6vBqWZ5sCQ"
     },
     {
       "venue": "The Pinhook",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/82256035/mellow-swells-album-release-wsonny-miles-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "U48wJqFfWBM"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Minorcan / Lalitree Darnielle / Celestogramme",
+      "date": "Sat, Mar 14",
+      "doors": "6 pm",
+      "showtime": "6:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/minorcan-lalitree-darnielle-celestogramme.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/34408334/minorcan-lalitree-darnielle-celestogramme-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "8iAe7o0Ol6o"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-16T05:41:45.640631"
+  "last_updated": "2026-02-17T05:26:00.731068"
 }
