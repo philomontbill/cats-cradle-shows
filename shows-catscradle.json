@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "7th Annual Cupid’s Jam – Benefit Concert for TABLE",
-      "date": "Sun, Feb 15",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": null,
-      "doors": "11:30 am",
-      "showtime": "12 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-7th_2174291769003346.jpg",
-      "event_url": "https://catscradle.com/event/7th-annual-cupids-jam-benefit-concert-for-table/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null
-    },
-    {
-      "artist": "Knock on Wood – A Stax Records Tribute",
-      "date": "Sun, Feb 15",
-      "venue": "Cat's Cradle",
-      "opener": null,
-      "notice": null,
-      "doors": "1 pm",
-      "showtime": "2 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Knock_2089161765461671.jpg",
-      "event_url": "https://catscradle.com/event/knock-on-wood-a-stax-records-tribute-3/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "6iwqDGQK5nA"
-    },
-    {
       "artist": "Drink The Sea",
       "date": "Tue, Feb 17",
       "venue": "Haw River Ballroom",
@@ -65,7 +41,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "PaHydRtYAiU"
+      "opener_youtube_id": "yzp661UY9cg"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -89,7 +65,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "PcqWYLat8mc",
+      "youtube_id": "b-TANl-GBT8",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -141,7 +117,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Remymr4R4J0",
+      "youtube_id": "SVlu8Bjv1H0",
       "opener_youtube_id": "3Q6Ua3sctYc"
     },
     {
@@ -154,7 +130,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
       "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Nz9qrwwcODc"
+      "youtube_id": "Pbmh8AyOgko"
     },
     {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
@@ -179,7 +155,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "yEijSFL3h7o",
+      "youtube_id": "yDM1mU0urwg",
       "opener_youtube_id": "9hIW-wLddIo"
     },
     {
@@ -193,20 +169,20 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "Tb_OWQ4-Ivg",
-      "opener_youtube_id": "sgX1zpYXANc"
+      "opener_youtube_id": "X6UIC9S5K0s"
     },
     {
       "artist": "Nep",
       "date": "Sat, Feb 28",
       "venue": "Cat's Cradle Back Room",
       "opener": "briZB",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nep_2027011762682847.jpg",
       "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "KRIIc-tqDAE",
-      "opener_youtube_id": "1Qn8mLzvqMw"
+      "opener_youtube_id": "2e_3ChbQmxU"
     },
     {
       "artist": "Al Olender",
@@ -219,7 +195,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Al_2103601765879871.jpg",
       "event_url": "https://catscradle.com/event/al-olender/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "q7Dn8hKTGOM",
-      "opener_youtube_id": "XyUeYV1LDPw"
+      "opener_youtube_id": "VAn3ywpBcPI"
     },
     {
       "artist": "Goldie Boutilier",
@@ -283,7 +259,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Immortal_2172071768819653.jpg",
       "event_url": "https://catscradle.com/event/immortal-technique/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "x05S1qV9Gl4",
+      "youtube_id": "OqgIKOXykHo",
       "opener_youtube_id": "toLv5DvCrNE"
     },
     {
@@ -321,11 +297,35 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Slow_1655861742119655.jpg",
       "event_url": "https://catscradle.com/event/slow-teeth-scrape-minor-stars/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "JL8E-x4gohA"
+      "youtube_id": "oTi8bvOc2VE"
+    },
+    {
+      "artist": "The Nine Lives Flea Market",
+      "date": "Sun, Mar 08",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": "11 am",
+      "image": "https://catscradle.com/wp-content/uploads/2026/02/Nine-Lives-Flea-at-Cats-Cradle-1000.jpg",
+      "event_url": "https://catscradle.com/event/the-nine-lives-flea-market/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "8GgTZ8TTwO4"
+    },
+    {
+      "artist": "Rachel Bochner",
+      "date": "Sun, Mar 08",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Rachel_2161341768381850.jpg",
+      "event_url": "https://catscradle.com/event/rachel-bochner/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "xttrqNl8EaY"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 24,
+  "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-15T05:23:02.124775"
+  "last_updated": "2026-02-17T05:24:50.367678"
 }

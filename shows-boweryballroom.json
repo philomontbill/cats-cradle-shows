@@ -6,79 +6,6 @@
   },
   "shows": [
     {
-      "artist": "The Black Heart Procession",
-      "date": "Sun, Feb 14",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/97c/4ee55817-b41b-4b31-9deb-6de83007497c_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-black-heart-procession/",
-      "youtube_id": "feIpGKZxbvU"
-    },
-    {
-      "artist": "Lee Fields",
-      "date": "Sun, Feb 14",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/10/Lee-Fields_Valentines-Day57.jpeg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/lee-fields/",
-      "youtube_id": "7LuwyvAl1rU"
-    },
-    {
-      "artist": "THE RED PARTY: LOVE WILL TEAR US APART",
-      "date": "Sun, Feb 14",
-      "venue": "Bowery Ballroom",
-      "opener": "your DJs Sean Templar &amp; Jarek PLUS VERY SPECIAL GUEST DJS Mistress McCutchan &amp; Sean Detra Spinning Coldwave, Goth &amp; Heartbreak all Night! Doors 10pm - 4am $15 All Night Mercury Lounge 217 East Houston, NYC",
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/699/f6ac9d75-f0cf-4473-9f0f-222780459699_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-love-will-tear-us-apart/",
-      "youtube_id": "674KGKRQBPE",
-      "opener_youtube_id": "EmdhRtVPsBE"
-    },
-    {
-      "artist": "Azure",
-      "date": "Sun, Feb 15",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "5pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/b51/92214f63-19ed-450e-b317-addf1fbdfb51_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/azure/",
-      "youtube_id": "tk85ht_Eqj4"
-    },
-    {
-      "artist": "Nightmare of You",
-      "date": "Sun, Feb 15",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/nightmare-of-you/",
-      "youtube_id": "SvnJtDax9A4"
-    },
-    {
-      "artist": "Kanii",
-      "date": "Sun, Feb 15",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/c34/7e6282ec-ade5-4acf-ab8b-0a4663085c34_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/kanii/",
-      "youtube_id": "IConY8MK8ZM"
-    },
-    {
       "artist": "Alex Sampson",
       "date": "Tue, Feb 17",
       "venue": "Bowery Ballroom",
@@ -88,7 +15,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/2de/8a1a874b-6661-45ef-b49c-02fd705532de_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/alex-sampson/",
-      "youtube_id": "RC99TTtlS2w"
+      "youtube_id": "8nP-74z0TNo"
     },
     {
       "artist": "Wheel",
@@ -100,7 +27,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/11/local_dates_example.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/wheel/",
-      "youtube_id": "jwJsQCetgDU"
+      "youtube_id": "sOGDFnHzT1w"
     },
     {
       "artist": "Noah Rinker",
@@ -112,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/noah-rinker/",
-      "youtube_id": "yMmuA1PNcdc"
+      "youtube_id": "z4s4VyzG3Fc"
     },
     {
       "artist": "Trueblood",
@@ -270,7 +197,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/017/f43fdcbf-f4f8-4f21-a2c4-02d27b070017_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ella-red/",
-      "youtube_id": "9lgiqwqdqMM"
+      "youtube_id": "ZFc4itpTpxc"
     },
     {
       "artist": "Talkhouse, Teddy McGraw, Nolan Trotter",
@@ -307,10 +234,83 @@
       "image": "https://s1.ticketm.net/dam/e/41a/bb393b58-a84d-4c36-b54f-62b93b98241a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente-2/",
       "youtube_id": "SEUMHTHGwlw"
+    },
+    {
+      "artist": "Braden Bales, Ezra",
+      "date": "Thu, Feb 26",
+      "venue": "Bowery Ballroom",
+      "opener": "JaeyBxrd",
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
+      "youtube_id": "QxXrjLaUtDE",
+      "opener_youtube_id": "zWl5pQowHmk"
+    },
+    {
+      "artist": "Guitarricadelafuente",
+      "date": "Fri, Feb 27",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/64a/c11cbd67-1415-4b47-b492-2fb2d014e64a_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente/",
+      "youtube_id": "SEUMHTHGwlw"
+    },
+    {
+      "artist": "Sheer Mag",
+      "date": "Fri, Feb 27",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
+      "youtube_id": "KoEqC6-oCNQ"
+    },
+    {
+      "artist": "Logan Michael",
+      "date": "Sat, Feb 28",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
+      "youtube_id": "Ip3DO5EBhfY"
+    },
+    {
+      "artist": "The Rikkies & SUM SUN w/ So Impartial",
+      "date": "Sat, Feb 28",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
+      "youtube_id": "l2IqZ81etAE"
+    },
+    {
+      "artist": "The Ruckus",
+      "date": "Sat, Feb 28",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
+      "youtube_id": "Ns3Ggwn8gjQ"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-15T05:29:46.724855"
+  "last_updated": "2026-02-17T05:30:02.743223"
 }
