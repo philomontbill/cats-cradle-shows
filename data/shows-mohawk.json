@@ -15,8 +15,8 @@
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648506488717",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510642214",
-      "youtube_id": "fRRFrWBy-s0",
-      "opener_youtube_id": "hZ3LGcvsW50"
+      "youtube_id": "hhSs1j2KaiU",
+      "opener_youtube_id": "j42E15aoH1E"
     },
     {
       "artist": "Electric Feels",
@@ -54,8 +54,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "CHD3_CUOjrE"
+      "youtube_id": "IA4fg9tqQtk",
+      "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
       "artist": "Cory Branan",
@@ -119,8 +119,21 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
       "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "i36Ae7_QcL4",
+      "youtube_id": "Rb95dnw8MAc",
       "opener_youtube_id": "VBSJTfmNnFI"
+    },
+    {
+      "artist": "Yellow Days",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Outdoor",
+      "opener": "Rue Jacobs",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
+      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
+      "youtube_id": "CAcx1dJu3XQ",
+      "opener_youtube_id": "Q83W9q34RDs"
     },
     {
       "artist": "Clover County",
@@ -136,18 +149,6 @@
       "opener_youtube_id": "DMbAjG_pK28"
     },
     {
-      "artist": "Yellow Days",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Outdoor",
-      "opener": null,
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
-      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
-      "youtube_id": "CAcx1dJu3XQ"
-    },
-    {
       "artist": "HBO QUIZZO: Heated Rivalry",
       "date": "Mon, Mar 09",
       "venue": "Mohawk Indoor",
@@ -157,8 +158,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": "OstSePIY84k",
-      "opener_youtube_id": "QORqJDxXx0w"
+      "youtube_id": "3_LBDDVcXf8",
+      "opener_youtube_id": "0lxA1FXOiv0"
     },
     {
       "artist": "Nothing",
@@ -171,7 +172,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556404443",
       "ticket_url": "https://www.etix.com/ticket/p/60966702/nothing-austin-resound-presents",
       "youtube_id": "xSZs27QQr1k",
-      "opener_youtube_id": "xe7rEv5UgRA"
+      "opener_youtube_id": "pBLwrXZtLnE"
     },
     {
       "artist": "Gogol Bordello",
@@ -183,8 +184,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": "IqkXonvel6o",
-      "opener_youtube_id": "EQaL6dputPM"
+      "youtube_id": "K3SUPPeuRdU",
+      "opener_youtube_id": "XiqXpTolqug"
     },
     {
       "artist": "Heated Rivalry Dance Party",
@@ -208,8 +209,21 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": "eyE7o8l_6xI",
+      "youtube_id": "bsTkHv9KeBY",
       "opener_youtube_id": "CDl9ZMfj6aE"
+    },
+    {
+      "artist": "Social Dissonance",
+      "date": "Sun, Mar 22",
+      "venue": "Mohawk Indoor",
+      "opener": "Aztec Milk Temple, Spirals",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648489532975",
+      "ticket_url": "https://www.etix.com/ticket/p/91778328/social-dissonance-austin-mohawk-austintxindoor",
+      "youtube_id": "2wmHXmwubO8",
+      "opener_youtube_id": "5isB7Zo-jKw"
     },
     {
       "artist": "The California Honeydrops",
@@ -227,13 +241,14 @@
       "artist": "Mint Field",
       "date": "Thu, Mar 26",
       "venue": "Mohawk Indoor",
-      "opener": null,
+      "opener": "Annabelle Chairlegs",
       "notice": null,
       "doors": "7:00pm",
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "-E4HZt8u5QI"
+      "youtube_id": "-E4HZt8u5QI",
+      "opener_youtube_id": "HVvjIrJprwQ"
     },
     {
       "artist": "Oof Fighters",
@@ -297,7 +312,7 @@
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
-      "youtube_id": "BB-jGY5B5yw",
+      "youtube_id": "vjyK81x0fzk",
       "opener_youtube_id": "ohTEyCgvIM0"
     },
     {
@@ -312,23 +327,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
       "youtube_id": "QgJIhQkVuTM",
       "opener_youtube_id": "Rp6jCtnhCDs"
-    },
-    {
-      "artist": "Touché Amoré",
-      "date": "Wed, Apr 08",
-      "venue": "Mohawk Outdoor",
-      "opener": "Jeromes Dream, Porcelain",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
-      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
-      "youtube_id": "Ijmhb8is-vc",
-      "opener_youtube_id": "Sv9xV6_k-FQ"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-17T05:27:51.429444"
+  "last_updated": "2026-02-18T05:30:09.064653"
 }

@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Drink The Sea",
-      "date": "Tue, Feb 17",
-      "venue": "Haw River Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Drink_1934781757932035.jpg",
-      "event_url": "https://catscradle.com/event/drink-the-sea/haw-river-ballroom/saxapahaw-north-carolina/",
-      "youtube_id": "An3eUoEpRaU"
-    },
-    {
       "artist": "The Jack Wharff Band",
       "date": "Thu, Feb 19",
       "venue": "Cat's Cradle Back Room",
@@ -65,7 +53,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "b-TANl-GBT8",
+      "youtube_id": "PcqWYLat8mc",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -92,7 +80,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "yEUrcsny2XA",
-      "opener_youtube_id": "vRQcIQyZoPE"
+      "opener_youtube_id": "Tgnit_V7me8"
     },
     {
       "artist": "Nuovo Testamento",
@@ -117,8 +105,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "SVlu8Bjv1H0",
-      "opener_youtube_id": "3Q6Ua3sctYc"
+      "youtube_id": "rNGZzNzGK0A",
+      "opener_youtube_id": "nfKaSWWRCrg"
     },
     {
       "artist": "STS9",
@@ -182,7 +170,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nep_2027011762682847.jpg",
       "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "KRIIc-tqDAE",
-      "opener_youtube_id": "2e_3ChbQmxU"
+      "opener_youtube_id": "1Qn8mLzvqMw"
     },
     {
       "artist": "Al Olender",
@@ -195,7 +183,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Al_2103601765879871.jpg",
       "event_url": "https://catscradle.com/event/al-olender/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "q7Dn8hKTGOM",
-      "opener_youtube_id": "VAn3ywpBcPI"
+      "opener_youtube_id": "XyUeYV1LDPw"
     },
     {
       "artist": "Goldie Boutilier",
@@ -208,7 +196,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Goldie_2021131762431071.jpg",
       "event_url": "https://catscradle.com/event/goldie-boutilier/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "2-weJSyo00s",
-      "opener_youtube_id": "MnXwCdoNnmc"
+      "opener_youtube_id": "JeZl78PrFAw"
     },
     {
       "artist": "Coma Cinema",
@@ -221,7 +209,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Coma_2045081763505072.jpg",
       "event_url": "https://catscradle.com/event/coma-cinema/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "HyP3ND7Xm4A",
-      "opener_youtube_id": "31ZBnp7x4P8"
+      "opener_youtube_id": "TM2UoPJLYrw"
     },
     {
       "artist": "Rivalry Night",
@@ -279,13 +267,14 @@
       "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
-      "opener": null,
+      "opener": "Max Lane",
       "notice": null,
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Dirtwire_2031311762873762.jpg",
       "event_url": "https://catscradle.com/event/dirtwire-universal-language-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "qgn1asrZWv4"
+      "youtube_id": "qgn1asrZWv4",
+      "opener_youtube_id": "zE9rdEcJ2hs"
     },
     {
       "artist": "Slow Teeth, Scrape, Minor Stars",
@@ -297,7 +286,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Slow_1655861742119655.jpg",
       "event_url": "https://catscradle.com/event/slow-teeth-scrape-minor-stars/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "oTi8bvOc2VE"
+      "youtube_id": "JL8E-x4gohA"
     },
     {
       "artist": "The Nine Lives Flea Market",
@@ -322,10 +311,23 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Rachel_2161341768381850.jpg",
       "event_url": "https://catscradle.com/event/rachel-bochner/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "xttrqNl8EaY"
+    },
+    {
+      "artist": "Aterciopelados",
+      "date": "Tue, Mar 10",
+      "venue": "Cat's Cradle",
+      "opener": "An Evening With",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
+      "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "sUlsTs2ljaE",
+      "opener_youtube_id": "0lxA1FXOiv0"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-17T05:24:50.367678"
+  "last_updated": "2026-02-18T05:27:01.545937"
 }

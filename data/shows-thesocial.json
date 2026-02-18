@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "redveil",
-      "date": "Tue, Feb 17",
-      "venue": "The Social",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": "7:00pm",
-      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/1-4-819x1024.jpg?lossy=1&strip=1&webp=1",
-      "ticket_url": "https://tkx.live/events/redveil-the-sankofa-tour/",
-      "youtube_id": "DGTWsToS4b4"
-    },
-    {
       "artist": "Aries",
       "date": "Thu, Feb 19",
       "venue": "The Social",
@@ -51,7 +39,7 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/letdown/",
-      "youtube_id": "PsKg8dEWWco"
+      "youtube_id": "byCLK-JCOhk"
     },
     {
       "artist": "Yellow Days",
@@ -75,7 +63,7 @@
       "showtime": "7:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/250303_MSOLIE_071-683x1024.jpg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/yung-kai/",
-      "youtube_id": "6DmL9sj-O2U"
+      "youtube_id": "IpFX2vq8HKw"
     },
     {
       "artist": "VARIALS",
@@ -123,7 +111,7 @@
       "showtime": "7:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/IndigoDeSouza_PC-HannahSommer-RESCAN005-1024x732.jpg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/indigo-de-souza/",
-      "youtube_id": "QgDDJdIJdhM"
+      "youtube_id": "ZstVTHCCcGs"
     },
     {
       "artist": "Arcy Drive",
@@ -159,11 +147,11 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/Screenshot-2025-12-18-130603.png?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/dance-with-the-dead-magic-sword/",
-      "youtube_id": "H6PIBB3fZps"
+      "youtube_id": "ULqxiUK6kOs"
     }
   ],
-  "total_shows": 13,
-  "shows_with_video": 13,
-  "shows_with_image": 13,
-  "last_updated": "2026-02-17T05:28:44.878840"
+  "total_shows": 12,
+  "shows_with_video": 12,
+  "shows_with_image": 12,
+  "last_updated": "2026-02-18T05:31:01.612349"
 }

@@ -7,35 +7,9 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Late] Sub Rosa",
-      "opener": "fantasy of a broken heart",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA",
-      "opener_youtube_id": "NVTidu1H7KM"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Early show!] Sword II",
-      "opener": "fantasy of a broken heart",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/early-show-sword-ii",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/sword2-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "k951VEgUsfY",
-      "opener_youtube_id": "NVTidu1H7KM"
-    },
-    {
-      "venue": "Kings",
       "date": "Thu, Feb 19",
       "artist": "Valgur – ‘Fantasy Tour’",
-      "opener": "Tiger Knives",
+      "opener": "Tiger Knives, Heavy For The Vintage",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/valgur-fantasy-tour",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/valgur-150x150.jpg",
@@ -65,7 +39,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "CioWaOVMJmg",
+      "youtube_id": "QWbAaTDlBls",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -96,12 +70,14 @@
       "venue": "Kings",
       "date": "Thu, Feb 26",
       "artist": "The Psycodelics",
+      "opener": "Tre. Charles",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-psycodelics",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/psycodelics-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "FL9bejY0chA"
+      "youtube_id": "FL9bejY0chA",
+      "opener_youtube_id": "FnhjIE3HQMc"
     },
     {
       "venue": "Kings",
@@ -126,7 +102,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/022826-1-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "XNOJnGb-3V4",
+      "youtube_id": "9cfLBZh8OP8",
       "opener_youtube_id": "8zxEuoVlaN0"
     },
     {
@@ -164,7 +140,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "forxTCebpPI"
+      "youtube_id": "T35qZFqno9o"
     },
     {
       "venue": "Kings",
@@ -194,6 +170,19 @@
     },
     {
       "venue": "Kings",
+      "date": "Fri, Mar 13",
+      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "opener": "Zack Mexico, Zones",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "M_RDYfU0S4U",
+      "opener_youtube_id": "ZqifU_-wvR0"
+    },
+    {
+      "venue": "Kings",
       "date": "Sat, Mar 14",
       "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
@@ -214,7 +203,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "vX4QwXGra8U"
+      "youtube_id": "TLUvO8vwoAM"
     },
     {
       "venue": "Kings",
@@ -263,8 +252,8 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/e8876efc-fbc1-4812-b6b2-7eb9febc9b68-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "-eehu8w0mCs",
-      "opener_youtube_id": "RoDRQZZFWV4"
+      "youtube_id": "Qfm2mmA-Rfs",
+      "opener_youtube_id": "35NTpCGAtB0"
     },
     {
       "venue": "Kings",
@@ -278,6 +267,19 @@
       "doors": null,
       "youtube_id": "X2z7nL-6vzQ",
       "opener_youtube_id": "wO0bgJQuszU"
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Mar 26",
+      "artist": "Psychic Scream – EP Release Show",
+      "opener": "Summer of Snakes, Le Mona, Delver",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/032626-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "dWElWhktJow",
+      "opener_youtube_id": "ZB0GIJHHH1M"
     },
     {
       "venue": "Kings",
@@ -316,11 +318,11 @@
       "notice": null,
       "doors": null,
       "youtube_id": "0PK6ciWWk1I",
-      "opener_youtube_id": "YcPpVlvflUE"
+      "opener_youtube_id": "QdCX-CDWGJA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-17T05:27:11.924275"
+  "last_updated": "2026-02-18T05:29:27.410916"
 }

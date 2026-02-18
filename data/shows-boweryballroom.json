@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "Alex Sampson",
-      "date": "Tue, Feb 17",
+      "date": "Wed, Feb 17",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -15,11 +15,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/2de/8a1a874b-6661-45ef-b49c-02fd705532de_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/alex-sampson/",
-      "youtube_id": "8nP-74z0TNo"
+      "youtube_id": "ShcUCdvh66o"
     },
     {
       "artist": "Wheel",
-      "date": "Tue, Feb 17",
+      "date": "Wed, Feb 17",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,7 +27,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/11/local_dates_example.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/wheel/",
-      "youtube_id": "sOGDFnHzT1w"
+      "youtube_id": "jwJsQCetgDU"
     },
     {
       "artist": "Noah Rinker",
@@ -39,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/noah-rinker/",
-      "youtube_id": "z4s4VyzG3Fc"
+      "youtube_id": "-oGQNYu-Iic"
     },
     {
       "artist": "Trueblood",
@@ -66,14 +66,14 @@
       "youtube_id": "I6lp1Oxb9L4"
     },
     {
-      "artist": "Fat Trout Trailer Park, Big Band",
+      "artist": "Fat Trout Trailer Park, Big Band, Blue Sky Joker",
       "date": "Thu, Feb 19",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
       "doors": "9pm",
       "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/FTTP-ML-show-2_26-1-scaled.jpeg",
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/fttp-flyer-scaled.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
       "youtube_id": "88EzPV3Yw9M"
     },
@@ -124,7 +124,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
-      "youtube_id": "kziZgJFvgiA"
+      "youtube_id": "YoVqrZTKDUg"
     },
     {
       "artist": "Kevin Devine: 20 Years of Split The Country.. & Put Your Ghost To Rest",
@@ -142,14 +142,14 @@
       "artist": "The Baxbys present NYC Prom",
       "date": "Sat, Feb 21",
       "venue": "Bowery Ballroom",
-      "opener": "DJ Sipper",
+      "opener": "Nudey, DJ Sipper",
       "notice": null,
       "doors": "9pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/be6/9a911d69-360d-4590-b379-e0b357f4abe6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-baxbys-present-nyc-prom/",
       "youtube_id": "s5KKNSTrPzQ",
-      "opener_youtube_id": "vMOMEFlBz-E"
+      "opener_youtube_id": "9ZMoDykgFPE"
     },
     {
       "artist": "Ahi",
@@ -173,7 +173,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/076/1bf2f15c-c2ca-4162-9078-cc7a2ba4f076_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/punk-rock-johnson-sandy-the-skyway-worm-catcher/",
-      "youtube_id": "fBM6Wzo31bU"
+      "youtube_id": "lqFYjrd1Hxg"
     },
     {
       "artist": "Honest Mistakes",
@@ -270,7 +270,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": "KoEqC6-oCNQ"
+      "youtube_id": "hCl-hJY0T9Y"
     },
     {
       "artist": "Logan Michael",
@@ -312,5 +312,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-17T05:30:02.743223"
+  "last_updated": "2026-02-18T05:33:21.171279"
 }
