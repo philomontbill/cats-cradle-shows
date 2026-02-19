@@ -6,32 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Alex Sampson",
-      "date": "Wed, Feb 17",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/2de/8a1a874b-6661-45ef-b49c-02fd705532de_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/alex-sampson/",
-      "youtube_id": "ShcUCdvh66o"
-    },
-    {
-      "artist": "Wheel",
-      "date": "Wed, Feb 17",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/11/local_dates_example.png",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/wheel/",
-      "youtube_id": "jwJsQCetgDU"
-    },
-    {
       "artist": "Noah Rinker",
-      "date": "Wed, Feb 18",
+      "date": "Thu, Feb 18",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -39,11 +15,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/dd5/9c1cb676-0653-4ba0-8ca3-1b5b5e474dd5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/noah-rinker/",
-      "youtube_id": "-oGQNYu-Iic"
+      "youtube_id": "z4s4VyzG3Fc"
     },
     {
       "artist": "Trueblood",
-      "date": "Wed, Feb 18",
+      "date": "Thu, Feb 18",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -51,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d18/5ce999cc-1de4-445e-af32-464c247b1d18_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/trueblood/",
-      "youtube_id": "lKV8Qm-XFIw"
+      "youtube_id": "gtbt5zsDJ4Y"
     },
     {
       "artist": "Blessing Offor",
@@ -75,7 +51,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/fttp-flyer-scaled.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
-      "youtube_id": "88EzPV3Yw9M"
+      "youtube_id": "o5FPfJFC_5s"
     },
     {
       "artist": "Letdown.",
@@ -124,7 +100,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
-      "youtube_id": "YoVqrZTKDUg"
+      "youtube_id": "Yy0OjaMJPh4"
     },
     {
       "artist": "Kevin Devine: 20 Years of Split The Country.. & Put Your Ghost To Rest",
@@ -173,7 +149,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/076/1bf2f15c-c2ca-4162-9078-cc7a2ba4f076_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/punk-rock-johnson-sandy-the-skyway-worm-catcher/",
-      "youtube_id": "lqFYjrd1Hxg"
+      "youtube_id": "fBM6Wzo31bU"
     },
     {
       "artist": "Honest Mistakes",
@@ -209,7 +185,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/59c/7f7fe4fd-d3b0-4344-afb2-2ce83915459c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/talkhouse-teddy-mcgraw-nolan-trotter/",
-      "youtube_id": "ljue1w2AviU"
+      "youtube_id": "LnmkRZXBZE4"
     },
     {
       "artist": "Haffway - The Wither Tour",
@@ -245,7 +221,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
-      "youtube_id": "QxXrjLaUtDE",
+      "youtube_id": "8dEAcXGgwSU",
       "opener_youtube_id": "zWl5pQowHmk"
     },
     {
@@ -270,7 +246,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": "hCl-hJY0T9Y"
+      "youtube_id": "oOt774ekroI"
     },
     {
       "artist": "Logan Michael",
@@ -306,11 +282,35 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": "Ns3Ggwn8gjQ"
+      "youtube_id": "e8N0vxbQ13o"
+    },
+    {
+      "artist": "Freddie McClendon",
+      "date": "Sun, Mar 01",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "5pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/6e2/2e3c71bf-0d93-477e-8483-8812060916e2_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/freddie-mcclendon/",
+      "youtube_id": "hnhuDF2kJBo"
+    },
+    {
+      "artist": "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?",
+      "date": "Sun, Mar 01",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/12d/a896c5ad-48e9-4902-9790-cb4c0c51712d_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/beauty-school-dropout-presents-where-did-all-the-butterflies-go/",
+      "youtube_id": "W4O8t8PHkxo"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-18T05:33:21.171279"
+  "last_updated": "2026-02-19T05:30:12.342636"
 }
