@@ -7,9 +7,35 @@
   "shows": [
     {
       "venue": "Kings",
+      "date": "Tue, Feb 17",
+      "artist": "[Late] Sub Rosa",
+      "opener": "fantasy of a broken heart",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA",
+      "opener_youtube_id": "NVTidu1H7KM"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Feb 17",
+      "artist": "[Early show!] Sword II",
+      "opener": "fantasy of a broken heart",
+      "showtime": "7:30pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/early-show-sword-ii",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/sword2-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "k951VEgUsfY",
+      "opener_youtube_id": "NVTidu1H7KM"
+    },
+    {
+      "venue": "Kings",
       "date": "Thu, Feb 19",
       "artist": "Valgur – ‘Fantasy Tour’",
-      "opener": "Tiger Knives, Heavy For The Vintage",
+      "opener": "Tiger Knives",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/valgur-fantasy-tour",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/valgur-150x150.jpg",
@@ -39,7 +65,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "CduA0TULnow",
+      "youtube_id": "6KZJuYnGcVs",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -63,7 +89,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "vPQgfaB3S1c",
+      "youtube_id": "GxX0cmbP4n4",
       "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
@@ -90,7 +116,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "UZHaXw2_DLc",
-      "opener_youtube_id": "U7wGmyGjHmw"
+      "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
       "venue": "Kings",
@@ -103,7 +129,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "XNOJnGb-3V4",
-      "opener_youtube_id": "aDQk-Bt9K98"
+      "opener_youtube_id": "8zxEuoVlaN0"
     },
     {
       "venue": "Kings",
@@ -140,7 +166,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "forxTCebpPI"
+      "youtube_id": "T35qZFqno9o"
     },
     {
       "venue": "Kings",
@@ -153,7 +179,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "f1EVoVOSK5k"
+      "opener_youtube_id": "SJNVNb2sCJg"
     },
     {
       "venue": "Kings",
@@ -170,19 +196,6 @@
     },
     {
       "venue": "Kings",
-      "date": "Fri, Mar 13",
-      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
-      "opener": "Zack Mexico, Zones",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "VMePxmKXCH0",
-      "opener_youtube_id": "ZqifU_-wvR0"
-    },
-    {
-      "venue": "Kings",
       "date": "Sat, Mar 14",
       "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
@@ -192,7 +205,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "0PK6ciWWk1I",
-      "opener_youtube_id": "YcPpVlvflUE"
+      "opener_youtube_id": "QdCX-CDWGJA"
     },
     {
       "venue": "Kings",
@@ -203,7 +216,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "cc_iUrME_24"
+      "youtube_id": "TLUvO8vwoAM"
     },
     {
       "venue": "Kings",
@@ -226,7 +239,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/09/westerman-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "35x9UTsOopc",
+      "youtube_id": "ZE-XqKS8R7o",
       "opener_youtube_id": "x5830sQZWNg"
     },
     {
@@ -279,7 +292,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "dWElWhktJow",
-      "opener_youtube_id": "UpYapWU--JA"
+      "opener_youtube_id": "qjuEXKwnkLE"
     },
     {
       "venue": "Kings",
@@ -291,7 +304,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/lalalala-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "wu9zw0CDtnA",
+      "youtube_id": "GvJUGY0EhcA",
       "opener_youtube_id": "JgHMGvq14eA"
     },
     {
@@ -306,23 +319,10 @@
       "doors": null,
       "youtube_id": "n2S-3h_Pocw",
       "opener_youtube_id": "Anx2xrhcEKg"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
-      "opener": "Paul Siler",
-      "showtime": "7:15pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "0PK6ciWWk1I",
-      "opener_youtube_id": "YcPpVlvflUE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-19T05:27:12.842236"
+  "last_updated": "2026-02-17T15:16:25.461085"
 }
