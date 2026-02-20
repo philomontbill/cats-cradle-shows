@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "The Jack Wharff Band",
-      "date": "Thu, Feb 19",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Max Alan",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2031361762876015.jpg",
-      "event_url": "https://catscradle.com/event/the-jack-wharff-band-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "eSqWjbOBjCo",
-      "opener_youtube_id": "hqPP7RDGGGA"
-    },
-    {
       "artist": "Chris Chism EP Release",
       "date": "Fri, Feb 20",
       "venue": "Cat's Cradle Back Room",
@@ -29,7 +16,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
       "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "kfHUvla5teQ"
+      "opener_youtube_id": "yzp661UY9cg"
     },
     {
       "artist": "Vincent Neil Emerson",
@@ -53,7 +40,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
       "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "zcZ6J5tb9oQ",
+      "youtube_id": "PcqWYLat8mc",
       "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
@@ -79,8 +66,8 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
       "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "j7WBQW4AIMc",
-      "opener_youtube_id": "5-u_XU_TXGg"
+      "youtube_id": "yEUrcsny2XA",
+      "opener_youtube_id": "vRQcIQyZoPE"
     },
     {
       "artist": "Nuovo Testamento",
@@ -96,17 +83,17 @@
       "opener_youtube_id": "OTTW_QD2Si0"
     },
     {
-      "artist": "North State Grass",
+      "artist": "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom",
       "date": "Wed, Feb 25",
       "venue": "Cat's Cradle Back Room",
-      "opener": "Six More Miles",
-      "notice": "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom",
+      "opener": "Six More Miles with North State Grass",
+      "notice": null,
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "w54lLXcuv9g",
-      "opener_youtube_id": null
+      "youtube_id": "J1d3E1XY3Hs",
+      "opener_youtube_id": "0FXmm8xVtNE"
     },
     {
       "artist": "STS9",
@@ -118,7 +105,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
       "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "B5eqWSmXjD4"
+      "youtube_id": "Pbmh8AyOgko"
     },
     {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
@@ -130,7 +117,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
       "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "Yy0OjaMJPh4",
+      "youtube_id": "kziZgJFvgiA",
       "opener_youtube_id": "ad6tgcInO6o"
     },
     {
@@ -143,7 +130,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Paul_2089111765462705.jpg",
       "event_url": "https://catscradle.com/event/paul-mcdonald-the-mourning-doves-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "hBhxwaYt-sA",
+      "youtube_id": "yDM1mU0urwg",
       "opener_youtube_id": "9hIW-wLddIo"
     },
     {
@@ -156,7 +143,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "YfO1MVkPRp8",
+      "youtube_id": "3nKterTnXgo",
       "opener_youtube_id": "X6UIC9S5K0s"
     },
     {
@@ -196,7 +183,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Goldie_2021131762431071.jpg",
       "event_url": "https://catscradle.com/event/goldie-boutilier/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "2-weJSyo00s",
-      "opener_youtube_id": "gYK9nExIEXw"
+      "opener_youtube_id": "MnXwCdoNnmc"
     },
     {
       "artist": "Coma Cinema",
@@ -323,11 +310,24 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
       "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "sUlsTs2ljaE",
-      "opener_youtube_id": "A3AQc1__bJk"
+      "opener_youtube_id": "0lxA1FXOiv0"
+    },
+    {
+      "artist": "Bedroom Division & William Hinson",
+      "date": "Tue, Mar 10",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Lennon KC",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Bedroom_2131571767184778.jpg",
+      "event_url": "https://catscradle.com/event/bedroom-division-william-hinson/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "2jEdgHG09gI",
+      "opener_youtube_id": "c1BRzAEkDCU"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-19T05:24:49.614178"
+  "last_updated": "2026-02-20T05:20:09.204111"
 }

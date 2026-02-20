@@ -7,53 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Late] Sub Rosa",
-      "opener": "fantasy of a broken heart",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA",
-      "opener_youtube_id": "NVTidu1H7KM"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Feb 17",
-      "artist": "[Early show!] Sword II",
-      "opener": "fantasy of a broken heart",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/early-show-sword-ii",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/sword2-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "k951VEgUsfY",
-      "opener_youtube_id": "NVTidu1H7KM"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Feb 19",
-      "artist": "Valgur – ‘Fantasy Tour’",
-      "opener": "Tiger Knives",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/valgur-fantasy-tour",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/valgur-150x150.jpg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "5g-mUswtNJQ",
-      "opener_youtube_id": "Tn2SLUKuPYQ"
-    },
-    {
-      "venue": "Kings",
       "date": "Fri, Feb 20",
       "artist": "Barstool Rodeo: Celebrating Michael Houser & Widespread Panic",
+      "opener": "DJs: S A S H A, DJ WICKED, and JAMXLIVE",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/barstool-rodeo-celebrating-michael-houser-widespread-panic",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/022026-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "_nCL_ZyZv6s"
+      "youtube_id": "_nCL_ZyZv6s",
+      "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
       "venue": "Kings",
@@ -65,7 +28,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "6KZJuYnGcVs",
+      "youtube_id": "tGivipiEv6c",
       "opener_youtube_id": "0TQPPGl-W8c"
     },
     {
@@ -89,7 +52,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "GxX0cmbP4n4",
+      "youtube_id": "AXPY8kZ8sq4",
       "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
@@ -115,7 +78,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "UZHaXw2_DLc",
+      "youtube_id": "eent9maiYQk",
       "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
@@ -179,7 +142,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "SJNVNb2sCJg"
+      "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
       "venue": "Kings",
@@ -193,6 +156,19 @@
       "doors": null,
       "youtube_id": "1P0OOQKQdZw",
       "opener_youtube_id": "qzfxdd3ckn0"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Mar 13",
+      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "opener": "Zack Mexico, Zones",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "VMePxmKXCH0",
+      "opener_youtube_id": "ZqifU_-wvR0"
     },
     {
       "venue": "Kings",
@@ -216,7 +192,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "TLUvO8vwoAM"
+      "youtube_id": "vX4QwXGra8U"
     },
     {
       "venue": "Kings",
@@ -239,7 +215,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/09/westerman-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "ZE-XqKS8R7o",
+      "youtube_id": "Ch1lNNwwa90",
       "opener_youtube_id": "x5830sQZWNg"
     },
     {
@@ -278,7 +254,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/621849706_1976353470430044_8126977795064089395_n-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "4wDH7m-t33A",
+      "youtube_id": "X2z7nL-6vzQ",
       "opener_youtube_id": "wO0bgJQuszU"
     },
     {
@@ -292,7 +268,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "dWElWhktJow",
-      "opener_youtube_id": "qjuEXKwnkLE"
+      "opener_youtube_id": "UpYapWU--JA"
     },
     {
       "venue": "Kings",
@@ -304,7 +280,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/lalalala-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "GvJUGY0EhcA",
+      "youtube_id": "AY8Q4emVqEk",
       "opener_youtube_id": "JgHMGvq14eA"
     },
     {
@@ -319,10 +295,36 @@
       "doors": null,
       "youtube_id": "n2S-3h_Pocw",
       "opener_youtube_id": "Anx2xrhcEKg"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Apr 3",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "opener": "Paul Siler",
+      "showtime": "7:15pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "0PK6ciWWk1I",
+      "opener_youtube_id": "QdCX-CDWGJA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Apr 9",
+      "artist": "Boys Go To Jupiter – ‘Now You’re A Circle’ Tour",
+      "opener": "Miki Fiki",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "KFtQ2S00_JU",
+      "opener_youtube_id": "5HCZsXqiCBc"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-17T15:16:25.461085"
+  "last_updated": "2026-02-20T05:22:32.554094"
 }

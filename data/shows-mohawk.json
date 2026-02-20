@@ -29,7 +29,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593453509",
       "ticket_url": "https://www.etix.com/ticket/p/97909278/electric-feels-austin-resound-presents",
       "youtube_id": "MmZexg8sxyk",
-      "opener_youtube_id": "7EXUvZRb_c4"
+      "opener_youtube_id": "r78xfXZb_WU"
     },
     {
       "artist": "LowDown Brass Band",
@@ -54,7 +54,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "7lDuiMyIZu4",
+      "youtube_id": "NRiOvSqn8aw",
       "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
@@ -67,8 +67,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
-      "youtube_id": "4EGi-dPtt9U",
-      "opener_youtube_id": "LXLoL7h5PKc"
+      "youtube_id": "SvRHXFOANzA",
+      "opener_youtube_id": "tGqIgl2vztQ"
     },
     {
       "artist": "SZN4",
@@ -102,8 +102,8 @@
       "venue": "Mohawk Outdoor",
       "opener": "With Senses, Good Boy Daisy",
       "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648624143649",
       "ticket_url": "https://www.etix.com/ticket/p/39723046/the-summer-set-austin-resound-presents",
       "youtube_id": "8UgIX_uL-zM",
@@ -142,7 +142,7 @@
       "opener": "Ethansroom",
       "notice": null,
       "doors": "7:00pm",
-      "showtime": "8:00pm",
+      "showtime": "8:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
       "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
       "youtube_id": "tNr4SrwNcmc",
@@ -184,7 +184,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": "K3SUPPeuRdU",
+      "youtube_id": "SkkIwO_X4i4",
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
@@ -209,7 +209,7 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": "bsTkHv9KeBY",
+      "youtube_id": "4QQj-ASXOcA",
       "opener_youtube_id": "CDl9ZMfj6aE"
     },
     {
@@ -260,7 +260,7 @@
       "showtime": "9:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648493196884",
       "ticket_url": "https://www.etix.com/ticket/p/47374733/oof-fighters-austin-mohawk-austintxindoor",
-      "youtube_id": "h_L4Rixya64",
+      "youtube_id": "ebJ2brErERQ",
       "opener_youtube_id": "o6ybSsTn1w0"
     },
     {
@@ -286,7 +286,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556382599",
       "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
-      "youtube_id": "SGPr0ASYOf4",
+      "youtube_id": "quI9Xd-En1g",
       "opener_youtube_id": "xAnNUkkNUFY"
     },
     {
@@ -312,8 +312,8 @@
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
-      "youtube_id": "BB-jGY5B5yw",
-      "opener_youtube_id": "xpNiC4ywP30"
+      "youtube_id": "vjyK81x0fzk",
+      "opener_youtube_id": "ohTEyCgvIM0"
     },
     {
       "artist": "Sarah Kinsley",
@@ -332,5 +332,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-19T05:27:53.879408"
+  "last_updated": "2026-02-20T05:23:13.564903"
 }
