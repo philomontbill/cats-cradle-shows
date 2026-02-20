@@ -26,7 +26,9 @@ class ShowsApp {
     async switchVenue(venue) {
         // Update button states
         document.querySelectorAll('.venue-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.venue === venue);
+            const isActive = btn.dataset.venue === venue;
+            btn.classList.toggle('active', isActive);
+            btn.setAttribute('aria-pressed', isActive);
         });
 
         this.currentVenue = venue;
@@ -80,29 +82,42 @@ class ShowsApp {
 
         container.innerHTML = shows.map((show, index) => this.createShowCard(show, index)).join('');
 
-        // Add click handlers for headliners
+        // Add click/key handlers for headliners
         container.querySelectorAll('.show-header').forEach((header, index) => {
             const show = shows[index];
-            header.addEventListener('click', (e) => {
-                // Don't trigger if clicking on opener or ticket button
+            const handleHeadliner = (e) => {
                 if (e.target.classList.contains('opener-name') ||
                     e.target.classList.contains('ticket-btn')) return;
                 if (show.youtube_id) {
-                    this.togglePlayer(index, show.youtube_id);
+                    this.togglePlayer(index, show.youtube_id, show.artist);
                 } else {
                     this.showNoPreview(show.artist);
+                }
+            };
+            header.addEventListener('click', handleHeadliner);
+            header.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleHeadliner(e);
                 }
             });
         });
 
-        // Add click handlers for openers
+        // Add click/key handlers for openers
         container.querySelectorAll('.opener-name.has-video').forEach((openerEl) => {
             const index = parseInt(openerEl.dataset.openerIndex);
             const show = shows[index];
             if (show.opener_youtube_id) {
-                openerEl.addEventListener('click', (e) => {
+                const handleOpener = (e) => {
                     e.stopPropagation();
-                    this.togglePlayer(index, show.opener_youtube_id);
+                    this.togglePlayer(index, show.opener_youtube_id, show.opener);
+                };
+                openerEl.addEventListener('click', handleOpener);
+                openerEl.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        handleOpener(e);
+                    }
                 });
             }
         });
@@ -122,7 +137,7 @@ class ShowsApp {
             : '';
 
         const openerHtml = show.opener
-            ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}">${this.escapeHtml(show.opener)}${show.opener_youtube_id ? ' <span class="play-icon">&#9658;</span>' : ''}</span></div>`
+            ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}"${show.opener_youtube_id ? ` tabindex="0" role="button" aria-label="${this.escapeHtml(show.opener)} — play sample"` : ''}>${this.escapeHtml(show.opener)}${show.opener_youtube_id ? ' <span class="play-icon" aria-hidden="true">&#9658;</span>' : ''}</span></div>`
             : '';
 
         const timesHtml = (show.doors || show.showtime)
@@ -136,11 +151,11 @@ class ShowsApp {
 
         return `
             <div class="show-card" data-index="${index}">
-                <div class="show-header">
+                <div class="show-header" tabindex="0" role="button" aria-label="${this.escapeHtml(show.artist)}${show.youtube_id ? ' — play sample' : ' — no preview available'}">
                     ${imageHtml}
                     <div class="show-info">
                         ${noticeHtml}
-                        <div class="artist-name has-video">${this.escapeHtml(show.artist)} <span class="play-icon ${show.youtube_id ? '' : 'no-video'}">&#9658;</span></div>
+                        <div class="artist-name has-video">${this.escapeHtml(show.artist)} <span class="play-icon ${show.youtube_id ? '' : 'no-video'}" aria-hidden="true">&#9658;</span></div>
                         ${openerHtml}
                         <div class="show-meta">
                             <span>${this.escapeHtml(show.date)}</span>
@@ -149,7 +164,7 @@ class ShowsApp {
                     </div>
                     <div class="card-right">
                         <div class="venue-tag">${this.escapeHtml(show.venue)}</div>
-                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" onclick="event.stopPropagation()">Get Tickets</a>
+                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" aria-label="Get Tickets for ${this.escapeHtml(show.artist)} (opens in new tab)" onclick="event.stopPropagation()">Get Tickets</a>
                     </div>
                 </div>
                 <div class="player-container" id="player-${index}">
@@ -159,7 +174,7 @@ class ShowsApp {
         `;
     }
 
-    togglePlayer(index, videoId) {
+    togglePlayer(index, videoId, artistName) {
         const container = document.getElementById(`player-${index}`);
         const wrapper = container.querySelector('.player-wrapper');
 
@@ -184,7 +199,8 @@ class ShowsApp {
         container.classList.add('active');
         wrapper.innerHTML = `
             <iframe
-                src="https://www.youtube.com/embed/${videoId}?rel=0"
+                src="https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1"
+                title="YouTube video player for ${this.escapeHtml(artistName || 'artist')}"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
@@ -203,21 +219,60 @@ class ShowsApp {
         const existing = document.querySelector('.no-preview-popup');
         if (existing) existing.remove();
 
+        // Save the element that triggered the modal so we can return focus
+        const previousFocus = document.activeElement;
+
         const popup = document.createElement('div');
         popup.className = 'no-preview-popup';
         popup.innerHTML = `
-            <div class="no-preview-content">
+            <div class="no-preview-content" role="dialog" aria-modal="true" aria-label="No preview available for ${this.escapeHtml(artist)}">
                 <p>No preview yet for <strong>${this.escapeHtml(artist)}</strong></p>
                 <p>Are you the artist? <a href="mailto:info@localsoundcheck.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>
-                <button class="no-preview-close">&times;</button>
+                <button class="no-preview-close" aria-label="Close dialog">&times;</button>
             </div>
         `;
         document.body.appendChild(popup);
 
-        popup.querySelector('.no-preview-close').addEventListener('click', () => popup.remove());
+        const closeBtn = popup.querySelector('.no-preview-close');
+        const emailLink = popup.querySelector('a');
+
+        const closePopup = () => {
+            popup.remove();
+            if (previousFocus) previousFocus.focus();
+        };
+
+        // Close handlers
+        closeBtn.addEventListener('click', closePopup);
         popup.addEventListener('click', (e) => {
-            if (e.target === popup) popup.remove();
+            if (e.target === popup) closePopup();
         });
+
+        // Escape key closes
+        popup.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closePopup();
+            }
+            // Focus trap — keep Tab inside the dialog
+            if (e.key === 'Tab') {
+                const focusable = [emailLink, closeBtn];
+                const first = focusable[0];
+                const last = focusable[focusable.length - 1];
+                if (e.shiftKey) {
+                    if (document.activeElement === first) {
+                        e.preventDefault();
+                        last.focus();
+                    }
+                } else {
+                    if (document.activeElement === last) {
+                        e.preventDefault();
+                        first.focus();
+                    }
+                }
+            }
+        });
+
+        // Move focus into the dialog
+        closeBtn.focus();
     }
 
     showError(venue) {

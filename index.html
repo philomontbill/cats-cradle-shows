@@ -38,28 +38,29 @@
     <!-- Using system fonts for faster load times -->
 </head>
 <body>
+    <a href="#shows-grid" class="skip-link">Skip to shows</a>
     <header class="header">
         <div class="container">
             <h1><img src="logo-icon.png" alt="" class="logo-icon">Local Soundcheck™</h1>
             <p class="subtitle">What's playing in the Triangle tonight?</p>
             <p class="about">Instant music samples for every band at your local venue. 100% free tool. Tickets take you straight to the venue.</p>
-            <div class="venue-selector">
-                <button class="venue-btn active" data-venue="catscradle">Cat's Cradle</button>
-                <button class="venue-btn" data-venue="local506">Local 506</button>
-                <button class="venue-btn" data-venue="motorco">Motorco</button>
-                <button class="venue-btn" data-venue="pinhook">The Pinhook</button>
-                <button class="venue-btn" data-venue="lincoln">Lincoln Theatre</button>
-                <button class="venue-btn" data-venue="kings">Kings</button>
-            </div>
+            <nav class="venue-selector" aria-label="Triangle venues">
+                <button class="venue-btn active" data-venue="catscradle" aria-pressed="true">Cat's Cradle</button>
+                <button class="venue-btn" data-venue="local506" aria-pressed="false">Local 506</button>
+                <button class="venue-btn" data-venue="motorco" aria-pressed="false">Motorco</button>
+                <button class="venue-btn" data-venue="pinhook" aria-pressed="false">The Pinhook</button>
+                <button class="venue-btn" data-venue="lincoln" aria-pressed="false">Lincoln Theatre</button>
+                <button class="venue-btn" data-venue="kings" aria-pressed="false">Kings</button>
+            </nav>
         </div>
     </header>
 
     <main class="main">
         <div class="container">
-            <div class="stats" id="stats"></div>
+            <div class="stats" id="stats" aria-live="polite"></div>
 
             <div class="shows-grid" id="shows-grid">
-                <div class="loading">
+                <div class="loading" role="status" aria-live="polite">
                     <div class="spinner"></div>
                     <p>Loading shows...</p>
                 </div>
@@ -71,6 +72,19 @@
         <div class="container">
             <h2>How this works</h2>
             <div class="how-it-works-image" role="img" aria-label="How Local Soundcheck works: scan venues, tap to play music, get tickets direct from venue"></div>
+        </div>
+    </section>
+
+    <section class="beyond-triangle">
+        <div class="container">
+            <h2>Beyond the Triangle</h2>
+            <nav class="venue-selector" aria-label="Other cities">
+                <button class="venue-btn" data-venue="mohawk">Mohawk Austin</button>
+                <button class="venue-btn" data-venue="boweryballroom">Bowery Ballroom</button>
+                <button class="venue-btn" data-venue="thesocial">The Social</button>
+                <button class="venue-btn" data-venue="elevation27">Elevation 27</button>
+                <button class="venue-btn" data-venue="elclub">El Club</button>
+            </nav>
         </div>
     </section>
 
@@ -86,19 +100,6 @@
             </div>
         </div>
     </footer>
-
-    <section class="beyond-triangle">
-        <div class="container">
-            <h2>Beyond the Triangle</h2>
-            <div class="venue-selector">
-                <button class="venue-btn" data-venue="mohawk">Mohawk Austin</button>
-                <button class="venue-btn" data-venue="boweryballroom">Bowery Ballroom</button>
-                <button class="venue-btn" data-venue="thesocial">The Social</button>
-                <button class="venue-btn" data-venue="elevation27">Elevation 27</button>
-                <button class="venue-btn" data-venue="elclub">El Club</button>
-            </div>
-        </div>
-    </section>
 
     <script src="app.js?v=2"></script>
 </body>

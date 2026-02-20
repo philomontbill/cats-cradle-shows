@@ -23,6 +23,27 @@ body {
     min-height: 100vh;
 }
 
+/* Skip navigation link */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #5cacee;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 0 0 8px 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    z-index: 1001;
+    transition: top 0.2s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -80,6 +101,24 @@ body {
 .venue-btn:hover {
     border-color: var(--text-muted);
     color: var(--text);
+}
+
+/* Focus-visible styles for keyboard navigation */
+:focus-visible {
+    outline: 2px solid #5cacee;
+    outline-offset: 2px;
+}
+
+.show-header:focus-visible {
+    outline: 2px solid #5cacee;
+    outline-offset: -2px;
+    border-radius: 12px;
+}
+
+.opener-name.has-video:focus-visible {
+    outline: 2px solid #5cacee;
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 .venue-btn.active {
@@ -521,8 +560,8 @@ body {
     }
 
     .venue-btn {
-        padding: 4px 10px;
-        font-size: 0.75rem;
+        padding: 10px 16px;
+        font-size: 0.8rem;
     }
 
     .show-header {
