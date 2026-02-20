@@ -1,6 +1,6 @@
 # Working Notes
 
-## Current Status (Feb 19, 2026)
+## Current Status (Feb 20, 2026)
 
 ### Email Setup
 - info@localsoundcheck.com sends and receives through Gmail
@@ -55,7 +55,6 @@ All 13 email outreach messages sent via Gmail as info@localsoundcheck.com:
 ### Not Yet Started
 - Reddit posting (draft ready, need right timing)
 - Instagram content strategy
-- Google Analytics tracking
 - Response logging / tracking automation
 
 ### Key Files
@@ -96,5 +95,78 @@ All 13 accessibility issues from the Feb 19 audit were implemented and verified 
 **Additional improvement (Feb 20, 2026):**
 - YouTube embeds now autoplay when opened (`&autoplay=1`), eliminating an extra click for all users
 
+### Operations Automation — Implemented Feb 20, 2026
+
+Three automation scripts built and integrated into the GitHub Actions nightly scrape workflow:
+
+**1. Scrape monitoring (`monitor_scrapes.py`)**
+- Compares show counts to previous run (history stored in `logs/scrape-history.json`)
+- Logs every run to `logs/scrape-report.txt`
+- Alerts on: zero shows returned, 50%+ drop from previous scrape, JSON parse failures
+- Tested locally — all 11 venues healthy on first run
+
+**2. Expanded validation (`validate_shows.py`)**
+- Original 5 checks expanded to 12+
+- New checks: cancelled/postponed keywords, tour names in artist field, duplicate artists across venues (normalization), missing date/venue/ticket URL, missing images
+- Separates warnings (need review) from info (low priority)
+- Currently catches 42 warnings and 47 info items across 11 venues
+
+**3. Show expiration (`expire_shows.py`)**
+- Marks past shows with `"expired": true` — preserves data for historical reference
+- Recalculates `total_shows`, `shows_with_video`, `shows_with_image` to exclude expired
+- `app.js` filters expired shows from display
+- First run flagged 8 expired shows across 3 venues (boweryballroom, elclub, motorco)
+
+**GitHub Actions workflow updated:**
+- All three scripts run after scrapers in nightly workflow
+- Creates a GitHub Issue labeled `scrape-alert` when monitor or validation flags issues
+- GitHub emails notification automatically (no Gmail app password needed)
+- Note: Gmail app password setup was blocked by Google 2FA configuration issue — GitHub Issues used as alternative
+
+**Design decisions (Feb 20):**
+- Alerts: log everything, email/notify only on failures
+- Thresholds: zero shows OR 50%+ drop triggers alert
+- Past shows: flag with `expired: true`, don't delete (preserve historical data)
+- Validation: log + notify on warnings, don't block data from going live
+- Timing: quick checks after each scrape, plus scripts available for manual runs
+
+### GA4 Event Tracking — Implemented Feb 20, 2026
+
+Custom GA4 events added to app.js. Confirmed working via GA4 Realtime view.
+
+| Event | Parameters | Fires when |
+|-------|-----------|------------|
+| `venue_switch` | venue_name | User clicks a different venue |
+| `sample_play` | artist, venue_name, role (headliner/opener) | User plays a YouTube sample |
+| `ticket_click` | artist, venue_name, ticket_url | User clicks Get Tickets |
+
+All events include `venue_name` for per-venue reporting. This enables future venue pitch: "we drove X ticket clicks to your site."
+
+GA4 reporting location: Reports > Business objectives > View user engagement & retention > Events
+
+### Strategy Doc Updated — Feb 20, 2026
+- Phase 2 expanded with 6 operational areas that must scale (data quality, YouTube curation, scraper maintenance, venue onboarding, inbound comms, daily checklist)
+- Operations backlog added: YouTube auto-matching (needs API key) and daily digest (needs email delivery solution)
+
+### Key Files (updated)
+- docs/strategy.md — strategy document (expanded with Phase 2 operations)
+- docs/outreach-templates.md — email and DM templates
+- docs/strategy-discussion.txt — raw old conversation (reference only)
+- outreach/summary.txt — contact list
+- outreach/emails/ — 13 personalized emails
+- outreach/instagram_dms.txt — DM targets
+- outreach/reddit-post-triangle.txt — ready-to-post Reddit content
+- generate_outreach.py — script to regenerate outreach emails
+- monitor_scrapes.py — scrape health monitoring
+- validate_shows.py — show data validation (expanded)
+- expire_shows.py — past show expiration
+- logs/scrape-history.json — previous scrape counts (auto-generated)
+- logs/scrape-report.txt — scrape monitoring log (auto-generated)
+
 ### Chrome Extension
 - Not connecting to Claude Code this session — troubleshoot next time
+
+### Notes
+- YouTube autoplay (`&autoplay=1`) does not work on mobile — browser-level restriction, not a bug
+- VS Code Live Preview blocks YouTube embeds (bot detection) — use localhost:8000 for testing video playback
+- Google 2FA enabled on Gmail account (Feb 20) but app passwords page was inaccessible — retry later
