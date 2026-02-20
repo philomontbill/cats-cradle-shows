@@ -1,4 +1,12 @@
 // Soundcheck - Multi-Venue Show Discovery App
+
+// GA4 event helper — safe to call even if gtag isn't loaded
+function trackEvent(eventName, params) {
+    if (typeof gtag === 'function') {
+        gtag('event', eventName, params);
+    }
+}
+
 class ShowsApp {
     constructor() {
         this.data = null;
@@ -33,6 +41,7 @@ class ShowsApp {
 
         this.currentVenue = venue;
         this.activePlayer = null;
+        trackEvent('venue_switch', { venue_name: venue });
         await this.loadVenue(venue);
         document.getElementById('stats').scrollIntoView({ behavior: 'smooth' });
     }
@@ -89,6 +98,11 @@ class ShowsApp {
                 if (e.target.classList.contains('opener-name') ||
                     e.target.classList.contains('ticket-btn')) return;
                 if (show.youtube_id) {
+                    trackEvent('sample_play', {
+                        artist: show.artist,
+                        venue_name: show.venue,
+                        role: 'headliner'
+                    });
                     this.togglePlayer(index, show.youtube_id, show.artist);
                 } else {
                     this.showNoPreview(show.artist);
@@ -110,6 +124,11 @@ class ShowsApp {
             if (show.opener_youtube_id) {
                 const handleOpener = (e) => {
                     e.stopPropagation();
+                    trackEvent('sample_play', {
+                        artist: show.opener,
+                        venue_name: show.venue,
+                        role: 'opener'
+                    });
                     this.togglePlayer(index, show.opener_youtube_id, show.opener);
                 };
                 openerEl.addEventListener('click', handleOpener);
@@ -164,7 +183,7 @@ class ShowsApp {
                     </div>
                     <div class="card-right">
                         <div class="venue-tag">${this.escapeHtml(show.venue)}</div>
-                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" aria-label="Get Tickets for ${this.escapeHtml(show.artist)} (opens in new tab)" onclick="event.stopPropagation()">Get Tickets</a>
+                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" aria-label="Get Tickets for ${this.escapeHtml(show.artist)} (opens in new tab)" onclick="event.stopPropagation(); trackEvent('ticket_click', { artist: '${this.escapeHtml(show.artist).replace(/'/g, "\\'")}', venue_name: '${this.escapeHtml(show.venue).replace(/'/g, "\\'")}', ticket_url: '${this.escapeHtml(ticketUrl).replace(/'/g, "\\'")}' })">Get Tickets</a>
                     </div>
                 </div>
                 <div class="player-container" id="player-${index}">
