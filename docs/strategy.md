@@ -124,6 +124,14 @@ Suggested daily review:
 - Process any artist video change requests
 - Update tracking spreadsheet with outreach responses and status changes
 
+### Operations Backlog — Not Yet Built
+
+The following items are defined and ready to build. Revisit before expanding to new cities.
+
+- **YouTube auto-matching for new artists**: Use YouTube Data API to auto-search videos for new artists, pre-fill youtube_id, flag low-confidence matches for manual review. Requires a YouTube Data API key from Google Cloud Console (free tier: ~100 searches/day). Reduces the biggest manual bottleneck in adding venues.
+
+- **Daily digest summary**: Expand the nightly GitHub Actions run to produce a consolidated daily digest — new shows added, expired shows, missing videos, scrape health, pending artist requests. Current approach uses GitHub Issues for failure alerts only. Full digest options: expand GitHub Issue to include summary data, or set up email delivery via SendGrid (free tier: 100 emails/day) or Gmail app password (blocked by Google 2FA setup issue on Feb 20, 2026 — retry later).
+
 ## Phase 3: Monetize (After Expansion)
 
 Model TBD. Possible paths: venue partnerships, artist promotion tools, sponsored placement. Will not compromise the user experience or the mission.
