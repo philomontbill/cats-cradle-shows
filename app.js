@@ -73,7 +73,7 @@ class ShowsApp {
 
     renderShows() {
         const container = document.getElementById('shows-grid');
-        const shows = this.data?.shows || [];
+        const shows = (this.data?.shows || []).filter(s => !s.expired);
 
         if (shows.length === 0) {
             this.showError(this.currentVenue);
