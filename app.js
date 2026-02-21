@@ -224,14 +224,6 @@ class ShowsApp {
                 allowfullscreen>
             </iframe>
         `;
-        // Add disclaimer above the player wrapper
-        let disclaimer = container.querySelector('.video-disclaimer');
-        if (!disclaimer) {
-            disclaimer = document.createElement('div');
-            disclaimer.className = 'video-disclaimer';
-            disclaimer.innerHTML = '<p class="disclaimer-warning"><span class="disclaimer-important">IMPORTANT!</span> Always verify the artist before purchasing tickets.</p><p class="disclaimer-body">We work hard to match every artist to the right video, but we\'re not perfect yet. We\'re a young company forging a new path for emerging talent discovery. If something looks off, let us know at <a href="mailto:info@localsoundcheck.com">info@localsoundcheck.com</a> — your input helps us improve for you and the artists.</p>';
-            container.insertBefore(disclaimer, wrapper);
-        }
         this.activePlayer = index;
 
         // Scroll the card into view
