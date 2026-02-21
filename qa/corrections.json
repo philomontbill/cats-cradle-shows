@@ -1,0 +1,15 @@
+{
+  "description": "Log of all manual YouTube match corrections. Each entry records what was wrong, what was corrected, and when. This data is used to improve matching accuracy over time.",
+  "corrections": [
+    {
+      "date": "2026-02-21",
+      "venue": "catscradle",
+      "scraped_artist": "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom",
+      "corrected_artist": "Six More Miles",
+      "corrected_opener": "North State Grass",
+      "field": "artist_name",
+      "reason": "Festival/event name scraped as artist. Real bands are Six More Miles (headliner) and North State Grass (opener).",
+      "youtube_action": "Removed incorrect festival video. Added North State Grass video (w54lLXcuv9g). Six More Miles has no video yet."
+    }
+  ]
+}
