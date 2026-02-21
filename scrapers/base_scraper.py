@@ -344,6 +344,82 @@ class BaseScraper:
         except Exception:
             return None
 
+    # --- Smart search: reuse existing high-confidence matches ---
+
+    def _load_existing_matches(self):
+        """Load artist->youtube_id mappings from the previous scrape output."""
+        matches = {}
+        try:
+            with open(self.output_filename) as f:
+                data = json.load(f)
+            shows = data.get("shows", data) if isinstance(data, dict) else data
+            for show in shows:
+                if isinstance(show, dict):
+                    artist = show.get("artist", "")
+                    yt_id = show.get("youtube_id")
+                    if artist and yt_id:
+                        matches[artist] = yt_id
+                    opener = show.get("opener", "")
+                    opener_id = show.get("opener_youtube_id")
+                    if opener and opener_id:
+                        matches[opener] = opener_id
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+        return matches
+
+    def _load_audit_scores(self):
+        """Load confidence scores from the latest audit file."""
+        scores = {}
+        audit_dir = os.path.join(_PROJECT_ROOT, "qa", "audits")
+        try:
+            audit_files = sorted(
+                [f for f in os.listdir(audit_dir) if f.endswith(".json")],
+                reverse=True
+            )
+            if not audit_files:
+                return scores
+            with open(os.path.join(audit_dir, audit_files[0])) as f:
+                audit = json.load(f)
+            for venue_data in audit.get("venues", {}).values():
+                for entry in venue_data.get("entries", []):
+                    artist = entry.get("artist", "")
+                    yt_id = entry.get("youtube_id")
+                    confidence = entry.get("confidence")
+                    if artist and yt_id and confidence is not None:
+                        scores[artist] = {
+                            "youtube_id": yt_id,
+                            "confidence": confidence,
+                            "tier": entry.get("confidence_tier", "unknown"),
+                        }
+        except (FileNotFoundError, json.JSONDecodeError, OSError):
+            pass
+        return scores
+
+    def _should_search(self, artist_name, existing_matches, audit_scores):
+        """
+        Decide whether to spend an API call on this artist.
+        Returns (should_search: bool, existing_id: str or None, reason: str).
+        """
+        if not artist_name:
+            return False, None, "no artist name"
+
+        # Always search if no existing match
+        if artist_name not in existing_matches:
+            return True, None, "new artist"
+
+        existing_id = existing_matches[artist_name]
+
+        # Check audit confidence for existing match
+        audit = audit_scores.get(artist_name)
+        if audit and audit["confidence"] is not None:
+            if audit["confidence"] >= self.CONFIDENCE_ACCEPT:
+                return False, existing_id, f"existing high confidence ({audit['confidence']})"
+            else:
+                return True, existing_id, f"existing low confidence ({audit['confidence']}), re-searching"
+
+        # Has an existing match but no audit score — keep it, don't waste a search
+        return False, existing_id, "existing match (no audit score, keeping)"
+
     # --- Match logging ---
 
     def _log_match(self, artist_name, youtube_id, confidence, tier, explanation, is_opener=False):
@@ -475,6 +551,17 @@ class BaseScraper:
         processed = []
         show_overrides = self.overrides.get('show_overrides', {})
 
+        # Load existing matches and audit scores for smart filtering
+        existing_matches = self._load_existing_matches()
+        audit_scores = self._load_audit_scores()
+        api_calls = 0
+        reused = 0
+
+        if existing_matches:
+            print(f"Loaded {len(existing_matches)} existing matches")
+        if audit_scores:
+            print(f"Loaded {len(audit_scores)} audit scores")
+
         for i, show in enumerate(shows[:limit], 1):
             # Apply show-level overrides (e.g. festival events with wrong artist names)
             scraped_artist = show.get('artist', '')
@@ -485,25 +572,49 @@ class BaseScraper:
                 if 'notice' in override:
                     show['notice'] = override['notice']
 
-            # Get YouTube for headliner
-            show['youtube_id'] = self.get_youtube_id(show.get('artist'))
+            artist = show.get('artist', '')
+            opener = show.get('opener', '')
 
-            # Get YouTube for opener if exists
-            if show.get('opener'):
-                show['opener_youtube_id'] = self.get_youtube_id(show['opener'], is_opener=True)
+            # Smart filter: check if we need to search for headliner
+            should_search, existing_id, reason = self._should_search(
+                artist, existing_matches, audit_scores
+            )
+            if should_search:
+                show['youtube_id'] = self.get_youtube_id(artist)
+                api_calls += 1
+            else:
+                show['youtube_id'] = existing_id
+                self._log_match(artist, existing_id, None, "reused", reason)
+                reused += 1
+
+            # Smart filter: check if we need to search for opener
+            if opener:
+                should_search_opener, existing_opener_id, opener_reason = self._should_search(
+                    opener, existing_matches, audit_scores
+                )
+                if should_search_opener:
+                    show['opener_youtube_id'] = self.get_youtube_id(opener, is_opener=True)
+                    api_calls += 1
+                else:
+                    show['opener_youtube_id'] = existing_opener_id
+                    self._log_match(opener, existing_opener_id, None, "reused", opener_reason, is_opener=True)
+                    reused += 1
 
             # Progress output
-            print(f"[{i}/{min(len(shows), limit)}] {show.get('artist', 'Unknown')} ({show.get('date', 'TBD')})")
-            if show.get('opener'):
-                opener_display = show['opener'][:40] + ('...' if len(show.get('opener', '')) > 40 else '')
+            print(f"[{i}/{min(len(shows), limit)}] {artist} ({show.get('date', 'TBD')})")
+            if opener:
+                opener_display = opener[:40] + ('...' if len(opener) > 40 else '')
                 print(f"        Opener: {opener_display}")
             if show.get('youtube_id'):
-                print(f"        YouTube: {show['youtube_id']}")
+                status = "reused" if not should_search else "searched"
+                print(f"        YouTube: {show['youtube_id']} ({status})")
 
             processed.append(show)
-            time.sleep(0.3)
+            if should_search:
+                time.sleep(0.3)
 
         # Save match log after processing
         self._save_match_log()
+        print(f"\nAPI calls: {api_calls} | Reused: {reused}")
 
         return processed
