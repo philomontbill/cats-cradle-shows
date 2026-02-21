@@ -13,6 +13,8 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -74,7 +76,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/shows-*.json logs/
+          git add data/shows-*.json logs/ qa/match_log.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
