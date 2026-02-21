@@ -72,13 +72,29 @@ class BaseScraper:
 
     # --- Artist name cleaning ---
 
+    # Event-name keywords — if the artist field contains these, it's not a band
+    EVENT_KEYWORDS = re.compile(
+        r'\b(Cabaret|Burlesque|Dance Party|Drag .* Rewind|Afrocentric|'
+        r'Presents|Festival|Showcase|Series|Open Mic|Karaoke|Trivia|'
+        r'Comedy Night|DJ Night|Disco Night)\b',
+        re.IGNORECASE
+    )
+
     def _clean_artist_name(self, artist_name):
-        """Clean artist name for YouTube search."""
+        """Clean artist name for YouTube search. Returns None for event names."""
         if not artist_name or len(artist_name) < 2:
             return None
-        clean = re.sub(r'\s*[-–—]\s*(Tour|US Tour|Headline Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash|Album Release).*$', '', artist_name, flags=re.IGNORECASE)
+        # Detect event names — these aren't bands
+        if self.EVENT_KEYWORDS.search(artist_name):
+            return None
+        # Strip tour/event suffixes after colon ("Kevin Devine: 20 Years..." → "Kevin Devine")
+        clean = re.sub(r':.*$', '', artist_name)
+        # Strip tour/event suffixes after dash
+        clean = re.sub(r'\s*[-–—]\s*(Tour|US Tour|Headline Tour|Wither Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash|Album Release|The \w+ Tour).*$', '', clean, flags=re.IGNORECASE)
         clean = re.sub(r'\s*\d+(st|nd|rd|th)\s+Annual.*$', '', clean, flags=re.IGNORECASE)
         clean = re.sub(r'\s*\([^)]*\)', '', clean)
+        # Split multi-artist: take first artist before comma, "w/", or "&" with surrounding names
+        clean = re.sub(r'\s+w/\s+.*$', '', clean)
         clean = re.sub(r',.*$', '', clean)
         clean = re.sub(r'\s*/\s*', ' ', clean)  # Replace slashes with spaces
         clean = clean.strip()
@@ -187,15 +203,25 @@ class BaseScraper:
         if not artist_name:
             return None
 
-        # Check overrides first
+        # Check overrides first (try raw name, then cleaned name)
         override_key = 'opener_youtube' if is_opener else 'artist_youtube'
         overrides = self.overrides.get(override_key, {})
 
-        search_name = artist_name.split(',')[0].strip() if is_opener else artist_name
+        if artist_name in overrides:
+            override_val = overrides[artist_name]
+            self._log_match(artist_name, override_val, 100, "override", "manual override", is_opener)
+            return override_val
 
+        # Clean name for search (strips tour info, multi-artist, event names)
+        search_name = self._clean_artist_name(artist_name)
+        if not search_name:
+            self._log_match(artist_name, None, 0, "skip", "event name or invalid", is_opener)
+            return None
+
+        # Check overrides with cleaned name too
         if search_name in overrides:
             override_val = overrides[search_name]
-            self._log_match(artist_name, override_val, 100, "override", "manual override", is_opener)
+            self._log_match(artist_name, override_val, 100, "override", "manual override (cleaned name)", is_opener)
             return override_val
 
         # Use API if available, otherwise fall back to scraping
@@ -205,15 +231,14 @@ class BaseScraper:
             return self._search_youtube_scrape(search_name, is_opener)
 
     def _search_youtube_api(self, artist_name, is_opener=False):
-        """Search YouTube Data API with confidence scoring."""
-        clean_name = self._clean_artist_name(artist_name)
-        if not clean_name:
+        """Search YouTube Data API with confidence scoring. Expects pre-cleaned name."""
+        if not artist_name or len(artist_name) < 2:
             self._log_match(artist_name, None, 0, "skip", "name too short or invalid", is_opener)
             return None
 
         try:
             # Search with Music category filter
-            query = f"{clean_name} official music video"
+            query = f"{artist_name} official music video"
             url = (
                 f"https://www.googleapis.com/youtube/v3/search"
                 f"?part=snippet"
@@ -305,16 +330,15 @@ class BaseScraper:
             return self._search_youtube_scrape(artist_name, is_opener)
 
     def _search_youtube_scrape(self, artist_name, is_opener=False):
-        """Fallback: Search YouTube by scraping search results."""
+        """Fallback: Search YouTube by scraping search results. Expects pre-cleaned name."""
         try:
-            clean_name = self._clean_artist_name(artist_name)
-            if not clean_name:
+            if not artist_name or len(artist_name) < 2:
                 return None
 
             search_queries = [
-                f"{clean_name} band official video",
-                f"{clean_name} band music",
-                f"{clean_name} official music video",
+                f"{artist_name} band official video",
+                f"{artist_name} band music",
+                f"{artist_name} official music video",
             ]
 
             for query_text in search_queries:

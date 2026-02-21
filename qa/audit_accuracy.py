@@ -39,11 +39,21 @@ def normalize(name):
     # Remove tour names and parenthetical info
     name = re.sub(r"\s*[-–—]\s*(tour|us tour|headline tour|album release).*$", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\(.*?\)", "", name)
+    # Remove VEVO suffix and "- Topic" suffix from channel names
+    name = re.sub(r"vevo$", "", name)
+    name = re.sub(r"\s*-\s*topic$", "", name)
+    # Normalize slashes to spaces (MODEL / ACTRIZ → model actriz)
+    name = re.sub(r"\s*/\s*", " ", name)
     # Remove punctuation
     name = re.sub(r"[^\w\s]", "", name)
     # Collapse whitespace
     name = re.sub(r"\s+", " ", name).strip()
     return name
+
+
+def compact(name):
+    """Remove all spaces and punctuation for collapsed-name matching (Drugdealer vs DRUG DEALER)."""
+    return re.sub(r"[^a-z0-9]", "", (name or "").lower())
 
 
 def word_set(text):
@@ -65,14 +75,32 @@ def score_match(artist_name, video_title, channel_name):
 
     # Exact match in channel name (strongest signal)
     if artist_norm and artist_norm in channel_norm:
-        return 95, f"artist name found in channel name"
+        return 95, "artist name found in channel name"
 
     if artist_norm and artist_norm in title_norm:
-        return 90, f"artist name found in video title"
+        return 90, "artist name found in video title"
 
     # Check channel contains artist
     if channel_norm and channel_norm in artist_norm:
-        return 85, f"channel name found in artist name"
+        return 85, "channel name found in artist name"
+
+    # Collapsed-name match (DRUG DEALER vs Drugdealer, MODEL / ACTRIZ vs ModelActriz)
+    artist_compact = compact(artist_name)
+    channel_compact = compact(channel_name or "")
+    title_compact = compact(video_title or "")
+    if artist_compact and channel_compact and (artist_compact in channel_compact or channel_compact in artist_compact):
+        return 93, "compact match with channel name"
+    if artist_compact and title_compact and artist_compact in title_compact:
+        return 88, "compact match with video title"
+
+    # VEVO or "- Topic" channel where channel base matches artist
+    raw_channel = (channel_name or "").strip()
+    if re.search(r"VEVO$", raw_channel) or re.search(r"- Topic$", raw_channel):
+        # normalize() already strips VEVO/Topic — check if what remains matches
+        if channel_norm and (channel_norm in artist_norm or artist_norm in channel_norm):
+            return 93, f"verified channel ({raw_channel})"
+        if channel_compact and (channel_compact in artist_compact or artist_compact in channel_compact):
+            return 93, f"verified channel compact match ({raw_channel})"
 
     # Word overlap scoring
     artist_words = word_set(artist_name)
