@@ -124,11 +124,58 @@ Suggested daily review:
 - Process any artist video change requests
 - Update tracking spreadsheet with outreach responses and status changes
 
+### YouTube Match Accuracy — The Core Challenge
+
+**The core problem**: The product's value depends on showing the right video for every band. A wrong video is worse than no video — it erodes trust instantly. Right now there is no way to measure how often the scraper gets it right, and no systematic way to improve it.
+
+**Confidence rate**: We need to audit every current match and assign a confidence score. That gives us a baseline — "we're at X% accuracy today" — and a way to track improvement over time.
+
+#### Stretch Goal: Proprietary Matching Algorithm as Moat
+
+This is a genuinely strong moat concept. Here's why:
+
+1. **Nobody else does this.** Bandsintown and Songkick link to Spotify. We're matching small-venue artists to YouTube videos — many of these artists barely exist on Spotify. That's already unique.
+
+2. **It's a compounding advantage.** Every manual correction, every artist-submitted preference, every override we add becomes training data. The longer we run, the better matching gets, and that's nearly impossible for a competitor to replicate quickly.
+
+3. **What we can realistically build**:
+   - **Multi-signal scoring** — instead of grabbing the first YouTube result, score candidates using channel name match, view count, music category, video title, channel verification status
+   - **Confidence tiers** — high confidence auto-accepts, medium flags for review, low gets no video assigned
+   - **Cross-reference verification** — check artist against Spotify, MusicBrainz, or Bandcamp to confirm identity before accepting a YouTube match
+   - **Name disambiguation** — handle common names, "The" prefixes, festival vs. band detection
+   - **Correction feedback loop** — log every override and wrong match to tune the scoring weights over time
+
+4. **What's beyond current scope** — training a real ML model from scratch. But we can build the data pipeline and scoring framework that would feed one later.
+
+**The honest assessment**: A well-tuned heuristic scoring algorithm with 5-6 signals can get us to 85-90%+ accuracy on small-venue artists. That's already far beyond what anyone else offers because nobody else is even attempting this match. The remaining 10-15% is the manual curation layer — which is actually a feature, not a bug, because it means a human verified the hard cases.
+
+#### Greenlit: Round 1 — Lean First Pass (Feb 21, 2026)
+
+The full vision above is the destination. Round 1 is the tightest version that delivers immediate improvement and sets up the foundation for deeper rounds.
+
+**Scope**:
+- Audit current accuracy (manual spot-check across all 11 venues) to establish baseline
+- YouTube Data API integration with **two signals**: channel name match + video in Music category
+- Confidence tiers: auto-accept / flag for review / skip
+- Only search artists who are new or have no youtube_id (preserve API quota)
+- Log everything — every match, score, and correction — so Round 2 has data to work with
+
+**API constraints**: YouTube Data API free tier allows ~100 searches/day. With 11 venues, this is sufficient but not unlimited. The "only search new/unmatched artists" filter is essential from day one.
+
+**Why this scope**: Five to six signals, cross-referencing Spotify and MusicBrainz, and name disambiguation are all valuable — but shipping two high-impact signals first gets accuracy improving now. The rest earns its way in based on what Round 1 data tells us.
+
+**Future rounds** (scope TBD based on Round 1 results):
+- Additional scoring signals (view count, channel verification, video title match)
+- Cross-reference verification (Spotify, MusicBrainz, Bandcamp)
+- Name disambiguation and normalization
+- Automatic weight tuning from correction history
+- ML pipeline if data volume justifies it
+
 ### Operations Backlog — Not Yet Built
 
 The following items are defined and ready to build. Revisit before expanding to new cities.
 
-- **YouTube auto-matching for new artists**: Use YouTube Data API to auto-search videos for new artists, pre-fill youtube_id, flag low-confidence matches for manual review. Requires a YouTube Data API key from Google Cloud Console (free tier: ~100 searches/day). Reduces the biggest manual bottleneck in adding venues.
+- **YouTube auto-matching for new artists**: Now part of the YouTube Match Accuracy plan above (Round 1 greenlit).
 
 - **Daily digest summary**: Expand the nightly GitHub Actions run to produce a consolidated daily digest — new shows added, expired shows, missing videos, scrape health, pending artist requests. Current approach uses GitHub Issues for failure alerts only. Full digest options: expand GitHub Issue to include summary data, or set up email delivery via SendGrid (free tier: 100 emails/day) or Gmail app password (blocked by Google 2FA setup issue on Feb 20, 2026 — retry later).
 
