@@ -231,9 +231,74 @@ GA4 reporting location: Reports > Business objectives > View user engagement & r
 - logs/scrape-report.txt — scrape monitoring log
 - outreach/ — outreach emails, DMs, Reddit post
 
+### YouTube Match Accuracy — Round 1 Complete (Feb 21, 2026)
+
+**Accuracy progression:**
+
+| Run | Accuracy | High | Low | No Video | What changed |
+|-----|----------|------|-----|----------|-------------|
+| Baseline (pre-API) | 77.7% | 262 | 51 | — | oEmbed audit only |
+| First API run | 94.7% | 288 | 12 | 57 | YouTube Data API + confidence scoring |
+| After name cleaning | 87.6% | 298 | 24 | 21 | Cleaned names found videos for 36 previously-missing entries (most scored low) |
+| + Event keywords | 89.8% | 299 | 21 | 28 | Null out event names |
+| + Final round | 90.3% | 298 | 19 | 31 | More event patterns, overrides |
+
+Note: accuracy dropped from 94.7% to 87.6% because name cleaning caused the scraper to find YouTube videos for entries that previously had none — mostly event names and multi-band bills that matched wrong videos. The denominator grew faster than the numerator. On the entries that had videos in both runs, accuracy improved.
+
+**What was fixed in Round 1:**
+- YouTube Data API integration with confidence scoring (replaced scraping)
+- Smart search filtering to preserve API quota (reuse high-confidence matches)
+- Audit scorer: compact matching (DRUG DEALER/Drugdealer), slash normalization, VEVO/Topic channel recognition
+- Scraper name cleaning: strip tour suffixes after colons and dashes, split multi-artist on comma/" / "/"w/", strip "Presents" suffix, strip "feat." suffix
+- Event name detection: Cabaret, Burlesque, Prom, Quizzo, Showcase, DJs:, GrrrlBands, Honoring, Tribute Band, etc.
+- Overrides added: MODEL / ACTRIZ, DRUG DEALER
+
+**19 remaining low-confidence entries (punch list for Round 2):**
+
+*Multi-artist fields using "and" as separator (Local 506 pattern):*
+1. Buck Swope and Green Room — Local 506 opener
+2. Small Doses and Chiroptera — Local 506 opener
+3. Snowblinder and Dead Halos — Local 506 opener
+4. Julian Calendar and Sonic Blooms — Local 506 opener
+5. Let's Sabbath and One After 919 — Local 506 opener
+
+*Single-word/generic band names:*
+6. Heated (x2) — Motorco headliner, matches H.E.A.T instead of the band Heated
+7. Nudey, DJ Sipper — Bowery opener, multi-artist
+
+*Multi-artist fields (comma-separated, first name too obscure):*
+8. The Rikkies & SUM SUN w/ So Impartial — Bowery headliner, "Rikkies" too obscure
+9. Ben Milk, Brady Dorrington, ChatChat — Bowery headliner, "Ben Milk" matches MILK BAND
+10. Harmony Dawn, Meera Dahlmann, Lizzy Campbell — Bowery headliner
+
+*Fan channels / wrong channel name:*
+11. Kevin Devine: 20 Years... — Bowery, correct video but fan channel "KevinDevineVideo" doesn't match scorer
+12. Siamese – US Headline Tour 2026 — Local 506, correct video but channel "Alternative Music Leader"
+13. Robert Morton 'Self Loathing...' — Local 506, wrong video (matched "Unii" instead)
+
+*Event names not yet caught:*
+14. Honoring JR feat. Audiohum... — Elevation 27 (should be null, "Honoring" keyword was added but may not have applied in this run)
+15. Last Fair Deal: A Grateful Dead Tribute Band... — Elevation 27 (tribute band, valid name, bad match)
+16. The Cast Of Beatlemania — Elevation 27 (tribute act, video is correct but scorer doesn't recognize it)
+17. Hex Files / Little Chair / Future Fix... — Pinhook (first band "Hex Files" matched wrong video)
+
+*Slash-separated with partially correct match:*
+18. SADBOY PROLIFIC / JOMIE — Motorco opener, video is SadBoyProlific (correct for first artist) but scorer can't tell
+
+**13 medium-confidence entries (may be correct, need manual verification):**
+- BEAUTY SCHOOL DROPOUT (Bowery) — video is correct, BSDVEVO channel
+- Arianna Chetram (Bowery) — video is correct, fan channel
+- Slow Teeth (Cat's Cradle) — video appears correct
+- Advance Base (Pinhook) — video is correct
+- Invisible Cities (Pinhook) — video appears correct
+- Cootie Catcher (Pinhook) — video is correct, Carpark Records channel
+- JULIA. Fish in the Percolator (Kings) — needs checking
+- Cast of Beatlemania (Elevation 27) — correct video, low score
+- 5 others at Elevation 27, Kings, Local 506 — mixed, some event names
+
 ### Next Steps
-- Run accuracy audit after first API-powered scrape to measure improvement from 77.7% baseline
-- Fix remaining 51 low-confidence matches (use audit as punch list)
-- Add DRUG DEALER override (common phrase matches Macklemore instead of the band)
-- Consider adding Model / Actriz to overrides (slash in name was fixed but channel name "ModelActrizVEVO" doesn't parse perfectly)
+- Multi-act feature: show individual band names with separate video/no-preview indicators for comma/slash-separated opener fields
+- Round 2 accuracy: address the 19 low-confidence punch list above
+- Consider "and" as band separator for Local 506 (risky — could break names like "Florence and the Machine")
+- Manual verification pass on the 13 medium-confidence entries
 - Round 2 planning: additional scoring signals based on Round 1 match log data
