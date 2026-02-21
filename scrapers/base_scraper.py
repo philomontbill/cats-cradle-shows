@@ -197,8 +197,18 @@ class BaseScraper:
     def process_shows_with_youtube(self, shows, limit=25):
         """Add YouTube IDs to shows list with progress output."""
         processed = []
+        show_overrides = self.overrides.get('show_overrides', {})
 
         for i, show in enumerate(shows[:limit], 1):
+            # Apply show-level overrides (e.g. festival events with wrong artist names)
+            scraped_artist = show.get('artist', '')
+            if scraped_artist in show_overrides:
+                override = show_overrides[scraped_artist]
+                show['artist'] = override.get('artist', show['artist'])
+                show['opener'] = override.get('opener', show.get('opener'))
+                if 'notice' in override:
+                    show['notice'] = override['notice']
+
             # Get YouTube for headliner
             show['youtube_id'] = self.get_youtube_id(show.get('artist'))
 

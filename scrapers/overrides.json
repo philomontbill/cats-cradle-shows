@@ -1,10 +1,16 @@
 {
   "artist_youtube": {
     "Night Moves": "BgpOP3Kn4Qw",
-    "NIGHT MOVES": "BgpOP3Kn4Qw",
-    "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom": null
+    "NIGHT MOVES": "BgpOP3Kn4Qw"
   },
   "opener_youtube": {
-    "Six More Miles with North State Grass": "w54lLXcuv9g"
+    "North State Grass": "w54lLXcuv9g"
+  },
+  "show_overrides": {
+    "Carrboro Bluegrass Festival Presents Bluegrass In The Backroom": {
+      "artist": "Six More Miles",
+      "opener": "North State Grass",
+      "notice": "Carrboro Bluegrass Festival"
+    }
   }
 }
