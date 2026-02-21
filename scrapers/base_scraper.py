@@ -77,9 +77,10 @@ class BaseScraper:
         r'\b(Cabaret|Burlesque|Dance Party|Drag .* Rewind|Afrocentric|'
         r'Festival|Showcase|Series|Open Mic|Karaoke|Trivia|Quizzo|'
         r'Comedy Night|DJ Night|Disco Night|Prom|Blowout|Graduation|'
-        r'Takeover|Cover Up|Rehearsal|Jamz|Hosted By|'
-        r'Songwriters Show|Blends With Friends|'
-        r'It.?s A \d+.?s Party|Party Iconic)\b',
+        r'Takeover|Cover Up|Rehearsal|Jamz|Hosted By|Honoring|'
+        r'Songwriters Show|Blends With Friends|Tribute Band|GrrrlBands|'
+        r'It.?s A \d+.?s Party|Party Iconic)\b'
+        r'|^DJs?:',  # Lines starting with "DJ:" or "DJs:"
         re.IGNORECASE
     )
 
@@ -87,13 +88,13 @@ class BaseScraper:
         """Clean artist name for YouTube search. Returns None for event names."""
         if not artist_name or len(artist_name) < 2:
             return None
+        # Check event keywords on the original name first (catches "DJs:", "GrrrlBands:", etc.)
+        if self.EVENT_KEYWORDS.search(artist_name):
+            return None
         # Strip "Presents" and everything after it (band name is before it)
         clean = re.sub(r'\s+Presents\b.*$', '', artist_name, flags=re.IGNORECASE)
         # Strip tour/event suffixes after colon ("Kevin Devine: 20 Years..." → "Kevin Devine")
         clean = re.sub(r':.*$', '', clean)
-        # Now check for event keywords on the cleaned name
-        if self.EVENT_KEYWORDS.search(clean):
-            return None
         # Strip tour/event suffixes (with or without dash prefix)
         clean = re.sub(r'\s*[-–—]\s*(Tour|US Tour|Headline Tour|Wither Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash|Album Release|The \w+ Tour).*$', '', clean, flags=re.IGNORECASE)
         clean = re.sub(r'\s+US Tour\b.*$', '', clean, flags=re.IGNORECASE)
