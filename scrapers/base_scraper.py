@@ -13,6 +13,7 @@ from datetime import datetime
 from urllib.parse import quote_plus
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
 
 
 class BaseScraper:
@@ -24,13 +25,24 @@ class BaseScraper:
     venue_website = "https://example.com"
     output_filename = "shows.json"
 
+    # Confidence thresholds
+    CONFIDENCE_ACCEPT = 70   # Auto-accept match
+    CONFIDENCE_FLAG = 40     # Flag for manual review
+    # Below 40 = skip (no video assigned)
+
     def __init__(self):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
         self.overrides = self._load_overrides()
+        self.api_key = self._load_api_key()
+        self.match_log = []
         print(f"{self.venue_name} Show Scraper")
         print("=" * 40)
+        if self.api_key:
+            print("YouTube API: enabled")
+        else:
+            print("YouTube API: not configured (falling back to scraping)")
 
     def _load_overrides(self):
         """Load manual YouTube overrides from overrides.json"""
@@ -40,9 +52,135 @@ class BaseScraper:
         except FileNotFoundError:
             return {"artist_youtube": {}, "opener_youtube": {}}
 
+    def _load_api_key(self):
+        """Load YouTube API key from .env file."""
+        env_path = os.path.join(_PROJECT_ROOT, '.env')
+        try:
+            with open(env_path) as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('YOUTUBE_API_KEY='):
+                        return line.split('=', 1)[1].strip()
+        except FileNotFoundError:
+            pass
+        # Also check environment variable (for GitHub Actions)
+        return os.environ.get('YOUTUBE_API_KEY')
+
     def scrape_shows(self):
         """Main scraping function - subclasses must implement."""
         raise NotImplementedError("Subclasses must implement scrape_shows()")
+
+    # --- Artist name cleaning ---
+
+    def _clean_artist_name(self, artist_name):
+        """Clean artist name for YouTube search."""
+        if not artist_name or len(artist_name) < 2:
+            return None
+        clean = re.sub(r'\s*[-–—]\s*(Tour|US Tour|Headline Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash|Album Release).*$', '', artist_name, flags=re.IGNORECASE)
+        clean = re.sub(r'\s*\d+(st|nd|rd|th)\s+Annual.*$', '', clean, flags=re.IGNORECASE)
+        clean = re.sub(r'\s*\([^)]*\)', '', clean)
+        clean = re.sub(r',.*$', '', clean)
+        clean = re.sub(r'\s*/\s*', ' ', clean)  # Replace slashes with spaces
+        clean = clean.strip()
+        return clean if len(clean) >= 2 else None
+
+    def _normalize(self, name):
+        """Normalize a name for comparison."""
+        if not name:
+            return ""
+        name = name.lower().strip()
+        name = re.sub(r"^the\s+", "", name)
+        name = re.sub(r"\s*[-–—]\s*(tour|us tour|headline tour|album release).*$", "", name, flags=re.IGNORECASE)
+        name = re.sub(r"\s*\(.*?\)", "", name)
+        name = re.sub(r"\s*/\s*", " ", name)  # Replace slashes with spaces
+        name = re.sub(r"[^\w\s]", "", name)
+        name = re.sub(r"\s+", " ", name).strip()
+        return name
+
+    def _word_set(self, text):
+        """Get set of meaningful words (3+ chars) from text."""
+        return set(w for w in self._normalize(text).split() if len(w) >= 3)
+
+    # --- Confidence scoring ---
+
+    def _score_match(self, artist_name, video_title, channel_name):
+        """
+        Score how well a YouTube video matches an artist name.
+        Returns (score 0-100, explanation).
+
+        Channel name match is the strongest signal — it means the video
+        is on the artist's own channel. Title-only matches are weaker
+        because common words (Nothing, Heated, Drug Dealer) appear in
+        many unrelated song titles.
+        """
+        if not artist_name or (not video_title and not channel_name):
+            return 0, "no data to compare"
+
+        artist_norm = self._normalize(artist_name)
+        title_norm = self._normalize(video_title or "")
+        channel_norm = self._normalize(channel_name or "")
+
+        if not artist_norm:
+            return 0, "no meaningful artist name"
+
+        artist_words = self._word_set(artist_name)
+        channel_words = self._word_set(channel_name or "")
+        title_words = self._word_set(video_title or "")
+        is_single_word = len(artist_words) <= 1
+
+        # --- CHANNEL NAME MATCHES (strong signal) ---
+
+        # Full artist name found in channel name
+        if artist_norm in channel_norm:
+            return 95, "artist name found in channel name"
+
+        # Channel name found in artist name
+        if channel_norm and len(channel_norm) >= 3 and channel_norm in artist_norm:
+            return 85, "channel name found in artist name"
+
+        # Strong channel word overlap
+        channel_overlap = artist_words & channel_words
+        if channel_overlap:
+            ratio = len(channel_overlap) / len(artist_words)
+            if ratio >= 0.5:
+                return int(70 + ratio * 20), f"channel match: {', '.join(sorted(channel_overlap))}"
+
+        # --- TITLE-ONLY MATCHES (weaker, needs caution) ---
+
+        # For single-word artist names, title matches are unreliable
+        # "Nothing" matches "I Have Nothing", "Heated" matches "HEATED" by Beyoncé
+        if is_single_word:
+            # Only accept title match if it starts with the artist name
+            if title_norm.startswith(artist_norm):
+                return 55, "single-word artist at start of title (no channel match)"
+            # Otherwise very low confidence
+            title_overlap = artist_words & title_words
+            if title_overlap:
+                return 20, f"single-word title match (ambiguous): {', '.join(sorted(title_overlap))}"
+            return 5, "no match"
+
+        # Multi-word artist: full name in title is decent signal
+        if artist_norm in title_norm:
+            return 75, "multi-word artist name found in video title"
+
+        # Multi-word artist: word overlap with title
+        title_overlap = artist_words & title_words
+        if title_overlap:
+            ratio = len(title_overlap) / len(artist_words)
+            if ratio >= 0.5:
+                return int(50 + ratio * 20), f"title match: {', '.join(sorted(title_overlap))}"
+
+        # --- PARTIAL MATCHES (low confidence) ---
+
+        all_words = title_words | channel_words
+        any_overlap = artist_words & all_words
+        if any_overlap:
+            ratio = len(any_overlap) / len(artist_words)
+            return int(20 + ratio * 25), f"partial: {', '.join(sorted(any_overlap))}"
+
+        return 5, "no match"
+
+    # --- YouTube search methods ---
 
     def get_youtube_id(self, artist_name, is_opener=False):
         """Get YouTube video ID for an artist, checking overrides first."""
@@ -53,31 +191,126 @@ class BaseScraper:
         override_key = 'opener_youtube' if is_opener else 'artist_youtube'
         overrides = self.overrides.get(override_key, {})
 
-        # For openers, just use first name if comma-separated
         search_name = artist_name.split(',')[0].strip() if is_opener else artist_name
 
         if search_name in overrides:
-            return overrides[search_name]
+            override_val = overrides[search_name]
+            self._log_match(artist_name, override_val, 100, "override", "manual override", is_opener)
+            return override_val
 
-        return self._search_youtube(search_name)
+        # Use API if available, otherwise fall back to scraping
+        if self.api_key:
+            return self._search_youtube_api(search_name, is_opener)
+        else:
+            return self._search_youtube_scrape(search_name, is_opener)
 
-    def _search_youtube(self, artist_name):
-        """Search YouTube for artist's music by scraping search results."""
+    def _search_youtube_api(self, artist_name, is_opener=False):
+        """Search YouTube Data API with confidence scoring."""
+        clean_name = self._clean_artist_name(artist_name)
+        if not clean_name:
+            self._log_match(artist_name, None, 0, "skip", "name too short or invalid", is_opener)
+            return None
+
         try:
-            if not artist_name or len(artist_name) < 2:
+            # Search with Music category filter
+            query = f"{clean_name} official music video"
+            url = (
+                f"https://www.googleapis.com/youtube/v3/search"
+                f"?part=snippet"
+                f"&q={quote_plus(query)}"
+                f"&type=video"
+                f"&videoCategoryId=10"
+                f"&maxResults=5"
+                f"&key={self.api_key}"
+            )
+
+            resp = requests.get(url, timeout=10)
+            if resp.status_code == 403:
+                print(f"    ⚠ YouTube API quota exceeded, falling back to scraping")
+                return self._search_youtube_scrape(artist_name, is_opener)
+            if resp.status_code != 200:
+                print(f"    ⚠ YouTube API error {resp.status_code}")
+                return self._search_youtube_scrape(artist_name, is_opener)
+
+            data = resp.json()
+            items = data.get("items", [])
+
+            if not items:
+                # Retry without Music category filter
+                url_no_cat = (
+                    f"https://www.googleapis.com/youtube/v3/search"
+                    f"?part=snippet"
+                    f"&q={quote_plus(clean_name + ' band music')}"
+                    f"&type=video"
+                    f"&maxResults=5"
+                    f"&key={self.api_key}"
+                )
+                resp2 = requests.get(url_no_cat, timeout=10)
+                if resp2.status_code == 200:
+                    items = resp2.json().get("items", [])
+
+            if not items:
+                self._log_match(artist_name, None, 0, "no_results", "no YouTube results found", is_opener)
                 return None
 
-            # Clean up artist name for search
-            clean_name = re.sub(r'\s*[-–]\s*(Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash).*$', '', artist_name, flags=re.IGNORECASE)
-            clean_name = re.sub(r'\s*\d+(st|nd|rd|th)\s+Annual.*$', '', clean_name, flags=re.IGNORECASE)
-            clean_name = re.sub(r'\s*\([^)]*\)', '', clean_name)  # Remove parentheses
-            clean_name = re.sub(r',.*$', '', clean_name)  # Remove everything after comma
-            clean_name = clean_name.strip()
+            # Score each candidate and pick the best
+            best_id = None
+            best_score = 0
+            best_explanation = ""
+            best_title = ""
+            best_channel = ""
 
-            if len(clean_name) < 2:
+            for item in items:
+                snippet = item.get("snippet", {})
+                video_id = item.get("id", {}).get("videoId")
+                title = snippet.get("title", "")
+                channel = snippet.get("channelTitle", "")
+
+                score, explanation = self._score_match(clean_name, title, channel)
+
+                # Bonus: if found in Music category search, add 5 points
+                score = min(score + 5, 100)
+
+                if score > best_score:
+                    best_score = score
+                    best_id = video_id
+                    best_explanation = explanation
+                    best_title = title
+                    best_channel = channel
+
+            # Apply confidence threshold
+            if best_score >= self.CONFIDENCE_ACCEPT:
+                tier = "accept"
+                result_id = best_id
+            elif best_score >= self.CONFIDENCE_FLAG:
+                tier = "flag"
+                result_id = best_id  # Accept but flag for review
+            else:
+                tier = "skip"
+                result_id = None
+
+            self._log_match(
+                artist_name, result_id, best_score, tier,
+                f"{best_explanation} | video: {best_title} | channel: {best_channel}",
+                is_opener
+            )
+
+            if tier == "flag":
+                print(f"    ⚠ Flagged ({best_score}): {best_title} — {best_channel}")
+
+            return result_id
+
+        except Exception as e:
+            print(f"    ⚠ API error: {e}")
+            return self._search_youtube_scrape(artist_name, is_opener)
+
+    def _search_youtube_scrape(self, artist_name, is_opener=False):
+        """Fallback: Search YouTube by scraping search results."""
+        try:
+            clean_name = self._clean_artist_name(artist_name)
+            if not clean_name:
                 return None
 
-            # Try multiple search strategies
             search_queries = [
                 f"{clean_name} band official video",
                 f"{clean_name} band music",
@@ -99,14 +332,59 @@ class BaseScraper:
                     for pattern in patterns:
                         matches = re.findall(pattern, response.text)
                         if matches:
-                            return matches[0]
+                            video_id = matches[0]
+                            self._log_match(artist_name, video_id, None, "scrape_fallback", "scraped (no confidence score)", is_opener)
+                            return video_id
 
                 time.sleep(0.3)
 
+            self._log_match(artist_name, None, 0, "no_results", "scrape fallback found nothing", is_opener)
             return None
 
         except Exception:
             return None
+
+    # --- Match logging ---
+
+    def _log_match(self, artist_name, youtube_id, confidence, tier, explanation, is_opener=False):
+        """Log a match result for QA review."""
+        self.match_log.append({
+            "artist": artist_name,
+            "role": "opener" if is_opener else "headliner",
+            "youtube_id": youtube_id,
+            "confidence": confidence,
+            "tier": tier,
+            "explanation": explanation,
+            "timestamp": datetime.now().isoformat(),
+            "venue": self.venue_name,
+        })
+
+    def _save_match_log(self):
+        """Save match log to qa/match_log.json (append to existing)."""
+        if not self.match_log:
+            return
+
+        log_path = os.path.join(_PROJECT_ROOT, "qa", "match_log.json")
+        existing = []
+        try:
+            with open(log_path) as f:
+                existing = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+
+        existing.extend(self.match_log)
+
+        os.makedirs(os.path.dirname(log_path), exist_ok=True)
+        with open(log_path, "w") as f:
+            json.dump(existing, f, indent=2)
+
+        accepted = sum(1 for m in self.match_log if m["tier"] == "accept")
+        flagged = sum(1 for m in self.match_log if m["tier"] == "flag")
+        skipped = sum(1 for m in self.match_log if m["tier"] == "skip")
+        overrides = sum(1 for m in self.match_log if m["tier"] == "override")
+        print(f"\nMatch log: {accepted} accepted, {flagged} flagged, {skipped} skipped, {overrides} overrides")
+
+    # --- Show processing ---
 
     def save_json(self, shows):
         """Save shows to JSON file."""
@@ -136,11 +414,10 @@ class BaseScraper:
             today = datetime.now().date()
             current_year = today.year
 
-            # Try provided format first
             if input_format:
                 try:
                     parsed = datetime.strptime(date_str, input_format)
-                    if parsed.year == 1900:  # No year in format
+                    if parsed.year == 1900:
                         parsed = parsed.replace(year=current_year)
                         if parsed.date() < today:
                             parsed = parsed.replace(year=current_year + 1)
@@ -148,7 +425,6 @@ class BaseScraper:
                 except ValueError:
                     pass
 
-            # Try common formats
             formats = [
                 "%m/%d/%Y",
                 "%Y-%m-%d",
@@ -165,7 +441,7 @@ class BaseScraper:
             for fmt in formats:
                 try:
                     parsed = datetime.strptime(clean, fmt)
-                    if parsed.year == 1900:  # No year in format
+                    if parsed.year == 1900:
                         parsed = parsed.replace(year=current_year)
                         if parsed.date() < today:
                             parsed = parsed.replace(year=current_year + 1)
@@ -225,6 +501,9 @@ class BaseScraper:
                 print(f"        YouTube: {show['youtube_id']}")
 
             processed.append(show)
-            time.sleep(0.5)  # Respectful delay
+            time.sleep(0.3)
+
+        # Save match log after processing
+        self._save_match_log()
 
         return processed
