@@ -101,7 +101,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/nc-songwriters-show-feat-jon-wood-steph-maguire-tan-sanders-drew-johnson-sophie-taylor-roy-stewart-brent-underwood-adam-fisher.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/99064014/nc-songwriters-show-featjon-woodsteph-maguiretan-sandersdrew-johnsonsophie-taylorroy-stewartbrent-underwoodadam-fisher-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "S6-Ql6jZ9gI"
+      "youtube_id": null
     },
     {
       "venue": "Lincoln Theatre",
@@ -296,7 +296,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T18:53:34.933844"
+  "last_updated": "2026-02-21T19:19:06.990013"
 }

@@ -39,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/be6/9a911d69-360d-4590-b379-e0b357f4abe6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-baxbys-present-nyc-prom/",
-      "youtube_id": "s5KKNSTrPzQ",
+      "youtube_id": null,
       "opener_youtube_id": "9ZMoDykgFPE"
     },
     {
@@ -173,7 +173,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "Ip3DO5EBhfY"
+      "youtube_id": "V7HwYxxsbkY"
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
@@ -221,7 +221,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/12d/a896c5ad-48e9-4902-9790-cb4c0c51712d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/beauty-school-dropout-presents-where-did-all-the-butterflies-go/",
-      "youtube_id": null
+      "youtube_id": "6UplsJkRz10"
     },
     {
       "artist": "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",
@@ -311,5 +311,5 @@
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T18:55:47.802031"
+  "last_updated": "2026-02-21T19:20:33.376274"
 }

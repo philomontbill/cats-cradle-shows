@@ -26,7 +26,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/02/IMG_20260206_164902.png",
       "ticket_url": "https://local506.com/event/shameless-boutique-blowout-sale/",
       "notice": null,
-      "youtube_id": "Ff2BJY78keM"
+      "youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -52,7 +52,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/75939422/square-one-with-buck-swope-and-green-room-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "DeQtFGexB2M",
-      "opener_youtube_id": "yYqXExMQZFI"
+      "opener_youtube_id": "La3U41b0WSU"
     },
     {
       "venue": "Local 506",
@@ -189,7 +189,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "_DyW7jWaO-0",
-      "opener_youtube_id": "WW6YidH0kYk"
+      "opener_youtube_id": "WByGv-qdZ4w"
     },
     {
       "venue": "Local 506",
@@ -292,7 +292,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/02/robert-morton-self-loathing-never-got-me-anywhere-album-release-show-with-jack-the-songman-and-chris-chism.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/80830016/robert-morton-self-loathing-never-got-me-anywherealbum-release-show-with-jack-the-songman-and-chris-chism-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "2wr1dINyYrk",
+      "youtube_id": "IwMZJs6FolQ",
       "opener_youtube_id": "YpCdz3awwzA"
     },
     {
@@ -323,7 +323,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T18:53:21.010497"
+  "last_updated": "2026-02-21T19:18:55.142155"
 }

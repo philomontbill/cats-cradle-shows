@@ -39,7 +39,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "HjLCfII2F-s",
+      "youtube_id": "RDDSfYpFFfI",
       "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
@@ -65,7 +65,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "Dhl6dRRDHJs",
+      "youtube_id": null,
       "opener_youtube_id": "84vvHdNMmxQ"
     },
     {
@@ -154,7 +154,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "M_RDYfU0S4U",
+      "youtube_id": "nlbQJHI2ILs",
       "opener_youtube_id": "ZqifU_-wvR0"
     },
     {
@@ -167,7 +167,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-1-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "0PK6ciWWk1I",
+      "youtube_id": null,
       "opener_youtube_id": "_JkUpouxAzk"
     },
     {
@@ -179,7 +179,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": null
+      "youtube_id": "KUnYY3uCwTE"
     },
     {
       "venue": "Kings",
@@ -293,7 +293,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "0PK6ciWWk1I",
+      "youtube_id": null,
       "opener_youtube_id": "_JkUpouxAzk"
     },
     {
@@ -324,7 +324,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 24,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T18:53:42.669669"
+  "last_updated": "2026-02-21T19:19:13.305654"
 }
