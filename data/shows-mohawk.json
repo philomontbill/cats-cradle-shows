@@ -145,8 +145,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "eAgxVPn0B90",
+      "opener_youtube_id": "89Cg5LiXCw8"
     },
     {
       "artist": "Nothing",
@@ -196,7 +196,7 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": null,
+      "youtube_id": "MJLD8z4jkaQ",
       "opener_youtube_id": "CDl9ZMfj6aE"
     },
     {
@@ -330,7 +330,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T15:50:03.528710"
+  "last_updated": "2026-02-21T18:53:47.023782"
 }
