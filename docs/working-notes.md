@@ -306,9 +306,49 @@ Purpose: protect users from acting on a wrong video match, and turn users into a
 
 Files modified: app.js (disclaimer element inserted above player wrapper), styles.css (`.video-disclaimer`, `.disclaimer-warning`, `.disclaimer-important`, `.disclaimer-body`)
 
+---
+
+## Session: Feb 21, 2026 (continued)
+
+### Accuracy Round 1 — Completed
+
+Added accuracy audit to the nightly GitHub Actions workflow. Ran 4 manual workflow runs to iterate on improvements.
+
+**Audit scorer fixes (qa/audit_accuracy.py):**
+- Added `compact()` function for collapsed-name matching (DRUG DEALER vs Drugdealer)
+- Slash normalization in `normalize()` (MODEL / ACTRIZ)
+- VEVO and "- Topic" channel recognition as strong signals
+
+**Scraper name cleaning improvements (scrapers/base_scraper.py):**
+- Strip "Presents" as suffix (keeps band name: "Beauty School Dropout Presents: ..." → "Beauty School Dropout")
+- Strip tour/event info after colons ("Kevin Devine: 20 Years..." → "Kevin Devine")
+- Split multi-artist on comma, " / " (space-slash-space), and "w/"
+- No-space slash preserved as single band name (Model/Actriz stays intact)
+- Strip "US Tour", "Album Release", "feat." suffixes without dash prefix
+- Event name detection expanded: Prom, Quizzo, Blowout, Graduation, Takeover, Honoring, Tribute Band, GrrrlBands, DJs:, Songwriters Show, Blends With Friends, Party Iconic, "It's A 2000s Party"
+- Check event keywords on original name before colon-stripping
+
+**Overrides added:** MODEL / ACTRIZ (`37ptdYkJ1d0`), DRUG DEALER (`cHY-rgmjEq4`)
+
+**Accuracy progression:** 77.7% → 94.7% → 87.6% → 89.8% → 90.3%
+- The drop from 94.7% to 87.6% was a denominator problem — name cleaning found videos for 36 previously-missing entries that mostly scored low (event names, multi-band bills)
+- On entries that had videos in both runs, accuracy improved
+
+### Video Disclaimer — Implemented
+
+Added disclaimer above the YouTube player on every video preview:
+- **Red bold underlined**: "IMPORTANT!" followed by "Always verify the artist before purchasing tickets."
+- **Muted gray**: Invites users to report mismatches to info@localsoundcheck.com
+- Purpose: protect users from wrong matches + create user feedback loop for accuracy
+
+### Peter McPoland Video
+
+Currently serving a YouTube Short (`PcqWYLat8mc` — "Big Lucky album out tonight"). His official channel has a better option: "What Do You Do To Me" (Official Video, `x6nNVUSK-3Y`) from the Big Lucky album. Decided to let the scraper handle it — the colon-stripping will clean "Peter McPoland: Big Lucky Tour" to "Peter McPoland" on the next nightly run, which should get a better API match.
+
 ### Next Steps
-- Multi-act feature: show individual band names with separate video/no-preview indicators for comma/slash-separated opener fields
-- Round 2 accuracy: address the 19 low-confidence punch list above
-- Consider "and" as band separator for Local 506 (risky — could break names like "Florence and the Machine")
+- Multi-act feature: show individual band names with separate video/no-preview indicators for comma/slash-separated opener fields (task #13)
+- Round 2 accuracy: address the 19 low-confidence punch list (see above)
+- Consider "and" as band separator for Local 506 (risky — could break "Florence and the Machine" type names)
 - Manual verification pass on the 13 medium-confidence entries
+- Check Peter McPoland video after tonight's nightly scrape
 - Round 2 planning: additional scoring signals based on Round 1 match log data
