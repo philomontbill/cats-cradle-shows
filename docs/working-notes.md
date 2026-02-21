@@ -156,10 +156,9 @@ GA4 reporting location: Reports > Business objectives > View user engagement & r
 - outreach/emails/ — 13 personalized emails
 - outreach/instagram_dms.txt — DM targets
 - outreach/reddit-post-triangle.txt — ready-to-post Reddit content
-- generate_outreach.py — script to regenerate outreach emails
-- monitor_scrapes.py — scrape health monitoring
-- validate_shows.py — show data validation (expanded)
-- expire_shows.py — past show expiration
+- scripts/monitor_scrapes.py — scrape health monitoring
+- scripts/validate_shows.py — show data validation (expanded)
+- scripts/expire_shows.py — past show expiration
 - logs/scrape-history.json — previous scrape counts (auto-generated)
 - logs/scrape-report.txt — scrape monitoring log (auto-generated)
 

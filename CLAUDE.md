@@ -11,4 +11,4 @@ When updating or reviewing show data (`data/shows-*.json`), flag entries that lo
 - **Missing youtube_id** — no video preview for the show
 - **Opener listed but no opener video** — opener won't be playable
 
-Run `python3 validate_shows.py` after scraping or updating show data to catch these automatically.
+Run `python3 scripts/validate_shows.py` after scraping or updating show data to catch these automatically.

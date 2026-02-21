@@ -58,17 +58,17 @@ jobs:
         run: python scrapers/scraper_mercuryeast.py
 
       - name: Expire past shows
-        run: python expire_shows.py
+        run: python scripts/expire_shows.py
 
       - name: Monitor scrape results
         id: monitor
         continue-on-error: true
-        run: python monitor_scrapes.py
+        run: python scripts/monitor_scrapes.py
 
       - name: Validate show data
         id: validate
         continue-on-error: true
-        run: python validate_shows.py
+        run: python scripts/validate_shows.py
 
       - name: Commit and push if changed
         run: |
