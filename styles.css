@@ -413,6 +413,36 @@ body {
     border: none;
 }
 
+/* Video Disclaimer */
+.video-disclaimer {
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+}
+
+.disclaimer-warning {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #e74c3c;
+    margin: 0 0 4px;
+}
+
+.disclaimer-important {
+    text-decoration: underline;
+}
+
+.disclaimer-body {
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.disclaimer-body a {
+    color: var(--text-muted);
+    text-decoration: underline;
+}
+
 /* Loading State */
 .loading {
     text-align: center;
