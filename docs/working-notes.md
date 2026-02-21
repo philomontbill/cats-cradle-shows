@@ -296,6 +296,16 @@ Note: accuracy dropped from 94.7% to 87.6% because name cleaning caused the scra
 - Cast of Beatlemania (Elevation 27) — correct video, low score
 - 5 others at Elevation 27, Kings, Local 506 — mixed, some event names
 
+### Video Disclaimer — Implemented Feb 21, 2026
+
+Added a disclaimer that appears above the YouTube player every time a user clicks to preview an artist. Two lines:
+- **Red bold**: "IMPORTANT! Always verify the artist before purchasing tickets." ("IMPORTANT!" is underlined)
+- **Muted gray**: Explains we're a young company, invites users to report mismatches to info@localsoundcheck.com
+
+Purpose: protect users from acting on a wrong video match, and turn users into a feedback loop for accuracy improvement. Styled to be prominent without blocking the video experience.
+
+Files modified: app.js (disclaimer element inserted above player wrapper), styles.css (`.video-disclaimer`, `.disclaimer-warning`, `.disclaimer-important`, `.disclaimer-body`)
+
 ### Next Steps
 - Multi-act feature: show individual band names with separate video/no-preview indicators for comma/slash-separated opener fields
 - Round 2 accuracy: address the 19 low-confidence punch list above
