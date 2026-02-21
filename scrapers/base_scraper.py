@@ -75,8 +75,11 @@ class BaseScraper:
     # Event-name keywords — if the artist field contains these, it's not a band
     EVENT_KEYWORDS = re.compile(
         r'\b(Cabaret|Burlesque|Dance Party|Drag .* Rewind|Afrocentric|'
-        r'Presents|Festival|Showcase|Series|Open Mic|Karaoke|Trivia|'
-        r'Comedy Night|DJ Night|Disco Night)\b',
+        r'Festival|Showcase|Series|Open Mic|Karaoke|Trivia|Quizzo|'
+        r'Comedy Night|DJ Night|Disco Night|Prom|Blowout|Graduation|'
+        r'Takeover|Cover Up|Rehearsal|Jamz|Hosted By|'
+        r'Songwriters Show|Blends With Friends|'
+        r'It.?s A \d+.?s Party|Party Iconic)\b',
         re.IGNORECASE
     )
 
@@ -84,19 +87,25 @@ class BaseScraper:
         """Clean artist name for YouTube search. Returns None for event names."""
         if not artist_name or len(artist_name) < 2:
             return None
-        # Detect event names — these aren't bands
-        if self.EVENT_KEYWORDS.search(artist_name):
-            return None
+        # Strip "Presents" and everything after it (band name is before it)
+        clean = re.sub(r'\s+Presents\b.*$', '', artist_name, flags=re.IGNORECASE)
         # Strip tour/event suffixes after colon ("Kevin Devine: 20 Years..." → "Kevin Devine")
-        clean = re.sub(r':.*$', '', artist_name)
-        # Strip tour/event suffixes after dash
+        clean = re.sub(r':.*$', '', clean)
+        # Now check for event keywords on the cleaned name
+        if self.EVENT_KEYWORDS.search(clean):
+            return None
+        # Strip tour/event suffixes (with or without dash prefix)
         clean = re.sub(r'\s*[-–—]\s*(Tour|US Tour|Headline Tour|Wither Tour|Live|Concert|Show|Anniversary|Tribute|Benefit|Dance|Jam|Bash|Album Release|The \w+ Tour).*$', '', clean, flags=re.IGNORECASE)
+        clean = re.sub(r'\s+US Tour\b.*$', '', clean, flags=re.IGNORECASE)
+        clean = re.sub(r'\s+Album Release\b.*$', '', clean, flags=re.IGNORECASE)
         clean = re.sub(r'\s*\d+(st|nd|rd|th)\s+Annual.*$', '', clean, flags=re.IGNORECASE)
         clean = re.sub(r'\s*\([^)]*\)', '', clean)
-        # Split multi-artist: take first artist before comma, "w/", or "&" with surrounding names
+        # Strip "feat." / "Feat:" suffixes
+        clean = re.sub(r'\s+feat[.:]\s+.*$', '', clean, flags=re.IGNORECASE)
+        # Split multi-artist: take first artist before comma, " / ", or "w/"
         clean = re.sub(r'\s+w/\s+.*$', '', clean)
         clean = re.sub(r',.*$', '', clean)
-        clean = re.sub(r'\s*/\s*', ' ', clean)  # Replace slashes with spaces
+        clean = re.sub(r'\s+/\s+.*$', '', clean)  # " / " = band separator; "Model/Actriz" stays intact
         clean = clean.strip()
         return clean if len(clean) >= 2 else None
 
