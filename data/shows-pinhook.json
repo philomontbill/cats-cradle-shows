@@ -102,7 +102,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/le-frique-discover-afrique-an-all-afrocentric-cabaret-dance-party.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/52555205/le-friquedisco-afriquean-all-afrocentric-cabaret-and-dance-party-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "aXgSHL7efKg"
+      "youtube_id": null
     },
     {
       "venue": "The Pinhook",
@@ -282,7 +282,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:19:06.124677"
+  "last_updated": "2026-02-21T19:28:04.834762"
 }

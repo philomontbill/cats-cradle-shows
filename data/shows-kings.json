@@ -16,7 +16,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "tGivipiEv6c",
-      "opener_youtube_id": "I9lWfAemdNg"
+      "opener_youtube_id": null
     },
     {
       "venue": "Kings",
@@ -154,7 +154,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "nlbQJHI2ILs",
+      "youtube_id": "iSxNP-1VpjE",
       "opener_youtube_id": "ZqifU_-wvR0"
     },
     {
@@ -179,7 +179,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "KUnYY3uCwTE"
+      "youtube_id": null
     },
     {
       "venue": "Kings",
@@ -324,7 +324,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:19:13.305654"
+  "last_updated": "2026-02-21T19:28:09.469948"
 }

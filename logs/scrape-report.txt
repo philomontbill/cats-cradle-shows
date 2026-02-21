@@ -70,3 +70,21 @@ Venue Summary:
   pinhook: 25 shows (was 25)
   thesocial: 11 shows (was 11)
 
+
+============================================================
+Scrape Monitor — 2026-02-21 19:29:45
+============================================================
+
+Venue Summary:
+  boweryballroom: 25 shows (was 25)
+  catscradle: 25 shows (was 25)
+  elclub: 21 shows (was 21)
+  elevation27: 25 shows (was 25)
+  kings: 25 shows (was 25)
+  lincoln: 25 shows (was 25)
+  local506: 25 shows (was 25)
+  mohawk: 25 shows (was 25)
+  motorco: 25 shows (was 25)
+  pinhook: 25 shows (was 25)
+  thesocial: 11 shows (was 11)
+
