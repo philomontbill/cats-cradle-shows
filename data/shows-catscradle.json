@@ -67,7 +67,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null,
+      "youtube_id": "82fR-6N0JQc",
       "opener_youtube_id": "w54lLXcuv9g"
     },
     {
@@ -184,7 +184,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
       "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "_WaG4xiKpVM",
-      "opener_youtube_id": "HPi3PpuCyo8"
+      "opener_youtube_id": "Cki-mnHhNtY"
     },
     {
       "artist": "Nothing",
@@ -235,7 +235,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Dirtwire_2031311762873762.jpg",
       "event_url": "https://catscradle.com/event/dirtwire-universal-language-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "qgn1asrZWv4",
+      "youtube_id": "M9ZAle73g_8",
       "opener_youtube_id": "zE9rdEcJ2hs"
     },
     {
@@ -248,7 +248,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Slow_1655861742119655.jpg",
       "event_url": "https://catscradle.com/event/slow-teeth-scrape-minor-stars/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "oTi8bvOc2VE"
+      "youtube_id": "3aR5e_mJHDM"
     },
     {
       "artist": "The Nine Lives Flea Market",
@@ -328,5 +328,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T05:09:37.104213"
+  "last_updated": "2026-02-21T15:49:18.118153"
 }

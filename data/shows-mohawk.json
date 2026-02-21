@@ -6,20 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Come and Shave It",
-      "date": "Fri, Feb 20",
-      "venue": "Mohawk Indoor",
-      "opener": "A Beard and Moustache Competition, Dj Jester the Filipino Fist",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "7:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648506488717",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648510642214",
-      "youtube_id": "hhSs1j2KaiU",
-      "opener_youtube_id": "j42E15aoH1E",
-      "expired": true
-    },
-    {
       "artist": "Electric Feels",
       "date": "Sat, Feb 21",
       "venue": "Mohawk Outdoor",
@@ -30,7 +16,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593453509",
       "ticket_url": "https://www.etix.com/ticket/p/97909278/electric-feels-austin-resound-presents",
       "youtube_id": "MmZexg8sxyk",
-      "opener_youtube_id": "r78xfXZb_WU"
+      "opener_youtube_id": "7EXUvZRb_c4"
     },
     {
       "artist": "LowDown Brass Band",
@@ -95,7 +81,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "9EKi2E9dVY8"
+      "opener_youtube_id": "pOTkCgkxqyg"
     },
     {
       "artist": "The Summer Set",
@@ -124,19 +110,6 @@
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
-      "artist": "Yellow Days",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Outdoor",
-      "opener": "Rue Jacobs",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
-      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
-      "youtube_id": "jpYwsHTLv9o",
-      "opener_youtube_id": "Q83W9q34RDs"
-    },
-    {
       "artist": "Clover County",
       "date": "Fri, Mar 06",
       "venue": "Mohawk Indoor",
@@ -150,6 +123,19 @@
       "opener_youtube_id": "DMbAjG_pK28"
     },
     {
+      "artist": "Yellow Days",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Outdoor",
+      "opener": "Rue Jacobs",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
+      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
+      "youtube_id": "jpYwsHTLv9o",
+      "opener_youtube_id": "Q83W9q34RDs"
+    },
+    {
       "artist": "HBO QUIZZO: Heated Rivalry",
       "date": "Mon, Mar 09",
       "venue": "Mohawk Indoor",
@@ -159,8 +145,8 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": "3_LBDDVcXf8",
-      "opener_youtube_id": "fMMxW22xPm8"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "artist": "Nothing",
@@ -210,7 +196,7 @@
       "showtime": "5:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
-      "youtube_id": "4QQj-ASXOcA",
+      "youtube_id": null,
       "opener_youtube_id": "CDl9ZMfj6aE"
     },
     {
@@ -328,10 +314,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
       "youtube_id": "QgJIhQkVuTM",
       "opener_youtube_id": "Rp6jCtnhCDs"
+    },
+    {
+      "artist": "Touché Amoré",
+      "date": "Wed, Apr 08",
+      "venue": "Mohawk Outdoor",
+      "opener": "Jeromes Dream, Porcelain",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
+      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
+      "youtube_id": "Ijmhb8is-vc",
+      "opener_youtube_id": "-n20fV-hyg8"
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 24,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-21T05:12:55.108598"
+  "total_shows": 25,
+  "shows_with_video": 23,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-21T15:50:03.528710"
 }

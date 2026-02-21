@@ -6,46 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Letdown.",
-      "date": "Sat, Feb 20",
-      "venue": "Bowery Ballroom",
-      "opener": "Blame My Youth, YOUTHYEAR",
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/ab8/3899520f-0dc8-4c40-8216-571dc78dfab8_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/letdown/",
-      "youtube_id": "PsKg8dEWWco",
-      "opener_youtube_id": "11Q1-E62Cms",
-      "expired": true
-    },
-    {
-      "artist": "Tyler Braden",
-      "date": "Sat, Feb 20",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/7a6/882223fb-d631-4343-86c6-73c2d629a7a6_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-braden/",
-      "youtube_id": "hMfWn4XuG5E",
-      "expired": true
-    },
-    {
-      "artist": "Louden Swain",
-      "date": "Sat, Feb 20",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/5c4/9bb5fe1c-9a60-4990-8863-34fae7d025c4_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/louden-swain/",
-      "youtube_id": "BNz94GcYMho",
-      "expired": true
-    },
-    {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket)  - Celestun Tour",
       "date": "Sat, Feb 21",
       "venue": "Bowery Ballroom",
@@ -55,7 +15,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
-      "youtube_id": "kziZgJFvgiA"
+      "youtube_id": "Yy0OjaMJPh4"
     },
     {
       "artist": "Kevin Devine: 20 Years of Split The Country.. & Put Your Ghost To Rest",
@@ -201,7 +161,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": "hCl-hJY0T9Y"
+      "youtube_id": "oOt774ekroI"
     },
     {
       "artist": "Logan Michael",
@@ -273,7 +233,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": "5lv-Viait7k"
+      "youtube_id": "ivIjHyw38SQ"
     },
     {
       "artist": "Arianna Chetram, Malik English, lady t",
@@ -309,11 +269,47 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
-      "youtube_id": "IlBE4jCz5JM"
+      "youtube_id": "xDpjIFIfQ8Q"
+    },
+    {
+      "artist": "Ike Reilly Assassination",
+      "date": "Wed, Mar 04",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/6a6/0c93dcad-6933-4277-a661-0e6738eec6a6_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ike-reilly-assassination/",
+      "youtube_id": "1RyIbAdHWT4"
+    },
+    {
+      "artist": "Residual Groove, One Time Weekend",
+      "date": "Wed, Mar 04",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
+      "youtube_id": "CAkKMlsyYf8"
+    },
+    {
+      "artist": "Caroline Jones",
+      "date": "Thu, Mar 05",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
+      "youtube_id": "VqlwKBrrMXk"
     }
   ],
-  "total_shows": 22,
-  "shows_with_video": 22,
-  "shows_with_image": 22,
-  "last_updated": "2026-02-21T05:15:17.293086"
+  "total_shows": 25,
+  "shows_with_video": 25,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-21T15:51:48.792078"
 }
