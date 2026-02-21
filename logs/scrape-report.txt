@@ -1,0 +1,18 @@
+
+============================================================
+Scrape Monitor — 2026-02-21 05:15:36
+============================================================
+
+Venue Summary:
+  boweryballroom: 25 shows (no previous data)
+  catscradle: 25 shows (no previous data)
+  elclub: 21 shows (no previous data)
+  elevation27: 25 shows (no previous data)
+  kings: 25 shows (no previous data)
+  lincoln: 25 shows (no previous data)
+  local506: 25 shows (no previous data)
+  mohawk: 25 shows (no previous data)
+  motorco: 25 shows (no previous data)
+  pinhook: 25 shows (no previous data)
+  thesocial: 11 shows (no previous data)
+

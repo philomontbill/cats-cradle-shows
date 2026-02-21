@@ -6,31 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Chris Chism EP Release",
-      "date": "Fri, Feb 20",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Nicole Tester, Lonnie Rott, Omar Ruiz-Lopez",
-      "notice": null,
-      "doors": "6:30 pm",
-      "showtime": "7:30 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Chris_2117521766409676.jpg",
-      "event_url": "https://catscradle.com/event/chris-chism-ep-release/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "WtbEwEVRyaI",
-      "opener_youtube_id": "yzp661UY9cg"
-    },
-    {
-      "artist": "Vincent Neil Emerson",
-      "date": "Fri, Feb 20",
-      "venue": "Motorco Music Hall",
-      "opener": null,
-      "notice": "Cat's Cradle Presents",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2025/10/Vincent-Neil-Emerson_DSC1921-1000.jpg",
-      "event_url": "https://catscradle.com/event/vincent-neil-emerson/motorco-music-hall/durham-north-carolina/",
-      "youtube_id": "LHC9f5ICNJ0"
-    },
-    {
       "artist": "Peter McPoland: Big Lucky Tour",
       "date": "Sat, Feb 21",
       "venue": "Cat's Cradle",
@@ -92,7 +67,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Carrboro_2179691769620084.jpg",
       "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "J1d3E1XY3Hs",
+      "youtube_id": "rNGZzNzGK0A",
       "opener_youtube_id": "0FXmm8xVtNE"
     },
     {
@@ -143,7 +118,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "3nKterTnXgo",
+      "youtube_id": "YfO1MVkPRp8",
       "opener_youtube_id": "X6UIC9S5K0s"
     },
     {
@@ -310,7 +285,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
       "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "sUlsTs2ljaE",
-      "opener_youtube_id": "0lxA1FXOiv0"
+      "opener_youtube_id": "A3AQc1__bJk"
     },
     {
       "artist": "Bedroom Division & William Hinson",
@@ -324,10 +299,34 @@
       "event_url": "https://catscradle.com/event/bedroom-division-william-hinson/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "2jEdgHG09gI",
       "opener_youtube_id": "c1BRzAEkDCU"
+    },
+    {
+      "artist": "Los Straitjackets & Deke Dickerson",
+      "date": "Wed, Mar 11",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Los_2028961762776674.jpg",
+      "event_url": "https://catscradle.com/event/los-straitjackets-deke-dickerson/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "A-MOMaDr3tU"
+    },
+    {
+      "artist": "Puma Blue",
+      "date": "Wed, Mar 11",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Puma_1973651760958669.jpg",
+      "event_url": "https://catscradle.com/event/puma-blue-2/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "IuVFMVX2eY0"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-20T05:20:09.204111"
+  "last_updated": "2026-02-21T05:09:37.104213"
 }

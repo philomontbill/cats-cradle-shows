@@ -16,7 +16,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/949a0145-7287-4d79-ac16-203ad5701fd3.jpg",
       "ticket_url": "https://dice.fm/event/6dnkv3",
       "youtube_id": "UmEpYu9EA4E",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "SZN4",
@@ -29,7 +30,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/6d0646b7-1d14-4498-9b7e-76109328a867.jpg",
       "ticket_url": "https://dice.fm/event/3ogamx",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Super Future",
@@ -42,7 +44,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/63e70fa8-d692-4c34-aa98-f53fe462b869.jpg",
       "ticket_url": "https://dice.fm/event/7dpgnv",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "It's A 2000s Party: Detroit",
@@ -279,8 +282,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 21,
-  "shows_with_video": 3,
-  "shows_with_image": 8,
+  "total_shows": 18,
+  "shows_with_video": 2,
+  "shows_with_image": 5,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

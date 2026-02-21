@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "The Hour Glass Kids / Sugar Snap Peas / Emmerson Bruno and the undercurrents",
-      "date": "Fri, Feb 20",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299001768496162.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/62502978/the-hour-glass-kids-sugar-snap-peas-emmerson-bruno-and-the-undercurrents-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "fkiDSbICaHc"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Dunums / RIBS / Little Chair",
       "date": "Sat, Feb 21",
       "doors": "6:30 pm",
@@ -36,7 +25,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/house-of-blk.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/53392917/house-of-blk-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "YR5VN9R-ebw"
+      "youtube_id": "znlFu_lemsU"
     },
     {
       "venue": "The Pinhook",
@@ -91,7 +80,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/hex-files-little-chair-future-fix-woke-county-speedway.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/42127270/hex-files-little-chair-future-fix-woke-county-speedway-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "dejDsid5pAE"
+      "youtube_id": "jFUJqZdxitM"
     },
     {
       "venue": "The Pinhook",
@@ -102,7 +91,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Advance_1296731764776156.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/73369336/advance-base-moontype-moon-racer-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "8QE-i2Ryrmg"
+      "youtube_id": "iv5FVXmrZ5g"
     },
     {
       "venue": "The Pinhook",
@@ -146,7 +135,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "Ik-FBC1uYQo"
+      "youtube_id": "hU_hAY8yyvQ"
     },
     {
       "venue": "The Pinhook",
@@ -198,10 +187,10 @@
       "date": "Sun, Mar 08",
       "doors": "6:30 pm",
       "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2021/09/The-Pinhook-Default-Event-Image.png",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/plastic-flamingos-hemlock-theory-khallori.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/82614400/plastic-flamingos-hemlock-theory-khallori-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "3vwEXvUFPwU"
+      "youtube_id": "a1Jn0Xm89q8"
     },
     {
       "venue": "The Pinhook",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/31808318/cornelia-murr-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "HjroFNUPJvg"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Bay Faction / Nuffer",
+      "date": "Wed, Mar 18",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/bay-faction-nuffer.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/77231846/bay-faction-nuffer-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "_HswmQSyR6o"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-20T05:21:21.156237"
+  "last_updated": "2026-02-21T05:10:54.672063"
 }

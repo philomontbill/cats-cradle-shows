@@ -14,7 +14,8 @@
       "image": "https://motorcomusic.com/wp-content/uploads/2026/01/27ffa07bfe7dccef72f8fb79cb53851c1816b7f1b62447ce000f8c32fa88af44_704d0104f8ed87d7516cf5956ae9745f244fe8ed13e30c6f39e697d45c0172e0.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "g1YH7PFy3no"
+      "youtube_id": "g1YH7PFy3no",
+      "expired": true
     },
     {
       "venue": "Motorco Music Hall",
@@ -27,7 +28,8 @@
       "notice": null,
       "doors": null,
       "youtube_id": "ZZxwd9NbQXQ",
-      "opener_youtube_id": "ZZxwd9NbQXQ"
+      "opener_youtube_id": "ZZxwd9NbQXQ",
+      "expired": true
     },
     {
       "venue": "Motorco Music Hall",
@@ -38,7 +40,8 @@
       "image": "https://motorcomusic.com/wp-content/uploads/2026/01/20260216-Alesana-IG-720x900.webp",
       "notice": null,
       "doors": null,
-      "youtube_id": "ntRXE7oLVf8"
+      "youtube_id": "ntRXE7oLVf8",
+      "expired": true
     },
     {
       "venue": "Motorco Music Hall",
@@ -51,7 +54,8 @@
       "notice": null,
       "doors": null,
       "youtube_id": "scQeNdRedAI",
-      "opener_youtube_id": "Scj6_pHMqfg"
+      "opener_youtube_id": "Scj6_pHMqfg",
+      "expired": true
     },
     {
       "venue": "Motorco Music Hall",
@@ -305,8 +309,8 @@
       "youtube_id": "Wr7kMQirAAc"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 25,
-  "shows_with_image": 25,
+  "total_shows": 21,
+  "shows_with_video": 21,
+  "shows_with_image": 21,
   "last_updated": "2026-02-04T14:20:28.019807"
 }

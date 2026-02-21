@@ -15,7 +15,8 @@
       "showtime": "7 pm",
       "image": "https://i.ticketweb.com/i/00/12/75/21/14_Original.jpg?v=6",
       "ticket_url": "https://www.ticketweb.com/event/the-still-not-okay-tour-elevation-27-tickets/14001164?REFID=clientsitewp",
-      "youtube_id": "dhZTNgAs4Fc"
+      "youtube_id": "dhZTNgAs4Fc",
+      "expired": true
     },
     {
       "artist": "Sploinky Rave (Ages 18 & Up)",
@@ -39,7 +40,7 @@
       "showtime": "3 pm",
       "image": "https://i.ticketweb.com/i/00/12/77/50/24_Original.jpg?v=12",
       "ticket_url": "https://www.ticketweb.com/event/247-jamz-rehearsal-studio-presents-elevation-27-tickets/14027094?REFID=clientsitewp",
-      "youtube_id": "Vu9k5_nSjVE"
+      "youtube_id": "RfaahfbsVX4"
     },
     {
       "artist": "Silk Road presents Stunna Pt 2",
@@ -51,7 +52,7 @@
       "showtime": "8 pm",
       "image": "https://i.ticketweb.com/i/00/12/86/65/44_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/silk-road-presents-stunna-pt-elevation-27-tickets/14145634?REFID=clientsitewp",
-      "youtube_id": "9RPqDrVHZ1Y",
+      "youtube_id": "XNjBgX4Nl-Q",
       "opener_youtube_id": "MfcrLbaioQs"
     },
     {
@@ -125,7 +126,7 @@
       "showtime": "7:30 pm",
       "image": "https://i.ticketweb.com/i/00/13/27/86/63_Original.jpg?v=4",
       "ticket_url": "https://www.ticketweb.com/event/the-congregation-presents-mia-asano-elevation-27-tickets/14656893?REFID=clientsitewp",
-      "youtube_id": "XzYLmlKpuZo",
+      "youtube_id": "fTMSnivk_vM",
       "opener_youtube_id": "PFnH9eX9P7c"
     },
     {
@@ -187,7 +188,7 @@
       "showtime": "9 pm",
       "image": "https://i.ticketweb.com/i/00/13/13/54/63_Original.jpg?v=4",
       "ticket_url": "https://www.ticketweb.com/event/borgeous-elevation-27-tickets/14507953?REFID=clientsitewp",
-      "youtube_id": "QEDe9Yu_EMo"
+      "youtube_id": "Yb5j4GheNTk"
     },
     {
       "artist": "An Evening",
@@ -200,7 +201,7 @@
       "image": "https://i.ticketweb.com/i/00/12/82/82/34_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/an-evening-with-live-wire-elevation-27-tickets/14105044?REFID=clientsitewp",
       "youtube_id": "wBavrE3as4M",
-      "opener_youtube_id": "O0mHFa6Cs9c"
+      "opener_youtube_id": "wq4eA_wHMqs"
     },
     {
       "artist": "party iconic presents: HEATED RIVALRY NIGHT (Ages 18 & Up)",
@@ -224,10 +225,10 @@
       "showtime": "8 pm",
       "image": "https://i.ticketweb.com/i/00/13/28/71/63_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/yonder-mountain-string-band-elevation-27-tickets/14665223?REFID=clientsitewp",
-      "youtube_id": "XKIG5zgOaK0"
+      "youtube_id": "yi0ho-hTG-U"
     },
     {
-      "artist": "It’s A 2000’s Party by Slacker University (Ages 18 & Up)",
+      "artist": "It\u2019s A 2000\u2019s Party by Slacker University (Ages 18 & Up)",
       "date": "Fri, Mar 27",
       "venue": "Elevation 27",
       "opener": null,
@@ -260,7 +261,7 @@
       "showtime": "3 pm",
       "image": "https://i.ticketweb.com/i/00/12/87/63/24_Original.jpg?v=5",
       "ticket_url": "https://www.ticketweb.com/event/honoring-jr-feat-audiohum-riverboys-elevation-27-tickets/14156734?REFID=clientsitewp",
-      "youtube_id": "A44JkhdyITs"
+      "youtube_id": "errNSTApwF0"
     },
     {
       "artist": "Burning Witches",
@@ -313,8 +314,8 @@
       "youtube_id": "BEIm0KQuVMk"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 25,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-20T05:23:44.547606"
+  "total_shows": 24,
+  "shows_with_video": 24,
+  "shows_with_image": 24,
+  "last_updated": "2026-02-21T05:13:28.412853"
 }

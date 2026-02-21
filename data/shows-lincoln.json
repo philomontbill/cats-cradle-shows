@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Stop Light Observations w/ Mellow Swells",
-      "date": "Fri, Feb 20",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "w/ Mellow Swells",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Stop_912991763649780.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/92071367/stop-light-observations-wmellow-swells-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "j-eZMdB1wOA",
-      "opener_youtube_id": "U48wJqFfWBM"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "Jupiter Coyote",
       "date": "Sat, Feb 21",
       "doors": "7 pm",
@@ -54,7 +41,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/08/etix-Far_905201756141613.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/98089563/far-too-jones-wcravinmelon-acoustic-raleigh-lincoln-theatre?partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "PGMo0nyO06o",
+      "youtube_id": "g7BHWgwsN_w",
       "opener_youtube_id": "vv13NBN0678"
     },
     {
@@ -66,7 +53,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Lotus_911121762164247.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/69832647/lotus-rise-of-the-anglerfish-tour-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "nbC7TxVEIzk"
+      "youtube_id": "vUHoETaS6gc"
     },
     {
       "venue": "Lincoln Theatre",
@@ -77,7 +64,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/driver-lexx.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/41086736/driver-lexx-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "zaAOWmQaRgo"
+      "youtube_id": "0lxA1FXOiv0"
     },
     {
       "venue": "Lincoln Theatre",
@@ -114,7 +101,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/nc-songwriters-show-feat-jon-wood-steph-maguire-tan-sanders-drew-johnson-sophie-taylor-roy-stewart-brent-underwood-adam-fisher.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/99064014/nc-songwriters-show-featjon-woodsteph-maguiretan-sandersdrew-johnsonsophie-taylorroy-stewartbrent-underwoodadam-fisher-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "xryTyK-6xUg"
+      "youtube_id": "2iOoXALrM_I"
     },
     {
       "venue": "Lincoln Theatre",
@@ -226,7 +213,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
       "ticket_url": "https://www.etix.com/ticket/k/29210852/daniel-donatos-cosmic-country-3-show-package-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "IxI7GsyHyDs"
+      "youtube_id": "ZpwNH2ugG8s"
     },
     {
       "venue": "Lincoln Theatre",
@@ -237,7 +224,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/proving-ground-widespread-panic-tribute.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/33585599/proving-ground-widespread-panic-tribute-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "lPJwu_X_k1w"
+      "youtube_id": "LqBjdkeZDUA"
     },
     {
       "venue": "Lincoln Theatre",
@@ -259,7 +246,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/old-97s.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/55972713/old-97s-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "VkA_hQfQdHs"
+      "youtube_id": "ZC-9kxsNGyc"
     },
     {
       "venue": "Lincoln Theatre",
@@ -295,10 +282,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/52204172/the-band-of-heathens-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "A8bRlF9bZws"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Tennessee Whiskey Band (Chris Stapleton Tribute) & Ultimate Eric Church Tribute",
+      "date": "Thu, Apr 16",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2024/12/etix-Tennessee_565501735540508.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/82500225/tennessee-whiskey-band-chris-stapleton-tributeultimate-eric-church-tribute-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "DymePHu6oBc"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-20T05:21:53.060970"
+  "last_updated": "2026-02-21T05:11:29.644926"
 }

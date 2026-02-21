@@ -6,32 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Blessing Offor",
-      "date": "Fri, Feb 19",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/8dc/1b171936-a1b5-44f5-b795-48bf49ee38dc_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/blessing-offor/",
-      "youtube_id": "jXtArKwakgk"
-    },
-    {
-      "artist": "Fat Trout Trailer Park, Big Band, Blue Sky Joker",
-      "date": "Fri, Feb 19",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/fttp-flyer-scaled.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/fat-trout-trailer-park-big-band/",
-      "youtube_id": "88EzPV3Yw9M"
-    },
-    {
       "artist": "Letdown.",
-      "date": "Fri, Feb 20",
+      "date": "Sat, Feb 20",
       "venue": "Bowery Ballroom",
       "opener": "Blame My Youth, YOUTHYEAR",
       "notice": null,
@@ -40,11 +16,12 @@
       "image": "https://s1.ticketm.net/dam/a/ab8/3899520f-0dc8-4c40-8216-571dc78dfab8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/letdown/",
       "youtube_id": "PsKg8dEWWco",
-      "opener_youtube_id": "11Q1-E62Cms"
+      "opener_youtube_id": "11Q1-E62Cms",
+      "expired": true
     },
     {
       "artist": "Tyler Braden",
-      "date": "Fri, Feb 20",
+      "date": "Sat, Feb 20",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -52,11 +29,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/7a6/882223fb-d631-4343-86c6-73c2d629a7a6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-braden/",
-      "youtube_id": "hMfWn4XuG5E"
+      "youtube_id": "hMfWn4XuG5E",
+      "expired": true
     },
     {
       "artist": "Louden Swain",
-      "date": "Fri, Feb 20",
+      "date": "Sat, Feb 20",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -64,7 +42,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/5c4/9bb5fe1c-9a60-4990-8863-34fae7d025c4_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/louden-swain/",
-      "youtube_id": "BNz94GcYMho"
+      "youtube_id": "BNz94GcYMho",
+      "expired": true
     },
     {
       "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket)  - Celestun Tour",
@@ -234,7 +213,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "Ip3DO5EBhfY"
+      "youtube_id": "V7HwYxxsbkY"
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
@@ -246,7 +225,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
-      "youtube_id": "THCtAYe_1O8"
+      "youtube_id": "UqbQiDYkiOg"
     },
     {
       "artist": "The Ruckus",
@@ -294,7 +273,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": "RmBjoBmn17E"
+      "youtube_id": "5lv-Viait7k"
     },
     {
       "artist": "Arianna Chetram, Malik English, lady t",
@@ -307,10 +286,34 @@
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Arianna-Chetram-flyer.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/arianna-chetram-malik-english-lady-t/",
       "youtube_id": "sz-Wg4eCJK4"
+    },
+    {
+      "artist": "Muo Duo, Evan Isaac, Segami, Annabel Asher",
+      "date": "Tue, Mar 03",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/bbc/63af2035-112d-46d3-b969-253a6283dbbc_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/muo-duo-evan-isaac-segami-annabel-asher/",
+      "youtube_id": "IgAeDXWcRtE"
+    },
+    {
+      "artist": "Ben Milk, Brady Dorrington, ChatChat",
+      "date": "Tue, Mar 03",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
+      "youtube_id": "IlBE4jCz5JM"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 25,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-20T05:25:21.174947"
+  "total_shows": 22,
+  "shows_with_video": 22,
+  "shows_with_image": 22,
+  "last_updated": "2026-02-21T05:15:17.293086"
 }
