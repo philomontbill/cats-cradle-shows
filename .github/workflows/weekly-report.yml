@@ -1,0 +1,37 @@
+name: Weekly Analytics Report
+
+on:
+  schedule:
+    # Monday 10 AM UTC = 6 AM ET
+    - cron: '0 10 * * 1'
+  workflow_dispatch: # Allows manual trigger from GitHub
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    env:
+      GA4_SERVICE_ACCOUNT: ${{ secrets.GA4_SERVICE_ACCOUNT }}
+      GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install google-analytics-data google-auth
+
+      - name: Ensure weekly-report label exists
+        run: gh label create weekly-report --color 0e8a16 --description "Automated weekly analytics report" || true
+
+      - name: Generate and post weekly report
+        run: python scripts/weekly_report.py
