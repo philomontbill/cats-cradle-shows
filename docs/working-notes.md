@@ -414,6 +414,47 @@ Data populates in standard reports within 24-48 hours; Realtime reports show imm
 
 **GA4 recommendation noted:** Link Search Console property (sc-domain:localsoundcheck.com) to see which search queries drive traffic. 1-minute setup — do this next session.
 
+### Weekly Analytics Report — Built & Deployed Feb 22, 2026
+
+Automated weekly report that pulls GA4 data and posts as a GitHub Issue every Monday at 6 AM ET.
+
+**Setup completed:**
+1. Google Analytics Data API enabled in Google Cloud Console (project: My First Project / polar-pilot-488221-v0)
+2. Service account `soundcheck-analytics` created with JSON key
+3. Service account added as Viewer on GA4 property (ID: 522912109)
+4. GitHub Secrets set: `GA4_PROPERTY_ID`, `GA4_SERVICE_ACCOUNT`
+
+**Report sections:**
+- Overview: users, new vs returning, page views, avg engagement, events (with week-over-week comparison)
+- Venue Activity: per-venue breakdown of users, views, plays, ticket clicks, top artist
+- User Origins: top 10 cities by users
+- Traffic Sources: source/medium breakdown
+- Top Artists Played: top 10 artists with venue and role
+- Device Breakdown: mobile/desktop/tablet split
+
+**First test run (Feb 15-21 data):**
+- 28 users (+65% vs prior week), 104 page views (+225%), 3m 33s avg engagement
+- Top traffic: direct (23), Facebook (4), Google organic (1), Instagram (1)
+- Top cities: Ashburn VA (5), Charlotte NC (2), High Point NC (2)
+- 60.7% desktop, 35.7% mobile, 3.6% tablet
+- Venue and artist sections empty as expected — custom dimensions just registered today
+
+**Files created:**
+- `scripts/weekly_report.py` — main report script (GA4 Data API queries, text table formatting, GitHub Issue posting)
+- `.github/workflows/weekly-report.yml` — Monday 10 AM UTC cron + manual trigger
+- `requirements.txt` — google-analytics-data, google-auth
+
+**On-demand usage:**
+```bash
+python scripts/weekly_report.py                      # Default 7-day → GitHub Issue
+python scripts/weekly_report.py --days 30            # Last 30 days
+python scripts/weekly_report.py --venue catscradle   # Filter to one venue
+python scripts/weekly_report.py --artist "Briscoe"   # Filter to one artist
+python scripts/weekly_report.py --output report.txt  # Write to file instead
+```
+
+**Note:** Venue and artist breakdowns depend on custom dimensions registered today. First meaningful data for those sections will be the week of Feb 23 - Mar 1.
+
 ### Next Steps
 - Finalize video disclaimer wording and re-add to site
 - Multi-act feature (task #13)
@@ -421,3 +462,4 @@ Data populates in standard reports within 24-48 hours; Realtime reports show imm
 - Manual verification pass on 13 medium-confidence entries
 - Link Google Search Console to GA4
 - Check GA4 custom dimensions are populating after 24-48 hours
+- Verify first automated weekly report posts Monday Mar 2
