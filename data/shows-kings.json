@@ -7,27 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Sat, Feb 21",
-      "artist": "LIVING in Y2K: EARLY 2000s DANCE PARTY",
-      "opener": "DJs: S A S H A, DJ WICKED, and JAMXLIVE",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/living-in-y2k-early-2000s-dance-party",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/living-in-y2k-2_21_26-flyer-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "tGivipiEv6c",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Kings",
       "date": "Tue, Feb 24",
       "artist": "[Late] Sub Rosa",
+      "opener": "applefield, Bluegill",
       "showtime": "10:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-4",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
+      "youtube_id": "FdoBIPwu5HA",
+      "opener_youtube_id": "Y5gCEtOYbzE"
     },
     {
       "venue": "Kings",
@@ -80,6 +69,17 @@
       "doors": null,
       "youtube_id": "XNOJnGb-3V4",
       "opener_youtube_id": "8zxEuoVlaN0"
+    },
+    {
+      "venue": "Kings",
+      "date": "Sun, Mar 1",
+      "artist": "Matt OX",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/matt-ox",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/In-Tha-Fest-Matt-Ox-Mini-Tour-Flyer-Raleigh-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "F997LELyP7o"
     },
     {
       "venue": "Kings",
@@ -154,7 +154,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/031326-150x150.png",
       "notice": null,
       "doors": null,
-      "youtube_id": "iSxNP-1VpjE",
+      "youtube_id": "nlbQJHI2ILs",
       "opener_youtube_id": "ZqifU_-wvR0"
     },
     {
@@ -326,5 +326,5 @@
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:28:09.469948"
+  "last_updated": "2026-02-22T05:19:08.889942"
 }

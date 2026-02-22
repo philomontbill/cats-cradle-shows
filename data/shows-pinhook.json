@@ -7,28 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Dunums / RIBS / Little Chair",
-      "date": "Sat, Feb 21",
-      "doors": "6:30 pm",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/dunums-ribs-little-chair.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/79760295/dunums-ribs-little-chair-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "6Fbg2rszTdg"
-    },
-    {
-      "venue": "The Pinhook",
-      "artist": "House of BLK",
-      "date": "Sat, Feb 21",
-      "doors": "10 pm",
-      "showtime": "10:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/house-of-blk.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/53392917/house-of-blk-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "9bb1XbyyrRc"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "G-Clef’s Graduation Celebration + Film Screening",
       "date": "Sun, Feb 22",
       "doors": "2:30 pm",
@@ -201,7 +179,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Cootie_1296501764489999.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/33741141/cootie-catcher-edna-mode-charlie-paso-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "cZdQrWdaxTE"
+      "youtube_id": "2w2gdQB_nD0"
     },
     {
       "venue": "The Pinhook",
@@ -279,10 +257,32 @@
       "ticket_url": "https://www.etix.com/ticket/p/77231846/bay-faction-nuffer-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "_HswmQSyR6o"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Allison de Groot & Tatiana Hargreaves LIVE Recording",
+      "date": "Fri, Mar 20",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Allison_1295161762607756.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/97620177/allison-de-groot-tatiana-hargreaves-live-recording-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "XvumeGWnc64"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Carly Cosgrove / Leisure Hour / Summerbruise",
+      "date": "Sat, Mar 21",
+      "doors": "6 pm",
+      "showtime": "6:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Carly_1296971765195577.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/77550020/carly-cosgrove-leisure-hour-summerbruise-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "d2X-BHvlcTE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:28:04.834762"
+  "last_updated": "2026-02-22T05:19:00.161438"
 }

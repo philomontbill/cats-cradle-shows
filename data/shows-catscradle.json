@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Peter McPoland: Big Lucky Tour",
-      "date": "Sat, Feb 21",
-      "venue": "Cat's Cradle",
-      "opener": "DUG",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Peter_1928901756732708.jpg",
-      "event_url": "https://catscradle.com/event/peter-mcpoland-big-lucky-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "x6nNVUSK-3Y",
-      "opener_youtube_id": "E3ru5vfyqZU"
-    },
-    {
-      "artist": "Vacation Manor",
-      "date": "Sat, Feb 21",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Rhineland",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Vacation_2149641767873672.jpg",
-      "event_url": "https://catscradle.com/event/vacation-manor/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "tGl3l16Ngvg",
-      "opener_youtube_id": "0iYh8KrzFk8"
-    },
-    {
       "artist": "Briscoe",
       "date": "Sun, Feb 22",
       "venue": "Cat's Cradle",
@@ -83,7 +57,7 @@
       "youtube_id": "Pbmh8AyOgko"
     },
     {
-      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) \u2013 Celestun Tour",
+      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
       "date": "Thu, Feb 26",
       "venue": "Cat's Cradle Back Room",
       "opener": "Maggie Halfman",
@@ -109,7 +83,7 @@
       "opener_youtube_id": "9hIW-wLddIo"
     },
     {
-      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
+      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
       "date": "Sat, Feb 28",
       "venue": "Cat's Cradle",
       "opener": "special guest Bobcat Goldthwait",
@@ -226,7 +200,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire \u2013 Universal Language Tour",
+      "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -323,10 +297,35 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Puma_1973651760958669.jpg",
       "event_url": "https://catscradle.com/event/puma-blue-2/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "IuVFMVX2eY0"
+    },
+    {
+      "artist": "Dogpark",
+      "date": "Fri, Mar 13",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Dogpark_2174341769003839-1.jpg",
+      "event_url": "https://catscradle.com/event/dogpark/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "gvifMWDdZTA"
+    },
+    {
+      "artist": "Surfing for Daisy",
+      "date": "Fri, Mar 13",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Jack The Radio",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Surfing_2066901764669992.jpg",
+      "event_url": "https://catscradle.com/event/surfing-for-daisy/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "DogDoFcSK-Q",
+      "opener_youtube_id": "JuvMfMIfQIg"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:27:45.706930"
+  "last_updated": "2026-02-22T05:18:38.960969"
 }

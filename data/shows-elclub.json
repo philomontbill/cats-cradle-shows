@@ -58,7 +58,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/57f477ef-af2f-4c7f-a526-13f9ca3a01ee.jpg",
       "ticket_url": "https://dice.fm/event/av3wlv",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Blessing Offor",
@@ -282,8 +283,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 18,
+  "total_shows": 17,
   "shows_with_video": 2,
-  "shows_with_image": 5,
+  "shows_with_image": 4,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

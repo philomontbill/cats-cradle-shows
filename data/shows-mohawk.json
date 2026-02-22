@@ -16,7 +16,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593453509",
       "ticket_url": "https://www.etix.com/ticket/p/97909278/electric-feels-austin-resound-presents",
       "youtube_id": "MmZexg8sxyk",
-      "opener_youtube_id": "7EXUvZRb_c4"
+      "opener_youtube_id": "7EXUvZRb_c4",
+      "expired": true
     },
     {
       "artist": "LowDown Brass Band",
@@ -316,7 +317,7 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     },
     {
-      "artist": "Touché Amoré",
+      "artist": "Touch\u00e9 Amor\u00e9",
       "date": "Wed, Apr 08",
       "venue": "Mohawk Outdoor",
       "opener": "Jeromes Dream, Porcelain",
@@ -329,8 +330,8 @@
       "opener_youtube_id": "-n20fV-hyg8"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 23,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-21T19:28:11.639124"
+  "total_shows": 24,
+  "shows_with_video": 22,
+  "shows_with_image": 24,
+  "last_updated": "2026-02-22T05:19:11.027072"
 }
