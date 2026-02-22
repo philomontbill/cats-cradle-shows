@@ -358,3 +358,66 @@ Was serving a YouTube Short (`PcqWYLat8mc` — "Big Lucky album out tonight"). S
 - Consider "and" as band separator for Local 506 (risky — could break "Florence and the Machine" type names)
 - Manual verification pass on the 13 medium-confidence entries
 - Round 2 planning: additional scoring signals based on Round 1 match log data
+
+---
+
+## Session: Feb 22, 2026
+
+### Briscoe Video Override
+- Briscoe plays tonight at Cat's Cradle. Artist's team (ob@tenatoms.com) provided preferred video.
+- Added override: `j7WBQW4AIMc` in `scrapers/overrides.json` and updated `data/shows-catscradle.json`
+- Previous video `yEUrcsny2XA` replaced — override ensures nightly scraper preserves their choice
+
+### Rhineland Opener — Verified Correct
+- Checked the Feb 21 opener Rhineland (Cat's Cradle Back Room) after user concern about wrong band
+- Video served: `0iYh8KrzFk8` — "Rhineland - Burning (Official Video)" from channel "Rhineland" (414 subs)
+- Confirmed via rhineland.band website: band is from **Lynchburg, Virginia** — matches user's description
+- Audit scored 95 confidence (high) — correct match confirmed
+
+### Chrome Extension — Dual Profile Setup
+- Claude in Chrome extension installed on both Philomont (dev) and Soundcheck (analytics) Chrome profiles
+- `switch_browser` tool works to hop between profiles when both extensions are active
+- Tab group limitation: closing the last non-Claude tab in a group deletes the group and disconnects
+
+### GA4 Analytics Review (Last 28 Days: Jan 25 - Feb 21)
+
+**Overview:**
+- 61 active users (all new)
+- 535 total events
+- 186 page views
+- 1m 55s average engagement
+- 70.7% bounce rate
+
+**Traffic sources:**
+- 56 direct, 4 facebook.com/referral, 1 Instagram/social
+
+**Top cities:** Ashburn (6, likely VPN/data center), Charlotte (5), Aspen (4), Council Bluffs (3), Warsaw (3), Dallas (2), High Point (2)
+
+**Custom events firing:**
+- `sample_play`: 23 events by 3 users (7.67 plays per user — strong engagement signal)
+- `venue_switch` and `ticket_click`: not yet recorded (either no usage or events added recently)
+
+### GA4 Custom Dimensions — Registered Feb 22, 2026
+
+Custom event parameters were not visible in GA4 reports because they weren't registered as custom dimensions. Created 4 dimensions:
+
+| Dimension | Event Parameter | Scope | Description |
+|-----------|----------------|-------|-------------|
+| Artist | `artist` | Event | Artist name from sample_play and ticket_click events |
+| Role | `role` | Event | Artist role (headliner or opener) from sample_play events |
+| Ticket URL | `ticket_url` | Event | Ticket purchase URL from ticket_click events |
+| Venue Name | `venue_name` | Event | Venue name from sample_play, venue_switch, and ticket_click events |
+
+**Note:** GA4 does not allow editing event parameters after creation. Two dimensions (Role, Venue Name) were initially created with wrong casing (capital R, capital V). Had to archive and recreate with correct lowercase parameters. GA4 parameters are case-sensitive — must match exactly what the code sends.
+
+Data populates in standard reports within 24-48 hours; Realtime reports show immediately.
+
+**GA4 recommendation noted:** Link Search Console property (sc-domain:localsoundcheck.com) to see which search queries drive traffic. 1-minute setup — do this next session.
+
+### Next Steps
+- Finalize video disclaimer wording and re-add to site
+- Multi-act feature (task #13)
+- Round 2 accuracy: address 19 low-confidence punch list
+- Manual verification pass on 13 medium-confidence entries
+- Link Google Search Console to GA4
+- Check GA4 custom dimensions are populating after 24-48 hours
