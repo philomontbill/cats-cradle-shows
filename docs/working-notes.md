@@ -334,21 +334,27 @@ Added accuracy audit to the nightly GitHub Actions workflow. Ran 4 manual workfl
 - The drop from 94.7% to 87.6% was a denominator problem — name cleaning found videos for 36 previously-missing entries that mostly scored low (event names, multi-band bills)
 - On entries that had videos in both runs, accuracy improved
 
-### Video Disclaimer — Implemented
+### Video Disclaimer — In Progress
 
-Added disclaimer above the YouTube player on every video preview:
-- **Red bold underlined**: "IMPORTANT!" followed by "Always verify the artist before purchasing tickets."
-- **Muted gray**: Invites users to report mismatches to info@localsoundcheck.com
-- Purpose: protect users from wrong matches + create user feedback loop for accuracy
+Built and tested a disclaimer above the YouTube player. Iterated through several versions:
+1. Small muted text below video — too subtle
+2. Red bold "Always verify..." above video — more prominent but too scary
+3. "IMPORTANT!" underlined + red bold — even scarier
+4. Softer mission-focused version — better tone but needs more work
 
-### Peter McPoland Video
+Removed from live site for now. CSS classes remain in styles.css for easy re-addition. Key decisions still needed:
+- Balance between protecting users and not scaring them away
+- Tone should invite collaboration, not warn of danger
+- Should communicate mission (emerging talent discovery) while encouraging double-checking
 
-Currently serving a YouTube Short (`PcqWYLat8mc` — "Big Lucky album out tonight"). His official channel has a better option: "What Do You Do To Me" (Official Video, `x6nNVUSK-3Y`) from the Big Lucky album. Decided to let the scraper handle it — the colon-stripping will clean "Peter McPoland: Big Lucky Tour" to "Peter McPoland" on the next nightly run, which should get a better API match.
+### Peter McPoland Video — Fixed
+
+Was serving a YouTube Short (`PcqWYLat8mc` — "Big Lucky album out tonight"). Smart filtering kept reusing it because it scored 85 (high confidence — correct channel, just wrong type of video). Added manual override to `x6nNVUSK-3Y` ("What Do You Do To Me" Official Video from the Big Lucky album). Lesson: the audit scorer can't distinguish between a proper music video and a Short from the same artist.
 
 ### Next Steps
+- Finalize video disclaimer wording and re-add to site
 - Multi-act feature: show individual band names with separate video/no-preview indicators for comma/slash-separated opener fields (task #13)
 - Round 2 accuracy: address the 19 low-confidence punch list (see above)
 - Consider "and" as band separator for Local 506 (risky — could break "Florence and the Machine" type names)
 - Manual verification pass on the 13 medium-confidence entries
-- Check Peter McPoland video after tonight's nightly scrape
 - Round 2 planning: additional scoring signals based on Round 1 match log data
