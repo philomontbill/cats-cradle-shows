@@ -564,3 +564,91 @@ Daily report will now post automatically every night after the scrape.
 - Reddit post ready but not yet posted (outreach/reddit-post-triangle.txt)
 - Link Google Search Console to GA4
 - Verify first automated weekly report posts Monday Mar 2
+
+---
+
+## Session: Feb 23, 2026 (continued)
+
+### DNS Cleanup — Completed
+- Checked DNS records for localsoundcheck.com via Vercel dashboard
+- Found 5 stale Microsoft 365 / GoDaddy records (MX, 2 CNAMEs, 2 TXTs) from old email setup
+- Deleted all 5 — no longer needed since info@localsoundcheck.com is inactive
+- Remaining: 2 ALIAS records (Vercel hosting) + 1 CAA record (Let's Encrypt SSL)
+
+### GitHub Notifications — Configured
+- Repo was not being "Watched" — enabled Watch for all activity
+- Added soundchecklocal@gmail.com as verified email on GitHub account
+- Set as notification email for repository issues (daily video reports, weekly analytics, scrape alerts)
+
+### Manual Video Overrides — 20 Artists Reviewed & Applied
+
+Reviewed all 38 videos rejected by the verifier. Categorized as correct rejections (events, wrong matches, view count too high for wrong artist) vs false rejections (legitimate artists whose real videos tripped thresholds).
+
+**Stepwise verification process established** for manual review:
+1. Navigate to the YouTube video in Chrome, take screenshot
+2. State video details (channel, subscribers, views, upload date)
+3. Give recommendation (accept/reject) with reasoning
+4. Wait for user OK or reject
+5. Log any disagreements for calibration
+
+**Criteria used for accept/reject decisions:**
+
+*Identity Verification:*
+1. **Channel ownership** — Is the video on the artist's own channel or a recognized label? (e.g., Nuclear Blast for Burning Witches, Epitaph for Death Lens, Secret City Records for Barr Brothers, Innovative Leisure for Mint Field)
+2. **Channel verification** — Does the channel have a YouTube verification checkmark or Vevo badge?
+3. **Subscriber count** — Higher count = stronger signal the channel is legitimate and established
+4. **Artist name match** — Does the channel name and/or video title match the artist name from our show data?
+
+*Video Quality Signals:*
+5. **View count** — Under the 5M cap, but also reasonable for the artist's tier (42M for Aterciopelados makes sense for a Latin Grammy winner; 874K for Dream, Ivory makes sense for indie)
+6. **Video type** — Official music video, lyric video, live performance, or static artwork? All acceptable, but official MV is strongest
+7. **Upload recency** — Not a dealbreaker, but newer uploads suggest active artist
+
+*Rejection Signals:*
+8. **Event vs. artist** — Is the name actually a band, or an event/party name? (DISCO, ALWAYS = Harry Styles dance night, not a band)
+9. **Common word collision** — Single-word or generic names that match the wrong artist entirely (Heated → H.E.A.T)
+10. **Label/distributor mismatch** — Video posted by a channel with no connection to the artist
+
+**These criteria should inform automation improvements.** Several could be encoded into the verifier:
+- Channel verification badge / Vevo badge = strong trust signal (could override view count cap)
+- Known label channels (Nuclear Blast, Epitaph, Secret City, etc.) = trusted sources
+- Artist name ↔ channel name match + high subscriber count = likely correct even with high views
+- Event keyword detection already exists but could be expanded based on patterns seen here
+
+**20 overrides added across 3 batches:**
+
+| Artist | Video ID | Channel | Why Override |
+|--------|----------|---------|-------------|
+| ALESANA | ntRXE7oLVf8 | Alesana (verified) | Own channel, views under cap |
+| SKIZZY MARS | U7svgD2yPig | Skizzy Mars | Own channel, views under cap |
+| The Band Of Heathens | KLxHd3XCrTw | BandOfHeathens | Own channel |
+| Kxllswxtch | uCEGV2weoPs | Kxllswxtch | Own channel |
+| LETDOWN | PsKg8dEWWco | LETDOWN (verified) | Own channel, Epitaph Records |
+| Love Letter | 3dbvSe8BtoA | Love Letter (verified) | Own channel, punk band |
+| Burning Witches | 1OCmwMFKDlE | Nuclear Blast Records | Major metal label, 3M views |
+| Death Lens | yDY3QCkc9n0 | Epitaph Records | Major punk label, 20K views |
+| Buffalo Nichols | IUJj6nu1guY | Buffalo Nichols | Own channel, 148K views |
+| The Barr Brothers | 1JU4T9iqNTo | Secret City Records | Indie label, 910K views |
+| Mint Field | -E4HZt8u5QI | Innovative Leisure | Indie label, 64K views |
+| Lil Texas | gygm4c5z3d0 | Lil Texas | Own channel, static artwork |
+| DISCO, ALWAYS | null | — | Event (Harry Styles night), not a band |
+| Aterciopelados | sUlsTs2ljaE | Aterciopelados (verified) | Own channel, Latin Grammy winners, 42M views legit |
+| Gogol Bordello | SkkIwO_X4i4 | SideOneDummy | Label channel, 11M views, iconic band |
+| POWFU | KVg-UTZrpgo | Powfu | Own channel, 404K views |
+| Caroline Jones | yy0S5UN1X10 | Caroline Jones | Own channel, 171K views |
+| Bryce Vine | o_tUi4U1pG4 | Bryce Vine | Own channel, 94K views |
+| yung kai | iQmvTvGJfQs | yung kai | Own channel, 1.3M views |
+| Dream, Ivory | 99PzeVVVCn8 | Dream, Ivory (Vevo) | Own channel, 874K views |
+
+3 artists had expired shows (Buffalo Nichols, Love Letter, Death Lens) — overrides.json only, no show data update needed.
+
+### Next Steps
+- Monitor first automated verifier run (tonight 11 PM ET)
+- Remaining video quality: 19 low-confidence entries, 13 medium-confidence entries
+- El Club scraper investigation (18 shows with no video)
+- Consider encoding manual review criteria into verifier (label allowlist, verification badge detection, artist-tier-aware view caps)
+- Multi-act feature (discussed, not started)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Link Google Search Console to GA4
+- Verify first automated weekly report Monday Mar 2
