@@ -68,7 +68,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": "zplKl-Qr01M",
-      "opener_youtube_id": "pOTkCgkxqyg"
+      "opener_youtube_id": null
     },
     {
       "artist": "The Summer Set",
@@ -158,7 +158,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": "K3SUPPeuRdU",
+      "youtube_id": null,
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
@@ -184,7 +184,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494881020",
       "ticket_url": "https://www.etix.com/ticket/p/60579493/recovery-takeover-austin-mohaw",
       "youtube_id": null,
-      "opener_youtube_id": "CDl9ZMfj6aE"
+      "opener_youtube_id": null
     },
     {
       "artist": "Social Dissonance",
@@ -221,7 +221,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "9Gj_nIZynv8",
+      "youtube_id": null,
       "opener_youtube_id": "t8cgqqYItgA"
     },
     {
@@ -234,7 +234,7 @@
       "showtime": "9:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648493196884",
       "ticket_url": "https://www.etix.com/ticket/p/47374733/oof-fighters-austin-mohawk-austintxindoor",
-      "youtube_id": "ebJ2brErERQ",
+      "youtube_id": null,
       "opener_youtube_id": "o6ybSsTn1w0"
     },
     {
@@ -287,7 +287,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
       "youtube_id": "BB-jGY5B5yw",
-      "opener_youtube_id": "xpNiC4ywP30"
+      "opener_youtube_id": null
     },
     {
       "artist": "Sarah Kinsley",
@@ -303,7 +303,7 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     },
     {
-      "artist": "Touché Amoré",
+      "artist": "Touch\u00e9 Amor\u00e9",
       "date": "Wed, Apr 08",
       "venue": "Mohawk Outdoor",
       "opener": "Jeromes Dream, Porcelain",

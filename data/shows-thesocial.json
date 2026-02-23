@@ -6,7 +6,7 @@
   },
   "shows": [
     {
-      "artist": "Nep - Florida Girl Goes To…",
+      "artist": "Nep - Florida Girl Goes To\u2026",
       "date": "Tue, Feb 24",
       "venue": "The Social",
       "opener": null,
@@ -27,7 +27,7 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/letdown/",
-      "youtube_id": "PsKg8dEWWco"
+      "youtube_id": null
     },
     {
       "artist": "Yellow Days",
@@ -51,7 +51,7 @@
       "showtime": "7:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/250303_MSOLIE_071-683x1024.jpg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/yung-kai/",
-      "youtube_id": "IpFX2vq8HKw"
+      "youtube_id": null
     },
     {
       "artist": "VARIALS",
@@ -135,7 +135,7 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/Screenshot-2025-12-18-130603.png?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/dance-with-the-dead-magic-sword/",
-      "youtube_id": "ULqxiUK6kOs"
+      "youtube_id": null
     }
   ],
   "total_shows": 11,

@@ -47,7 +47,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Feb 27",
-      "artist": "SINIESTRE Latin Goth Prom: Tesoro’s Eternal Youth Edition",
+      "artist": "SINIESTRE Latin Goth Prom: Tesoro\u2019s Eternal Youth Edition",
       "opener": "hosts Tesoro, Kali Fuchis, & Saga Wolf",
       "showtime": "10:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/siniestre-latin-goth-prom-tesoros-eternal-youth-edition",
@@ -84,7 +84,7 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 3",
-      "artist": "Braden Bales – ‘The FML’ Tour",
+      "artist": "Braden Bales \u2013 \u2018The FML\u2019 Tour",
       "opener": "Ezra",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/braden-bales-the-fml-tour",
@@ -92,7 +92,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "g53JdQbI38k",
-      "opener_youtube_id": "--6fqzrPbSQ"
+      "opener_youtube_id": null
     },
     {
       "venue": "Kings",
@@ -147,7 +147,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -160,7 +160,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -215,13 +215,13 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/ks-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "csZTPVCLHyk",
+      "youtube_id": null,
       "opener_youtube_id": "I8EpCcQbO18"
     },
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -247,7 +247,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream – EP Release Show",
+      "artist": "Psychic Scream \u2013 EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -286,7 +286,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
@@ -299,7 +299,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Apr 9",
-      "artist": "Boys Go To Jupiter – ‘Now You’re A Circle’ Tour",
+      "artist": "Boys Go To Jupiter \u2013 \u2018Now You\u2019re A Circle\u2019 Tour",
       "opener": "Miki Fiki",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
