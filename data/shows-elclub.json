@@ -72,7 +72,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/9512c3af-ea82-4f42-9e8f-23262c3db3b6.jpg",
       "ticket_url": "https://dice.fm/event/92w7m7",
       "youtube_id": "7SFT4ZWpZ20",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Beauty School Dropout",
@@ -283,8 +284,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 17,
-  "shows_with_video": 2,
-  "shows_with_image": 4,
+  "total_shows": 16,
+  "shows_with_video": 1,
+  "shows_with_image": 3,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

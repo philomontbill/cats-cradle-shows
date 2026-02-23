@@ -7,28 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "G-Clef’s Graduation Celebration + Film Screening",
-      "date": "Sun, Feb 22",
-      "doors": "2:30 pm",
-      "showtime": "3 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/g-clefs-graduation-celebration-film-screening.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/47299895/gclefs-graduation-celebration-film-screening-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
-      "artist": "Survival Tactics / Cardigan / Guard Dog / Altair Kareem / DJ Dymiria Decadent",
-      "date": "Sun, Feb 22",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/survival-tactics-cardigan-guard-dog-altair-kareem-dj-dymiria-decadent.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/47368285/survival-tactics-cardigan-guard-dog-altair-kareem-dj-dymiria-decadent-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "dc-klPfXjTY"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Makaya McCraven",
       "date": "Mon, Feb 23",
       "doors": "7 pm",
@@ -48,6 +26,16 @@
       "ticket_url": "https://www.etix.com/ticket/p/64111957/makaya-mccraven-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "w3giWDYxPTI"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Tax Party",
+      "date": "Tue, Feb 24",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/tax-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/91930284/tax-party-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "DvOCiEcAz8o"
     },
     {
       "venue": "The Pinhook",
@@ -179,7 +167,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Cootie_1296501764489999.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/33741141/cootie-catcher-edna-mode-charlie-paso-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "2w2gdQB_nD0"
+      "youtube_id": "cZdQrWdaxTE"
     },
     {
       "venue": "The Pinhook",
@@ -279,10 +267,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/77550020/carly-cosgrove-leisure-hour-summerbruise-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "d2X-BHvlcTE"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "BIG POP SHOW: Lifeguard / Mail / Sects / Warm Frames",
+      "date": "Sun, Mar 22",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/big-pop-up-show.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/35739706/big-pop-showlifeguard-mail-sects-warm-frames-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "udxZgbeJVvg"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 21,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-02-22T05:19:00.161438"
+  "last_updated": "2026-02-23T05:39:00.076183"
 }

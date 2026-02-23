@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Briscoe",
-      "date": "Sun, Feb 22",
-      "venue": "Cat's Cradle",
-      "opener": "Jack Blocker",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Briscoe1760463473_1958891760463474.jpg",
-      "event_url": "https://catscradle.com/event/briscoe-4/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "j7WBQW4AIMc",
-      "opener_youtube_id": "vRQcIQyZoPE"
-    },
-    {
       "artist": "Nuovo Testamento",
       "date": "Mon, Feb 23",
       "venue": "Cat's Cradle Back Room",
@@ -322,10 +309,23 @@
       "event_url": "https://catscradle.com/event/surfing-for-daisy/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "DogDoFcSK-Q",
       "opener_youtube_id": "JuvMfMIfQIg"
+    },
+    {
+      "artist": "Twen",
+      "date": "Sat, Mar 14",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Monsoon",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Twen_1941601759228155.jpg",
+      "event_url": "https://catscradle.com/event/twen/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "7aI0OF1kGH4",
+      "opener_youtube_id": "Yen1gSMpqxQ"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-22T05:18:38.960969"
+  "last_updated": "2026-02-23T05:38:35.422335"
 }

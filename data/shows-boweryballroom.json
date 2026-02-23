@@ -6,48 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket)  - Celestun Tour",
-      "date": "Sun, Feb 21",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/b7f/2a7a661e-1506-47b2-a488-50949e195b7f_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/tyler-ramsey-carl-broemel-celestun-tour/",
-      "youtube_id": "Yy0OjaMJPh4",
-      "expired": true
-    },
-    {
-      "artist": "Kevin Devine: 20 Years of Split The Country.. & Put Your Ghost To Rest",
-      "date": "Sun, Feb 21",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/f84/e7497f5e-c997-4172-a895-18f457dcaf84_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/kevin-devine-20-years-of-split-the-country-put-your-ghost-to-rest/",
-      "youtube_id": "O1sXLzGj3C4",
-      "expired": true
-    },
-    {
-      "artist": "The Baxbys present NYC Prom",
-      "date": "Sun, Feb 21",
-      "venue": "Bowery Ballroom",
-      "opener": "Nudey, DJ Sipper",
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/be6/9a911d69-360d-4590-b379-e0b357f4abe6_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-baxbys-present-nyc-prom/",
-      "youtube_id": null,
-      "opener_youtube_id": "9ZMoDykgFPE",
-      "expired": true
-    },
-    {
       "artist": "Ahi",
-      "date": "Sun, Feb 22",
+      "date": "Mon, Feb 22",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -55,7 +15,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/974/087b3ee9-76cb-4886-a894-916a1d50f974_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ahi/",
-      "youtube_id": "Mkca09ZonoE"
+      "youtube_id": "Mkca09ZonoE",
+      "expired": true
     },
     {
       "artist": "Punkrock Johnson, Sandy & the Skyway, worm catcher",
@@ -67,7 +28,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/076/1bf2f15c-c2ca-4162-9078-cc7a2ba4f076_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/punk-rock-johnson-sandy-the-skyway-worm-catcher/",
-      "youtube_id": "ul2LOdyJjqA"
+      "youtube_id": "fBM6Wzo31bU"
     },
     {
       "artist": "Honest Mistakes",
@@ -103,7 +64,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/59c/7f7fe4fd-d3b0-4344-afb2-2ce83915459c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/talkhouse-teddy-mcgraw-nolan-trotter/",
-      "youtube_id": "LnmkRZXBZE4"
+      "youtube_id": "ljue1w2AviU"
     },
     {
       "artist": "Haffway - The Wither Tour",
@@ -139,7 +100,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
-      "youtube_id": "NP5mqeGLq_Q",
+      "youtube_id": "QxXrjLaUtDE",
       "opener_youtube_id": "zWl5pQowHmk"
     },
     {
@@ -200,7 +161,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": "e8N0vxbQ13o"
+      "youtube_id": "Ns3Ggwn8gjQ"
     },
     {
       "artist": "Freddie McClendon",
@@ -236,7 +197,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": "IlLKGXD3MdM"
+      "youtube_id": "ivIjHyw38SQ"
     },
     {
       "artist": "Arianna Chetram, Malik English, lady t",
@@ -260,7 +221,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/bbc/63af2035-112d-46d3-b969-253a6283dbbc_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/muo-duo-evan-isaac-segami-annabel-asher/",
-      "youtube_id": "2p2tuJcKpuY"
+      "youtube_id": "IgAeDXWcRtE"
     },
     {
       "artist": "Ben Milk, Brady Dorrington, ChatChat",
@@ -296,7 +257,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
-      "youtube_id": "JuZUodqbUF8"
+      "youtube_id": "CAkKMlsyYf8"
     },
     {
       "artist": "Caroline Jones",
@@ -309,10 +270,46 @@
       "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
       "youtube_id": "VqlwKBrrMXk"
+    },
+    {
+      "artist": "Bryce Vine",
+      "date": "Thu, Mar 05",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/af8/fe4ccad7-46f0-4000-b7a6-560b07c83af8_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/bryce-vine/",
+      "youtube_id": "kudi8OtMu9s"
+    },
+    {
+      "artist": "Mike Viola",
+      "date": "Fri, Mar 06",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/09/MV-Winter-26-Mercury-Lounge.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/mike-viola/",
+      "youtube_id": "1MGBP0xKl-U"
+    },
+    {
+      "artist": "greek: The Cedar\\'s Tape Tour",
+      "date": "Fri, Mar 06",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
+      "youtube_id": "alOg6JtFHzU"
     }
   ],
-  "total_shows": 22,
-  "shows_with_video": 22,
-  "shows_with_image": 22,
-  "last_updated": "2026-02-22T05:20:58.303629"
+  "total_shows": 24,
+  "shows_with_video": 24,
+  "shows_with_image": 24,
+  "last_updated": "2026-02-23T05:41:06.656028"
 }

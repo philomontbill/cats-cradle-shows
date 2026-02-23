@@ -7,16 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Shameless Boutique Blowout Sale",
-      "date": "Sun, Feb 22",
-      "showtime": "1 pm",
-      "image": "https://local506.com/wp-content/uploads/2026/02/IMG_20260206_164902.png",
-      "ticket_url": "https://local506.com/event/shameless-boutique-blowout-sale/",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "Local 506",
       "artist": "Siamese – US Headline Tour 2026",
       "date": "Tue, Feb 24",
       "doors": "6:30 pm",
@@ -39,7 +29,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/75939422/square-one-with-buck-swope-and-green-room-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "DeQtFGexB2M",
-      "opener_youtube_id": "Gke86Ya9mFY"
+      "opener_youtube_id": "La3U41b0WSU"
     },
     {
       "venue": "Local 506",
@@ -241,7 +231,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/41195371/the-everymen-with-julian-calendar-and-sonic-blooms-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "qBVNdq5L4rQ",
-      "opener_youtube_id": "sZQqQC4SF-4"
+      "opener_youtube_id": "Zsip_ID37VE"
     },
     {
       "venue": "Local 506",
@@ -279,7 +269,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/02/robert-morton-self-loathing-never-got-me-anywhere-album-release-show-with-jack-the-songman-and-chris-chism.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/80830016/robert-morton-self-loathing-never-got-me-anywherealbum-release-show-with-jack-the-songman-and-chris-chism-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "8vln_S1h3io",
+      "youtube_id": "IwMZJs6FolQ",
       "opener_youtube_id": "YpCdz3awwzA"
     },
     {
@@ -306,7 +296,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/65531907/sub-empty-with-catiline-and-mantaray-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "HQWVKw6cvc0",
-      "opener_youtube_id": "BUwND_0VDCs"
+      "opener_youtube_id": "dVJE0Jvmkgg"
     },
     {
       "venue": "Local 506",
@@ -320,10 +310,23 @@
       "notice": null,
       "youtube_id": "hm1I7mP5XSY",
       "opener_youtube_id": "E3ru5vfyqZU"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Red October",
+      "date": "Thu, Apr 02",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Hemlock Theory and Under The Catacombs of Paris",
+      "image": "https://local506.com/wp-content/uploads/2026/02/red-october-with-hemlock-theory-and-under-the-catacombs-of-paris.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/98021367/red-october-with-hemlock-theory-and-under-the-catacombs-of-paris-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": "X52ki7PctKA",
+      "opener_youtube_id": "UkR4KYtpTKk"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 24,
+  "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-22T05:18:49.710908"
+  "last_updated": "2026-02-23T05:38:47.973192"
 }

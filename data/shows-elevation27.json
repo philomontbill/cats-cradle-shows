@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Sploinky Rave (Ages 18 & Up)",
-      "date": "Sat, Feb 21",
-      "venue": "Elevation 27",
-      "opener": null,
-      "notice": "18+",
-      "doors": "9 pm",
-      "showtime": "9 pm",
-      "image": "https://i.ticketweb.com/i/00/12/78/77/04_Original.jpg?v=3",
-      "ticket_url": "https://www.ticketweb.com/event/sploinky-rave-ages-18-elevation-27-tickets/14060054?REFID=clientsitewp",
-      "youtube_id": "eOE1wVr1jvI",
-      "expired": true
-    },
-    {
       "artist": "24/7 Jamz Rehearsal Studio Presents Band Showcase",
       "date": "Sun, Feb 22",
       "venue": "Elevation 27",
@@ -28,7 +15,8 @@
       "showtime": "3 pm",
       "image": "https://i.ticketweb.com/i/00/12/77/50/24_Original.jpg?v=12",
       "ticket_url": "https://www.ticketweb.com/event/247-jamz-rehearsal-studio-presents-elevation-27-tickets/14027094?REFID=clientsitewp",
-      "youtube_id": "m3Ifmb7U_hY"
+      "youtube_id": "m3Ifmb7U_hY",
+      "expired": true
     },
     {
       "artist": "Silk Road presents Stunna Pt 2",
@@ -41,7 +29,8 @@
       "image": "https://i.ticketweb.com/i/00/12/86/65/44_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/silk-road-presents-stunna-pt-elevation-27-tickets/14145634?REFID=clientsitewp",
       "youtube_id": "XNjBgX4Nl-Q",
-      "opener_youtube_id": "qXrFFRP9Tyo"
+      "opener_youtube_id": "qXrFFRP9Tyo",
+      "expired": true
     },
     {
       "artist": "The Cast Of Beatlemania Performing Hits From Every Era",
@@ -225,7 +214,7 @@
       "showtime": "9 pm",
       "image": "https://i.ticketweb.com/i/00/12/87/12/34_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/its-a-2000s-party-by-elevation-27-tickets/14151424?REFID=clientsitewp",
-      "youtube_id": "MLFp0VNAdDs"
+      "youtube_id": "aM7-EElgADc"
     },
     {
       "artist": "Lovesong: A Tribute To The Cure",
@@ -249,7 +238,7 @@
       "showtime": "3 pm",
       "image": "https://i.ticketweb.com/i/00/12/87/63/24_Original.jpg?v=5",
       "ticket_url": "https://www.ticketweb.com/event/honoring-jr-feat-audiohum-riverboys-elevation-27-tickets/14156734?REFID=clientsitewp",
-      "youtube_id": "yMgRn-zZYcU"
+      "youtube_id": "rq5Zx3AxPZE"
     },
     {
       "artist": "Burning Witches",
@@ -274,7 +263,7 @@
       "showtime": "8 pm",
       "image": "https://i.ticketweb.com/i/00/12/89/63/44_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/last-fair-deal-a-grateful-elevation-27-tickets/14179114?REFID=clientsitewp",
-      "youtube_id": "_NMn4srj6XQ"
+      "youtube_id": "liQHiBTZgmE"
     },
     {
       "artist": "Reverend Horton Heat",
@@ -312,10 +301,22 @@
       "image": "https://i.ticketweb.com/i/00/12/74/27/74_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/old-97s-elevation-27-tickets/13991004?REFID=clientsitewp",
       "youtube_id": "ZC-9kxsNGyc"
+    },
+    {
+      "artist": "Be Kind & Rewind: The Ultimate 90s Experience",
+      "date": "Fri, Apr 10",
+      "venue": "Elevation 27",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://i.ticketweb.com/i/00/12/85/15/74_Original.jpg?v=3",
+      "ticket_url": "https://www.ticketweb.com/event/be-kind-rewind-the-elevation-27-tickets/14128394?REFID=clientsitewp",
+      "youtube_id": "s43bm1Y4XCA"
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 24,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-22T05:19:18.410987"
+  "total_shows": 23,
+  "shows_with_video": 23,
+  "shows_with_image": 23,
+  "last_updated": "2026-02-23T05:39:19.693626"
 }

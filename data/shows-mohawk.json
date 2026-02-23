@@ -6,20 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Electric Feels",
-      "date": "Sat, Feb 21",
-      "venue": "Mohawk Outdoor",
-      "opener": "Indie Rock + Electronic Dance Party",
-      "notice": null,
-      "doors": "9:00pm",
-      "showtime": "9:30pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593453509",
-      "ticket_url": "https://www.etix.com/ticket/p/97909278/electric-feels-austin-resound-presents",
-      "youtube_id": "MmZexg8sxyk",
-      "opener_youtube_id": "7EXUvZRb_c4",
-      "expired": true
-    },
-    {
       "artist": "LowDown Brass Band",
       "date": "Thu, Feb 26",
       "venue": "Mohawk Indoor",
@@ -33,19 +19,6 @@
       "opener_youtube_id": "EqwjdX3PAR0"
     },
     {
-      "artist": "Colony House",
-      "date": "Fri, Feb 27",
-      "venue": "Mohawk Outdoor",
-      "opener": "Mercury",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
-      "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "Os8d8eyGhiA"
-    },
-    {
       "artist": "Cory Branan",
       "date": "Fri, Feb 27",
       "venue": "Mohawk Indoor",
@@ -57,6 +30,19 @@
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
       "youtube_id": "4EGi-dPtt9U",
       "opener_youtube_id": "tGqIgl2vztQ"
+    },
+    {
+      "artist": "Colony House",
+      "date": "Fri, Feb 27",
+      "venue": "Mohawk Outdoor",
+      "opener": "Mercury",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
+      "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
+      "youtube_id": "NRiOvSqn8aw",
+      "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
       "artist": "SZN4",
@@ -317,7 +303,7 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     },
     {
-      "artist": "Touch\u00e9 Amor\u00e9",
+      "artist": "Touché Amoré",
       "date": "Wed, Apr 08",
       "venue": "Mohawk Outdoor",
       "opener": "Jeromes Dream, Porcelain",
@@ -328,10 +314,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
       "youtube_id": "Ijmhb8is-vc",
       "opener_youtube_id": "-n20fV-hyg8"
+    },
+    {
+      "artist": "My Life With the Thrill Kill Kult",
+      "date": "Thu, Apr 09",
+      "venue": "Mohawk Outdoor",
+      "opener": "Light Asylum, Die Sexual, DEVORA, Heavy Halo",
+      "notice": null,
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648542460182",
+      "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
+      "youtube_id": "YgaZwOHjTwI",
+      "opener_youtube_id": "9Ynrc_1f5vE"
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 22,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-22T05:19:11.027072"
+  "total_shows": 25,
+  "shows_with_video": 23,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-23T05:39:10.592670"
 }
