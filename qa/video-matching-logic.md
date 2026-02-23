@@ -83,23 +83,28 @@ Key principle: **users never see an unverified match.** The no-preview popup is 
 11. Pick highest-scoring candidate. Store as unverified with candidate ID, score, and explanation. **Do not assign to youtube_id yet.** User sees no-preview popup.
 
 ### Phase 3: Verifier — Multi-Step Validation
-12. For each unverified candidate, pull video metadata from YouTube `videos` endpoint (1 quota unit):
-    - **View count check** — reject if views exceed threshold (~2-3M). A band at Cat's Cradle Back Room doesn't have a 40M-view video. This catches famous-song-name collisions (Six More Miles, Nothing, Heated).
-    - **Upload date check** — flag if video age doesn't fit a current touring artist. A video from 2005 for a band playing next week warrants suspicion.
-13. Pull channel info from YouTube `channels` endpoint (1 quota unit):
-    - **Channel analysis** — is this the artist's own channel, or a compilation/covers/topic channel? Does the channel name relate to the artist?
-14. Apply confidence threshold with all signals combined:
+12. **Generic venue image check** (free, no API call) — if the show's image URL matches a known venue placeholder (e.g., Cat's Cradle uses `cradlevenue.png`), treat this as a strong signal the entry may be an event rather than a band. Each venue has at most one placeholder URL to check against. Note: occasionally a real band may not have artwork uploaded yet, so this is a rejection signal in the verifier, not a hard block in the scraper. If a real band gets caught by this, it shows up in the daily report and can be overridden.
+13. For each unverified candidate, pull video metadata from YouTube `videos` endpoint (1 quota unit):
+    - **View count check** — reject if views exceed **5 million**. All our venues are small indie rooms (100-750 capacity). Bands playing these rooms typically have videos in the 10K-2M range. 5M catches all famous-song collisions (Hank Williams, Whitney Houston, Beyonce) while leaving headroom for legit bands with a breakout hit. Single universal threshold — no per-venue variation needed since all venues are the same tier. Can tighten later based on daily report data.
+    - **Topic channel exception** — if the video is from a YouTube auto-generated "{ArtistName} - Topic" channel and the artist name matches, **skip the view count check**. Topic channels aggregate YouTube Music streaming plays, so a small indie band can have 500K+ plays. The Topic designation + artist name match is one of the strongest possible confirmations (YouTube itself recognized the artist).
+    - **Upload date check** — flag if video age doesn't fit a current touring artist. A video from 2005 for a band playing next week warrants suspicion. Not a hard reject on its own — bands tour old catalogs. But combined with other weak signals, it tips toward rejection.
+14. Pull channel info from YouTube `channels` endpoint (1 quota unit):
+    - **Channel name match** — does the channel name relate to the artist? This was already scored in Phase 2, but the verifier confirms it with the actual channel data (not just the search snippet).
+    - **Channel type** — is this the artist's own channel, a Topic channel, or a compilation/covers/lyric channel? Own channel or Topic = positive. Compilation or covers = negative.
+    - **Subscriber count as modifier (not a threshold)** — subscriber count is too noisy for hard cutoffs (one indie band has 50K subs, another has 400). Instead, use it to modify confidence: non-matching channel + 2M subscribers = strong red flag (wrong channel). Matching channel + 200 subscribers = fine (small band, own channel). Never rejects on its own.
+15. Apply confidence threshold with all signals combined:
     - **Pass all checks** → promote to "verified," assign youtube_id, video goes live
     - **Fail any check** → reject, assign no-preview, log the reason
-15. Rejected candidates and their reasons are preserved for the daily report
+    - Design choice: "fail any = reject" is deliberately conservative. If this proves too aggressive, we loosen specific checks based on what the daily report shows us.
+16. Rejected candidates and their reasons are preserved for the daily report
 
 ### Phase 4: Daily Video Report
-16. Generate report covering:
+17. Generate report covering:
     - **Tonight's Changes** — summary counts (new shows, verified, rejected, expired)
     - **New Verified Videos** — what passed and went live (with confidence and check results)
     - **Rejected Candidates** — what the scraper found but the verifier refused, with specific reasons (this is how we learn and calibrate)
     - **No Preview Queue** — full running list of all artists currently showing the popup, with status (override, rejected, no results, etc.)
-17. Post as GitHub Issue (triggers email notification)
+18. Post as GitHub Issue (triggers email notification)
 
 ## Report Format
 
@@ -114,21 +119,21 @@ TONIGHT'S CHANGES
   Shows removed/expired: 1
 
 NEW VERIFIED VIDEOS
-Artist           | Venue              | Date     | Video ID    | Confidence
------------------+--------------------+----------+-------------+-----------
-Waxahatchee      | Cat's Cradle       | Mar 15   | dK3qT5r0cMc| 95 (channel match)
-Slow Teeth       | CC Back Room       | Mar 18   | a8Fk29xL4pQ| 88 (channel + low views)
+Artist           | Venue              | Date     | Video                                        | Confidence
+-----------------+--------------------+----------+----------------------------------------------+-----------
+Waxahatchee      | Cat's Cradle       | Mar 15   | youtube.com/watch?v=dK3qT5r0cMc              | 95 (channel match)
+Slow Teeth       | CC Back Room       | Mar 18   | youtube.com/watch?v=a8Fk29xL4pQ              | 88 (channel + low views)
 
 REJECTED CANDIDATES
-Artist           | Venue              | Date     | Candidate   | Reason
------------------+--------------------+----------+-------------+---------------------------
-Some Band        | Local 506          | Mar 16   | 82fR-6N0JQc | 12M views (cap: 2M)
+Artist           | Venue              | Date     | Candidate                                    | Reason
+-----------------+--------------------+----------+----------------------------------------------+---------------------------
+Some Band        | Local 506          | Mar 16   | youtube.com/watch?v=82fR-6N0JQc              | 12M views (cap: 5M)
 
 NO PREVIEW QUEUE (7 total)
 Artist           | Venue              | Date     | Status
 -----------------+--------------------+----------+---------------------------
 Six More Miles   | CC Back Room       | Feb 25   | Override: no video
-Some Band        | Local 506          | Mar 16   | Rejected: view count
+Some Band        | Local 506          | Mar 16   | Rejected: view count (12M, cap 5M)
 Another Act      | Pinhook            | Mar 17   | No results found
 Heated           | Motorco            | Mar 20   | Rejected: matched H.E.A.T
 Nothing          | Cat's Cradle       | Mar 22   | Rejected: single-word ambiguous
@@ -161,6 +166,26 @@ if artist and yt_id:
 When we manually set `youtube_id: null`, the artist was excluded from existing matches. The smart filter then treated it as a "new artist" and re-searched YouTube, finding the same wrong Hank Williams video every night.
 
 The fix: the new system treats "verified" and "override" as durable states stored separately from the youtube_id field itself. A null override means "I chose no video" — not "please search again."
+
+## Planned Enhancement: Multi-Act Openers
+
+Currently each show has a single `opener` string and one `opener_youtube_id`. The scraper splits on comma, takes the first name, and that single video represents all openers. Example: "Full Body 2, Cryogeyser, VMO a.k.a. Violent Magic Orchestra" → only Full Body 2 gets a video lookup.
+
+The plan is to change the data model so each opener is a separate entry with its own name and video:
+
+```json
+"openers": [
+    {"name": "Full Body 2", "youtube_id": "xe7rEv5UgRA"},
+    {"name": "Cryogeyser", "youtube_id": null},
+    {"name": "VMO a.k.a. Violent Magic Orchestra", "youtube_id": null}
+]
+```
+
+Each opener gets their own play button on the site and goes through the same verification pipeline. Most openers will get no-preview and that's fine — openers at small venues are often too obscure for YouTube matches.
+
+This is a significant change touching the data format, every scraper, the verifier, and app.js. It will be implemented after the verifier pipeline is in place, building on top of it rather than alongside it.
+
+Also applies to the Rivalry Night pattern (Mar 5, Cat's Cradle Back Room) where openers have school affiliations in parentheses: "Dialtone (Duke), Red Kanoo (UNC)". The parenthetical stripping already in name cleaning would handle the "(Duke)" and "(UNC)" tags.
 
 ## Design Principles
 
