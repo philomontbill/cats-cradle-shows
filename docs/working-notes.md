@@ -532,11 +532,35 @@ New script `scripts/verify_videos.py` implements Phase 3 of the pipeline.
 - `qa/video_states.json` — **state data** (verified/rejected status per artist, auto-updated)
 - `qa/audits/` — timestamped accuracy audit snapshots (unchanged)
 
+### Spot Check — Verifier Results on Live Site
+
+After the verifier ran and Vercel deployed, manually checked localsoundcheck.com:
+
+| Show | Venue | Expected | Actual | Result |
+|------|-------|----------|--------|--------|
+| Nuovo Testamento | Cat's Cradle | Video plays | Correct video | Pass |
+| Six More Miles | Cat's Cradle | No preview | No preview popup | Pass |
+| Rivalry Night | Cat's Cradle | No preview (rejected) | No preview popup | Pass |
+| Cut Worms | Motorco | Video plays | Correct video | Pass |
+| POWFU | Motorco | No preview (rejected) | No preview popup | Pass |
+| Heated | Motorco | Should be no preview | Wrong video (H.E.A.T) | **Fixed** |
+| Colony House | Mohawk | Video plays | Correct video | Pass |
+| Oof Fighters | Mohawk | No preview (rejected) | No preview popup | Pass |
+| Gogol Bordello | Mohawk | No preview (rejected) | No preview popup | Pass |
+
+**Heated fix:** Single-word name collision — "Heated" (local band at Motorco) matched H.E.A.T (Swedish rock band). Verifier missed it because views were under 5M and channel name fuzzy-matched. Added null override for both casings. Single-word names remain the hardest category for automated matching.
+
+### Daily Video Report — First Issue Posted
+
+Ran verifier a second time after spot check fixes. Posted as GitHub Issue #10. Second run used 0 API units (everything already verified/overridden from first run). Report correctly shows Heated as "No video from scraper" after override.
+
+Daily report will now post automatically every night after the scrape.
+
 ### Next Steps
 - Review false rejections: Aterciopelados, Gogol Bordello, POWFU, Caroline Jones — add overrides if legitimate
 - Monitor first automated verifier run (tonight 11 PM ET)
-- Check daily video report GitHub Issue arrives tomorrow morning
+- Multi-act feature: show individual band names with separate video/no-preview indicators (discussed, not started)
 - Finalize video disclaimer wording and re-add to site
-- Multi-act feature (task #13)
+- Reddit post ready but not yet posted (outreach/reddit-post-triangle.txt)
 - Link Google Search Console to GA4
 - Verify first automated weekly report posts Monday Mar 2
