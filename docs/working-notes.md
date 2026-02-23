@@ -463,3 +463,80 @@ python scripts/weekly_report.py --output report.txt  # Write to file instead
 - Link Google Search Console to GA4
 - Check GA4 custom dimensions are populating after 24-48 hours
 - Verify first automated weekly report posts Monday Mar 2
+
+---
+
+## Session: Feb 23, 2026
+
+### Critical Bug Fix — API Scoring Never Worked
+
+Discovered that `_search_youtube_api()` in `base_scraper.py` had a variable name bug: lines 278 and 304 referenced `clean_name` instead of `artist_name`. This variable was never defined in that function. Every API search:
+1. Made the YouTube API call (used quota)
+2. Crashed on `NameError` when trying to score results
+3. Got caught by a broad `except Exception`
+4. Silently fell back to scraping YouTube HTML with zero confidence checks
+
+**The entire confidence scoring system (accept/flag/skip tiers) never executed for API searches.** All video matches came through the web scraping fallback, which just takes the first YouTube result with no scoring. This explains many wrong matches.
+
+Fixed: two-line change, `clean_name` → `artist_name` on lines 278 and 304. Tonight's nightly scrape will be the first time confidence scoring actually runs.
+
+### Video Matching Logic — Full Design Review
+
+Walked through all four phases of the video matching pipeline documented in `qa/video-matching-logic.md`:
+
+**Phase 1 (Schedule Updates):** How the scraper decides what to search. Override → verified → unverified flow. Discussed Rivalry Night edge case, venue placeholder image detection, multi-act openers (deferred).
+
+**Phase 2 (YouTube Candidate Search):** Name cleaning, event keyword detection, API search with Music category filter, confidence scoring. Found and fixed the `clean_name` bug during this review.
+
+**Phase 3 (Verifier — Multi-Step Validation):** New verification layer. Decisions locked in:
+- View count cap: **5 million** (single universal threshold, all venues same tier)
+- Topic channel exception: skip view count if "{ArtistName} - Topic" matches
+- Subscriber count: modifier only, not a hard threshold. 2M+ on non-matching channel = red flag
+- Upload date: flag if 15+ years old with no channel match (not a hard reject alone)
+- Venue placeholder image: flag if show uses venue default artwork (e.g., cradlevenue.png)
+
+**Phase 4 (Daily Video Report):** Report format with four sections — Tonight's Changes, New Verified Videos, Rejected Candidates, No Preview Queue. Posted as GitHub Issue with clickable YouTube URLs.
+
+### Video Verifier — Built and Deployed
+
+New script `scripts/verify_videos.py` implements Phase 3 of the pipeline.
+
+**First run results (all venues, Feb 23):**
+- 285 videos verified and locked in
+- 40 wrong matches caught and removed from show data
+- ~650 API quota units (6.5% of daily budget)
+
+**Notable catches:**
+- Bryce Vine (98.7M views), Alien Ant Farm (382M, "Smooth Criminal"), yung kai (247M)
+- Oof Fighters matched actual Foo Fighters channel (4.2M subs) — tribute band at wrong video
+- KEXP, NPR Music, Metallica, Epitaph Records channels caught by subscriber threshold
+- Rivalry Night caught by venue placeholder image before any API call
+
+**False rejections to investigate:** Aterciopelados (42M, real band), Gogol Bordello (14M, real band), POWFU (8.2M, internet-famous), Caroline Jones (9.5M). These are real artists playing these venues whose legitimate videos exceed the 5M cap — need manual overrides.
+
+**Files created:**
+- `scripts/verify_videos.py` — verifier script (view count, channel analysis, Topic detection, upload date, venue placeholder)
+- `qa/video_states.json` — verification state for 324 artists (285 verified, 39 rejected)
+- `qa/verification-log.md` — running operational log of verification runs, findings, calibration decisions
+
+**Nightly workflow updated:**
+- Added "Verify video assignments" step to `.github/workflows/scrape.yml`
+- Runs after validate, before accuracy audit
+- Posts daily video report as GitHub Issue (label: `daily-video-report`)
+- `qa/video_states.json` included in nightly commit
+
+### QA Documentation Structure
+
+- `qa/video-matching-logic.md` — **design spec** (rules, thresholds, decision tree, reasoning)
+- `qa/verification-log.md` — **operational log** (run results, findings, calibration history)
+- `qa/video_states.json` — **state data** (verified/rejected status per artist, auto-updated)
+- `qa/audits/` — timestamped accuracy audit snapshots (unchanged)
+
+### Next Steps
+- Review false rejections: Aterciopelados, Gogol Bordello, POWFU, Caroline Jones — add overrides if legitimate
+- Monitor first automated verifier run (tonight 11 PM ET)
+- Check daily video report GitHub Issue arrives tomorrow morning
+- Finalize video disclaimer wording and re-add to site
+- Multi-act feature (task #13)
+- Link Google Search Console to GA4
+- Verify first automated weekly report posts Monday Mar 2
