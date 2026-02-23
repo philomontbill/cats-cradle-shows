@@ -72,6 +72,12 @@ jobs:
         continue-on-error: true
         run: python scripts/validate_shows.py
 
+      - name: Verify video assignments
+        continue-on-error: true
+        run: python scripts/verify_videos.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Run accuracy audit
         continue-on-error: true
         run: python qa/audit_accuracy.py
@@ -80,7 +86,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/shows-*.json logs/ qa/match_log.json qa/audits/
+          git add data/shows-*.json logs/ qa/match_log.json qa/audits/ qa/video_states.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
