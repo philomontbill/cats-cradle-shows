@@ -275,7 +275,7 @@ class BaseScraper:
                 url_no_cat = (
                     f"https://www.googleapis.com/youtube/v3/search"
                     f"?part=snippet"
-                    f"&q={quote_plus(clean_name + ' band music')}"
+                    f"&q={quote_plus(artist_name + ' band music')}"
                     f"&type=video"
                     f"&maxResults=5"
                     f"&key={self.api_key}"
@@ -301,7 +301,7 @@ class BaseScraper:
                 title = snippet.get("title", "")
                 channel = snippet.get("channelTitle", "")
 
-                score, explanation = self._score_match(clean_name, title, channel)
+                score, explanation = self._score_match(artist_name, title, channel)
 
                 # Bonus: if found in Music category search, add 5 points
                 score = min(score + 5, 100)
