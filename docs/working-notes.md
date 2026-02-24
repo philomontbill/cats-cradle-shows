@@ -689,7 +689,7 @@ Reviewed all 38 videos rejected by the verifier. Categorized as correct rejectio
 
 ---
 
-## Session: Feb 24, 2026
+## Session: Feb 24, 2026 — Spotify + Manual Video Review
 
 ### Spotify API Integration — Phase 1 Complete
 
@@ -781,3 +781,62 @@ YouTube video pages display Bandsintown tour dates inline. For 8+ of the El Club
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session: Feb 24, 2026 (continued — session 2)
+
+### El Club Video Coverage — Complete
+
+Finished reviewing all remaining El Club artists. All 4 active shows now have video assignments:
+
+| Artist | Spotify Pop | Video | Channel/Notes |
+|--------|------------|-------|---------------|
+| Hieroglyphics | 39 | V8B8bbrkETQ | UPROXX Video (741K views), also KEXP live |
+| Eggy | 24 | oa0WTcgEkFU | Flightless Records (5.6K views, 2025 album) |
+| Emo Nite | 0 | VzJa8Eql6A8 | @EmoNiteLA (45.1K subs, Post Malone at Emo Nite) |
+| A Night With The Saunderson Brothers | n/a | LZzxq4hLFhU | Boiler Room: Detroit (19K views, verified 5.1M subs) |
+
+**El Club re-added to site** — was removed due to poor matching. Now at full video coverage. Added button to Beyond the Triangle section in index.html, confirmed working on mobile.
+
+### Cross-Venue No-Preview Queue — Systematic Review
+
+Created `scripts/no_preview_report.py` to list all remaining no-preview shows sorted by Spotify popularity. Started at 32, worked through searchable artists.
+
+**Reviewed & accepted (7):**
+
+| Artist | Venue | Video | Channel/Notes |
+|--------|-------|-------|---------------|
+| JULIA. | Kings | VMePxmKXCH0 | @JULIA.theband (78 subs), local NC funk band |
+| Robert Morton | Local 506 | Az3RcZfWcvc | Own channel (29 subs), NPR Tiny Desk submission, Chapel Hill |
+| Fish Hunt | Pinhook | rVieMw_GLSU | Own channel (614 subs), "Go My Way" Official MV, VHS Records |
+| Invisible Cities | Pinhook | eIK1Qw9K9ZY | @Invisible-Cities-NYC (1 sub), full album, Brooklyn death rock |
+| Lifeguard | Pinhook | Bjn2LoYQ2KY | Verified channel (2.33K subs), "Ultra Violence" Official MV, Chicago punk |
+| SUM SUN (Rikkies show) | Bowery Ballroom | CR0nXySqqPo | Verified channel (976 subs), "Blame It On The Rain" Official MV, 179K views. Bandsintown confirmed Feb 28 Bowery show. |
+
+**Reviewed & skipped (4):**
+- **The Ruckus** (Bowery) — Topic channel only, 25 subs, 238 views
+- **Oof Fighters** (Mohawk) — Tribute act, only Foo Fighters results
+- **The Rikkies** (Bowery) — Only 9-15 year old live clips. SUM SUN (co-headliner) video assigned instead
+- **LUEWWD XX** (Motorco) — Topic channel (LW¥XX¥) with 8 views. Too thin for a preview
+
+### Lessons Learned — Manual Review Calibration
+
+**Don't skip legitimate touring bands:** Initially recommended SKIP for Invisible Cities (1 sub, 28 views on full album). User corrected — the criteria should be "is this a real touring act" not "is their YouTube big enough." Google AI Overview confirmed Brooklyn death rock/post-punk band with active 2025/2026 tour.
+
+**Check for the brand's own channel:** Initially recommended null override for Emo Nite (event, not a band). User said to look again — found @EmoNiteLA with 45.1K subs and 330 videos. Events can have strong YouTube channels.
+
+**User watches along:** For Eggy, user had navigated to a more current video than what I clicked. Always check what the user has up before proceeding.
+
+### Remaining No-Preview Queue
+
+~24 shows remain without video. All are events, DJ nights, tributes, showcases, or null overrides — not searchable bands. **The searchable artist portion of the no-preview queue is now exhausted.**
+
+### Next Steps
+- Add Spotify credentials as GitHub Secrets
+- Phase 2: Wire Spotify signals into verifier
+- Multi-act feature (discussed, not started)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
+- Consider encoding manual review criteria into verifier (label allowlist, verification badge, Bandsintown confirmation)
