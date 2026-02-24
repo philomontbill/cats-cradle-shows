@@ -650,5 +650,99 @@ Reviewed all 38 videos rejected by the verifier. Categorized as correct rejectio
 - Multi-act feature (discussed, not started)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
-- Link Google Search Console to GA4
+- Link Google Search Console to GA4 (**done** — see below)
+- Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session: Feb 23, 2026 (session 3)
+
+### GA4 Custom Dimensions — Confirmed Working
+- Tested custom dimensions by visiting localsoundcheck.com on phone while watching GA4 Realtime
+- Realtime showed sample_play events with correct artist parameter values: "Nuovo Testamento" (2 plays), "North State Grass" (1 play)
+- All 4 dimensions (artist, role, venue_name, ticket_url) confirmed populating correctly
+- Note: Soundcheck Chrome profile had 503 errors on google-analytics.com/g/collect — browser-specific issue, phone traffic worked fine
+
+### Google Search Console — Linked to GA4
+- Linked localsoundcheck.com Search Console property to GA4 via Admin > Product Links > Search Console Links
+- Selected Domain property (sc-domain:localsoundcheck.com) and Local web stream
+- Link created successfully — search query data will appear in GA4 reports
+
+### Spotify API Integration — Planned, Blocked on Premium
+- Discussed Spotify vs Bandsintown for video verification quality improvement
+- Recommendation: Spotify first (artist disambiguation, track name cross-referencing, popularity scores)
+- Bandsintown better for show data validation but more restrictive API
+- Spotify requires Premium account for Development Mode API access (Feb 2026 change)
+- **Blocker: user needs to upgrade to Spotify Premium before proceeding**
+- Full implementation plan saved in `.claude/plans/fuzzy-stargazing-starfish.md`
+- Plan covers: app setup, `scripts/spotify_enrich.py`, caching, workflow integration, phased rollout
+
+### Next Steps
+- ~~**Blocked**: Spotify integration — waiting on Premium upgrade~~ **Unblocked — see Feb 24 session**
+- Monitor first automated verifier run (tonight 11 PM ET)
+- Remaining video quality: 19 low-confidence entries, 13 medium-confidence entries
+- El Club scraper investigation (18 shows with no video)
+- Multi-act feature (discussed, not started)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session: Feb 24, 2026
+
+### Spotify API Integration — Phase 1 Complete
+
+Spotify Premium upgraded, app created on developer.spotify.com, credentials stored in `.env` and ready for GitHub Secrets.
+
+**New script: `scripts/spotify_enrich.py`**
+- Auth: Client Credentials flow (no user login needed)
+- Searches Spotify for each artist, picks best match using name similarity scoring
+- Fetches top 10 tracks for matched artists
+- Caches results in `qa/spotify_cache.json` with 30-day TTL
+- CLI: `--artist "Name"` (single lookup), `--dry-run`, `--force` (bypass cache)
+
+**First full run results (352 unique artists):**
+- 212 found on Spotify, 140 not found
+- 210 strong matches (exact or close)
+- Event names correctly rejected (DURHAM MARDI GRAS, COMMON WOMAN CABARET, etc.)
+- Multi-artist bills correctly rejected (comma-separated, "and" separated)
+
+**Name similarity scoring refined during testing:**
+- Length ratio check prevents short-word containment false positives ("Common" no longer matches "COMMON WOMAN CABARET 2026")
+- Multi-word names (3+ words) require higher threshold (0.7 vs 0.5) to match
+- Three confidence tiers: exact (1.0), close (0.8+), partial (0.5+)
+
+**Edge cases noted (low impact for Phase 1):**
+- `DISCO, ALWAYS` → "Always Discover" (partial, pop=0, 3 followers) — weak false positive
+- `@ Kings` → "KINGS" — "@" stripped by normalization
+- `An Evening` / `An Evening With` → matched unrelated bands — truncated event prefixes
+- `w/ Enrage (tribute to...)` → matched Rage Against The Machine — opener prefix leaking
+
+### CSV Report for Daily Video Verification
+
+Modified `scripts/verify_videos.py` to generate CSV alongside the text report:
+- Combined CSV with Section/Artist/Venue/Date/Video URL/Detail columns
+- Sections: Verified, Rejected, No Preview
+- When using `--output report.txt`, also writes `report.csv`
+- In nightly pipeline, saves to `qa/video-report-{date}.csv` and posts comment on GitHub Issue
+
+### Workflow Updates
+
+`.github/workflows/scrape.yml` updated:
+- Added "Spotify artist enrichment" step between validate and verify (`continue-on-error: true`)
+- Added `qa/spotify_cache.json` and `qa/video-report-*.csv` to git add in commit step
+
+### Remaining Setup
+- Add `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` as GitHub Secrets
+- Phase 2 (next session): Wire Spotify signals into `verify_videos.py` as modifiers — review enrichment data first, then tune thresholds
+
+### Next Steps
+- Add Spotify credentials as GitHub Secrets
+- Phase 2: Wire Spotify signals into verifier (cross-ref top tracks vs video titles, no-match = strengthen rejection)
+- Remaining video quality: 19 low-confidence, 13 medium-confidence entries
+- El Club scraper investigation
+- Multi-act feature (discussed, not started)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2

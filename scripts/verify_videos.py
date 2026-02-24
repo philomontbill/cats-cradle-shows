@@ -18,11 +18,14 @@ Usage:
     python scripts/verify_videos.py --dry-run        # Check without modifying files
 """
 
+import csv
+import io
 import os
 import sys
 import json
 import re
 import subprocess
+import tempfile
 from datetime import datetime
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -262,8 +265,40 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
     return passed, reasons, metadata
 
 
-def build_report(tonight, states, all_shows_data):
+def load_spotify_cache():
+    """Load Spotify enrichment cache for report annotations."""
+    path = os.path.join(_PROJECT_ROOT, "qa", "spotify_cache.json")
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def spotify_indicator(artist_name, spotify_cache):
+    """
+    Return a compact Spotify indicator for the report.
+    ✓ 44 = exact match, popularity 44
+    ~ 8  = close/partial match, popularity 8
+    —    = not found on Spotify
+    """
+    entry = spotify_cache.get(artist_name, {})
+    conf = entry.get("match_confidence", "")
+    pop = entry.get("popularity")
+    if conf == "exact":
+        return f"✓ {pop}"
+    elif conf in ("close", "partial"):
+        return f"~ {pop}"
+    elif conf == "no_match":
+        return "—"
+    else:
+        return ""  # no cache entry at all
+
+
+def build_report(tonight, states, all_shows_data, spotify_cache=None):
     """Build the daily video report text."""
+    if spotify_cache is None:
+        spotify_cache = {}
     date_str = datetime.now().strftime("%b %d, %Y")
     lines = []
     lines.append("LOCAL SOUNDCHECK — DAILY VIDEO REPORT")
@@ -282,15 +317,18 @@ def build_report(tonight, states, all_shows_data):
     if tonight["verified"]:
         lines.append("NEW VERIFIED VIDEOS")
         lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Video':<48}| Confidence"
+            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}"
+            f"| {'Video':<48}| Confidence"
         )
         lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*48}+{'-'*20}"
+            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}"
+            f"+{'-'*48}+{'-'*20}"
         )
         for v in tonight["verified"]:
             url = f"youtube.com/watch?v={v['video_id']}"
+            sp = spotify_indicator(v["artist"], spotify_cache)
             lines.append(
-                f"{v['artist']:<20}| {v['venue']:<22}| {v['date']:<10}"
+                f"{v['artist']:<20}| {v['venue']:<22}| {v['date']:<10}| {sp:<7}"
                 f"| {url:<48}| {v['confidence']}"
             )
         lines.append("")
@@ -299,16 +337,19 @@ def build_report(tonight, states, all_shows_data):
     if tonight["rejected"]:
         lines.append("REJECTED CANDIDATES")
         lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Candidate':<48}| Reason"
+            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}"
+            f"| {'Candidate':<48}| Reason"
         )
         lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*48}+{'-'*30}"
+            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}"
+            f"+{'-'*48}+{'-'*30}"
         )
         for r in tonight["rejected"]:
             url = f"youtube.com/watch?v={r['video_id']}"
             reason_str = "; ".join(r["reasons"])
+            sp = spotify_indicator(r["artist"], spotify_cache)
             lines.append(
-                f"{r['artist']:<20}| {r['venue']:<22}| {r['date']:<10}"
+                f"{r['artist']:<20}| {r['venue']:<22}| {r['date']:<10}| {sp:<7}"
                 f"| {url:<48}| {reason_str}"
             )
         lines.append("")
@@ -349,14 +390,15 @@ def build_report(tonight, states, all_shows_data):
     if no_preview:
         lines.append(f"NO PREVIEW QUEUE ({len(no_preview)} total)")
         lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| Status"
+            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}| Status"
         )
         lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*30}"
+            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}+{'-'*30}"
         )
         for np in no_preview:
+            sp = spotify_indicator(np["artist"], spotify_cache)
             lines.append(
-                f"{np['artist']:<20}| {np['venue']:<22}| {np['date']:<10}"
+                f"{np['artist']:<20}| {np['venue']:<22}| {np['date']:<10}| {sp:<7}"
                 f"| {np['status']}"
             )
         lines.append("")
@@ -365,7 +407,63 @@ def build_report(tonight, states, all_shows_data):
     return "\n".join(lines)
 
 
-def post_github_issue(report_text):
+def build_csv(tonight, states, all_shows_data, spotify_cache=None):
+    """Build a combined CSV with Spotify match and popularity columns."""
+    if spotify_cache is None:
+        spotify_cache = {}
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["Section", "Artist", "Venue", "Date", "Video URL",
+                     "Spotify Match", "Spotify Popularity", "Detail"])
+
+    for v in tonight["verified"]:
+        url = f"https://youtube.com/watch?v={v['video_id']}"
+        entry = spotify_cache.get(v["artist"], {})
+        sp_match = entry.get("match_confidence", "")
+        sp_pop = entry.get("popularity", "")
+        writer.writerow(["Verified", v["artist"], v["venue"], v["date"], url,
+                         sp_match, sp_pop, v["confidence"]])
+
+    for r in tonight["rejected"]:
+        url = f"https://youtube.com/watch?v={r['video_id']}"
+        reason_str = "; ".join(r["reasons"])
+        entry = spotify_cache.get(r["artist"], {})
+        sp_match = entry.get("match_confidence", "")
+        sp_pop = entry.get("popularity", "")
+        writer.writerow(["Rejected", r["artist"], r["venue"], r["date"], url,
+                         sp_match, sp_pop, reason_str])
+
+    # No preview queue
+    for filepath, data in all_shows_data:
+        shows = data.get("shows", data) if isinstance(data, dict) else data
+        for show in shows:
+            if not isinstance(show, dict):
+                continue
+            artist = show.get("artist", "")
+            yt_id = show.get("youtube_id")
+            if not yt_id and artist:
+                venue = show.get("venue", "Unknown")
+                date = show.get("date", "TBD")
+                state = states.get(artist, {})
+                state_status = state.get("status", "")
+                if state_status == "rejected":
+                    status = f"Rejected: {state.get('reason', 'unknown')}"
+                elif state_status == "override_null":
+                    status = "Override: no video"
+                elif state_status == "verified":
+                    status = "No video from scraper"
+                else:
+                    status = "No video assigned"
+                entry = spotify_cache.get(artist, {})
+                sp_match = entry.get("match_confidence", "")
+                sp_pop = entry.get("popularity", "")
+                writer.writerow(["No Preview", artist, venue, date, "",
+                                 sp_match, sp_pop, status])
+
+    return output.getvalue()
+
+
+def post_github_issue(report_text, csv_text=None):
     """Post the daily report as a GitHub Issue."""
     date_str = datetime.now().strftime("%Y-%m-%d")
     title = f"Daily Video Report — {date_str}"
@@ -405,7 +503,41 @@ def post_github_issue(report_text):
         capture_output=True, text=True
     )
     if result.returncode == 0:
-        print(f"  Posted GitHub Issue: {result.stdout.strip()}")
+        issue_url = result.stdout.strip()
+        print(f"  Posted GitHub Issue: {issue_url}")
+
+        # Attach CSV if available
+        if csv_text:
+            try:
+                # Extract issue number from URL
+                issue_number = issue_url.rstrip("/").split("/")[-1]
+                csv_filename = f"video-report-{date_str}.csv"
+                with tempfile.NamedTemporaryFile(
+                    mode="w", suffix=".csv", prefix="video-report-",
+                    delete=False
+                ) as tmp:
+                    tmp.write(csv_text)
+                    tmp_path = tmp.name
+                # Upload CSV as issue comment attachment via gh
+                comment_body = (
+                    f"📎 CSV report attached: `{csv_filename}`\n\n"
+                    "Download and open in Excel/Sheets for sorting and filtering."
+                )
+                subprocess.run(
+                    ["gh", "issue", "comment", issue_number,
+                     "--body", comment_body],
+                    capture_output=True, text=True,
+                )
+                # Also save CSV next to the issue for the commit step to pick up
+                csv_out_path = os.path.join(
+                    _PROJECT_ROOT, "qa", csv_filename
+                )
+                with open(csv_out_path, "w") as f:
+                    f.write(csv_text)
+                print(f"  CSV saved to qa/{csv_filename}")
+                os.unlink(tmp_path)
+            except Exception as e:
+                print(f"  Warning: could not attach CSV: {e}")
     else:
         print(f"  Warning: could not create GitHub Issue: {result.stderr}")
 
@@ -551,8 +683,12 @@ def main():
         if vid is None and artist not in states:
             states[artist] = {"status": "override_null"}
 
-    # Build report
-    report = build_report(tonight, states, all_shows_data)
+    # Load Spotify cache for report annotations
+    spotify_cache = load_spotify_cache()
+
+    # Build report and CSV
+    report = build_report(tonight, states, all_shows_data, spotify_cache)
+    csv_text = build_csv(tonight, states, all_shows_data, spotify_cache)
 
     print("\n" + "=" * 50)
     print(report)
@@ -568,9 +704,14 @@ def main():
     if args.output:
         with open(args.output, "w") as f:
             f.write(report + "\n")
+        # Also write CSV alongside the text report
+        csv_path = args.output.rsplit(".", 1)[0] + ".csv"
+        with open(csv_path, "w") as f:
+            f.write(csv_text)
         print(f"\nReport written to {args.output}")
+        print(f"CSV written to {csv_path}")
     elif not args.dry_run:
-        post_github_issue(report)
+        post_github_issue(report, csv_text=csv_text)
 
     return 0
 
