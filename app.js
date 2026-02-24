@@ -305,7 +305,8 @@ class ShowsApp {
             'pinhook': 'The Pinhook',
             'lincoln': 'Lincoln Theatre',
             'thesocial': 'The Social',
-            'boweryballroom': 'Bowery Ballroom'
+            'boweryballroom': 'Bowery Ballroom',
+            'elclub': 'El Club'
         };
         const name = venueNames[venue] || venue;
 
