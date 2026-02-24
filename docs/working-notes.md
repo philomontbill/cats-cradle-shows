@@ -737,11 +737,46 @@ Modified `scripts/verify_videos.py` to generate CSV alongside the text report:
 - Add `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` as GitHub Secrets
 - Phase 2 (next session): Wire Spotify signals into `verify_videos.py` as modifiers — review enrichment data first, then tune thresholds
 
+### Manual Video Review — High Spotify Popularity No-Preview Queue
+
+Used Spotify popularity scores from `qa/spotify_cache.json` to triage the no-preview queue, reviewing highest-popularity artists first. For each: searched YouTube, verified channel/video identity, presented recommendation, waited for user approval, then added override + updated show data.
+
+**Reviewed & accepted (14 total):**
+
+| Artist | Venue | Spotify Pop | Video | Channel/Notes |
+|--------|-------|------------|-------|---------------|
+| Guitarricadelafuente | Bowery Ballroom (x2) | 61 | b_f2qiL_nP4 | Verified channel, accepted despite 13M views (Latin Grammy winner) |
+| Borgeous | Elevation 27 | 52 | Yb5j4GheNTk | Accepted despite 22M views (Spinnin' Records = legitimate label) |
+| Bryant Barnes | El Club | 63 | Srk8kGK16oA | Verified channel (445K subs), 3.8M views |
+| Goldie Boutilier | El Club | 56 | Ka_tHvcyD3k | Verified channel (23.1K subs), 157K views |
+| Rochelle Jordan | El Club | 54 | xqVpSvquWFM | Verified channel (26.5K subs), 152K views, EMPIRE distribution |
+| Orbit Culture | El Club | 54 | 3RndtM2br5A | Verified channel (121K subs), 645K views, Century Media Records |
+| Alex Sampson | El Club | 51 | QBsIYrePl2o | Verified channel (483K subs), 715K views |
+| Ratboys | El Club | 48 | KYUMoL9FrIA | Verified channel (3.31K subs), 55K views, New West Records |
+| Beauty School Dropout | El Club | 47 | yKZ8Qk-z4gY | Verified channel (21K subs), 217K views, Vevo |
+| Mindchatter | El Club | 46 | -LwiIDb3iKc | Verified channel (12.8K subs), 565K views |
+| Penelope Road | El Club | 44 | bKcTK9hibhM | Verified channel (9.28K subs), 183K views, Warner Records |
+| Eidola | El Club | 44 | xOD9ic2bIAY | Rise Records channel (3M subs), 340K views |
+| Capstan | El Club | 42 | d1VqBzXvPnE | Verified channel (11.2K subs), 489K views, Fearless Records |
+
+**Reviewed & rejected (1):**
+- **DANCE** (The Social, pop 30) → Matched "Goombay Dance Band - Seven Tears" — completely wrong artist. Added null override.
+
+All 14 overrides added to `scrapers/overrides.json`, show data updated in `data/shows-elclub.json` (11), `data/shows-boweryballroom.json` (2), `data/shows-elevation27.json` (1).
+
+**Key finding — Bandsintown as verification signal:**
+YouTube video pages display Bandsintown tour dates inline. For 8+ of the El Club artists reviewed, the Bandsintown widget on the YouTube page confirmed the exact El Club Detroit show date — providing independent, automated proof that the YouTube channel belongs to the correct touring artist. This is a very strong identity signal (+++) that could potentially be used to strengthen the verifier's confidence in matches. **Explore Bandsintown tour date confirmation as a verification signal next session.**
+
+**Remaining El Club artists (lower Spotify popularity, not yet reviewed):**
+- SZN4 (pop 39), Hieroglyphics (pop 39), Super Future (pop 35), Eggy (pop 24), Emo Nite (pop 0)
+- Plus event names: It's A 2000s Party: Detroit, A Night With The Saunderson Brothers
+
 ### Next Steps
+- **Bandsintown signal**: Evaluate using tour date confirmation as a +++ verification signal in the automated verifier
 - Add Spotify credentials as GitHub Secrets
 - Phase 2: Wire Spotify signals into verifier (cross-ref top tracks vs video titles, no-match = strengthen rejection)
-- Remaining video quality: 19 low-confidence, 13 medium-confidence entries
-- El Club scraper investigation
+- Continue manual review: remaining El Club artists, then Kings/Lincoln/Local 506/Mohawk/Motorco/Pinhook entries
+- El Club scraper investigation (why so many shows had no video from scraper)
 - Multi-act feature (discussed, not started)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
