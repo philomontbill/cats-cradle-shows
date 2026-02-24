@@ -162,6 +162,58 @@
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
+      "artist": "SXSW: The Billboard Disruptor House",
+      "date": "Fri, Mar 13",
+      "venue": "Mohawk Outdoor",
+      "opener": "To Be Announced",
+      "notice": null,
+      "doors": "",
+      "showtime": "",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485192012",
+      "ticket_url": "https://www.billboard.com/music/music-news/don-toliver-juniorh-mau-p-sxsw-billbaord-presents-the-stage-1236133001/",
+      "youtube_id": "LxL_nqxzn_c",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "SXSW: The Billboard Disruptor House",
+      "date": "Sat, Mar 14",
+      "venue": "Mohawk Outdoor",
+      "opener": "To Be Announced",
+      "notice": null,
+      "doors": "1:00pm",
+      "showtime": "2:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186764",
+      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186800",
+      "youtube_id": "LxL_nqxzn_c",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "SXSW: The Billboard Disruptor House",
+      "date": "Sun, Mar 15",
+      "venue": "Mohawk Outdoor",
+      "opener": "To Be Announced",
+      "notice": null,
+      "doors": "1:00pm",
+      "showtime": "2:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186457",
+      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186496",
+      "youtube_id": "LxL_nqxzn_c",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "SXSW: Very Necessary Showcase",
+      "date": "Wed, Mar 18",
+      "venue": "Mohawk Indoor",
+      "opener": "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485198246",
+      "ticket_url": "https://www.verynecessary.co/",
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
       "artist": "Heated Rivalry Dance Party",
       "date": "Fri, Mar 20",
       "venue": "Mohawk Outdoor",
@@ -275,62 +327,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/90006677/modelactriz-austin-resound-presents",
       "youtube_id": "37ptdYkJ1d0",
       "opener_youtube_id": "Mqpb-LBM0PA"
-    },
-    {
-      "artist": "Drug Church, White Reaper",
-      "date": "Sat, Apr 04",
-      "venue": "Mohawk Outdoor",
-      "opener": "Death Lens",
-      "notice": null,
-      "doors": "6:00pm",
-      "showtime": "7:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
-      "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
-      "youtube_id": "BB-jGY5B5yw",
-      "opener_youtube_id": null
-    },
-    {
-      "artist": "Sarah Kinsley",
-      "date": "Tue, Apr 07",
-      "venue": "Mohawk Outdoor",
-      "opener": "Girlpuppy",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648569899340",
-      "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
-      "youtube_id": "QgJIhQkVuTM",
-      "opener_youtube_id": "Rp6jCtnhCDs"
-    },
-    {
-      "artist": "Touch\u00e9 Amor\u00e9",
-      "date": "Wed, Apr 08",
-      "venue": "Mohawk Outdoor",
-      "opener": "Jeromes Dream, Porcelain",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
-      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
-      "youtube_id": "Ijmhb8is-vc",
-      "opener_youtube_id": "-n20fV-hyg8"
-    },
-    {
-      "artist": "My Life With the Thrill Kill Kult",
-      "date": "Thu, Apr 09",
-      "venue": "Mohawk Outdoor",
-      "opener": "Light Asylum, Die Sexual, DEVORA, Heavy Halo",
-      "notice": null,
-      "doors": "6:00pm",
-      "showtime": "7:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648542460182",
-      "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
-      "youtube_id": "YgaZwOHjTwI",
-      "opener_youtube_id": "9Ynrc_1f5vE"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-02-23T05:39:10.592670"
+  "last_updated": "2026-02-24T05:24:30.054260"
 }

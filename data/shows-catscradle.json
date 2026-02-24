@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Nuovo Testamento",
-      "date": "Mon, Feb 23",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Dark Chisme, Idol Talk",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nuovo_2011201762088471.jpg",
-      "event_url": "https://catscradle.com/event/nuovo-testamento/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "B54XuMrcFpg",
-      "opener_youtube_id": "OTTW_QD2Si0"
-    },
-    {
       "artist": "Six More Miles",
       "date": "Wed, Feb 25",
       "venue": "Cat's Cradle Back Room",
@@ -80,7 +67,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
       "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "YfO1MVkPRp8",
-      "opener_youtube_id": null
+      "opener_youtube_id": "kAlbzm-Ppbw"
     },
     {
       "artist": "Nep",
@@ -209,7 +196,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Slow_1655861742119655.jpg",
       "event_url": "https://catscradle.com/event/slow-teeth-scrape-minor-stars/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "oTi8bvOc2VE"
+      "youtube_id": "3aR5e_mJHDM"
     },
     {
       "artist": "The Nine Lives Flea Market",
@@ -322,10 +309,23 @@
       "event_url": "https://catscradle.com/event/twen/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "7aI0OF1kGH4",
       "opener_youtube_id": "Yen1gSMpqxQ"
+    },
+    {
+      "artist": "The Early November & Hellogoodbye: 20 Years Young",
+      "date": "Sun, Mar 15",
+      "venue": "Cat's Cradle",
+      "opener": "Punchline",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2044791763492810.jpg",
+      "event_url": "https://catscradle.com/event/the-early-november-hellogoodbye-20-years-young/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "xRcsezFP02Q",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-23T05:38:35.422335"
+  "last_updated": "2026-02-24T05:23:58.374444"
 }

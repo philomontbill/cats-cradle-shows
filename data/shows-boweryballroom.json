@@ -6,21 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Ahi",
-      "date": "Mon, Feb 22",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/974/087b3ee9-76cb-4886-a894-916a1d50f974_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/ahi/",
-      "youtube_id": "Mkca09ZonoE",
-      "expired": true
-    },
-    {
       "artist": "Punkrock Johnson, Sandy & the Skyway, worm catcher",
-      "date": "Mon, Feb 23",
+      "date": "Tue, Feb 23",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -28,7 +15,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/076/1bf2f15c-c2ca-4162-9078-cc7a2ba4f076_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/punk-rock-johnson-sandy-the-skyway-worm-catcher/",
-      "youtube_id": "fBM6Wzo31bU"
+      "youtube_id": "WXu3x-nTs5M",
+      "expired": true
     },
     {
       "artist": "Honest Mistakes",
@@ -40,7 +28,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/e67/c9ae3ef4-92b3-4644-9a82-9eb575823e67_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/honest-mistakes/",
-      "youtube_id": null
+      "youtube_id": "EVm1heyzwU0"
     },
     {
       "artist": "Ella Red",
@@ -64,7 +52,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/59c/7f7fe4fd-d3b0-4344-afb2-2ce83915459c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/talkhouse-teddy-mcgraw-nolan-trotter/",
-      "youtube_id": "ljue1w2AviU"
+      "youtube_id": "cmv8ipxxsCk"
     },
     {
       "artist": "Haffway - The Wither Tour",
@@ -88,7 +76,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/41a/bb393b58-a84d-4c36-b54f-62b93b98241a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente-2/",
-      "youtube_id": "SEUMHTHGwlw"
+      "youtube_id": null
     },
     {
       "artist": "Braden Bales, Ezra",
@@ -100,8 +88,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
-      "youtube_id": "QxXrjLaUtDE",
-      "opener_youtube_id": "zWl5pQowHmk"
+      "youtube_id": "cjluuN_hkis",
+      "opener_youtube_id": "zeR6EpcLUgg"
     },
     {
       "artist": "Guitarricadelafuente",
@@ -113,7 +101,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/64a/c11cbd67-1415-4b47-b492-2fb2d014e64a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente/",
-      "youtube_id": "SEUMHTHGwlw"
+      "youtube_id": null
     },
     {
       "artist": "Sheer Mag",
@@ -137,7 +125,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "Ip3DO5EBhfY"
+      "youtube_id": "uwsVxiVsMY8"
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
@@ -149,7 +137,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
-      "youtube_id": "yi0O_Q2lU7w"
+      "youtube_id": null
     },
     {
       "artist": "The Ruckus",
@@ -161,7 +149,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": "Ns3Ggwn8gjQ"
+      "youtube_id": null
     },
     {
       "artist": "Freddie McClendon",
@@ -173,7 +161,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/6e2/2e3c71bf-0d93-477e-8483-8812060916e2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/freddie-mcclendon/",
-      "youtube_id": "hnhuDF2kJBo"
+      "youtube_id": "P3poZuMNpbo"
     },
     {
       "artist": "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?",
@@ -185,7 +173,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/12d/a896c5ad-48e9-4902-9790-cb4c0c51712d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/beauty-school-dropout-presents-where-did-all-the-butterflies-go/",
-      "youtube_id": "6UplsJkRz10"
+      "youtube_id": "BTTQZtXZBK0"
     },
     {
       "artist": "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",
@@ -197,7 +185,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": "ivIjHyw38SQ"
+      "youtube_id": "rQjDP_dyP50"
     },
     {
       "artist": "Arianna Chetram, Malik English, lady t",
@@ -209,7 +197,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Arianna-Chetram-flyer.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/arianna-chetram-malik-english-lady-t/",
-      "youtube_id": "sz-Wg4eCJK4"
+      "youtube_id": "j95bawjCSEE"
     },
     {
       "artist": "Muo Duo, Evan Isaac, Segami, Annabel Asher",
@@ -221,7 +209,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/bbc/63af2035-112d-46d3-b969-253a6283dbbc_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/muo-duo-evan-isaac-segami-annabel-asher/",
-      "youtube_id": "IgAeDXWcRtE"
+      "youtube_id": "2p2tuJcKpuY"
     },
     {
       "artist": "Ben Milk, Brady Dorrington, ChatChat",
@@ -233,7 +221,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
-      "youtube_id": "xDpjIFIfQ8Q"
+      "youtube_id": "OSX_yqr4JI0"
     },
     {
       "artist": "Ike Reilly Assassination",
@@ -245,7 +233,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/6a6/0c93dcad-6933-4277-a661-0e6738eec6a6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ike-reilly-assassination/",
-      "youtube_id": null
+      "youtube_id": "pMFGSdYg310"
     },
     {
       "artist": "Residual Groove, One Time Weekend",
@@ -257,7 +245,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
-      "youtube_id": "CAkKMlsyYf8"
+      "youtube_id": "BnaTkioAkEQ"
     },
     {
       "artist": "Caroline Jones",
@@ -293,7 +281,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/09/MV-Winter-26-Mercury-Lounge.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/mike-viola/",
-      "youtube_id": "1MGBP0xKl-U"
+      "youtube_id": "eftZf44nsPg"
     },
     {
       "artist": "greek: The Cedar\\'s Tape Tour",
@@ -306,10 +294,22 @@
       "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
       "youtube_id": "alOg6JtFHzU"
+    },
+    {
+      "artist": "The Ramona Flowers",
+      "date": "Fri, Mar 06",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
+      "youtube_id": "5eZoJBcf6BE"
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 24,
+  "shows_with_video": 22,
   "shows_with_image": 24,
-  "last_updated": "2026-02-23T05:41:06.656028"
+  "last_updated": "2026-02-24T05:26:43.033323"
 }

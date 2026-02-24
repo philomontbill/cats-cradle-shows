@@ -7,28 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Makaya McCraven",
-      "date": "Mon, Feb 23",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298701768337162.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/90224535/makaya-mccraven-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "w3giWDYxPTI"
-    },
-    {
-      "venue": "The Pinhook",
-      "artist": "Makaya McCraven",
-      "date": "Mon, Feb 23",
-      "doors": "10 pm",
-      "showtime": "10:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Makaya_1298741768337165.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/64111957/makaya-mccraven-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "w3giWDYxPTI"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Tax Party",
       "date": "Tue, Feb 24",
       "showtime": "7 pm",
@@ -46,7 +24,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/hex-files-little-chair-future-fix-woke-county-speedway.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/42127270/hex-files-little-chair-future-fix-woke-county-speedway-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "kfDIVZZ9JZk"
+      "youtube_id": "QQbjW591Ct0"
     },
     {
       "venue": "The Pinhook",
@@ -116,14 +94,14 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Fish Hunt / People I Love",
+      "artist": "Fish Hunt / People I Love / GLOWR",
       "date": "Thu, Mar 05",
       "doors": "7:30 pm",
       "showtime": "8 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/fish-hunt-people-i-know.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/84695097/fish-hunt-people-i-love-durham-the-pinhook?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/84695097/fish-hunt-people-i-love-glowr-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "jbx1I2B1B_o"
+      "youtube_id": null
     },
     {
       "venue": "The Pinhook",
@@ -167,7 +145,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Cootie_1296501764489999.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/33741141/cootie-catcher-edna-mode-charlie-paso-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "cZdQrWdaxTE"
+      "youtube_id": "W3XYuydCAe4"
     },
     {
       "venue": "The Pinhook",
@@ -222,7 +200,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/invisible-cities-ravine-violent-institution.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/59996331/invisible-cities-ravine-violent-institution-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "Mgbk5_dn8Tk"
+      "youtube_id": null
     },
     {
       "venue": "The Pinhook",
@@ -266,7 +244,7 @@
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Carly_1296971765195577.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/77550020/carly-cosgrove-leisure-hour-summerbruise-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "d2X-BHvlcTE"
+      "youtube_id": "jsNBLMpGS40"
     },
     {
       "venue": "The Pinhook",
@@ -277,11 +255,33 @@
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/big-pop-up-show.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/35739706/big-pop-showlifeguard-mail-sects-warm-frames-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "udxZgbeJVvg"
+      "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "date": "Tue, Mar 24",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night-all-yall-led-line-dancing-some-karaoke.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/91926584/queer-country-nightall-yall-led-line-dancing-some-karaoke-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The All Black Affair",
+      "date": "Wed, Mar 25",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/the-all-black-affair.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/31723125/the-all-black-affair-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "cx6FgY-nDwE"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-23T05:39:00.076183"
+  "last_updated": "2026-02-24T05:24:15.168162"
 }

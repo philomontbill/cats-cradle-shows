@@ -7,7 +7,7 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Siamese \u2013 US Headline Tour 2026",
+      "artist": "Siamese – US Headline Tour 2026",
       "date": "Tue, Feb 24",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -29,7 +29,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/75939422/square-one-with-buck-swope-and-green-room-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "DeQtFGexB2M",
-      "opener_youtube_id": "La3U41b0WSU"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -81,7 +81,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/81292975/oort-patrol-with-small-doses-and-chiroptera-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "FgB7naB-gQ8",
-      "opener_youtube_id": "oIKPwaslKsg"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -170,7 +170,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
+      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -205,11 +205,11 @@
       "ticket_url": "https://www.etix.com/ticket/p/47377314/feyleux-with-more-is-not-enough-and-heavy-for-the-vintage-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "Hxj5NloHnNc",
-      "opener_youtube_id": "IJ90zUtq6Cg"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
+      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -218,7 +218,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/78152384/flyingfish-death-of-isolationtour-wlove-letter-chapel-hill-local-506-cil?partner_id=100",
       "notice": null,
       "youtube_id": "kvoj4AZS4-g",
-      "opener_youtube_id": null
+      "opener_youtube_id": "Dj0rdxfh3ZI"
     },
     {
       "venue": "Local 506",
@@ -231,7 +231,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/41195371/the-everymen-with-julian-calendar-and-sonic-blooms-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "qBVNdq5L4rQ",
-      "opener_youtube_id": "Zsip_ID37VE"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -261,7 +261,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
+      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -269,7 +269,7 @@
       "image": "https://local506.com/wp-content/uploads/2026/02/robert-morton-self-loathing-never-got-me-anywhere-album-release-show-with-jack-the-songman-and-chris-chism.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/80830016/robert-morton-self-loathing-never-got-me-anywherealbum-release-show-with-jack-the-songman-and-chris-chism-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "IwMZJs6FolQ",
+      "youtube_id": null,
       "opener_youtube_id": "YpCdz3awwzA"
     },
     {
@@ -296,7 +296,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/65531907/sub-empty-with-catiline-and-mantaray-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "HQWVKw6cvc0",
-      "opener_youtube_id": "dVJE0Jvmkgg"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -309,7 +309,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/36604784/treasure-pains-and-null-with-dug-and-snide-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "hm1I7mP5XSY",
-      "opener_youtube_id": "E3ru5vfyqZU"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -322,11 +322,11 @@
       "ticket_url": "https://www.etix.com/ticket/p/98021367/red-october-with-hemlock-theory-and-under-the-catacombs-of-paris-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "X52ki7PctKA",
-      "opener_youtube_id": "UkR4KYtpTKk"
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-23T05:38:47.973192"
+  "last_updated": "2026-02-24T05:24:04.233483"
 }
