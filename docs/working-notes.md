@@ -993,3 +993,66 @@ User noted Bandsintown as a potential additional artist validation source, budge
 - Verify first automated weekly report Monday Mar 2
 - Consider encoding more manual review criteria into verifier (label allowlist, verification badge, artist-tier-aware caps)
 - Bandsintown API evaluation (budget permitting)
+
+---
+
+## Session: Feb 25, 2026 (continued — session 3)
+
+### Smarter Verifier — Trusted Labels, VEVO Detection, Spotify-Aware View Caps
+
+Encoded manual review patterns into `scripts/verify_videos.py` to reduce false rejections. Previously, a flat 5M view cap and simple channel-name matching caused legitimate artists on label channels to get rejected — then we'd override them one by one. Now the verifier handles these cases automatically.
+
+**Three new features:**
+
+**1. Trusted label allowlist (14 labels):**
+Nuclear Blast, Epitaph, Fueled By Ramen, Spinnin', Secret City, Innovative Leisure, SideOneDummy, Rise, Fearless, Century Media, New West, Flightless, Warner, Carpark. Keys are pre-normalized for O(1) lookup. Trusted channels bypass: channel mismatch rejection, upload age rejection, Spotify no_match rejection. View cap raised to 50M.
+
+EMPIRE was initially included but removed — "empire" is too generic a normalized key. At our nightly volume (~5-10 new checks), the risk of a false positive outweighs the cost of manually overriding a legitimate EMPIRE artist.
+
+**2. VEVO detection:**
+Checks if normalized channel name ends with "vevo". Same bypasses as trusted labels — channel mismatch, age, Spotify no_match, 50M view cap.
+
+**3. Spotify-popularity-aware view caps:**
+- Popularity >= 70: no cap (major artist)
+- Popularity >= 50: 50M cap
+- Popularity >= 30: 10M cap
+- Below 30 or no Spotify data: 5M default
+
+**Dry-run results:**
+- Punchline now passes (Fueled By Ramen detected, was rejected for 15.4M subs + 20yr age)
+- Only 6 videos checked — 264 already verified + 40 overrides from prior runs
+- Previously rejected artists (Borgeous, Burning Witches, Death Lens, Gogol Bordello, Aterciopelados, POWFU, Music For The Masses) had youtube_ids nulled in prior runs — scrapers will reassign on next nightly run, and the new logic will let them through
+
+**Confirmed from video_states.json — all 8 target artists would now pass:**
+
+| Artist | Old Rejection | New Result |
+|--------|--------------|------------|
+| Borgeous | 22.9M views + Spinnin' 32M subs | Spinnin' trusted → 50M cap, skip mismatch |
+| Burning Witches | Nuclear Blast 3.35M subs | Trusted label, skip mismatch |
+| Death Lens | Epitaph 3.93M subs | Trusted label, skip mismatch |
+| Punchline | Fueled By Ramen 15.4M subs + 20yr | Trusted label, skip mismatch + age |
+| Gogol Bordello | 14.3M views + SideOneDummy | Trusted label → 50M cap, skip age |
+| Aterciopelados | 42M views, VEVO | VEVO → 50M cap |
+| POWFU | 8.2M views, VEVO | VEVO → 50M cap |
+| Music For The Masses | Nuclear Blast 3.35M subs + 20yr | Trusted label, skip mismatch + age |
+
+**Bryce Vine (98.7M views) still fails** — channel matches artist name (not a label/mismatch issue), Spotify pop 59 → 50M cap, but 98.7M > 50M. Needs manual override or Spotify pop to climb above 70.
+
+**Safety confirmed — bad matches still rejected:**
+- RIP MTV: no Spotify + channel mismatch (Stevo32Drums not a label)
+- Oof Fighters: Foo Fighters channel not in label list
+- Events/random: no Spotify + no trusted channel
+
+**Metadata logging:** Every bypass is recorded in verification metadata (`trusted_label`, `vevo_channel`, `channel_override`, `age_override`, `spotify_override`, `view_cap_reason`) for auditability.
+
+**Files modified:** `scripts/verify_videos.py`
+
+### Next Steps
+- Monitor tonight's nightly run — first with trusted labels + VEVO + Spotify-aware caps
+- Previously rejected artists should get reassigned by scrapers and pass the new logic
+- Check Bryce Vine's Spotify popularity when he comes through; may need manual override
+- Continue adding venues
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
+- Bandsintown API evaluation (budget permitting)
