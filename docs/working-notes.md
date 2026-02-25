@@ -1048,11 +1048,59 @@ Checks if normalized channel name ends with "vevo". Same bypasses as trusted lab
 **Files modified:** `scripts/verify_videos.py`
 
 ### Next Steps
-- Monitor tonight's nightly run — first with trusted labels + VEVO + Spotify-aware caps
+- Monitor tonight's nightly run — first with trusted labels + VEVO + Spotify-aware caps + Neighborhood Theatre
 - Previously rejected artists should get reassigned by scrapers and pass the new logic
 - Check Bryce Vine's Spotify popularity when he comes through; may need manual override
-- Continue adding venues
+- Continue adding venues (Charlotte done, next city TBD)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
-- Bandsintown API evaluation (budget permitting)
+- Bandsintown API evaluation — decided against for now (see below)
+
+### Bandsintown API — Evaluated and Deferred
+
+Evaluated Bandsintown API for artist validation / show confirmation. Decision: not worth pursuing now.
+
+**Why not:**
+- API keys are per-artist, not per-platform. Bulk querying hundreds of artists requires a partnership deal — negotiation, contract, possibly fees.
+- YouTube + Spotify + trusted labels already cover the validation signals Bandsintown would provide.
+- The one unique thing (confirming "artist X plays venue Y on date Z") isn't needed — our scrapers pull directly from venue calendars, which is the authoritative source.
+
+**Where it could matter later:** If we ever replace scraping with a single API for venue calendars, Bandsintown becomes interesting as a data source. But that's a different architecture, not a validation layer. Revisit if partnership access becomes available or scraping needs replacement.
+
+---
+
+## Session: Feb 25, 2026 (continued — session 4)
+
+### Neighborhood Theatre (Charlotte, NC) — Scraper Built & Deployed
+
+Added Charlotte as the second NC region. Neighborhood Theatre is an independent small venue — exactly our target — and Charlotte is NC's biggest city with reach from our local Reddit channels.
+
+**Scraper:** `scrapers/scraper_neighborhood.py`
+- Same Ticketmaster widget (`tw-` CSS classes) as Elevation 27 — copy-and-adapt pattern
+- Calendar URL: `https://neighborhoodtheatre.com/calendar/`
+- Custom `_clean_artist_name()` override handles dash-tour patterns more aggressively than the base class (e.g., "MAGGIE LINDEMANN – I Feel Everything Tour" → "MAGGIE LINDEMANN")
+- Also strips colons and "ft." suffixes (base class only handles "feat.")
+- Opener extraction from title ("with" / "w/" patterns)
+
+**First run results:** 24 shows, 22 with YouTube video, 24 with images
+
+**Notable artists:** Maggie Lindemann, Old Crow Medicine Show, Yonder Mountain String Band, Lotus, Mike Gordon, Carter Faith, Eggy, Satsang, Mo Lowda & The Humble
+
+**Name cleaning examples:**
+- "MAGGIE LINDEMANN – I Feel Everything Tour" → "MAGGIE LINDEMANN"
+- "Doc 103: Celebrating Doc Watson w/ Jack Lawrence..." → "Doc 103" (opener extracted)
+- "JOHN COWAN TRIO ft. Luke Bulla & Ethan Ballinger" → "JOHN COWAN TRIO"
+- "The Rock & Roll Playhouse: Music of The Beatles + More for Kids" → "The Rock & Roll Playhouse"
+
+**Files created:** `scrapers/scraper_neighborhood.py`, `data/shows-neighborhood.json`
+**Files modified:** `data/venues.json` (Charlotte region under NC), `.github/workflows/scrape.yml` (scraper step + alert)
+
+**Venue count:** 7 states, 7 regions, 12 venues
+
+### Next Steps
+- Monitor tonight's nightly run — Neighborhood Theatre's first automated scrape
+- Continue adding venues (next city TBD — more NC? or expand other states?)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
