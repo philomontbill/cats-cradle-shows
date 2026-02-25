@@ -520,38 +520,33 @@ def post_github_issue(report_text, csv_text=None):
         issue_url = result.stdout.strip()
         print(f"  Posted GitHub Issue: {issue_url}")
 
-        # Attach CSV if available
+        # Post CSV as a collapsible comment and save to qa/
         if csv_text:
             try:
-                # Extract issue number from URL
                 issue_number = issue_url.rstrip("/").split("/")[-1]
                 csv_filename = f"video-report-{date_str}.csv"
-                with tempfile.NamedTemporaryFile(
-                    mode="w", suffix=".csv", prefix="video-report-",
-                    delete=False
-                ) as tmp:
-                    tmp.write(csv_text)
-                    tmp_path = tmp.name
-                # Upload CSV as issue comment attachment via gh
                 comment_body = (
-                    f"📎 CSV report attached: `{csv_filename}`\n\n"
-                    "Download and open in Excel/Sheets for sorting and filtering."
+                    f"**{csv_filename}**\n\n"
+                    "Copy the CSV below into a `.csv` file, or open "
+                    "the committed version in `qa/`.\n\n"
+                    "<details><summary>CSV data</summary>\n\n"
+                    f"```\n{csv_text}```\n\n"
+                    "</details>"
                 )
                 subprocess.run(
                     ["gh", "issue", "comment", issue_number,
                      "--body", comment_body],
                     capture_output=True, text=True,
                 )
-                # Also save CSV next to the issue for the commit step to pick up
+                # Save CSV to qa/ for the commit step to pick up
                 csv_out_path = os.path.join(
                     _PROJECT_ROOT, "qa", csv_filename
                 )
                 with open(csv_out_path, "w") as f:
                     f.write(csv_text)
                 print(f"  CSV saved to qa/{csv_filename}")
-                os.unlink(tmp_path)
             except Exception as e:
-                print(f"  Warning: could not attach CSV: {e}")
+                print(f"  Warning: could not post CSV comment: {e}")
     else:
         print(f"  Warning: could not create GitHub Issue: {result.stderr}")
 
