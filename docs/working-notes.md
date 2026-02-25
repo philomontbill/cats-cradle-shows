@@ -1098,9 +1098,41 @@ Added Charlotte as the second NC region. Neighborhood Theatre is an independent 
 
 **Venue count:** 7 states, 7 regions, 12 venues
 
+---
+
+## Session: Feb 25, 2026 (continued — session 5)
+
+### The Orange Peel (Asheville, NC) — Scraper Built & Deployed
+
+Added Asheville as the third NC region. The Orange Peel is one of the most well-known independent venues in the Southeast — strong lineup, strong brand.
+
+**Scraper:** `scrapers/scraper_orangepeel.py`
+- eventWrapper pattern (like Lincoln Theatre and The Pinhook), not Ticketmaster widget
+- Calendar URL: `https://theorangepeel.net/events/`
+- ETIX ticketing (not Ticketmaster)
+- Custom `_clean_artist_name()` override with " / " multi-band splitting, aggressive dash-tour stripping
+- Added Orange Peel-specific event keywords: Comedy, Standup, Contest, Roast, K-Pop Kids Party
+- Opener parsing handles `<br>`-separated names within single h4 elements (use `separator=', '` in `get_text()`)
+- Filters descriptive h4 text from openers (e.g., "20th anniversary of the album in its entirety" — not an opener name)
+
+**Issues found and fixed during build:**
+1. h4 openers concatenated without separators ("No PressureHaywireSecret World") — fixed with `get_text(separator=', ')`
+2. Multi-band bill not split ("Alla Prima / Proxima System / ...") — added " / " splitting
+3. Comedy events not filtered ("The Slice of Life Comedy Asheville Spring Standup Contest", "Roast Of Asheville") — added OP_EVENT_KEYWORDS
+4. Cat Power's "20th anniversary..." descriptive text parsed as opener — added descriptive text filter
+
+**First run results:** 23 shows, 23 with YouTube video, 23 with images
+
+**Notable artists:** Wax Tailor, Lotus, Aly & AJ, Gary Numan, Cat Power, The Hives, Old Crow Medicine Show, Drain, moe., Robert Earl Keen, Mike Gordon, Donna The Buffalo
+
+**Files created:** `scrapers/scraper_orangepeel.py`, `data/shows-orangepeel.json`
+**Files modified:** `data/venues.json` (Asheville region under NC), `.github/workflows/scrape.yml` (scraper step + alert, now 15 steps in alert table)
+
+**Venue count:** 6 states, 8 regions, 13 venues (3 NC regions: Triangle, Charlotte, Asheville)
+
 ### Next Steps
-- Monitor tonight's nightly run — Neighborhood Theatre's first automated scrape
-- Continue adding venues (next city TBD — more NC? or expand other states?)
+- Review tonight's nightly scrape results (first automated run with Orange Peel + Neighborhood Theatre)
+- Decide on Reddit intro post timing (outreach/reddit-post-triangle.txt)
+- Continue adding venues (more NC? or expand other states?)
 - Finalize video disclaimer wording
-- Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
