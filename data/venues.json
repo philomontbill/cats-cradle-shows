@@ -17,6 +17,14 @@
             { "slug": "lincoln", "name": "Lincoln Theatre", "city": "Raleigh", "website": "https://lincolntheatre.com" },
             { "slug": "kings", "name": "Kings", "city": "Raleigh", "website": "https://kingsraleigh.com" }
           ]
+        },
+        {
+          "slug": "charlotte",
+          "name": "Charlotte",
+          "tagline": "What's playing in Charlotte tonight?",
+          "venues": [
+            { "slug": "neighborhood", "name": "Neighborhood Theatre", "city": "Charlotte", "website": "https://neighborhoodtheatre.com" }
+          ]
         }
       ]
     },

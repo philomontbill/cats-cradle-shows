@@ -22358,5 +22358,815 @@
     "explanation": "single-word artist at start of title (no channel match) | video: Punchline: Getting There Is Getting By [OFFICIAL VIDEO] | channel: Fueled By Ramen",
     "timestamp": "2026-02-25T10:31:26.934993",
     "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "MAGGIE LINDEMANN \u2013 I Feel Everything Tour",
+    "role": "headliner",
+    "youtube_id": "JPcs8_yMF_o",
+    "confidence": 71,
+    "tier": "accept",
+    "explanation": "title match: everything, feel, lindemann, maggie | video: Maggie Lindemann - i feel everything (Official Lyric Video) | channel: MaggieLindemannVEVO",
+    "timestamp": "2026-02-25T14:16:46.056979",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Broadway Rave",
+    "role": "headliner",
+    "youtube_id": "OhbABwonLUs",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Broadway Rave 2023 | channel: MrSnaketato",
+    "timestamp": "2026-02-25T14:16:47.065743",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOSH LEVI",
+    "role": "headliner",
+    "youtube_id": "KQTDkKgffnY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Josh Levi - BIRTHDAY DANCE [Official Music Video] | channel: Josh Levi",
+    "timestamp": "2026-02-25T14:16:48.090548",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Doc 103",
+    "role": "headliner",
+    "youtube_id": "kh7l845u11I",
+    "confidence": 85,
+    "tier": "accept",
+    "explanation": "channel match: doc | video: Doc Rotten - &quot;Psych Ward 103&quot; (Official Music Video) | channel: Doc Rotten",
+    "timestamp": "2026-02-25T14:16:49.220000",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Jack Lawrence & Friends ft. Peter Rowan",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 35,
+    "tier": "skip",
+    "explanation": "partial: jack, lawrence | video: Jack Lawrence and Sam Bush \u2018Black Mnt Rag\u2019 Merlefest 2022 | channel: deneicee",
+    "timestamp": "2026-02-25T14:16:49.813880",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Haffway",
+    "role": "headliner",
+    "youtube_id": "EvrdgG7Q4qo",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: HAFFWAY - Better If Worse (Official Video) | channel: HAFFWAYVEVO",
+    "timestamp": "2026-02-25T14:16:50.726774",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Lotus \u2013 Rise of the Anglerfish Tour",
+    "role": "headliner",
+    "youtube_id": "lR76kEYcEfQ",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Lotus - Oblong Shapes | channel: Lotus",
+    "timestamp": "2026-02-25T14:16:51.685159",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ROBERT JON & THE WRECK with special guest Sam Morrow",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 36,
+    "tier": "skip",
+    "explanation": "partial: jon, robert, the, wreck | video: Robert Jon &amp; The Wreck &quot;Live At The Ancienne Belgique&quot;: Watch for FREE! | channel: RobertJonAndTheWreck",
+    "timestamp": "2026-02-25T14:16:52.793829",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "special guest Sam Morrow",
+    "role": "opener",
+    "youtube_id": "W9AwkvlCCNY",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Sam Morrow - Quick Fix (Official Video) | channel: Sam Morrow",
+    "timestamp": "2026-02-25T14:16:53.516187",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MO LOWDA & THE HUMBLE \u2013 Tailing the Ghost Tour",
+    "role": "headliner",
+    "youtube_id": "nG1MeMNKpUo",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Clip of our song, Tailing the Ghost. Check out the full video on our page! #newsong #newmusic #indie | channel: Mo Lowda & the Humble",
+    "timestamp": "2026-02-25T14:16:54.542443",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALEXSUCKS with Dogma Society",
+    "role": "headliner",
+    "youtube_id": "P2TDEauu0H8",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Dogma Society - HORNS (Official Music Video) | channel: Dogma Society",
+    "timestamp": "2026-02-25T14:16:55.409950",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Dogma Society",
+    "role": "opener",
+    "youtube_id": "9jE-dCQNIP4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: DOGMA SOCIETY - GET AWAY (OFFICIAL MUSIC VIDEO) | channel: Dogma Society",
+    "timestamp": "2026-02-25T14:16:56.047957",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "SATSANG",
+    "role": "headliner",
+    "youtube_id": "qnleZRpWGsk",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Satsang - This Place ft. Trevor Hall (Official Music Video) | channel: Satsang",
+    "timestamp": "2026-02-25T14:16:57.111624",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "RiQj57xemJU",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: deke, dickerson, los, straitjackets | video: LOS STRAITJACKETS w/ DEKE DICKERSON -- &quot;MISERLOU&quot; | channel: UnsteadyFreddie",
+    "timestamp": "2026-02-25T14:16:58.234483",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "CARTER FAITH",
+    "role": "headliner",
+    "youtube_id": "FTGq4amVO4k",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Carter Faith - Bar Star (Official Music Video) | channel: CarterFaithVEVO",
+    "timestamp": "2026-02-25T14:16:59.111258",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Eggy \u2013 Something In The Air Tour",
+    "role": "headliner",
+    "youtube_id": "jdPXGhON6mo",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Eggy - Shadow (Studio Video) | channel: Eggy",
+    "timestamp": "2026-02-25T14:17:00.187784",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Mike Gordon - Yarmouth Road | channel: MikeGordonVEVO",
+    "timestamp": "2026-02-25T14:17:01.227755",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALL YOUR FRIENDS",
+    "role": "headliner",
+    "youtube_id": "E5a51OonZDE",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Coldplay - All Your Friends (Official Video) | channel: Coldplay",
+    "timestamp": "2026-02-25T14:17:02.227544",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "OLD CROW MEDICINE SHOW",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Old Crow Medicine Show - &quot;Sweet Amarillo&quot; - (Official Video) | channel: Old Crow Medicine Show",
+    "timestamp": "2026-02-25T14:17:03.212040",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Natalie Jane",
+    "role": "headliner",
+    "youtube_id": "1BP2FIuGuuA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Red Flag - Natalie Jane (Official Music Video) | channel: Natalie Jane",
+    "timestamp": "2026-02-25T14:17:04.370058",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "yi0ho-hTG-U",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Yonder Mountain String Band - Blind (Official Music Video) | channel: Yonder Mountain String Band",
+    "timestamp": "2026-02-25T14:17:05.298014",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "1300SAINT",
+    "role": "headliner",
+    "youtube_id": "q2XenePkZbI",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: 1300Saint x Nine Vicious - Tired Asf (Official Music Video) | channel: changedonme",
+    "timestamp": "2026-02-25T14:17:06.727091",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Walter Trout",
+    "role": "headliner",
+    "youtube_id": "UKXxImxkJjE",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Walter Trout feat. Beth Hart - Broken (Official Lyric Video) | channel: Walter Trout",
+    "timestamp": "2026-02-25T14:17:07.769386",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JESSE ROPER + BEN CHAPMAN",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Jansons feat. Dope Earth Alien - Switch (TCTS Remix) | channel: BEATS BOARD",
+    "timestamp": "2026-02-25T14:17:08.685358",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "The Rock & Roll Playhouse",
+    "role": "headliner",
+    "youtube_id": "QO8xtyITw_g",
+    "confidence": 95,
+    "tier": "accept",
+    "explanation": "channel match: playhouse, rock, roll | video: The Rock and Roll Playhouse Theme Song | channel: The Rock and Roll Playhouse - Topic",
+    "timestamp": "2026-02-25T14:17:09.635466",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOHN COWAN TRIO ft. Luke Bulla & Ethan Ballinger",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-25T14:17:11.036276",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "WALKER MONTGOMERY",
+    "role": "headliner",
+    "youtube_id": "RYcYWbjE8UQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: I Love The Way You Love Me (Official Video) | channel: Walker Montgomery",
+    "timestamp": "2026-02-25T14:17:12.050180",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MAGGIE LINDEMANN",
+    "role": "headliner",
+    "youtube_id": "UsqAkELtj2M",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Maggie Lindemann, Siiickbrain - break me! | channel: MaggieLindemannVEVO",
+    "timestamp": "2026-02-25T14:18:44.211873",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Broadway Rave",
+    "role": "headliner",
+    "youtube_id": "OhbABwonLUs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:44.518072",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOSH LEVI",
+    "role": "headliner",
+    "youtube_id": "KQTDkKgffnY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:44.518145",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Doc 103: Celebrating Doc Watson",
+    "role": "headliner",
+    "youtube_id": "RfxK2d0jOHM",
+    "confidence": 85,
+    "tier": "accept",
+    "explanation": "channel match: doc, watson | video: The Last Thing on My Mind (Live) | channel: Doc Watson - Topic",
+    "timestamp": "2026-02-25T14:18:45.134517",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Jack Lawrence & Friends ft. Peter Rowan",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 35,
+    "tier": "skip",
+    "explanation": "partial: jack, lawrence | video: Jack Lawrence and Sam Bush \u2018Black Mnt Rag\u2019 Merlefest 2022 | channel: deneicee",
+    "timestamp": "2026-02-25T14:18:45.751595",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Haffway",
+    "role": "headliner",
+    "youtube_id": "EvrdgG7Q4qo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:46.052713",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Lotus",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): lotus | video: R.E.M. - Lotus (Official HD Music Video) | channel: remhq",
+    "timestamp": "2026-02-25T14:18:46.936059",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ROBERT JON & THE WRECK",
+    "role": "headliner",
+    "youtube_id": "XORinLiOz0g",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: jon, robert, the, wreck | video: Robert Jon &amp; The Wreck - Oh Miss Carolina | channel: RobertJonAndTheWreck",
+    "timestamp": "2026-02-25T14:18:48.027965",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "special guest Sam Morrow",
+    "role": "opener",
+    "youtube_id": "W9AwkvlCCNY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:48.028319",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MO LOWDA & THE HUMBLE",
+    "role": "headliner",
+    "youtube_id": "TZT3GMehz7s",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Mo Lowda &amp; the Humble - Pearls (Official Music Video) | channel: Mo Lowda & the Humble",
+    "timestamp": "2026-02-25T14:18:48.874963",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALEXSUCKS",
+    "role": "headliner",
+    "youtube_id": "kwfLBGgUpuQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: ALEXSUCKS - 6 Pack and Cigarettes (Official Music Video) | channel: ALEXSUCKSVEVO",
+    "timestamp": "2026-02-25T14:18:49.856319",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Dogma Society",
+    "role": "opener",
+    "youtube_id": "9jE-dCQNIP4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:49.856738",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "SATSANG",
+    "role": "headliner",
+    "youtube_id": "qnleZRpWGsk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:50.161790",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "RiQj57xemJU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T14:18:50.161822",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "CARTER FAITH",
+    "role": "headliner",
+    "youtube_id": "FTGq4amVO4k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:50.161829",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Eggy",
+    "role": "headliner",
+    "youtube_id": "oa0WTcgEkFU",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-02-25T14:18:50.161839",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:50.466933",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALL YOUR FRIENDS: The Indie Party",
+    "role": "headliner",
+    "youtube_id": "I3mrYxPLSH4",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: all, friends, the | video: Snakehips - All My Friends (Official Video) ft. Tinashe, Chance the Rapper | channel: SnakehipsVEVO",
+    "timestamp": "2026-02-25T14:18:51.275758",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "OLD CROW MEDICINE SHOW",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:51.581673",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Natalie Jane",
+    "role": "headliner",
+    "youtube_id": "1BP2FIuGuuA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:51.581708",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "yi0ho-hTG-U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T14:18:51.581718",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "1300SAINT",
+    "role": "headliner",
+    "youtube_id": "q2XenePkZbI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:51.581726",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Walter Trout",
+    "role": "headliner",
+    "youtube_id": "UKXxImxkJjE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:51.581743",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JESSE ROPER + BEN CHAPMAN",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Jansons feat. Dope Earth Alien - Switch (TCTS Remix) | channel: BEATS BOARD",
+    "timestamp": "2026-02-25T14:18:52.233241",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "The Rock & Roll Playhouse: Music of The Beatles + More for Kids",
+    "role": "headliner",
+    "youtube_id": "UlmIyHMakwE",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: for, kids, playhouse, rock, roll, the | video: Something \u2022 (Multi-Cam) &#39;Beatles&#39; for Kids - The Rock and Roll Playhouse 5/11/2019 (SBD) | channel: FRANKLIN TURNPIKE",
+    "timestamp": "2026-02-25T14:18:53.185337",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOHN COWAN TRIO ft. Luke Bulla & Ethan Ballinger",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-25T14:18:54.821875",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "WALKER MONTGOMERY",
+    "role": "headliner",
+    "youtube_id": "RYcYWbjE8UQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:18:55.128055",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MAGGIE LINDEMANN",
+    "role": "headliner",
+    "youtube_id": "UsqAkELtj2M",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:38.926639",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Broadway Rave",
+    "role": "headliner",
+    "youtube_id": "OhbABwonLUs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:38.926646",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOSH LEVI",
+    "role": "headliner",
+    "youtube_id": "KQTDkKgffnY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:38.926649",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Doc 103",
+    "role": "headliner",
+    "youtube_id": "kh7l845u11I",
+    "confidence": 85,
+    "tier": "accept",
+    "explanation": "channel match: doc | video: Doc Rotten - &quot;Psych Ward 103&quot; (Official Music Video) | channel: Doc Rotten",
+    "timestamp": "2026-02-25T14:19:39.719164",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Jack Lawrence & Friends",
+    "role": "opener",
+    "youtube_id": "JREouTHpyJE",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: friends, lawrence | video: Tracy Lawrence - Find Out Who Your Friends Are (Official Music Video) | channel: Tracy Lawrence",
+    "timestamp": "2026-02-25T14:19:40.534554",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Haffway",
+    "role": "headliner",
+    "youtube_id": "EvrdgG7Q4qo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:40.840547",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Lotus",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): lotus | video: R.E.M. - Lotus (Official HD Music Video) | channel: remhq",
+    "timestamp": "2026-02-25T14:19:41.554508",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ROBERT JON & THE WRECK",
+    "role": "headliner",
+    "youtube_id": "XORinLiOz0g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.859921",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "special guest Sam Morrow",
+    "role": "opener",
+    "youtube_id": "W9AwkvlCCNY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.859966",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MO LOWDA & THE HUMBLE",
+    "role": "headliner",
+    "youtube_id": "TZT3GMehz7s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860008",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALEXSUCKS",
+    "role": "headliner",
+    "youtube_id": "kwfLBGgUpuQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860019",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Dogma Society",
+    "role": "opener",
+    "youtube_id": "9jE-dCQNIP4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860024",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "SATSANG",
+    "role": "headliner",
+    "youtube_id": "qnleZRpWGsk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860040",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "RiQj57xemJU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T14:19:41.860052",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "CARTER FAITH",
+    "role": "headliner",
+    "youtube_id": "FTGq4amVO4k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860060",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Eggy",
+    "role": "headliner",
+    "youtube_id": "oa0WTcgEkFU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T14:19:41.860075",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:41.860082",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALL YOUR FRIENDS",
+    "role": "headliner",
+    "youtube_id": "E5a51OonZDE",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Coldplay - All Your Friends (Official Video) | channel: Coldplay",
+    "timestamp": "2026-02-25T14:19:42.577834",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "OLD CROW MEDICINE SHOW",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:42.883238",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Natalie Jane",
+    "role": "headliner",
+    "youtube_id": "1BP2FIuGuuA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:42.883305",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "yi0ho-hTG-U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T14:19:42.883323",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "1300SAINT",
+    "role": "headliner",
+    "youtube_id": "q2XenePkZbI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:42.883336",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Walter Trout",
+    "role": "headliner",
+    "youtube_id": "UKXxImxkJjE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:42.883352",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JESSE ROPER + BEN CHAPMAN",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Jansons feat. Dope Earth Alien - Switch (TCTS Remix) | channel: BEATS BOARD",
+    "timestamp": "2026-02-25T14:19:43.498459",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "The Rock & Roll Playhouse",
+    "role": "headliner",
+    "youtube_id": "QO8xtyITw_g",
+    "confidence": 95,
+    "tier": "accept",
+    "explanation": "channel match: playhouse, rock, roll | video: The Rock and Roll Playhouse Theme Song | channel: The Rock and Roll Playhouse - Topic",
+    "timestamp": "2026-02-25T14:19:44.451495",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOHN COWAN TRIO",
+    "role": "headliner",
+    "youtube_id": "iRmBHsZp2uI",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: cowan, john | video: \u201cGotta Go Now\u201d - John Cowan (True Lonesome Records) | channel: True Lonesome Records",
+    "timestamp": "2026-02-25T14:19:45.424263",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "WALKER MONTGOMERY",
+    "role": "headliner",
+    "youtube_id": "RYcYWbjE8UQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T14:19:45.729683",
+    "venue": "Neighborhood Theatre"
   }
 ]
