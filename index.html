@@ -34,7 +34,7 @@
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
     <!-- Using system fonts for faster load times -->
 </head>
 <body>
@@ -42,16 +42,16 @@
     <header class="header">
         <div class="container">
             <h1><img src="logo-icon.png" alt="" class="logo-icon">Local Soundcheck™</h1>
-            <p class="subtitle">What's playing in the Triangle tonight?</p>
+            <p class="subtitle" id="tagline">What's playing in the Triangle tonight?</p>
             <p class="about">Instant music samples for every band at your local venue. 100% free tool. Tickets take you straight to the venue.</p>
-            <nav class="venue-selector" aria-label="Triangle venues">
-                <button class="venue-btn active" data-venue="catscradle" aria-pressed="true">Cat's Cradle</button>
-                <button class="venue-btn" data-venue="local506" aria-pressed="false">Local 506</button>
-                <button class="venue-btn" data-venue="motorco" aria-pressed="false">Motorco</button>
-                <button class="venue-btn" data-venue="pinhook" aria-pressed="false">The Pinhook</button>
-                <button class="venue-btn" data-venue="lincoln" aria-pressed="false">Lincoln Theatre</button>
-                <button class="venue-btn" data-venue="kings" aria-pressed="false">Kings</button>
-            </nav>
+            <div class="venue-nav" id="venue-nav">
+                <div class="dropdown-row">
+                    <select id="state-select" class="nav-dropdown" aria-label="Select state"></select>
+                    <select id="region-select" class="nav-dropdown" aria-label="Select region"></select>
+                </div>
+                <p class="venue-suggestion">Don't see your favorite small venue? <a href="mailto:info@localsoundcheck.com?subject=Venue suggestion">Send us a suggestion</a></p>
+                <nav class="venue-selector" id="venue-buttons" aria-label="Venues"></nav>
+            </div>
         </div>
     </header>
 
@@ -75,19 +75,6 @@
         </div>
     </section>
 
-    <section class="beyond-triangle">
-        <div class="container">
-            <h2>Beyond the Triangle</h2>
-            <nav class="venue-selector" aria-label="Other cities">
-                <button class="venue-btn" data-venue="mohawk">Mohawk Austin</button>
-                <button class="venue-btn" data-venue="boweryballroom">Bowery Ballroom</button>
-                <button class="venue-btn" data-venue="thesocial">The Social</button>
-                <button class="venue-btn" data-venue="elevation27">Elevation 27</button>
-                <button class="venue-btn" data-venue="elclub">El Club</button>
-            </nav>
-        </div>
-    </section>
-
     <footer class="footer">
         <div class="container">
             <div class="about-section">
@@ -101,6 +88,6 @@
         </div>
     </footer>
 
-    <script src="app.js?v=4"></script>
+    <script src="app.js?v=5"></script>
 </body>
 </html>

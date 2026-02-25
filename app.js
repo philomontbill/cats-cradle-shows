@@ -11,17 +11,107 @@ class ShowsApp {
     constructor() {
         this.data = null;
         this.activePlayer = null;
-        this.currentVenue = 'catscradle';
+        this.currentVenue = null;
+        this.venueConfig = null;       // Full venues.json data
+        this.venueLookup = {};         // slug → { name, city, website }
+        this.currentState = null;
+        this.currentRegion = null;
         this.init();
     }
 
     async init() {
-        this.setupVenueButtons();
-        await this.loadVenue(this.currentVenue);
+        try {
+            await this.loadVenueConfig();
+            this.buildStateDropdown();
+            this.selectState(this.venueConfig.default_state);
+        } catch (error) {
+            document.getElementById('shows-grid').innerHTML = `
+                <div class="loading"><p>Unable to load venue configuration.</p></div>
+            `;
+        }
     }
 
-    setupVenueButtons() {
-        document.querySelectorAll('.venue-btn').forEach(btn => {
+    async loadVenueConfig() {
+        const response = await fetch('data/venues.json?t=' + Date.now());
+        if (!response.ok) throw new Error('Venue config not found');
+        this.venueConfig = await response.json();
+
+        // Build flat lookup for slug → venue metadata
+        this.venueLookup = {};
+        for (const state of this.venueConfig.states) {
+            for (const region of state.regions) {
+                for (const venue of region.venues) {
+                    this.venueLookup[venue.slug] = venue;
+                }
+            }
+        }
+    }
+
+    getState(abbr) {
+        return this.venueConfig.states.find(s => s.abbr === abbr);
+    }
+
+    getVenueName(slug) {
+        return this.venueLookup[slug]?.name || slug;
+    }
+
+    // --- Navigation ---
+
+    buildStateDropdown() {
+        const select = document.getElementById('state-select');
+        select.innerHTML = this.venueConfig.states
+            .map(s => `<option value="${s.abbr}">${s.name}</option>`)
+            .join('');
+
+        select.addEventListener('change', () => {
+            this.selectState(select.value);
+            trackEvent('state_switch', { state: select.value });
+        });
+    }
+
+    selectState(abbr) {
+        const state = this.getState(abbr);
+        if (!state) return;
+
+        this.currentState = abbr;
+        document.getElementById('state-select').value = abbr;
+
+        const regionSelect = document.getElementById('region-select');
+
+        regionSelect.innerHTML = state.regions
+            .map(r => `<option value="${r.slug}">${r.name}</option>`)
+            .join('');
+        regionSelect.onchange = () => {
+            const region = state.regions.find(r => r.slug === regionSelect.value);
+            if (region) this.selectRegion(region);
+        };
+        this.selectRegion(state.regions[0]);
+    }
+
+    selectRegion(region) {
+        this.currentRegion = region;
+
+        // Update tagline
+        document.getElementById('tagline').textContent = region.tagline;
+
+        // Render venue buttons
+        this.renderVenueButtons(region.venues);
+
+        // Auto-select first venue if current venue isn't in this region
+        const regionSlugs = region.venues.map(v => v.slug);
+        if (!this.currentVenue || !regionSlugs.includes(this.currentVenue)) {
+            this.switchVenue(region.venues[0].slug);
+        }
+    }
+
+    renderVenueButtons(venues) {
+        const nav = document.getElementById('venue-buttons');
+        nav.innerHTML = venues.map(v => {
+            const isActive = v.slug === this.currentVenue;
+            return `<button class="venue-btn${isActive ? ' active' : ''}" data-venue="${v.slug}" aria-pressed="${isActive}">${v.name}</button>`;
+        }).join('');
+
+        nav.querySelectorAll('.venue-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 const venue = btn.dataset.venue;
                 if (venue !== this.currentVenue) {
@@ -33,7 +123,7 @@ class ShowsApp {
 
     async switchVenue(venue) {
         // Update button states
-        document.querySelectorAll('.venue-btn').forEach(btn => {
+        document.querySelectorAll('#venue-buttons .venue-btn').forEach(btn => {
             const isActive = btn.dataset.venue === venue;
             btn.classList.toggle('active', isActive);
             btn.setAttribute('aria-pressed', isActive);
@@ -41,10 +131,12 @@ class ShowsApp {
 
         this.currentVenue = venue;
         this.activePlayer = null;
-        trackEvent('venue_switch', { venue_name: venue });
+        trackEvent('venue_switch', { venue_name: this.getVenueName(venue) });
         await this.loadVenue(venue);
         document.getElementById('stats').scrollIntoView({ behavior: 'smooth' });
     }
+
+    // --- Data Loading ---
 
     async loadVenue(venue) {
         try {
@@ -65,13 +157,15 @@ class ShowsApp {
         this.data = await response.json();
     }
 
+    // --- Rendering ---
+
     renderStats() {
         const stats = document.getElementById('stats');
         if (!this.data) return;
 
         const total = this.data.total_shows || 0;
         const withVideo = this.data.shows_with_video || 0;
-        const venueName = this.data.venue?.name || '';
+        const venueName = this.getVenueName(this.currentVenue);
 
         stats.innerHTML = `
             <strong>${total}</strong> upcoming shows at ${venueName} &bull;
@@ -193,6 +287,8 @@ class ShowsApp {
         `;
     }
 
+    // --- Player ---
+
     togglePlayer(index, videoId, artistName) {
         const container = document.getElementById(`player-${index}`);
         const wrapper = container.querySelector('.player-wrapper');
@@ -232,6 +328,8 @@ class ShowsApp {
             card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }, 100);
     }
+
+    // --- Dialogs ---
 
     showNoPreview(artist) {
         // Remove any existing popup
@@ -295,21 +393,7 @@ class ShowsApp {
     }
 
     showError(venue) {
-        const venueNames = {
-            'catscradle': "Cat's Cradle",
-            'local506': 'Local 506',
-            'motorco': 'Motorco Music Hall',
-            'kings': 'Kings',
-            'mohawk': 'Mohawk Austin',
-            'elevation27': 'Elevation 27',
-            'pinhook': 'The Pinhook',
-            'lincoln': 'Lincoln Theatre',
-            'thesocial': 'The Social',
-            'boweryballroom': 'Bowery Ballroom',
-            'elclub': 'El Club'
-        };
-        const name = venueNames[venue] || venue;
-
+        const name = this.getVenueName(venue);
         document.getElementById('shows-grid').innerHTML = `
             <div class="loading">
                 <p>No shows data found for ${name}.</p>
@@ -318,6 +402,8 @@ class ShowsApp {
         `;
         document.getElementById('stats').innerHTML = '';
     }
+
+    // --- Utilities ---
 
     escapeHtml(text) {
         if (!text) return '';

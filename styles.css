@@ -78,12 +78,65 @@ body {
     margin-top: 20px;
 }
 
+/* Venue Navigation */
+.venue-nav {
+    margin-top: 20px;
+}
+
+.dropdown-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.nav-dropdown {
+    background: var(--card-bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+    min-width: 160px;
+}
+
+.nav-dropdown:hover {
+    border-color: var(--text-muted);
+}
+
+.nav-dropdown:focus-visible {
+    outline: 2px solid #5cacee;
+    outline-offset: 2px;
+}
+
 .venue-selector {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 20px;
+}
+
+.venue-suggestion {
+    margin: 8px 0 12px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.venue-suggestion a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.venue-suggestion a:hover {
+    text-decoration: underline;
 }
 
 .venue-btn {
@@ -495,24 +548,6 @@ body {
     border-radius: 12px;
 }
 
-/* Beyond the Triangle */
-.beyond-triangle {
-    padding: 40px 0;
-    text-align: center;
-    border-top: 1px solid var(--border);
-}
-
-.beyond-triangle h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: var(--text-muted);
-}
-
-.beyond-triangle .venue-selector {
-    margin-top: 0;
-    justify-content: center;
-}
-
 /* Footer */
 .footer {
     border-top: 1px solid var(--border);
@@ -592,6 +627,17 @@ body {
     .venue-btn {
         padding: 10px 16px;
         font-size: 0.8rem;
+    }
+
+    .dropdown-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nav-dropdown {
+        width: 80%;
+        min-width: unset;
     }
 
     .show-header {

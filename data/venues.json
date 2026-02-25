@@ -1,0 +1,94 @@
+{
+  "default_state": "NC",
+  "states": [
+    {
+      "abbr": "NC",
+      "name": "North Carolina",
+      "regions": [
+        {
+          "slug": "triangle",
+          "name": "Raleigh-Durham Area",
+          "tagline": "What's playing in the Triangle tonight?",
+          "venues": [
+            { "slug": "catscradle", "name": "Cat's Cradle", "city": "Carrboro", "website": "https://catscradle.com" },
+            { "slug": "local506", "name": "Local 506", "city": "Chapel Hill", "website": "https://local506.com" },
+            { "slug": "motorco", "name": "Motorco Music Hall", "city": "Durham", "website": "https://motorcomusic.com" },
+            { "slug": "pinhook", "name": "The Pinhook", "city": "Durham", "website": "https://thepinhook.com" },
+            { "slug": "lincoln", "name": "Lincoln Theatre", "city": "Raleigh", "website": "https://lincolntheatre.com" },
+            { "slug": "kings", "name": "Kings", "city": "Raleigh", "website": "https://kingsraleigh.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "FL",
+      "name": "Florida",
+      "regions": [
+        {
+          "slug": "orlando",
+          "name": "Orlando",
+          "tagline": "What's playing in Orlando tonight?",
+          "venues": [
+            { "slug": "thesocial", "name": "The Social", "city": "Orlando", "website": "https://www.thesocial.org" }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "MI",
+      "name": "Michigan",
+      "regions": [
+        {
+          "slug": "detroit",
+          "name": "Detroit",
+          "tagline": "What's playing in Detroit tonight?",
+          "venues": [
+            { "slug": "elclub", "name": "El Club", "city": "Detroit", "website": "https://elclubdetroit.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "NY",
+      "name": "New York",
+      "regions": [
+        {
+          "slug": "nyc",
+          "name": "New York City",
+          "tagline": "What's playing in New York tonight?",
+          "venues": [
+            { "slug": "boweryballroom", "name": "Bowery Ballroom", "city": "New York", "website": "https://www.boweryballroom.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "TX",
+      "name": "Texas",
+      "regions": [
+        {
+          "slug": "austin",
+          "name": "Austin",
+          "tagline": "What's playing in Austin tonight?",
+          "venues": [
+            { "slug": "mohawk", "name": "Mohawk", "city": "Austin", "website": "https://www.mohawkaustin.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "abbr": "VA",
+      "name": "Virginia",
+      "regions": [
+        {
+          "slug": "virginiabeach",
+          "name": "Virginia Beach",
+          "tagline": "What's playing in Virginia Beach tonight?",
+          "venues": [
+            { "slug": "elevation27", "name": "Elevation 27", "city": "Virginia Beach", "website": "https://www.elevation27.com" }
+          ]
+        }
+      ]
+    }
+  ]
+}
