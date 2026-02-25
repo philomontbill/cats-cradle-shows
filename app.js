@@ -133,7 +133,6 @@ class ShowsApp {
         this.activePlayer = null;
         trackEvent('venue_switch', { venue_name: this.getVenueName(venue) });
         await this.loadVenue(venue);
-        document.getElementById('stats').scrollIntoView({ behavior: 'smooth' });
     }
 
     // --- Data Loading ---
