@@ -915,3 +915,81 @@ Merged `scrapers/requirements.txt` (requests, beautifulsoup4) and root `requirem
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session: Feb 25, 2026 (continued — session 2)
+
+### Multi-Act Opener Splitting — Implemented
+
+Opener fields with multiple band names (e.g., "Trace Mountains, honeygaze") now render as individual clickable elements instead of one blob.
+
+**New method `splitOpeners()` in `app.js`:**
+- Strips `w/ ` prefix
+- Splits on `, ` (comma+space) and ` / ` (space-slash-space)
+- Strips leading conjunctions (`and `, `& `, `+ `) from each token
+- Filters noise words (`Special Guests!`, `TBA`, `More!`)
+- Does NOT split on bare ` and ` — too risky ("Florence and the Machine", "Buck Swope and Green Room")
+
+**Display behavior:**
+- First name gets the existing video (if any) with full play styling
+- All other names get dimmed play icons and trigger the no-preview popup when clicked
+- Every name is keyboard-accessible (tabindex, role="button", Enter/Space handlers)
+- GA4 `sample_play` events fire with the individual band name, not the full opener string
+
+**CSS additions:**
+- All opener names are clickable (cursor: pointer)
+- Non-video names show dimmed play icon on hover
+- Focus-visible ring on all opener names (replaced the old has-video-only rule)
+
+**Files modified:** `app.js`, `styles.css`
+
+### RIP MTV — Manual Rejection + Pipeline Gap Analysis
+
+Found "RIP MTV" at Mohawk serving a 7-minute commentary video by "Stevo32Drums" about MTV shutting down. This is an event (themed party with "Unplugged Sets, TRL photobooth, Throwback Videos" as openers), not a band.
+
+**Nulled the video and traced why the pipeline missed it:**
+
+| Layer | Signal Present | Why It Didn't Reject |
+|-------|---------------|---------------------|
+| **Scraper** | "RIP" not in EVENT_KEYWORDS | Missing keyword |
+| **Verifier** | Channel warning ("Stevo32Drums" ≠ "RIP MTV") | Only rejects channel mismatch at 2M+ subs |
+| **Spotify** | Matched "R.I.P." (wrong artist, popularity 24) | Phase 1 = annotation only, not a gate |
+| **Opener** | "Unplugged Sets, TRL photobooth, Throwback Videos" | Zero validation on opener content |
+
+**Scraper fix:** Added case-sensitive `^R.I.P.` check to `_clean_artist_name()` (separate from the case-insensitive EVENT_KEYWORDS regex to avoid matching bands like "Rip Tide"). Also added "Photobooth" to EVENT_KEYWORDS.
+
+**Files modified:** `data/shows-mohawk.json`, `scrapers/base_scraper.py`
+
+### Spotify Phase 2 — Verifier Integration Complete
+
+Wired Spotify enrichment data into `verify_videos.py` as a rejection modifier. This was the missing piece that would have caught RIP MTV automatically.
+
+**Two new rules:**
+1. **Not found on Spotify + channel mismatch → reject** — neither source can confirm the artist exists
+2. **Close/partial Spotify match + channel mismatch → warning** — logged in metadata but not a hard reject (could be a real indie band on a label channel)
+
+**Implementation:**
+- Spotify cache loaded early in `main()` (was previously loaded only for report annotations)
+- `verify_video()` now accepts optional `spotify_entry` parameter
+- Spotify match confidence and popularity stored in verification metadata
+- No changes to Spotify enrichment script — reads the same cache
+
+**Dry-run results:** 2 additional bad matches caught that would have slipped through before:
+- "Rivalry Night" — event, not a band (no Spotify match + channel mismatch)
+- SXSW showcase entry — event (no Spotify match + channel mismatch)
+
+**Files modified:** `scripts/verify_videos.py`
+
+### Bandsintown API — Noted for Future
+
+User noted Bandsintown as a potential additional artist validation source, budget permitting. Would confirm an artist is a real touring act. Not yet planned — evaluate after monitoring Spotify Phase 2 effectiveness.
+
+### Next Steps
+- Monitor tonight's pipeline — first run with scraper RIP fix + Spotify Phase 2 rejection logic
+- Continue adding venues (foundation supports it)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
+- Consider encoding more manual review criteria into verifier (label allowlist, verification badge, artist-tier-aware caps)
+- Bandsintown API evaluation (budget permitting)
