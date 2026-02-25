@@ -3,11 +3,12 @@
 Video Verifier — Phase 3 of the video matching pipeline.
 
 Checks unverified YouTube video assignments against multiple signals:
-- View count (reject if > 5M, unless Topic channel)
+- View count (tiered caps: 5M default, 10-50M with Spotify popularity, 50M for trusted labels/VEVO)
+- Trusted channel detection (label allowlist + VEVO — bypasses mismatch/age/Spotify rejections)
 - Channel analysis (name match, type, subscriber count as modifier)
 - Upload date (flag old videos with weak signals)
 - Venue placeholder image (flag events masquerading as bands)
-- Spotify identity (reject if not found on Spotify AND channel doesn't match)
+- Spotify identity (reject if not found on Spotify AND channel doesn't match AND not trusted)
 
 Runs after scrapers in the nightly GitHub Actions workflow.
 Reads all data/shows-*.json files and qa/video_states.json.
@@ -46,6 +47,38 @@ VENUE_PLACEHOLDERS = {
     "Cat's Cradle": "cradlevenue.png",
     "Cat's Cradle Back Room": "cradlevenue.png",
 }
+
+# Trusted record labels — videos on these channels should not be rejected
+# for channel mismatch or high subscriber counts. View cap raised to 50M.
+# Keys are pre-normalized (lowercase, non-alphanumeric stripped).
+TRUSTED_LABELS = {
+    "nuclearblastrecords": "Nuclear Blast Records",
+    "epitaphrecords": "Epitaph Records",
+    "fueledbyramen": "Fueled By Ramen",
+    "spinninrecords": "Spinnin' Records",
+    "secretcityrecords": "Secret City Records",
+    "innovativeleisure": "Innovative Leisure",
+    "sideonedummy": "SideOneDummy",
+    "riserecords": "Rise Records",
+    "fearlessrecords": "Fearless Records",
+    "centurymediarecords": "Century Media Records",
+    "newwestrecords": "New West Records",
+    "flightlessrecords": "Flightless Records",
+    "warnerrecords": "Warner Records",
+    "carparkrecords": "Carpark Records",
+}
+
+TRUSTED_CHANNEL_VIEW_CAP = 50_000_000  # 50M — raised cap for trusted labels/VEVO
+
+# Spotify-popularity-aware view count caps.
+# Higher popularity = higher acceptable view count.
+# Ordered highest to lowest; first matching tier wins.
+SPOTIFY_VIEW_CAPS = [
+    (70, None),          # popularity >= 70: no cap (major artist)
+    (50, 50_000_000),    # popularity >= 50: 50M cap
+    (30, 10_000_000),    # popularity >= 30: 10M cap
+]
+DEFAULT_VIEW_CAP = VIEW_COUNT_CAP  # 5M when no Spotify data or popularity < 30
 
 
 def load_api_key():
@@ -215,28 +248,65 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
     )
     metadata["channel_match"] = artist_channel_match
 
+    # --- Evaluate: Trusted channel (label allowlist / VEVO) ---
+    trusted_channel = False
+    trusted_reason = ""
+    norm_channel = normalize(video_meta["channel_name"])
+    if norm_channel in TRUSTED_LABELS:
+        trusted_channel = True
+        trusted_reason = f"label: {TRUSTED_LABELS[norm_channel]}"
+        metadata["trusted_label"] = TRUSTED_LABELS[norm_channel]
+    elif norm_channel.endswith("vevo"):
+        trusted_channel = True
+        trusted_reason = "VEVO"
+        metadata["vevo_channel"] = True
+    metadata["trusted_channel"] = trusted_channel
+    if trusted_reason:
+        metadata["trusted_reason"] = trusted_reason
+
     # --- Evaluate: View count ---
     views = video_meta["view_count"]
     if topic and artist_channel_match:
         # Topic channel with matching artist name — skip view count check
         metadata["view_check"] = "skipped (Topic channel match)"
-    elif views > VIEW_COUNT_CAP:
-        reasons.append(
-            f"view count {views:,} exceeds {VIEW_COUNT_CAP:,} cap"
-        )
+    else:
+        # Determine effective view cap based on trust signals
+        if trusted_channel:
+            effective_cap = TRUSTED_CHANNEL_VIEW_CAP
+            metadata["view_cap_reason"] = f"trusted channel ({trusted_reason})"
+        elif spotify_entry and spotify_entry.get("popularity") is not None:
+            sp_pop = spotify_entry.get("popularity", 0)
+            effective_cap = DEFAULT_VIEW_CAP
+            cap_reason = f"Spotify popularity {sp_pop}"
+            for min_pop, cap in SPOTIFY_VIEW_CAPS:
+                if sp_pop >= min_pop:
+                    effective_cap = cap
+                    cap_reason = f"Spotify popularity {sp_pop} (>={min_pop})"
+                    break
+            metadata["view_cap_reason"] = cap_reason
+        else:
+            effective_cap = DEFAULT_VIEW_CAP
+            metadata["view_cap_reason"] = "default (no trust signals)"
+
+        if effective_cap is not None and views > effective_cap:
+            reasons.append(
+                f"view count {views:,} exceeds {effective_cap:,} cap"
+            )
 
     # --- Evaluate: Channel match ---
     if not artist_channel_match and not topic:
-        # Channel doesn't match and it's not a Topic channel
-        # Check subscriber count as modifier
-        if channel_meta and channel_meta["subscriber_count"] > 2_000_000:
+        if trusted_channel:
+            # Trusted label/VEVO — don't penalize for channel mismatch
+            metadata["channel_override"] = (
+                f"trusted {trusted_reason}, skipping mismatch check"
+            )
+        elif channel_meta and channel_meta["subscriber_count"] > 2_000_000:
             reasons.append(
                 f"non-matching channel '{video_meta['channel_name']}' "
                 f"with {channel_meta['subscriber_count']:,} subscribers"
             )
-        elif not artist_channel_match:
+        else:
             # Weak signal — channel doesn't match but not a hard reject alone
-            # unless combined with other issues
             metadata["channel_warning"] = (
                 f"channel '{video_meta['channel_name']}' doesn't match artist"
             )
@@ -250,9 +320,14 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
             age_years = (datetime.now(pub_date.tzinfo) - pub_date).days / 365.25
             metadata["video_age_years"] = round(age_years, 1)
             if age_years > VIDEO_AGE_FLAG_YEARS and not artist_channel_match:
-                reasons.append(
-                    f"video is {age_years:.0f} years old with no channel match"
-                )
+                if trusted_channel:
+                    metadata["age_override"] = (
+                        f"trusted {trusted_reason}, skipping age check"
+                    )
+                else:
+                    reasons.append(
+                        f"video is {age_years:.0f} years old with no channel match"
+                    )
         except (ValueError, TypeError):
             pass
 
@@ -266,7 +341,12 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
         metadata["spotify_popularity"] = sp_pop
 
         if sp_conf == "no_match" and not artist_channel_match and not topic:
-            reasons.append("not found on Spotify + channel mismatch")
+            if trusted_channel:
+                metadata["spotify_override"] = (
+                    f"trusted {trusted_reason}, skipping Spotify no_match rejection"
+                )
+            else:
+                reasons.append("not found on Spotify + channel mismatch")
         elif (sp_conf in ("close", "partial")
               and not artist_channel_match and not topic):
             sp_name = spotify_entry.get("spotify_name", "?")
@@ -633,6 +713,10 @@ def main():
                         confidence.append("channel match")
                     if metadata.get("is_topic"):
                         confidence.append("Topic channel")
+                    if metadata.get("trusted_label"):
+                        confidence.append(f"label: {metadata['trusted_label']}")
+                    elif metadata.get("vevo_channel"):
+                        confidence.append("VEVO")
                     views = metadata.get("view_count", 0)
                     if views < 1_000_000:
                         confidence.append(f"{views:,} views")
