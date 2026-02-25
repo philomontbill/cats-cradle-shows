@@ -25,6 +25,9 @@ from datetime import datetime, timedelta
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
+sys.path.insert(0, _PROJECT_ROOT)
+
+from scrapers.utils import load_env_var, normalize as _normalize, name_similarity
 
 CACHE_PATH = os.path.join(_PROJECT_ROOT, "qa", "spotify_cache.json")
 CACHE_TTL_DAYS = 30
@@ -34,21 +37,8 @@ CACHE_TTL_DAYS = 30
 
 def load_spotify_credentials():
     """Load Spotify client credentials from environment or .env file."""
-    client_id = os.environ.get("SPOTIFY_CLIENT_ID")
-    client_secret = os.environ.get("SPOTIFY_CLIENT_SECRET")
-    if client_id and client_secret:
-        return client_id, client_secret
-
-    env_path = os.path.join(_PROJECT_ROOT, ".env")
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith("SPOTIFY_CLIENT_ID="):
-                    client_id = line.split("=", 1)[1].strip().strip('"').strip("'")
-                elif line.startswith("SPOTIFY_CLIENT_SECRET="):
-                    client_secret = line.split("=", 1)[1].strip().strip('"').strip("'")
-
+    client_id = load_env_var("SPOTIFY_CLIENT_ID")
+    client_secret = load_env_var("SPOTIFY_CLIENT_SECRET")
     if client_id and client_secret:
         return client_id, client_secret
     return None, None
@@ -103,35 +93,7 @@ def is_cache_fresh(entry):
 
 def normalize(text):
     """Normalize text for comparison — lowercase, strip non-alphanumeric."""
-    return re.sub(r'[^a-z0-9]', '', text.lower())
-
-
-def name_similarity(a, b):
-    """
-    Score how similar two names are. Returns a float 0-1.
-    Checks exact match, containment, and token overlap.
-    """
-    na, nb = normalize(a), normalize(b)
-    if not na or not nb:
-        return 0.0
-    if na == nb:
-        return 1.0
-    # Containment — but only if lengths are similar (avoid "Common" matching "COMMON WOMAN CABARET")
-    if na in nb or nb in na:
-        length_ratio = min(len(na), len(nb)) / max(len(na), len(nb))
-        if length_ratio >= 0.5:
-            return 0.9
-        # Short substring in a much longer name — weak signal
-        return 0.3
-
-    # Token overlap
-    tokens_a = set(a.lower().split())
-    tokens_b = set(b.lower().split())
-    if not tokens_a or not tokens_b:
-        return 0.0
-    overlap = len(tokens_a & tokens_b)
-    total = max(len(tokens_a), len(tokens_b))
-    return overlap / total
+    return _normalize(text)
 
 
 # --- Spotify API ---

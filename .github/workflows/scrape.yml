@@ -26,37 +26,56 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install requests beautifulsoup4
+        run: pip install -r requirements.txt
 
       - name: Run Cat's Cradle scraper
+        id: scrape_catscradle
+        continue-on-error: true
         run: python scrapers/scraper.py
 
       - name: Run Local 506 scraper
+        id: scrape_local506
+        continue-on-error: true
         run: python scrapers/scraper_local506.py
 
       - name: Run Motorco scraper
+        id: scrape_motorco
+        continue-on-error: true
         run: python scrapers/scraper_motorco.py
 
       - name: Run The Pinhook scraper
+        id: scrape_pinhook
+        continue-on-error: true
         run: python scrapers/scraper_pinhook.py
 
       - name: Run Lincoln Theatre scraper
+        id: scrape_lincoln
+        continue-on-error: true
         run: python scrapers/scraper_lincoln.py
 
       - name: Run Kings scraper
+        id: scrape_kings
+        continue-on-error: true
         run: python scrapers/scraper_kings.py
 
       - name: Run Mohawk scraper
+        id: scrape_mohawk
+        continue-on-error: true
         run: python scrapers/scraper_mohawk.py
 
       - name: Run Elevation 27 scraper
+        id: scrape_elevation27
+        continue-on-error: true
         run: python scrapers/scraper_elevation27.py
 
       - name: Run The Social scraper
+        id: scrape_thesocial
+        continue-on-error: true
         run: python scrapers/scraper_thesocial.py
 
       - name: Run Bowery Ballroom scraper
+        id: scrape_bowery
+        continue-on-error: true
         run: python scrapers/scraper_mercuryeast.py
 
       - name: Expire past shows
@@ -73,6 +92,7 @@ jobs:
         run: python scripts/validate_shows.py
 
       - name: Spotify artist enrichment
+        id: spotify
         continue-on-error: true
         run: python scripts/spotify_enrich.py
         env:
@@ -80,12 +100,14 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
 
       - name: Verify video assignments
+        id: verify
         continue-on-error: true
         run: python scripts/verify_videos.py
         env:
           GH_TOKEN: ${{ github.token }}
 
       - name: Run accuracy audit
+        id: audit
         continue-on-error: true
         run: python qa/audit_accuracy.py
 
@@ -98,23 +120,53 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Create GitHub Issue if issues found
-        if: steps.monitor.outcome == 'failure' || steps.validate.outcome == 'failure'
+      - name: Create GitHub Issue if any step failed
+        if: >-
+          steps.scrape_catscradle.outcome == 'failure' ||
+          steps.scrape_local506.outcome == 'failure' ||
+          steps.scrape_motorco.outcome == 'failure' ||
+          steps.scrape_pinhook.outcome == 'failure' ||
+          steps.scrape_lincoln.outcome == 'failure' ||
+          steps.scrape_kings.outcome == 'failure' ||
+          steps.scrape_mohawk.outcome == 'failure' ||
+          steps.scrape_elevation27.outcome == 'failure' ||
+          steps.scrape_thesocial.outcome == 'failure' ||
+          steps.scrape_bowery.outcome == 'failure' ||
+          steps.monitor.outcome == 'failure' ||
+          steps.validate.outcome == 'failure' ||
+          steps.verify.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
             const date = new Date().toISOString().split('T')[0];
-            const monitor = '${{ steps.monitor.outcome }}';
-            const validate = '${{ steps.validate.outcome }}';
+            const steps = [
+              ['Cat\'s Cradle', '${{ steps.scrape_catscradle.outcome }}'],
+              ['Local 506', '${{ steps.scrape_local506.outcome }}'],
+              ['Motorco', '${{ steps.scrape_motorco.outcome }}'],
+              ['The Pinhook', '${{ steps.scrape_pinhook.outcome }}'],
+              ['Lincoln Theatre', '${{ steps.scrape_lincoln.outcome }}'],
+              ['Kings', '${{ steps.scrape_kings.outcome }}'],
+              ['Mohawk', '${{ steps.scrape_mohawk.outcome }}'],
+              ['Elevation 27', '${{ steps.scrape_elevation27.outcome }}'],
+              ['The Social', '${{ steps.scrape_thesocial.outcome }}'],
+              ['Bowery Ballroom', '${{ steps.scrape_bowery.outcome }}'],
+              ['Scrape Monitor', '${{ steps.monitor.outcome }}'],
+              ['Data Validation', '${{ steps.validate.outcome }}'],
+              ['Video Verification', '${{ steps.verify.outcome }}'],
+            ];
+            const failed = steps.filter(([_, s]) => s === 'failure');
             let body = `## Scrape Alert — ${date}\n\n`;
-            body += `| Check | Status |\n|-------|--------|\n`;
-            body += `| Scrape Monitor | ${monitor === 'failure' ? '❌ Failed' : '✅ Passed'} |\n`;
-            body += `| Data Validation | ${validate === 'failure' ? '❌ Failed' : '✅ Passed'} |\n\n`;
-            body += `[View full logs](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`;
+            body += `**${failed.length} step(s) failed:**\n\n`;
+            body += `| Step | Status |\n|------|--------|\n`;
+            for (const [name, status] of steps) {
+              const icon = status === 'failure' ? '\u274c' : '\u2705';
+              body += `| ${name} | ${icon} ${status} |\n`;
+            }
+            body += `\n[View full logs](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`;
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Scrape Alert — ${date}`,
+              title: `Scrape Alert — ${date} (${failed.length} failure${failed.length > 1 ? 's' : ''})`,
               body: body,
               labels: ['scrape-alert']
             });

@@ -5,6 +5,7 @@ Each venue scraper inherits from this and implements venue-specific logic.
 """
 
 import os
+import sys
 import requests
 import json
 import re
@@ -14,6 +15,9 @@ from urllib.parse import quote_plus
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
+sys.path.insert(0, _PROJECT_ROOT)
+
+from scrapers.utils import load_env_var, normalize_artist
 
 
 class BaseScraper:
@@ -53,18 +57,8 @@ class BaseScraper:
             return {"artist_youtube": {}, "opener_youtube": {}}
 
     def _load_api_key(self):
-        """Load YouTube API key from .env file."""
-        env_path = os.path.join(_PROJECT_ROOT, '.env')
-        try:
-            with open(env_path) as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith('YOUTUBE_API_KEY='):
-                        return line.split('=', 1)[1].strip()
-        except FileNotFoundError:
-            pass
-        # Also check environment variable (for GitHub Actions)
-        return os.environ.get('YOUTUBE_API_KEY')
+        """Load YouTube API key from environment or .env file."""
+        return load_env_var('YOUTUBE_API_KEY')
 
     def scrape_shows(self):
         """Main scraping function - subclasses must implement."""
@@ -112,16 +106,7 @@ class BaseScraper:
 
     def _normalize(self, name):
         """Normalize a name for comparison."""
-        if not name:
-            return ""
-        name = name.lower().strip()
-        name = re.sub(r"^the\s+", "", name)
-        name = re.sub(r"\s*[-–—]\s*(tour|us tour|headline tour|album release).*$", "", name, flags=re.IGNORECASE)
-        name = re.sub(r"\s*\(.*?\)", "", name)
-        name = re.sub(r"\s*/\s*", " ", name)  # Replace slashes with spaces
-        name = re.sub(r"[^\w\s]", "", name)
-        name = re.sub(r"\s+", " ", name).strip()
-        return name
+        return normalize_artist(name)
 
     def _word_set(self, text):
         """Get set of meaningful words (3+ chars) from text."""

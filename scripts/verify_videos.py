@@ -30,6 +30,9 @@ from datetime import datetime
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
+sys.path.insert(0, _PROJECT_ROOT)
+
+from scrapers.utils import load_env_var, normalize as _normalize
 
 # --- Configuration ---
 
@@ -46,17 +49,7 @@ VENUE_PLACEHOLDERS = {
 
 def load_api_key():
     """Load YouTube API key from environment or .env file."""
-    key = os.environ.get("YOUTUBE_API_KEY")
-    if key:
-        return key
-    env_path = os.path.join(_PROJECT_ROOT, ".env")
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith("YOUTUBE_API_KEY="):
-                    return line.split("=", 1)[1].strip().strip('"').strip("'")
-    return None
+    return load_env_var("YOUTUBE_API_KEY")
 
 
 def load_overrides():
@@ -165,7 +158,7 @@ def get_channel_metadata(channel_id, api_key):
 
 def normalize(text):
     """Normalize text for comparison."""
-    return re.sub(r'[^a-z0-9]', '', text.lower())
+    return _normalize(text)
 
 
 def is_topic_channel(channel_name):

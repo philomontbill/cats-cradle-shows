@@ -840,3 +840,78 @@ Created `scripts/no_preview_report.py` to list all remaining no-preview shows so
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
 - Consider encoding manual review criteria into verifier (label allowlist, verification badge, Bandsintown confirmation)
+
+---
+
+## Session: Feb 25, 2026
+
+### Code Review — Foundation Audit
+
+Ran 5 parallel code review agents across the codebase (base_scraper.py, verify_videos.py, spotify_enrich.py, workflow/overrides, frontend). Compiled 26 findings into 3 priority tiers:
+
+**Tier 1 (before adding venues):** Shared utils module, workflow failure notifications, consolidated requirements.txt, venues.json config
+**Tier 2 (next session):** Specific exception handling, centralized config, pluggable verification architecture, overrides metadata
+**Tier 3 (ongoing):** Frontend performance, caching, test coverage
+
+### Multi-State Navigation — Implemented
+
+Replaced hardcoded venue buttons with a dynamic two-dropdown system (State + Region) driven by `data/venues.json`.
+
+**Architecture decisions:**
+- `data/venues.json` = single source of truth for all venue metadata (state → region → venue hierarchy)
+- State dropdown + Region dropdown — always visible (no auto-skip for single-region states, because users in other cities need geographic context)
+- Per-region taglines (e.g., "What's playing in the Triangle tonight?" → "What's playing in Orlando tonight?")
+- "Don't see your favorite small venue? Send us a suggestion" text between dropdowns and venue buttons
+- Removed "Beyond the Triangle" section entirely — all venues now accessible via dropdowns
+
+**Files created:** `data/venues.json`
+**Files modified:** `index.html` (dropdowns + dynamic containers), `app.js` (complete nav rewrite — loads config, builds dropdowns, renders buttons), `styles.css` (dropdown styles, mobile responsive)
+
+**Current venue coverage:** 6 states, 6 regions, 11 venues
+- NC / Raleigh-Durham: Cat's Cradle, Local 506, Motorco, The Pinhook, Lincoln Theatre, Kings
+- FL / Orlando: The Social
+- MI / Detroit: El Club
+- NY / New York City: Bowery Ballroom
+- TX / Austin: Mohawk
+- VA / Virginia Beach: Elevation 27
+
+### Shared Python Utils Module — Created
+
+Created `scrapers/utils.py` to eliminate duplicated code across three Python files.
+
+**Functions extracted:**
+- `load_env_var(key)` — unified .env reader, checks environment first, strips quotes (fixed a bug in base_scraper.py's version that didn't strip quotes)
+- `normalize(text)` — simple lowercase + strip non-alphanumeric (was identical in verify_videos.py and spotify_enrich.py)
+- `normalize_artist(name)` — richer normalization: strips "the", tour suffixes, parentheticals (was `_normalize()` in base_scraper.py)
+- `name_similarity(a, b)` — float 0-1 scorer (was only in spotify_enrich.py)
+
+**Files updated to import from utils:**
+- `scrapers/base_scraper.py` — `_load_api_key()` → `load_env_var()`, `_normalize()` → `normalize_artist()`
+- `scripts/verify_videos.py` — `load_api_key()` → `load_env_var()`, `normalize()` → shared
+- `scripts/spotify_enrich.py` — `load_spotify_credentials()` → `load_env_var()`, `normalize()` + `name_similarity()` → shared
+
+### Workflow Failure Notifications — Expanded
+
+Updated `.github/workflows/scrape.yml`:
+- All 10 scraper steps now have `id:` and `continue-on-error: true` — one venue failure no longer halts the pipeline
+- Alert GitHub Issue now reports on all 13 tracked steps (10 scrapers + monitor + validate + verify)
+- Alert title includes failure count (e.g., "Scrape Alert — 2026-02-25 (2 failures)")
+- Full pass/fail table in alert body
+
+### Consolidated requirements.txt
+
+Merged `scrapers/requirements.txt` (requests, beautifulsoup4) and root `requirements.txt` (google-analytics-data, google-auth) into a single root file. Deleted `scrapers/requirements.txt`. Both workflows (`scrape.yml`, `weekly-report.yml`) now use `pip install -r requirements.txt`.
+
+### Key Files (updated)
+- `scrapers/utils.py` — **new** shared utilities (normalize, env loading, name similarity)
+- `data/venues.json` — **new** venue config (single source of truth for state/region/venue hierarchy)
+- `.github/workflows/scrape.yml` — expanded failure notifications, consolidated deps
+- `requirements.txt` — consolidated all Python dependencies
+
+### Next Steps
+- Multi-act opener splitting (task #8) — show individual band names with separate play buttons
+- Spotify Phase 2: wire signals into verifier
+- Continue adding venues (foundation now supports it)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2

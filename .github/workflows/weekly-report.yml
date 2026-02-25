@@ -28,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install google-analytics-data google-auth
+        run: pip install -r requirements.txt
 
       - name: Ensure weekly-report label exists
         run: gh label create weekly-report --color 0e8a16 --description "Automated weekly analytics report" || true
