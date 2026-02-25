@@ -100,7 +100,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/4c529ff7-fd17-49cf-8df2-262a23b9b8e3.jpg",
       "ticket_url": "https://dice.fm/event/l8bdyw",
       "youtube_id": "Ka_tHvcyD3k",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Ratboys",
@@ -285,8 +286,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 15,
-  "shows_with_video": 1,
-  "shows_with_image": 2,
+  "total_shows": 14,
+  "shows_with_video": 14,
+  "shows_with_image": 1,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

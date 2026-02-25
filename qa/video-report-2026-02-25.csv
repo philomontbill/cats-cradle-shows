@@ -1,0 +1,58 @@
+Section,Artist,Venue,Date,Video URL,Spotify Match,Spotify Popularity,Detail
+Verified,"Slow Teeth, Scrape, Minor Stars",Motorco Music Hall,"Sat, Mar 07",https://youtube.com/watch?v=55NKuri-t7I,no_match,,"1,894 views"
+Verified,JULIA. – ‘Fish in the Percolator’ Album Release Show,Kings,"Fri, Mar 13",https://youtube.com/watch?v=VMePxmKXCH0,no_match,,679 views
+Verified,Jourdain Fisher,Kings,"Fri, Mar 27",https://youtube.com/watch?v=X6tolwbHyVM,exact,1,385 views
+Verified,Sub Rosa,Kings,"Tue, Mar 31",https://youtube.com/watch?v=lRwmqocOw7U,exact,20,"channel match, 1,903 views"
+Verified,Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show,Local 506,"Fri, Mar 27",https://youtube.com/watch?v=Az3RcZfWcvc,no_match,,"channel match, 53 views"
+Verified,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sat, Mar 14",https://youtube.com/watch?v=DvXhh4QL_ZY,no_match,,"channel match, 6,014 views"
+Verified,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sun, Mar 15",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,"3,783 views"
+Verified,Fish Hunt / People I Love / GLOWR,The Pinhook,"Thu, Mar 05",https://youtube.com/watch?v=rVieMw_GLSU,no_match,,"channel match, 1,732 views"
+Verified,Invisible Cities / Ravine / Violent Institution,The Pinhook,"Sun, Mar 15",https://youtube.com/watch?v=eIK1Qw9K9ZY,no_match,,"channel match, 30 views"
+Verified,Cornelia Murr / Reverend Baron / Storey Littleton,The Pinhook,"Tue, Mar 17",https://youtube.com/watch?v=V0XiLfNgGEc,no_match,,"channel match, 9,026 views"
+Verified,BIG POP SHOW: Lifeguard / Mail / Sects / Warm Frames,The Pinhook,"Sun, Mar 22",https://youtube.com/watch?v=Bjn2LoYQ2KY,no_match,,"channel match, 2,803 views"
+Rejected,All Your Friends: The Indie Party,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=E5a51OonZDE,no_match,,"non-matching channel 'Coldplay' with 28,400,000 subscribers"
+Rejected,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=-auKhd23DE4,no_match,,venue placeholder image (cradlevenue.png)
+Rejected,"Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=Cki-mnHhNtY,no_match,,venue placeholder image (cradlevenue.png)
+Rejected,An Evening With,Cat's Cradle,"Tue, Mar 10",https://youtube.com/watch?v=KMTo2LmixqQ,close,4,"view count 36,816,330 exceeds 5,000,000 cap"
+Rejected,Punchline,Cat's Cradle,"Sun, Mar 15",https://youtube.com/watch?v=PDu9BKwQ720,exact,21,"non-matching channel 'Fueled By Ramen' with 15,400,000 subscribers; video is 20 years old with no channel match"
+Rejected,Ezra,Kings,"Tue, Mar 3",https://youtube.com/watch?v=aAiVsqfbn5g,exact,38,"view count 82,634,838 exceeds 5,000,000 cap"
+Rejected,"Unplugged Sets, TRL photobooth, Throwback Videos",Mohawk Indoor,"Sat, Feb 28",https://youtube.com/watch?v=pOTkCgkxqyg,no_match,,"view count 5,013,216 exceeds 5,000,000 cap"
+Rejected,"Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",Mohawk Indoor,"Wed, Mar 18",https://youtube.com/watch?v=RpL1GyLOblE,no_match,,"non-matching channel 'ELEVATOR' with 2,040,000 subscribers"
+Rejected,"Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",Mohawk Outdoor,"Sat, Mar 21",https://youtube.com/watch?v=CDl9ZMfj6aE,no_match,,"view count 382,666,420 exceeds 5,000,000 cap; video is 16 years old with no channel match"
+Rejected,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",https://youtube.com/watch?v=1VQ_3sBZEm0,no_match,,"view count 196,009,499 exceeds 5,000,000 cap; video is 16 years old with no channel match"
+Rejected,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",https://youtube.com/watch?v=gU7003Juh7c,close,25,"view count 12,379,143 exceeds 5,000,000 cap"
+No Preview,The Rikkies & SUM SUN w/ So Impartial,Bowery Ballroom,"Sat, Feb 28",,no_match,,No video from scraper
+No Preview,The Ruckus,Bowery Ballroom,"Sat, Feb 28",,exact,8,No video from scraper
+No Preview,All Your Friends: The Indie Party,Bowery Ballroom,"Fri, Mar 06",,no_match,,"Rejected: non-matching channel 'Coldplay' with 28,400,000 subscribers"
+No Preview,Six More Miles,Cat's Cradle Back Room,"Wed, Feb 25",,exact,0,Override: no video
+No Preview,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",,no_match,,Rejected: venue placeholder image (cradlevenue.png)
+No Preview,SZN4,El Club,"Sat, Feb 14",,exact,39,No video from scraper
+No Preview,Super Future,El Club,"Fri, Feb 20",,exact,35,No video assigned
+No Preview,It's A 2000s Party: Detroit,El Club,"Sat, Feb 21",,no_match,,No video assigned
+No Preview,The Cast Of Beatlemania Performing Hits From Every Era,Elevation 27,"Fri, Feb 27",,no_match,,Rejected: video is 19 years old with no channel match
+No Preview,It’s A 2000’s Party by Slacker University (Ages 18 & Up),Elevation 27,"Fri, Mar 27",,no_match,,No video from scraper
+No Preview,"Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",Elevation 27,"Sun, Mar 29",,no_match,,No video from scraper
+No Preview,Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,Elevation 27,"Fri, Apr 03",,no_match,,No video from scraper
+No Preview,United We Dance: The Ultimate Rave Experience (Ages 18 & Up),Elevation 27,"Fri, Apr 17",,no_match,,No video assigned
+No Preview,andmoreagain presentsThe Psycodelics,Kings,"Thu, Feb 26",,no_match,,No video assigned
+No Preview,SINIESTRE Latin Goth Prom: Tesoro’s Eternal Youth Edition,Kings,"Fri, Feb 27",,no_match,,No video assigned
+No Preview,The Great Cover Up 2026 – Make-Up Night!,Kings,"Sat, Mar 14",,no_match,,No video assigned
+No Preview,GrrrlBands: Sountrack Season Showcase,Kings,"Sun, Mar 15",,no_match,,No video assigned
+No Preview,Raleigh Comedy Festival 2026 – Friday Night,Kings,"Fri, Mar 27",,no_match,,No video assigned
+No Preview,Raleigh Comedy Festival 2026 – Saturday Night,Kings,"Sat, Mar 28",,no_match,,No video assigned
+No Preview,NC Songwriters Show Feat: Jon Wood/Steph Maguire/Tan Sanders/Drew Johnson/Sophie Taylor/Roy Stewart/Brent Underwood/Adam Fisher,Lincoln Theatre,"Sun, Mar 08",,no_match,,No video assigned
+No Preview,HBO QUIZZO: Heated Rivalry,Mohawk Indoor,"Mon, Mar 09",,close,8,No video assigned
+No Preview,SXSW: Very Necessary Showcase,Mohawk Indoor,"Wed, Mar 18",,no_match,,No video assigned
+No Preview,Recovery Takeover 2026,Mohawk Outdoor,"Sat, Mar 21",,no_match,,No video assigned
+No Preview,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",,no_match,,"Rejected: view count 196,009,499 exceeds 5,000,000 cap; video is 16 years old with no channel match"
+No Preview,Music For The Masses,Motorco Music Hall,"Fri, Feb 13",,close,0,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers; video is 20 years old with no channel match"
+No Preview,Heated,Motorco Music Hall,"Fri, Feb 27",,no_match,,No video from scraper
+No Preview,Heated,Motorco Music Hall,"Fri, Mar 6",,no_match,,No video from scraper
+No Preview,LUEWWD XX,Motorco Music Hall,"Sat, Mar 7",,no_match,,"Rejected: view count 88,454,343 exceeds 5,000,000 cap; video is 17 years old with no channel match"
+No Preview,"DISCO, ALWAYS",Motorco Music Hall,"Fri, Mar 20",,partial,0,"Rejected: view count 7,604,843 exceeds 5,000,000 cap"
+No Preview,"Le Frique: Disco Afrique, An All Afrocentric Cabaret and Dance Party",The Pinhook,"Fri, Feb 27",,no_match,,No video assigned
+No Preview,Blends With Friends (Open Decks),The Pinhook,"Wed, Mar 04",,no_match,,No video assigned
+No Preview,"Cartoon Smokeshow, a Drag and Burlesque Rewind",The Pinhook,"Sat, Mar 07",,no_match,,No video assigned
+No Preview,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",,close,25,"Rejected: view count 12,379,143 exceeds 5,000,000 cap"
+No Preview,Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE,The Pinhook,"Tue, Mar 24",,no_match,,No video assigned
+No Preview,DANCE,The Social,"Sat, May 09",,exact,30,"Rejected: view count 20,472,741 exceeds 5,000,000 cap"

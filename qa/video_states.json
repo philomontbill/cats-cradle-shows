@@ -733,14 +733,14 @@
   "Rivalry Night": {
     "status": "rejected",
     "video_id": "-auKhd23DE4",
-    "rejected_date": "2026-02-24T05:27:15.160951",
+    "rejected_date": "2026-02-25T05:29:50.138897",
     "reason": "venue placeholder image (cradlevenue.png)",
     "metadata": {
       "video_title": "Shane x Ilya - Heated Rivalry  |  Perfect - One Direction (Tradu\u00e7\u00e3o)",
       "channel_name": "MelMerc",
-      "view_count": 54815,
+      "view_count": 55373,
       "published": "2025-12-11T18:00:01Z",
-      "channel_subscribers": 1720,
+      "channel_subscribers": 1730,
       "channel_videos": 14,
       "is_topic": false,
       "channel_match": false,
@@ -751,12 +751,12 @@
   "Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)": {
     "status": "rejected",
     "video_id": "Cki-mnHhNtY",
-    "rejected_date": "2026-02-23T11:22:42.731064",
+    "rejected_date": "2026-02-25T05:29:50.303855",
     "reason": "venue placeholder image (cradlevenue.png)",
     "metadata": {
       "video_title": "Dialtone",
       "channel_name": "Toby Fox - Topic",
-      "view_count": 1740548,
+      "view_count": 1744230,
       "published": "2021-10-04T14:45:37Z",
       "channel_subscribers": 528000,
       "channel_videos": 465,
@@ -908,20 +908,20 @@
   },
   "Slow Teeth, Scrape, Minor Stars": {
     "status": "verified",
-    "video_id": "3aR5e_mJHDM",
-    "verified_date": "2026-02-24T05:27:15.368054",
-    "confidence": "480,702 views",
+    "video_id": "55NKuri-t7I",
+    "verified_date": "2026-02-25T05:29:50.476991",
+    "confidence": "1,894 views",
     "metadata": {
-      "video_title": "Slow Joy - Pulling Teeth (Lyric Video)",
-      "channel_name": "Slow Joy",
-      "view_count": 480702,
-      "published": "2024-03-15T16:00:06Z",
-      "channel_subscribers": 16500,
-      "channel_videos": 73,
+      "video_title": "Slow Teeth- Moonsong (Twinkle Monster)",
+      "channel_name": "banjoe M",
+      "view_count": 1894,
+      "published": "2011-09-02T00:42:16Z",
+      "channel_subscribers": 373,
+      "channel_videos": 28,
       "is_topic": false,
       "channel_match": false,
-      "channel_warning": "channel 'Slow Joy' doesn't match artist",
-      "video_age_years": 1.9
+      "channel_warning": "channel 'banjoe M' doesn't match artist",
+      "video_age_years": 14.5
     }
   },
   "The Nine Lives Flea Market": {
@@ -978,19 +978,19 @@
   "An Evening With": {
     "status": "rejected",
     "video_id": "KMTo2LmixqQ",
-    "rejected_date": "2026-02-24T05:27:15.631193",
-    "reason": "view count 36,808,159 exceeds 5,000,000 cap",
+    "rejected_date": "2026-02-25T05:29:50.699530",
+    "reason": "view count 36,816,330 exceeds 5,000,000 cap",
     "metadata": {
       "video_title": "cinnamons \u00d7 evening cinema - summertime (Official Music Video)",
       "channel_name": "cinnamons",
-      "view_count": 36808159,
+      "view_count": 36816330,
       "published": "2017-08-07T08:57:32Z",
       "channel_subscribers": 104000,
       "channel_videos": 45,
       "is_topic": false,
       "channel_match": false,
       "channel_warning": "channel 'cinnamons' doesn't match artist",
-      "video_age_years": 8.5
+      "video_age_years": 8.6
     }
   },
   "Bedroom Division & William Hinson": {
@@ -1918,12 +1918,12 @@
   "Ezra": {
     "status": "rejected",
     "video_id": "aAiVsqfbn5g",
-    "rejected_date": "2026-02-24T05:27:17.657027",
-    "reason": "view count 82,630,694 exceeds 5,000,000 cap",
+    "rejected_date": "2026-02-25T05:29:51.144926",
+    "reason": "view count 82,634,838 exceeds 5,000,000 cap",
     "metadata": {
       "video_title": "George Ezra - Shotgun (Official Video)",
       "channel_name": "GeorgeEzraVEVO",
-      "view_count": 82630694,
+      "view_count": 82634838,
       "published": "2018-06-14T07:00:00Z",
       "channel_subscribers": 566000,
       "channel_videos": 120,
@@ -2057,20 +2057,20 @@
   },
   "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show": {
     "status": "verified",
-    "video_id": "nlbQJHI2ILs",
-    "verified_date": "2026-02-23T11:23:17.417730",
-    "confidence": "157 views",
+    "video_id": "VMePxmKXCH0",
+    "verified_date": "2026-02-25T05:29:51.306738",
+    "confidence": "679 views",
     "metadata": {
-      "video_title": "Fish in the perculator - Heart of Gold video.m4v",
-      "channel_name": "tyrrelj",
-      "view_count": 157,
-      "published": "2011-03-22T20:45:33Z",
-      "channel_subscribers": 1,
-      "channel_videos": 2,
+      "video_title": "Julie Likes Her Fish to Smell like Fish - JULIA. the Band",
+      "channel_name": "JULIA. The Band",
+      "view_count": 679,
+      "published": "2024-10-29T18:42:05Z",
+      "channel_subscribers": 78,
+      "channel_videos": 6,
       "is_topic": false,
       "channel_match": false,
-      "channel_warning": "channel 'tyrrelj' doesn't match artist",
-      "video_age_years": 14.9
+      "channel_warning": "channel 'JULIA. The Band' doesn't match artist",
+      "video_age_years": 1.3
     }
   },
   "Zack Mexico, Zones": {
@@ -3581,20 +3581,19 @@
   },
   "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show": {
     "status": "verified",
-    "video_id": "IwMZJs6FolQ",
-    "verified_date": "2026-02-23T11:23:57.553896",
-    "confidence": "1,425 views",
+    "video_id": "Az3RcZfWcvc",
+    "verified_date": "2026-02-25T05:29:51.975395",
+    "confidence": "channel match, 53 views",
     "metadata": {
-      "video_title": "Self Loathing By Unii [OFFICIAL MUSIC VIDEO]",
-      "channel_name": "Unii Ypc",
-      "view_count": 1425,
-      "published": "2016-04-30T13:37:06Z",
-      "channel_subscribers": 613,
-      "channel_videos": 55,
+      "video_title": "Robert Morton-\"Lies\"- NPR Tiny Desk Contest Submission 2021",
+      "channel_name": "Robert Morton",
+      "view_count": 53,
+      "published": "2021-06-07T18:56:12Z",
+      "channel_subscribers": 29,
+      "channel_videos": 59,
       "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'Unii Ypc' doesn't match artist",
-      "video_age_years": 9.8
+      "channel_match": true,
+      "video_age_years": 4.7
     }
   },
   "Jack the Songman and Chris Chism": {
@@ -3914,15 +3913,15 @@
   "Unplugged Sets, TRL photobooth, Throwback Videos": {
     "status": "rejected",
     "video_id": "pOTkCgkxqyg",
-    "rejected_date": "2026-02-24T05:27:18.436697",
-    "reason": "view count 5,007,166 exceeds 5,000,000 cap",
+    "rejected_date": "2026-02-25T05:29:52.140754",
+    "reason": "view count 5,013,216 exceeds 5,000,000 cap",
     "metadata": {
       "video_title": "Nirvana - MTV Unplugged in New York (4k Remastered)",
       "channel_name": "Stephen Tures",
-      "view_count": 5007166,
+      "view_count": 5013216,
       "published": "2025-05-04T18:03:44Z",
-      "channel_subscribers": 17000,
-      "channel_videos": 228,
+      "channel_subscribers": 17100,
+      "channel_videos": 227,
       "is_topic": false,
       "channel_match": false,
       "channel_warning": "channel 'Stephen Tures' doesn't match artist",
@@ -4141,12 +4140,12 @@
   "Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!": {
     "status": "rejected",
     "video_id": "CDl9ZMfj6aE",
-    "rejected_date": "2026-02-24T05:27:19.158270",
-    "reason": "view count 382,565,948 exceeds 5,000,000 cap; video is 16 years old with no channel match",
+    "rejected_date": "2026-02-25T05:29:52.951862",
+    "reason": "view count 382,666,420 exceeds 5,000,000 cap; video is 16 years old with no channel match",
     "metadata": {
       "video_title": "Alien Ant Farm - Smooth Criminal (Official Music Video)",
       "channel_name": "AlienAntFarmVEVO",
-      "view_count": 382565948,
+      "view_count": 382666420,
       "published": "2009-10-07T11:27:36Z",
       "channel_subscribers": 337000,
       "channel_videos": 16,
@@ -4245,12 +4244,12 @@
   "Oof Fighters": {
     "status": "rejected",
     "video_id": "1VQ_3sBZEm0",
-    "rejected_date": "2026-02-24T05:27:19.415197",
-    "reason": "view count 195,983,397 exceeds 5,000,000 cap; video is 16 years old with no channel match",
+    "rejected_date": "2026-02-25T05:29:53.151317",
+    "reason": "view count 196,009,499 exceeds 5,000,000 cap; video is 16 years old with no channel match",
     "metadata": {
       "video_title": "Foo Fighters - Learn To Fly (Official HD Video)",
       "channel_name": "foofightersVEVO",
-      "view_count": 195983397,
+      "view_count": 196009499,
       "published": "2009-10-03T04:46:13Z",
       "channel_subscribers": 1280000,
       "channel_videos": 172,
@@ -5373,21 +5372,20 @@
     }
   },
   "Invisible Cities / Ravine / Violent Institution": {
-    "status": "rejected",
-    "video_id": "g5sNeqVXGFI",
-    "rejected_date": "2026-02-24T05:27:20.428902",
-    "reason": "video is 16 years old with no channel match",
+    "status": "verified",
+    "video_id": "eIK1Qw9K9ZY",
+    "verified_date": "2026-02-25T05:29:53.458669",
+    "confidence": "channel match, 30 views",
     "metadata": {
-      "video_title": "Bulldozer - The Invisible Cities (Official Music Video)",
-      "channel_name": "the invisible cities",
-      "view_count": 19108,
-      "published": "2010-02-25T22:27:16Z",
-      "channel_subscribers": 121,
-      "channel_videos": 40,
+      "video_title": "Invisible Cities - Cathedral Of\u2026 (Full Album)",
+      "channel_name": "Invisible Cities",
+      "view_count": 30,
+      "published": "2026-02-23T03:59:39Z",
+      "channel_subscribers": 1,
+      "channel_videos": 0,
       "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'the invisible cities' doesn't match artist",
-      "video_age_years": 16.0
+      "channel_match": true,
+      "video_age_years": 0.0
     }
   },
   "Cornelia Murr": {
@@ -5461,21 +5459,20 @@
     }
   },
   "BIG POP SHOW: Lifeguard / Mail / Sects / Warm Frames": {
-    "status": "rejected",
-    "video_id": "eH8LcZvWNMc",
-    "rejected_date": "2026-02-24T05:27:20.919875",
-    "reason": "view count 77,407,461 exceeds 5,000,000 cap",
+    "status": "verified",
+    "video_id": "Bjn2LoYQ2KY",
+    "verified_date": "2026-02-25T05:29:53.950925",
+    "confidence": "channel match, 2,803 views",
     "metadata": {
-      "video_title": "Big Boogie | Pop Out | (Music Video) Shot by @CameraGawd Prod. Yung Dee",
-      "channel_name": "BIG BOOGIE MUSIC",
-      "view_count": 77407461,
-      "published": "2021-08-31T15:13:52Z",
-      "channel_subscribers": 1000000,
-      "channel_videos": 287,
+      "video_title": "Lifeguard- Ultra Violence (Official Video)",
+      "channel_name": "Lifeguard",
+      "view_count": 2803,
+      "published": "2025-11-19T14:59:12Z",
+      "channel_subscribers": 2330,
+      "channel_videos": 41,
       "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'BIG BOOGIE MUSIC' doesn't match artist",
-      "video_age_years": 4.5
+      "channel_match": true,
+      "video_age_years": 0.3
     }
   },
   "Nep - Florida Girl Goes To\u2026": {
@@ -5685,12 +5682,12 @@
   "Punchline": {
     "status": "rejected",
     "video_id": "PDu9BKwQ720",
-    "rejected_date": "2026-02-24T05:27:16.132083",
+    "rejected_date": "2026-02-25T05:29:50.912390",
     "reason": "non-matching channel 'Fueled By Ramen' with 15,400,000 subscribers; video is 20 years old with no channel match",
     "metadata": {
       "video_title": "Punchline: Getting There Is Getting By [OFFICIAL VIDEO]",
       "channel_name": "Fueled By Ramen",
-      "view_count": 100272,
+      "view_count": 100278,
       "published": "2006-07-18T16:51:08Z",
       "channel_subscribers": 15400000,
       "channel_videos": 1246,
@@ -5719,7 +5716,7 @@
   "SXSW: The Billboard Disruptor House": {
     "status": "verified",
     "video_id": "LxL_nqxzn_c",
-    "verified_date": "2026-02-24T05:27:18.673578",
+    "verified_date": "2026-02-25T05:29:52.501156",
     "confidence": "3,783 views",
     "metadata": {
       "video_title": "SXSW VIDEO",
@@ -5737,12 +5734,12 @@
   "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!": {
     "status": "rejected",
     "video_id": "RpL1GyLOblE",
-    "rejected_date": "2026-02-24T05:27:18.926500",
+    "rejected_date": "2026-02-25T05:29:52.723890",
     "reason": "non-matching channel 'ELEVATOR' with 2,040,000 subscribers",
     "metadata": {
       "video_title": "Valee' - \"I Got Whatever\" (Official Music Video)",
       "channel_name": "ELEVATOR",
-      "view_count": 4184896,
+      "view_count": 4185223,
       "published": "2016-10-19T16:31:02Z",
       "channel_subscribers": 2040000,
       "channel_videos": 2744,
@@ -5752,21 +5749,20 @@
     }
   },
   "Fish Hunt / People I Love / GLOWR": {
-    "status": "rejected",
-    "video_id": "-lH54eA4i8s",
-    "rejected_date": "2026-02-24T05:27:19.954993",
-    "reason": "view count 45,056,962 exceeds 5,000,000 cap",
+    "status": "verified",
+    "video_id": "rVieMw_GLSU",
+    "verified_date": "2026-02-25T05:29:53.292433",
+    "confidence": "channel match, 1,732 views",
     "metadata": {
-      "video_title": "Maddie & Tae - Shut Up And Fish (Official Music Video)",
-      "channel_name": "MaddieandTaeVEVO",
-      "view_count": 45056962,
-      "published": "2015-12-08T17:00:00Z",
-      "channel_subscribers": 245000,
-      "channel_videos": 139,
+      "video_title": "Fish Hunt- \"Go My Way\" (Official Music Video)",
+      "channel_name": "Fish Hunt",
+      "view_count": 1732,
+      "published": "2023-11-01T21:41:38Z",
+      "channel_subscribers": 613,
+      "channel_videos": 67,
       "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'MaddieandTaeVEVO' doesn't match artist",
-      "video_age_years": 10.2
+      "channel_match": true,
+      "video_age_years": 2.3
     }
   },
   "The All Black Affair": {
@@ -5785,6 +5781,92 @@
       "channel_match": false,
       "channel_warning": "channel 'CRoyRapLens' doesn't match artist",
       "video_age_years": 7.0
+    }
+  },
+  "All Your Friends: The Indie Party": {
+    "status": "rejected",
+    "video_id": "E5a51OonZDE",
+    "rejected_date": "2026-02-25T05:29:49.966395",
+    "reason": "non-matching channel 'Coldplay' with 28,400,000 subscribers",
+    "metadata": {
+      "video_title": "Coldplay - All Your Friends (Official Video)",
+      "channel_name": "Coldplay",
+      "view_count": 4926452,
+      "published": "2014-11-07T19:54:24Z",
+      "channel_subscribers": 28400000,
+      "channel_videos": 550,
+      "is_topic": false,
+      "channel_match": false,
+      "video_age_years": 11.3
+    }
+  },
+  "Jourdain Fisher": {
+    "status": "verified",
+    "video_id": "X6tolwbHyVM",
+    "verified_date": "2026-02-25T05:29:51.499822",
+    "confidence": "385 views",
+    "metadata": {
+      "video_title": "Inna Nuttshell Apparel, owned, operated and all orders fulfilled by Norwood Fisher!!!",
+      "channel_name": "Norwood Fisher",
+      "view_count": 385,
+      "published": "2023-05-06T21:49:51Z",
+      "channel_subscribers": 1620,
+      "channel_videos": 111,
+      "is_topic": false,
+      "channel_match": false,
+      "channel_warning": "channel 'Norwood Fisher' doesn't match artist",
+      "video_age_years": 2.8
+    }
+  },
+  "Sub Rosa": {
+    "status": "verified",
+    "video_id": "lRwmqocOw7U",
+    "verified_date": "2026-02-25T05:29:51.728915",
+    "confidence": "channel match, 1,903 views",
+    "metadata": {
+      "video_title": "Satellite - Sub Rosa ( OFFICIAL - VIDEO )",
+      "channel_name": "Sub Rosa",
+      "view_count": 1903,
+      "published": "2016-10-08T00:25:28Z",
+      "channel_subscribers": 38,
+      "channel_videos": 17,
+      "is_topic": false,
+      "channel_match": true,
+      "video_age_years": 9.4
+    }
+  },
+  "Cornelia Murr / Reverend Baron / Storey Littleton": {
+    "status": "verified",
+    "video_id": "V0XiLfNgGEc",
+    "verified_date": "2026-02-25T05:29:53.608719",
+    "confidence": "channel match, 9,026 views",
+    "metadata": {
+      "video_title": "Cornelia Murr - Meantime (Official Video)",
+      "channel_name": "Cornelia Murr",
+      "view_count": 9026,
+      "published": "2024-10-16T13:00:39Z",
+      "channel_subscribers": 2790,
+      "channel_videos": 24,
+      "is_topic": false,
+      "channel_match": true,
+      "video_age_years": 1.4
+    }
+  },
+  "Who Run It?? PARTY!!": {
+    "status": "rejected",
+    "video_id": "gU7003Juh7c",
+    "rejected_date": "2026-02-25T05:29:53.800827",
+    "reason": "view count 12,379,143 exceeds 5,000,000 cap",
+    "metadata": {
+      "video_title": "Who Run It",
+      "channel_name": "Three 6 Mafia - Topic",
+      "view_count": 12379143,
+      "published": "2014-11-08T02:11:08Z",
+      "channel_subscribers": 30400,
+      "channel_videos": 654,
+      "is_topic": true,
+      "channel_match": false,
+      "video_age_years": 11.3
     }
   }
 }

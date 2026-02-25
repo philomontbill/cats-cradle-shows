@@ -5882,5 +5882,192 @@
     "enriched_date": "2026-02-24T10:14:51.342983-05:00",
     "match_confidence": "exact",
     "match_score": 1.067
+  },
+  "Al Flynn": {
+    "spotify_id": "64CqRzs6YJbEYzCHJWHXdF",
+    "spotify_name": "Alex Flynn",
+    "popularity": 46,
+    "followers": 156,
+    "genres": [],
+    "enriched_date": "2026-02-25T05:29:40.362328+00:00",
+    "match_confidence": "partial",
+    "match_score": 0.5
+  },
+  "All Your Friends: The Indie Party": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:40.928972+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Cornelia Murr / Reverend Baron / Storey Littleton": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:41.276262+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Fish Hunt / People I Love / GLOWR": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:41.800960+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Jourdain Fisher": {
+    "spotify_id": "6YjEfAXX2eUrwF3TGrsHiX",
+    "spotify_name": "Jourdain Fisher",
+    "popularity": 1,
+    "followers": 408,
+    "genres": [
+      "comedy"
+    ],
+    "enriched_date": "2026-02-25T05:29:42.240913+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.001
+  },
+  "Punchline": {
+    "spotify_id": "1CK7niAEBeKXci8KtBvxbG",
+    "spotify_name": "Punchline",
+    "popularity": 21,
+    "followers": 17652,
+    "genres": [
+      "pop punk"
+    ],
+    "enriched_date": "2026-02-25T05:29:42.712948+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.021
+  },
+  "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:43.191996+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Raleigh Comedy Festival 2026 \u2013 Friday Night": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:43.673310+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Raleigh Comedy Festival 2026 \u2013 Saturday Night": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:44.120156+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "SXSW: The Billboard Disruptor House": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:44.565977+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "SXSW: Very Necessary Showcase": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:45.036933+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Spafford": {
+    "spotify_id": "7fA0IDinGo27lmOeGy6oGV",
+    "spotify_name": "Spafford",
+    "popularity": 34,
+    "followers": 49934,
+    "genres": [
+      "jam band"
+    ],
+    "enriched_date": "2026-02-25T05:29:45.492763+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.034
+  },
+  "Sub Rosa": {
+    "spotify_id": "4hAqIOkN2Q4apnbcOUUb7h",
+    "spotify_name": "SubRosa",
+    "popularity": 20,
+    "followers": 39890,
+    "genres": [
+      "doom metal",
+      "sludge metal",
+      "stoner metal",
+      "drone metal",
+      "stoner rock"
+    ],
+    "enriched_date": "2026-02-25T05:29:45.914255+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.02
+  },
+  "The All Black Affair": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:46.325382+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "The Early November & Hellogoodbye: 20 Years Young": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:46.895852+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "The Ramona Flowers": {
+    "spotify_id": "2wPSVzL9RmbR3g1MjWRjMe",
+    "spotify_name": "The Ramona Flowers",
+    "popularity": 24,
+    "followers": 9873,
+    "genres": [],
+    "enriched_date": "2026-02-25T05:29:47.311803+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.024
+  },
+  "To Be Announced": {
+    "spotify_id": "1BslL28m7Z4K4m9oJCNFej",
+    "spotify_name": "To Be Announced",
+    "popularity": 0,
+    "followers": 57,
+    "genres": [],
+    "enriched_date": "2026-02-25T05:29:47.841757+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.0
+  },
+  "United We Dance: The Ultimate Rave Experience (Ages 18 & Up)": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:48.298011+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:48.732111+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Who Run It?? PARTY!!": {
+    "spotify_id": "4lmClahJpue3rLhQO3qopy",
+    "spotify_name": "WhoRunIt",
+    "popularity": 25,
+    "followers": 1190,
+    "genres": [
+      "new york drill",
+      "drill",
+      "brooklyn drill"
+    ],
+    "enriched_date": "2026-02-25T05:29:49.146964+00:00",
+    "match_confidence": "close",
+    "match_score": 0.925
+  },
+  "andmoreagain presentsThe Psycodelics": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-25T05:29:49.602302+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

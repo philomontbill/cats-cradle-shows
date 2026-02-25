@@ -7,7 +7,7 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Siamese – US Headline Tour 2026",
+      "artist": "Siamese \u2013 US Headline Tour 2026",
       "date": "Tue, Feb 24",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -16,7 +16,8 @@
       "ticket_url": "https://local506.com/event/siamese-us-headline-tour-2026/local-506/",
       "notice": null,
       "youtube_id": "ZEi2Djgf_0k",
-      "opener_youtube_id": "6p03KD5IBrI"
+      "opener_youtube_id": "6p03KD5IBrI",
+      "expired": true
     },
     {
       "venue": "Local 506",
@@ -170,7 +171,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
+      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -209,7 +210,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
+      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -261,7 +262,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
+      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -325,8 +326,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 25,
+  "total_shows": 24,
   "shows_with_video": 24,
-  "shows_with_image": 25,
+  "shows_with_image": 24,
   "last_updated": "2026-02-24T05:24:04.233483"
 }

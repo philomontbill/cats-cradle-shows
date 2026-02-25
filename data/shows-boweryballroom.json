@@ -6,21 +6,8 @@
   },
   "shows": [
     {
-      "artist": "Punkrock Johnson, Sandy & the Skyway, worm catcher",
-      "date": "Tue, Feb 23",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/076/1bf2f15c-c2ca-4162-9078-cc7a2ba4f076_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/punk-rock-johnson-sandy-the-skyway-worm-catcher/",
-      "youtube_id": "WXu3x-nTs5M",
-      "expired": true
-    },
-    {
       "artist": "Honest Mistakes",
-      "date": "Tue, Feb 24",
+      "date": "Wed, Feb 24",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -28,7 +15,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/e67/c9ae3ef4-92b3-4644-9a82-9eb575823e67_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/honest-mistakes/",
-      "youtube_id": "EVm1heyzwU0"
+      "youtube_id": "EVm1heyzwU0",
+      "expired": true
     },
     {
       "artist": "Ella Red",
@@ -137,7 +125,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
-      "youtube_id": "CR0nXySqqPo"
+      "youtube_id": null
     },
     {
       "artist": "The Ruckus",
@@ -306,10 +294,22 @@
       "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
       "youtube_id": "5eZoJBcf6BE"
+    },
+    {
+      "artist": "All Your Friends: The Indie Party",
+      "date": "Fri, Mar 06",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "11pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/02c/39d220ac-566c-420b-888a-102fc07bf02c_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/all-your-friends-the-indie-party/",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
   "shows_with_video": 22,
   "shows_with_image": 24,
-  "last_updated": "2026-02-24T05:26:43.033323"
+  "last_updated": "2026-02-25T05:29:12.242256"
 }

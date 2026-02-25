@@ -178,7 +178,7 @@
       "youtube_id": "yi0ho-hTG-U"
     },
     {
-      "artist": "It\u2019s A 2000\u2019s Party by Slacker University (Ages 18 & Up)",
+      "artist": "It’s A 2000’s Party by Slacker University (Ages 18 & Up)",
       "date": "Fri, Mar 27",
       "venue": "Elevation 27",
       "opener": null,
@@ -209,7 +209,7 @@
       "notice": null,
       "doors": "2:30 pm",
       "showtime": "3 pm",
-      "image": "https://i.ticketweb.com/i/00/12/87/63/24_Original.jpg?v=5",
+      "image": "https://i.ticketweb.com/i/00/12/87/63/24_Original.jpg?v=6",
       "ticket_url": "https://www.ticketweb.com/event/honoring-jr-feat-audiohum-riverboys-elevation-27-tickets/14156734?REFID=clientsitewp",
       "youtube_id": null
     },
@@ -264,7 +264,7 @@
       "youtube_id": "BEIm0KQuVMk"
     },
     {
-      "artist": "Old 97\u2019s",
+      "artist": "Old 97’s",
       "date": "Thu, Apr 09",
       "venue": "Elevation 27",
       "opener": null,
@@ -315,5 +315,5 @@
   "total_shows": 25,
   "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-02-24T05:24:37.819512"
+  "last_updated": "2026-02-25T05:26:57.590784"
 }

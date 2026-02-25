@@ -7,16 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Tax Party",
-      "date": "Tue, Feb 24",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/tax-party.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/91930284/tax-party-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "DvOCiEcAz8o"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Hex Files / Little Chair / Future Fix / Woke County Speedway",
       "date": "Wed, Feb 25",
       "doors": "7 pm",
@@ -74,8 +64,8 @@
       "venue": "The Pinhook",
       "artist": "Queer Country Night",
       "date": "Tue, Mar 03",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
@@ -204,14 +194,14 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Cornelia Murr",
+      "artist": "Cornelia Murr / Reverend Baron / Storey Littleton",
       "date": "Tue, Mar 17",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Cornelia_1297651765713963.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/31808318/cornelia-murr-durham-the-pinhook?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/31808318/cornelia-murr-reverend-baron-storey-littleton-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "HjroFNUPJvg"
+      "youtube_id": "V0XiLfNgGEc"
     },
     {
       "venue": "The Pinhook",
@@ -230,7 +220,7 @@
       "date": "Fri, Mar 20",
       "doors": "6:30 pm",
       "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Allison_1295161762607756.jfif",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/allison-de-groot-tatiana-hargreaves-live-recording.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/97620177/allison-de-groot-tatiana-hargreaves-live-recording-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "XvumeGWnc64"
@@ -245,6 +235,17 @@
       "ticket_url": "https://www.etix.com/ticket/p/77550020/carly-cosgrove-leisure-hour-summerbruise-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "jsNBLMpGS40"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Who Run It?? PARTY!!",
+      "date": "Sat, Mar 21",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/who-run-it-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/93339755/who-run-itparty-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     },
     {
       "venue": "The Pinhook",
@@ -283,5 +284,5 @@
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-24T05:24:15.168162"
+  "last_updated": "2026-02-25T05:26:24.713444"
 }

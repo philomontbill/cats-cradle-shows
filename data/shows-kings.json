@@ -7,29 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Feb 24",
-      "artist": "[Late] Sub Rosa",
-      "opener": "applefield, Bluegill",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-4",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "date": "Thu, Feb 26",
+      "artist": "andmoreagain presentsThe Psycodelics",
+      "opener": "Tre. Charles",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-psycodelics",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/psycodelics-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "FdoBIPwu5HA",
-      "opener_youtube_id": "Y5gCEtOYbzE"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Feb 24",
-      "artist": "[Early!] smush / Daundry",
-      "opener": "applefield, Bluegill",
-      "showtime": "7:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/smush-daundry",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/IMG_1660-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "RDDSfYpFFfI",
-      "opener_youtube_id": "Y5gCEtOYbzE"
+      "youtube_id": null,
+      "opener_youtube_id": "FnhjIE3HQMc"
     },
     {
       "venue": "Kings",
@@ -80,6 +67,17 @@
       "notice": null,
       "doors": null,
       "youtube_id": "F997LELyP7o"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 3",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -195,6 +193,17 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 17",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 17",
       "artist": "[Early show] Westerman",
       "opener": "Otto Benson",
       "showtime": "7:30pm",
@@ -259,6 +268,43 @@
     },
     {
       "venue": "Kings",
+      "date": "Fri, Mar 27",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
+      "opener": "Jourdain Fisher",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/rcf-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": "X6tolwbHyVM"
+    },
+    {
+      "venue": "Kings",
+      "date": "Sat, Mar 28",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
+      "opener": "Al Flynn",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/rcf-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 31",
+      "artist": "Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-5",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "lRwmqocOw7U"
+    },
+    {
+      "venue": "Kings",
       "date": "Wed, Apr 1",
       "artist": "Lala Lala",
       "opener": "Mother Soki",
@@ -269,62 +315,10 @@
       "doors": null,
       "youtube_id": "EkXvx-yAapI",
       "opener_youtube_id": "JgHMGvq14eA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Apr 2",
-      "artist": "Scarhaven",
-      "opener": "Honeyknife",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/scarhaven",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/scarhaven-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "n2S-3h_Pocw",
-      "opener_youtube_id": "Anx2xrhcEKg"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
-      "opener": "Paul Siler",
-      "showtime": "7:15pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "_JkUpouxAzk"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Apr 9",
-      "artist": "Boys Go To Jupiter \u2013 \u2018Now You\u2019re A Circle\u2019 Tour",
-      "opener": "Miki Fiki",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "KFtQ2S00_JU",
-      "opener_youtube_id": "5HCZsXqiCBc"
-    },
-    {
-      "venue": "Kings",
-      "date": "Fri, Apr 10",
-      "artist": "rum.gold",
-      "opener": "Nathan Bajar",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/rum-gold",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/bf8a165e10057ab9a97d53c1f84b4fc9e22879e76f74fb476abfa9879c49d4e5_a31efe33798b5305c69fbe91f8d508dd6724e667090cf834c765657671571201-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "M1WYX7hUY7A",
-      "opener_youtube_id": "YrPEKWJI_mM"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 20,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-02-24T05:24:21.579000"
+  "last_updated": "2026-02-25T05:26:45.240956"
 }
