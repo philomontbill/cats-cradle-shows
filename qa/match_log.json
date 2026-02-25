@@ -23168,5 +23168,765 @@
     "explanation": "existing match (no audit score, keeping)",
     "timestamp": "2026-02-25T14:19:45.729683",
     "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Wax Tailor",
+    "role": "headliner",
+    "youtube_id": "wsUKP8d_8q4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Wax Tailor Ft. Charlotte Savary - Seize The Day (Official video) | channel: WAX TAILOR",
+    "timestamp": "2026-02-25T15:22:40.830003",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Napoleon da Legend",
+    "role": "opener",
+    "youtube_id": "AoaBxhXmpUg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Napoleon Da Legend &amp; Dub Sonata - Forever ft. Maitre D | channel: Napoleon Da Legend",
+    "timestamp": "2026-02-25T15:22:42.056193",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Lotus",
+    "role": "headliner",
+    "youtube_id": "Ak4vLEBxIo4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Flying Lotus - Coronus, The Terminator | channel: FlyingLotusVEVO",
+    "timestamp": "2026-02-25T15:22:42.998695",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Healyside Trio",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Travis + Sebasti\u00e1n Irarr\u00e1zabal | &quot;Sing&quot; + &quot;Side&quot; | Insigne Sesiones | channel: INSIGNE SESIONES",
+    "timestamp": "2026-02-25T15:22:43.439246",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Jesse Welles",
+    "role": "headliner",
+    "youtube_id": "El0CLduLgew",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Good vs. Ice | channel: Jesse Welles",
+    "timestamp": "2026-02-25T15:22:44.479101",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "S.G. Goodman",
+    "role": "opener",
+    "youtube_id": "oi5t3i2sbsk",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: S.G. Goodman - Satellite (Official Music Video) | channel: S.G. Goodman",
+    "timestamp": "2026-02-25T15:22:45.127636",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Dexter and the Moonrocks",
+    "role": "headliner",
+    "youtube_id": "t3yQfuZaQJg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Dexter and The Moonrocks \u2013 Ritalin (Official Lyric Video) | channel: Dexter and The Moonrocks",
+    "timestamp": "2026-02-25T15:22:46.204235",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fox N' Vead",
+    "role": "opener",
+    "youtube_id": "-KL3ffgEeCM",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Fox N&#39; Vead - Waste Away | channel: Fox N' Vead",
+    "timestamp": "2026-02-25T15:22:46.836436",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Aly & AJ",
+    "role": "headliner",
+    "youtube_id": "l3cQUeGWcf0",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Aly &amp; AJ - Chemicals React - Official Video | channel: Aly & AJ",
+    "timestamp": "2026-02-25T15:22:47.791197",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Hayden Blount",
+    "role": "opener",
+    "youtube_id": "nsAdwFPOTsw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Heaven On Earth | channel: Hayden Blount - Topic",
+    "timestamp": "2026-02-25T15:22:48.343264",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tab Benoit",
+    "role": "headliner",
+    "youtube_id": "38DiyACiHc4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Tab Benoit - Nothing Takes The Place Of You (Official Audio) | channel: Tab Benoit",
+    "timestamp": "2026-02-25T15:22:49.326786",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "SunSquabi",
+    "role": "headliner",
+    "youtube_id": "8kqZHyZ_f-M",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: SunSquabi - Cycle (Official Animated Music Video) | channel: SunSquabi",
+    "timestamp": "2026-02-25T15:22:50.299956",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Phyphr",
+    "role": "opener",
+    "youtube_id": "c5xEdWTfL0k",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: From All Evil | channel: Phyphr",
+    "timestamp": "2026-02-25T15:22:51.042412",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Donna The Buffalo",
+    "role": "headliner",
+    "youtube_id": "XpwoIYnWbuU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: &quot;Dance In The Street&quot;  - Donna The Buffalo (official video) | channel: Donna The Buffalo",
+    "timestamp": "2026-02-25T15:22:51.887230",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Evan Honer",
+    "role": "headliner",
+    "youtube_id": "rO5BMB8n_j4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Take Me As I Come | channel: Evan Honer - Topic",
+    "timestamp": "2026-02-25T15:22:52.878193",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nicholas Jamerson",
+    "role": "opener",
+    "youtube_id": "oKp4ANukavs",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: \u2060Nicholas Jamerson Days Like These | channel: Nicholas Jamerson",
+    "timestamp": "2026-02-25T15:22:53.525397",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fringe Revival",
+    "role": "headliner",
+    "youtube_id": "F1AATRo-EwQ",
+    "confidence": 95,
+    "tier": "accept",
+    "explanation": "channel match: fringe, revival | video: &quot;Can&#39;t find my way home&quot; {The Acoustic Fringe II} rolling out, another cool classic cover! | channel: The Acoustic Fringe II   { Vintage revival rock }",
+    "timestamp": "2026-02-25T15:22:54.538922",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Jordan Jensen",
+    "role": "headliner",
+    "youtube_id": "wxduIABdfDQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Jordan Jensen - Dark Sermon - Testament | channel: Jordan Jensen",
+    "timestamp": "2026-02-25T15:22:55.572285",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Gary Numan",
+    "role": "headliner",
+    "youtube_id": "PGiuajhBv7s",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Gary Numan - &#39;The Fall&#39; Official Promo Video | channel: Official Gary Numan",
+    "timestamp": "2026-02-25T15:22:56.572478",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tremours",
+    "role": "opener",
+    "youtube_id": "WMgya2uKoYw",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: TREMOURS - Affectations (OFFICIAL VIDEO) | channel: T R E M O U R S",
+    "timestamp": "2026-02-25T15:22:57.212086",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Cat Power",
+    "role": "headliner",
+    "youtube_id": "aW2PcOyAWwM",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Cat Power - &quot;Cross Bones Style&quot; | channel: Matador Records",
+    "timestamp": "2026-02-25T15:22:58.236042",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "20th anniversary of the album in its entirety",
+    "role": "opener",
+    "youtube_id": "3_xUoubYV9M",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: 20th, album, anniversary, the | video: Metallica - 20th anniversary of Black Album - The entire album in 11 minutes (Crazy Editing) | channel: Milanicachannel",
+    "timestamp": "2026-02-25T15:22:58.852300",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Hives",
+    "role": "headliner",
+    "youtube_id": "RQIBjIOMNYw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Hives - Roll Out The Red Carpet (Official Video) | channel: TheHivesVEVO",
+    "timestamp": "2026-02-25T15:22:59.873231",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Chats",
+    "role": "opener",
+    "youtube_id": "1LGM82uPuvA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Chats - Pub Feed (official video) | channel: The Chats",
+    "timestamp": "2026-02-25T15:23:00.536961",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nolen Durham",
+    "role": "headliner",
+    "youtube_id": "L2q8DVsBdFY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: American Material | channel: Nolen Durham - Topic",
+    "timestamp": "2026-02-25T15:23:01.519829",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Prince of Eden and Fifth Floor",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 35,
+    "tier": "skip",
+    "explanation": "partial: eden, prince | video: Eden Prince ft Non\u00f4 - Memories | channel: The Drunken Coconut",
+    "timestamp": "2026-02-25T15:23:02.330986",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Mike Gordon - Yarmouth Road | channel: MikeGordonVEVO",
+    "timestamp": "2026-02-25T15:23:03.426290",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Alla Prima / Proxima System / The Roosevelt Room / Lily of the Valley",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-25T15:23:04.890384",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Robert Earl Keen",
+    "role": "headliner",
+    "youtube_id": "iJRWtKePKuY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Road Goes On Forever | channel: Robert Earl Keen - Topic",
+    "timestamp": "2026-02-25T15:23:05.914367",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Olivia Wolf",
+    "role": "opener",
+    "youtube_id": "4dpLiTYmpGs",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Olivia Wolf \u2014 High Life (WRLT Live at 3rd and Lindsley) | channel: Olivia Wolf",
+    "timestamp": "2026-02-25T15:23:06.630873",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "xjhNW-6NyjI",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: FBP Moe - No Pressure  (OFFICIAL MUSIC VIDEO) FBP(FewButPlenty) | channel: FBP MOE",
+    "timestamp": "2026-02-25T15:23:07.720337",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "xjhNW-6NyjI",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: FBP Moe - No Pressure  (OFFICIAL MUSIC VIDEO) FBP(FewButPlenty) | channel: FBP MOE",
+    "timestamp": "2026-02-25T15:23:08.918829",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Old Crow Medicine Show",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Old Crow Medicine Show - &quot;Sweet Amarillo&quot; - (Official Video) | channel: Old Crow Medicine Show",
+    "timestamp": "2026-02-25T15:23:09.931160",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Drain",
+    "role": "headliner",
+    "youtube_id": "m4R1X3Yytc0",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: Drain - California Cursed [OFFICIAL VIDEO] | channel: Revelation Records",
+    "timestamp": "2026-02-25T15:23:10.932753",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "No PressureHaywireSecret World",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-25T15:23:12.097641",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mammoth",
+    "role": "headliner",
+    "youtube_id": "7w7rAEnMXDI",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Mammoth: The End (Official Video) | channel: Mammoth",
+    "timestamp": "2026-02-25T15:23:13.185895",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "10 YearsJames and the Cold Gun",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 30,
+    "tier": "skip",
+    "explanation": "partial: the | video: James Brown Still Got The Moves \ud83d\ude33\ud83d\udc4f\ud83c\udffe #shorts #jamesbrown #rnb | channel: Amanuel Piano",
+    "timestamp": "2026-02-25T15:23:14.309557",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Slice of Life Comedy Asheville Spring Standup Contest",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Great white shark washed up North Carolina | channel: KingNicoplayz",
+    "timestamp": "2026-02-25T15:23:15.751963",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Hosted by Alex Parsons",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-25T15:23:15.753476",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Roast Of Asheville",
+    "role": "headliner",
+    "youtube_id": "qxyQll_nhcY",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: asheville | video: MUTEMATH - Spotlight - Live -  Asheville, NC | channel: MadelynLarouche",
+    "timestamp": "2026-02-25T15:23:16.769469",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Wax Tailor",
+    "role": "headliner",
+    "youtube_id": "wsUKP8d_8q4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:51.453963",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Napoleon da Legend",
+    "role": "opener",
+    "youtube_id": "AoaBxhXmpUg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:51.453973",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Lotus",
+    "role": "headliner",
+    "youtube_id": "Ak4vLEBxIo4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:51.453977",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Healyside Trio",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Travis + Sebasti\u00e1n Irarr\u00e1zabal | &quot;Sing&quot; + &quot;Side&quot; | Insigne Sesiones | channel: INSIGNE SESIONES",
+    "timestamp": "2026-02-25T15:25:52.010128",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Jesse Welles",
+    "role": "headliner",
+    "youtube_id": "El0CLduLgew",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011248",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "S.G. Goodman",
+    "role": "opener",
+    "youtube_id": "oi5t3i2sbsk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011259",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Dexter and the Moonrocks",
+    "role": "headliner",
+    "youtube_id": "t3yQfuZaQJg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011266",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fox N' Vead",
+    "role": "opener",
+    "youtube_id": "-KL3ffgEeCM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011269",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Aly & AJ",
+    "role": "headliner",
+    "youtube_id": "l3cQUeGWcf0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011275",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Hayden Blount",
+    "role": "opener",
+    "youtube_id": "nsAdwFPOTsw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011278",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tab Benoit",
+    "role": "headliner",
+    "youtube_id": "38DiyACiHc4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011283",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "SunSquabi",
+    "role": "headliner",
+    "youtube_id": "8kqZHyZ_f-M",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011287",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Phyphr",
+    "role": "opener",
+    "youtube_id": "c5xEdWTfL0k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011290",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Donna The Buffalo",
+    "role": "headliner",
+    "youtube_id": "XpwoIYnWbuU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011295",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Evan Honer",
+    "role": "headliner",
+    "youtube_id": "rO5BMB8n_j4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011299",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nicholas Jamerson",
+    "role": "opener",
+    "youtube_id": "oKp4ANukavs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011301",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fringe Revival",
+    "role": "headliner",
+    "youtube_id": "F1AATRo-EwQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011306",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Jordan Jensen",
+    "role": "headliner",
+    "youtube_id": "wxduIABdfDQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011311",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Gary Numan",
+    "role": "headliner",
+    "youtube_id": "PGiuajhBv7s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011316",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tremours",
+    "role": "opener",
+    "youtube_id": "WMgya2uKoYw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011319",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Cat Power",
+    "role": "headliner",
+    "youtube_id": "aW2PcOyAWwM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011325",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Hives",
+    "role": "headliner",
+    "youtube_id": "RQIBjIOMNYw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011330",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Chats",
+    "role": "opener",
+    "youtube_id": "1LGM82uPuvA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011332",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nolen Durham",
+    "role": "headliner",
+    "youtube_id": "L2q8DVsBdFY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.011337",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Prince of Eden and Fifth Floor",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 30,
+    "tier": "skip",
+    "explanation": "partial: eden | video: Peter Gabriel - Blood Of Eden | channel: Peter Gabriel",
+    "timestamp": "2026-02-25T15:25:52.725292",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:52.726724",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Alla Prima",
+    "role": "headliner",
+    "youtube_id": "DJqPTGPGFNY",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: SD Kong - ALLA PRIMA / DOPPELG\u00c4NGER (Official Video) | channel: Where Lords Chill",
+    "timestamp": "2026-02-25T15:25:53.345475",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Robert Earl Keen",
+    "role": "headliner",
+    "youtube_id": "iJRWtKePKuY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650912",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Olivia Wolf",
+    "role": "opener",
+    "youtube_id": "4dpLiTYmpGs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650936",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "xjhNW-6NyjI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650959",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "xjhNW-6NyjI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650970",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Old Crow Medicine Show",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650977",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Drain",
+    "role": "headliner",
+    "youtube_id": "m4R1X3Yytc0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:53.650984",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "No Pressure",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): pressure | video: FBP Moe - No Pressure  (OFFICIAL MUSIC VIDEO) FBP(FewButPlenty) | channel: FBP MOE",
+    "timestamp": "2026-02-25T15:25:54.364427",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mammoth",
+    "role": "headliner",
+    "youtube_id": "7w7rAEnMXDI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing match (no audit score, keeping)",
+    "timestamp": "2026-02-25T15:25:54.366287",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "10 Years",
+    "role": "opener",
+    "youtube_id": "59amjf3qCCQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: 10 Years (feat. Conquer Divide) - &quot;The Optimist&quot; (Official Music Video) | channel: 10 Years",
+    "timestamp": "2026-02-25T15:25:55.182658",
+    "venue": "The Orange Peel"
   }
 ]

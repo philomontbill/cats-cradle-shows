@@ -83,6 +83,11 @@ jobs:
         continue-on-error: true
         run: python scrapers/scraper_neighborhood.py
 
+      - name: Run The Orange Peel scraper
+        id: scrape_orangepeel
+        continue-on-error: true
+        run: python scrapers/scraper_orangepeel.py
+
       - name: Expire past shows
         run: python scripts/expire_shows.py
 
@@ -138,6 +143,7 @@ jobs:
           steps.scrape_thesocial.outcome == 'failure' ||
           steps.scrape_bowery.outcome == 'failure' ||
           steps.scrape_neighborhood.outcome == 'failure' ||
+          steps.scrape_orangepeel.outcome == 'failure' ||
           steps.monitor.outcome == 'failure' ||
           steps.validate.outcome == 'failure' ||
           steps.verify.outcome == 'failure'
@@ -157,6 +163,7 @@ jobs:
               ['The Social', '${{ steps.scrape_thesocial.outcome }}'],
               ['Bowery Ballroom', '${{ steps.scrape_bowery.outcome }}'],
               ['Neighborhood Theatre', '${{ steps.scrape_neighborhood.outcome }}'],
+              ['The Orange Peel', '${{ steps.scrape_orangepeel.outcome }}'],
               ['Scrape Monitor', '${{ steps.monitor.outcome }}'],
               ['Data Validation', '${{ steps.validate.outcome }}'],
               ['Video Verification', '${{ steps.verify.outcome }}'],

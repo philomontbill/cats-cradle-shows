@@ -25,6 +25,14 @@
           "venues": [
             { "slug": "neighborhood", "name": "Neighborhood Theatre", "city": "Charlotte", "website": "https://neighborhoodtheatre.com" }
           ]
+        },
+        {
+          "slug": "asheville",
+          "name": "Asheville",
+          "tagline": "What's playing in Asheville tonight?",
+          "venues": [
+            { "slug": "orangepeel", "name": "The Orange Peel", "city": "Asheville", "website": "https://theorangepeel.net" }
+          ]
         }
       ]
     },
