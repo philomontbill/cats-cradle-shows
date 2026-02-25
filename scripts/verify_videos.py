@@ -7,6 +7,7 @@ Checks unverified YouTube video assignments against multiple signals:
 - Channel analysis (name match, type, subscriber count as modifier)
 - Upload date (flag old videos with weak signals)
 - Venue placeholder image (flag events masquerading as bands)
+- Spotify identity (reject if not found on Spotify AND channel doesn't match)
 
 Runs after scrapers in the nightly GitHub Actions workflow.
 Reads all data/shows-*.json files and qa/video_states.json.
@@ -175,7 +176,8 @@ def channel_matches_artist(channel_name, artist_name):
     return ar in ch or ch in ar
 
 
-def verify_video(artist_name, video_id, venue_name, image_url, api_key):
+def verify_video(artist_name, video_id, venue_name, image_url, api_key,
+                  spotify_entry=None):
     """
     Run all verification checks on a single video.
     Returns (passed: bool, reasons: list[str], metadata: dict).
@@ -253,6 +255,25 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
                 )
         except (ValueError, TypeError):
             pass
+
+    # --- Evaluate: Spotify identity check ---
+    # If Spotify can't confirm this is a real artist AND the channel doesn't
+    # match, that's a strong signal the video is wrong
+    if spotify_entry:
+        sp_conf = spotify_entry.get("match_confidence", "")
+        sp_pop = spotify_entry.get("popularity")
+        metadata["spotify_match"] = sp_conf
+        metadata["spotify_popularity"] = sp_pop
+
+        if sp_conf == "no_match" and not artist_channel_match and not topic:
+            reasons.append("not found on Spotify + channel mismatch")
+        elif (sp_conf in ("close", "partial")
+              and not artist_channel_match and not topic):
+            sp_name = spotify_entry.get("spotify_name", "?")
+            metadata["spotify_warning"] = (
+                f"Spotify matched '{sp_name}' (not exact)"
+                f" and channel doesn't match"
+            )
 
     passed = len(reasons) == 0
     return passed, reasons, metadata
@@ -556,6 +577,7 @@ def main():
     artist_overrides = overrides.get("artist_youtube", {})
     opener_overrides = overrides.get("opener_youtube", {})
     states = load_video_states()
+    spotify_cache = load_spotify_cache()
     all_shows_data = load_all_shows()
 
     tonight = {
@@ -603,8 +625,10 @@ def main():
 
                 # --- Verify this video ---
                 print(f"\n  Verifying: {artist} — {video_id}")
+                sp_entry = spotify_cache.get(artist)
                 passed, reasons, metadata = verify_video(
-                    artist, video_id, venue, image, api_key
+                    artist, video_id, venue, image, api_key,
+                    spotify_entry=sp_entry
                 )
                 api_calls += 2  # video + channel metadata
 
@@ -676,10 +700,7 @@ def main():
         if vid is None and artist not in states:
             states[artist] = {"status": "override_null"}
 
-    # Load Spotify cache for report annotations
-    spotify_cache = load_spotify_cache()
-
-    # Build report and CSV
+    # Build report and CSV (spotify_cache already loaded above)
     report = build_report(tonight, states, all_shows_data, spotify_cache)
     csv_text = build_csv(tonight, states, all_shows_data, spotify_cache)
 
