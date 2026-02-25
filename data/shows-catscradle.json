@@ -31,7 +31,7 @@
       "youtube_id": "Pbmh8AyOgko"
     },
     {
-      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) \u2013 Celestun Tour",
+      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) – Celestun Tour",
       "date": "Thu, Feb 26",
       "venue": "Cat's Cradle Back Room",
       "opener": "Maggie Halfman",
@@ -57,7 +57,7 @@
       "opener_youtube_id": "9hIW-wLddIo"
     },
     {
-      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
+      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
       "date": "Sat, Feb 28",
       "venue": "Cat's Cradle",
       "opener": "special guest Bobcat Goldthwait",
@@ -131,8 +131,8 @@
       "showtime": "7:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
       "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "5tWbucaBa_M",
+      "opener_youtube_id": "Cki-mnHhNtY"
     },
     {
       "artist": "Nothing",
@@ -174,7 +174,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire \u2013 Universal Language Tour",
+      "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -233,7 +233,7 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
       "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "sUlsTs2ljaE",
-      "opener_youtube_id": null
+      "opener_youtube_id": "KMTo2LmixqQ"
     },
     {
       "artist": "Bedroom Division & William Hinson",
@@ -321,11 +321,11 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2044791763492810.jpg",
       "event_url": "https://catscradle.com/event/the-early-november-hellogoodbye-20-years-young/cats-cradle/carrboro-north-carolina/",
       "youtube_id": "xRcsezFP02Q",
-      "opener_youtube_id": null
+      "opener_youtube_id": "PDu9BKwQ720"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-25T05:26:18.572069"
+  "last_updated": "2026-02-25T10:31:26.953831"
 }

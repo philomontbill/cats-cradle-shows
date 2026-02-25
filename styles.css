@@ -168,11 +168,6 @@ body {
     border-radius: 12px;
 }
 
-.opener-name.has-video:focus-visible {
-    outline: 2px solid #5cacee;
-    outline-offset: 2px;
-    border-radius: 4px;
-}
 
 .venue-btn.active {
     background: var(--accent);
@@ -386,6 +381,20 @@ body {
 
 .opener-name.has-video:hover .play-icon {
     opacity: 1;
+}
+
+.opener-name[tabindex] {
+    cursor: pointer;
+}
+
+.opener-name:not(.has-video):hover .play-icon {
+    opacity: 0.4;
+}
+
+.opener-name:focus-visible {
+    outline: 2px solid #5cacee;
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 .show-meta {

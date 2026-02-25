@@ -73,7 +73,7 @@ class BaseScraper:
         r'Comedy Night|DJ Night|Disco Night|Prom|Blowout|Graduation|'
         r'Takeover|Cover Up|Rehearsal|Jamz|Hosted By|Honoring|'
         r'Songwriters Show|Blends With Friends|Tribute Band|GrrrlBands|'
-        r'It.?s A \d+.?s Party|Party Iconic)\b'
+        r'It.?s A \d+.?s Party|Party Iconic|Photobooth)\b'
         r'|^DJs?:',  # Lines starting with "DJ:" or "DJs:"
         re.IGNORECASE
     )
@@ -84,6 +84,10 @@ class BaseScraper:
             return None
         # Check event keywords on the original name first (catches "DJs:", "GrrrlBands:", etc.)
         if self.EVENT_KEYWORDS.search(artist_name):
+            return None
+        # Case-sensitive: "RIP ..." or "R.I.P." at start = memorial event, not a band
+        # (case-sensitive to avoid matching bands like "Rip Tide", "Ripper")
+        if re.match(r'^R\.?I\.?P\.?\s', artist_name):
             return None
         # Strip "Presents" and everything after it (band name is before it)
         clean = re.sub(r'\s+Presents\b.*$', '', artist_name, flags=re.IGNORECASE)

@@ -21928,5 +21928,435 @@
     "explanation": "manual override",
     "timestamp": "2026-02-25T05:27:04.494229",
     "venue": "The Social"
+  },
+  {
+    "artist": "Six More Miles",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-02-25T10:31:22.304001",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "North State Grass",
+    "role": "opener",
+    "youtube_id": "w54lLXcuv9g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.304014",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "STS9",
+    "role": "headliner",
+    "youtube_id": "Pbmh8AyOgko",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609060",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) \u2013 Celestun Tour",
+    "role": "headliner",
+    "youtube_id": "kziZgJFvgiA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (76)",
+    "timestamp": "2026-02-25T10:31:22.609090",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Maggie Halfman",
+    "role": "opener",
+    "youtube_id": "ad6tgcInO6o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:22.609099",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Paul McDonald & the Mourning Doves",
+    "role": "headliner",
+    "youtube_id": "yDM1mU0urwg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:22.609112",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "West King Street",
+    "role": "opener",
+    "youtube_id": "9hIW-wLddIo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-25T10:31:22.609118",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
+    "role": "headliner",
+    "youtube_id": "YfO1MVkPRp8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (74)",
+    "timestamp": "2026-02-25T10:31:22.609127",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "special guest Bobcat Goldthwait",
+    "role": "opener",
+    "youtube_id": "kAlbzm-Ppbw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-25T10:31:22.609131",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Nep",
+    "role": "headliner",
+    "youtube_id": "KRIIc-tqDAE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609140",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "briZB",
+    "role": "opener",
+    "youtube_id": "1Qn8mLzvqMw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609145",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Al Olender",
+    "role": "headliner",
+    "youtube_id": "q7Dn8hKTGOM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609153",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Abigail Dempsey",
+    "role": "opener",
+    "youtube_id": "XyUeYV1LDPw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609158",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Goldie Boutilier",
+    "role": "headliner",
+    "youtube_id": "2-weJSyo00s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609165",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Syd Taylor",
+    "role": "opener",
+    "youtube_id": "MnXwCdoNnmc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609170",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Coma Cinema",
+    "role": "headliner",
+    "youtube_id": "HyP3ND7Xm4A",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:22.609178",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Trace Mountains, honeygaze",
+    "role": "opener",
+    "youtube_id": "WzRufA4b3dg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:22.609183",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Rivalry Night",
+    "role": "headliner",
+    "youtube_id": "5tWbucaBa_M",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Dj Bonics at the Penguins VS. Capitals Rivalry Night! | channel: DJ Bonics",
+    "timestamp": "2026-02-25T10:31:23.425512",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dialtone",
+    "role": "opener",
+    "youtube_id": "Cki-mnHhNtY",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: Dialtone | channel: Toby Fox - Topic",
+    "timestamp": "2026-02-25T10:31:24.146587",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Nothing",
+    "role": "headliner",
+    "youtube_id": "xSZs27QQr1k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:24.452060",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Full Body 2, Cryogeyser, VMO a.k.a. Violent Magic Orchestra",
+    "role": "opener",
+    "youtube_id": "xe7rEv5UgRA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:24.452085",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Immortal Technique",
+    "role": "headliner",
+    "youtube_id": "OqgIKOXykHo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:24.452110",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Poison Pen, DJ Static",
+    "role": "opener",
+    "youtube_id": "toLv5DvCrNE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:24.452115",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Nude Party",
+    "role": "headliner",
+    "youtube_id": "K-cM0SX0ghw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:24.452124",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Six Foot Blonde",
+    "role": "opener",
+    "youtube_id": "MAVev6WtbzI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:24.452129",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dirtwire \u2013 Universal Language Tour",
+    "role": "headliner",
+    "youtube_id": "M9ZAle73g_8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T10:31:24.452138",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Max Lane",
+    "role": "opener",
+    "youtube_id": "zE9rdEcJ2hs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-25T10:31:24.452142",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Slow Teeth",
+    "role": "headliner",
+    "youtube_id": "55NKuri-t7I",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Slow Teeth- Moonsong (Twinkle Monster) | channel: banjoe M",
+    "timestamp": "2026-02-25T10:31:25.163883",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Nine Lives Flea Market",
+    "role": "headliner",
+    "youtube_id": "8GgTZ8TTwO4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T10:31:25.467660",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Rachel Bochner",
+    "role": "headliner",
+    "youtube_id": "xttrqNl8EaY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:25.467717",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Aterciopelados",
+    "role": "headliner",
+    "youtube_id": "sUlsTs2ljaE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:25.467731",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "An Evening With",
+    "role": "opener",
+    "youtube_id": "KMTo2LmixqQ",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: evening | video: cinnamons \u00d7 evening cinema - summertime (Official Music Video) | channel: cinnamons",
+    "timestamp": "2026-02-25T10:31:26.246267",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Bedroom Division & William Hinson",
+    "role": "headliner",
+    "youtube_id": "2jEdgHG09gI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T10:31:26.246850",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Lennon KC",
+    "role": "opener",
+    "youtube_id": "c1BRzAEkDCU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246855",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "A-MOMaDr3tU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T10:31:26.246861",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Puma Blue",
+    "role": "headliner",
+    "youtube_id": "IuVFMVX2eY0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246865",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dogpark",
+    "role": "headliner",
+    "youtube_id": "gvifMWDdZTA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246869",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Surfing for Daisy",
+    "role": "headliner",
+    "youtube_id": "DogDoFcSK-Q",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246873",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Jack The Radio",
+    "role": "opener",
+    "youtube_id": "JuvMfMIfQIg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246875",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Twen",
+    "role": "headliner",
+    "youtube_id": "7aI0OF1kGH4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246879",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Monsoon",
+    "role": "opener",
+    "youtube_id": "Yen1gSMpqxQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-25T10:31:26.246881",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Early November & Hellogoodbye: 20 Years Young",
+    "role": "headliner",
+    "youtube_id": "xRcsezFP02Q",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-25T10:31:26.246885",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Punchline",
+    "role": "opener",
+    "youtube_id": "PDu9BKwQ720",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: Punchline: Getting There Is Getting By [OFFICIAL VIDEO] | channel: Fueled By Ramen",
+    "timestamp": "2026-02-25T10:31:26.934993",
+    "venue": "Cat's Cradle"
   }
 ]

@@ -211,29 +211,49 @@ class ShowsApp {
             });
         });
 
-        // Add click/key handlers for openers
-        container.querySelectorAll('.opener-name.has-video').forEach((openerEl) => {
+        // Add click/key handlers for openers (all names, not just has-video)
+        container.querySelectorAll('.opener-name').forEach((openerEl) => {
             const index = parseInt(openerEl.dataset.openerIndex);
+            const pos = parseInt(openerEl.dataset.openerPos);
             const show = shows[index];
-            if (show.opener_youtube_id) {
-                const handleOpener = (e) => {
-                    e.stopPropagation();
+            // Extract individual name from span text (strip play icon)
+            const name = openerEl.textContent.replace(/\s*[\u25B6\u25BA]\s*$/, '').trim();
+            const handleOpener = (e) => {
+                e.stopPropagation();
+                if (pos === 0 && show.opener_youtube_id) {
                     trackEvent('sample_play', {
-                        artist: show.opener,
+                        artist: name,
                         venue_name: show.venue,
                         role: 'opener'
                     });
-                    this.togglePlayer(index, show.opener_youtube_id, show.opener);
-                };
-                openerEl.addEventListener('click', handleOpener);
-                openerEl.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        handleOpener(e);
-                    }
-                });
-            }
+                    this.togglePlayer(index, show.opener_youtube_id, name);
+                } else {
+                    this.showNoPreview(name);
+                }
+            };
+            openerEl.addEventListener('click', handleOpener);
+            openerEl.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    handleOpener(e);
+                }
+            });
         });
+    }
+
+    splitOpeners(openerStr) {
+        if (!openerStr) return [];
+        // Strip leading "w/ " prefix
+        let str = openerStr.replace(/^w\/\s+/i, '');
+        // Split on comma+space
+        let names = str.split(', ');
+        // For each token, also split on " / " (space-slash-space)
+        names = names.flatMap(n => n.split(' / '));
+        // Trim and strip leading conjunctions ("and ", "& ", "+ ")
+        names = names.map(n => n.trim().replace(/^(?:and |& |\+ )/i, '').trim());
+        // Filter empties and noise words
+        const noise = ['special guests!', 'special guests', 'more!', 'more', 'tba', 'guests tba', ''];
+        return names.filter(n => !noise.includes(n.toLowerCase()));
     }
 
     createShowCard(show, index) {
@@ -249,9 +269,22 @@ class ShowsApp {
             ? `<div class="show-notice">${this.escapeHtml(show.notice)}</div>`
             : '';
 
-        const openerHtml = show.opener
-            ? `<div class="opener">with <span class="opener-name ${show.opener_youtube_id ? 'has-video' : ''}" data-opener-index="${index}"${show.opener_youtube_id ? ` tabindex="0" role="button" aria-label="${this.escapeHtml(show.opener)} — play sample"` : ''}>${this.escapeHtml(show.opener)}${show.opener_youtube_id ? ' <span class="play-icon" aria-hidden="true">&#9658;</span>' : ''}</span></div>`
-            : '';
+        let openerHtml = '';
+        if (show.opener) {
+            const names = this.splitOpeners(show.opener);
+            if (names.length > 0) {
+                const spans = names.map((name, pos) => {
+                    const hasVideo = pos === 0 && !!show.opener_youtube_id;
+                    const cls = hasVideo ? 'opener-name has-video' : 'opener-name';
+                    const label = hasVideo
+                        ? `${this.escapeHtml(name)} — play sample`
+                        : `${this.escapeHtml(name)} — no preview available`;
+                    const iconCls = hasVideo ? 'play-icon' : 'play-icon no-video';
+                    return `<span class="${cls}" data-opener-index="${index}" data-opener-pos="${pos}" tabindex="0" role="button" aria-label="${label}">${this.escapeHtml(name)} <span class="${iconCls}" aria-hidden="true">&#9658;</span></span>`;
+                });
+                openerHtml = `<div class="opener">with ${spans.join(', ')}</div>`;
+            }
+        }
 
         const timesHtml = (show.doors || show.showtime)
             ? `<div class="show-times">
