@@ -389,134 +389,264 @@ def spotify_indicator(artist_name, spotify_cache):
         return ""  # no cache entry at all
 
 
-def build_report(tonight, states, all_shows_data, spotify_cache=None):
-    """Build the daily video report text."""
-    if spotify_cache is None:
-        spotify_cache = {}
-    date_str = datetime.now().strftime("%b %d, %Y")
-    lines = []
-    lines.append("LOCAL SOUNDCHECK — DAILY VIDEO REPORT")
-    lines.append(date_str)
-    lines.append("")
+def spotify_csv_indicator(artist_name, spotify_cache):
+    """Return Spotify match/popularity as 'match (pop)' for CSV-friendly format."""
+    entry = spotify_cache.get(artist_name, {})
+    conf = entry.get("match_confidence", "")
+    pop = entry.get("popularity", "")
+    if conf:
+        return f"{conf} ({pop})" if pop != "" else conf
+    return ""
 
-    # --- Tonight's Changes ---
-    lines.append("TONIGHT'S CHANGES")
-    lines.append(f"  Videos verified: {len(tonight['verified'])}")
-    lines.append(f"  Videos rejected: {len(tonight['rejected'])}")
-    lines.append(f"  Already verified (skipped): {tonight['already_verified']}")
-    lines.append(f"  Overrides (skipped): {tonight['overrides']}")
-    lines.append("")
 
-    # --- New Verified Videos ---
-    if tonight["verified"]:
-        lines.append("NEW VERIFIED VIDEOS")
-        lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}"
-            f"| {'Video':<48}| Confidence"
-        )
-        lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}"
-            f"+{'-'*48}+{'-'*20}"
-        )
-        for v in tonight["verified"]:
-            url = f"youtube.com/watch?v={v['video_id']}"
-            sp = spotify_indicator(v["artist"], spotify_cache)
-            lines.append(
-                f"{v['artist']:<20}| {v['venue']:<22}| {v['date']:<10}| {sp:<7}"
-                f"| {url:<48}| {v['confidence']}"
-            )
-        lines.append("")
+def load_latest_audit():
+    """Load the most recent audit file and return overall stats."""
+    import glob as _glob
+    audit_dir = os.path.join(_PROJECT_ROOT, "qa", "audits")
+    files = sorted(_glob.glob(os.path.join(audit_dir, "*.json")))
+    if not files:
+        return None
+    try:
+        with open(files[-1]) as f:
+            data = json.load(f)
+        return data.get("overall", {})
+    except (json.JSONDecodeError, FileNotFoundError):
+        return None
 
-    # --- Rejected Candidates ---
-    if tonight["rejected"]:
-        lines.append("REJECTED CANDIDATES")
-        lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}"
-            f"| {'Candidate':<48}| Reason"
-        )
-        lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}"
-            f"+{'-'*48}+{'-'*30}"
-        )
-        for r in tonight["rejected"]:
-            url = f"youtube.com/watch?v={r['video_id']}"
-            reason_str = "; ".join(r["reasons"])
-            sp = spotify_indicator(r["artist"], spotify_cache)
-            lines.append(
-                f"{r['artist']:<20}| {r['venue']:<22}| {r['date']:<10}| {sp:<7}"
-                f"| {url:<48}| {reason_str}"
-            )
-        lines.append("")
 
-    # --- No Preview Queue ---
-    no_preview = []
+def load_accuracy_history():
+    """Load accuracy history from qa/accuracy_history.json."""
+    path = os.path.join(_PROJECT_ROOT, "qa", "accuracy_history.json")
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def save_accuracy_history(history):
+    """Save accuracy history."""
+    path = os.path.join(_PROJECT_ROOT, "qa", "accuracy_history.json")
+    with open(path, "w") as f:
+        json.dump(history, f, indent=2)
+        f.write("\n")
+
+
+def compute_inventory(states, all_shows_data):
+    """Count verified/rejected/no-preview per venue across all shows.
+
+    Returns (totals_dict, venue_dict) where:
+      totals = {"verified": N, "rejected": N, "no_preview": N, "override": N, "total": N}
+      venues = {"Venue Name": {"with_video": N, "total": N}, ...}
+    """
+    totals = {"verified": 0, "rejected": 0, "no_preview": 0, "override": 0, "total": 0}
+    venues = {}
+
     for filepath, data in all_shows_data:
         shows = data.get("shows", data) if isinstance(data, dict) else data
         for show in shows:
             if not isinstance(show, dict):
                 continue
             artist = show.get("artist", "")
+            if not artist:
+                continue
+            venue = show.get("venue", "Unknown")
             yt_id = show.get("youtube_id")
-            if not yt_id and artist:
-                venue = show.get("venue", "Unknown")
-                date = show.get("date", "TBD")
-                # Determine status — why does this show have no video?
-                state = states.get(artist, {})
-                state_status = state.get("status", "")
-                if state_status == "rejected":
-                    reason = state.get("reason", "unknown")
-                    status = f"Rejected: {reason}"
-                elif state_status == "override_null":
-                    status = "Override: no video"
-                elif state_status == "verified":
-                    # Artist verified at another venue but this show
-                    # doesn't have a video — scraper didn't assign one
-                    status = "No video from scraper"
-                else:
-                    status = "No video assigned"
-                no_preview.append({
-                    "artist": artist,
-                    "venue": venue,
-                    "date": date,
-                    "status": status,
-                })
 
-    if no_preview:
-        lines.append(f"NO PREVIEW QUEUE ({len(no_preview)} total)")
-        lines.append(
-            f"{'Artist':<20}| {'Venue':<22}| {'Date':<10}| {'Spotify':<7}| Status"
-        )
-        lines.append(
-            f"{'-'*20}+{'-'*22}+{'-'*10}+{'-'*7}+{'-'*30}"
-        )
-        for np in no_preview:
-            sp = spotify_indicator(np["artist"], spotify_cache)
+            if venue not in venues:
+                venues[venue] = {"with_video": 0, "total": 0}
+            venues[venue]["total"] += 1
+            totals["total"] += 1
+
+            if yt_id:
+                venues[venue]["with_video"] += 1
+                totals["verified"] += 1
+            else:
+                state = states.get(artist, {})
+                status = state.get("status", "")
+                if status == "rejected":
+                    totals["rejected"] += 1
+                elif status == "override_null":
+                    totals["override"] += 1
+                else:
+                    totals["no_preview"] += 1
+
+    return totals, venues
+
+
+def build_issue_body(tonight, states, all_shows_data, old_states,
+                     spotify_cache=None):
+    """Build the daily video report as a GitHub-flavored markdown issue body.
+
+    Sections:
+      1. Tonight's Delta — newly verified, rejected, and recovered
+      2. Full Inventory — coverage stats by venue
+      3. Accuracy — from latest audit + history
+    """
+    if spotify_cache is None:
+        spotify_cache = {}
+    date_str = datetime.now().strftime("%b %d, %Y")
+    csv_filename = f"video-report-{datetime.now().strftime('%Y-%m-%d')}.csv"
+
+    # --- Detect recoveries: was rejected before, now verified ---
+    recovered = []
+    for v in tonight["verified"]:
+        prev = old_states.get(v["artist"])
+        if prev == "rejected":
+            # Look up old reason from states snapshot
+            recovered.append(v)
+
+    lines = [f"# Daily Video Report — {date_str}", ""]
+
+    # --- Section 1: Tonight's Delta ---
+    n_verified = len(tonight["verified"])
+    n_rejected = len(tonight["rejected"])
+    n_recovered = len(recovered)
+    lines.append("## Tonight's Delta")
+    lines.append(
+        f"**{n_verified} verified | {n_rejected} rejected | "
+        f"{n_recovered} recovered | "
+        f"{tonight['already_verified']} unchanged | "
+        f"{tonight['overrides']} overrides**"
+    )
+    lines.append("")
+
+    if tonight["verified"]:
+        lines.append("### Newly Verified")
+        lines.append("| Artist | Venue | Date | Spotify | Detail |")
+        lines.append("|--------|-------|------|---------|--------|")
+        for v in tonight["verified"]:
+            sp = spotify_csv_indicator(v["artist"], spotify_cache)
             lines.append(
-                f"{np['artist']:<20}| {np['venue']:<22}| {np['date']:<10}| {sp:<7}"
-                f"| {np['status']}"
+                f"| {v['artist']} | {v['venue']} | {v['date']} "
+                f"| {sp} | {v['confidence']} |"
             )
         lines.append("")
 
-    lines.append(f"Generated: {datetime.now().strftime('%a %b %d, %Y %I:%M %p ET')}")
+    if tonight["rejected"]:
+        lines.append("### Newly Rejected")
+        lines.append("| Artist | Venue | Date | Spotify | Reason |")
+        lines.append("|--------|-------|------|---------|--------|")
+        for r in tonight["rejected"]:
+            reason_str = "; ".join(r["reasons"])
+            sp = spotify_csv_indicator(r["artist"], spotify_cache)
+            lines.append(
+                f"| {r['artist']} | {r['venue']} | {r['date']} "
+                f"| {sp} | {reason_str} |"
+            )
+        lines.append("")
+
+    if recovered:
+        lines.append("### Recovered (previously failed, now verified)")
+        lines.append("| Artist | Venue | Detail |")
+        lines.append("|--------|-------|--------|")
+        for v in recovered:
+            lines.append(
+                f"| {v['artist']} | {v['venue']} | {v['confidence']} |"
+            )
+        lines.append("")
+
+    # --- Section 2: Full Inventory ---
+    totals, venues = compute_inventory(states, all_shows_data)
+    lines.append("## Full Inventory")
+    lines.append("| Status | Count | % |")
+    lines.append("|--------|------:|----:|")
+    total = totals["total"] or 1  # avoid division by zero
+    for status_key, label in [("verified", "Verified"),
+                               ("rejected", "Rejected"),
+                               ("no_preview", "No Preview"),
+                               ("override", "Override")]:
+        count = totals[status_key]
+        pct = round(count / total * 100)
+        lines.append(f"| {label} | {count} | {pct}% |")
+    lines.append(f"| **Total** | **{totals['total']}** | |")
+    lines.append("")
+
+    # Per-venue one-liner
+    venue_parts = []
+    for vname in sorted(venues.keys()):
+        v = venues[vname]
+        venue_parts.append(f"{vname} {v['with_video']}/{v['total']}")
+    lines.append(" · ".join(venue_parts))
+    lines.append("")
+    lines.append(f"Full detail: `qa/{csv_filename}`")
+    lines.append("")
+
+    # --- Section 3: Accuracy ---
+    audit = load_latest_audit()
+    history = load_accuracy_history()
+    lines.append("## Accuracy")
+    if audit:
+        today_acc = audit.get("accuracy_rate", 0)
+        today_conf = audit.get("avg_confidence", 0)
+
+        # Yesterday and 7-day average from history
+        yesterday_acc = ""
+        yesterday_conf = ""
+        avg_7_acc = ""
+        avg_7_conf = ""
+        if history:
+            yesterday_acc = history[-1].get("accuracy_rate", "")
+            yesterday_conf = history[-1].get("avg_confidence", "")
+            recent = history[-7:]
+            acc_vals = [h["accuracy_rate"] for h in recent
+                        if "accuracy_rate" in h]
+            conf_vals = [h["avg_confidence"] for h in recent
+                         if "avg_confidence" in h]
+            if acc_vals:
+                avg_7_acc = f"{sum(acc_vals)/len(acc_vals):.1f}%"
+            if conf_vals:
+                avg_7_conf = f"{sum(conf_vals)/len(conf_vals):.1f}"
+            yesterday_acc = f"{yesterday_acc}%" if yesterday_acc else "—"
+            yesterday_conf = str(yesterday_conf) if yesterday_conf else "—"
+
+        overrides = load_overrides()
+        override_count = len(overrides.get("artist_youtube", {}))
+
+        lines.append("| Metric | Today | Yesterday | 7-day avg |")
+        lines.append("|--------|------:|----------:|----------:|")
+        lines.append(
+            f"| Accuracy | {today_acc}% | {yesterday_acc or '—'} "
+            f"| {avg_7_acc or '—'} |"
+        )
+        lines.append(
+            f"| Avg confidence | {today_conf} | {yesterday_conf or '—'} "
+            f"| {avg_7_conf or '—'} |"
+        )
+        lines.append(f"| Overrides | {override_count} | | |")
+    else:
+        lines.append("No audit data available yet.")
+    lines.append("")
+
     return "\n".join(lines)
 
 
-def build_csv(tonight, states, all_shows_data, spotify_cache=None):
-    """Build a combined CSV with Spotify match and popularity columns."""
+def build_csv(tonight, states, all_shows_data, old_states,
+              spotify_cache=None):
+    """Build a combined CSV with Spotify match, popularity, and Changed columns."""
     if spotify_cache is None:
         spotify_cache = {}
+
+    # Build set of recovered artists (rejected before, verified now)
+    recovered_artists = set()
+    for v in tonight["verified"]:
+        if old_states.get(v["artist"]) == "rejected":
+            recovered_artists.add(v["artist"])
+
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Section", "Artist", "Venue", "Date", "Video URL",
-                     "Spotify Match", "Spotify Popularity", "Detail"])
+                     "Spotify Match", "Spotify Popularity", "Detail",
+                     "Changed"])
 
     for v in tonight["verified"]:
         url = f"https://youtube.com/watch?v={v['video_id']}"
         entry = spotify_cache.get(v["artist"], {})
         sp_match = entry.get("match_confidence", "")
         sp_pop = entry.get("popularity", "")
+        changed = "Recovered" if v["artist"] in recovered_artists else "New"
         writer.writerow(["Verified", v["artist"], v["venue"], v["date"], url,
-                         sp_match, sp_pop, v["confidence"]])
+                         sp_match, sp_pop, v["confidence"], changed])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
@@ -525,7 +655,7 @@ def build_csv(tonight, states, all_shows_data, spotify_cache=None):
         sp_match = entry.get("match_confidence", "")
         sp_pop = entry.get("popularity", "")
         writer.writerow(["Rejected", r["artist"], r["venue"], r["date"], url,
-                         sp_match, sp_pop, reason_str])
+                         sp_match, sp_pop, reason_str, "New"])
 
     # No preview queue
     for filepath, data in all_shows_data:
@@ -552,16 +682,19 @@ def build_csv(tonight, states, all_shows_data, spotify_cache=None):
                 sp_match = entry.get("match_confidence", "")
                 sp_pop = entry.get("popularity", "")
                 writer.writerow(["No Preview", artist, venue, date, "",
-                                 sp_match, sp_pop, status])
+                                 sp_match, sp_pop, status, ""])
 
     return output.getvalue()
 
 
-def post_github_issue(report_text, csv_text=None):
-    """Post the daily report as a GitHub Issue."""
+def post_github_issue(issue_body, csv_text=None):
+    """Post the daily report as a GitHub Issue with markdown body.
+
+    The issue body is markdown (not wrapped in a code block).
+    CSV is saved to qa/ for the commit step — no longer posted as a comment.
+    """
     date_str = datetime.now().strftime("%Y-%m-%d")
     title = f"Daily Video Report — {date_str}"
-    body = f"```\n{report_text}\n```"
 
     # Ensure label exists
     subprocess.run(
@@ -588,47 +721,36 @@ def post_github_issue(report_text, csv_text=None):
         except json.JSONDecodeError:
             pass
 
-    # Create new issue
-    result = subprocess.run(
-        ["gh", "issue", "create",
-         "--title", title,
-         "--body", body,
-         "--label", "daily-video-report"],
-        capture_output=True, text=True
-    )
+    # Create new issue — use tempfile to avoid shell escaping issues
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".md",
+                                     delete=False) as tmp:
+        tmp.write(issue_body)
+        tmp_path = tmp.name
+
+    try:
+        result = subprocess.run(
+            ["gh", "issue", "create",
+             "--title", title,
+             "--body-file", tmp_path,
+             "--label", "daily-video-report"],
+            capture_output=True, text=True
+        )
+    finally:
+        os.unlink(tmp_path)
+
     if result.returncode == 0:
         issue_url = result.stdout.strip()
         print(f"  Posted GitHub Issue: {issue_url}")
-
-        # Post CSV as a collapsible comment and save to qa/
-        if csv_text:
-            try:
-                issue_number = issue_url.rstrip("/").split("/")[-1]
-                csv_filename = f"video-report-{date_str}.csv"
-                comment_body = (
-                    f"**{csv_filename}**\n\n"
-                    "Copy the CSV below into a `.csv` file, or open "
-                    "the committed version in `qa/`.\n\n"
-                    "<details><summary>CSV data</summary>\n\n"
-                    f"```\n{csv_text}```\n\n"
-                    "</details>"
-                )
-                subprocess.run(
-                    ["gh", "issue", "comment", issue_number,
-                     "--body", comment_body],
-                    capture_output=True, text=True,
-                )
-                # Save CSV to qa/ for the commit step to pick up
-                csv_out_path = os.path.join(
-                    _PROJECT_ROOT, "qa", csv_filename
-                )
-                with open(csv_out_path, "w") as f:
-                    f.write(csv_text)
-                print(f"  CSV saved to qa/{csv_filename}")
-            except Exception as e:
-                print(f"  Warning: could not post CSV comment: {e}")
     else:
         print(f"  Warning: could not create GitHub Issue: {result.stderr}")
+
+    # Save CSV to qa/ for the commit step to pick up
+    if csv_text:
+        csv_filename = f"video-report-{date_str}.csv"
+        csv_out_path = os.path.join(_PROJECT_ROOT, "qa", csv_filename)
+        with open(csv_out_path, "w") as f:
+            f.write(csv_text)
+        print(f"  CSV saved to qa/{csv_filename}")
 
 
 def main():
@@ -654,6 +776,9 @@ def main():
     states = load_video_states()
     spotify_cache = load_spotify_cache()
     all_shows_data = load_all_shows()
+
+    # Snapshot old states before verification (for recovery detection)
+    old_states = {k: v.get("status") for k, v in states.items()}
 
     tonight = {
         "verified": [],
@@ -779,12 +904,14 @@ def main():
         if vid is None and artist not in states:
             states[artist] = {"status": "override_null"}
 
-    # Build report and CSV (spotify_cache already loaded above)
-    report = build_report(tonight, states, all_shows_data, spotify_cache)
-    csv_text = build_csv(tonight, states, all_shows_data, spotify_cache)
+    # Build issue body and CSV (spotify_cache already loaded above)
+    issue_body = build_issue_body(tonight, states, all_shows_data,
+                                  old_states, spotify_cache)
+    csv_text = build_csv(tonight, states, all_shows_data,
+                         old_states, spotify_cache)
 
     print("\n" + "=" * 50)
-    print(report)
+    print(issue_body)
     print("=" * 50)
 
     print(f"\nAPI calls: ~{api_calls} units")
@@ -793,18 +920,38 @@ def main():
           f"Skipped: {tonight['already_verified']} already verified, "
           f"{tonight['overrides']} overrides")
 
+    # Append accuracy history
+    if not args.dry_run:
+        audit = load_latest_audit()
+        totals, _ = compute_inventory(states, all_shows_data)
+        history = load_accuracy_history()
+        entry = {
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "total_shows": totals["total"],
+            "verified": totals["verified"],
+            "rejected": totals["rejected"],
+            "no_preview": totals["no_preview"],
+            "overrides": totals["override"],
+        }
+        if audit:
+            entry["accuracy_rate"] = audit.get("accuracy_rate", 0)
+            entry["avg_confidence"] = audit.get("avg_confidence", 0)
+        history.append(entry)
+        save_accuracy_history(history)
+        print(f"  Appended accuracy history for {entry['date']}")
+
     # Output
     if args.output:
         with open(args.output, "w") as f:
-            f.write(report + "\n")
-        # Also write CSV alongside the text report
+            f.write(issue_body + "\n")
+        # Also write CSV alongside the report
         csv_path = args.output.rsplit(".", 1)[0] + ".csv"
         with open(csv_path, "w") as f:
             f.write(csv_text)
         print(f"\nReport written to {args.output}")
         print(f"CSV written to {csv_path}")
     elif not args.dry_run:
-        post_github_issue(report, csv_text=csv_text)
+        post_github_issue(issue_body, csv_text=csv_text)
 
     return 0
 

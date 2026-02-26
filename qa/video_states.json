@@ -862,11 +862,25 @@
     }
   },
   "Los Straitjackets & Deke Dickerson": {
-    "status": "rejected",
-    "video_id": "RiQj57xemJU",
-    "rejected_date": "2026-02-26T05:26:45.403228",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "A-MOMaDr3tU",
+    "verified_date": "2026-02-26T13:31:44.692026",
+    "confidence": "channel match, 13,535 views",
+    "metadata": {
+      "video_title": "Los Straitjackets - Fury (Official Audio)",
+      "channel_name": "Los Straitjackets",
+      "view_count": 13535,
+      "published": "2014-09-29T17:50:05Z",
+      "channel_subscribers": 13700,
+      "channel_videos": 58,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 32 (>=30)",
+      "video_age_years": 11.4,
+      "spotify_match": "close",
+      "spotify_popularity": 32
+    }
   },
   "Puma Blue": {
     "status": "verified",

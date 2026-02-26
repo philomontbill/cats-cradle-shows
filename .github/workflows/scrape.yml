@@ -125,7 +125,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/shows-*.json logs/ qa/match_log.json qa/audits/ qa/video_states.json qa/spotify_cache.json qa/video-report-*.csv qa/validation_baseline.json
+          git add data/shows-*.json logs/ qa/match_log.json qa/audits/ qa/video_states.json qa/spotify_cache.json qa/video-report-*.csv qa/validation_baseline.json qa/accuracy_history.json
           git diff --staged --quiet || git commit -m "Update show data $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
