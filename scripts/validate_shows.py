@@ -14,13 +14,17 @@ Checks:
 - Tour name appended to artist name (contains "Tour" or colon)
 - Missing required fields (date, venue, event_url)
 
-Exit code 1 if any issues found. Prints summary suitable for email alert.
+Uses a baseline file (qa/validation_baseline.json) to track known warnings.
+Exit code 1 only when NEW warnings appear. Known warnings print but don't alert.
 """
 
 import json
 import glob
+import hashlib
 import sys
 import os
+
+BASELINE_PATH = "qa/validation_baseline.json"
 
 LONG_NAME_THRESHOLD = 60
 EVENT_WORDS = [
@@ -117,6 +121,25 @@ def check_duplicates(all_artists):
     return flags
 
 
+def load_baseline():
+    """Load previous warning hashes from baseline file."""
+    if os.path.exists(BASELINE_PATH):
+        with open(BASELINE_PATH) as f:
+            return set(json.load(f).get("warnings", []))
+    return set()
+
+
+def save_baseline(warning_hashes):
+    """Save current warning hashes as the new baseline."""
+    with open(BASELINE_PATH, 'w') as f:
+        json.dump({"warnings": sorted(warning_hashes)}, f, indent=2)
+
+
+def hash_warning(msg):
+    """Stable hash for a warning message."""
+    return hashlib.md5(msg.encode()).hexdigest()
+
+
 def main():
     files = sorted(glob.glob("data/shows-*.json"))
     if not files:
@@ -144,23 +167,44 @@ def main():
     warnings = [msg for sev, msg in all_flags if sev == "WARNING"]
     infos = [msg for sev, msg in all_flags if sev == "INFO"]
 
+    # Compare warnings against baseline
+    old_baseline = load_baseline()
+    current_hashes = {hash_warning(w) for w in warnings}
+    new_warnings = [w for w in warnings if hash_warning(w) not in old_baseline]
+    resolved = old_baseline - current_hashes
+
+    # Save current warnings as new baseline
+    save_baseline(current_hashes)
+
+    # Print results
     if warnings or infos:
-        print(f"Validation found {len(warnings)} warning(s) and {len(infos)} info item(s):\n")
-        if warnings:
-            print("WARNINGS (need review):")
-            for w in warnings:
+        print(f"Validation found {len(warnings)} warning(s) and {len(infos)} info item(s):")
+        print(f"  NEW: {len(new_warnings)}  |  KNOWN: {len(warnings) - len(new_warnings)}  |  RESOLVED: {len(resolved)}\n")
+
+        if new_warnings:
+            print("NEW WARNINGS (need review):")
+            for w in new_warnings:
                 print(f"  {w}")
             print()
+
+        if len(warnings) > len(new_warnings):
+            print(f"KNOWN WARNINGS ({len(warnings) - len(new_warnings)} — unchanged from previous run):")
+            for w in warnings:
+                if hash_warning(w) in old_baseline:
+                    print(f"  {w}")
+            print()
+
         if infos:
             print("INFO (low priority):")
             for i in infos:
                 print(f"  {i}")
             print()
-        # Exit 1 only on warnings, not info-only
-        if warnings:
-            sys.exit(1)
     else:
         print("All show data looks clean.")
+
+    # Exit 1 only on NEW warnings
+    if new_warnings:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
