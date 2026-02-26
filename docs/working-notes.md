@@ -1130,8 +1130,44 @@ Added Asheville as the third NC region. The Orange Peel is one of the most well-
 
 **Venue count:** 6 states, 8 regions, 13 venues (3 NC regions: Triangle, Charlotte, Asheville)
 
+---
+
+## Session: Feb 26, 2026
+
+### First Nightly Run Review — Orange Peel + Neighborhood Theatre
+
+Reviewed the Feb 26 nightly scrape results (first automated run with both new venues).
+
+**Scrape alert (Issue #16):** 1 failure — Data Validation. All 13 scrapers passed (including both new ones). Scrape Monitor also passed.
+
+**Video report (Issue #15):**
+- 16 verified, 97 rejected, 244 already verified, 40 overrides
+- Orange Peel: 7 verified (S.G. Goodman, Tab Benoit, Jordan Jensen, Tremours, The Chats, Nolen Durham, Old Crow Medicine Show)
+- Neighborhood Theatre: 4 verified (ALEXSUCKS, Mike Gordon, Walter Trout, Walker Montgomery)
+- Trusted labels/VEVO working: Punchline (Fueled By Ramen), Skullcrusher (VEVO), Snowblinder (Nuclear Blast)
+- Mass "could not fetch video metadata" rejections — YouTube oEmbed rate limiting from adding two new venues at once. Should self-heal over next few nights as verified videos are skipped.
+
+**CSV attachment:** Not a downloadable file — GitHub Issues API can't attach files. CSV data is embedded as text in a comment on the issue, and also committed to `qa/video-report-2026-02-26.csv`.
+
+### Validation Baseline — Built & Deployed
+
+The validation script (`scripts/validate_shows.py`) was exiting with code 1 every night because it had no memory — it re-flagged every known warning (long names, event keywords, missing videos) from scratch each run. This made the scrape alert always show "1 failure" even when nothing changed.
+
+**Fix:** Added baseline tracking via `qa/validation_baseline.json`. The script now:
+1. Hashes each warning message (MD5)
+2. Compares against the baseline from the previous run
+3. Labels each warning as NEW or KNOWN
+4. Saves the current set as the new baseline
+5. Exits 1 only if there are NEW warnings — known warnings exit 0
+
+Summary line: `NEW: 0 | KNOWN: 54 | RESOLVED: 0`
+
+This scales with venue growth — adding a new venue generates a one-time burst of new warnings, then they go quiet. The RESOLVED count tracks warnings that disappear (show expired or got fixed).
+
+**Files modified:** `scripts/validate_shows.py`, `.github/workflows/scrape.yml` (added `qa/validation_baseline.json` to commit list)
+**Files created:** `qa/validation_baseline.json`
+
 ### Next Steps
-- Review tonight's nightly scrape results (first automated run with Orange Peel + Neighborhood Theatre)
 - Decide on Reddit intro post timing (outreach/reddit-post-triangle.txt)
 - Continue adding venues (more NC? or expand other states?)
 - Finalize video disclaimer wording
