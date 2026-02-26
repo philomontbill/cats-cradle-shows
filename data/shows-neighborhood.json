@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "MAGGIE LINDEMANN",
-      "date": "Wed, Feb 25",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/21a/88242cf7-99c1-4930-b2aa-017fd214021a_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/maggie-lindemann-i-feel-everything-tour-charlotte-north-carolina-02-25-2026/event/2D006351402DFBE8",
-      "youtube_id": "UsqAkELtj2M"
-    },
-    {
       "artist": "Broadway Rave",
       "date": "Fri, Feb 27",
       "venue": "Neighborhood Theatre",
@@ -27,7 +15,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/226/5045ee77-307b-4eb9-82a4-d892156c9226_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/broadway-rave-18-charlotte-north-carolina-02-27-2026/event/2D00642733FD3A75",
-      "youtube_id": "OhbABwonLUs"
+      "youtube_id": null
     },
     {
       "artist": "JOSH LEVI",
@@ -39,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/77c/52b07ffb-b7c5-4c68-92cd-6c321773577c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/josh-levi-the-hydraulic-tour-18-charlotte-north-carolina-02-28-2026/event/2D006383BDEC6889",
-      "youtube_id": "KQTDkKgffnY"
+      "youtube_id": null
     },
     {
       "artist": "Doc 103",
@@ -51,8 +39,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/932/9f3f5395-d727-4024-acef-cfddfff61932_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/doc-103-celebrating-doc-watson-ft-charlotte-north-carolina-03-01-2026/event/2D00637323EBB646",
-      "youtube_id": "kh7l845u11I",
-      "opener_youtube_id": "JREouTHpyJE"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "artist": "Haffway",
@@ -64,7 +52,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c88/6f740ab6-9eac-4f42-b70b-dd34aefd3c88_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/haffway-the-wither-tour-charlotte-north-carolina-03-03-2026/event/2D006355E71DA6F7",
-      "youtube_id": "EvrdgG7Q4qo"
+      "youtube_id": null
     },
     {
       "artist": "Lotus",
@@ -88,8 +76,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/977/f062aa60-fbf6-4e8d-ac74-bbd6c6cf8977_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/robert-jon-the-wreck-with-special-charlotte-north-carolina-03-05-2026/event/2D00634E0684BDF7",
-      "youtube_id": "XORinLiOz0g",
-      "opener_youtube_id": "W9AwkvlCCNY"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "artist": "MO LOWDA & THE HUMBLE",
@@ -101,7 +89,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/e42/c0900957-c61b-4d9e-b8a5-76c72a59be42_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/mo-lowda-the-humble-tailing-the-charlotte-north-carolina-03-06-2026/event/2D00633DFCB0A157",
-      "youtube_id": "TZT3GMehz7s"
+      "youtube_id": null
     },
     {
       "artist": "ALEXSUCKS",
@@ -114,7 +102,7 @@
       "image": "https://s1.ticketm.net/dam/e/e78/4598ab4b-7e84-4e07-bad3-9b4c99c75e78_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/alexsucks-charlotte-north-carolina-03-07-2026/event/2D006388B153B45A",
       "youtube_id": "kwfLBGgUpuQ",
-      "opener_youtube_id": "9jE-dCQNIP4"
+      "opener_youtube_id": null
     },
     {
       "artist": "SATSANG",
@@ -126,7 +114,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c9a/b96eeffe-fe4c-47c3-a889-e19989e48c9a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/satsang-the-story-of-you-10-charlotte-north-carolina-03-08-2026/event/2D00636DD060663D",
-      "youtube_id": "qnleZRpWGsk"
+      "youtube_id": null
     },
     {
       "artist": "Los Straitjackets & Deke Dickerson",
@@ -138,7 +126,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/05d/4b1412fb-7700-4664-aab9-33c82fa6605d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/los-straitjackets-deke-dickerson-charlotte-north-carolina-03-10-2026/event/2D006388B111B41A",
-      "youtube_id": "RiQj57xemJU"
+      "youtube_id": null
     },
     {
       "artist": "CARTER FAITH",
@@ -150,7 +138,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/cfd/2af92abf-a018-4a9e-9303-520e8066bcfd_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/carter-faith-the-cherry-valley-tour-charlotte-north-carolina-03-13-2026/event/2D006379C47BAFE9",
-      "youtube_id": "FTGq4amVO4k"
+      "youtube_id": null
     },
     {
       "artist": "Eggy",
@@ -186,7 +174,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/02c/39d220ac-566c-420b-888a-102fc07bf02c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/all-your-friends-the-indie-party-charlotte-north-carolina-03-20-2026/event/2D0064301D21ED0E",
-      "youtube_id": "E5a51OonZDE"
+      "youtube_id": null
     },
     {
       "artist": "OLD CROW MEDICINE SHOW",
@@ -198,7 +186,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/81e/e3f9d22e-b21d-4f3e-b286-39751e43481e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/old-crow-medicine-show-ocms-big-charlotte-north-carolina-03-21-2026/event/2D006430C35CF3FD",
-      "youtube_id": "4-NaZzG5eAU"
+      "youtube_id": null
     },
     {
       "artist": "Natalie Jane",
@@ -210,7 +198,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/258/da6103d6-e011-45bb-81db-c046105c2258_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/natalie-jane-the-world-i-didnt-charlotte-north-carolina-03-25-2026/event/2D006358F0E1B7F5",
-      "youtube_id": "1BP2FIuGuuA"
+      "youtube_id": null
     },
     {
       "artist": "Yonder Mountain String Band",
@@ -234,7 +222,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d4c/5a6adb36-3b30-4aef-9ad7-f921497ced4c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/1300saint-the-savior-tour-18-charlotte-north-carolina-04-01-2026/event/2D00644282004CF7",
-      "youtube_id": "q2XenePkZbI"
+      "youtube_id": null
     },
     {
       "artist": "Walter Trout",
@@ -270,7 +258,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/87c/7b6fbf93-1378-485a-979c-e0590b19d87c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/the-rock-roll-playhouse-music-of-charlotte-north-carolina-04-04-2026/event/2D0064522B6C8F9B",
-      "youtube_id": "QO8xtyITw_g"
+      "youtube_id": null
     },
     {
       "artist": "JOHN COWAN TRIO",
@@ -282,7 +270,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/e39/182af857-2f6a-4ad2-b99c-1cddd2bdce39_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/john-cowan-trio-ft-luke-bulla-charlotte-north-carolina-04-07-2026/event/2D006433D8DEC4F8",
-      "youtube_id": "iRmBHsZp2uI"
+      "youtube_id": null
     },
     {
       "artist": "WALKER MONTGOMERY",
@@ -295,10 +283,22 @@
       "image": "https://s1.ticketm.net/dam/e/de5/98ec6876-ef34-4a82-9cbf-7b0a967bcde5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/walker-montgomery-saving-the-honky-tonks-charlotte-north-carolina-04-09-2026/event/2D006426A6407186",
       "youtube_id": "RYcYWbjE8UQ"
+    },
+    {
+      "artist": "Eddie 9V",
+      "date": "Fri, Apr 10",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/9af/0db43e19-4d89-4c09-ac26-8aff69dbf9af_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/eddie-9v-charlotte-north-carolina-04-10-2026/event/2D00644433F6B2CD",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 22,
+  "shows_with_video": 24,
   "shows_with_image": 24,
-  "last_updated": "2026-02-25T14:19:45.748516"
+  "last_updated": "2026-02-26T05:26:05.057584"
 }

@@ -114,7 +114,8 @@
       "image": "https://dice-media.imgix.net/attachments/2026-01-23/e0e9ef38-d4ed-4266-8560-4e0a6606249e.jpg",
       "ticket_url": "https://dice.fm/event/6dnkp3",
       "youtube_id": "KYUMoL9FrIA",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Alex Sampson",
@@ -286,8 +287,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 14,
-  "shows_with_video": 14,
-  "shows_with_image": 1,
+  "total_shows": 13,
+  "shows_with_video": 13,
+  "shows_with_image": 0,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

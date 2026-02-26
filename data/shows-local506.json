@@ -7,20 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Siamese \u2013 US Headline Tour 2026",
-      "date": "Tue, Feb 24",
-      "doors": "6:30 pm",
-      "showtime": "7:30 pm",
-      "opener": "w/ Hawk, Mirrorcell",
-      "image": "https://local506.com/wp-content/uploads/2025/10/siamese_506.jpg",
-      "ticket_url": "https://local506.com/event/siamese-us-headline-tour-2026/local-506/",
-      "notice": null,
-      "youtube_id": "ZEi2Djgf_0k",
-      "opener_youtube_id": "6p03KD5IBrI",
-      "expired": true
-    },
-    {
-      "venue": "Local 506",
       "artist": "Square One",
       "date": "Thu, Feb 26",
       "doors": "7 pm",
@@ -167,7 +153,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "_DyW7jWaO-0",
-      "opener_youtube_id": null
+      "opener_youtube_id": "WByGv-qdZ4w"
     },
     {
       "venue": "Local 506",
@@ -310,7 +296,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/36604784/treasure-pains-and-null-with-dug-and-snide-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "hm1I7mP5XSY",
-      "opener_youtube_id": null
+      "opener_youtube_id": "E3ru5vfyqZU"
     },
     {
       "venue": "Local 506",
@@ -324,10 +310,23 @@
       "notice": null,
       "youtube_id": "X52ki7PctKA",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Locally Sourced Weaponry",
+      "date": "Wed, Apr 08",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "The Horse Deniers and Hvac Tech",
+      "image": "https://local506.com/wp-content/uploads/2026/02/locally-sourced-weaponry-with-the-horse-deniers-and-hvac-tech.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/87686034/locally-sourced-weaponry-with-the-horse-deniers-and-hvac-tech-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 24,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-24T05:24:04.233483"
+  "total_shows": 25,
+  "shows_with_video": 25,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-26T05:23:35.199983"
 }

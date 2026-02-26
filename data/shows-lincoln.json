@@ -27,7 +27,7 @@
       "opener": "Cravin\u2019 Melon Acoustic",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/08/etix-Far_905201756141613.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/98089563/far-too-jones-wcravinmelon-acoustic-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
+      "notice": "Sold Out",
       "youtube_id": "g7BHWgwsN_w",
       "opener_youtube_id": "vv13NBN0678"
     },
@@ -137,6 +137,17 @@
       "ticket_url": "https://www.etix.com/ticket/p/58206763/eggy-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "oa0WTcgEkFU"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV",
+      "date": "Mon, Mar 16",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/Old-soul-crop.jpg",
+      "ticket_url": "https://lincolntheatre.com/event/the-old-soul-sessions-featuring-niito-dj-yae-uncool-kevv/",
+      "notice": null,
+      "youtube_id": null
     },
     {
       "venue": "Lincoln Theatre",
@@ -280,23 +291,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/82500225/tennessee-whiskey-band-chris-stapleton-tributeultimate-eric-church-tribute-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "Oak-louX_aY"
-    },
-    {
-      "venue": "Lincoln Theatre",
-      "artist": "Harvey Street",
-      "date": "Fri, Apr 17",
-      "doors": "7:30 pm",
-      "showtime": "8:30 pm",
-      "opener": "TBA",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/12/etix-Harvey_913841765368565.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/51681650/harvey-street-wtba-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "MfuEWKTH64Y",
-      "opener_youtube_id": "vK-iJyZ16UQ"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-24T05:24:17.957309"
+  "last_updated": "2026-02-26T05:23:45.644480"
 }

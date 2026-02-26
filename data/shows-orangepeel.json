@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Wax Tailor",
-      "date": "Wed, Feb 25",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Napoleon da Legend",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/08/etix-Wax_1036541755287171.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/37370050/wax-tailor-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "wsUKP8d_8q4",
-      "opener_youtube_id": "AoaBxhXmpUg"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Lotus",
       "date": "Thu, Feb 26",
       "doors": "7 pm",
@@ -28,7 +15,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Lotus_1040691761753465.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/67571925/lotus-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "Ak4vLEBxIo4",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -41,7 +28,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/08/etix-Jesse_1036081754590693.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/58802733/jesse-welles-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "El0CLduLgew",
+      "youtube_id": null,
       "opener_youtube_id": "oi5t3i2sbsk"
     },
     {
@@ -54,8 +41,8 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Dexter_1041691762544673.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/51991372/dexter-and-the-moonrocks-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "t3yQfuZaQJg",
-      "opener_youtube_id": "-KL3ffgEeCM"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -67,8 +54,8 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/12/etix-Aly_1042931764945496.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/91789582/aly-aj-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "l3cQUeGWcf0",
-      "opener_youtube_id": "nsAdwFPOTsw"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -92,8 +79,8 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-SunSquabi_1043841767797273.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/40922636/sunsquabi-manic-focus-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "8kqZHyZ_f-M",
-      "opener_youtube_id": "c5xEdWTfL0k"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -105,7 +92,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Donna_1040611761329966.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/34822209/donna-the-buffalo-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "XpwoIYnWbuU"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -117,8 +104,8 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/09/etix-Evan_1038321758542931.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/61765652/evan-honer-its-a-long-road-tour-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "rO5BMB8n_j4",
-      "opener_youtube_id": "oKp4ANukavs"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -130,7 +117,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Fringe_1042201763741282.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/45743672/fringe-revival-asheville-pulp?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "F1AATRo-EwQ"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -154,7 +141,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Gary_1040171760894904.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/58266482/gary-numan-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "PGiuajhBv7s",
+      "youtube_id": null,
       "opener_youtube_id": "WMgya2uKoYw"
     },
     {
@@ -167,7 +154,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Cat_1040921761859142.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/48898368/cat-power-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "aW2PcOyAWwM"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -179,7 +166,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-The_1039631760124444.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/62219798/the-hives-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": "Sold Out",
-      "youtube_id": "RQIBjIOMNYw",
+      "youtube_id": null,
       "opener_youtube_id": "1LGM82uPuvA"
     },
     {
@@ -217,7 +204,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2026/02/alla-prima-proxima-system-the-roosevelt-room-lily-of-the-valley.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/49251293/alla-prima-proxima-system-the-roosevelt-room-lily-of-the-valley-asheville-pulp?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "DJqPTGPGFNY"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -229,8 +216,8 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-Robert_1043991767962688.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/69814142/robert-earl-keen-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "iJRWtKePKuY",
-      "opener_youtube_id": "4dpLiTYmpGs"
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -242,7 +229,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-moe_1040751761821619.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/42808320/moe-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "xjhNW-6NyjI"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -254,7 +241,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-moe_1040751761821619.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/51409165/moe-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "xjhNW-6NyjI"
+      "youtube_id": null
     },
     {
       "venue": "The Orange Peel",
@@ -278,7 +265,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Drain_1041581762541812.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/35015874/drain-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "m4R1X3Yytc0",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -291,12 +278,12 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2025/12/etix-Mammoth_1042381764606576.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/51340825/mammoth-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "7w7rAEnMXDI",
-      "opener_youtube_id": "59amjf3qCCQ"
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
-  "total_shows": 23,
-  "shows_with_video": 23,
-  "shows_with_image": 23,
-  "last_updated": "2026-02-25T15:25:55.206228"
+  "total_shows": 22,
+  "shows_with_video": 22,
+  "shows_with_image": 22,
+  "last_updated": "2026-02-26T05:26:09.647962"
 }

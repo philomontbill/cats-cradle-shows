@@ -19,19 +19,6 @@
       "opener_youtube_id": "EqwjdX3PAR0"
     },
     {
-      "artist": "Colony House",
-      "date": "Fri, Feb 27",
-      "venue": "Mohawk Outdoor",
-      "opener": "Mercury",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
-      "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "Os8d8eyGhiA"
-    },
-    {
       "artist": "Cory Branan",
       "date": "Fri, Feb 27",
       "venue": "Mohawk Indoor",
@@ -43,6 +30,19 @@
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
       "youtube_id": "4EGi-dPtt9U",
       "opener_youtube_id": "tGqIgl2vztQ"
+    },
+    {
+      "artist": "Colony House",
+      "date": "Fri, Feb 27",
+      "venue": "Mohawk Outdoor",
+      "opener": "Mercury",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
+      "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
+      "youtube_id": "NRiOvSqn8aw",
+      "opener_youtube_id": "Os8d8eyGhiA"
     },
     {
       "artist": "SZN4",
@@ -97,19 +97,6 @@
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
-      "artist": "Clover County",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Indoor",
-      "opener": "Ethansroom",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:30pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
-      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
-      "youtube_id": "tNr4SrwNcmc",
-      "opener_youtube_id": "DMbAjG_pK28"
-    },
-    {
       "artist": "Yellow Days",
       "date": "Fri, Mar 06",
       "venue": "Mohawk Outdoor",
@@ -121,6 +108,19 @@
       "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
       "youtube_id": "jpYwsHTLv9o",
       "opener_youtube_id": "Q83W9q34RDs"
+    },
+    {
+      "artist": "Clover County",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Indoor",
+      "opener": "Ethansroom",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:30pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
+      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
+      "youtube_id": "tNr4SrwNcmc",
+      "opener_youtube_id": "DMbAjG_pK28"
     },
     {
       "artist": "HBO QUIZZO: Heated Rivalry",
@@ -171,7 +171,7 @@
       "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485192012",
       "ticket_url": "https://www.billboard.com/music/music-news/don-toliver-juniorh-mau-p-sxsw-billbaord-presents-the-stage-1236133001/",
-      "youtube_id": "LxL_nqxzn_c",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -180,11 +180,11 @@
       "venue": "Mohawk Outdoor",
       "opener": "To Be Announced",
       "notice": null,
-      "doors": "1:00pm",
-      "showtime": "2:00pm",
+      "doors": "",
+      "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186764",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186800",
-      "youtube_id": "DvXhh4QL_ZY",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -193,12 +193,24 @@
       "venue": "Mohawk Outdoor",
       "opener": "To Be Announced",
       "notice": null,
-      "doors": "1:00pm",
-      "showtime": "2:00pm",
+      "doors": "",
+      "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186457",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186496",
-      "youtube_id": "LxL_nqxzn_c",
+      "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "artist": "A Special Marshall Day Party",
+      "date": "Mon, Mar 16",
+      "venue": "Mohawk Outdoor",
+      "opener": null,
+      "notice": null,
+      "doors": "Noon",
+      "showtime": "Noon",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648483887724",
+      "ticket_url": "https://www.etix.com/ticket/p/33246312/marshall-day-party-austin-resound-presents",
+      "youtube_id": null
     },
     {
       "artist": "SXSW: Very Necessary Showcase",
@@ -314,23 +326,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
       "youtube_id": "quI9Xd-En1g",
       "opener_youtube_id": "xAnNUkkNUFY"
-    },
-    {
-      "artist": "Model/Actriz",
-      "date": "Fri, Apr 03",
-      "venue": "Mohawk Outdoor",
-      "opener": "Touching Ice, Almost Heaven",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593580159",
-      "ticket_url": "https://www.etix.com/ticket/p/90006677/modelactriz-austin-resound-presents",
-      "youtube_id": "37ptdYkJ1d0",
-      "opener_youtube_id": "Mqpb-LBM0PA"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-25T05:26:52.720008"
+  "last_updated": "2026-02-26T05:24:03.794766"
 }

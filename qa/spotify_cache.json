@@ -6069,5 +6069,712 @@
     "enriched_date": "2026-02-25T05:29:49.602302+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "10 Years, James and the Cold Gun": {
+    "spotify_id": "5YFIVhzlaYH9Yadjw9gSUx",
+    "spotify_name": "James and the Cold Gun",
+    "popularity": 25,
+    "followers": 10088,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:10.578197+00:00",
+    "match_confidence": "close",
+    "match_score": 0.925
+  },
+  "1300SAINT": {
+    "spotify_id": "40VzC4fLTuY4YWFwKXK4Cv",
+    "spotify_name": "1300SAINT",
+    "popularity": 43,
+    "followers": 30287,
+    "genres": [
+      "rage rap",
+      "underground hip hop"
+    ],
+    "enriched_date": "2026-02-26T05:26:10.993048+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.043
+  },
+  "A Special Marshall Day Party": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:11.438633+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "ALEXSUCKS": {
+    "spotify_id": "0zmxCsd8aIJHfNC95gdT2i",
+    "spotify_name": "alexsucks",
+    "popularity": 48,
+    "followers": 42396,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:11.782887+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.048
+  },
+  "ALL YOUR FRIENDS": {
+    "spotify_id": "5OTWpj6XtRKC3jIR1zFdKI",
+    "spotify_name": "all your friends",
+    "popularity": 7,
+    "followers": 739,
+    "genres": [
+      "witch house"
+    ],
+    "enriched_date": "2026-02-26T05:26:12.226630+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.007
+  },
+  "Alla Prima": {
+    "spotify_id": "4mx7oZI6TA6FU8qxXt4gXb",
+    "spotify_name": "Alla Prima",
+    "popularity": 0,
+    "followers": 58,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:12.719641+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.0
+  },
+  "Aly & AJ": {
+    "spotify_id": "5wugb0kaq0J6nyQ5Xgd17i",
+    "spotify_name": "Aly & AJ",
+    "popularity": 52,
+    "followers": 704940,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:13.053969+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.052
+  },
+  "Broadway Rave": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:13.427684+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "CARTER FAITH": {
+    "spotify_id": "4X5CTYQmx1NNyz9S1IpNko",
+    "spotify_name": "Carter Faith",
+    "popularity": 50,
+    "followers": 69170,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:13.954908+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.05
+  },
+  "Cat Power": {
+    "spotify_id": "6G7OerKc3eBO9sVkRNopFC",
+    "spotify_name": "Cat Power",
+    "popularity": 54,
+    "followers": 808393,
+    "genres": [
+      "slowcore",
+      "singer-songwriter"
+    ],
+    "enriched_date": "2026-02-26T05:26:14.349594+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.054
+  },
+  "Cure For Paranoia": {
+    "spotify_id": "4YRwYMJHtjOnfqkDd8EJbk",
+    "spotify_name": "Cure for Paranoia",
+    "popularity": 35,
+    "followers": 24966,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:14.719273+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.035
+  },
+  "Dexter and the Moonrocks": {
+    "spotify_id": "72sOBVpZpUwHq7i0vb26lT",
+    "spotify_name": "Dexter and The Moonrocks",
+    "popularity": 52,
+    "followers": 213460,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:15.321483+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.052
+  },
+  "Doc 103": {
+    "spotify_id": "3HFeTnI9sZCujHjuwlp4hZ",
+    "spotify_name": "Doc McStuffins",
+    "popularity": 29,
+    "followers": 4429,
+    "genres": [
+      "children's music"
+    ],
+    "enriched_date": "2026-02-26T05:26:15.802098+00:00",
+    "match_confidence": "partial",
+    "match_score": 0.5
+  },
+  "Dogma Society": {
+    "spotify_id": "3XtPzew2W9y3D3Uil0Wg8L",
+    "spotify_name": "DOGMA SOCIETY",
+    "popularity": 35,
+    "followers": 17031,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:16.274758+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.035
+  },
+  "Donna The Buffalo": {
+    "spotify_id": "3dV4xRik9AJpX2befK2ZGa",
+    "spotify_name": "Donna The Buffalo",
+    "popularity": 30,
+    "followers": 24263,
+    "genres": [
+      "jam band",
+      "newgrass",
+      "bluegrass",
+      "americana"
+    ],
+    "enriched_date": "2026-02-26T05:26:16.710987+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.03
+  },
+  "Drain": {
+    "spotify_id": "7FAAkDlPg6pg0860CIDzmu",
+    "spotify_name": "DRAIN",
+    "popularity": 45,
+    "followers": 135460,
+    "genres": [
+      "hardcore",
+      "hardcore punk"
+    ],
+    "enriched_date": "2026-02-26T05:26:17.160567+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.045
+  },
+  "Eddie 9V": {
+    "spotify_id": "2GHXeEEol7BPT31flS6O1B",
+    "spotify_name": "Eddie 9V",
+    "popularity": 46,
+    "followers": 29737,
+    "genres": [
+      "retro soul",
+      "soul blues",
+      "modern blues"
+    ],
+    "enriched_date": "2026-02-26T05:26:17.507923+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.046
+  },
+  "Evan Honer": {
+    "spotify_id": "1GERDglQrxe4ynLzcdG6qP",
+    "spotify_name": "Evan Honer",
+    "popularity": 62,
+    "followers": 198012,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:17.977247+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.062
+  },
+  "Evlo, Justo, Preme, Spg, Choco": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:18.282053+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Fox N' Vead": {
+    "spotify_id": "6b2SGANlOJdvJ9imgsVrSm",
+    "spotify_name": "Fox N' Vead",
+    "popularity": 41,
+    "followers": 23711,
+    "genres": [
+      "country rock",
+      "red dirt",
+      "alt country"
+    ],
+    "enriched_date": "2026-02-26T05:26:18.786592+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.041
+  },
+  "Fringe Revival": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:19.126553+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Gary Numan": {
+    "spotify_id": "5KQMtyPE8DCQNUzoNqlEsE",
+    "spotify_name": "Gary Numan",
+    "popularity": 51,
+    "followers": 527320,
+    "genres": [
+      "new wave",
+      "synthpop",
+      "post-punk"
+    ],
+    "enriched_date": "2026-02-26T05:26:19.522104+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.051
+  },
+  "Haffway": {
+    "spotify_id": "3GL9CphwkHjP0Niz2fTWJH",
+    "spotify_name": "HAFFWAY",
+    "popularity": 44,
+    "followers": 16385,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:20.087605+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.044
+  },
+  "Hayden Blount": {
+    "spotify_id": "3lMuNq4oBlVIMBJcpAuT4j",
+    "spotify_name": "Hayden Blount",
+    "popularity": 54,
+    "followers": 33316,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:20.493954+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.054
+  },
+  "Healyside Trio - feat. Mike Healy of Papadosio, Daniel Combs & Asher Hill": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:20.890832+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "JESSE ROPER + BEN CHAPMAN": {
+    "spotify_id": "0YnrslYN9hfy5ZRCQUjMMt",
+    "spotify_name": "Jesse Roper",
+    "popularity": 42,
+    "followers": 36577,
+    "genres": [
+      "modern blues",
+      "blues rock"
+    ],
+    "enriched_date": "2026-02-26T05:26:21.365583+00:00",
+    "match_confidence": "close",
+    "match_score": 0.942
+  },
+  "JOHN COWAN TRIO": {
+    "spotify_id": "6aOabUkAto0WT1xZ5qLBZY",
+    "spotify_name": "John Cowan",
+    "popularity": 15,
+    "followers": 2218,
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana"
+    ],
+    "enriched_date": "2026-02-26T05:26:21.804535+00:00",
+    "match_confidence": "close",
+    "match_score": 0.915
+  },
+  "JOSH LEVI": {
+    "spotify_id": "6NvsNA4Ea62yJh7ePTS8gz",
+    "spotify_name": "Josh Levi",
+    "popularity": 57,
+    "followers": 127919,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:22.296578+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.057
+  },
+  "Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:22.718835+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Jesse Welles": {
+    "spotify_id": "366xgdzfRGQoiDRGidGlDJ",
+    "spotify_name": "Jesse Welles",
+    "popularity": 54,
+    "followers": 410667,
+    "genres": [
+      "folk punk",
+      "folk"
+    ],
+    "enriched_date": "2026-02-26T05:26:23.075845+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.054
+  },
+  "Jordan Jensen": {
+    "spotify_id": "1zKKYBoipQJKJdOYyC2baI",
+    "spotify_name": "Jordan Jansen",
+    "popularity": 0,
+    "followers": 21,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:23.478950+00:00",
+    "match_confidence": "partial",
+    "match_score": 0.5
+  },
+  "Locally Sourced Weaponry": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:23.901721+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Lotus": {
+    "spotify_id": "1a4N2lwra7WGjwCDJS1Dkk",
+    "spotify_name": "Lotus ",
+    "popularity": 39,
+    "followers": 97567,
+    "genres": [
+      "jam band"
+    ],
+    "enriched_date": "2026-02-26T05:26:24.325805+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "MO LOWDA & THE HUMBLE": {
+    "spotify_id": "3P3iJ6AlAdlb4tYAu00Fhk",
+    "spotify_name": "Mo Lowda & the Humble",
+    "popularity": 49,
+    "followers": 77584,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:24.736923+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.049
+  },
+  "Mammoth": {
+    "spotify_id": "6WKdhhc03LqnixYI2ZzWzO",
+    "spotify_name": "Mammoth",
+    "popularity": 47,
+    "followers": 200161,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:25.127847+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.047
+  },
+  "Mike Gordon": {
+    "spotify_id": "2Onb70uN9rRM3VMerSpA37",
+    "spotify_name": "Mike Gordon",
+    "popularity": 29,
+    "followers": 28620,
+    "genres": [
+      "jam band",
+      "newgrass",
+      "funk rock"
+    ],
+    "enriched_date": "2026-02-26T05:26:25.551408+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.029
+  },
+  "Natalie Jane": {
+    "spotify_id": "5bfglVyGJppmmNoC2rhBUG",
+    "spotify_name": "Natalie Jane",
+    "popularity": 58,
+    "followers": 1193317,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:25.960509+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.058
+  },
+  "Nicholas Jamerson": {
+    "spotify_id": "5u27YZ9t9VGMtL74l4GeZO",
+    "spotify_name": "Nicholas Jamerson",
+    "popularity": 39,
+    "followers": 26383,
+    "genres": [
+      "americana",
+      "red dirt",
+      "alt country"
+    ],
+    "enriched_date": "2026-02-26T05:26:26.467072+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "No Pressure, Haywire, Secret World": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:26.924164+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Nolen Durham": {
+    "spotify_id": "0wzqc7zZ1zbYety8jqIeYZ",
+    "spotify_name": "Nolen Durham",
+    "popularity": 21,
+    "followers": 2175,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:27.412513+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.021
+  },
+  "OLD CROW MEDICINE SHOW": {
+    "spotify_id": "4DBi4EYXgiqbkxvWUXUzMi",
+    "spotify_name": "Old Crow Medicine Show",
+    "popularity": 51,
+    "followers": 462899,
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana",
+      "alt country",
+      "folk",
+      "indie folk"
+    ],
+    "enriched_date": "2026-02-26T05:26:27.850529+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.051
+  },
+  "Old Crow Medicine Show": {
+    "spotify_id": "4DBi4EYXgiqbkxvWUXUzMi",
+    "spotify_name": "Old Crow Medicine Show",
+    "popularity": 51,
+    "followers": 462899,
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana",
+      "alt country",
+      "folk",
+      "indie folk"
+    ],
+    "enriched_date": "2026-02-26T05:26:28.322840+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.051
+  },
+  "Olivia Wolf": {
+    "spotify_id": "4nCfP4yZhkF1g7g8MlzCM7",
+    "spotify_name": "Olivia Wolf",
+    "popularity": 21,
+    "followers": 18885,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:28.818433+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.021
+  },
+  "Phyphr": {
+    "spotify_id": "51ErKDr4i6xr9MVUAqimY0",
+    "spotify_name": "Phyphr",
+    "popularity": 31,
+    "followers": 9521,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:29.272566+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.031
+  },
+  "Prince of Eden and Fifth Floor": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:29.664773+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "ROBERT JON & THE WRECK": {
+    "spotify_id": "4FXvPjJz57tIo23OpzHlYC",
+    "spotify_name": "Robert Jon & the Wreck",
+    "popularity": 34,
+    "followers": 37046,
+    "genres": [
+      "southern rock",
+      "blues rock",
+      "modern blues",
+      "country rock",
+      "blues"
+    ],
+    "enriched_date": "2026-02-26T05:26:30.124794+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.034
+  },
+  "Robert Earl Keen": {
+    "spotify_id": "1jjpkAHC8bd9fRFfgKyYLP",
+    "spotify_name": "Robert Earl Keen",
+    "popularity": 45,
+    "followers": 200197,
+    "genres": [
+      "texas country",
+      "red dirt",
+      "alt country",
+      "outlaw country",
+      "americana"
+    ],
+    "enriched_date": "2026-02-26T05:26:30.500214+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.045
+  },
+  "S.G. Goodman": {
+    "spotify_id": "7hzn6FoCsEaUNPnPn7TJWd",
+    "spotify_name": "S.G. Goodman",
+    "popularity": 38,
+    "followers": 50414,
+    "genres": [
+      "southern gothic",
+      "alt country",
+      "americana"
+    ],
+    "enriched_date": "2026-02-26T05:26:30.954092+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.038
+  },
+  "SATSANG": {
+    "spotify_id": "5q73QGeZGnA3ChVIPxIvyc",
+    "spotify_name": "Satsang",
+    "popularity": 42,
+    "followers": 99550,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:31.454486+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.042
+  },
+  "Skullcrusher": {
+    "spotify_id": "1GUaQ6GpaxFPKZ0SCSsnwD",
+    "spotify_name": "Skullcrusher",
+    "popularity": 37,
+    "followers": 59711,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:31.871832+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.037
+  },
+  "SunSquabi": {
+    "spotify_id": "1CLLPNftraxuTDyTd6hn3J",
+    "spotify_name": "SunSquabi",
+    "popularity": 33,
+    "followers": 66773,
+    "genres": [
+      "jam band"
+    ],
+    "enriched_date": "2026-02-26T05:26:32.319861+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.033
+  },
+  "Tab Benoit": {
+    "spotify_id": "3ODYbknLzVe3cWQzVfbzGB",
+    "spotify_name": "Tab Benoit",
+    "popularity": 42,
+    "followers": 104365,
+    "genres": [
+      "blues",
+      "cajun",
+      "modern blues",
+      "zydeco",
+      "blues rock",
+      "country blues"
+    ],
+    "enriched_date": "2026-02-26T05:26:32.702868+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.042
+  },
+  "The Buzzard Company / Charles Latham and the Borrowed Band": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:33.150495+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "The Chats": {
+    "spotify_id": "1aQ7P3HtKOQFW16ebjiks1",
+    "spotify_name": "The Chats",
+    "popularity": 47,
+    "followers": 348342,
+    "genres": [
+      "punk"
+    ],
+    "enriched_date": "2026-02-26T05:26:33.648431+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.047
+  },
+  "The Hives": {
+    "spotify_id": "4DToQR3aKrHQSSRzSz8Nzt",
+    "spotify_name": "The Hives",
+    "popularity": 57,
+    "followers": 924476,
+    "genres": [
+      "garage rock"
+    ],
+    "enriched_date": "2026-02-26T05:26:34.089429+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.057
+  },
+  "The Horse Deniers and Hvac Tech": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:34.503037+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:34.961928+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "The Rock & Roll Playhouse": {
+    "spotify_id": "22gB5FsgmeZI79hG1E5wal",
+    "spotify_name": "The Rock & Roll Playhouse",
+    "popularity": 10,
+    "followers": 635,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:35.412159+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.01
+  },
+  "Tremours": {
+    "spotify_id": "3lBafPrb1MzhpqUxXDgItW",
+    "spotify_name": "Tremours",
+    "popularity": 12,
+    "followers": 1294,
+    "genres": [
+      "shoegaze",
+      "dream pop"
+    ],
+    "enriched_date": "2026-02-26T05:26:35.914975+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.012
+  },
+  "WALKER MONTGOMERY": {
+    "spotify_id": "5vAB5nEXC8gfRxudmFF9jl",
+    "spotify_name": "Walker Montgomery",
+    "popularity": 39,
+    "followers": 57628,
+    "genres": [
+      "country"
+    ],
+    "enriched_date": "2026-02-26T05:26:36.365548+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "Walter Trout": {
+    "spotify_id": "12LgviUQ9DbfYJJ9niDWRq",
+    "spotify_name": "Walter Trout",
+    "popularity": 38,
+    "followers": 133831,
+    "genres": [
+      "blues",
+      "blues rock",
+      "modern blues",
+      "classic blues"
+    ],
+    "enriched_date": "2026-02-26T05:26:36.774194+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.038
+  },
+  "h.pruz": {
+    "spotify_id": "3WWEKLW1zn4gtBSljQ8HQN",
+    "spotify_name": "h. pruz",
+    "popularity": 23,
+    "followers": 2242,
+    "genres": [],
+    "enriched_date": "2026-02-26T05:26:37.205032+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.023
+  },
+  "moe.": {
+    "spotify_id": "2ZfHMUPrxoZNDTBPHmmdhj",
+    "spotify_name": "moe.",
+    "popularity": 39,
+    "followers": 151856,
+    "genres": [
+      "jam band",
+      "newgrass"
+    ],
+    "enriched_date": "2026-02-26T05:26:37.626953+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "special guest Sam Morrow": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T05:26:38.039317+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

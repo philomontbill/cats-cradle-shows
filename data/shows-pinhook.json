@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Hex Files / Little Chair / Future Fix / Woke County Speedway",
-      "date": "Wed, Feb 25",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/hex-files-little-chair-future-fix-woke-county-speedway.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/42127270/hex-files-little-chair-future-fix-woke-county-speedway-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "QQbjW591Ct0"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Advance Base / Moontype / Moon Racer",
       "date": "Thu, Feb 26",
       "doors": "6:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/31723125/the-all-black-affair-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "cx6FgY-nDwE"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The Buzzard Company / Charles Latham and the Borrowed Band",
+      "date": "Thu, Mar 26",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/the-buzzard-company-charles-latham-and-the-borrowed-band.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/35095552/the-buzzard-company-charles-latham-and-the-borrowed-band-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-25T05:26:24.713444"
+  "last_updated": "2026-02-26T05:23:41.512339"
 }
