@@ -178,7 +178,7 @@
       "showtime": "6 pm",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Earlybirds_912721763379419.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/79791808/earlybirds-club-raleigh-lincoln-theatre?partner_id=100",
-      "notice": "Sold Out",
+      "notice": null,
       "youtube_id": "Oc0qXk0vkFE"
     },
     {
@@ -294,7 +294,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T18:46:51.821523"
+  "last_updated": "2026-02-26T20:43:18.799298"
 }

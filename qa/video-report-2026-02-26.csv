@@ -1,74 +1,83 @@
 Section,Artist,Venue,Date,Video URL,Spotify Match,Spotify Popularity,Detail,Changed
-Verified,"Braden Bales, Ezra",Bowery Ballroom,"Thu, Feb 26",https://youtube.com/watch?v=OBkjwip7Y_0,no_match,,"VEVO, 771,358 views",Recovered
-Verified,Sheer Mag,Bowery Ballroom,"Fri, Feb 27",https://youtube.com/watch?v=hCl-hJY0T9Y,exact,28,"channel match, 241,926 views",Recovered
-Verified,Logan Michael,Bowery Ballroom,"Sat, Feb 28",https://youtube.com/watch?v=uwsVxiVsMY8,exact,51,"channel match, Topic channel, 163,799 views",Recovered
-Verified,"Residual Groove, One Time Weekend",Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=BnaTkioAkEQ,close,9,"channel match, 188 views",Recovered
-Verified,Surfing For Daisy,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=A85xNCC2Wvc,exact,36,"channel match, 927 views",New
-Verified,JOSH LEVI,Neighborhood Theatre,"Sat, Feb 28",https://youtube.com/watch?v=KQTDkKgffnY,exact,57,channel match,Recovered
-Verified,Haffway,Neighborhood Theatre,"Tue, Mar 03",https://youtube.com/watch?v=EvrdgG7Q4qo,exact,44,"channel match, VEVO, 18,949 views",Recovered
-Verified,ROBERT JON & THE WRECK,Neighborhood Theatre,"Thu, Mar 05",https://youtube.com/watch?v=XORinLiOz0g,exact,34,"492,837 views",Recovered
-Verified,MO LOWDA & THE HUMBLE,Neighborhood Theatre,"Fri, Mar 06",https://youtube.com/watch?v=TZT3GMehz7s,exact,49,"channel match, 26,924 views",Recovered
-Verified,1300SAINT,Neighborhood Theatre,"Wed, Apr 01",https://youtube.com/watch?v=q2XenePkZbI,exact,43,"33,411 views",Recovered
-Verified,Dexter and the Moonrocks,The Orange Peel,"Sat, Feb 28",https://youtube.com/watch?v=t3yQfuZaQJg,exact,52,"channel match, 701,732 views",Recovered
-Verified,Fox N' Vead,The Orange Peel,"Sat, Feb 28",https://youtube.com/watch?v=-KL3ffgEeCM,exact,41,"channel match, 83,039 views",Recovered
-Verified,Phyphr,The Orange Peel,"Thu, Mar 05",https://youtube.com/watch?v=dZ3TCHIti7E,exact,31,369 views,Recovered
-Verified,Evan Honer,The Orange Peel,"Sat, Mar 07",https://youtube.com/watch?v=uqgYgbZMtFA,exact,62,"channel match, 382,184 views",Recovered
-Verified,Nicholas Jamerson,The Orange Peel,"Sat, Mar 07",https://youtube.com/watch?v=gyZuv54KOXY,exact,39,"12,520 views",Recovered
-Verified,Alla Prima,The Orange Peel,"Wed, Mar 18",https://youtube.com/watch?v=d3tnnNE2618,exact,0,"2,327 views",Recovered
-Verified,Olivia Wolf,The Orange Peel,"Thu, Mar 19",https://youtube.com/watch?v=FkJdIyC81QI,exact,21,"channel match, VEVO, 14,004 views",Recovered
-Verified,moe.,The Orange Peel,"Fri, Mar 20",https://youtube.com/watch?v=HBXS8_CzOmY,exact,39,"channel match, 11,831 views",Recovered
-Verified,moe.,The Orange Peel,"Sat, Mar 21",https://youtube.com/watch?v=a6cNgEMzZok,exact,39,"channel match, 5,877 views",Recovered
-Verified,The Buzzard Company / Charles Latham and the Borrowed Band,The Pinhook,"Thu, Mar 26",https://youtube.com/watch?v=gKrVMfgdPrA,no_match,,"channel match, 1,571 views",Recovered
-Rejected,JaeyBxrd,Bowery Ballroom,"Thu, Feb 26",https://youtube.com/watch?v=zeR6EpcLUgg,exact,45,could not fetch video metadata,New
-Rejected,Freddie McClendon,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=P3poZuMNpbo,exact,27,could not fetch video metadata,New
-Rejected,BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=BTTQZtXZBK0,no_match,,could not fetch video metadata,New
-Rejected,"Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=rQjDP_dyP50,no_match,,could not fetch video metadata,New
-Rejected,"Arianna Chetram, Malik English, lady t",Bowery Ballroom,"Mon, Mar 02",https://youtube.com/watch?v=j95bawjCSEE,no_match,,could not fetch video metadata,New
-Rejected,"Muo Duo, Evan Isaac, Segami, Annabel Asher",Bowery Ballroom,"Tue, Mar 03",https://youtube.com/watch?v=2p2tuJcKpuY,no_match,,could not fetch video metadata,New
-Rejected,Ike Reilly Assassination,Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=pMFGSdYg310,close,10,could not fetch video metadata,New
-Rejected,Mike Viola,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=sO3onB0aoyo,exact,20,could not fetch video metadata,New
+Rejected,"Braden Bales, Ezra",Bowery Ballroom,"Thu, Feb 26",https://youtube.com/watch?v=QxXrjLaUtDE,no_match,,could not fetch video metadata,New
+Rejected,JaeyBxrd,Bowery Ballroom,"Thu, Feb 26",https://youtube.com/watch?v=zWl5pQowHmk,exact,45,could not fetch video metadata,New
+Rejected,Logan Michael,Bowery Ballroom,"Sat, Feb 28",https://youtube.com/watch?v=Ip3DO5EBhfY,exact,51,could not fetch video metadata,New
+Rejected,The Rikkies & SUM SUN w/ So Impartial,Bowery Ballroom,"Sat, Feb 28",https://youtube.com/watch?v=efMDcy6PV2k,no_match,,could not fetch video metadata,New
+Rejected,Freddie McClendon,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=lJilfBXgAC8,exact,27,could not fetch video metadata,New
+Rejected,BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=6UplsJkRz10,no_match,,could not fetch video metadata,New
+Rejected,"Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=5lv-Viait7k,no_match,,could not fetch video metadata,New
+Rejected,"Arianna Chetram, Malik English, lady t",Bowery Ballroom,"Mon, Mar 02",https://youtube.com/watch?v=sz-Wg4eCJK4,no_match,,could not fetch video metadata,New
+Rejected,"Muo Duo, Evan Isaac, Segami, Annabel Asher",Bowery Ballroom,"Tue, Mar 03",https://youtube.com/watch?v=IgAeDXWcRtE,no_match,,could not fetch video metadata,New
+Rejected,Ike Reilly Assassination,Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=1RyIbAdHWT4,close,10,could not fetch video metadata,New
+Rejected,"Residual Groove, One Time Weekend",Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=CAkKMlsyYf8,close,9,could not fetch video metadata,New
+Rejected,Mike Viola,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=1MGBP0xKl-U,exact,20,could not fetch video metadata,New
 Rejected,The Ramona Flowers,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=5eZoJBcf6BE,exact,24,could not fetch video metadata,New
 Rejected,All Your Friends: The Indie Party,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=E5a51OonZDE,no_match,,could not fetch video metadata,New
 Rejected,Cure For Paranoia,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=Zvr8cyhQ2Aw,exact,35,could not fetch video metadata,New
-Rejected,TELYKAST,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=Dl3cAu7YSBM,exact,53,could not fetch video metadata,New
-Rejected,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=-auKhd23DE4,no_match,,venue placeholder image (cradlevenue.png); could not fetch video metadata,New
-Rejected,"Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=Cki-mnHhNtY,no_match,,venue placeholder image (cradlevenue.png); could not fetch video metadata,New
-Rejected,"Slow Teeth, Scrape, Minor Stars",Motorco Music Hall,"Sat, Mar 07",https://youtube.com/watch?v=55NKuri-t7I,no_match,,could not fetch video metadata,New
-Rejected,An Evening With,Cat's Cradle,"Tue, Mar 10",https://youtube.com/watch?v=KMTo2LmixqQ,close,4,could not fetch video metadata,New
-Rejected,h.pruz,Cat's Cradle Back Room,"Mon, Mar 16",https://youtube.com/watch?v=7Lo4IjJS5G4,exact,23,could not fetch video metadata,New
-Rejected,"Evlo, Justo, Preme, Spg, Choco",Kings,"Sun, Mar 1",https://youtube.com/watch?v=j9O9Hx7L2gg,no_match,,could not fetch video metadata,New
-Rejected,Ezra,Kings,"Tue, Mar 3",https://youtube.com/watch?v=aAiVsqfbn5g,exact,38,could not fetch video metadata,New
-Rejected,Al Flynn,Kings,"Sat, Mar 28",https://youtube.com/watch?v=a4QQ7HYYdWw,partial,46,could not fetch video metadata,New
-Rejected,@ Kings,Lincoln Theatre,"Sat, Mar 07",https://youtube.com/watch?v=dEiyNoCyvVY,exact,41,could not fetch video metadata,New
-Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Fri, Mar 13",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,not found on Spotify + channel mismatch,New
-Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sat, Mar 14",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,could not fetch video metadata,New
-Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sun, Mar 15",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,could not fetch video metadata,New
-Rejected,A Special Marshall Day Party,Mohawk Outdoor,"Mon, Mar 16",https://youtube.com/watch?v=5KDCuHk1HNM,no_match,,could not fetch video metadata,New
-Rejected,"Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",Mohawk Indoor,"Wed, Mar 18",https://youtube.com/watch?v=9bi9tdZrinU,no_match,,could not fetch video metadata,New
-Rejected,"Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",Mohawk Outdoor,"Sat, Mar 21",https://youtube.com/watch?v=sl7SIylFSoM,no_match,,could not fetch video metadata,New
-Rejected,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",https://youtube.com/watch?v=eBG7P-K-r1Y,no_match,,"view count 369,311,776 exceeds 50,000,000 cap",New
-Rejected,Broadway Rave,Neighborhood Theatre,"Fri, Feb 27",https://youtube.com/watch?v=OhbABwonLUs,no_match,,not found on Spotify + channel mismatch,New
+Rejected,TELYKAST,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=0SvT0R3da8s,exact,53,could not fetch video metadata,New
+Rejected,Surfing For Daisy,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=LFV-p4zCz5Y,exact,36,could not fetch video metadata,New
+Rejected,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=_WaG4xiKpVM,no_match,,venue placeholder image (cradlevenue.png); could not fetch video metadata,New
+Rejected,"Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=HPi3PpuCyo8,no_match,,venue placeholder image (cradlevenue.png); could not fetch video metadata,New
+Rejected,"Slow Teeth, Scrape, Minor Stars",Motorco Music Hall,"Sat, Mar 07",https://youtube.com/watch?v=oTi8bvOc2VE,no_match,,could not fetch video metadata,New
+Rejected,An Evening With,Cat's Cradle,"Tue, Mar 10",https://youtube.com/watch?v=0lxA1FXOiv0,close,4,could not fetch video metadata,New
+Rejected,Los Straitjackets & Deke Dickerson,Cat's Cradle Back Room,"Wed, Mar 11",https://youtube.com/watch?v=A-MOMaDr3tU,close,32,could not fetch video metadata,New
+Rejected,h.pruz,Cat's Cradle Back Room,"Mon, Mar 16",https://youtube.com/watch?v=lcvRUy_Mfkk,exact,23,could not fetch video metadata,New
+Rejected,The Cast Of Beatlemania Performing Hits From Every Era,Elevation 27,"Fri, Feb 27",https://youtube.com/watch?v=V1IL9gdE5pw,no_match,,could not fetch video metadata,New
+Rejected,It’s A 2000’s Party by Slacker University (Ages 18 & Up),Elevation 27,"Fri, Mar 27",https://youtube.com/watch?v=aM7-EElgADc,no_match,,could not fetch video metadata,New
+Rejected,"Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",Elevation 27,"Sun, Mar 29",https://youtube.com/watch?v=NnDv8M5ZDXU,no_match,,could not fetch video metadata,New
+Rejected,Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,Elevation 27,"Fri, Apr 03",https://youtube.com/watch?v=_NMn4srj6XQ,no_match,,could not fetch video metadata,New
+Rejected,United We Dance: The Ultimate Rave Experience (Ages 18 & Up),Elevation 27,"Fri, Apr 17",https://youtube.com/watch?v=8bGYX11jpPU,no_match,,could not fetch video metadata,New
+Rejected,andmoreagain presentsThe Psycodelics,Kings,"Thu, Feb 26",https://youtube.com/watch?v=uPK0Th_ugSE,no_match,,could not fetch video metadata,New
+Rejected,"Evlo, Justo, Preme, Spg, Choco",Kings,"Sun, Mar 1",https://youtube.com/watch?v=VBDrIlWd3hY,no_match,,could not fetch video metadata,New
+Rejected,Ezra,Kings,"Tue, Mar 3",https://youtube.com/watch?v=--6fqzrPbSQ,exact,38,could not fetch video metadata,New
+Rejected,JULIA. – ‘Fish in the Percolator’ Album Release Show,Kings,"Fri, Mar 13",https://youtube.com/watch?v=nlbQJHI2ILs,no_match,,could not fetch video metadata,New
+Rejected,Al Flynn,Kings,"Sat, Mar 28",https://youtube.com/watch?v=uQ-r90DC45E,partial,46,could not fetch video metadata,New
+Rejected,@ Kings,Lincoln Theatre,"Sat, Mar 07",https://youtube.com/watch?v=YlXtrnh-Ejo,exact,41,could not fetch video metadata,New
+Rejected,The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV,Lincoln Theatre,"Mon, Mar 16",https://youtube.com/watch?v=7IwIUYSE5Tg,no_match,,could not fetch video metadata,New
+Rejected,Buck Swope and Green Room,Local 506,"Thu, Feb 26",https://youtube.com/watch?v=yYqXExMQZFI,no_match,,could not fetch video metadata,New
+Rejected,Small Doses and Chiroptera,Local 506,"Thu, Mar 05",https://youtube.com/watch?v=oIKPwaslKsg,no_match,,could not fetch video metadata,New
+Rejected,Snowblinder and Dead Halos,Local 506,"Sat, Mar 14",https://youtube.com/watch?v=IC1n6iefrCk,no_match,,could not fetch video metadata,New
+Rejected,Julian Calendar and Sonic Blooms,Local 506,"Sat, Mar 21",https://youtube.com/watch?v=tpoZuT0u41U,no_match,,could not fetch video metadata,New
+Rejected,Catiline and Mantaray,Local 506,"Sun, Mar 29",https://youtube.com/watch?v=dVJE0Jvmkgg,no_match,,could not fetch video metadata,New
+Rejected,Hemlock Theory and Under The Catacombs of Paris,Local 506,"Thu, Apr 02",https://youtube.com/watch?v=fHb3tYBuSZE,no_match,,could not fetch video metadata,New
+Rejected,Locally Sourced Weaponry,Local 506,"Wed, Apr 08",https://youtube.com/watch?v=YzgodOR0yYQ,no_match,,could not fetch video metadata,New
+Rejected,The Horse Deniers and Hvac Tech,Local 506,"Wed, Apr 08",https://youtube.com/watch?v=wU2IvX5mFeE,no_match,,could not fetch video metadata,New
+Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Fri, Mar 13",https://youtube.com/watch?v=EOTebhPy04g,no_match,,could not fetch video metadata,New
+Rejected,To Be Announced,Mohawk Outdoor,"Fri, Mar 13",https://youtube.com/watch?v=C1vI3ZIkbr4,exact,0,could not fetch video metadata,New
+Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sat, Mar 14",https://youtube.com/watch?v=Lwp-89sUggs,no_match,,could not fetch video metadata,New
+Rejected,To Be Announced,Mohawk Outdoor,"Sat, Mar 14",https://youtube.com/watch?v=C1vI3ZIkbr4,exact,0,could not fetch video metadata,New
+Rejected,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sun, Mar 15",https://youtube.com/watch?v=jOaH4vFbHBU,no_match,,could not fetch video metadata,New
+Rejected,To Be Announced,Mohawk Outdoor,"Sun, Mar 15",https://youtube.com/watch?v=C1vI3ZIkbr4,exact,0,could not fetch video metadata,New
+Rejected,A Special Marshall Day Party,Mohawk Outdoor,"Mon, Mar 16",https://youtube.com/watch?v=28IP7wHVP-A,no_match,,could not fetch video metadata,New
+Rejected,"Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",Mohawk Indoor,"Wed, Mar 18",https://youtube.com/watch?v=Xk_YVcimlfA,no_match,,could not fetch video metadata,New
+Rejected,"Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",Mohawk Outdoor,"Sat, Mar 21",https://youtube.com/watch?v=CDl9ZMfj6aE,no_match,,could not fetch video metadata,New
+Rejected,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",https://youtube.com/watch?v=ebJ2brErERQ,no_match,,could not fetch video metadata,New
+Rejected,Broadway Rave,Neighborhood Theatre,"Fri, Feb 27",https://youtube.com/watch?v=g9xEJl0kH6A,no_match,,could not fetch video metadata,New
 Rejected,Doc 103,Neighborhood Theatre,"Sun, Mar 01",https://youtube.com/watch?v=kh7l845u11I,partial,29,could not fetch video metadata,New
-Rejected,"Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more",Neighborhood Theatre,"Sun, Mar 01",https://youtube.com/watch?v=JREouTHpyJE,no_match,,could not fetch video metadata,New
+Rejected,"Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more",Neighborhood Theatre,"Sun, Mar 01",https://youtube.com/watch?v=9CPnyv-ddRg,no_match,,could not fetch video metadata,New
+Rejected,Lotus,Neighborhood Theatre,"Wed, Mar 04",https://youtube.com/watch?v=A57rz0mMFkE,exact,39,could not fetch video metadata,New
 Rejected,special guest Sam Morrow,Neighborhood Theatre,"Thu, Mar 05",https://youtube.com/watch?v=W9AwkvlCCNY,no_match,,could not fetch video metadata,New
-Rejected,Dogma Society,Neighborhood Theatre,"Sat, Mar 07",https://youtube.com/watch?v=9jE-dCQNIP4,exact,35,could not fetch video metadata,New
-Rejected,SATSANG,Neighborhood Theatre,"Sun, Mar 08",https://youtube.com/watch?v=qnleZRpWGsk,exact,42,could not fetch video metadata,New
-Rejected,Los Straitjackets & Deke Dickerson,Neighborhood Theatre,"Tue, Mar 10",https://youtube.com/watch?v=RiQj57xemJU,close,32,could not fetch video metadata,New
+Rejected,Dogma Society,Neighborhood Theatre,"Sat, Mar 07",https://youtube.com/watch?v=CqpJ3q3Toys,exact,35,could not fetch video metadata,New
+Rejected,SATSANG,Neighborhood Theatre,"Sun, Mar 08",https://youtube.com/watch?v=T-t75r0XGSM,exact,42,could not fetch video metadata,New
+Rejected,Los Straitjackets & Deke Dickerson,Neighborhood Theatre,"Tue, Mar 10",https://youtube.com/watch?v=A-MOMaDr3tU,close,32,could not fetch video metadata,New
 Rejected,CARTER FAITH,Neighborhood Theatre,"Fri, Mar 13",https://youtube.com/watch?v=FTGq4amVO4k,exact,50,could not fetch video metadata,New
 Rejected,ALL YOUR FRIENDS,Neighborhood Theatre,"Fri, Mar 20",https://youtube.com/watch?v=E5a51OonZDE,exact,7,could not fetch video metadata,New
-Rejected,OLD CROW MEDICINE SHOW,Neighborhood Theatre,"Sat, Mar 21",https://youtube.com/watch?v=4-NaZzG5eAU,exact,51,could not fetch video metadata,New
-Rejected,Natalie Jane,Neighborhood Theatre,"Wed, Mar 25",https://youtube.com/watch?v=1BP2FIuGuuA,exact,58,could not fetch video metadata,New
-Rejected,The Rock & Roll Playhouse,Neighborhood Theatre,"Sat, Apr 04",https://youtube.com/watch?v=QO8xtyITw_g,exact,10,could not fetch video metadata,New
-Rejected,JOHN COWAN TRIO,Neighborhood Theatre,"Tue, Apr 07",https://youtube.com/watch?v=iRmBHsZp2uI,close,15,could not fetch video metadata,New
-Rejected,Eddie 9V,Neighborhood Theatre,"Fri, Apr 10",https://youtube.com/watch?v=mOIxgVviEFI,exact,46,could not fetch video metadata,New
-Rejected,Jesse Welles,The Orange Peel,"Fri, Feb 27",https://youtube.com/watch?v=UCBkt5Nt1wo,exact,54,could not fetch video metadata,New
-Rejected,Aly & AJ,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=l3cQUeGWcf0,exact,52,could not fetch video metadata,New
-Rejected,Hayden Blount,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=nsAdwFPOTsw,exact,54,could not fetch video metadata,New
-Rejected,SunSquabi,The Orange Peel,"Thu, Mar 05",https://youtube.com/watch?v=h7vGOr3P4no,exact,33,could not fetch video metadata,New
-Rejected,Donna The Buffalo,The Orange Peel,"Fri, Mar 06",https://youtube.com/watch?v=0Emwn_RURUg,exact,30,could not fetch video metadata,New
+Rejected,OLD CROW MEDICINE SHOW,Neighborhood Theatre,"Sat, Mar 21",https://youtube.com/watch?v=1gX1EP6mG-E,exact,51,could not fetch video metadata,New
+Rejected,Natalie Jane,Neighborhood Theatre,"Wed, Mar 25",https://youtube.com/watch?v=5V6P1DV6OGI,exact,58,could not fetch video metadata,New
+Rejected,JESSE ROPER + BEN CHAPMAN,Neighborhood Theatre,"Fri, Apr 03",https://youtube.com/watch?v=BaUYa8_ece8,close,42,could not fetch video metadata,New
+Rejected,The Rock & Roll Playhouse,Neighborhood Theatre,"Sat, Apr 04",https://youtube.com/watch?v=CyT6V1cJKSs,exact,10,could not fetch video metadata,New
+Rejected,JOHN COWAN TRIO,Neighborhood Theatre,"Tue, Apr 07",https://youtube.com/watch?v=ZrkgP4dokoQ,close,15,could not fetch video metadata,New
+Rejected,Eddie 9V,Neighborhood Theatre,"Fri, Apr 10",https://youtube.com/watch?v=Kz47bLW5lds,exact,46,could not fetch video metadata,New
+Rejected,Lotus,The Orange Peel,"Thu, Feb 26",https://youtube.com/watch?v=A57rz0mMFkE,exact,39,could not fetch video metadata,New
+Rejected,"Healyside Trio - feat. Mike Healy of Papadosio, Daniel Combs & Asher Hill",The Orange Peel,"Thu, Feb 26",https://youtube.com/watch?v=8-ljJ0HMGqo,no_match,,could not fetch video metadata,New
+Rejected,Jesse Welles,The Orange Peel,"Fri, Feb 27",https://youtube.com/watch?v=ubcUBQX1M20,exact,54,could not fetch video metadata,New
+Rejected,Aly & AJ,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=TLKiKJ8FYoA,exact,52,could not fetch video metadata,New
+Rejected,Hayden Blount,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=GMlK_e3hinE,exact,54,could not fetch video metadata,New
+Rejected,SunSquabi,The Orange Peel,"Thu, Mar 05",https://youtube.com/watch?v=8kqZHyZ_f-M,exact,33,could not fetch video metadata,New
+Rejected,Donna The Buffalo,The Orange Peel,"Fri, Mar 06",https://youtube.com/watch?v=IXPexLWhNRg,exact,30,could not fetch video metadata,New
 Rejected,Fringe Revival,The Orange Peel,"Sun, Mar 08",https://youtube.com/watch?v=8bL4yrvCFlA,no_match,,could not fetch video metadata,New
 Rejected,Gary Numan,The Orange Peel,"Thu, Mar 12",https://youtube.com/watch?v=lHomCiPFknY,exact,51,could not fetch video metadata,New
-Rejected,Cat Power,The Orange Peel,"Fri, Mar 13",https://youtube.com/watch?v=f-Tsk-cPXxI,exact,54,could not fetch video metadata,New
+Rejected,Cat Power,The Orange Peel,"Fri, Mar 13",https://youtube.com/watch?v=BMxjaye7tNY,exact,54,could not fetch video metadata,New
 Rejected,The Hives,The Orange Peel,"Sat, Mar 14",https://youtube.com/watch?v=RQIBjIOMNYw,exact,57,could not fetch video metadata,New
 Rejected,Prince of Eden and Fifth Floor,The Orange Peel,"Sun, Mar 15",https://youtube.com/watch?v=MbpDmYY21EY,no_match,,could not fetch video metadata,New
 Rejected,Robert Earl Keen,The Orange Peel,"Thu, Mar 19",https://youtube.com/watch?v=ieY1hOwhuKA,exact,45,could not fetch video metadata,New
@@ -76,29 +85,33 @@ Rejected,Drain,The Orange Peel,"Tue, Mar 24",https://youtube.com/watch?v=1Zni52X
 Rejected,"No Pressure, Haywire, Secret World",The Orange Peel,"Tue, Mar 24",https://youtube.com/watch?v=KcGGHSUAbM0,no_match,,could not fetch video metadata,New
 Rejected,Mammoth,The Orange Peel,"Wed, Mar 25",https://youtube.com/watch?v=7w7rAEnMXDI,exact,47,could not fetch video metadata,New
 Rejected,"10 Years, James and the Cold Gun",The Orange Peel,"Wed, Mar 25",https://youtube.com/watch?v=59amjf3qCCQ,close,25,could not fetch video metadata,New
-Rejected,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",https://youtube.com/watch?v=gU7003Juh7c,close,25,"view count 12,383,216 exceeds 5,000,000 cap",New
-No Preview,The Rikkies & SUM SUN w/ So Impartial,Bowery Ballroom,"Sat, Feb 28",,no_match,,No video from scraper,
-No Preview,The Ruckus,Bowery Ballroom,"Sat, Feb 28",,exact,8,No video from scraper,
+Rejected,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",https://youtube.com/watch?v=XuEnDoRJPO4,close,25,could not fetch video metadata,New
+No Preview,"Braden Bales, Ezra",Bowery Ballroom,"Thu, Feb 26",,no_match,,Rejected: could not fetch video metadata,
+No Preview,Logan Michael,Bowery Ballroom,"Sat, Feb 28",,exact,51,Rejected: could not fetch video metadata,
+No Preview,The Rikkies & SUM SUN w/ So Impartial,Bowery Ballroom,"Sat, Feb 28",,no_match,,Rejected: could not fetch video metadata,
 No Preview,Freddie McClendon,Bowery Ballroom,"Sun, Mar 01",,exact,27,Rejected: could not fetch video metadata,
 No Preview,BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?,Bowery Ballroom,"Sun, Mar 01",,no_match,,Rejected: could not fetch video metadata,
 No Preview,"Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",Bowery Ballroom,"Sun, Mar 01",,no_match,,Rejected: could not fetch video metadata,
 No Preview,"Arianna Chetram, Malik English, lady t",Bowery Ballroom,"Mon, Mar 02",,no_match,,Rejected: could not fetch video metadata,
 No Preview,"Muo Duo, Evan Isaac, Segami, Annabel Asher",Bowery Ballroom,"Tue, Mar 03",,no_match,,Rejected: could not fetch video metadata,
 No Preview,Ike Reilly Assassination,Bowery Ballroom,"Wed, Mar 04",,close,10,Rejected: could not fetch video metadata,
+No Preview,"Residual Groove, One Time Weekend",Bowery Ballroom,"Wed, Mar 04",,close,9,Rejected: could not fetch video metadata,
 No Preview,Mike Viola,Bowery Ballroom,"Fri, Mar 06",,exact,20,Rejected: could not fetch video metadata,
 No Preview,The Ramona Flowers,Bowery Ballroom,"Fri, Mar 06",,exact,24,Rejected: could not fetch video metadata,
 No Preview,All Your Friends: The Indie Party,Bowery Ballroom,"Fri, Mar 06",,no_match,,Rejected: could not fetch video metadata,
 No Preview,Cure For Paranoia,Bowery Ballroom,"Sat, Mar 07",,exact,35,Rejected: could not fetch video metadata,
 No Preview,TELYKAST,Bowery Ballroom,"Sat, Mar 07",,exact,53,Rejected: could not fetch video metadata,
+No Preview,Surfing For Daisy,Bowery Ballroom,"Sat, Mar 07",,exact,36,Rejected: could not fetch video metadata,
 No Preview,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",,no_match,,Rejected: venue placeholder image (cradlevenue.png); could not fetch video metadata,
 No Preview,"Slow Teeth, Scrape, Minor Stars",Motorco Music Hall,"Sat, Mar 07",,no_match,,Rejected: could not fetch video metadata,
+No Preview,Los Straitjackets & Deke Dickerson,Cat's Cradle Back Room,"Wed, Mar 11",,close,32,Rejected: could not fetch video metadata,
 No Preview,SZN4,El Club,"Sat, Feb 14",,exact,39,No video from scraper,
 No Preview,Super Future,El Club,"Fri, Feb 20",,exact,35,No video assigned,
 No Preview,It's A 2000s Party: Detroit,El Club,"Sat, Feb 21",,no_match,,No video assigned,
 No Preview,The Cast Of Beatlemania Performing Hits From Every Era,Elevation 27,"Fri, Feb 27",,no_match,,Rejected: could not fetch video metadata,
 No Preview,It’s A 2000’s Party by Slacker University (Ages 18 & Up),Elevation 27,"Fri, Mar 27",,no_match,,Rejected: could not fetch video metadata,
 No Preview,"Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",Elevation 27,"Sun, Mar 29",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,Elevation 27,"Fri, Apr 03",,no_match,,No video assigned,
+No Preview,Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,Elevation 27,"Fri, Apr 03",,no_match,,Rejected: could not fetch video metadata,
 No Preview,United We Dance: The Ultimate Rave Experience (Ages 18 & Up),Elevation 27,"Fri, Apr 17",,no_match,,Rejected: could not fetch video metadata,
 No Preview,andmoreagain presentsThe Psycodelics,Kings,"Thu, Feb 26",,no_match,,Rejected: could not fetch video metadata,
 No Preview,SINIESTRE Latin Goth Prom: Tesoro’s Eternal Youth Edition,Kings,"Fri, Feb 27",,no_match,,No video assigned,
@@ -118,13 +131,13 @@ No Preview,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sun, Mar 15",,no_
 No Preview,A Special Marshall Day Party,Mohawk Outdoor,"Mon, Mar 16",,no_match,,Rejected: could not fetch video metadata,
 No Preview,SXSW: Very Necessary Showcase,Mohawk Indoor,"Wed, Mar 18",,no_match,,No video assigned,
 No Preview,Recovery Takeover 2026,Mohawk Outdoor,"Sat, Mar 21",,no_match,,No video assigned,
-No Preview,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",,no_match,,"Rejected: view count 369,311,776 exceeds 50,000,000 cap",
+No Preview,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",,no_match,,Rejected: could not fetch video metadata,
 No Preview,Music For The Masses,Motorco Music Hall,"Fri, Feb 13",,close,0,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers; video is 20 years old with no channel match",
 No Preview,Heated,Motorco Music Hall,"Fri, Feb 27",,no_match,,No video from scraper,
 No Preview,Heated,Motorco Music Hall,"Fri, Mar 6",,no_match,,No video from scraper,
 No Preview,LUEWWD XX,Motorco Music Hall,"Sat, Mar 7",,no_match,,"Rejected: view count 88,454,343 exceeds 5,000,000 cap; video is 17 years old with no channel match",
 No Preview,"DISCO, ALWAYS",Motorco Music Hall,"Fri, Mar 20",,partial,0,"Rejected: view count 7,604,843 exceeds 5,000,000 cap",
-No Preview,Broadway Rave,Neighborhood Theatre,"Fri, Feb 27",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,Broadway Rave,Neighborhood Theatre,"Fri, Feb 27",,no_match,,Rejected: could not fetch video metadata,
 No Preview,Doc 103,Neighborhood Theatre,"Sun, Mar 01",,partial,29,Rejected: could not fetch video metadata,
 No Preview,Lotus,Neighborhood Theatre,"Wed, Mar 04",,exact,39,Rejected: could not fetch video metadata,
 No Preview,SATSANG,Neighborhood Theatre,"Sun, Mar 08",,exact,42,Rejected: could not fetch video metadata,
@@ -152,6 +165,6 @@ No Preview,Mammoth,The Orange Peel,"Wed, Mar 25",,exact,47,Rejected: could not f
 No Preview,"Le Frique: Disco Afrique, An All Afrocentric Cabaret and Dance Party",The Pinhook,"Fri, Feb 27",,no_match,,No video assigned,
 No Preview,Blends With Friends (Open Decks),The Pinhook,"Wed, Mar 04",,no_match,,No video assigned,
 No Preview,"Cartoon Smokeshow, a Drag and Burlesque Rewind",The Pinhook,"Sat, Mar 07",,no_match,,No video assigned,
-No Preview,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",,close,25,"Rejected: view count 12,383,216 exceeds 5,000,000 cap",
+No Preview,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",,close,25,Rejected: could not fetch video metadata,
 No Preview,Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE,The Pinhook,"Tue, Mar 24",,no_match,,No video assigned,
 No Preview,DANCE,The Social,"Sat, May 09",,exact,30,"Rejected: view count 20,472,741 exceeds 5,000,000 cap",

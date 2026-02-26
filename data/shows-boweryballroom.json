@@ -39,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
-      "youtube_id": "OBkjwip7Y_0",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -76,7 +76,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "uwsVxiVsMY8"
+      "youtube_id": null
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
@@ -100,7 +100,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": null
+      "youtube_id": "Ns3Ggwn8gjQ"
     },
     {
       "artist": "Freddie McClendon",
@@ -196,7 +196,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
-      "youtube_id": "BnaTkioAkEQ"
+      "youtube_id": null
     },
     {
       "artist": "Caroline Jones",
@@ -304,11 +304,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/ac3/e8b2a963-5c88-4123-8b2c-55b0ecd0eac3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy/",
-      "youtube_id": "A85xNCC2Wvc"
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T18:48:38.285478"
+  "last_updated": "2026-02-26T20:44:51.920872"
 }
