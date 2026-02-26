@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-02-26",
+    "total_shows": 302,
+    "verified": 224,
+    "rejected": 56,
+    "no_preview": 22,
+    "overrides": 0,
+    "accuracy_rate": 96.5,
+    "avg_confidence": 86.9
+  }
+]

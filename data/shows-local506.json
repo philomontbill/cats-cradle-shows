@@ -153,11 +153,11 @@
       "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "_DyW7jWaO-0",
-      "opener_youtube_id": "WByGv-qdZ4w"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
+      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -196,7 +196,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
+      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -248,7 +248,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
+      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -296,7 +296,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/36604784/treasure-pains-and-null-with-dug-and-snide-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "hm1I7mP5XSY",
-      "opener_youtube_id": "E3ru5vfyqZU"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -326,7 +326,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T05:23:35.199983"
+  "last_updated": "2026-02-26T18:46:42.599567"
 }

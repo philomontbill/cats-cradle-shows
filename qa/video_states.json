@@ -111,32 +111,72 @@
     }
   },
   "Braden Bales, Ezra": {
-    "status": "rejected",
-    "video_id": "QxXrjLaUtDE",
-    "rejected_date": "2026-02-26T05:26:38.372971",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "OBkjwip7Y_0",
+    "verified_date": "2026-02-26T18:49:43.028983",
+    "confidence": "VEVO, 771,358 views",
+    "metadata": {
+      "video_title": "Braden Bales - CHRONICALLY CAUTIOUS (Official Lyric Video)",
+      "channel_name": "BradenBalesVEVO",
+      "view_count": 771358,
+      "published": "2023-07-07T04:00:20Z",
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 2.6,
+      "spotify_match": "no_match",
+      "spotify_popularity": null,
+      "spotify_override": "trusted VEVO, skipping Spotify no_match rejection"
+    }
   },
   "JaeyBxrd": {
     "status": "rejected",
-    "video_id": "zWl5pQowHmk",
-    "rejected_date": "2026-02-26T05:26:38.465036",
+    "video_id": "zeR6EpcLUgg",
+    "rejected_date": "2026-02-26T18:49:43.122685",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Sheer Mag": {
-    "status": "rejected",
-    "video_id": "KoEqC6-oCNQ",
-    "rejected_date": "2026-02-26T05:26:38.552618",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "hCl-hJY0T9Y",
+    "verified_date": "2026-02-26T18:49:43.307597",
+    "confidence": "channel match, 241,926 views",
+    "metadata": {
+      "video_title": "Sheer Mag - Moonstruck (Official Video)",
+      "channel_name": "SHEER MAG",
+      "view_count": 241926,
+      "published": "2024-01-09T15:00:36Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 28",
+      "video_age_years": 2.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 28
+    }
   },
   "Logan Michael": {
-    "status": "rejected",
-    "video_id": "Ip3DO5EBhfY",
-    "rejected_date": "2026-02-26T05:26:38.640799",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "uwsVxiVsMY8",
+    "verified_date": "2026-02-26T18:49:43.534480",
+    "confidence": "channel match, Topic channel, 163,799 views",
+    "metadata": {
+      "video_title": "Memory Lane",
+      "channel_name": "Logan Michael - Topic",
+      "view_count": 163799,
+      "published": "2025-11-20T10:04:45Z",
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.3,
+      "spotify_match": "exact",
+      "spotify_popularity": 51
+    }
   },
   "The Rikkies & SUM SUN w/ So Impartial": {
     "status": "verified",
@@ -175,50 +215,38 @@
   },
   "Freddie McClendon": {
     "status": "rejected",
-    "video_id": "hnhuDF2kJBo",
-    "rejected_date": "2026-02-26T05:26:38.758116",
+    "video_id": "P3poZuMNpbo",
+    "rejected_date": "2026-02-26T18:49:43.627327",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?": {
     "status": "rejected",
-    "video_id": "6UplsJkRz10",
-    "rejected_date": "2026-02-26T05:26:38.845532",
+    "video_id": "BTTQZtXZBK0",
+    "rejected_date": "2026-02-26T18:49:43.718665",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle": {
     "status": "rejected",
-    "video_id": "qmKWP30-QlA",
-    "rejected_date": "2026-02-26T05:26:38.961223",
+    "video_id": "rQjDP_dyP50",
+    "rejected_date": "2026-02-26T18:49:43.833609",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Arianna Chetram, Malik English, lady t": {
     "status": "rejected",
-    "video_id": "sz-Wg4eCJK4",
-    "rejected_date": "2026-02-26T05:26:39.074451",
+    "video_id": "j95bawjCSEE",
+    "rejected_date": "2026-02-26T18:49:43.944061",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Muo Duo, Evan Isaac, Segami, Annabel Asher": {
-    "status": "verified",
-    "video_id": "IgAeDXWcRtE",
-    "verified_date": "2026-02-26T05:26:39.292519",
-    "confidence": "channel match, 56,176 views",
-    "metadata": {
-      "video_title": "Muo Duo - Gourmet Feat. Ausar (Official Music Video)",
-      "channel_name": "Muo Duo",
-      "view_count": 56176,
-      "published": "2022-07-19T04:19:56Z",
-      "is_topic": false,
-      "channel_match": true,
-      "trusted_channel": false,
-      "view_cap_reason": "default (no trust signals)",
-      "video_age_years": 3.6,
-      "spotify_match": "no_match",
-      "spotify_popularity": null
-    }
+    "status": "rejected",
+    "video_id": "2p2tuJcKpuY",
+    "rejected_date": "2026-02-26T18:49:44.032326",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Ben Milk, Brady Dorrington, ChatChat": {
     "status": "verified",
@@ -240,17 +268,29 @@
   },
   "Ike Reilly Assassination": {
     "status": "rejected",
-    "video_id": "1RyIbAdHWT4",
-    "rejected_date": "2026-02-26T05:26:39.380388",
+    "video_id": "pMFGSdYg310",
+    "rejected_date": "2026-02-26T18:49:44.121608",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Residual Groove, One Time Weekend": {
-    "status": "rejected",
-    "video_id": "CAkKMlsyYf8",
-    "rejected_date": "2026-02-26T05:26:39.490299",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "BnaTkioAkEQ",
+    "verified_date": "2026-02-26T18:49:44.326960",
+    "confidence": "channel match, 188 views",
+    "metadata": {
+      "video_title": "Cabana Beach - 10/4/25 - Syracuse, NY (4K HDR)",
+      "channel_name": "Residual Groove",
+      "view_count": 188,
+      "published": "2025-10-05T23:30:06Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 9",
+      "video_age_years": 0.4,
+      "spotify_match": "close",
+      "spotify_popularity": 9
+    }
   },
   "Caroline Jones": {
     "status": "rejected",
@@ -288,8 +328,8 @@
   },
   "Mike Viola": {
     "status": "rejected",
-    "video_id": "1MGBP0xKl-U",
-    "rejected_date": "2026-02-26T05:26:39.579273",
+    "video_id": "sO3onB0aoyo",
+    "rejected_date": "2026-02-26T18:49:44.441744",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -609,15 +649,15 @@
   },
   "Rivalry Night": {
     "status": "rejected",
-    "video_id": "5tWbucaBa_M",
-    "rejected_date": "2026-02-26T05:26:39.958876",
+    "video_id": "-auKhd23DE4",
+    "rejected_date": "2026-02-26T18:49:45.144580",
     "reason": "venue placeholder image (cradlevenue.png); could not fetch video metadata",
     "metadata": {}
   },
   "Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)": {
     "status": "rejected",
     "video_id": "Cki-mnHhNtY",
-    "rejected_date": "2026-02-26T05:26:40.047583",
+    "rejected_date": "2026-02-26T18:49:45.226731",
     "reason": "venue placeholder image (cradlevenue.png); could not fetch video metadata",
     "metadata": {}
   },
@@ -764,8 +804,8 @@
   },
   "Slow Teeth, Scrape, Minor Stars": {
     "status": "rejected",
-    "video_id": "oTi8bvOc2VE",
-    "rejected_date": "2026-02-26T05:26:40.162933",
+    "video_id": "55NKuri-t7I",
+    "rejected_date": "2026-02-26T18:49:45.322609",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -823,7 +863,7 @@
   "An Evening With": {
     "status": "rejected",
     "video_id": "KMTo2LmixqQ",
-    "rejected_date": "2026-02-26T05:26:40.256878",
+    "rejected_date": "2026-02-26T18:49:45.409604",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -862,25 +902,11 @@
     }
   },
   "Los Straitjackets & Deke Dickerson": {
-    "status": "verified",
-    "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-02-26T13:31:44.692026",
-    "confidence": "channel match, 13,535 views",
-    "metadata": {
-      "video_title": "Los Straitjackets - Fury (Official Audio)",
-      "channel_name": "Los Straitjackets",
-      "view_count": 13535,
-      "published": "2014-09-29T17:50:05Z",
-      "channel_subscribers": 13700,
-      "channel_videos": 58,
-      "is_topic": false,
-      "channel_match": true,
-      "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 32 (>=30)",
-      "video_age_years": 11.4,
-      "spotify_match": "close",
-      "spotify_popularity": 32
-    }
+    "status": "rejected",
+    "video_id": "RiQj57xemJU",
+    "rejected_date": "2026-02-26T18:49:48.462214",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Puma Blue": {
     "status": "verified",
@@ -1712,8 +1738,8 @@
   },
   "Ezra": {
     "status": "rejected",
-    "video_id": "--6fqzrPbSQ",
-    "rejected_date": "2026-02-26T05:26:41.699718",
+    "video_id": "aAiVsqfbn5g",
+    "rejected_date": "2026-02-26T18:49:45.684396",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -2283,8 +2309,8 @@
   },
   "@ Kings": {
     "status": "rejected",
-    "video_id": "YlXtrnh-Ejo",
-    "rejected_date": "2026-02-26T05:26:41.984914",
+    "video_id": "dEiyNoCyvVY",
+    "rejected_date": "2026-02-26T18:49:45.863627",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3868,8 +3894,8 @@
   },
   "Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!": {
     "status": "rejected",
-    "video_id": "CDl9ZMfj6aE",
-    "rejected_date": "2026-02-26T05:26:43.970165",
+    "video_id": "sl7SIylFSoM",
+    "rejected_date": "2026-02-26T18:49:46.522589",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3961,10 +3987,27 @@
   },
   "Oof Fighters": {
     "status": "rejected",
-    "video_id": "ebJ2brErERQ",
-    "rejected_date": "2026-02-26T05:26:44.063089",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "video_id": "eBG7P-K-r1Y",
+    "rejected_date": "2026-02-26T18:49:46.735611",
+    "reason": "view count 369,311,776 exceeds 50,000,000 cap",
+    "metadata": {
+      "video_title": "Foo Fighters - Everlong (Official HD Video)",
+      "channel_name": "foofightersVEVO",
+      "view_count": 369311776,
+      "published": "2009-10-03T04:49:58Z",
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 16.4,
+      "age_override": "trusted VEVO, skipping age check",
+      "spotify_match": "no_match",
+      "spotify_popularity": null,
+      "spotify_override": "trusted VEVO, skipping Spotify no_match rejection"
+    }
   },
   "Lonestar Supernova, Wicked Vixxen": {
     "status": "verified",
@@ -5354,8 +5397,8 @@
   },
   "The Ramona Flowers": {
     "status": "rejected",
-    "video_id": "jEmyYSk259M",
-    "rejected_date": "2026-02-26T05:26:39.666065",
+    "video_id": "5eZoJBcf6BE",
+    "rejected_date": "2026-02-26T18:49:44.529916",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5418,15 +5461,15 @@
   },
   "SXSW: The Billboard Disruptor House": {
     "status": "rejected",
-    "video_id": "XiywPYo0_Lg",
-    "rejected_date": "2026-02-26T05:26:43.594142",
+    "video_id": "LxL_nqxzn_c",
+    "rejected_date": "2026-02-26T18:49:46.227016",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!": {
     "status": "rejected",
-    "video_id": "RpL1GyLOblE",
-    "rejected_date": "2026-02-26T05:26:43.856665",
+    "video_id": "9bi9tdZrinU",
+    "rejected_date": "2026-02-26T18:49:46.410220",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5468,7 +5511,7 @@
   "All Your Friends: The Indie Party": {
     "status": "rejected",
     "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-26T05:26:39.759492",
+    "rejected_date": "2026-02-26T18:49:44.626753",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5526,15 +5569,29 @@
   },
   "Who Run It?? PARTY!!": {
     "status": "rejected",
-    "video_id": "XuEnDoRJPO4",
-    "rejected_date": "2026-02-26T05:26:50.983392",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "video_id": "gU7003Juh7c",
+    "rejected_date": "2026-02-26T18:49:53.223997",
+    "reason": "view count 12,383,216 exceeds 5,000,000 cap",
+    "metadata": {
+      "video_title": "Who Run It",
+      "channel_name": "Three 6 Mafia - Topic",
+      "view_count": 12383216,
+      "published": "2014-11-08T02:11:08Z",
+      "channel_subscribers": 30400,
+      "channel_videos": 654,
+      "is_topic": true,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 25",
+      "video_age_years": 11.3,
+      "spotify_match": "close",
+      "spotify_popularity": 25
+    }
   },
   "Cure For Paranoia": {
     "status": "rejected",
     "video_id": "Zvr8cyhQ2Aw",
-    "rejected_date": "2026-02-26T05:26:39.867616",
+    "rejected_date": "2026-02-26T18:49:44.748127",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5561,8 +5618,8 @@
   },
   "h.pruz": {
     "status": "rejected",
-    "video_id": "lcvRUy_Mfkk",
-    "rejected_date": "2026-02-26T05:26:40.828233",
+    "video_id": "7Lo4IjJS5G4",
+    "rejected_date": "2026-02-26T18:49:45.500847",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5581,33 +5638,16 @@
     "metadata": {}
   },
   "Evlo, Justo, Preme, Spg, Choco": {
-    "status": "verified",
-    "video_id": "VBDrIlWd3hY",
-    "verified_date": "2026-02-26T05:26:41.611496",
-    "confidence": "VEVO",
-    "metadata": {
-      "video_title": "EVO - AGRESIF (VIDEO CLIP)",
-      "channel_name": "sonymusicIDVEVO",
-      "view_count": 3708656,
-      "published": "2009-11-24T20:38:57Z",
-      "is_topic": false,
-      "channel_match": false,
-      "vevo_channel": true,
-      "trusted_channel": true,
-      "trusted_reason": "VEVO",
-      "view_cap_reason": "trusted channel (VEVO)",
-      "channel_override": "trusted VEVO, skipping mismatch check",
-      "video_age_years": 16.3,
-      "age_override": "trusted VEVO, skipping age check",
-      "spotify_match": "no_match",
-      "spotify_popularity": null,
-      "spotify_override": "trusted VEVO, skipping Spotify no_match rejection"
-    }
+    "status": "rejected",
+    "video_id": "j9O9Hx7L2gg",
+    "rejected_date": "2026-02-26T18:49:45.598206",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Al Flynn": {
     "status": "rejected",
-    "video_id": "a7uRo1cWw-Y",
-    "rejected_date": "2026-02-26T05:26:41.895882",
+    "video_id": "a4QQ7HYYdWw",
+    "rejected_date": "2026-02-26T18:49:45.770565",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5641,45 +5681,86 @@
   },
   "A Special Marshall Day Party": {
     "status": "rejected",
-    "video_id": "28IP7wHVP-A",
-    "rejected_date": "2026-02-26T05:26:43.772483",
+    "video_id": "5KDCuHk1HNM",
+    "rejected_date": "2026-02-26T18:49:46.320056",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Broadway Rave": {
     "status": "rejected",
     "video_id": "OhbABwonLUs",
-    "rejected_date": "2026-02-26T05:26:44.149223",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "rejected_date": "2026-02-26T18:49:46.993021",
+    "reason": "not found on Spotify + channel mismatch",
+    "metadata": {
+      "video_title": "Broadway Rave 2023",
+      "channel_name": "MrSnaketato",
+      "view_count": 402,
+      "published": "2023-12-09T20:11:35Z",
+      "channel_subscribers": 27,
+      "channel_videos": 72,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "channel_warning": "channel 'MrSnaketato' doesn't match artist",
+      "video_age_years": 2.2,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
   },
   "JOSH LEVI": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "KQTDkKgffnY",
-    "rejected_date": "2026-02-26T05:26:44.231940",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:47.246513",
+    "confidence": "channel match",
+    "metadata": {
+      "video_title": "Josh Levi - BIRTHDAY DANCE [Official Music Video]",
+      "channel_name": "Josh Levi",
+      "view_count": 14788310,
+      "published": "2024-02-22T19:00:10Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 57 (>=50)",
+      "video_age_years": 2.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 57
+    }
   },
   "Doc 103": {
     "status": "rejected",
     "video_id": "kh7l845u11I",
-    "rejected_date": "2026-02-26T05:26:44.318495",
+    "rejected_date": "2026-02-26T18:49:47.338145",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more": {
     "status": "rejected",
     "video_id": "JREouTHpyJE",
-    "rejected_date": "2026-02-26T05:26:44.405850",
+    "rejected_date": "2026-02-26T18:49:47.480579",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Haffway": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "EvrdgG7Q4qo",
-    "rejected_date": "2026-02-26T05:26:44.493478",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:47.665716",
+    "confidence": "channel match, VEVO, 18,949 views",
+    "metadata": {
+      "video_title": "HAFFWAY - Better If Worse (Official Video)",
+      "channel_name": "HAFFWAYVEVO",
+      "view_count": 18949,
+      "published": "2025-02-14T05:00:06Z",
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 1.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 44
+    }
   },
   "Lotus": {
     "status": "rejected",
@@ -5689,25 +5770,50 @@
     "metadata": {}
   },
   "ROBERT JON & THE WRECK": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "XORinLiOz0g",
-    "rejected_date": "2026-02-26T05:26:44.688340",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:47.860401",
+    "confidence": "492,837 views",
+    "metadata": {
+      "video_title": "Robert Jon & The Wreck - Oh Miss Carolina",
+      "channel_name": "RobertJonAndTheWreck",
+      "view_count": 492837,
+      "published": "2020-03-23T20:23:58Z",
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 34 (>=30)",
+      "channel_warning": "channel 'RobertJonAndTheWreck' doesn't match artist",
+      "video_age_years": 5.9,
+      "spotify_match": "exact",
+      "spotify_popularity": 34
+    }
   },
   "special guest Sam Morrow": {
     "status": "rejected",
     "video_id": "W9AwkvlCCNY",
-    "rejected_date": "2026-02-26T05:26:44.799284",
+    "rejected_date": "2026-02-26T18:49:47.947569",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "MO LOWDA & THE HUMBLE": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "TZT3GMehz7s",
-    "rejected_date": "2026-02-26T05:26:44.907031",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:48.160561",
+    "confidence": "channel match, 26,924 views",
+    "metadata": {
+      "video_title": "Mo Lowda & the Humble - Pearls (Official Music Video)",
+      "channel_name": "Mo Lowda & the Humble",
+      "view_count": 26924,
+      "published": "2020-04-14T16:59:59Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 49 (>=30)",
+      "video_age_years": 5.9,
+      "spotify_match": "exact",
+      "spotify_popularity": 49
+    }
   },
   "ALEXSUCKS": {
     "status": "verified",
@@ -5733,21 +5839,21 @@
   "Dogma Society": {
     "status": "rejected",
     "video_id": "9jE-dCQNIP4",
-    "rejected_date": "2026-02-26T05:26:45.236116",
+    "rejected_date": "2026-02-26T18:49:48.257073",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "SATSANG": {
     "status": "rejected",
     "video_id": "qnleZRpWGsk",
-    "rejected_date": "2026-02-26T05:26:45.321088",
+    "rejected_date": "2026-02-26T18:49:48.375626",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "CARTER FAITH": {
     "status": "rejected",
     "video_id": "FTGq4amVO4k",
-    "rejected_date": "2026-02-26T05:26:45.497871",
+    "rejected_date": "2026-02-26T18:49:48.579737",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5775,30 +5881,45 @@
   "ALL YOUR FRIENDS": {
     "status": "rejected",
     "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-26T05:26:45.810089",
+    "rejected_date": "2026-02-26T18:49:48.667902",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "OLD CROW MEDICINE SHOW": {
     "status": "rejected",
     "video_id": "4-NaZzG5eAU",
-    "rejected_date": "2026-02-26T05:26:45.925567",
+    "rejected_date": "2026-02-26T18:49:48.783365",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Natalie Jane": {
     "status": "rejected",
     "video_id": "1BP2FIuGuuA",
-    "rejected_date": "2026-02-26T05:26:46.012788",
+    "rejected_date": "2026-02-26T18:49:48.874251",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "1300SAINT": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "q2XenePkZbI",
-    "rejected_date": "2026-02-26T05:26:46.133020",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:49.115234",
+    "confidence": "33,411 views",
+    "metadata": {
+      "video_title": "1300Saint x Nine Vicious - Tired Asf (Official Music Video)",
+      "channel_name": "changedonme",
+      "view_count": 33411,
+      "published": "2026-01-29T02:07:43Z",
+      "channel_subscribers": 10700,
+      "channel_videos": 131,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 43 (>=30)",
+      "channel_warning": "channel 'changedonme' doesn't match artist",
+      "video_age_years": 0.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 43
+    }
   },
   "Walter Trout": {
     "status": "verified",
@@ -5829,14 +5950,14 @@
   "The Rock & Roll Playhouse": {
     "status": "rejected",
     "video_id": "QO8xtyITw_g",
-    "rejected_date": "2026-02-26T05:26:46.551520",
+    "rejected_date": "2026-02-26T18:49:49.201620",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "JOHN COWAN TRIO": {
     "status": "rejected",
     "video_id": "iRmBHsZp2uI",
-    "rejected_date": "2026-02-26T05:26:46.636221",
+    "rejected_date": "2026-02-26T18:49:49.320003",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5861,8 +5982,8 @@
   },
   "Eddie 9V": {
     "status": "rejected",
-    "video_id": "Kz47bLW5lds",
-    "rejected_date": "2026-02-26T05:26:46.938331",
+    "video_id": "mOIxgVviEFI",
+    "rejected_date": "2026-02-26T18:49:49.407136",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5875,8 +5996,8 @@
   },
   "Jesse Welles": {
     "status": "rejected",
-    "video_id": "El0CLduLgew",
-    "rejected_date": "2026-02-26T05:26:47.188581",
+    "video_id": "UCBkt5Nt1wo",
+    "rejected_date": "2026-02-26T18:49:49.494918",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5900,30 +6021,58 @@
     }
   },
   "Dexter and the Moonrocks": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "t3yQfuZaQJg",
-    "rejected_date": "2026-02-26T05:26:47.509227",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:49.685639",
+    "confidence": "channel match, 701,732 views",
+    "metadata": {
+      "video_title": "Dexter and The Moonrocks \u2013 Ritalin (Official Lyric Video)",
+      "channel_name": "Dexter and The Moonrocks",
+      "view_count": 701732,
+      "published": "2025-02-12T05:00:48Z",
+      "channel_subscribers": 48000,
+      "channel_videos": 346,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 52 (>=50)",
+      "video_age_years": 1.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 52
+    }
   },
   "Fox N' Vead": {
-    "status": "rejected",
+    "status": "verified",
     "video_id": "-KL3ffgEeCM",
-    "rejected_date": "2026-02-26T05:26:47.617548",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "verified_date": "2026-02-26T18:49:49.890894",
+    "confidence": "channel match, 83,039 views",
+    "metadata": {
+      "video_title": "Fox N' Vead - Waste Away",
+      "channel_name": "Fox N' Vead",
+      "view_count": 83039,
+      "published": "2025-04-25T04:00:00Z",
+      "channel_subscribers": 3750,
+      "channel_videos": 11,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 41 (>=30)",
+      "video_age_years": 0.8,
+      "spotify_match": "exact",
+      "spotify_popularity": 41
+    }
   },
   "Aly & AJ": {
     "status": "rejected",
     "video_id": "l3cQUeGWcf0",
-    "rejected_date": "2026-02-26T05:26:47.731805",
+    "rejected_date": "2026-02-26T18:49:50.012802",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Hayden Blount": {
     "status": "rejected",
     "video_id": "nsAdwFPOTsw",
-    "rejected_date": "2026-02-26T05:26:47.819875",
+    "rejected_date": "2026-02-26T18:49:50.109518",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5948,43 +6097,85 @@
   },
   "SunSquabi": {
     "status": "rejected",
-    "video_id": "8kqZHyZ_f-M",
-    "rejected_date": "2026-02-26T05:26:48.125646",
+    "video_id": "h7vGOr3P4no",
+    "rejected_date": "2026-02-26T18:49:50.231105",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Phyphr": {
-    "status": "rejected",
-    "video_id": "c5xEdWTfL0k",
-    "rejected_date": "2026-02-26T05:26:48.212164",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "dZ3TCHIti7E",
+    "verified_date": "2026-02-26T18:49:50.450494",
+    "confidence": "369 views",
+    "metadata": {
+      "video_title": "Phyphr - Live From Sonic Bloom - June, 2023",
+      "channel_name": "RIVER BEATS TV \ud83d\udcfa",
+      "view_count": 369,
+      "published": "2025-07-24T00:30:06Z",
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 31 (>=30)",
+      "channel_warning": "channel 'RIVER BEATS TV \ud83d\udcfa' doesn't match artist",
+      "video_age_years": 0.6,
+      "spotify_match": "exact",
+      "spotify_popularity": 31
+    }
   },
   "Donna The Buffalo": {
     "status": "rejected",
-    "video_id": "XpwoIYnWbuU",
-    "rejected_date": "2026-02-26T05:26:48.299852",
+    "video_id": "0Emwn_RURUg",
+    "rejected_date": "2026-02-26T18:49:50.540599",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Evan Honer": {
-    "status": "rejected",
-    "video_id": "rO5BMB8n_j4",
-    "rejected_date": "2026-02-26T05:26:48.385103",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "uqgYgbZMtFA",
+    "verified_date": "2026-02-26T18:49:50.777119",
+    "confidence": "channel match, 382,184 views",
+    "metadata": {
+      "video_title": "Evan Honer - idk shit about cars (Official Music Video)",
+      "channel_name": "Evan Honer ",
+      "view_count": 382184,
+      "published": "2023-08-11T14:00:45Z",
+      "channel_subscribers": 32600,
+      "channel_videos": 278,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 62 (>=50)",
+      "video_age_years": 2.5,
+      "spotify_match": "exact",
+      "spotify_popularity": 62
+    }
   },
   "Nicholas Jamerson": {
-    "status": "rejected",
-    "video_id": "oKp4ANukavs",
-    "rejected_date": "2026-02-26T05:26:48.466906",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "gyZuv54KOXY",
+    "verified_date": "2026-02-26T18:49:51.017846",
+    "confidence": "12,520 views",
+    "metadata": {
+      "video_title": "Nicholas Jamerson - Hindman",
+      "channel_name": "radiowv",
+      "view_count": 12520,
+      "published": "2025-10-29T22:14:45Z",
+      "channel_subscribers": 598000,
+      "channel_videos": 127,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 39 (>=30)",
+      "channel_warning": "channel 'radiowv' doesn't match artist",
+      "video_age_years": 0.3,
+      "spotify_match": "exact",
+      "spotify_popularity": 39
+    }
   },
   "Fringe Revival": {
     "status": "rejected",
-    "video_id": "F1AATRo-EwQ",
-    "rejected_date": "2026-02-26T05:26:48.550429",
+    "video_id": "8bL4yrvCFlA",
+    "rejected_date": "2026-02-26T18:49:51.109391",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6009,8 +6200,8 @@
   },
   "Gary Numan": {
     "status": "rejected",
-    "video_id": "PGiuajhBv7s",
-    "rejected_date": "2026-02-26T05:26:48.879077",
+    "video_id": "lHomCiPFknY",
+    "rejected_date": "2026-02-26T18:49:51.196409",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6035,15 +6226,15 @@
   },
   "Cat Power": {
     "status": "rejected",
-    "video_id": "aW2PcOyAWwM",
-    "rejected_date": "2026-02-26T05:26:49.179790",
+    "video_id": "f-Tsk-cPXxI",
+    "rejected_date": "2026-02-26T18:49:51.286172",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Hives": {
     "status": "rejected",
     "video_id": "RQIBjIOMNYw",
-    "rejected_date": "2026-02-26T05:26:49.269065",
+    "rejected_date": "2026-02-26T18:49:51.375843",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6088,37 +6279,78 @@
   "Prince of Eden and Fifth Floor": {
     "status": "rejected",
     "video_id": "MbpDmYY21EY",
-    "rejected_date": "2026-02-26T05:26:49.803020",
+    "rejected_date": "2026-02-26T18:49:51.467397",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Alla Prima": {
-    "status": "rejected",
-    "video_id": "DJqPTGPGFNY",
-    "rejected_date": "2026-02-26T05:26:49.888226",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "d3tnnNE2618",
+    "verified_date": "2026-02-26T18:49:51.761434",
+    "confidence": "2,327 views",
+    "metadata": {
+      "video_title": "Quiet Pliz! - Alla prima",
+      "channel_name": "quietpliz",
+      "view_count": 2327,
+      "published": "2012-08-25T11:50:40Z",
+      "channel_subscribers": 53,
+      "channel_videos": 7,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 0",
+      "channel_warning": "channel 'quietpliz' doesn't match artist",
+      "video_age_years": 13.5,
+      "spotify_match": "exact",
+      "spotify_popularity": 0
+    }
   },
   "Robert Earl Keen": {
     "status": "rejected",
-    "video_id": "iJRWtKePKuY",
-    "rejected_date": "2026-02-26T05:26:49.999970",
+    "video_id": "ieY1hOwhuKA",
+    "rejected_date": "2026-02-26T18:49:51.852017",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Olivia Wolf": {
-    "status": "rejected",
-    "video_id": "4dpLiTYmpGs",
-    "rejected_date": "2026-02-26T05:26:50.082888",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "FkJdIyC81QI",
+    "verified_date": "2026-02-26T18:49:52.065118",
+    "confidence": "channel match, VEVO, 14,004 views",
+    "metadata": {
+      "video_title": "Olivia Wolf - Meet You At The Cross (Live)",
+      "channel_name": "OliviaWolfVEVO",
+      "view_count": 14004,
+      "published": "2026-01-16T14:00:34Z",
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 21
+    }
   },
   "moe.": {
-    "status": "rejected",
-    "video_id": "xjhNW-6NyjI",
-    "rejected_date": "2026-02-26T05:26:50.287167",
-    "reason": "could not fetch video metadata",
-    "metadata": {}
+    "status": "verified",
+    "video_id": "a6cNgEMzZok",
+    "verified_date": "2026-02-26T18:49:52.587547",
+    "confidence": "channel match, 5,877 views",
+    "metadata": {
+      "video_title": "Tour Memoe.ries | Halloween 2014 Lebowski Compilation Video",
+      "channel_name": "moe.",
+      "view_count": 5877,
+      "published": "2014-12-16T22:55:49Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 39 (>=30)",
+      "video_age_years": 11.2,
+      "spotify_match": "exact",
+      "spotify_popularity": 39
+    }
   },
   "Old Crow Medicine Show": {
     "status": "verified",
@@ -6141,37 +6373,75 @@
   },
   "Drain": {
     "status": "rejected",
-    "video_id": "m4R1X3Yytc0",
-    "rejected_date": "2026-02-26T05:26:50.613370",
+    "video_id": "1Zni52X1K3I",
+    "rejected_date": "2026-02-26T18:49:52.682331",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "No Pressure, Haywire, Secret World": {
     "status": "rejected",
     "video_id": "KcGGHSUAbM0",
-    "rejected_date": "2026-02-26T05:26:50.698004",
+    "rejected_date": "2026-02-26T18:49:52.790721",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Mammoth": {
     "status": "rejected",
     "video_id": "7w7rAEnMXDI",
-    "rejected_date": "2026-02-26T05:26:50.781107",
+    "rejected_date": "2026-02-26T18:49:52.879542",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "10 Years, James and the Cold Gun": {
     "status": "rejected",
     "video_id": "59amjf3qCCQ",
-    "rejected_date": "2026-02-26T05:26:50.867634",
+    "rejected_date": "2026-02-26T18:49:52.999174",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Buzzard Company / Charles Latham and the Borrowed Band": {
+    "status": "verified",
+    "video_id": "gKrVMfgdPrA",
+    "verified_date": "2026-02-26T18:49:53.423349",
+    "confidence": "channel match, 1,571 views",
+    "metadata": {
+      "video_title": "Buzzard - Internet Superstar [official music video]",
+      "channel_name": "Buzzard",
+      "view_count": 1571,
+      "published": "2017-10-26T16:54:35Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "video_age_years": 8.3,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "TELYKAST": {
     "status": "rejected",
-    "video_id": "DwWUCh5PGHg",
-    "rejected_date": "2026-02-26T05:26:51.067885",
+    "video_id": "Dl3cAu7YSBM",
+    "rejected_date": "2026-02-26T18:49:44.856459",
     "reason": "could not fetch video metadata",
     "metadata": {}
+  },
+  "Surfing For Daisy": {
+    "status": "verified",
+    "video_id": "A85xNCC2Wvc",
+    "verified_date": "2026-02-26T18:49:45.060515",
+    "confidence": "channel match, 927 views",
+    "metadata": {
+      "video_title": "Surfing for Daisy Live at The Stone Pony (11/15/25)",
+      "channel_name": "Surfing for Daisy",
+      "view_count": 927,
+      "published": "2026-01-13T22:01:18Z",
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 36 (>=30)",
+      "video_age_years": 0.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 36
+    }
   }
 }

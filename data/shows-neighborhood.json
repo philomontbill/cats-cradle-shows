@@ -27,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/77c/52b07ffb-b7c5-4c68-92cd-6c321773577c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/josh-levi-the-hydraulic-tour-18-charlotte-north-carolina-02-28-2026/event/2D006383BDEC6889",
-      "youtube_id": null
+      "youtube_id": "KQTDkKgffnY"
     },
     {
       "artist": "Doc 103",
@@ -52,7 +52,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c88/6f740ab6-9eac-4f42-b70b-dd34aefd3c88_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/haffway-the-wither-tour-charlotte-north-carolina-03-03-2026/event/2D006355E71DA6F7",
-      "youtube_id": null
+      "youtube_id": "EvrdgG7Q4qo"
     },
     {
       "artist": "Lotus",
@@ -76,7 +76,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/977/f062aa60-fbf6-4e8d-ac74-bbd6c6cf8977_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/robert-jon-the-wreck-with-special-charlotte-north-carolina-03-05-2026/event/2D00634E0684BDF7",
-      "youtube_id": null,
+      "youtube_id": "XORinLiOz0g",
       "opener_youtube_id": null
     },
     {
@@ -89,7 +89,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/e42/c0900957-c61b-4d9e-b8a5-76c72a59be42_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/mo-lowda-the-humble-tailing-the-charlotte-north-carolina-03-06-2026/event/2D00633DFCB0A157",
-      "youtube_id": null
+      "youtube_id": "TZT3GMehz7s"
     },
     {
       "artist": "ALEXSUCKS",
@@ -222,7 +222,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d4c/5a6adb36-3b30-4aef-9ad7-f921497ced4c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/1300saint-the-savior-tour-18-charlotte-north-carolina-04-01-2026/event/2D00644282004CF7",
-      "youtube_id": null
+      "youtube_id": "q2XenePkZbI"
     },
     {
       "artist": "Walter Trout",
@@ -298,7 +298,7 @@
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 24,
+  "shows_with_video": 22,
   "shows_with_image": 24,
-  "last_updated": "2026-02-26T05:26:05.057584"
+  "last_updated": "2026-02-26T18:49:18.321123"
 }

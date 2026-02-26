@@ -6776,5 +6776,32 @@
     "enriched_date": "2026-02-26T05:26:38.039317+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-26T18:49:41.581116+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Surfing For Daisy": {
+    "spotify_id": "3zwFtNNRxR23FVS8jueGK9",
+    "spotify_name": "Surfing For Daisy",
+    "popularity": 36,
+    "followers": 7434,
+    "genres": [],
+    "enriched_date": "2026-02-26T18:49:42.154903+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.036
+  },
+  "TELYKAST": {
+    "spotify_id": "7vWC03wqXwUqjPON8hc1tz",
+    "spotify_name": "TELYKAST",
+    "popularity": 53,
+    "followers": 77235,
+    "genres": [],
+    "enriched_date": "2026-02-26T18:49:42.634870+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.053
   }
 }

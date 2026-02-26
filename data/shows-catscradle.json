@@ -10,7 +10,7 @@
       "date": "Thu, Feb 26",
       "venue": "Cat's Cradle",
       "opener": null,
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
@@ -327,5 +327,5 @@
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T05:23:26.032404"
+  "last_updated": "2026-02-26T18:46:37.102674"
 }
