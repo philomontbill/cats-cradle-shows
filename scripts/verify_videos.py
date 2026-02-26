@@ -28,6 +28,7 @@ import json
 import re
 import subprocess
 import tempfile
+import time
 from datetime import datetime
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -131,7 +132,10 @@ def load_all_shows():
 
 
 def get_video_metadata(video_id, api_key):
-    """Fetch video metadata from YouTube Data API (1 quota unit)."""
+    """Fetch video metadata from YouTube Data API (1 quota unit).
+
+    Retries up to 2 times on transient errors (429, 503) with 2s backoff.
+    """
     import requests
     url = (
         f"https://www.googleapis.com/youtube/v3/videos"
@@ -139,30 +143,42 @@ def get_video_metadata(video_id, api_key):
         f"&id={video_id}"
         f"&key={api_key}"
     )
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
+    max_retries = 2
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.get(url, timeout=10)
+            if resp.status_code == 200:
+                items = resp.json().get("items", [])
+                if not items:
+                    return None
+                item = items[0]
+                snippet = item.get("snippet", {})
+                stats = item.get("statistics", {})
+                return {
+                    "title": snippet.get("title", ""),
+                    "channel_name": snippet.get("channelTitle", ""),
+                    "channel_id": snippet.get("channelId", ""),
+                    "published": snippet.get("publishedAt", ""),
+                    "view_count": int(stats.get("viewCount", 0)),
+                }
+            # Retry on rate limit or server error
+            if resp.status_code in (429, 503) and attempt < max_retries:
+                print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for video {video_id}")
+                time.sleep(2)
+                continue
+            # Non-retryable error
+            print(f"  Warning: YouTube API returned {resp.status_code} for video {video_id}")
             return None
-        items = resp.json().get("items", [])
-        if not items:
+        except Exception as e:
+            print(f"  Warning: video API error for {video_id}: {e}")
             return None
-        item = items[0]
-        snippet = item.get("snippet", {})
-        stats = item.get("statistics", {})
-        return {
-            "title": snippet.get("title", ""),
-            "channel_name": snippet.get("channelTitle", ""),
-            "channel_id": snippet.get("channelId", ""),
-            "published": snippet.get("publishedAt", ""),
-            "view_count": int(stats.get("viewCount", 0)),
-        }
-    except Exception as e:
-        print(f"  Warning: video API error for {video_id}: {e}")
-        return None
 
 
 def get_channel_metadata(channel_id, api_key):
-    """Fetch channel metadata from YouTube Data API (1 quota unit)."""
+    """Fetch channel metadata from YouTube Data API (1 quota unit).
+
+    Retries up to 2 times on transient errors (429, 503) with 2s backoff.
+    """
     import requests
     url = (
         f"https://www.googleapis.com/youtube/v3/channels"
@@ -170,24 +186,33 @@ def get_channel_metadata(channel_id, api_key):
         f"&id={channel_id}"
         f"&key={api_key}"
     )
-    try:
-        resp = requests.get(url, timeout=10)
-        if resp.status_code != 200:
+    max_retries = 2
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.get(url, timeout=10)
+            if resp.status_code == 200:
+                items = resp.json().get("items", [])
+                if not items:
+                    return None
+                item = items[0]
+                snippet = item.get("snippet", {})
+                stats = item.get("statistics", {})
+                return {
+                    "name": snippet.get("title", ""),
+                    "subscriber_count": int(stats.get("subscriberCount", 0)),
+                    "video_count": int(stats.get("videoCount", 0)),
+                }
+            # Retry on rate limit or server error
+            if resp.status_code in (429, 503) and attempt < max_retries:
+                print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for channel {channel_id}")
+                time.sleep(2)
+                continue
+            # Non-retryable error
+            print(f"  Warning: YouTube API returned {resp.status_code} for channel {channel_id}")
             return None
-        items = resp.json().get("items", [])
-        if not items:
+        except Exception as e:
+            print(f"  Warning: channel API error for {channel_id}: {e}")
             return None
-        item = items[0]
-        snippet = item.get("snippet", {})
-        stats = item.get("statistics", {})
-        return {
-            "name": snippet.get("title", ""),
-            "subscriber_count": int(stats.get("subscriberCount", 0)),
-            "video_count": int(stats.get("videoCount", 0)),
-        }
-    except Exception as e:
-        print(f"  Warning: channel API error for {channel_id}: {e}")
-        return None
 
 
 def normalize(text):
@@ -562,12 +587,13 @@ def build_issue_body(tonight, states, all_shows_data, old_states,
     lines.append(f"| **Total** | **{totals['total']}** | |")
     lines.append("")
 
-    # Per-venue one-liner
-    venue_parts = []
+    # Per-venue breakdown table
+    lines.append("| Venue | With Video | Total | % |")
+    lines.append("|-------|----------:|------:|----:|")
     for vname in sorted(venues.keys()):
         v = venues[vname]
-        venue_parts.append(f"{vname} {v['with_video']}/{v['total']}")
-    lines.append(" · ".join(venue_parts))
+        vpct = round(v["with_video"] / v["total"] * 100) if v["total"] else 0
+        lines.append(f"| {vname} | {v['with_video']} | {v['total']} | {vpct}% |")
     lines.append("")
     lines.append(f"Full detail: `qa/{csv_filename}`")
     lines.append("")
@@ -824,6 +850,7 @@ def main():
                     continue
 
                 # --- Verify this video ---
+                time.sleep(1.0)  # Throttle API requests to avoid per-second rate limits
                 print(f"\n  Verifying: {artist} — {video_id}")
                 sp_entry = spotify_cache.get(artist)
                 passed, reasons, metadata = verify_video(
