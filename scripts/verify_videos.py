@@ -36,6 +36,9 @@ _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
 sys.path.insert(0, _PROJECT_ROOT)
 
 from scrapers.utils import load_env_var, normalize as _normalize
+from scripts.report_delivery import (
+    send_email, append_to_sheet, markdown_to_html, wrap_html_email,
+)
 
 # --- Configuration ---
 
@@ -744,6 +747,41 @@ def post_github_issue(issue_body, csv_text=None):
         print(f"  CSV saved to qa/{csv_filename}")
 
 
+def deliver_daily_report(issue_body, csv_text):
+    """Send daily video report via email and append to Google Sheets."""
+    date_str = datetime.now().strftime("%b %d, %Y")
+
+    # --- Email ---
+    body_html = markdown_to_html(issue_body)
+    sheet_id = load_env_var("REPORT_SHEETS_ID")
+    footer = "View full detail in Google Sheets" if sheet_id else None
+    html = wrap_html_email(body_html, footer_text=footer)
+
+    attachments = None
+    if csv_text:
+        csv_filename = f"video-report-{datetime.now().strftime('%Y-%m-%d')}.csv"
+        attachments = [(csv_filename, csv_text)]
+
+    send_email(
+        subject=f"Daily Video Report \u2014 {date_str}",
+        html_body=html,
+        attachments=attachments,
+    )
+
+    # --- Google Sheets ---
+    if csv_text:
+        report_date = datetime.now().strftime("%Y-%m-%d")
+        reader = csv.reader(io.StringIO(csv_text))
+        header = next(reader, None)
+        rows = []
+        for row in reader:
+            rows.append([report_date] + row)
+        if rows:
+            # Prepend "Report Date" to the header concept — but we only
+            # append data rows (header written once when sheet is created)
+            append_to_sheet(rows, "Daily Video Reports")
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Verify YouTube video assignments")
@@ -944,6 +982,7 @@ def main():
         print(f"CSV written to {csv_path}")
     elif not args.dry_run:
         post_github_issue(issue_body, csv_text=csv_text)
+        deliver_daily_report(issue_body, csv_text)
 
     return 0
 

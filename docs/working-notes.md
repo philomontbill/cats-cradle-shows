@@ -1371,8 +1371,80 @@ Also updated Step 2 to explicitly require using `process_shows_with_youtube()`.
 ### Next Steps
 - Monitor tonight's nightly run — all fixes now live
 - Video duration check (parked, zero extra API cost)
-- Report delivery Option C: HTML email via Gmail SMTP + Google Sheets for detail
+- ~~Report delivery Option C: HTML email via Gmail SMTP + Google Sheets for detail~~ **Done — see Feb 27 session 3**
 - Continue adding venues (next city TBD)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session: Feb 27, 2026 (continued — session 3): Report Delivery
+
+### Report Delivery Option C — Implemented
+
+Built HTML email + Google Sheets delivery for all three report types. Reports now land in the soundchecklocal@gmail.com inbox and accumulate in a shared spreadsheet, while GitHub Issues remain as audit trail.
+
+**Manual setup completed in browser:**
+1. Google Sheets API enabled in Cloud Console (polar-pilot-488221-v0)
+2. Gmail app password generated on soundchecklocal@gmail.com (2FA was already enabled)
+3. Spreadsheet "Local Soundcheck Reports" created with 3 tabs, shared with service account as Editor
+
+**GitHub Secrets added:**
+- `GMAIL_APP_PASSWORD` — Gmail app-specific password for SMTP
+- `REPORT_SHEETS_ID` — Google Spreadsheet ID (`13mOmlIm--ufY5HRmGPFc1vQG9h6N5zNnI__WwiWNdwg`)
+
+**New file: `scripts/report_delivery.py`**
+- Shared module used by all three report scripts
+- `send_email()` — Gmail SMTP with TLS, HTML body, optional CSV attachment
+- `append_to_sheet()` — Google Sheets API append via service account
+- `markdown_to_html()` — converts daily report markdown tables to inline-styled HTML
+- `monospace_to_html()` — converts weekly analytics ASCII tables to inline-styled HTML
+- `wrap_html_email()` — full email template wrapper
+- All delivery functions are graceful failure — print warnings but never crash the pipeline
+
+**New file: `scripts/weekly_qc_report.py`**
+- Weekly video matching quality summary
+- Reads `qa/accuracy_history.json`, `qa/video_states.json`, and `qa/video-report-*.csv`
+- Sections: accuracy trend (daily values + week-over-week delta), current inventory, week's activity, top rejection reasons, rejections by venue
+- Posts GitHub Issue (label: `weekly-qc-report`) + email + Sheets
+- Added to `weekly-report.yml` workflow
+
+**Modified files:**
+- `scripts/verify_videos.py` — added `deliver_daily_report()` after `post_github_issue()`
+- `scripts/weekly_report.py` — added `deliver_weekly_report()` after `post_github_issue()`, added `sys.path` setup for imports
+- `requirements.txt` — added `google-api-python-client`, `google-auth-httplib2`
+- `.github/workflows/scrape.yml` — added email/Sheets env vars to verify step
+- `.github/workflows/weekly-report.yml` — added email/Sheets env vars + weekly QC report step
+- `.env` — added local vars for `GMAIL_SENDER`, `GMAIL_APP_PASSWORD`, `REPORT_SHEETS_ID`, `GA4_SERVICE_ACCOUNT`, `GA4_PROPERTY_ID`
+
+**Spreadsheet tabs:**
+- "Daily Video Reports" — one row per show from each night's CSV (Report Date + 9 CSV columns)
+- "Weekly Analytics" — one summary row per week (Date Range, Users, New Users, Page Views, Events, Avg Engagement)
+- "Weekly QC" — one summary row per week (Date Range, Accuracy %, Avg Confidence, Verified, Rejected, No Preview, Total Shows, Week Verified, Week Rejected)
+
+**Local testing results:**
+- Email delivery: 3 test emails sent successfully (generic test, weekly analytics, weekly QC)
+- Sheets append: all 3 tabs populated correctly with headers + test data
+- Weekly report generation: ran successfully with real GA4 data
+- Weekly QC report: produced correct output from accuracy_history.json + daily CSVs
+- Import path fix: `weekly_report.py` needed `sys.path` setup (verify_videos.py already had it)
+
+**Key finding from QC report:**
+- 157 of 168 rejections (Feb 26-27) were "could not fetch video metadata" — YouTube API quota exhaustion
+- Feb 25 had 0 fetch failures, Feb 26-27 had all fetch failures
+- This is the quota issue that the verifier API key fix (also from today) addresses
+- Tonight's run should show real quality rejections instead of blanket fetch failures
+
+### Files NOT yet committed
+All code changes are local only. Need to commit + push for nightly pipeline to use them.
+
+### Next Steps
+- Commit and push all report delivery code
+- Monitor tonight's nightly run — first with both the quota fix AND report delivery
+- Check that email arrives and Sheets populate from the nightly run
+- Verify first automated weekly report + QC report Monday Mar 2
+- Video duration check (parked, zero extra API cost)
+- Continue adding venues (next city TBD)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)

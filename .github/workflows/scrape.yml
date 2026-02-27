@@ -116,6 +116,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           YOUTUBE_VERIFIER_API_KEY: ${{ secrets.YOUTUBE_VERIFIER_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_SENDER: soundchecklocal@gmail.com
+          GA4_SERVICE_ACCOUNT: ${{ secrets.GA4_SERVICE_ACCOUNT }}
+          REPORT_SHEETS_ID: ${{ secrets.REPORT_SHEETS_ID }}
 
       - name: Run accuracy audit
         id: audit

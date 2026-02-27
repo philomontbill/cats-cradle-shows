@@ -24,6 +24,13 @@ import subprocess
 import sys
 from datetime import datetime, timedelta
 
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
+sys.path.insert(0, _PROJECT_ROOT)
+
+from scripts.report_delivery import (
+    send_email, append_to_sheet, monospace_to_html, wrap_html_email,
+)
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import (
     DateRange,
@@ -523,6 +530,125 @@ def post_github_issue(title, body):
     print(f"Issue created: {result.stdout.strip()}")
 
 
+def deliver_weekly_report(report_text, date_range_label, report_data=None):
+    """Send weekly report via email and append summary to Google Sheets."""
+    # --- Email ---
+    body_html = monospace_to_html(report_text)
+    html = wrap_html_email(body_html)
+    send_email(
+        subject=f"Weekly Analytics \u2014 {date_range_label}",
+        html_body=html,
+    )
+
+    # --- Google Sheets ---
+    # Append one summary row per week with key metrics parsed from the report
+    if report_data:
+        row = [
+            report_data.get("date_range", date_range_label),
+            report_data.get("users", ""),
+            report_data.get("new_users", ""),
+            report_data.get("page_views", ""),
+            report_data.get("events", ""),
+            report_data.get("avg_engagement", ""),
+        ]
+        append_to_sheet([row], "Weekly Analytics")
+
+
+def _extract_venue_scorecard(client, prop_id, date_range, date_label):
+    """Extract per-venue metrics for the Venue Scorecard sheet.
+
+    Returns a list of rows: [Week, Venue, Users, New, Returning, Plays, Tix, Avg Time, Top Artist]
+    """
+    venue_rows = run_report(
+        client, prop_id,
+        dimensions=["customEvent:venue_name"],
+        metrics=["totalUsers", "newUsers", "screenPageViews",
+                 "userEngagementDuration"],
+        date_range=date_range,
+        order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(
+            metric_name="totalUsers"), desc=True)],
+        limit=30,
+    )
+
+    play_rows = run_report(
+        client, prop_id,
+        dimensions=["customEvent:venue_name"],
+        metrics=["eventCount"],
+        date_range=date_range,
+        dim_filter=event_filter("sample_play"),
+        limit=30,
+    )
+    plays_by_venue = {r["customEvent:venue_name"]: fmt_int(r["eventCount"])
+                      for r in play_rows}
+
+    ticket_rows = run_report(
+        client, prop_id,
+        dimensions=["customEvent:venue_name"],
+        metrics=["eventCount"],
+        date_range=date_range,
+        dim_filter=event_filter("ticket_click"),
+        limit=30,
+    )
+    tickets_by_venue = {r["customEvent:venue_name"]: fmt_int(r["eventCount"])
+                        for r in ticket_rows}
+
+    artist_rows = run_report(
+        client, prop_id,
+        dimensions=["customEvent:venue_name", "customEvent:artist"],
+        metrics=["eventCount"],
+        date_range=date_range,
+        dim_filter=event_filter("sample_play"),
+        order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(
+            metric_name="eventCount"), desc=True)],
+        limit=50,
+    )
+    top_artist_by_venue = {}
+    for r in artist_rows:
+        v = r["customEvent:venue_name"]
+        if v not in top_artist_by_venue:
+            top_artist_by_venue[v] = r["customEvent:artist"]
+
+    rows = []
+    for r in venue_rows:
+        v = r["customEvent:venue_name"]
+        if not v or v == "(not set)":
+            continue
+        # Skip URL slug variants (lowercase, no spaces) — only keep display names
+        if v == v.lower() and " " not in v:
+            continue
+        users = fmt_int(r["totalUsers"])
+        new = fmt_int(r["newUsers"])
+        ret = users - new
+        eng = float(r.get("userEngagementDuration", 0))
+        avg_time = fmt_duration(str(eng / users)) if users > 0 else "0m 00s"
+        plays = plays_by_venue.get(v, 0)
+        tix = tickets_by_venue.get(v, 0)
+        top_a = top_artist_by_venue.get(v, "")
+
+        rows.append([date_label, v, users, new, ret, plays, tix, avg_time, top_a])
+
+    return rows
+
+
+def _extract_overview_metrics(client, prop_id, date_range):
+    """Extract key metrics for the Sheets summary row."""
+    metrics = ["totalUsers", "newUsers", "screenPageViews",
+               "userEngagementDuration", "eventCount"]
+    rows = run_report(client, prop_id, [], metrics, date_range, limit=1)
+    if not rows:
+        return {}
+    r = rows[0]
+    users = fmt_int(r.get("totalUsers", 0))
+    eng_secs = float(r.get("userEngagementDuration", 0))
+    return {
+        "users": users,
+        "new_users": fmt_int(r.get("newUsers", 0)),
+        "page_views": fmt_int(r.get("screenPageViews", 0)),
+        "events": fmt_int(r.get("eventCount", 0)),
+        "avg_engagement": fmt_duration(str(eng_secs / users)) if users > 0 else "0m 00s",
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description="Local Soundcheck weekly analytics report")
     parser.add_argument("--days", type=int, default=7, help="Number of days to report (default: 7)")
@@ -545,11 +671,23 @@ def main():
         # Post as GitHub Issue
         _, start, end = make_date_range(args.days)
         date_label = f"{start.strftime('%b %d')} - {end.strftime('%b %d, %Y')}"
-        issue_title = f"Weekly Analytics — {date_label}"
+        issue_title = f"Weekly Analytics \u2014 {date_label}"
 
         # Wrap in code block for monospace formatting
         body = f"```\n{report}\n```"
         post_github_issue(issue_title, body)
+
+        # Email + Sheets delivery
+        date_range_obj, _, _ = make_date_range(args.days)
+        report_data = _extract_overview_metrics(client, prop_id, date_range_obj)
+        report_data["date_range"] = date_label
+        deliver_weekly_report(report, date_label, report_data=report_data)
+
+        # Venue Scorecard — per-venue rows for outreach tracking
+        venue_scorecard = _extract_venue_scorecard(
+            client, prop_id, date_range_obj, date_label)
+        if venue_scorecard:
+            append_to_sheet(venue_scorecard, "Venue Scorecard")
 
 
 if __name__ == "__main__":

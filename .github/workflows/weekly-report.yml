@@ -17,6 +17,9 @@ jobs:
       GA4_SERVICE_ACCOUNT: ${{ secrets.GA4_SERVICE_ACCOUNT }}
       GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      GMAIL_SENDER: soundchecklocal@gmail.com
+      REPORT_SHEETS_ID: ${{ secrets.REPORT_SHEETS_ID }}
 
     steps:
       - name: Checkout repository
@@ -35,3 +38,6 @@ jobs:
 
       - name: Generate and post weekly report
         run: python scripts/weekly_report.py
+
+      - name: Generate and post weekly QC report
+        run: python scripts/weekly_qc_report.py
