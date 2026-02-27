@@ -16,7 +16,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648538141274",
       "ticket_url": "https://www.etix.com/ticket/p/48197414/lowdown-brass-band-austin-resound-presents",
       "youtube_id": "1reFsPJUxJE",
-      "opener_youtube_id": "EqwjdX3PAR0"
+      "opener_youtube_id": "EqwjdX3PAR0",
+      "expired": true
     },
     {
       "artist": "Colony House",
@@ -328,8 +329,8 @@
       "opener_youtube_id": "xAnNUkkNUFY"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 21,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:43:36.496795"
+  "total_shows": 24,
+  "shows_with_video": 20,
+  "shows_with_image": 24,
+  "last_updated": "2026-02-27T05:18:17.800729"
 }

@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Lotus",
-      "date": "Thu, Feb 26",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Healyside Trio - feat. Mike Healy of Papadosio, Daniel Combs & Asher Hill",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Lotus_1040691761753465.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/67571925/lotus-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": null,
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Jesse Welles",
       "date": "Fri, Feb 27",
       "doors": "7 pm",
@@ -280,10 +267,22 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Lee Fields & Monophonics",
+      "date": "Thu, Apr 02",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": null,
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/01/lee-fields-monophonics.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/36225987/lee-fields-monophonics-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 22,
   "shows_with_video": 22,
   "shows_with_image": 22,
-  "last_updated": "2026-02-26T20:45:55.171295"
+  "last_updated": "2026-02-27T05:20:51.539853"
 }

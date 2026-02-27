@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Advance Base / Moontype / Moon Racer",
-      "date": "Thu, Feb 26",
-      "doors": "6:30 pm",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Advance_1296731764776156.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/73369336/advance-base-moontype-moon-racer-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "-LXwshEQjtg"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Le Frique: Disco Afrique, An All Afrocentric Cabaret and Dance Party",
       "date": "Fri, Feb 27",
       "doors": "10 pm",
@@ -172,6 +161,17 @@
     },
     {
       "venue": "The Pinhook",
+      "artist": "SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!",
+      "date": "Sat, Mar 14",
+      "doors": "9:30 pm",
+      "showtime": "10 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/siren-sound-the-alarm-for-the-pisces-queen-followed-by-a-piscine-dance-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/55479687/siren-sound-the-alarm-for-the-pisces-queen-followed-by-a-piscine-dance-party-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
       "artist": "Invisible Cities / Ravine / Violent Institution",
       "date": "Sun, Mar 15",
       "doors": "8:30 pm",
@@ -282,7 +282,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 21,
+  "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:43:16.007223"
+  "last_updated": "2026-02-27T05:17:54.537167"
 }

@@ -7,32 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Thu, Feb 26",
-      "artist": "andmoreagain presentsThe Psycodelics",
-      "opener": "Tre. Charles",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-psycodelics",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/psycodelics-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "FnhjIE3HQMc"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Feb 26",
-      "artist": "The Psycodelics",
-      "opener": "Tre. Charles",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-psycodelics",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/psycodelics-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FL9bejY0chA",
-      "opener_youtube_id": "FnhjIE3HQMc"
-    },
-    {
-      "venue": "Kings",
       "date": "Fri, Feb 27",
       "artist": "SINIESTRE Latin Goth Prom: Tesoro\u2019s Eternal Youth Edition",
       "opener": "hosts Tesoro, Kali Fuchis, & Saga Wolf",
@@ -196,12 +170,14 @@
       "venue": "Kings",
       "date": "Mon, Mar 16",
       "artist": "JMSN",
+      "opener": "Samy Sharif",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/jmsn",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/jmsn-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "LKKrnjfH3nQ"
+      "youtube_id": "LKKrnjfH3nQ",
+      "opener_youtube_id": null
     },
     {
       "venue": "Kings",
@@ -315,10 +291,34 @@
       "doors": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 31",
+      "artist": "Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-5",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "lRwmqocOw7U"
+    },
+    {
+      "venue": "Kings",
+      "date": "Wed, Apr 1",
+      "artist": "Lala Lala",
+      "opener": "Mother Soki",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/lala-lala",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/lalalala-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": "JgHMGvq14eA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:43:25.308899"
+  "last_updated": "2026-02-27T05:18:07.087891"
 }

@@ -113,47 +113,35 @@
   "Braden Bales, Ezra": {
     "status": "rejected",
     "video_id": "QxXrjLaUtDE",
-    "rejected_date": "2026-02-26T20:45:56.801557",
+    "rejected_date": "2026-02-27T05:20:56.682832",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "JaeyBxrd": {
     "status": "rejected",
     "video_id": "zWl5pQowHmk",
-    "rejected_date": "2026-02-26T20:45:57.911474",
+    "rejected_date": "2026-02-27T05:20:57.768199",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Sheer Mag": {
-    "status": "verified",
-    "video_id": "hCl-hJY0T9Y",
-    "verified_date": "2026-02-26T18:49:43.307597",
-    "confidence": "channel match, 241,926 views",
-    "metadata": {
-      "video_title": "Sheer Mag - Moonstruck (Official Video)",
-      "channel_name": "SHEER MAG",
-      "view_count": 241926,
-      "published": "2024-01-09T15:00:36Z",
-      "is_topic": false,
-      "channel_match": true,
-      "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 28",
-      "video_age_years": 2.1,
-      "spotify_match": "exact",
-      "spotify_popularity": 28
-    }
+    "status": "rejected",
+    "video_id": "oOt774ekroI",
+    "rejected_date": "2026-02-27T05:20:58.858116",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Logan Michael": {
     "status": "rejected",
     "video_id": "Ip3DO5EBhfY",
-    "rejected_date": "2026-02-26T20:45:58.988609",
+    "rejected_date": "2026-02-27T05:20:59.964143",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Rikkies & SUM SUN w/ So Impartial": {
     "status": "rejected",
-    "video_id": "efMDcy6PV2k",
-    "rejected_date": "2026-02-26T20:46:00.060115",
+    "video_id": "yi0O_Q2lU7w",
+    "rejected_date": "2026-02-27T05:21:01.008788",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -176,68 +164,57 @@
   },
   "Freddie McClendon": {
     "status": "rejected",
-    "video_id": "lJilfBXgAC8",
-    "rejected_date": "2026-02-26T20:46:01.169903",
+    "video_id": "hnhuDF2kJBo",
+    "rejected_date": "2026-02-27T05:21:02.066966",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?": {
     "status": "rejected",
     "video_id": "6UplsJkRz10",
-    "rejected_date": "2026-02-26T20:46:02.280800",
+    "rejected_date": "2026-02-27T05:21:03.170059",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle": {
     "status": "rejected",
     "video_id": "5lv-Viait7k",
-    "rejected_date": "2026-02-26T20:46:03.395450",
+    "rejected_date": "2026-02-27T05:21:04.236937",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Arianna Chetram, Malik English, lady t": {
     "status": "rejected",
-    "video_id": "sz-Wg4eCJK4",
-    "rejected_date": "2026-02-26T20:46:04.472287",
+    "video_id": "wXV5Jq0sL7Y",
+    "rejected_date": "2026-02-27T05:21:05.302211",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Muo Duo, Evan Isaac, Segami, Annabel Asher": {
     "status": "rejected",
     "video_id": "IgAeDXWcRtE",
-    "rejected_date": "2026-02-26T20:46:05.584000",
+    "rejected_date": "2026-02-27T05:21:06.360214",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Ben Milk, Brady Dorrington, ChatChat": {
-    "status": "verified",
-    "video_id": "OSX_yqr4JI0",
-    "verified_date": "2026-02-24T05:27:13.616272",
-    "confidence": "3,013 views",
-    "metadata": {
-      "video_title": "Ben Negative - Milk",
-      "channel_name": "BenNegativeVEVO",
-      "view_count": 3013,
-      "published": "2014-01-30T14:33:19Z",
-      "channel_subscribers": 25,
-      "channel_videos": 1,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'BenNegativeVEVO' doesn't match artist",
-      "video_age_years": 12.1
-    }
+    "status": "rejected",
+    "video_id": "mrZv7GFIAe4",
+    "rejected_date": "2026-02-27T05:21:07.415849",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Ike Reilly Assassination": {
     "status": "rejected",
     "video_id": "1RyIbAdHWT4",
-    "rejected_date": "2026-02-26T20:46:06.657255",
+    "rejected_date": "2026-02-27T05:21:08.472110",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Residual Groove, One Time Weekend": {
     "status": "rejected",
     "video_id": "CAkKMlsyYf8",
-    "rejected_date": "2026-02-26T20:46:07.712118",
+    "rejected_date": "2026-02-27T05:21:09.578585",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -277,8 +254,8 @@
   },
   "Mike Viola": {
     "status": "rejected",
-    "video_id": "1MGBP0xKl-U",
-    "rejected_date": "2026-02-26T20:46:08.782994",
+    "video_id": "o2vjYqhHjK4",
+    "rejected_date": "2026-02-27T05:21:10.645036",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -599,14 +576,14 @@
   "Rivalry Night": {
     "status": "rejected",
     "video_id": "_WaG4xiKpVM",
-    "rejected_date": "2026-02-26T20:46:15.275531",
+    "rejected_date": "2026-02-27T05:21:17.061589",
     "reason": "venue placeholder image (cradlevenue.png); could not fetch video metadata",
     "metadata": {}
   },
   "Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)": {
     "status": "rejected",
     "video_id": "HPi3PpuCyo8",
-    "rejected_date": "2026-02-26T20:46:16.400372",
+    "rejected_date": "2026-02-27T05:21:18.128256",
     "reason": "venue placeholder image (cradlevenue.png); could not fetch video metadata",
     "metadata": {}
   },
@@ -754,7 +731,7 @@
   "Slow Teeth, Scrape, Minor Stars": {
     "status": "rejected",
     "video_id": "oTi8bvOc2VE",
-    "rejected_date": "2026-02-26T20:46:17.467662",
+    "rejected_date": "2026-02-27T05:21:19.179527",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -811,8 +788,8 @@
   },
   "An Evening With": {
     "status": "rejected",
-    "video_id": "0lxA1FXOiv0",
-    "rejected_date": "2026-02-26T20:46:18.550539",
+    "video_id": "8ui9umU0C2g",
+    "rejected_date": "2026-02-27T05:21:20.270940",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -853,7 +830,7 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "rejected",
     "video_id": "A-MOMaDr3tU",
-    "rejected_date": "2026-02-26T20:47:01.713807",
+    "rejected_date": "2026-02-27T05:22:08.328463",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -1048,8 +1025,8 @@
   },
   "The Cast Of Beatlemania Performing Hits From Every Era": {
     "status": "rejected",
-    "video_id": "V1IL9gdE5pw",
-    "rejected_date": "2026-02-26T20:46:21.789109",
+    "video_id": "pYU3Du7ODv0",
+    "rejected_date": "2026-02-27T05:21:26.664708",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -1354,7 +1331,7 @@
   "It\u2019s A 2000\u2019s Party by Slacker University (Ages 18 & Up)": {
     "status": "rejected",
     "video_id": "aM7-EElgADc",
-    "rejected_date": "2026-02-26T20:46:22.853672",
+    "rejected_date": "2026-02-27T05:21:27.710131",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -1378,8 +1355,8 @@
   },
   "Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot": {
     "status": "rejected",
-    "video_id": "NnDv8M5ZDXU",
-    "rejected_date": "2026-02-26T20:46:23.972046",
+    "video_id": "yMgRn-zZYcU",
+    "rejected_date": "2026-02-27T05:21:28.805983",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -1688,7 +1665,7 @@
   "Ezra": {
     "status": "rejected",
     "video_id": "--6fqzrPbSQ",
-    "rejected_date": "2026-02-26T20:46:29.441773",
+    "rejected_date": "2026-02-27T05:21:33.060693",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -1818,7 +1795,7 @@
   "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show": {
     "status": "rejected",
     "video_id": "nlbQJHI2ILs",
-    "rejected_date": "2026-02-26T20:46:30.507928",
+    "rejected_date": "2026-02-27T05:21:34.118419",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -2049,22 +2026,11 @@
     }
   },
   "Lala Lala": {
-    "status": "verified",
-    "video_id": "EkXvx-yAapI",
-    "verified_date": "2026-02-23T11:23:23.874894",
-    "confidence": "186,184 views",
-    "metadata": {
-      "video_title": "Lala Lala & WHY? - Siren 042 (Official Video)",
-      "channel_name": "Joyful Noise Recordings",
-      "view_count": 186184,
-      "published": "2019-01-10T17:12:40Z",
-      "channel_subscribers": 142000,
-      "channel_videos": 2645,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'Joyful Noise Recordings' doesn't match artist",
-      "video_age_years": 7.1
-    }
+    "status": "rejected",
+    "video_id": "GvJUGY0EhcA",
+    "rejected_date": "2026-02-27T05:21:37.301673",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
   },
   "Mother Soki": {
     "status": "verified",
@@ -2259,7 +2225,7 @@
   "@ Kings": {
     "status": "rejected",
     "video_id": "YlXtrnh-Ejo",
-    "rejected_date": "2026-02-26T20:46:32.621176",
+    "rejected_date": "2026-02-27T05:21:38.376230",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -2851,7 +2817,7 @@
   "Small Doses and Chiroptera": {
     "status": "rejected",
     "video_id": "oIKPwaslKsg",
-    "rejected_date": "2026-02-26T20:46:35.843480",
+    "rejected_date": "2026-02-27T05:21:40.575629",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3034,7 +3000,7 @@
   "Snowblinder and Dead Halos": {
     "status": "rejected",
     "video_id": "IC1n6iefrCk",
-    "rejected_date": "2026-02-26T20:46:36.898020",
+    "rejected_date": "2026-02-27T05:21:41.677687",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3200,7 +3166,7 @@
   "Julian Calendar and Sonic Blooms": {
     "status": "rejected",
     "video_id": "tpoZuT0u41U",
-    "rejected_date": "2026-02-26T20:46:37.954347",
+    "rejected_date": "2026-02-27T05:21:42.781059",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3361,8 +3327,8 @@
   },
   "Catiline and Mantaray": {
     "status": "rejected",
-    "video_id": "dVJE0Jvmkgg",
-    "rejected_date": "2026-02-26T20:46:39.011788",
+    "video_id": "f1JiJhWkM9M",
+    "rejected_date": "2026-02-27T05:21:43.835383",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3422,8 +3388,8 @@
   },
   "Hemlock Theory and Under The Catacombs of Paris": {
     "status": "rejected",
-    "video_id": "fHb3tYBuSZE",
-    "rejected_date": "2026-02-26T20:46:40.069810",
+    "video_id": "4CfazQ2P8D8",
+    "rejected_date": "2026-02-27T05:21:44.936552",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3813,7 +3779,7 @@
   "Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!": {
     "status": "rejected",
     "video_id": "CDl9ZMfj6aE",
-    "rejected_date": "2026-02-26T20:46:51.961368",
+    "rejected_date": "2026-02-27T05:21:58.788705",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -3906,7 +3872,7 @@
   "Oof Fighters": {
     "status": "rejected",
     "video_id": "ebJ2brErERQ",
-    "rejected_date": "2026-02-26T20:46:53.031361",
+    "rejected_date": "2026-02-27T05:21:59.833391",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5299,7 +5265,7 @@
   "The Ramona Flowers": {
     "status": "rejected",
     "video_id": "5eZoJBcf6BE",
-    "rejected_date": "2026-02-26T20:46:09.838646",
+    "rejected_date": "2026-02-27T05:21:11.710947",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5362,15 +5328,15 @@
   },
   "SXSW: The Billboard Disruptor House": {
     "status": "rejected",
-    "video_id": "jOaH4vFbHBU",
-    "rejected_date": "2026-02-26T20:46:47.605155",
+    "video_id": "HsHetqB6f14",
+    "rejected_date": "2026-02-27T05:21:54.483100",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!": {
     "status": "rejected",
-    "video_id": "Xk_YVcimlfA",
-    "rejected_date": "2026-02-26T20:46:50.854318",
+    "video_id": "9bi9tdZrinU",
+    "rejected_date": "2026-02-27T05:21:57.726817",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5412,7 +5378,7 @@
   "All Your Friends: The Indie Party": {
     "status": "rejected",
     "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-26T20:46:10.948320",
+    "rejected_date": "2026-02-27T05:21:12.817291",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5471,14 +5437,14 @@
   "Who Run It?? PARTY!!": {
     "status": "rejected",
     "video_id": "XuEnDoRJPO4",
-    "rejected_date": "2026-02-26T20:47:29.625864",
+    "rejected_date": "2026-02-27T05:22:34.937963",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Cure For Paranoia": {
     "status": "rejected",
-    "video_id": "Zvr8cyhQ2Aw",
-    "rejected_date": "2026-02-26T20:46:12.017157",
+    "video_id": "3mlSPVA1r0E",
+    "rejected_date": "2026-02-27T05:21:13.882336",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5506,14 +5472,14 @@
   "h.pruz": {
     "status": "rejected",
     "video_id": "lcvRUy_Mfkk",
-    "rejected_date": "2026-02-26T20:46:20.727115",
+    "rejected_date": "2026-02-27T05:21:22.378007",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "United We Dance: The Ultimate Rave Experience (Ages 18 & Up)": {
     "status": "rejected",
     "video_id": "8bGYX11jpPU",
-    "rejected_date": "2026-02-26T20:46:26.131940",
+    "rejected_date": "2026-02-27T05:21:30.914629",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5527,56 +5493,56 @@
   "Evlo, Justo, Preme, Spg, Choco": {
     "status": "rejected",
     "video_id": "VBDrIlWd3hY",
-    "rejected_date": "2026-02-26T20:46:28.372223",
+    "rejected_date": "2026-02-27T05:21:31.970053",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Al Flynn": {
     "status": "rejected",
-    "video_id": "uQ-r90DC45E",
-    "rejected_date": "2026-02-26T20:46:31.564509",
+    "video_id": "IUVybg8zlbQ",
+    "rejected_date": "2026-02-27T05:21:36.242987",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV": {
     "status": "rejected",
     "video_id": "7IwIUYSE5Tg",
-    "rejected_date": "2026-02-26T20:46:33.697781",
+    "rejected_date": "2026-02-27T05:21:39.483155",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Locally Sourced Weaponry": {
     "status": "rejected",
-    "video_id": "YzgodOR0yYQ",
-    "rejected_date": "2026-02-26T20:46:41.144625",
+    "video_id": "aV6jGkorj7Y",
+    "rejected_date": "2026-02-27T05:21:45.990357",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Horse Deniers and Hvac Tech": {
     "status": "rejected",
-    "video_id": "wU2IvX5mFeE",
-    "rejected_date": "2026-02-26T20:46:42.249482",
+    "video_id": "NkRkuI0ZgX0",
+    "rejected_date": "2026-02-27T05:21:47.036410",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "To Be Announced": {
     "status": "rejected",
     "video_id": "C1vI3ZIkbr4",
-    "rejected_date": "2026-02-26T20:46:48.687503",
+    "rejected_date": "2026-02-27T05:21:55.579350",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "A Special Marshall Day Party": {
     "status": "rejected",
     "video_id": "28IP7wHVP-A",
-    "rejected_date": "2026-02-26T20:46:49.742475",
+    "rejected_date": "2026-02-27T05:21:56.681965",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Broadway Rave": {
     "status": "rejected",
-    "video_id": "g9xEJl0kH6A",
-    "rejected_date": "2026-02-26T20:46:54.101519",
+    "video_id": "kTQDELhYRYE",
+    "rejected_date": "2026-02-27T05:22:00.904797",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5602,14 +5568,14 @@
   "Doc 103": {
     "status": "rejected",
     "video_id": "kh7l845u11I",
-    "rejected_date": "2026-02-26T20:46:55.198371",
+    "rejected_date": "2026-02-27T05:22:02.005255",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more": {
     "status": "rejected",
     "video_id": "9CPnyv-ddRg",
-    "rejected_date": "2026-02-26T20:46:56.317244",
+    "rejected_date": "2026-02-27T05:22:03.059327",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5637,7 +5603,7 @@
   "Lotus": {
     "status": "rejected",
     "video_id": "A57rz0mMFkE",
-    "rejected_date": "2026-02-26T20:47:11.493911",
+    "rejected_date": "2026-02-27T05:22:04.103672",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5663,8 +5629,8 @@
   },
   "special guest Sam Morrow": {
     "status": "rejected",
-    "video_id": "W9AwkvlCCNY",
-    "rejected_date": "2026-02-26T20:46:58.484481",
+    "video_id": "tu8cWLgE7tg",
+    "rejected_date": "2026-02-27T05:22:05.156360",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5711,21 +5677,21 @@
   "Dogma Society": {
     "status": "rejected",
     "video_id": "CqpJ3q3Toys",
-    "rejected_date": "2026-02-26T20:46:59.591444",
+    "rejected_date": "2026-02-27T05:22:06.216878",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "SATSANG": {
     "status": "rejected",
     "video_id": "T-t75r0XGSM",
-    "rejected_date": "2026-02-26T20:47:00.659992",
+    "rejected_date": "2026-02-27T05:22:07.274706",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "CARTER FAITH": {
     "status": "rejected",
     "video_id": "FTGq4amVO4k",
-    "rejected_date": "2026-02-26T20:47:02.826303",
+    "rejected_date": "2026-02-27T05:22:09.388178",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5753,21 +5719,21 @@
   "ALL YOUR FRIENDS": {
     "status": "rejected",
     "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-26T20:47:03.890546",
+    "rejected_date": "2026-02-27T05:22:10.440832",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "OLD CROW MEDICINE SHOW": {
     "status": "rejected",
     "video_id": "1gX1EP6mG-E",
-    "rejected_date": "2026-02-26T20:47:04.949101",
+    "rejected_date": "2026-02-27T05:22:11.495076",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Natalie Jane": {
     "status": "rejected",
-    "video_id": "5V6P1DV6OGI",
-    "rejected_date": "2026-02-26T20:47:06.025096",
+    "video_id": "c4jyTg9-xxc",
+    "rejected_date": "2026-02-27T05:22:12.550535",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5815,21 +5781,21 @@
   "JESSE ROPER + BEN CHAPMAN": {
     "status": "rejected",
     "video_id": "BaUYa8_ece8",
-    "rejected_date": "2026-02-26T20:47:07.089758",
+    "rejected_date": "2026-02-27T05:22:13.603944",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Rock & Roll Playhouse": {
     "status": "rejected",
     "video_id": "CyT6V1cJKSs",
-    "rejected_date": "2026-02-26T20:47:08.144706",
+    "rejected_date": "2026-02-27T05:22:14.658837",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "JOHN COWAN TRIO": {
     "status": "rejected",
     "video_id": "ZrkgP4dokoQ",
-    "rejected_date": "2026-02-26T20:47:09.250376",
+    "rejected_date": "2026-02-27T05:22:15.761190",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5855,7 +5821,7 @@
   "Eddie 9V": {
     "status": "rejected",
     "video_id": "Kz47bLW5lds",
-    "rejected_date": "2026-02-26T20:47:10.374495",
+    "rejected_date": "2026-02-27T05:22:16.804214",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5868,8 +5834,8 @@
   },
   "Jesse Welles": {
     "status": "rejected",
-    "video_id": "ubcUBQX1M20",
-    "rejected_date": "2026-02-26T20:47:13.640696",
+    "video_id": "Tq-Ko6wg_-M",
+    "rejected_date": "2026-02-27T05:22:17.858946",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5937,14 +5903,14 @@
   "Aly & AJ": {
     "status": "rejected",
     "video_id": "TLKiKJ8FYoA",
-    "rejected_date": "2026-02-26T20:47:14.712273",
+    "rejected_date": "2026-02-27T05:22:18.911613",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Hayden Blount": {
     "status": "rejected",
     "video_id": "GMlK_e3hinE",
-    "rejected_date": "2026-02-26T20:47:15.769060",
+    "rejected_date": "2026-02-27T05:22:19.973520",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5970,7 +5936,7 @@
   "SunSquabi": {
     "status": "rejected",
     "video_id": "8kqZHyZ_f-M",
-    "rejected_date": "2026-02-26T20:47:16.828002",
+    "rejected_date": "2026-02-27T05:22:21.015242",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -5997,7 +5963,7 @@
   "Donna The Buffalo": {
     "status": "rejected",
     "video_id": "IXPexLWhNRg",
-    "rejected_date": "2026-02-26T20:47:17.893933",
+    "rejected_date": "2026-02-27T05:22:22.060036",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6047,7 +6013,7 @@
   "Fringe Revival": {
     "status": "rejected",
     "video_id": "8bL4yrvCFlA",
-    "rejected_date": "2026-02-26T20:47:18.951470",
+    "rejected_date": "2026-02-27T05:22:23.131194",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6073,7 +6039,7 @@
   "Gary Numan": {
     "status": "rejected",
     "video_id": "lHomCiPFknY",
-    "rejected_date": "2026-02-26T20:47:20.018965",
+    "rejected_date": "2026-02-27T05:22:24.175848",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6098,15 +6064,15 @@
   },
   "Cat Power": {
     "status": "rejected",
-    "video_id": "BMxjaye7tNY",
-    "rejected_date": "2026-02-26T20:47:21.130802",
+    "video_id": "f-Tsk-cPXxI",
+    "rejected_date": "2026-02-27T05:22:25.243813",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "The Hives": {
     "status": "rejected",
     "video_id": "RQIBjIOMNYw",
-    "rejected_date": "2026-02-26T20:47:22.198686",
+    "rejected_date": "2026-02-27T05:22:26.352950",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6151,7 +6117,7 @@
   "Prince of Eden and Fifth Floor": {
     "status": "rejected",
     "video_id": "MbpDmYY21EY",
-    "rejected_date": "2026-02-26T20:47:23.253887",
+    "rejected_date": "2026-02-27T05:22:27.461172",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6180,7 +6146,7 @@
   "Robert Earl Keen": {
     "status": "rejected",
     "video_id": "ieY1hOwhuKA",
-    "rejected_date": "2026-02-26T20:47:24.319898",
+    "rejected_date": "2026-02-27T05:22:28.553333",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6246,28 +6212,28 @@
   "Drain": {
     "status": "rejected",
     "video_id": "1Zni52X1K3I",
-    "rejected_date": "2026-02-26T20:47:25.388462",
+    "rejected_date": "2026-02-27T05:22:29.651412",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "No Pressure, Haywire, Secret World": {
     "status": "rejected",
     "video_id": "KcGGHSUAbM0",
-    "rejected_date": "2026-02-26T20:47:26.455066",
+    "rejected_date": "2026-02-27T05:22:30.725059",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Mammoth": {
     "status": "rejected",
     "video_id": "7w7rAEnMXDI",
-    "rejected_date": "2026-02-26T20:47:27.509662",
+    "rejected_date": "2026-02-27T05:22:31.769989",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "10 Years, James and the Cold Gun": {
     "status": "rejected",
     "video_id": "59amjf3qCCQ",
-    "rejected_date": "2026-02-26T20:47:28.568336",
+    "rejected_date": "2026-02-27T05:22:32.837474",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
@@ -6293,21 +6259,70 @@
   "TELYKAST": {
     "status": "rejected",
     "video_id": "0SvT0R3da8s",
-    "rejected_date": "2026-02-26T20:46:13.088518",
+    "rejected_date": "2026-02-27T05:21:14.943757",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Surfing For Daisy": {
     "status": "rejected",
     "video_id": "LFV-p4zCz5Y",
-    "rejected_date": "2026-02-26T20:46:14.212084",
+    "rejected_date": "2026-02-27T05:21:15.998314",
     "reason": "could not fetch video metadata",
     "metadata": {}
   },
   "Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts": {
     "status": "rejected",
     "video_id": "_NMn4srj6XQ",
-    "rejected_date": "2026-02-26T20:46:25.051025",
+    "rejected_date": "2026-02-27T05:21:29.849872",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Pressing Strings and Driftwood": {
+    "status": "rejected",
+    "video_id": "HhjrwLJlFrY",
+    "rejected_date": "2026-02-27T05:21:23.470217",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Mason Jennings": {
+    "status": "rejected",
+    "video_id": "9dD8gzb02qw",
+    "rejected_date": "2026-02-27T05:21:24.524866",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Skylar Gudasz": {
+    "status": "rejected",
+    "video_id": "O0By1YmOMWI",
+    "rejected_date": "2026-02-27T05:21:25.606932",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Samy Sharif": {
+    "status": "rejected",
+    "video_id": "xRrtYZphW7g",
+    "rejected_date": "2026-02-27T05:21:35.177313",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Ashes to Amber": {
+    "status": "rejected",
+    "video_id": "eo_0CdDmmLU",
+    "rejected_date": "2026-02-27T05:21:48.080825",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Nature TV and Emerson Bruno": {
+    "status": "rejected",
+    "video_id": "BbO25y5oBr8",
+    "rejected_date": "2026-02-27T05:21:49.187652",
+    "reason": "could not fetch video metadata",
+    "metadata": {}
+  },
+  "Lee Fields & Monophonics": {
+    "status": "rejected",
+    "video_id": "BqH6SycMMdI",
+    "rejected_date": "2026-02-27T05:22:33.884033",
     "reason": "could not fetch video metadata",
     "metadata": {}
   }

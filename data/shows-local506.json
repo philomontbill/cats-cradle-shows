@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Square One",
-      "date": "Thu, Feb 26",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Buck Swope and Green Room",
-      "image": "https://local506.com/wp-content/uploads/2026/02/square-one-with-buck-swope-and-green-room.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/75939422/square-one-with-buck-swope-and-green-room-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "DeQtFGexB2M",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Local 506",
       "artist": "Blood Red River 20th Anniversary Show",
       "date": "Fri, Feb 27",
       "doors": "7 pm",
@@ -323,10 +310,23 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Ashes to Amber",
+      "date": "Thu, Apr 09",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Nature TV and Emerson Bruno",
+      "image": "https://local506.com/wp-content/uploads/2026/01/04_09_26-Ashes_To_Amber-8.5x11-poster-Large.jpeg",
+      "ticket_url": "https://local506.com/event/ashes-to-amber-with-nature-tv/",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:43:10.413040"
+  "last_updated": "2026-02-27T05:17:47.990297"
 }

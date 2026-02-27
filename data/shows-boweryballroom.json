@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "Haffway - The Wither Tour",
-      "date": "Thu, Feb 26",
+      "date": "Fri, Feb 26",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -15,11 +15,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/eef/0a2af44a-3407-4699-8976-90e48e455eef_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/haffway-the-wither-tour/",
-      "youtube_id": "EvrdgG7Q4qo"
+      "youtube_id": "EvrdgG7Q4qo",
+      "expired": true
     },
     {
       "artist": "Guitarricadelafuente",
-      "date": "Thu, Feb 26",
+      "date": "Fri, Feb 26",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,11 +28,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/41a/bb393b58-a84d-4c36-b54f-62b93b98241a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente-2/",
-      "youtube_id": "b_f2qiL_nP4"
+      "youtube_id": "b_f2qiL_nP4",
+      "expired": true
     },
     {
       "artist": "Braden Bales, Ezra",
-      "date": "Thu, Feb 26",
+      "date": "Fri, Feb 26",
       "venue": "Bowery Ballroom",
       "opener": "JaeyBxrd",
       "notice": null,
@@ -40,7 +42,8 @@
       "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Guitarricadelafuente",
@@ -64,7 +67,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": "hCl-hJY0T9Y"
+      "youtube_id": null
     },
     {
       "artist": "Logan Michael",
@@ -172,7 +175,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
-      "youtube_id": "OSX_yqr4JI0"
+      "youtube_id": null
     },
     {
       "artist": "Ike Reilly Assassination",
@@ -307,8 +310,8 @@
       "youtube_id": null
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 25,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:44:51.920872"
+  "total_shows": 22,
+  "shows_with_video": 22,
+  "shows_with_image": 22,
+  "last_updated": "2026-02-27T05:19:56.575127"
 }

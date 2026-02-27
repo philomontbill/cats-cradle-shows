@@ -6,31 +6,6 @@
   },
   "shows": [
     {
-      "artist": "STS9",
-      "date": "Thu, Feb 26",
-      "venue": "Cat's Cradle",
-      "opener": null,
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-STS9_2003211761739715.jpg",
-      "event_url": "https://catscradle.com/event/sts9/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "Pbmh8AyOgko"
-    },
-    {
-      "artist": "Tyler Ramsey & Carl Broemel (of My Morning Jacket) \u2013 Celestun Tour",
-      "date": "Thu, Feb 26",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Maggie Halfman",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Tyler_2011051762086069.jpg",
-      "event_url": "https://catscradle.com/event/tyler-ramsey-carl-broemel-of-my-morning-jacket-celestun-tour/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "kziZgJFvgiA",
-      "opener_youtube_id": "ad6tgcInO6o"
-    },
-    {
       "artist": "Paul McDonald & the Mourning Doves",
       "date": "Fri, Feb 27",
       "venue": "Cat's Cradle Back Room",
@@ -322,10 +297,35 @@
       "event_url": "https://catscradle.com/event/skullcrusher/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "fvV-CIoeBrE",
       "opener_youtube_id": null
+    },
+    {
+      "artist": "Pressing Strings and Driftwood",
+      "date": "Thu, Mar 19",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Pressing_2045361763507306.jpg",
+      "event_url": "https://catscradle.com/event/pressing-strings-and-driftwood/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Mason Jennings",
+      "date": "Fri, Mar 20",
+      "venue": "Cat's Cradle",
+      "opener": "Skylar Gudasz",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Mason_2174221769000347.jpg",
+      "event_url": "https://catscradle.com/event/mason-jennings/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 25,
   "shows_with_image": 25,
-  "last_updated": "2026-02-26T20:43:02.276673"
+  "last_updated": "2026-02-27T05:17:39.761073"
 }

@@ -6803,5 +6803,81 @@
     "enriched_date": "2026-02-26T18:49:42.634870+00:00",
     "match_confidence": "exact",
     "match_score": 1.053
+  },
+  "Ashes to Amber": {
+    "spotify_id": "1VjLe0p8LUFKPbyKaQZAgu",
+    "spotify_name": "Ashes To Amber",
+    "popularity": 44,
+    "followers": 43836,
+    "genres": [],
+    "enriched_date": "2026-02-27T05:20:52.385210+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.044
+  },
+  "Lee Fields & Monophonics": {
+    "spotify_id": "6LXZac7iBIZgnNrywTkQRw",
+    "spotify_name": "Monophonics",
+    "popularity": 48,
+    "followers": 137891,
+    "genres": [
+      "retro soul"
+    ],
+    "enriched_date": "2026-02-27T05:20:52.857589+00:00",
+    "match_confidence": "close",
+    "match_score": 0.948
+  },
+  "Mason Jennings": {
+    "spotify_id": "6CQrZZn0g2ZNfIcXbi4pdo",
+    "spotify_name": "Mason Jennings",
+    "popularity": 37,
+    "followers": 71816,
+    "genres": [],
+    "enriched_date": "2026-02-27T05:20:53.290207+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.037
+  },
+  "Nature TV and Emerson Bruno": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-27T05:20:53.635146+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Pressing Strings and Driftwood": {
+    "spotify_id": "26ZMJzyOeTTQzwImKFsKHR",
+    "spotify_name": "Pressing Strings",
+    "popularity": 32,
+    "followers": 12723,
+    "genres": [],
+    "enriched_date": "2026-02-27T05:20:54.068497+00:00",
+    "match_confidence": "close",
+    "match_score": 0.932
+  },
+  "SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-27T05:20:54.469139+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Samy Sharif": {
+    "spotify_id": "2Mzsx6Ss1YXrvigyijs3O6",
+    "spotify_name": "Samy Sharif",
+    "popularity": 27,
+    "followers": 3342,
+    "genres": [],
+    "enriched_date": "2026-02-27T05:20:55.006119+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.027
+  },
+  "Skylar Gudasz": {
+    "spotify_id": "0isq0T851tBgpJagOHHYHQ",
+    "spotify_name": "Skylar Gudasz",
+    "popularity": 19,
+    "followers": 4406,
+    "genres": [],
+    "enriched_date": "2026-02-27T05:20:55.464979+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.019
   }
 }
