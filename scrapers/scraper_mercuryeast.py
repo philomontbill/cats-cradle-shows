@@ -143,25 +143,14 @@ class MercuryEastScraper(BaseScraper):
         if not venue_events:
             return
 
-        # Process with YouTube
-        for i, event in enumerate(venue_events[:25], 1):
+        # Build show list
+        for event in venue_events[:25]:
             show = self._create_show(event, venue_config)
             if show:
-                # Get YouTube
-                show['youtube_id'] = self.get_youtube_id(show['artist'])
-
-                # Get opener YouTube if exists
-                if show.get('opener'):
-                    show['opener_youtube_id'] = self.get_youtube_id(show['opener'], is_opener=True)
-
-                print(f"[{i}/{min(len(venue_events), 25)}] {show['artist']} ({show['date']})")
-                if show.get('opener'):
-                    print(f"        Opener: {show['opener'][:40]}")
-                if show.get('youtube_id'):
-                    print(f"        YouTube: {show['youtube_id']}")
-
                 shows.append(show)
-                time.sleep(0.5)
+
+        # Add YouTube videos using shared method (rejection filtering, smart search, quota saving)
+        shows = self.process_shows_with_youtube(shows)
 
         # Save to venue-specific JSON
         self._save_venue_json(shows, venue_config)

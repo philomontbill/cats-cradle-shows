@@ -169,12 +169,14 @@ Every manual correction, every artist-submitted preference, every override becom
 ### Venue Onboarding Checklist
 
 1. Scout venue website — confirm server-side rendering, identify ticketing platform and HTML structure
-2. Write scraper extending base_scraper.py — leverage existing patterns where possible
-3. Test locally — verify artist names, dates, ticket links, images, openers parse correctly
-4. Add venue to `data/venues.json` (state → region → venue hierarchy)
-5. Add scraper step to `scrape.yml` workflow
-6. Run first nightly cycle — review video report for new venue's matches
-7. Add manual overrides for any edge cases (event names, common word collisions)
+2. Write scraper extending base_scraper.py — must use `process_shows_with_youtube()` (not direct `get_youtube_id()` calls)
+3. Test the new scraper alone — verify artist names, dates, ticket links, images, openers parse correctly
+4. **Run all scrapers locally** — confirm new scraper works alongside existing ones, check total API call count, verify no scraper bypasses shared search/rejection filtering
+5. **Run the verifier locally** — confirm new venue's videos get verified (not all rejected due to quota or errors) and appear correctly in the report
+6. Add venue to `data/venues.json` (state → region → venue hierarchy)
+7. Add scraper step to `scrape.yml` workflow
+8. Run first nightly cycle — review video report for new venue's matches
+9. Add manual overrides for any edge cases (event names, common word collisions)
 
 ### Inbound Communication
 
