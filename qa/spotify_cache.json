@@ -6879,5 +6879,19 @@
     "enriched_date": "2026-02-27T05:20:55.464979+00:00",
     "match_confidence": "exact",
     "match_score": 1.019
+  },
+  "NYC Barz Exam: Karl Dice Raw Jenkins + more": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-27T15:10:37.487403+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "True Jackson, Charlie Jacoby, Jennys Setlist": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-27T15:10:37.984257+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

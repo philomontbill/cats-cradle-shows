@@ -6,46 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Haffway - The Wither Tour",
-      "date": "Fri, Feb 26",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/eef/0a2af44a-3407-4699-8976-90e48e455eef_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/haffway-the-wither-tour/",
-      "youtube_id": "EvrdgG7Q4qo",
-      "expired": true
-    },
-    {
-      "artist": "Guitarricadelafuente",
-      "date": "Fri, Feb 26",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/41a/bb393b58-a84d-4c36-b54f-62b93b98241a_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente-2/",
-      "youtube_id": "b_f2qiL_nP4",
-      "expired": true
-    },
-    {
-      "artist": "Braden Bales, Ezra",
-      "date": "Fri, Feb 26",
-      "venue": "Bowery Ballroom",
-      "opener": "JaeyBxrd",
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/1c7/7d1886be-c2af-403e-b16c-39bebe75c1c7_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/braden-bales-ezra/",
-      "youtube_id": null,
-      "opener_youtube_id": null,
-      "expired": true
-    },
-    {
       "artist": "Guitarricadelafuente",
       "date": "Fri, Feb 27",
       "venue": "Bowery Ballroom",
@@ -259,7 +219,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
-      "youtube_id": null
+      "youtube_id": "5eZoJBcf6BE"
     },
     {
       "artist": "All Your Friends: The Indie Party",
@@ -308,10 +268,46 @@
       "image": "https://s1.ticketm.net/dam/e/ac3/e8b2a963-5c88-4123-8b2c-55b0ecd0eac3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy/",
       "youtube_id": null
+    },
+    {
+      "artist": "Surfing For Daisy",
+      "date": "Sun, Mar 08",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "5pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/33f/2fbb1745-d233-412d-bf05-19b2213a633f_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy-2/",
+      "youtube_id": null
+    },
+    {
+      "artist": "True Jackson, Charlie Jacoby, Jennys Setlist",
+      "date": "Sun, Mar 08",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/a09/fe7a69bf-17e7-40fd-afad-44c6026a5a09_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/true-jackson-charlie-jacoby-jennys-setlist/",
+      "youtube_id": null
+    },
+    {
+      "artist": "NYC Barz Exam: Karl Dice Raw Jenkins + more",
+      "date": "Mon, Mar 09",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/ea0/da679823-b0ec-4f93-80d9-e025610d6ea0_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/nyc-barz-exam-karl-dice-raw-jenkins-more/",
+      "youtube_id": null
     }
   ],
-  "total_shows": 22,
-  "shows_with_video": 22,
-  "shows_with_image": 22,
-  "last_updated": "2026-02-27T05:19:56.575127"
+  "total_shows": 25,
+  "shows_with_video": 23,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-27T15:09:42.344242"
 }

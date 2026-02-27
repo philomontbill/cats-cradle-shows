@@ -6,20 +6,6 @@
   },
   "shows": [
     {
-      "artist": "LowDown Brass Band",
-      "date": "Thu, Feb 26",
-      "venue": "Mohawk Indoor",
-      "opener": "Blue Tongue",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648538141274",
-      "ticket_url": "https://www.etix.com/ticket/p/48197414/lowdown-brass-band-austin-resound-presents",
-      "youtube_id": "1reFsPJUxJE",
-      "opener_youtube_id": "EqwjdX3PAR0",
-      "expired": true
-    },
-    {
       "artist": "Colony House",
       "date": "Fri, Feb 27",
       "venue": "Mohawk Outdoor",
@@ -327,10 +313,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
       "youtube_id": "quI9Xd-En1g",
       "opener_youtube_id": "xAnNUkkNUFY"
+    },
+    {
+      "artist": "Model/Actriz",
+      "date": "Fri, Apr 03",
+      "venue": "Mohawk Outdoor",
+      "opener": "Touching Ice, Almost Heaven",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593580159",
+      "ticket_url": "https://www.etix.com/ticket/p/90006677/modelactriz-austin-resound-presents",
+      "youtube_id": "37ptdYkJ1d0",
+      "opener_youtube_id": null
     }
   ],
-  "total_shows": 24,
-  "shows_with_video": 20,
-  "shows_with_image": 24,
-  "last_updated": "2026-02-27T05:18:17.800729"
+  "total_shows": 25,
+  "shows_with_video": 21,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-27T15:07:20.719406"
 }

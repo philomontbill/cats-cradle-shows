@@ -28,5 +28,15 @@
     "overrides": 0,
     "accuracy_rate": 97.3,
     "avg_confidence": 87.9
+  },
+  {
+    "date": "2026-02-27",
+    "total_shows": 302,
+    "verified": 213,
+    "rejected": 68,
+    "no_preview": 21,
+    "overrides": 0,
+    "accuracy_rate": 97.9,
+    "avg_confidence": 88.0
   }
 ]

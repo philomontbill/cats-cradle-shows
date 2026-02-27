@@ -179,7 +179,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/47377314/feyleux-with-more-is-not-enough-and-heavy-for-the-vintage-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "Hxj5NloHnNc",
-      "opener_youtube_id": "IJ90zUtq6Cg"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -283,7 +283,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/36604784/treasure-pains-and-null-with-dug-and-snide-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "hm1I7mP5XSY",
-      "opener_youtube_id": "E3ru5vfyqZU"
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -326,7 +326,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 25,
+  "shows_with_video": 24,
   "shows_with_image": 25,
-  "last_updated": "2026-02-27T05:17:47.990297"
+  "last_updated": "2026-02-27T15:06:55.136112"
 }
