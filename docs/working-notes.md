@@ -1167,8 +1167,132 @@ This scales with venue growth — adding a new venue generates a one-time burst 
 **Files modified:** `scripts/validate_shows.py`, `.github/workflows/scrape.yml` (added `qa/validation_baseline.json` to commit list)
 **Files created:** `qa/validation_baseline.json`
 
+### Daily Report Restructure
+
+Analyzed the three email notifications from last night's nightly run by importing them into Excel:
+- **Issue #13** (formatted report): Verified (11), Rejected (11), No Preview Queue (35) — truncated, readable
+- **Issue #15** (CSV comment): 204 rows covering all shows — complete but required Excel Text-to-Columns to read
+- **Issue #16** (scrape alert): All 13 scrapers passed, only Data Validation failed (known issue, fixed with baseline)
+
+**Key finding:** Issue #13 and #15 overlap heavily. Column-by-column comparison confirmed the CSV covers everything the formatted report has, plus more rows and more detail. The formatted report was a truncated, prettier duplicate.
+
+**oEmbed rate limiting diagnosis:** 96 of 97 rejections were "could not fetch video metadata" — not real content problems. Adding Orange Peel + Neighborhood Theatre at once caused a burst of oEmbed requests. These should self-heal as the verifier skips already-verified shows on subsequent runs.
+
+**Decision:** Drop the formatted text report entirely. Keep one CSV committed to `qa/`. Replace the GitHub Issue with a readable markdown summary.
+
+**New report structure (3 sections):**
+
+1. **Tonight's Delta** — What changed in this run:
+   - Newly Verified table (Artist | Venue | Date | Spotify | Detail)
+   - Newly Rejected table (Artist | Venue | Date | Spotify | Reason)
+   - Recovered table (previously rejected, now verified)
+   - Recovery detection: snapshot `video_states.json` before verification loop, compare after
+
+2. **Full Inventory** — Coverage stats for all shows:
+   - Status breakdown table (Verified | Rejected | No Preview | Override counts + percentages)
+   - Per-venue one-liner (e.g., "Cat's Cradle 11/11 · Local 506 24/25")
+   - Link to committed CSV file
+
+3. **Accuracy Tracking** — Progression over time:
+   - Today's accuracy % and avg confidence (from latest audit)
+   - Yesterday and 7-day average comparison
+   - Override count
+   - Data stored in new `qa/accuracy_history.json` file
+
+**Code changes in `scripts/verify_videos.py`:**
+- New helpers: `spotify_csv_indicator()`, `load_latest_audit()`, `load_accuracy_history()`, `save_accuracy_history()`, `compute_inventory()`
+- Replaced `build_report()` with `build_issue_body()` — generates GitHub-flavored markdown
+- Modified `build_csv()` — added `Changed` column ("New", "Recovered", or blank) for Excel filtering
+- Modified `post_github_issue()` — uses `--body-file` with tempfile, dropped CSV comment entirely
+- Modified `main()` — snapshots `old_states` before verification loop, appends to accuracy history
+
+**Testing:** Local run produced correct output — recovery detection worked (Los Straitjackets tagged as Recovered), markdown tables rendered properly, CSV had new Changed column, accuracy history file created with yesterday/7-day comparisons.
+
+**Commit:** `b0dd8dc` — "Restructure daily video report — markdown summary + improved CSV"
+
+**Manual scrape triggered** after push to recover the 96 oEmbed failures immediately rather than waiting for tonight. YouTube API budget impact: ~2% of daily quota. oEmbed is free. Spotify not called by verifier (reads local cache only).
+
 ### Next Steps
+- Check manual scrape results (pipeline running)
 - Decide on Reddit intro post timing (outreach/reddit-post-triangle.txt)
 - Continue adding venues (more NC? or expand other states?)
 - Finalize video disclaimer wording
+- Verify first automated weekly report Monday Mar 2
+- Report delivery format TBD (GitHub Issue email vs localsoundcheck.com/report)
+
+---
+
+## Session: Feb 27, 2026
+
+### Code Review & Cleanup
+
+Before implementing the quota fix, ran code quality review across all pipeline scripts. Found and fixed:
+
+1. **Duplicated retry logic** — `get_video_metadata()` and `get_channel_metadata()` in `verify_videos.py` had identical retry/backoff code. Extracted shared `_youtube_api_get()` helper (~40 lines removed net).
+2. **Dead function** — `spotify_indicator()` in `verify_videos.py` was defined but never called (only `spotify_csv_indicator()` was used). Removed.
+3. **Redundant normalize wrappers** — Both `verify_videos.py` and `spotify_enrich.py` had local `normalize()` functions that just called the shared `_normalize` from utils. Removed wrappers, updated call sites to use `_normalize` directly.
+
+### QA Documentation Update
+
+All three QA docs were stale. Updated before code changes:
+
+- **qa/README.md** — Complete rewrite reflecting current 12+ file inventory
+- **qa/verification-log.md** — Added Runs 2-6 (Feb 24-27), updated calibration notes with full tiered view cap table, all 14 trusted labels, VEVO detection, Spotify identity signals. Added Known Issues section about quota exhaustion.
+- **qa/video-matching-logic.md** — Added Phase 2 (Spotify enrichment), corrected quota budget from "510-1,020" to actual ~9,840 units/day, added view count caps table with all tiers
+
+### YouTube API Quota Fix — Implemented
+
+**Problem:** Scrapers consumed ~9,700 of 10,000 daily YouTube API quota units before the verifier ran. Verifier got 403 (quota exhausted) on nearly all API calls — couldn't verify new videos. Created a cascading failure: rejected → null → re-search next night → more quota burned.
+
+**Fix (two parts):**
+
+**Part 1 — Separate verifier API key:**
+- `verify_videos.py` now prefers `YOUTUBE_VERIFIER_API_KEY` with fallback to `YOUTUBE_API_KEY`
+- Each API key in Google Cloud gets its own 10K daily quota pool
+- Created "YouTube Verifier Key" in Google Cloud Console (project: polar-pilot-488221-v0), restricted to YouTube Data API v3
+- Added as GitHub Secret `YOUTUBE_VERIFIER_API_KEY`
+- `.github/workflows/scrape.yml` updated to pass the new secret to the verify step
+
+**Part 2 — Rejection-aware search filtering:**
+- `base_scraper.py` now loads `qa/video_states.json` at startup
+- Artists rejected by the verifier within the last 7 days are skipped (no API search)
+- Testing showed ~100 artists would be skipped, saving ~10,000 quota units/night
+- After 7 days, cooldown expires and scraper re-searches (in case artist got a new video or verifier rules changed)
+
+**Expected result tonight:** Scrapers use ~5,000-6,000 units (down from ~9,700). Verifier uses ~140 units on its own dedicated key. No more quota starvation.
+
+### Pipeline Overview Documentation
+
+Created `docs/pipeline-overview.md` — plain-language 11-step walkthrough of the full nightly pipeline, from GitHub Actions trigger through commit. Includes the cascading failure explanation and notes on the quota fix.
+
+### External Accuracy Review — Evaluated
+
+User shared a 6-point external review of the video matching pipeline. Evaluated each against the actual codebase without making changes:
+
+1. **YouTube Shorts filtering** — Not needed; Shorts have normal video IDs and our verifier checks (view count, channel match, upload date) already catch bad ones.
+2. **Multi-language title matching** — Already handled; `name_similarity()` uses token overlap which works across transliterations.
+3. **Label allowlist staleness** — Low risk at 14 labels; they're major labels that don't rebrand. Can revisit annually.
+4. **Quota spike protection** — Already mitigated by the rejection-aware filtering + separate API key.
+5. **oEmbed fallback chain** — Audit script uses oEmbed separately with 0.3s delay; verifier uses Data API. No chain to break.
+6. **Video duration check** — Worth doing. Zero extra API cost (add `contentDetails` to existing `videos` call). Flag videos outside 1-15 min range. **Parked for later.**
+
+### Files Modified
+- `scripts/verify_videos.py` — cleanup + verifier API key support
+- `scripts/spotify_enrich.py` — removed normalize wrapper
+- `scrapers/base_scraper.py` — rejection-aware search filtering
+- `.github/workflows/scrape.yml` — pass YOUTUBE_VERIFIER_API_KEY
+- `qa/README.md` — rewritten
+- `qa/verification-log.md` — updated with Runs 2-6
+- `qa/video-matching-logic.md` — updated for 4-phase architecture
+- `docs/pipeline-overview.md` — **new**, plain-language pipeline walkthrough
+
+**Commit:** `4e38585` — "Code cleanup, quota fix, and QA docs update"
+
+### Next Steps
+- Monitor tonight's nightly run — first with separate verifier API key + rejection filtering
+- Video duration check (parked, zero extra API cost)
+- Report delivery Option C: HTML email via Gmail SMTP + Google Sheets for detail
+- Continue adding venues (next city TBD)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
