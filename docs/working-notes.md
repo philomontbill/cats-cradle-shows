@@ -1296,3 +1296,83 @@ User shared a 6-point external review of the video matching pipeline. Evaluated 
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
 - Verify first automated weekly report Monday Mar 2
+
+---
+
+## Session — Feb 27, 2026 (Part 2): Full-Suite Scraper Testing
+
+### What Happened
+
+Ran local test of the quota fix from Part 1. Started with just Neighborhood Theatre — rejection filtering worked perfectly (118 rejections loaded, 0 API calls). User pushed to test all 12 scrapers instead of just one.
+
+**Running all scrapers exposed a bug we would have missed:**
+
+The Bowery Ballroom scraper (`scraper_mercuryeast.py`) bypassed the shared `process_shows_with_youtube()` method. It called `get_youtube_id()` directly in its own loop, which meant:
+- No rejection filtering (didn't load `video_states.json`)
+- No smart search reuse (didn't load existing matches)
+- No audit score checks
+- Burned 22 API calls straight into quota exhaustion every night
+
+All 11 other scrapers use the shared method correctly. This was the only outlier.
+
+### Why We Didn't Catch It Sooner
+
+The rejection filtering was added to `process_shows_with_youtube()` in the base class — the right place. But nobody verified that all scrapers actually call that method. The Bowery scraper was written with its own YouTube loop before the shared method existed. When we added the filtering, we assumed all scrapers go through the shared path. We never tested that assumption until today.
+
+If we'd only tested Neighborhood Theatre and stopped, Bowery would have burned through quota tonight and the verifier would have gotten 403s again — same failure as the last two nights.
+
+### The Fix
+
+Replaced Bowery's custom YouTube loop (16 lines) with the shared method call (5 lines):
+```python
+# Before: direct calls in a loop
+show['youtube_id'] = self.get_youtube_id(show['artist'])
+
+# After: shared method with all filtering
+shows = self.process_shows_with_youtube(shows)
+```
+
+### Full-Suite Test Results
+
+| Scraper | API Calls (before fix) | API Calls (after fix) |
+|---------|----------------------|---------------------|
+| Cat's Cradle | 0 | 0 |
+| Local 506 | — | 2 |
+| Motorco | — | 18 |
+| Pinhook | — | 5 |
+| Lincoln | — | 1 |
+| Kings | — | 5 |
+| Mohawk | — | 6 |
+| Elevation 27 | — | 1 |
+| The Social | — | 0 |
+| **Bowery** | **22 (all 403)** | **4** |
+| Neighborhood | 0 | 0 |
+| Orange Peel | 0 | 0 |
+| **Total** | ~97 | **38** |
+
+61% reduction in API calls across all scrapers. Bowery went from biggest quota hog to normal.
+
+Verifier test confirmed it finds unverified candidates correctly but got 403s on all of them — expected since we'd burned through the shared local quota during scraper testing. In GitHub Actions tonight, the verifier uses its own `YOUTUBE_VERIFIER_API_KEY` with a separate 10K quota pool.
+
+### Venue Onboarding Checklist Updated
+
+Added two new steps to `docs/strategy.md` checklist:
+- **Step 4**: Run all scrapers locally — confirm new scraper works alongside existing ones
+- **Step 5**: Run verifier locally — confirm new venue's videos get verified correctly
+
+Also updated Step 2 to explicitly require using `process_shows_with_youtube()`.
+
+### Files Modified
+- `scrapers/scraper_mercuryeast.py` — replaced custom YouTube loop with shared method
+- `docs/strategy.md` — updated venue onboarding checklist
+
+**Commit:** `948bbd5` — "Fix Bowery scraper to use shared YouTube search method"
+
+### Next Steps
+- Monitor tonight's nightly run — all fixes now live
+- Video duration check (parked, zero extra API cost)
+- Report delivery Option C: HTML email via Gmail SMTP + Google Sheets for detail
+- Continue adding venues (next city TBD)
+- Finalize video disclaimer wording
+- Reddit post (outreach/reddit-post-triangle.txt)
+- Verify first automated weekly report Monday Mar 2
