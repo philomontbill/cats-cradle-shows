@@ -83,7 +83,14 @@ DEFAULT_VIEW_CAP = VIEW_COUNT_CAP  # 5M when no Spotify data or popularity < 30
 
 
 def load_api_key():
-    """Load YouTube API key from environment or .env file."""
+    """Load YouTube API key from environment or .env file.
+
+    Prefers YOUTUBE_VERIFIER_API_KEY (dedicated verifier quota) and
+    falls back to YOUTUBE_API_KEY (shared with scrapers).
+    """
+    key = load_env_var("YOUTUBE_VERIFIER_API_KEY")
+    if key:
+        return key
     return load_env_var("YOUTUBE_API_KEY")
 
 
@@ -131,93 +138,71 @@ def load_all_shows():
     return results
 
 
-def get_video_metadata(video_id, api_key):
-    """Fetch video metadata from YouTube Data API (1 quota unit).
+def _youtube_api_get(url, resource_label, max_retries=2):
+    """Make a YouTube Data API GET request with retry on transient errors.
 
-    Retries up to 2 times on transient errors (429, 503) with 2s backoff.
+    Retries up to max_retries times on 429/503 with 2s backoff.
+    Returns parsed JSON items list, or None on failure.
     """
     import requests
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.get(url, timeout=10)
+            if resp.status_code == 200:
+                return resp.json().get("items", [])
+            if resp.status_code in (429, 503) and attempt < max_retries:
+                print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for {resource_label}")
+                time.sleep(2)
+                continue
+            print(f"  Warning: YouTube API returned {resp.status_code} for {resource_label}")
+            return None
+        except Exception as e:
+            print(f"  Warning: YouTube API error for {resource_label}: {e}")
+            return None
+
+
+def get_video_metadata(video_id, api_key):
+    """Fetch video metadata from YouTube Data API (1 quota unit)."""
     url = (
         f"https://www.googleapis.com/youtube/v3/videos"
         f"?part=snippet,statistics"
         f"&id={video_id}"
         f"&key={api_key}"
     )
-    max_retries = 2
-    for attempt in range(max_retries + 1):
-        try:
-            resp = requests.get(url, timeout=10)
-            if resp.status_code == 200:
-                items = resp.json().get("items", [])
-                if not items:
-                    return None
-                item = items[0]
-                snippet = item.get("snippet", {})
-                stats = item.get("statistics", {})
-                return {
-                    "title": snippet.get("title", ""),
-                    "channel_name": snippet.get("channelTitle", ""),
-                    "channel_id": snippet.get("channelId", ""),
-                    "published": snippet.get("publishedAt", ""),
-                    "view_count": int(stats.get("viewCount", 0)),
-                }
-            # Retry on rate limit or server error
-            if resp.status_code in (429, 503) and attempt < max_retries:
-                print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for video {video_id}")
-                time.sleep(2)
-                continue
-            # Non-retryable error
-            print(f"  Warning: YouTube API returned {resp.status_code} for video {video_id}")
-            return None
-        except Exception as e:
-            print(f"  Warning: video API error for {video_id}: {e}")
-            return None
+    items = _youtube_api_get(url, f"video {video_id}")
+    if not items:
+        return None
+    item = items[0]
+    snippet = item.get("snippet", {})
+    stats = item.get("statistics", {})
+    return {
+        "title": snippet.get("title", ""),
+        "channel_name": snippet.get("channelTitle", ""),
+        "channel_id": snippet.get("channelId", ""),
+        "published": snippet.get("publishedAt", ""),
+        "view_count": int(stats.get("viewCount", 0)),
+    }
 
 
 def get_channel_metadata(channel_id, api_key):
-    """Fetch channel metadata from YouTube Data API (1 quota unit).
-
-    Retries up to 2 times on transient errors (429, 503) with 2s backoff.
-    """
-    import requests
+    """Fetch channel metadata from YouTube Data API (1 quota unit)."""
     url = (
         f"https://www.googleapis.com/youtube/v3/channels"
         f"?part=snippet,statistics"
         f"&id={channel_id}"
         f"&key={api_key}"
     )
-    max_retries = 2
-    for attempt in range(max_retries + 1):
-        try:
-            resp = requests.get(url, timeout=10)
-            if resp.status_code == 200:
-                items = resp.json().get("items", [])
-                if not items:
-                    return None
-                item = items[0]
-                snippet = item.get("snippet", {})
-                stats = item.get("statistics", {})
-                return {
-                    "name": snippet.get("title", ""),
-                    "subscriber_count": int(stats.get("subscriberCount", 0)),
-                    "video_count": int(stats.get("videoCount", 0)),
-                }
-            # Retry on rate limit or server error
-            if resp.status_code in (429, 503) and attempt < max_retries:
-                print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for channel {channel_id}")
-                time.sleep(2)
-                continue
-            # Non-retryable error
-            print(f"  Warning: YouTube API returned {resp.status_code} for channel {channel_id}")
-            return None
-        except Exception as e:
-            print(f"  Warning: channel API error for {channel_id}: {e}")
-            return None
-
-
-def normalize(text):
-    """Normalize text for comparison."""
-    return _normalize(text)
+    items = _youtube_api_get(url, f"channel {channel_id}")
+    if not items:
+        return None
+    item = items[0]
+    snippet = item.get("snippet", {})
+    stats = item.get("statistics", {})
+    return {
+        "name": snippet.get("title", ""),
+        "subscriber_count": int(stats.get("subscriberCount", 0)),
+        "video_count": int(stats.get("videoCount", 0)),
+    }
 
 
 def is_topic_channel(channel_name):
@@ -227,8 +212,8 @@ def is_topic_channel(channel_name):
 
 def channel_matches_artist(channel_name, artist_name):
     """Check if the channel name relates to the artist."""
-    ch = normalize(channel_name.replace("- Topic", ""))
-    ar = normalize(artist_name)
+    ch = _normalize(channel_name.replace("- Topic", ""))
+    ar = _normalize(artist_name)
     if not ch or not ar:
         return False
     return ar in ch or ch in ar
@@ -276,7 +261,7 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
     # --- Evaluate: Trusted channel (label allowlist / VEVO) ---
     trusted_channel = False
     trusted_reason = ""
-    norm_channel = normalize(video_meta["channel_name"])
+    norm_channel = _normalize(video_meta["channel_name"])
     if norm_channel in TRUSTED_LABELS:
         trusted_channel = True
         trusted_reason = f"label: {TRUSTED_LABELS[norm_channel]}"
@@ -392,26 +377,6 @@ def load_spotify_cache():
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
-
-
-def spotify_indicator(artist_name, spotify_cache):
-    """
-    Return a compact Spotify indicator for the report.
-    ✓ 44 = exact match, popularity 44
-    ~ 8  = close/partial match, popularity 8
-    —    = not found on Spotify
-    """
-    entry = spotify_cache.get(artist_name, {})
-    conf = entry.get("match_confidence", "")
-    pop = entry.get("popularity")
-    if conf == "exact":
-        return f"✓ {pop}"
-    elif conf in ("close", "partial"):
-        return f"~ {pop}"
-    elif conf == "no_match":
-        return "—"
-    else:
-        return ""  # no cache entry at all
 
 
 def spotify_csv_indicator(artist_name, spotify_cache):

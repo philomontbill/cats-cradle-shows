@@ -89,13 +89,6 @@ def is_cache_fresh(entry):
         return False
 
 
-# --- Name normalization ---
-
-def normalize(text):
-    """Normalize text for comparison — lowercase, strip non-alphanumeric."""
-    return _normalize(text)
-
-
 # --- Spotify API ---
 
 def search_artist(artist_name, token):

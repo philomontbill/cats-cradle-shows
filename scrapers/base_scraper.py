@@ -10,7 +10,7 @@ import requests
 import json
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import quote_plus
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -418,13 +418,46 @@ class BaseScraper:
             pass
         return scores
 
-    def _should_search(self, artist_name, existing_matches, audit_scores):
+    def _load_video_states(self):
+        """Load recent rejections from qa/video_states.json.
+
+        Returns a dict of artist_name -> rejected_date for artists rejected
+        in the last 7 days. These should not be re-searched.
+        """
+        recent_rejections = {}
+        states_path = os.path.join(_PROJECT_ROOT, "qa", "video_states.json")
+        cutoff = datetime.now() - timedelta(days=7)
+        try:
+            with open(states_path) as f:
+                states = json.load(f)
+            for artist, state in states.items():
+                if not isinstance(state, dict):
+                    continue
+                if state.get("status") != "rejected":
+                    continue
+                rejected_date = state.get("rejected_date", "")
+                try:
+                    dt = datetime.fromisoformat(rejected_date)
+                    if dt.replace(tzinfo=None) > cutoff:
+                        recent_rejections[artist] = rejected_date
+                except (ValueError, TypeError):
+                    pass
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+        return recent_rejections
+
+    def _should_search(self, artist_name, existing_matches, audit_scores,
+                       recent_rejections=None):
         """
         Decide whether to spend an API call on this artist.
         Returns (should_search: bool, existing_id: str or None, reason: str).
         """
         if not artist_name:
             return False, None, "no artist name"
+
+        # Skip artists rejected by the verifier in the last 7 days
+        if recent_rejections and artist_name in recent_rejections:
+            return False, None, "recently rejected by verifier (skipping 7 days)"
 
         # Always search if no existing match
         if artist_name not in existing_matches:
@@ -574,9 +607,10 @@ class BaseScraper:
         processed = []
         show_overrides = self.overrides.get('show_overrides', {})
 
-        # Load existing matches and audit scores for smart filtering
+        # Load existing matches, audit scores, and recent rejections for smart filtering
         existing_matches = self._load_existing_matches()
         audit_scores = self._load_audit_scores()
+        recent_rejections = self._load_video_states()
         api_calls = 0
         reused = 0
 
@@ -584,6 +618,8 @@ class BaseScraper:
             print(f"Loaded {len(existing_matches)} existing matches")
         if audit_scores:
             print(f"Loaded {len(audit_scores)} audit scores")
+        if recent_rejections:
+            print(f"Loaded {len(recent_rejections)} recent rejections (skipping)")
 
         for i, show in enumerate(shows[:limit], 1):
             # Apply show-level overrides (e.g. festival events with wrong artist names)
@@ -600,7 +636,7 @@ class BaseScraper:
 
             # Smart filter: check if we need to search for headliner
             should_search, existing_id, reason = self._should_search(
-                artist, existing_matches, audit_scores
+                artist, existing_matches, audit_scores, recent_rejections
             )
             if should_search:
                 show['youtube_id'] = self.get_youtube_id(artist)
@@ -613,7 +649,7 @@ class BaseScraper:
             # Smart filter: check if we need to search for opener
             if opener:
                 should_search_opener, existing_opener_id, opener_reason = self._should_search(
-                    opener, existing_matches, audit_scores
+                    opener, existing_matches, audit_scores, recent_rejections
                 )
                 if should_search_opener:
                     show['opener_youtube_id'] = self.get_youtube_id(opener, is_opener=True)

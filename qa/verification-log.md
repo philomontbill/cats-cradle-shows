@@ -94,24 +94,137 @@ For verification state data, see `qa/video_states.json`.
 
 ---
 
+## Run 2 — Feb 24, 2026 (First Post-Fix Nightly)
+
+**Context:** First nightly run after the `base_scraper.py` NameError fix (Feb 23). The fix repaired `_search_youtube_api()` so confidence scoring actually executes for API searches. Before the fix, all API searches silently failed and fell back to unscored web scraping.
+
+**Results (audit snapshot):**
+- 355 total entries, 285 with video, 70 no video
+- Accuracy: 96.8%, avg confidence: 87.2
+
+**Observations:**
+- Stable accuracy from Run 1. The NameError fix didn't break existing matches — it only affects new searches going forward.
+- No new threshold changes needed.
+
+---
+
+## Run 3 — Feb 25, 2026 (Stable Nightly)
+
+**Context:** Routine nightly run. 10 venues (6 Triangle NC + FL, MI, NY, TX, VA).
+
+**Results (audit snapshot):**
+- 348 total entries, 295 with video, 53 no video
+- Accuracy: 96.6%, avg confidence: 87.2
+
+**Observations:**
+- Show count dropped from 355 to 348 — expired shows removed, new shows added.
+- Video coverage improved (285 → 295 with video, 70 → 53 no video) — the fixed scraper is finding more correct matches.
+- Accuracy held steady at 96.6%.
+
+---
+
+## Run 4 — Feb 26, 2026 (New Venues Added)
+
+**Context:** Two new venues added Feb 25: Neighborhood Theatre (Charlotte) and The Orange Peel (Asheville). Also deployed three verifier enhancements: trusted label allowlist (14 labels), VEVO channel detection, and Spotify-aware tiered view caps. Total venues: 13 across 6 states.
+
+**Results (audit snapshot, AM run):**
+- 407 total entries (+59 from new venues), 289 with video, 118 no video
+- Accuracy: 96.5%, avg confidence: 86.9
+
+**Key finding — YouTube API quota exhaustion:**
+- Show count jumped 17% (348 → 407) with the two new venues.
+- New venues have low smart-search reuse (Neighborhood Theatre ~41%, Orange Peel ~52%) vs. established venues (75-90%).
+- Scrapers consumed ~9,700 of 10,000 daily API quota units (97 searches x 100 units each).
+- Verifier ran after scrapers with near-zero quota remaining — got 403 (quota exhausted) on most API calls.
+- Most new videos from Orange Peel and Neighborhood Theatre could not be verified, showing as "no preview."
+- This created a cascading failure: rejected videos get youtube_id nulled → scrapers re-search next night → more quota burned.
+
+**Verifier enhancements deployed (not yet fully exercised due to quota issue):**
+- Trusted labels: Nuclear Blast, Epitaph, Fueled By Ramen, Spinnin', Secret City, Innovative Leisure, SideOneDummy, Rise, Fearless, Century Media, New West, Flightless, Warner, Carpark
+- VEVO detection: normalized channel name ending with "vevo" gets same trust as labels
+- Spotify-aware caps: popularity >= 70 → no cap, >= 50 → 50M, >= 30 → 10M, < 30 → 5M default
+
+---
+
+## Run 5 — Feb 26, 2026 (Manual Re-run + Rate Limiting)
+
+**Context:** Pushed rate limiting fix (1s delay between verifications, retry logic for 429/503, status code logging). Triggered manual pipeline re-run.
+
+**Results (audit snapshot, PM run):**
+- 409 total entries, 302 with video, 107 no video
+- Accuracy: 98.3%, avg confidence: 88.3
+
+**Observations:**
+- Manual re-run recovered some videos (289 → 302 with video).
+- Accuracy jumped from 96.5% to 98.3% — the recovered videos were good matches.
+- Still 107 no-video entries due to continued quota exhaustion (403 errors).
+- Status code logging confirmed the root cause: all failures are 403 (quota exhausted), not 429 (rate limited).
+- The delay and retry logic works correctly but cannot fix quota exhaustion — 403 is not retryable.
+
+---
+
+## Run 6 — Feb 27, 2026 (Nightly)
+
+**Context:** First full nightly run with rate limiting code. Quota exhaustion still active — scrapers consume ~97 searches before verifier runs.
+
+**Status:** Quota fix pending. Need to either separate API keys (scraper vs. verifier) or reduce scraper search volume.
+
+---
+
 ## Calibration Notes
 
-### View Count Cap: 5M
-- Set Feb 23, 2026
-- Rationale: all venues are small indie rooms (100-750 capacity). 5M catches famous-song collisions while leaving headroom.
-- First run: no false rejections observed at this threshold. Some legitimate artists with big videos were rejected (Aterciopelados 42M, Gogol Bordello 14M) — these need overrides, not a threshold change.
+### View Count Caps (Tiered System)
 
-### Topic Channel Fast Pass
-- Set Feb 23, 2026
-- Topic channels skip the view count check entirely when artist name matches.
-- First run: several Topic channel videos correctly verified (Blood Red River, Fugitive Visions, SADBOY PROLIFIC).
+*Updated Feb 25, 2026 (originally set Feb 23)*
 
-### Channel Subscriber Threshold: 2M (modifier, not hard cutoff)
+| Condition | Cap | Rationale |
+|-----------|-----|-----------|
+| Default (no Spotify data or popularity < 30) | 5M | Small indie venues, 100-750 capacity |
+| Spotify popularity >= 30 | 10M | Established indie artist |
+| Spotify popularity >= 50 | 50M | Mid-tier artist with real streaming numbers |
+| Spotify popularity >= 70 | No cap | Major artist — high views are expected |
+| Trusted label channel | 50M | Known label, video is legitimate even if high views |
+| VEVO channel | 50M | Same trust as labels |
+| Topic channel (artist name match) | No cap | YouTube itself confirmed the artist identity |
+
+### Trusted Labels (14)
+- Set Feb 25, 2026
+- Nuclear Blast, Epitaph, Fueled By Ramen, Spinnin', Secret City, Innovative Leisure, SideOneDummy, Rise, Fearless, Century Media, New West, Flightless, Warner, Carpark
+- Bypass: channel mismatch, upload age, Spotify no_match rejections
+- EMPIRE removed — "empire" too generic as normalized key, risk of false positives
+
+### VEVO Channel Detection
+- Set Feb 25, 2026
+- Normalized channel name ending with "vevo" = trusted
+- Same bypasses as trusted labels
+
+### Spotify Identity Signals
+- Set Feb 25, 2026
+- Spotify `no_match` + channel doesn't match artist → reject
+- Spotify `close`/`partial` match + channel mismatch → warn (not reject)
+- Spotify data loaded from `qa/spotify_cache.json` (30-day TTL)
+
+### Channel Subscriber Threshold: 2M
 - Set Feb 23, 2026
-- Only rejects when channel doesn't match artist AND has 2M+ subscribers.
-- First run: caught KEXP (3.8M), NPR Music (12.4M), Metallica (12.2M), Spinnin' Records (32M), etc. All correct rejections.
+- Only rejects when channel doesn't match artist AND has 2M+ subscribers
+- Trusted labels and VEVO channels bypass this check
 
 ### Upload Date Flag: 15 years
 - Set Feb 23, 2026
-- Only rejects when video is 15+ years old AND channel doesn't match.
-- First run: caught 4 videos (17-20 years old). All correct rejections.
+- Only rejects when video is 15+ years old AND channel doesn't match
+- Trusted labels and VEVO channels bypass this check
+
+### Venue Placeholder Image
+- Set Feb 23, 2026
+- Flags shows using venue default artwork (e.g., `cradlevenue.png`)
+- Free check — no API call needed
+
+---
+
+## Known Issues
+
+### YouTube API Quota Exhaustion (discovered Feb 26-27, 2026)
+- Scrapers consume ~9,700 of 10,000 daily quota units before verifier runs
+- Verifier gets 403 errors on all API calls — cannot verify new videos
+- Creates cascading failure: rejected → null → re-search → more quota burned
+- Fix in progress: separate API key for verifier + smarter scraper search filtering
