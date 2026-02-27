@@ -1437,14 +1437,43 @@ Built HTML email + Google Sheets delivery for all three report types. Reports no
 - Tonight's run should show real quality rejections instead of blanket fetch failures
 
 ### Files NOT yet committed
-All code changes are local only. Need to commit + push for nightly pipeline to use them.
+~~All code changes are local only. Need to commit + push for nightly pipeline to use them.~~ **Committed and pushed — see session 4 below.**
+
+---
+
+## Session: Feb 27, 2026 (session 4): Venue Scorecard + Commit + Timing
+
+### Venue Scorecard — New Sheets Tab
+Added a "Venue Scorecard" tab to the Local Soundcheck Reports spreadsheet. Purpose: track per-venue engagement over time so we have data to show venues when approaching them about the traffic we're sending their way.
+
+- One row per venue per week, appended automatically by `weekly_report.py`
+- Columns: Week, Venue, Users, New, Returning, Plays, Ticket Clicks, Avg Time, Top Artist
+- Added `_extract_venue_scorecard()` function — reuses the same GA4 queries as the existing venue activity section
+- Filters out URL slug duplicates (e.g., "catscradle" vs "Cat's Cradle") — only keeps display names
+- Tab created in spreadsheet with headers, tested locally (13 venues populated correctly)
+
+### Report Delivery — Committed and Pushed
+All report delivery code from session 3 committed in one batch (`f598cf5`):
+- `scripts/report_delivery.py` (new) — shared email + Sheets module
+- `scripts/weekly_qc_report.py` (new) — weekly video matching quality report
+- `scripts/verify_videos.py` — daily email + Sheets delivery
+- `scripts/weekly_report.py` — weekly email + Sheets + venue scorecard
+- `requirements.txt` — google-api-python-client, google-auth-httplib2
+- `.github/workflows/scrape.yml` — email/Sheets env vars for verifier step
+- `.github/workflows/weekly-report.yml` — email/Sheets env vars + QC report step
+- `docs/working-notes.md` — session 3 notes
+
+### Scraper Timing Change
+Moved nightly scrape from 11 PM ET to **3:30 AM ET** (8:30 AM UTC) to accommodate West Coast venues. 3:30 AM ET = 12:30 AM PT — gives Pacific time venues plenty of time to update their sites before we scrape. Committed as `f81b50e`.
+
+### HTML Phone Report — Deferred
+Discussed whether to build a separate phone-friendly HTML summary page. Decided the existing HTML email delivery is sufficient — it already pushes to the inbox and is mobile-readable. No additional work needed.
 
 ### Next Steps
-- Commit and push all report delivery code
-- Monitor tonight's nightly run — first with both the quota fix AND report delivery
+- Monitor tonight's nightly run (3:30 AM ET) — first with report delivery + quota fix live
 - Check that email arrives and Sheets populate from the nightly run
 - Verify first automated weekly report + QC report Monday Mar 2
+- Continue adding venues (Central + West Coast — timing now supports them)
 - Video duration check (parked, zero extra API cost)
-- Continue adding venues (next city TBD)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
