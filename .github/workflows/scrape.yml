@@ -2,8 +2,8 @@ name: Daily Scrape
 
 on:
   schedule:
-    # Runs at 11 PM Eastern (4 AM UTC next day)
-    - cron: '0 4 * * *'
+    # Runs at 3:30 AM Eastern (8:30 AM UTC) — late enough for West Coast venues to update
+    - cron: '30 8 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub
 
 permissions:
