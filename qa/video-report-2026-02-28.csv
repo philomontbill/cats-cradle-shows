@@ -1,109 +1,158 @@
-Section,Artist,Venue,Date,Video URL,Spotify Match,Spotify Popularity,Detail,Changed
-Verified,John Wood,Cat's Cradle,"Fri, Mar 13",https://youtube.com/watch?v=MyONQHbpkCA,exact,14,"3,768 views",New
-Verified,Honeyknife,Kings,"Thu, Apr 2",https://youtube.com/watch?v=xv5kfOZ8VyA,exact,12,"channel match, 1,958 views",New
-Verified,Certain Seas,Local 506,"Fri, Apr 10",https://youtube.com/watch?v=LbYxP11rbSM,exact,0,passed all checks,New
-Verified,"Senses, Good Boy Daisy",Mohawk Outdoor,"Mon, Mar 02",https://youtube.com/watch?v=960AM_-TTZs,close,36,"VEVO, 255,614 views",New
-Verified,Emo Night Brooklyn,Neighborhood Theatre,"Sat, Apr 11",https://youtube.com/watch?v=4Sr869eJbm0,exact,3,"3,930 views",New
-Verified,Reverend Horton Heat,The Orange Peel,"Fri, Apr 03",https://youtube.com/watch?v=H96XcNWKZVg,exact,1,VEVO,New
-Verified,"Black Joe Lewis, Piñata Protest",The Orange Peel,"Fri, Apr 03",https://youtube.com/watch?v=XGgw2bhxznQ,close,11,"channel match, 219,804 views",New
-Verified,Cor de Lux / Optic Sink / Hex Files,The Pinhook,"Sat, Mar 28",https://youtube.com/watch?v=nLk9zyLBfCc,no_match,,"channel match, 1,248 views",New
-Rejected,"Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer",Cat's Cradle Back Room,"Fri, Mar 20",https://youtube.com/watch?v=zlSHpBaJ1ZM,no_match,,not found on Spotify + channel mismatch,New
-No Preview,Guitarricadelafuente,Bowery Ballroom,"Sat, Feb 27",,exact,61,"Rejected: view count 13,086,182 exceeds 5,000,000 cap",
-No Preview,Sheer Mag,Bowery Ballroom,"Sat, Feb 27",,exact,28,Rejected: could not fetch video metadata,
-No Preview,Logan Michael,Bowery Ballroom,"Sat, Feb 28",,exact,51,Rejected: could not fetch video metadata,
-No Preview,The Rikkies & SUM SUN w/ So Impartial,Bowery Ballroom,"Sat, Feb 28",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Freddie McClendon,Bowery Ballroom,"Sun, Mar 01",,exact,27,Rejected: could not fetch video metadata,
-No Preview,BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?,Bowery Ballroom,"Sun, Mar 01",,no_match,,Rejected: could not fetch video metadata,
-No Preview,"Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",Bowery Ballroom,"Sun, Mar 01",,no_match,,Rejected: could not fetch video metadata,
-No Preview,"Arianna Chetram, Malik English, lady t",Bowery Ballroom,"Mon, Mar 02",,no_match,,Rejected: could not fetch video metadata,
-No Preview,"Muo Duo, Evan Isaac, Segami, Annabel Asher",Bowery Ballroom,"Tue, Mar 03",,no_match,,Rejected: could not fetch video metadata,
-No Preview,"Ben Milk, Brady Dorrington, ChatChat",Bowery Ballroom,"Tue, Mar 03",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Ike Reilly Assassination,Bowery Ballroom,"Wed, Mar 04",,close,10,Rejected: could not fetch video metadata,
-No Preview,"Residual Groove, One Time Weekend",Bowery Ballroom,"Wed, Mar 04",,close,9,Rejected: could not fetch video metadata,
-No Preview,Caroline Jones,Bowery Ballroom,"Thu, Mar 05",,exact,37,"Rejected: view count 9,495,723 exceeds 5,000,000 cap",
-No Preview,Bryce Vine,Bowery Ballroom,"Thu, Mar 05",,exact,59,"Rejected: view count 98,734,304 exceeds 5,000,000 cap",
-No Preview,Mike Viola,Bowery Ballroom,"Fri, Mar 06",,exact,20,Rejected: could not fetch video metadata,
-No Preview,All Your Friends: The Indie Party,Bowery Ballroom,"Fri, Mar 06",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Cure For Paranoia,Bowery Ballroom,"Sat, Mar 07",,exact,35,Rejected: could not fetch video metadata,
-No Preview,TELYKAST,Bowery Ballroom,"Sat, Mar 07",,exact,53,Rejected: could not fetch video metadata,
-No Preview,Surfing For Daisy,Bowery Ballroom,"Sat, Mar 07",,exact,36,Rejected: could not fetch video metadata,
-No Preview,Surfing For Daisy,Bowery Ballroom,"Sun, Mar 08",,exact,36,Rejected: could not fetch video metadata,
-No Preview,"True Jackson, Charlie Jacoby, Jennys Setlist",Bowery Ballroom,"Sun, Mar 08",,no_match,,Rejected: could not fetch video metadata,
-No Preview,NYC Barz Exam: Karl Dice Raw Jenkins + more,Bowery Ballroom,"Mon, Mar 09",,no_match,,No video assigned,
-No Preview,Rivalry Night,Cat's Cradle Back Room,"Thu, Mar 05",,no_match,,Rejected: venue placeholder image (cradlevenue.png); could not fetch video metadata,
-No Preview,"Slow Teeth, Scrape, Minor Stars",Motorco Music Hall,"Sat, Mar 07",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Aterciopelados,Cat's Cradle,"Tue, Mar 10",,exact,52,"Rejected: view count 42,040,673 exceeds 5,000,000 cap",
-No Preview,Los Straitjackets & Deke Dickerson,Cat's Cradle Back Room,"Wed, Mar 11",,close,32,Rejected: could not fetch video metadata,
-No Preview,Pressing Strings and Driftwood,Cat's Cradle Back Room,"Thu, Mar 19",,close,32,Rejected: could not fetch video metadata,
-No Preview,Mason Jennings,Cat's Cradle,"Fri, Mar 20",,exact,37,Rejected: could not fetch video metadata,
-No Preview,"Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer",Cat's Cradle Back Room,"Fri, Mar 20",,no_match,,Rejected: not found on Spotify + channel mismatch,
-No Preview,SZN4,El Club,"Sat, Feb 14",,exact,39,No video from scraper,
-No Preview,Super Future,El Club,"Fri, Feb 20",,exact,35,No video assigned,
-No Preview,It's A 2000s Party: Detroit,El Club,"Sat, Feb 21",,no_match,,No video assigned,
-No Preview,The Cast Of Beatlemania Performing Hits From Every Era,Elevation 27,"Fri, Feb 27",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Borgeous,Elevation 27,"Fri, Mar 20",,exact,52,"Rejected: view count 22,917,808 exceeds 5,000,000 cap; non-matching channel 'Spinnin' Records' with 32,000,000 subscribers",
-No Preview,It’s A 2000’s Party by Slacker University (Ages 18 & Up),Elevation 27,"Fri, Mar 27",,no_match,,Rejected: could not fetch video metadata,
-No Preview,"Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",Elevation 27,"Sun, Mar 29",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Burning Witches,Elevation 27,"Thu, Apr 02",,exact,30,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers",
-No Preview,Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,Elevation 27,"Fri, Apr 03",,no_match,,Rejected: could not fetch video metadata,
-No Preview,United We Dance: The Ultimate Rave Experience (Ages 18 & Up),Elevation 27,"Fri, Apr 17",,no_match,,Rejected: could not fetch video metadata,
-No Preview,JULIA. – ‘Fish in the Percolator’ Album Release Show,Kings,"Fri, Mar 13",,no_match,,Rejected: could not fetch video metadata,
-No Preview,The Great Cover Up 2026 – Make-Up Night!,Kings,"Sat, Mar 14",,no_match,,No video assigned,
-No Preview,GrrrlBands: Sountrack Season Showcase,Kings,"Sun, Mar 15",,no_match,,No video assigned,
-No Preview,Kxllswxtch,Kings,"Wed, Mar 18",,exact,58,"Rejected: view count 20,671,135 exceeds 5,000,000 cap",
-No Preview,Raleigh Comedy Festival 2026 – Friday Night,Kings,"Fri, Mar 27",,no_match,,No video assigned,
-No Preview,Raleigh Comedy Festival 2026 – Saturday Night,Kings,"Sat, Mar 28",,no_match,,No video assigned,
-No Preview,Lala Lala,Kings,"Wed, Apr 1",,exact,39,Rejected: could not fetch video metadata,
-No Preview,NC Songwriters Show Feat: Jon Wood/Steph Maguire/Tan Sanders/Drew Johnson/Sophie Taylor/Roy Stewart/Brent Underwood/Adam Fisher,Lincoln Theatre,"Sun, Mar 08",,no_match,,No video assigned,
-No Preview,The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV,Lincoln Theatre,"Mon, Mar 16",,no_match,,Rejected: could not fetch video metadata,
-No Preview,The Band Of Heathens,Lincoln Theatre,"Wed, Apr 15",,exact,49,"Rejected: view count 7,337,740 exceeds 5,000,000 cap",
-No Preview,"Dream, Ivory",Local 506,"Sat, Mar 07",,exact,62,"Rejected: view count 13,868,102 exceeds 5,000,000 cap",
-No Preview,Locally Sourced Weaponry,Local 506,"Wed, Apr 08",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Ashes to Amber,Local 506,"Thu, Apr 09",,exact,44,Rejected: could not fetch video metadata,
-No Preview,RIP MTV,Mohawk Indoor,"Sat, Feb 28",,close,24,No video from scraper,
-No Preview,HBO QUIZZO: Heated Rivalry,Mohawk Indoor,"Mon, Mar 09",,close,8,No video assigned,
-No Preview,Gogol Bordello,Mohawk Outdoor,"Thu, Mar 12",,exact,47,"Rejected: view count 14,270,276 exceeds 5,000,000 cap; video is 18 years old with no channel match",
-No Preview,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Fri, Mar 13",,no_match,,Rejected: could not fetch video metadata,
-No Preview,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sat, Mar 14",,no_match,,Rejected: could not fetch video metadata,
-No Preview,SXSW: The Billboard Disruptor House,Mohawk Outdoor,"Sun, Mar 15",,no_match,,Rejected: could not fetch video metadata,
-No Preview,A Special Marshall Day Party,Mohawk Outdoor,"Mon, Mar 16",,no_match,,Rejected: could not fetch video metadata,
-No Preview,SXSW: Very Necessary Showcase,Mohawk Indoor,"Wed, Mar 18",,no_match,,No video assigned,
-No Preview,Recovery Takeover 2026,Mohawk Outdoor,"Sat, Mar 21",,no_match,,No video assigned,
-No Preview,Mint Field,Mohawk Indoor,"Thu, Mar 26",,exact,23,"Rejected: non-matching channel 'KEXP' with 3,830,000 subscribers",
-No Preview,Oof Fighters,Mohawk Indoor,"Fri, Mar 27",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Music For The Masses,Motorco Music Hall,"Fri, Feb 13",,close,0,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers; video is 20 years old with no channel match",
-No Preview,Heated,Motorco Music Hall,"Fri, Feb 27",,no_match,,No video from scraper,
-No Preview,Heated,Motorco Music Hall,"Fri, Mar 6",,no_match,,No video from scraper,
-No Preview,LUEWWD XX,Motorco Music Hall,"Sat, Mar 7",,no_match,,"Rejected: view count 88,454,343 exceeds 5,000,000 cap; video is 17 years old with no channel match",
-No Preview,"DISCO, ALWAYS",Motorco Music Hall,"Fri, Mar 20",,partial,0,"Rejected: view count 7,604,843 exceeds 5,000,000 cap",
-No Preview,Doc 103,Neighborhood Theatre,"Sun, Mar 01",,partial,29,Rejected: could not fetch video metadata,
-No Preview,Lotus,Neighborhood Theatre,"Wed, Mar 04",,exact,39,Rejected: could not fetch video metadata,
-No Preview,SATSANG,Neighborhood Theatre,"Sun, Mar 08",,exact,42,Rejected: could not fetch video metadata,
-No Preview,Los Straitjackets & Deke Dickerson,Neighborhood Theatre,"Tue, Mar 10",,close,32,Rejected: could not fetch video metadata,
-No Preview,CARTER FAITH,Neighborhood Theatre,"Fri, Mar 13",,exact,50,Rejected: could not fetch video metadata,
-No Preview,ALL YOUR FRIENDS,Neighborhood Theatre,"Fri, Mar 20",,exact,7,Rejected: could not fetch video metadata,
-No Preview,OLD CROW MEDICINE SHOW,Neighborhood Theatre,"Sat, Mar 21",,exact,51,Rejected: could not fetch video metadata,
-No Preview,Natalie Jane,Neighborhood Theatre,"Wed, Mar 25",,exact,58,Rejected: could not fetch video metadata,
-No Preview,JESSE ROPER + BEN CHAPMAN,Neighborhood Theatre,"Fri, Apr 03",,close,42,Rejected: could not fetch video metadata,
-No Preview,The Rock & Roll Playhouse,Neighborhood Theatre,"Sat, Apr 04",,exact,10,Rejected: could not fetch video metadata,
-No Preview,JOHN COWAN TRIO,Neighborhood Theatre,"Tue, Apr 07",,close,15,Rejected: could not fetch video metadata,
-No Preview,Eddie 9V,Neighborhood Theatre,"Fri, Apr 10",,exact,46,Rejected: could not fetch video metadata,
-No Preview,Aly & AJ,The Orange Peel,"Sun, Mar 01",,exact,52,Rejected: could not fetch video metadata,
-No Preview,SunSquabi,The Orange Peel,"Thu, Mar 05",,exact,33,Rejected: could not fetch video metadata,
-No Preview,Donna The Buffalo,The Orange Peel,"Fri, Mar 06",,exact,30,Rejected: could not fetch video metadata,
-No Preview,Fringe Revival,The Orange Peel,"Sun, Mar 08",,no_match,,Rejected: could not fetch video metadata,
-No Preview,Gary Numan,The Orange Peel,"Thu, Mar 12",,exact,51,Rejected: could not fetch video metadata,
-No Preview,Cat Power,The Orange Peel,"Fri, Mar 13",,exact,54,Rejected: could not fetch video metadata,
-No Preview,The Hives,The Orange Peel,"Sat, Mar 14",,exact,57,Rejected: could not fetch video metadata,
-No Preview,Robert Earl Keen,The Orange Peel,"Thu, Mar 19",,exact,45,Rejected: could not fetch video metadata,
-No Preview,Drain,The Orange Peel,"Tue, Mar 24",,exact,45,Rejected: could not fetch video metadata,
-No Preview,Mammoth,The Orange Peel,"Wed, Mar 25",,exact,47,Rejected: could not fetch video metadata,
-No Preview,Lee Fields & Monophonics,The Orange Peel,"Thu, Apr 02",,close,48,Rejected: could not fetch video metadata,
-No Preview,Blends With Friends (Open Decks),The Pinhook,"Wed, Mar 04",,no_match,,No video assigned,
-No Preview,"Cartoon Smokeshow, a Drag and Burlesque Rewind",The Pinhook,"Sat, Mar 07",,no_match,,No video assigned,
-No Preview,SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!,The Pinhook,"Sat, Mar 14",,no_match,,No video assigned,
-No Preview,Who Run It?? PARTY!!,The Pinhook,"Sat, Mar 21",,close,25,Rejected: could not fetch video metadata,
-No Preview,Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE,The Pinhook,"Tue, Mar 24",,no_match,,No video assigned,
-No Preview,LETDOWN,The Social,"Sat, Mar 07",,exact,52,"Rejected: view count 17,177,570 exceeds 5,000,000 cap",
-No Preview,yung kai,The Social,"Tue, Mar 31",,exact,67,"Rejected: view count 247,640,940 exceeds 5,000,000 cap",
-No Preview,DANCE,The Social,"Sat, May 09",,exact,30,"Rejected: view count 20,472,741 exceeds 5,000,000 cap",
+Section,Artist,Role,Venue,Date,Video URL,Spotify Match,Spotify Popularity,Detail,Changed
+Verified,Logan Michael,headliner,Bowery Ballroom,"Sat, Feb 28",https://youtube.com/watch?v=esE-hNF1lYU,exact,51,"channel match, Topic channel",New
+Verified,Freddie McClendon,headliner,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=P3poZuMNpbo,exact,27,"channel match, Topic channel, 125,323 views",New
+Verified,BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?,headliner,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=BTTQZtXZBK0,no_match,,"channel match, 432,052 views",New
+Verified,"Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",headliner,Bowery Ballroom,"Sun, Mar 01",https://youtube.com/watch?v=n3czqWBzwjw,no_match,,"Topic channel, 0 views",New
+Verified,"Arianna Chetram, Malik English, lady t",headliner,Bowery Ballroom,"Mon, Mar 02",https://youtube.com/watch?v=j95bawjCSEE,no_match,,"channel match, Topic channel, 30 views",New
+Verified,"Muo Duo, Evan Isaac, Segami, Annabel Asher",headliner,Bowery Ballroom,"Tue, Mar 03",https://youtube.com/watch?v=2p2tuJcKpuY,no_match,,"channel match, 52,828 views",New
+Verified,"Ben Milk, Brady Dorrington, ChatChat",headliner,Bowery Ballroom,"Tue, Mar 03",https://youtube.com/watch?v=OSX_yqr4JI0,no_match,,"VEVO, 3,014 views",New
+Verified,Ike Reilly Assassination,headliner,Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=pMFGSdYg310,close,10,"11,492 views",New
+Verified,"Residual Groove, One Time Weekend",headliner,Bowery Ballroom,"Wed, Mar 04",https://youtube.com/watch?v=BnaTkioAkEQ,close,9,"channel match, 190 views",New
+Verified,Mike Viola,headliner,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=eftZf44nsPg,exact,20,"channel match, 16,237 views",New
+Verified,Cure For Paranoia,headliner,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=Zvr8cyhQ2Aw,exact,35,"channel match, 63,890 views",New
+Verified,TELYKAST,headliner,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=Dl3cAu7YSBM,exact,53,"channel match, 56,121 views",New
+Verified,Surfing For Daisy,headliner,Bowery Ballroom,"Sat, Mar 07",https://youtube.com/watch?v=A85xNCC2Wvc,exact,36,"channel match, 962 views",New
+Verified,"True Jackson, Charlie Jacoby, Jennys Setlist",headliner,Bowery Ballroom,"Sun, Mar 08",https://youtube.com/watch?v=IqAjWnrsTxA,no_match,,"channel match, 3,897 views",New
+Verified,Chasing Abbey *MOVED TO BOWERY BALLROOM*,headliner,Bowery Ballroom,"Tue, Mar 10",https://youtube.com/watch?v=Y43GhbUyamg,no_match,,"channel match, 440,871 views",New
+Verified,Belle Blue,headliner,Bowery Ballroom,"Tue, Mar 10",https://youtube.com/watch?v=eNJ5Pr-mClg,exact,6,"channel match, 21,015 views",New
+Verified,Los Straitjackets & Deke Dickerson,headliner,Cat's Cradle Back Room,"Wed, Mar 11",https://youtube.com/watch?v=RiQj57xemJU,close,32,"3,568 views",New
+Verified,h.pruz,opener,Cat's Cradle Back Room,"Mon, Mar 16",https://youtube.com/watch?v=7Lo4IjJS5G4,exact,23,"channel match, VEVO, 1,607 views",New
+Verified,Pressing Strings and Driftwood,headliner,Cat's Cradle Back Room,"Thu, Mar 19",https://youtube.com/watch?v=lwDpaWNSIbg,close,32,"channel match, 251 views",New
+Verified,Mason Jennings,headliner,Cat's Cradle,"Fri, Mar 20",https://youtube.com/watch?v=9dD8gzb02qw,exact,37,"channel match, 105,233 views",New
+Verified,Skylar Gudasz,opener,Cat's Cradle,"Fri, Mar 20",https://youtube.com/watch?v=2iybikuwuPc,exact,19,"channel match, Topic channel, 30,852 views",New
+Verified,Reverend Horton Heat,headliner,Elevation 27,"Sat, Apr 04",https://youtube.com/watch?v=4eVujNG04mg,exact,1,"VEVO, 221,686 views",New
+Verified,Daniel Donato’s Cosmic Country,headliner,Elevation 27,"Sat, Apr 18",https://youtube.com/watch?v=IxI7GsyHyDs,no_match,,"channel match, 205,756 views",New
+Verified,"Evlo, Justo, Preme, Spg, Choco",opener,Kings,"Sun, Mar 1",https://youtube.com/watch?v=j9O9Hx7L2gg,no_match,,"VEVO, 7,029 views",New
+Verified,Samy Sharif,opener,Kings,"Mon, Mar 16",https://youtube.com/watch?v=xRrtYZphW7g,exact,27,"channel match, 246,934 views",New
+Verified,Ashes to Amber,headliner,Local 506,"Thu, Apr 09",https://youtube.com/watch?v=eo_0CdDmmLU,exact,44,"channel match, 59,901 views",New
+Verified,"Touching Ice, Almost Heaven",opener,Mohawk Outdoor,"Fri, Apr 03",https://youtube.com/watch?v=yhhnvGtB9Wc,no_match,,"channel match, Topic channel, 635 views",New
+Verified,"Drug Church, White Reaper",headliner,Mohawk Outdoor,"Sat, Apr 04",https://youtube.com/watch?v=vjyK81x0fzk,close,40,"351,608 views",New
+Verified,Sarah Kinsley,headliner,Mohawk Outdoor,"Tue, Apr 07",https://youtube.com/watch?v=Nm7EPfSeqGs,exact,55,"channel match, 298,962 views",New
+Verified,Doc 103,headliner,Neighborhood Theatre,"Sun, Mar 01",https://youtube.com/watch?v=kh7l845u11I,partial,29,"1,098 views",New
+Verified,Lotus,headliner,Neighborhood Theatre,"Wed, Mar 04",https://youtube.com/watch?v=A57rz0mMFkE,exact,39,"channel match, 57,644 views",New
+Verified,Dogma Society,opener,Neighborhood Theatre,"Sat, Mar 07",https://youtube.com/watch?v=9jE-dCQNIP4,exact,35,"channel match, 58,021 views",New
+Verified,SATSANG,headliner,Neighborhood Theatre,"Sun, Mar 08",https://youtube.com/watch?v=T-t75r0XGSM,exact,42,"channel match, 111,766 views",New
+Verified,Los Straitjackets & Deke Dickerson,headliner,Neighborhood Theatre,"Tue, Mar 10",https://youtube.com/watch?v=A-MOMaDr3tU,close,32,"channel match, 13,547 views",New
+Verified,CARTER FAITH,headliner,Neighborhood Theatre,"Fri, Mar 13",https://youtube.com/watch?v=FTGq4amVO4k,exact,50,"channel match, VEVO, 196,095 views",New
+Verified,Natalie Jane,headliner,Neighborhood Theatre,"Wed, Mar 25",https://youtube.com/watch?v=LyPNx_wlJx8,exact,58,channel match,New
+Verified,JESSE ROPER + BEN CHAPMAN,headliner,Neighborhood Theatre,"Fri, Apr 03",https://youtube.com/watch?v=BaUYa8_ece8,close,42,"channel match, 75,692 views",New
+Verified,The Rock & Roll Playhouse,headliner,Neighborhood Theatre,"Sat, Apr 04",https://youtube.com/watch?v=CyT6V1cJKSs,exact,10,"9,946 views",New
+Verified,JOHN COWAN TRIO,headliner,Neighborhood Theatre,"Tue, Apr 07",https://youtube.com/watch?v=ZrkgP4dokoQ,close,15,36 views,New
+Verified,Eddie 9V,headliner,Neighborhood Theatre,"Fri, Apr 10",https://youtube.com/watch?v=Kz47bLW5lds,exact,46,"119,858 views",New
+Verified,Aly & AJ,headliner,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=LdJps8LBKLE,exact,52,VEVO,New
+Verified,Hayden Blount,opener,The Orange Peel,"Sun, Mar 01",https://youtube.com/watch?v=GMlK_e3hinE,exact,54,"channel match, 35,801 views",New
+Verified,SunSquabi,headliner,The Orange Peel,"Thu, Mar 05",https://youtube.com/watch?v=h7vGOr3P4no,exact,33,"channel match, 23,053 views",New
+Verified,Donna The Buffalo,headliner,The Orange Peel,"Fri, Mar 06",https://youtube.com/watch?v=IXPexLWhNRg,exact,30,"channel match, VEVO, 257,344 views",New
+Verified,Fringe Revival,headliner,The Orange Peel,"Sun, Mar 08",https://youtube.com/watch?v=8bL4yrvCFlA,no_match,,"channel match, 161 views",New
+Verified,Gary Numan,headliner,The Orange Peel,"Thu, Mar 12",https://youtube.com/watch?v=lHomCiPFknY,exact,51,"channel match, VEVO",New
+Verified,Cat Power,headliner,The Orange Peel,"Fri, Mar 13",https://youtube.com/watch?v=f-Tsk-cPXxI,exact,54,"channel match, VEVO",New
+Verified,The Hives,headliner,The Orange Peel,"Sat, Mar 14",https://youtube.com/watch?v=Uz1Jwyxd4tE,exact,57,channel match,New
+Verified,Prince of Eden and Fifth Floor,opener,The Orange Peel,"Sun, Mar 15",https://youtube.com/watch?v=MbpDmYY21EY,no_match,,"channel match, 6,513 views",New
+Verified,Robert Earl Keen,headliner,The Orange Peel,"Thu, Mar 19",https://youtube.com/watch?v=ieY1hOwhuKA,exact,45,"channel match, 63,654 views",New
+Verified,Drain,headliner,The Orange Peel,"Tue, Mar 24",https://youtube.com/watch?v=1Zni52X1K3I,exact,45,"label: Epitaph Records, 103,369 views",New
+Verified,Mammoth,headliner,The Orange Peel,"Wed, Mar 25",https://youtube.com/watch?v=7w7rAEnMXDI,exact,47,channel match,New
+Verified,"10 Years, James and the Cold Gun",opener,The Orange Peel,"Wed, Mar 25",https://youtube.com/watch?v=59amjf3qCCQ,close,25,"channel match, 487,996 views",New
+Verified,Lee Fields & Monophonics,headliner,The Orange Peel,"Thu, Apr 02",https://youtube.com/watch?v=BqH6SycMMdI,close,48,"376,997 views",New
+Verified,Reverend Horton Heat,headliner,The Orange Peel,"Fri, Apr 03",https://youtube.com/watch?v=H96XcNWKZVg,exact,1,VEVO,New
+Rejected,All Your Friends: The Indie Party,headliner,Bowery Ballroom,"Fri, Mar 06",https://youtube.com/watch?v=E5a51OonZDE,no_match,,"non-matching channel 'Coldplay' with 28,400,000 subscribers; not found on Spotify + channel mismatch",New
+Rejected,Rivalry Night,headliner,Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=-auKhd23DE4,no_match,,venue placeholder image (cradlevenue.png); not found on Spotify + channel mismatch,New
+Rejected,"Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",opener,Cat's Cradle Back Room,"Thu, Mar 05",https://youtube.com/watch?v=Cki-mnHhNtY,no_match,,venue placeholder image (cradlevenue.png),New
+Rejected,"Slow Teeth, Scrape, Minor Stars",headliner,Motorco Music Hall,"Sat, Mar 07",https://youtube.com/watch?v=55NKuri-t7I,no_match,,not found on Spotify + channel mismatch,New
+Rejected,An Evening With,opener,Cat's Cradle,"Tue, Mar 10",https://youtube.com/watch?v=KMTo2LmixqQ,close,4,"view count 36,845,716 exceeds 5,000,000 cap",New
+Rejected,Ezra,opener,Kings,"Tue, Mar 3",https://youtube.com/watch?v=v_B3qkp4nO4,exact,38,"view count 352,745,762 exceeds 50,000,000 cap",New
+Rejected,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Fri, Mar 13",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,not found on Spotify + channel mismatch,New
+Rejected,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Sat, Mar 14",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,not found on Spotify + channel mismatch,New
+Rejected,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Sun, Mar 15",https://youtube.com/watch?v=LxL_nqxzn_c,no_match,,not found on Spotify + channel mismatch,New
+Rejected,A Special Marshall Day Party,headliner,Mohawk Outdoor,"Mon, Mar 16",https://youtube.com/watch?v=5KDCuHk1HNM,no_match,,not found on Spotify + channel mismatch,New
+Rejected,"Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",opener,Mohawk Indoor,"Wed, Mar 18",https://youtube.com/watch?v=RpL1GyLOblE,no_match,,"non-matching channel 'ELEVATOR' with 2,040,000 subscribers; not found on Spotify + channel mismatch",New
+Rejected,"Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",opener,Mohawk Outdoor,"Sat, Mar 21",https://youtube.com/watch?v=CDl9ZMfj6aE,no_match,,"view count 383,039,498 exceeds 50,000,000 cap",New
+Rejected,Oof Fighters,headliner,Mohawk Indoor,"Fri, Mar 27",https://youtube.com/watch?v=SBjQ9tuuTJQ,no_match,,"view count 620,782,534 exceeds 50,000,000 cap",New
+Rejected,"Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more",opener,Neighborhood Theatre,"Sun, Mar 01",https://youtube.com/watch?v=jfTj2pN9g2A,no_match,,not found on Spotify + channel mismatch,New
+Rejected,special guest Sam Morrow,opener,Neighborhood Theatre,"Thu, Mar 05",https://youtube.com/watch?v=tu8cWLgE7tg,no_match,,not found on Spotify + channel mismatch,New
+Rejected,ALL YOUR FRIENDS,headliner,Neighborhood Theatre,"Fri, Mar 20",https://youtube.com/watch?v=E5a51OonZDE,exact,7,"non-matching channel 'Coldplay' with 28,400,000 subscribers",New
+Rejected,OLD CROW MEDICINE SHOW,headliner,Neighborhood Theatre,"Sat, Mar 21",https://youtube.com/watch?v=1gX1EP6mG-E,exact,51,"view count 88,675,310 exceeds 50,000,000 cap; video is 19 years old with no channel match",New
+Rejected,"No Pressure, Haywire, Secret World",opener,The Orange Peel,"Tue, Mar 24",https://youtube.com/watch?v=KcGGHSUAbM0,no_match,,not found on Spotify + channel mismatch,New
+Rejected,Who Run It?? PARTY!!,headliner,The Pinhook,"Sat, Mar 21",https://youtube.com/watch?v=gU7003Juh7c,close,25,"view count 12,389,201 exceeds 5,000,000 cap",New
+No Preview,The Rikkies & SUM SUN w/ So Impartial,headliner,Bowery Ballroom,"Sat, Feb 28",,no_match,,No video assigned,
+No Preview,Caroline Jones,headliner,Bowery Ballroom,"Thu, Mar 05",,exact,37,"Rejected: view count 9,495,723 exceeds 5,000,000 cap",
+No Preview,Bryce Vine,headliner,Bowery Ballroom,"Thu, Mar 05",,exact,59,"Rejected: view count 98,734,304 exceeds 5,000,000 cap",
+No Preview,All Your Friends: The Indie Party,headliner,Bowery Ballroom,"Fri, Mar 06",,no_match,,"Rejected: non-matching channel 'Coldplay' with 28,400,000 subscribers; not found on Spotify + channel mismatch",
+No Preview,NYC Barz Exam: Karl Dice Raw Jenkins + more,headliner,Bowery Ballroom,"Mon, Mar 09",,no_match,,No video assigned,
+No Preview,Rivalry Night,headliner,Cat's Cradle Back Room,"Thu, Mar 05",,no_match,,Rejected: venue placeholder image (cradlevenue.png); not found on Spotify + channel mismatch,
+No Preview,"Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",opener,Cat's Cradle Back Room,"Thu, Mar 05",,no_match,,Rejected: venue placeholder image (cradlevenue.png),
+No Preview,"Slow Teeth, Scrape, Minor Stars",headliner,Motorco Music Hall,"Sat, Mar 07",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,Aterciopelados,headliner,Cat's Cradle,"Tue, Mar 10",,exact,52,"Rejected: view count 42,040,673 exceeds 5,000,000 cap",
+No Preview,An Evening With,opener,Cat's Cradle,"Tue, Mar 10",,close,4,"Rejected: view count 36,845,716 exceeds 5,000,000 cap",
+No Preview,"Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer",headliner,Cat's Cradle Back Room,"Fri, Mar 20",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,SZN4,headliner,El Club,"Sat, Feb 14",,exact,39,No video from scraper,
+No Preview,Super Future,headliner,El Club,"Fri, Feb 20",,exact,35,No video assigned,
+No Preview,It's A 2000s Party: Detroit,headliner,El Club,"Sat, Feb 21",,no_match,,No video assigned,
+No Preview,Borgeous,headliner,Elevation 27,"Fri, Mar 20",,exact,52,"Rejected: view count 22,917,808 exceeds 5,000,000 cap; non-matching channel 'Spinnin' Records' with 32,000,000 subscribers",
+No Preview,It’s A 2000’s Party by Slacker University (Ages 18 & Up),headliner,Elevation 27,"Fri, Mar 27",,no_match,,No video assigned,
+No Preview,"Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",headliner,Elevation 27,"Sun, Mar 29",,no_match,,No video assigned,
+No Preview,Burning Witches,headliner,Elevation 27,"Thu, Apr 02",,exact,30,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers",
+No Preview,Por Vida and Embrace The Oblivion,opener,Elevation 27,"Thu, Apr 02",,no_match,,No video from scraper,
+No Preview,Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts,headliner,Elevation 27,"Fri, Apr 03",,no_match,,No video assigned,
+No Preview,United We Dance: The Ultimate Rave Experience (Ages 18 & Up),headliner,Elevation 27,"Fri, Apr 17",,no_match,,No video assigned,
+No Preview,Ezra,opener,Kings,"Tue, Mar 3",,exact,38,"Rejected: view count 352,745,762 exceeds 50,000,000 cap",
+No Preview,JULIA. – ‘Fish in the Percolator’ Album Release Show,headliner,Kings,"Fri, Mar 13",,no_match,,No video assigned,
+No Preview,The Great Cover Up 2026 – Make-Up Night!,headliner,Kings,"Sat, Mar 14",,no_match,,No video assigned,
+No Preview,GrrrlBands: Sountrack Season Showcase,headliner,Kings,"Sun, Mar 15",,no_match,,No video assigned,
+No Preview,Kxllswxtch,headliner,Kings,"Wed, Mar 18",,exact,58,"Rejected: view count 20,671,135 exceeds 5,000,000 cap",
+No Preview,Raleigh Comedy Festival 2026 – Friday Night,headliner,Kings,"Fri, Mar 27",,no_match,,No video assigned,
+No Preview,Raleigh Comedy Festival 2026 – Saturday Night,headliner,Kings,"Sat, Mar 28",,no_match,,No video assigned,
+No Preview,Al Flynn,opener,Kings,"Sat, Mar 28",,partial,46,No video assigned,
+No Preview,Lala Lala,headliner,Kings,"Wed, Apr 1",,exact,39,No video assigned,
+No Preview,@ Kings,opener,Lincoln Theatre,"Sat, Mar 07",,exact,41,No video assigned,
+No Preview,NC Songwriters Show Feat: Jon Wood/Steph Maguire/Tan Sanders/Drew Johnson/Sophie Taylor/Roy Stewart/Brent Underwood/Adam Fisher,headliner,Lincoln Theatre,"Sun, Mar 08",,no_match,,No video assigned,
+No Preview,The Old Soul Sessions Featuring NIITO / DJ YAE / UNCOOL KEVV,headliner,Lincoln Theatre,"Mon, Mar 16",,no_match,,No video assigned,
+No Preview,The Band Of Heathens,headliner,Lincoln Theatre,"Wed, Apr 15",,exact,49,"Rejected: view count 7,337,740 exceeds 5,000,000 cap",
+No Preview,Small Doses and Chiroptera,opener,Local 506,"Thu, Mar 05",,no_match,,No video assigned,
+No Preview,"Dream, Ivory",headliner,Local 506,"Sat, Mar 07",,exact,62,"Rejected: view count 13,868,102 exceeds 5,000,000 cap",
+No Preview,Snowblinder and Dead Halos,opener,Local 506,"Sat, Mar 14",,no_match,,No video assigned,
+No Preview,More Is Not Enough and Heavy For The Vintage,opener,Local 506,"Thu, Mar 19",,no_match,,No video from scraper,
+No Preview,Julian Calendar and Sonic Blooms,opener,Local 506,"Sat, Mar 21",,no_match,,No video assigned,
+No Preview,Catiline and Mantaray,opener,Local 506,"Sun, Mar 29",,no_match,,No video assigned,
+No Preview,Dug and Snide,opener,Local 506,"Wed, Apr 01",,no_match,,No video from scraper,
+No Preview,Hemlock Theory and Under The Catacombs of Paris,opener,Local 506,"Thu, Apr 02",,no_match,,No video assigned,
+No Preview,Locally Sourced Weaponry,headliner,Local 506,"Wed, Apr 08",,no_match,,No video assigned,
+No Preview,The Horse Deniers and Hvac Tech,opener,Local 506,"Wed, Apr 08",,no_match,,No video assigned,
+No Preview,Nature TV and Emerson Bruno,opener,Local 506,"Thu, Apr 09",,no_match,,No video assigned,
+No Preview,Erie Choir and Neon Ruins,opener,Local 506,"Fri, Apr 10",,no_match,,No video assigned,
+No Preview,RIP MTV,headliner,Mohawk Indoor,"Sat, Feb 28",,close,24,No video from scraper,
+No Preview,"Unplugged Sets, TRL photobooth, Throwback Videos",opener,Mohawk Indoor,"Sat, Feb 28",,no_match,,"Rejected: view count 5,013,216 exceeds 5,000,000 cap",
+No Preview,HBO QUIZZO: Heated Rivalry,headliner,Mohawk Indoor,"Mon, Mar 09",,close,8,No video assigned,
+No Preview,Hosted By Anna Troxell,opener,Mohawk Indoor,"Mon, Mar 09",,no_match,,No video assigned,
+No Preview,Gogol Bordello,headliner,Mohawk Outdoor,"Thu, Mar 12",,exact,47,"Rejected: view count 14,270,276 exceeds 5,000,000 cap; video is 18 years old with no channel match",
+No Preview,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Fri, Mar 13",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,To Be Announced,opener,Mohawk Outdoor,"Fri, Mar 13",,exact,0,No video assigned,
+No Preview,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Sat, Mar 14",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,To Be Announced,opener,Mohawk Outdoor,"Sat, Mar 14",,exact,0,No video assigned,
+No Preview,SXSW: The Billboard Disruptor House,headliner,Mohawk Outdoor,"Sun, Mar 15",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,To Be Announced,opener,Mohawk Outdoor,"Sun, Mar 15",,exact,0,No video assigned,
+No Preview,A Special Marshall Day Party,headliner,Mohawk Outdoor,"Mon, Mar 16",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,SXSW: Very Necessary Showcase,headliner,Mohawk Indoor,"Wed, Mar 18",,no_match,,No video assigned,
+No Preview,"Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",opener,Mohawk Indoor,"Wed, Mar 18",,no_match,,"Rejected: non-matching channel 'ELEVATOR' with 2,040,000 subscribers; not found on Spotify + channel mismatch",
+No Preview,Recovery Takeover 2026,headliner,Mohawk Outdoor,"Sat, Mar 21",,no_match,,No video assigned,
+No Preview,"Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",opener,Mohawk Outdoor,"Sat, Mar 21",,no_match,,"Rejected: view count 383,039,498 exceeds 50,000,000 cap",
+No Preview,Mint Field,headliner,Mohawk Indoor,"Thu, Mar 26",,exact,23,"Rejected: non-matching channel 'KEXP' with 3,830,000 subscribers",
+No Preview,Oof Fighters,headliner,Mohawk Indoor,"Fri, Mar 27",,no_match,,"Rejected: view count 620,782,534 exceeds 50,000,000 cap",
+No Preview,Death Lens,opener,Mohawk Outdoor,"Sat, Apr 04",,exact,33,"Rejected: non-matching channel 'Epitaph Records' with 3,930,000 subscribers",
+No Preview,Music For The Masses,headliner,Motorco Music Hall,"Fri, Feb 13",,close,0,"Rejected: non-matching channel 'Nuclear Blast Records' with 3,350,000 subscribers; video is 20 years old with no channel match",
+No Preview,Heated,headliner,Motorco Music Hall,"Fri, Feb 27",,no_match,,No video from scraper,
+No Preview,Heated,headliner,Motorco Music Hall,"Fri, Mar 6",,no_match,,No video from scraper,
+No Preview,LUEWWD XX,headliner,Motorco Music Hall,"Sat, Mar 7",,no_match,,"Rejected: view count 88,454,343 exceeds 5,000,000 cap; video is 17 years old with no channel match",
+No Preview,"DISCO, ALWAYS",headliner,Motorco Music Hall,"Fri, Mar 20",,partial,0,"Rejected: view count 7,604,843 exceeds 5,000,000 cap",
+No Preview,"Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more",opener,Neighborhood Theatre,"Sun, Mar 01",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,special guest Sam Morrow,opener,Neighborhood Theatre,"Thu, Mar 05",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,ALL YOUR FRIENDS,headliner,Neighborhood Theatre,"Fri, Mar 20",,exact,7,"Rejected: non-matching channel 'Coldplay' with 28,400,000 subscribers",
+No Preview,OLD CROW MEDICINE SHOW,headliner,Neighborhood Theatre,"Sat, Mar 21",,exact,51,"Rejected: view count 88,675,310 exceeds 50,000,000 cap; video is 19 years old with no channel match",
+No Preview,"No Pressure, Haywire, Secret World",opener,The Orange Peel,"Tue, Mar 24",,no_match,,Rejected: not found on Spotify + channel mismatch,
+No Preview,Blends With Friends (Open Decks),headliner,The Pinhook,"Wed, Mar 04",,no_match,,No video assigned,
+No Preview,"Cartoon Smokeshow, a Drag and Burlesque Rewind",headliner,The Pinhook,"Sat, Mar 07",,no_match,,No video assigned,
+No Preview,SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!,headliner,The Pinhook,"Sat, Mar 14",,no_match,,No video assigned,
+No Preview,Who Run It?? PARTY!!,headliner,The Pinhook,"Sat, Mar 21",,close,25,"Rejected: view count 12,389,201 exceeds 5,000,000 cap",
+No Preview,Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE,headliner,The Pinhook,"Tue, Mar 24",,no_match,,No video assigned,
+No Preview,LETDOWN,headliner,The Social,"Sat, Mar 07",,exact,52,"Rejected: view count 17,177,570 exceeds 5,000,000 cap",
+No Preview,yung kai,headliner,The Social,"Tue, Mar 31",,exact,67,"Rejected: view count 247,640,940 exceeds 5,000,000 cap",
+No Preview,DANCE,headliner,The Social,"Sat, May 09",,exact,30,"Rejected: view count 20,472,741 exceeds 5,000,000 cap",

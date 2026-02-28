@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Guitarricadelafuente",
-      "date": "Sat, Feb 27",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/64a/c11cbd67-1415-4b47-b492-2fb2d014e64a_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente/",
-      "youtube_id": null,
-      "expired": true
-    },
-    {
-      "artist": "Sheer Mag",
-      "date": "Sat, Feb 27",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": null,
-      "expired": true
-    },
-    {
       "artist": "Logan Michael",
       "date": "Sat, Feb 28",
       "venue": "Bowery Ballroom",
@@ -41,7 +15,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": null
+      "youtube_id": "esE-hNF1lYU"
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
@@ -77,7 +51,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/6e2/2e3c71bf-0d93-477e-8483-8812060916e2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/freddie-mcclendon/",
-      "youtube_id": null
+      "youtube_id": "P3poZuMNpbo"
     },
     {
       "artist": "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?",
@@ -89,7 +63,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/12d/a896c5ad-48e9-4902-9790-cb4c0c51712d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/beauty-school-dropout-presents-where-did-all-the-butterflies-go/",
-      "youtube_id": null
+      "youtube_id": "BTTQZtXZBK0"
     },
     {
       "artist": "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",
@@ -101,7 +75,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": null
+      "youtube_id": "n3czqWBzwjw"
     },
     {
       "artist": "Arianna Chetram, Malik English, lady t",
@@ -113,7 +87,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Arianna-Chetram-flyer.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/arianna-chetram-malik-english-lady-t/",
-      "youtube_id": null
+      "youtube_id": "j95bawjCSEE"
     },
     {
       "artist": "Muo Duo, Evan Isaac, Segami, Annabel Asher",
@@ -125,7 +99,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/bbc/63af2035-112d-46d3-b969-253a6283dbbc_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/muo-duo-evan-isaac-segami-annabel-asher/",
-      "youtube_id": null
+      "youtube_id": "2p2tuJcKpuY"
     },
     {
       "artist": "Ben Milk, Brady Dorrington, ChatChat",
@@ -137,7 +111,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
-      "youtube_id": null
+      "youtube_id": "OSX_yqr4JI0"
     },
     {
       "artist": "Ike Reilly Assassination",
@@ -149,7 +123,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/6a6/0c93dcad-6933-4277-a661-0e6738eec6a6_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ike-reilly-assassination/",
-      "youtube_id": null
+      "youtube_id": "pMFGSdYg310"
     },
     {
       "artist": "Residual Groove, One Time Weekend",
@@ -161,7 +135,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
-      "youtube_id": null
+      "youtube_id": "BnaTkioAkEQ"
     },
     {
       "artist": "Caroline Jones",
@@ -197,7 +171,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/09/MV-Winter-26-Mercury-Lounge.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/mike-viola/",
-      "youtube_id": null
+      "youtube_id": "eftZf44nsPg"
     },
     {
       "artist": "greek: The Cedar\\'s Tape Tour",
@@ -245,7 +219,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/CFP-WoA-NYC-030726.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cure-for-paranoia/",
-      "youtube_id": null
+      "youtube_id": "Zvr8cyhQ2Aw"
     },
     {
       "artist": "TELYKAST",
@@ -257,7 +231,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9b8/f86d7d26-bc86-4764-b665-96b188c0e9b8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/telykast/",
-      "youtube_id": null
+      "youtube_id": "Dl3cAu7YSBM"
     },
     {
       "artist": "Surfing For Daisy",
@@ -269,7 +243,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/ac3/e8b2a963-5c88-4123-8b2c-55b0ecd0eac3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy/",
-      "youtube_id": null
+      "youtube_id": "A85xNCC2Wvc"
     },
     {
       "artist": "Surfing For Daisy",
@@ -281,7 +255,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/33f/2fbb1745-d233-412d-bf05-19b2213a633f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy-2/",
-      "youtube_id": null
+      "youtube_id": "A85xNCC2Wvc"
     },
     {
       "artist": "True Jackson, Charlie Jacoby, Jennys Setlist",
@@ -293,7 +267,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a09/fe7a69bf-17e7-40fd-afad-44c6026a5a09_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/true-jackson-charlie-jacoby-jennys-setlist/",
-      "youtube_id": null
+      "youtube_id": "IqAjWnrsTxA"
     },
     {
       "artist": "NYC Barz Exam: Karl Dice Raw Jenkins + more",
@@ -306,10 +280,34 @@
       "image": "https://s1.ticketm.net/dam/a/ea0/da679823-b0ec-4f93-80d9-e025610d6ea0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/nyc-barz-exam-karl-dice-raw-jenkins-more/",
       "youtube_id": null
+    },
+    {
+      "artist": "Chasing Abbey *MOVED TO BOWERY BALLROOM*",
+      "date": "Tue, Mar 10",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-2/",
+      "youtube_id": "Y43GhbUyamg"
+    },
+    {
+      "artist": "Belle Blue",
+      "date": "Tue, Mar 10",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
+      "youtube_id": "eNJ5Pr-mClg"
     }
   ],
-  "total_shows": 23,
-  "shows_with_video": 3,
-  "shows_with_image": 23,
-  "last_updated": "2026-02-28T08:56:40.270237"
+  "total_shows": 25,
+  "shows_with_video": 21,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-28T16:21:28.440704"
 }

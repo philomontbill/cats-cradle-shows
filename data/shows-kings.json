@@ -29,12 +29,12 @@
       "notice": null,
       "doors": null,
       "youtube_id": "F997LELyP7o",
-      "opener_youtube_id": null
+      "opener_youtube_id": "j9O9Hx7L2gg"
     },
     {
       "venue": "Kings",
       "date": "Tue, Mar 3",
-      "artist": "Braden Bales – ‘The FML’ Tour",
+      "artist": "Braden Bales \u2013 \u2018The FML\u2019 Tour",
       "opener": "Ezra",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/braden-bales-the-fml-tour",
@@ -119,7 +119,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -132,7 +132,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -164,7 +164,7 @@
       "notice": null,
       "doors": null,
       "youtube_id": "LKKrnjfH3nQ",
-      "opener_youtube_id": null
+      "opener_youtube_id": "xRrtYZphW7g"
     },
     {
       "venue": "Kings",
@@ -206,7 +206,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -243,7 +243,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream – EP Release Show",
+      "artist": "Psychic Scream \u2013 EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -256,7 +256,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
@@ -269,7 +269,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
@@ -320,5 +320,5 @@
   "total_shows": 25,
   "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T08:55:16.237855"
+  "last_updated": "2026-02-28T16:19:40.959907"
 }

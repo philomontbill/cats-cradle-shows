@@ -44488,5 +44488,3635 @@
     "explanation": "artist name found in channel name | video: Black Joe Lewis &amp; The Honeybears - PTP (Official Video) | channel: Black Joe Lewis",
     "timestamp": "2026-02-28T08:57:03.252060",
     "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
+    "role": "headliner",
+    "youtube_id": "YfO1MVkPRp8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (74)",
+    "timestamp": "2026-02-28T16:19:13.495095",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "special guest Bobcat Goldthwait",
+    "role": "opener",
+    "youtube_id": "kAlbzm-Ppbw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:13.495108",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Nep",
+    "role": "headliner",
+    "youtube_id": "KRIIc-tqDAE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495120",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "briZB",
+    "role": "opener",
+    "youtube_id": "1Qn8mLzvqMw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495122",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Al Olender",
+    "role": "headliner",
+    "youtube_id": "q7Dn8hKTGOM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495128",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Abigail Dempsey",
+    "role": "opener",
+    "youtube_id": "XyUeYV1LDPw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495130",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Goldie Boutilier",
+    "role": "headliner",
+    "youtube_id": "2-weJSyo00s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495135",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Syd Taylor",
+    "role": "opener",
+    "youtube_id": "MnXwCdoNnmc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495140",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Coma Cinema",
+    "role": "headliner",
+    "youtube_id": "HyP3ND7Xm4A",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:13.495146",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Trace Mountains, honeygaze",
+    "role": "opener",
+    "youtube_id": "WzRufA4b3dg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:13.495148",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Rivalry Night",
+    "role": "headliner",
+    "youtube_id": "-auKhd23DE4",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: rivalry | video: Shane x Ilya - Heated Rivalry  |  Perfect - One Direction (Tradu\u00e7\u00e3o) | channel: MelMerc",
+    "timestamp": "2026-02-28T16:19:13.835539",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dialtone",
+    "role": "opener",
+    "youtube_id": "Cki-mnHhNtY",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: Dialtone | channel: Toby Fox - Topic",
+    "timestamp": "2026-02-28T16:19:14.526134",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Nothing",
+    "role": "headliner",
+    "youtube_id": "xSZs27QQr1k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:14.826982",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Full Body 2, Cryogeyser, VMO a.k.a. Violent Magic Orchestra",
+    "role": "opener",
+    "youtube_id": "xe7rEv5UgRA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:14.826999",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Immortal Technique",
+    "role": "headliner",
+    "youtube_id": "OqgIKOXykHo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:14.827026",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Poison Pen, DJ Static",
+    "role": "opener",
+    "youtube_id": "toLv5DvCrNE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:14.827029",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Nude Party",
+    "role": "headliner",
+    "youtube_id": "K-cM0SX0ghw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:14.827076",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Six Foot Blonde",
+    "role": "opener",
+    "youtube_id": "MAVev6WtbzI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:14.827079",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dirtwire \u2013 Universal Language Tour",
+    "role": "headliner",
+    "youtube_id": "M9ZAle73g_8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:14.827086",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Max Lane",
+    "role": "opener",
+    "youtube_id": "zE9rdEcJ2hs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:14.827089",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Slow Teeth",
+    "role": "headliner",
+    "youtube_id": "55NKuri-t7I",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Slow Teeth- Moonsong (Twinkle Monster) | channel: banjoe M",
+    "timestamp": "2026-02-28T16:19:15.359195",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Nine Lives Flea Market",
+    "role": "headliner",
+    "youtube_id": "8GgTZ8TTwO4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:15.660016",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Rachel Bochner",
+    "role": "headliner",
+    "youtube_id": "xttrqNl8EaY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:15.660077",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Aterciopelados",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:15.660083",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "An Evening With",
+    "role": "opener",
+    "youtube_id": "KMTo2LmixqQ",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: evening | video: cinnamons \u00d7 evening cinema - summertime (Official Music Video) | channel: cinnamons",
+    "timestamp": "2026-02-28T16:19:16.070204",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Bedroom Division & William Hinson",
+    "role": "headliner",
+    "youtube_id": "2jEdgHG09gI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:16.071059",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Lennon KC",
+    "role": "opener",
+    "youtube_id": "c1BRzAEkDCU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.071070",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "RiQj57xemJU",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: deke, dickerson, los, straitjackets | video: LOS STRAITJACKETS w/ DEKE DICKERSON -- &quot;MISERLOU&quot; | channel: UnsteadyFreddie",
+    "timestamp": "2026-02-28T16:19:16.494708",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Puma Blue",
+    "role": "headliner",
+    "youtube_id": "IuVFMVX2eY0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.795553",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Dogpark",
+    "role": "headliner",
+    "youtube_id": "gvifMWDdZTA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.795997",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "John Wood",
+    "role": "opener",
+    "youtube_id": "MyONQHbpkCA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (80)",
+    "timestamp": "2026-02-28T16:19:16.796004",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Surfing for Daisy",
+    "role": "headliner",
+    "youtube_id": "DogDoFcSK-Q",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.796013",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Jack The Radio",
+    "role": "opener",
+    "youtube_id": "JuvMfMIfQIg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.796015",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Twen",
+    "role": "headliner",
+    "youtube_id": "7aI0OF1kGH4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.796022",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Monsoon",
+    "role": "opener",
+    "youtube_id": "Yen1gSMpqxQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.796025",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "The Early November & Hellogoodbye: 20 Years Young",
+    "role": "headliner",
+    "youtube_id": "xRcsezFP02Q",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:16.796065",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Punchline",
+    "role": "opener",
+    "youtube_id": "PDu9BKwQ720",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:16.796070",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Skullcrusher",
+    "role": "headliner",
+    "youtube_id": "fvV-CIoeBrE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:16.796075",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "h.pruz",
+    "role": "opener",
+    "youtube_id": "7Lo4IjJS5G4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: h. pruz - Krista (Official Video) | channel: hpruzVEVO",
+    "timestamp": "2026-02-28T16:19:17.163316",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Pressing Strings and Driftwood",
+    "role": "headliner",
+    "youtube_id": "lwDpaWNSIbg",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Pressing Strings -We Will Be Alright (FTC Warehouse 6/20/23) | channel: Pressing Strings",
+    "timestamp": "2026-02-28T16:19:17.679005",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Mason Jennings",
+    "role": "headliner",
+    "youtube_id": "9dD8gzb02qw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Mason Jennings - Wilderness (Official Music Video) | channel: Mason Jennings",
+    "timestamp": "2026-02-28T16:19:18.454919",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Skylar Gudasz",
+    "role": "opener",
+    "youtube_id": "2iybikuwuPc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Femme Fatale | channel: Skylar Gudasz - Topic",
+    "timestamp": "2026-02-28T16:19:18.934402",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:19.235484",
+    "venue": "Cat's Cradle"
+  },
+  {
+    "artist": "Early Exit",
+    "role": "headliner",
+    "youtube_id": "rnrL2bbTSUI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:21.940599",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "FoundiT and ColorMeKrazy!",
+    "role": "opener",
+    "youtube_id": "NrffhgNVUGA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:21.940613",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Wasted Life",
+    "role": "headliner",
+    "youtube_id": "MEjXK2JGW0E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:21.940621",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Fading Signal, Twisted Fate, Laurence Hope, and Get Wise",
+    "role": "opener",
+    "youtube_id": "HpEKsI44RFk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:21.940624",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Oort Patrol",
+    "role": "headliner",
+    "youtube_id": "FgB7naB-gQ8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:21.940629",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Small Doses and Chiroptera",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Crystal Mountain | channel: All Else Fails - Topic",
+    "timestamp": "2026-02-28T16:19:22.272483",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "The Buckets",
+    "role": "headliner",
+    "youtube_id": "XsrhBoYzn0I",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:22.273209",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Mapless",
+    "role": "opener",
+    "youtube_id": "OH6-nTex8Mk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:22.273219",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Dream, Ivory",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:22.273225",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Kurt Travis",
+    "role": "headliner",
+    "youtube_id": "cZZwAdVHnc0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:22.273231",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Blax: The Money, Prayers & Abundance Tour",
+    "role": "headliner",
+    "youtube_id": "ZYBtarkEQZU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.273237",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Product of Hip Hop and Concept",
+    "role": "opener",
+    "youtube_id": "Lxtbhqklnwo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (72)",
+    "timestamp": "2026-02-28T16:19:22.273240",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "The Unsustainables and Bad Leavers",
+    "role": "headliner",
+    "youtube_id": "nja5zxXqBhw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.273249",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Sound System Seven",
+    "role": "opener",
+    "youtube_id": "GrS0lrO2zFE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:22.273253",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Who They Fear and Varia: The Visions 2026 Tour",
+    "role": "headliner",
+    "youtube_id": "5T--s-V4rk0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.273259",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Snide and Knub",
+    "role": "headliner",
+    "youtube_id": "_DyW7jWaO-0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.273264",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Snowblinder and Dead Halos",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Lilys - A Nanny In Manhattan | channel: Arctickal",
+    "timestamp": "2026-02-28T16:19:22.613456",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
+    "role": "headliner",
+    "youtube_id": "iy2OJinMorE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.614154",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Bike Routes and Bugsy",
+    "role": "opener",
+    "youtube_id": "INh7gTp9Hug",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:22.614162",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Hashtronaut",
+    "role": "headliner",
+    "youtube_id": "665aX06fwf8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:22.614173",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Evil Eye and Lie Heavy",
+    "role": "opener",
+    "youtube_id": "l_GM1i_cUkY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (72)",
+    "timestamp": "2026-02-28T16:19:22.614176",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Feyleux",
+    "role": "headliner",
+    "youtube_id": "Hxj5NloHnNc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:22.614183",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "More Is Not Enough and Heavy For The Vintage",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 31,
+    "tier": "skip",
+    "explanation": "partial: and, the | video: Wolf Van Halen Using The Original EVH Frankenstein on &#39;The End&#39; #shorts | channel: D'Addario and Co.",
+    "timestamp": "2026-02-28T16:19:23.096599",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
+    "role": "headliner",
+    "youtube_id": "kvoj4AZS4-g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:23.097331",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Love Letter",
+    "role": "opener",
+    "youtube_id": "Dj0rdxfh3ZI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.097339",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "The Everymen",
+    "role": "headliner",
+    "youtube_id": "qBVNdq5L4rQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:23.097348",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Julian Calendar and Sonic Blooms",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: 6 Days in September - The More I Go The More I Fall (Official Video) | channel: 6 Days In September",
+    "timestamp": "2026-02-28T16:19:23.884553",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Filth",
+    "role": "headliner",
+    "youtube_id": "rwIKRLB8orw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.885807",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Autumn Lies Buried, Comawaves,  Jawjacked",
+    "role": "opener",
+    "youtube_id": "pe7P2jiNHKg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:23.885815",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Moon Walker",
+    "role": "headliner",
+    "youtube_id": "FsRift9CRgk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.885821",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Demi the Daredevil and Sarah & The Safe Word",
+    "role": "opener",
+    "youtube_id": "XK_lvoCR0c0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (84)",
+    "timestamp": "2026-02-28T16:19:23.885824",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
+    "role": "headliner",
+    "youtube_id": "Az3RcZfWcvc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:23.885829",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Jack the Songman and Chris Chism",
+    "role": "opener",
+    "youtube_id": "YpCdz3awwzA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:23.885831",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Racoma",
+    "role": "headliner",
+    "youtube_id": "-oQ1J7jek9c",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.885838",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "St. Yuma",
+    "role": "opener",
+    "youtube_id": "9IDYYySG4ys",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.885840",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Sub Empty",
+    "role": "headliner",
+    "youtube_id": "HQWVKw6cvc0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:23.885845",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Catiline and Mantaray",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-28T16:19:24.457791",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Treasure Pains and Null",
+    "role": "headliner",
+    "youtube_id": "hm1I7mP5XSY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:24.459360",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Dug and Snide",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 33,
+    "tier": "skip",
+    "explanation": "partial: dug | video: Cactus feat. Dee Snider &amp; dUg Pinnick - Evil (Official Music Video) | channel: Cleopatra Records",
+    "timestamp": "2026-02-28T16:19:24.856849",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Red October",
+    "role": "headliner",
+    "youtube_id": "X52ki7PctKA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (88)",
+    "timestamp": "2026-02-28T16:19:24.857663",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Hemlock Theory and Under The Catacombs of Paris",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-28T16:19:25.547115",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Locally Sourced Weaponry",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 33,
+    "tier": "skip",
+    "explanation": "partial: weaponry | video: ALIEN WEAPONRY - Hatupatu (Official Video) | Napalm Records | channel: Napalm Records",
+    "timestamp": "2026-02-28T16:19:25.948219",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "The Horse Deniers and Hvac Tech",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Ozzy Osbourne-Aimee-Ozzmosis | channel: OsbourneTheDevil",
+    "timestamp": "2026-02-28T16:19:26.269407",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Ashes to Amber",
+    "role": "headliner",
+    "youtube_id": "eo_0CdDmmLU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Sun Punks (Official Music Video) | channel: Ashes To Amber",
+    "timestamp": "2026-02-28T16:19:26.992587",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Nature TV and Emerson Bruno",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Jota Quest - Dias Melhores (Ac\u00fastico) | channel: JotaQuestVEVO",
+    "timestamp": "2026-02-28T16:19:27.319543",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Certain Seas",
+    "role": "headliner",
+    "youtube_id": "LbYxP11rbSM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:27.620553",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "Erie Choir and Neon Ruins",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: The New Year - These Knees. Nov. 4, 2013 | channel: Tina Shafer",
+    "timestamp": "2026-02-28T16:19:27.876503",
+    "venue": "Local 506"
+  },
+  {
+    "artist": "A Beacon School / le Lotus",
+    "role": "headliner",
+    "youtube_id": "8yGDEpMCB3U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:31.266783",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "The Faux Paws / Eleanor Buckland",
+    "role": "headliner",
+    "youtube_id": "5ixEhwIxqD8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.266802",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Queer Country Night",
+    "role": "headliner",
+    "youtube_id": "hU_hAY8yyvQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.266806",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Blends With Friends (Open Decks)",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:31.266816",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Fish Hunt / People I Love / GLOWR",
+    "role": "headliner",
+    "youtube_id": "rVieMw_GLSU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.566953",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Temptress / Friendship Commanders / Holy Roller",
+    "role": "headliner",
+    "youtube_id": "ayVCMTXF13k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.566983",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Cartoon Smokeshow, a Drag and Burlesque Rewind",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:31.567006",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Plastic Flamingos / Hemlock Theory / Khallori",
+    "role": "headliner",
+    "youtube_id": "4-r4n749k3g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.867134",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Cootie Catcher / Edna Mode / Charlie Paso",
+    "role": "headliner",
+    "youtube_id": "W3XYuydCAe4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.867166",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Secret Monkey Weekend / Kenmujo / Kid Alumni",
+    "role": "headliner",
+    "youtube_id": "KBWHVPOdQYs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.867173",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Emanuel Wynter / Tre Charles",
+    "role": "headliner",
+    "youtube_id": "Rw1suYWh39w",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:31.867179",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Mellow Swells Album Release w/ Sonny Miles",
+    "role": "headliner",
+    "youtube_id": "U48wJqFfWBM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:31.867185",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Minorcan / Lalitree Darnielle / Celestogramme",
+    "role": "headliner",
+    "youtube_id": "8iAe7o0Ol6o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:31.867189",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:31.867215",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Invisible Cities / Ravine / Violent Institution",
+    "role": "headliner",
+    "youtube_id": "eIK1Qw9K9ZY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:32.167323",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Cornelia Murr / Reverend Baron / Storey Littleton",
+    "role": "headliner",
+    "youtube_id": "V0XiLfNgGEc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:32.167351",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Bay Faction / Nuffer",
+    "role": "headliner",
+    "youtube_id": "_HswmQSyR6o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:32.167357",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Allison de Groot & Tatiana Hargreaves LIVE Recording",
+    "role": "headliner",
+    "youtube_id": "XvumeGWnc64",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:32.167365",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Carly Cosgrove / Leisure Hour / Summerbruise",
+    "role": "headliner",
+    "youtube_id": "jsNBLMpGS40",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:32.167371",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Who Run It?? PARTY!!",
+    "role": "headliner",
+    "youtube_id": "gU7003Juh7c",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: run, who | video: Who Run It | channel: Three 6 Mafia - Topic",
+    "timestamp": "2026-02-28T16:19:32.669644",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "BIG POP SHOW: Lifeguard / Mail / Sects / Warm Frames",
+    "role": "headliner",
+    "youtube_id": "Bjn2LoYQ2KY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:32.970561",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:32.970990",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "The All Black Affair",
+    "role": "headliner",
+    "youtube_id": "cx6FgY-nDwE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:33.271176",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "The Buzzard Company / Charles Latham and the Borrowed Band",
+    "role": "headliner",
+    "youtube_id": "gKrVMfgdPrA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:33.271204",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Cor de Lux / Optic Sink / Hex Files",
+    "role": "headliner",
+    "youtube_id": "nLk9zyLBfCc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:33.271212",
+    "venue": "The Pinhook"
+  },
+  {
+    "artist": "Far Too Jones",
+    "role": "headliner",
+    "youtube_id": "g7BHWgwsN_w",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:33.849713",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Cravin\u2019 Melon Acoustic",
+    "role": "opener",
+    "youtube_id": "vv13NBN0678",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:33.849728",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Lotus \u2013 Rise of the Anglerfish Tour",
+    "role": "headliner",
+    "youtube_id": "lR76kEYcEfQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:33.849739",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Driver & Lexx",
+    "role": "headliner",
+    "youtube_id": "qerLE-tOhGc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:33.849744",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Shakedown Citi",
+    "role": "headliner",
+    "youtube_id": "T35qZFqno9o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:33.849748",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "@ Kings",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): kings | video: Terrian - King Of Kings (feat. Eli Soares) [Official Music Video] | channel: Terrian",
+    "timestamp": "2026-02-28T16:19:34.335438",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Mo Lowda & the Humble",
+    "role": "headliner",
+    "youtube_id": "e-GFjxy8yHo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:34.336134",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Deaf Andrews",
+    "role": "opener",
+    "youtube_id": "IclYceWSZOc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:34.336145",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "NC Songwriters Show Feat: Jon Wood/Steph Maguire/Tan Sanders/Drew Johnson/Sophie Taylor/Roy Stewart/Brent Underwood/Adam Fisher",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:34.336334",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Rare of Breed:  The Restoration Tour",
+    "role": "headliner",
+    "youtube_id": "sXJ0ZqV8q9E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:34.636481",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Just Nate Musik & DJ Winn",
+    "role": "opener",
+    "youtube_id": "Y1lcNoiAGMQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:34.636498",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Fireside Collective",
+    "role": "headliner",
+    "youtube_id": "9sDZrahivvA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:34.636523",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Of Good Nature",
+    "role": "opener",
+    "youtube_id": "PR_O_Impm9U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:34.636527",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Mother\u2019s Finest",
+    "role": "headliner",
+    "youtube_id": "6BcdaRmGtoU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:34.636537",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Eggy",
+    "role": "headliner",
+    "youtube_id": "oa0WTcgEkFU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:34.636545",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "The Old Soul Sessions Featuring NIITO",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 30,
+    "tier": "skip",
+    "explanation": "partial: soul | video: Anita Baker - Body And Soul (Official Music Video) | channel: Anita Baker",
+    "timestamp": "2026-02-28T16:19:35.095135",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Lily Rose \u2013 I Know What I Want",
+    "role": "headliner",
+    "youtube_id": "_eQQP82ZbIA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:35.395905",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Cosmic Charlie",
+    "role": "headliner",
+    "youtube_id": "LfChgN8TRKo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:35.395936",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Earlybirds Club",
+    "role": "headliner",
+    "youtube_id": "Oc0qXk0vkFE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.395942",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "BJ Barham at The Rialto",
+    "role": "headliner",
+    "youtube_id": "59zwHufZHkY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:35.396021",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Heads Up Penny \u2013 Presented by East Coast Entertainment",
+    "role": "headliner",
+    "youtube_id": "gPF2aTZilBY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (76)",
+    "timestamp": "2026-02-28T16:19:35.396026",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Daniel Donato\u2019s Cosmic Country 3 Show Package",
+    "role": "headliner",
+    "youtube_id": "ZpwNH2ugG8s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:35.396061",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Proving Ground \u2013 Widespread Panic Tribute",
+    "role": "headliner",
+    "youtube_id": "LqBjdkeZDUA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:35.396077",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Dogs In A Pile",
+    "role": "headliner",
+    "youtube_id": "UZAheFvSEOk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.396082",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Old 97\u2019s",
+    "role": "headliner",
+    "youtube_id": "ZC-9kxsNGyc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:35.396087",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Knot Your Kind \u2013 A tribute to Slipknot",
+    "role": "headliner",
+    "youtube_id": "IK3hOYR6OaI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.396092",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "w/ Enrage (tribute to Rage Against The Machine)",
+    "role": "opener",
+    "youtube_id": "32vyLhQo4Y8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (80)",
+    "timestamp": "2026-02-28T16:19:35.396096",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "BERTHA: Grateful Drag",
+    "role": "headliner",
+    "youtube_id": "Q3e7vapgNlM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.396105",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "The Band Of Heathens",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:35.396414",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Tennessee Whiskey Band (Chris Stapleton Tribute) & Ultimate Eric Church Tribute",
+    "role": "headliner",
+    "youtube_id": "Oak-louX_aY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (74)",
+    "timestamp": "2026-02-28T16:19:35.396420",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Harvey Street",
+    "role": "headliner",
+    "youtube_id": "MfuEWKTH64Y",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.396424",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "TBA",
+    "role": "opener",
+    "youtube_id": "vK-iJyZ16UQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:35.396428",
+    "venue": "Lincoln Theatre"
+  },
+  {
+    "artist": "Jed Harrelson",
+    "role": "headliner",
+    "youtube_id": "XNOJnGb-3V4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:36.552755",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Carson Mac",
+    "role": "opener",
+    "youtube_id": "8zxEuoVlaN0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:36.552768",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Matt OX",
+    "role": "headliner",
+    "youtube_id": "F997LELyP7o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:36.552777",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Evlo",
+    "role": "opener",
+    "youtube_id": "j9O9Hx7L2gg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Evlo - Skeletons (Official Audio) | channel: EVLOVEVO",
+    "timestamp": "2026-02-28T16:19:36.956868",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Braden Bales \u2013 \u2018The FML\u2019 Tour",
+    "role": "headliner",
+    "youtube_id": "g53JdQbI38k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (72)",
+    "timestamp": "2026-02-28T16:19:36.957595",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Ezra",
+    "role": "opener",
+    "youtube_id": "v_B3qkp4nO4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: George Ezra - Shotgun (Official Lyric Video) | channel: GeorgeEzraVEVO",
+    "timestamp": "2026-02-28T16:19:37.463390",
+    "venue": "Kings"
+  },
+  {
+    "artist": "[Late] Sub Rosa",
+    "role": "headliner",
+    "youtube_id": "FdoBIPwu5HA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:37.464122",
+    "venue": "Kings"
+  },
+  {
+    "artist": "The Bleeding Hearts",
+    "role": "headliner",
+    "youtube_id": "GrKi-eR9kdQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:37.464135",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Dallas Tetnus, The Sonic Blooms",
+    "role": "opener",
+    "youtube_id": "qcBKyAujWFM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:37.464139",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Shakedown Citi",
+    "role": "headliner",
+    "youtube_id": "T35qZFqno9o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:37.464146",
+    "venue": "Kings"
+  },
+  {
+    "artist": "[Late] Sub Rosa",
+    "role": "headliner",
+    "youtube_id": "FdoBIPwu5HA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:37.464150",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Meet Me @ The Altar [Rescheduled from 1/26]",
+    "role": "headliner",
+    "youtube_id": "waQ9BKMacII",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:37.464160",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Pollyanna, Weymouth",
+    "role": "opener",
+    "youtube_id": "f1EVoVOSK5k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:37.464163",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Two-Piece",
+    "role": "headliner",
+    "youtube_id": "1P0OOQKQdZw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:37.464170",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Recount, Chained, Vanta",
+    "role": "opener",
+    "youtube_id": "qzfxdd3ckn0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:37.464172",
+    "venue": "Kings"
+  },
+  {
+    "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 31,
+    "tier": "skip",
+    "explanation": "partial: percolator | video: Charly Bliss - Percolator (Audio) | channel: Charly Bliss",
+    "timestamp": "2026-02-28T16:19:37.783340",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Zack Mexico, Zones",
+    "role": "opener",
+    "youtube_id": "ZqifU_-wvR0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:37.784027",
+    "venue": "Kings"
+  },
+  {
+    "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:38.084600",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Paul Siler",
+    "role": "opener",
+    "youtube_id": "_JkUpouxAzk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:38.084622",
+    "venue": "Kings"
+  },
+  {
+    "artist": "GrrrlBands: Sountrack Season Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:38.384745",
+    "venue": "Kings"
+  },
+  {
+    "artist": "JMSN",
+    "role": "headliner",
+    "youtube_id": "LKKrnjfH3nQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:38.684874",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Samy Sharif",
+    "role": "opener",
+    "youtube_id": "xRrtYZphW7g",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Samy Sharif - Snuff the Pilot Light (Official Video) | channel: Samy Sharif",
+    "timestamp": "2026-02-28T16:19:39.084874",
+    "venue": "Kings"
+  },
+  {
+    "artist": "[Early show] Westerman",
+    "role": "headliner",
+    "youtube_id": "Ch1lNNwwa90",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:39.085774",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Otto Benson",
+    "role": "opener",
+    "youtube_id": "x5830sQZWNg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:39.085782",
+    "venue": "Kings"
+  },
+  {
+    "artist": "[Late] Sub Rosa",
+    "role": "headliner",
+    "youtube_id": "FdoBIPwu5HA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (73)",
+    "timestamp": "2026-02-28T16:19:39.085788",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Kxllswxtch",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:39.085792",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Warlord Colossus, Druidess",
+    "role": "opener",
+    "youtube_id": "I8EpCcQbO18",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:39.085795",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
+    "role": "headliner",
+    "youtube_id": "IbOXharkzzE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:39.085808",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Magenta Wave",
+    "role": "opener",
+    "youtube_id": "RoDRQZZFWV4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:39.085811",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Keyse",
+    "role": "headliner",
+    "youtube_id": "X2z7nL-6vzQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:39.085817",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Empty Room, Harm, dreamscent",
+    "role": "opener",
+    "youtube_id": "wO0bgJQuszU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:39.085820",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Sub Rosa",
+    "role": "headliner",
+    "youtube_id": "lRwmqocOw7U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:39.085824",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Psychic Scream \u2013 EP Release Show",
+    "role": "headliner",
+    "youtube_id": "dWElWhktJow",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:39.085853",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Summer of Snakes, Le Mona, Delver",
+    "role": "opener",
+    "youtube_id": "FvqkS3UN-3A",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:39.085857",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:39.085872",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Jourdain Fisher",
+    "role": "opener",
+    "youtube_id": "X6tolwbHyVM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (80)",
+    "timestamp": "2026-02-28T16:19:39.085875",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:39.386150",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Al Flynn",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): flynn | video: Johnny Flynn - Wandering Aengus | channel: JohnnyFlynnVEVO",
+    "timestamp": "2026-02-28T16:19:39.777455",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Sub Rosa",
+    "role": "headliner",
+    "youtube_id": "lRwmqocOw7U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:40.078376",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Lala Lala",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): lala | video: Myke Towers - Lala (Video Oficial) | channel: Myke Towers",
+    "timestamp": "2026-02-28T16:19:40.623581",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Mother Soki",
+    "role": "opener",
+    "youtube_id": "JgHMGvq14eA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:40.624485",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Scarhaven",
+    "role": "headliner",
+    "youtube_id": "n2S-3h_Pocw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:40.924619",
+    "venue": "Kings"
+  },
+  {
+    "artist": "Honeyknife",
+    "role": "opener",
+    "youtube_id": "xv5kfOZ8VyA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:40.924636",
+    "venue": "Kings"
+  },
+  {
+    "artist": "SZN4",
+    "role": "headliner",
+    "youtube_id": "87l-84irDlo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.346397",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Grace Womack",
+    "role": "opener",
+    "youtube_id": "BEildxKZrMs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:42.346405",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "RIP MTV",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:42.346487",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Unplugged Sets, TRL photobooth, Throwback Videos",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:42.346490",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "The Summer Set",
+    "role": "headliner",
+    "youtube_id": "8UgIX_uL-zM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646596",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Senses, Good Boy Daisy",
+    "role": "opener",
+    "youtube_id": "960AM_-TTZs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646614",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rusty Santos",
+    "role": "headliner",
+    "youtube_id": "4rp1mCX9nOQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646633",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ama, Joey Z, Ewe, Dj Fennec",
+    "role": "opener",
+    "youtube_id": "VBSJTfmNnFI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646641",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Clover County",
+    "role": "headliner",
+    "youtube_id": "tNr4SrwNcmc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646649",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ethansroom",
+    "role": "opener",
+    "youtube_id": "DMbAjG_pK28",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646654",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Yellow Days",
+    "role": "headliner",
+    "youtube_id": "jpYwsHTLv9o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646661",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rue Jacobs",
+    "role": "opener",
+    "youtube_id": "Q83W9q34RDs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.646664",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "HBO QUIZZO: Heated Rivalry",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:42.646680",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Hosted By Anna Troxell",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:42.646684",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Nothing",
+    "role": "headliner",
+    "youtube_id": "xSZs27QQr1k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:42.946863",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Full Body 2, Touch Girl Apple Blossom, Cryogeyser, Vmo A.k.a.. Violent Magic Orchestra, dottie",
+    "role": "opener",
+    "youtube_id": "xe7rEv5UgRA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:42.946902",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Gogol Bordello",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:42.946948",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Boris and the Joy, Puzzled Panther",
+    "role": "opener",
+    "youtube_id": "XiqXpTolqug",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:42.946961",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": "LxL_nqxzn_c",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: SXSW VIDEO | channel: famousstarsandstraps",
+    "timestamp": "2026-02-28T16:19:43.331825",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: YoungBoy Never Broke Again - Highly  [Official Music Video] | channel: YoungBoy Never Broke Again",
+    "timestamp": "2026-02-28T16:19:43.768335",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": "LxL_nqxzn_c",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: SXSW VIDEO | channel: famousstarsandstraps",
+    "timestamp": "2026-02-28T16:19:44.399777",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: YoungBoy Never Broke Again - Highly  [Official Music Video] | channel: YoungBoy Never Broke Again",
+    "timestamp": "2026-02-28T16:19:44.833929",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": "LxL_nqxzn_c",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: SXSW VIDEO | channel: famousstarsandstraps",
+    "timestamp": "2026-02-28T16:19:45.492429",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: YoungBoy Never Broke Again - Highly  [Official Music Video] | channel: YoungBoy Never Broke Again",
+    "timestamp": "2026-02-28T16:19:46.010394",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "A Special Marshall Day Party",
+    "role": "headliner",
+    "youtube_id": "5KDCuHk1HNM",
+    "confidence": 85,
+    "tier": "accept",
+    "explanation": "channel match: day, party | video: Sir Marshall Live at Praize Day Party - Ocean Praize | channel: Praize Day Party",
+    "timestamp": "2026-02-28T16:19:46.876608",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Very Necessary Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:47.177797",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Valee",
+    "role": "opener",
+    "youtube_id": "RpL1GyLOblE",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: Valee&#39; - &quot;I Got Whatever&quot; (Official Music Video) | channel: ELEVATOR",
+    "timestamp": "2026-02-28T16:19:47.588664",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heated Rivalry Dance Party",
+    "role": "headliner",
+    "youtube_id": "46qw3T9lz3Y",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (75)",
+    "timestamp": "2026-02-28T16:19:47.889711",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Recovery Takeover 2026",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-02-28T16:19:47.890161",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Alien Ant Farm",
+    "role": "opener",
+    "youtube_id": "CDl9ZMfj6aE",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Alien Ant Farm - Smooth Criminal (Official Music Video) | channel: AlienAntFarmVEVO",
+    "timestamp": "2026-02-28T16:19:48.284680",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Social Dissonance",
+    "role": "headliner",
+    "youtube_id": "2wmHXmwubO8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:48.585628",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Aztec Milk Temple, Spirals",
+    "role": "opener",
+    "youtube_id": "5isB7Zo-jKw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:48.585645",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "The California Honeydrops",
+    "role": "headliner",
+    "youtube_id": "fjLRldRjkF0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:48.585665",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Mint Field",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:48.585671",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lauren Lakis",
+    "role": "opener",
+    "youtube_id": "t8cgqqYItgA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:48.585675",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Oof Fighters",
+    "role": "headliner",
+    "youtube_id": "SBjQ9tuuTJQ",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: fighters | video: Foo Fighters - The Pretender | channel: foofightersVEVO",
+    "timestamp": "2026-02-28T16:19:49.029629",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lonestar Supernova, Wicked Vixxen",
+    "role": "opener",
+    "youtube_id": "o6ybSsTn1w0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (93)",
+    "timestamp": "2026-02-28T16:19:49.030490",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ratboys",
+    "role": "headliner",
+    "youtube_id": "lX5adLHQobY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:49.330700",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Villagerrr",
+    "role": "opener",
+    "youtube_id": "TIKFfi9qD98",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:49.330736",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Sweet Pill",
+    "role": "headliner",
+    "youtube_id": "quI9Xd-En1g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:49.330781",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heart To Gold, Spaced",
+    "role": "opener",
+    "youtube_id": "xAnNUkkNUFY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:49.330793",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Model/Actriz",
+    "role": "headliner",
+    "youtube_id": "37ptdYkJ1d0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:49.330814",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Touching Ice",
+    "role": "opener",
+    "youtube_id": "yhhnvGtB9Wc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Prey | channel: Touching Ice - Topic",
+    "timestamp": "2026-02-28T16:19:49.754807",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Drug Church",
+    "role": "headliner",
+    "youtube_id": "vjyK81x0fzk",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Drug Church &quot;Million Miles of Fun&quot; (Official Music Video) | channel: Pure Noise Records",
+    "timestamp": "2026-02-28T16:19:50.186868",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Death Lens",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:50.187663",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Sarah Kinsley",
+    "role": "headliner",
+    "youtube_id": "Nm7EPfSeqGs",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Sarah Kinsley - Karma (Official Music Video) | channel: Sarah Kinsley",
+    "timestamp": "2026-02-28T16:19:50.993410",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Girlpuppy",
+    "role": "opener",
+    "youtube_id": "Rp6jCtnhCDs",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: girlpuppy - I Just Do! (Official Video) | channel: girlpuppyVEVO",
+    "timestamp": "2026-02-28T16:19:51.403503",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Nirvani: A Nirvana Tribute Experience",
+    "role": "headliner",
+    "youtube_id": "c9lp2mb3rXI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:52.214637",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Austin Meade and Goodbye June",
+    "role": "headliner",
+    "youtube_id": "lOWhd222aiY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:52.214655",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "The Four Horsemen: No Repeat Weekend",
+    "role": "headliner",
+    "youtube_id": "dFAxJd34ins",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:52.214660",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Dirtwire",
+    "role": "headliner",
+    "youtube_id": "3HH2Pnr_7hU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:52.214664",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Buffalo Nichols",
+    "role": "opener",
+    "youtube_id": "IUJj6nu1guY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:52.214667",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "The Congregation presents MIA ASANO",
+    "role": "headliner",
+    "youtube_id": "fTMSnivk_vM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:52.214672",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "special guest Billy Wilkins",
+    "role": "opener",
+    "youtube_id": "PFnH9eX9P7c",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:52.214674",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "The Rush Experience: A Tribute to Rush",
+    "role": "headliner",
+    "youtube_id": "wvBLcZ24bBo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:52.214681",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Lil Texas (Ages 18 & Up)",
+    "role": "headliner",
+    "youtube_id": "gygm4c5z3d0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:52.214686",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "moe. Born To Fly Tour",
+    "role": "headliner",
+    "youtube_id": "xYvBRRuN7xQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:52.214694",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Fia",
+    "role": "headliner",
+    "youtube_id": "-Dwxl58YMYE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:52.214699",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "special guest Johnnysuite",
+    "role": "opener",
+    "youtube_id": "JUa1DhEmdrw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:52.214702",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Borgeous",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:52.214707",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "An Evening",
+    "role": "headliner",
+    "youtube_id": "wBavrE3as4M",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (80)",
+    "timestamp": "2026-02-28T16:19:52.214710",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Live Wire: The Ultimate AC/DC Tribute",
+    "role": "opener",
+    "youtube_id": "wq4eA_wHMqs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (72)",
+    "timestamp": "2026-02-28T16:19:52.214712",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "party iconic presents: HEATED RIVALRY NIGHT (Ages 18 & Up)",
+    "role": "headliner",
+    "youtube_id": "Y6nAvVf9wnM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-02-28T16:19:52.214716",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "yi0ho-hTG-U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:52.214720",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "It\u2019s A 2000\u2019s Party by Slacker University (Ages 18 & Up)",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 35,
+    "tier": "skip",
+    "explanation": "partial: 2000s, party | video: Block Party Vol 1 | 2000s Hip-Hop/R&amp;B Live DJ Set in Dallas, TX | Classic Vibes | COZY Worldwide | channel: Zo Rosales",
+    "timestamp": "2026-02-28T16:19:52.577231",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Lovesong: A Tribute To The Cure",
+    "role": "headliner",
+    "youtube_id": "-l77_c9WY0A",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:52.877954",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-28T16:19:53.525672",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Burning Witches",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:19:53.826999",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Por Vida and Embrace The Oblivion",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 29,
+    "tier": "skip",
+    "explanation": "partial: oblivion | video: GroundBass &amp; Humanizr - Oblivion (Official Music Video) | channel: GroundBass",
+    "timestamp": "2026-02-28T16:19:54.248027",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Dead Meets Petty | Last Fair Deal: A Grateful Dead Tribute Band & The Broken Hearts: A Tribute To Tom Petty and The Broken Hearts",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 28,
+    "tier": "skip",
+    "explanation": "partial: and, the | video: Boy Awakens the Ten-Star Magic Talent and Summons the Mythical Angel Maid and the Demon King Maid! | channel: Panda Fantasy Chronicles",
+    "timestamp": "2026-02-28T16:19:55.249832",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Reverend Horton Heat",
+    "role": "headliner",
+    "youtube_id": "4eVujNG04mg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:55.551448",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Black Joe Lewis and Pinata Protest",
+    "role": "opener",
+    "youtube_id": "XGgw2bhxznQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:55.551485",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Phoneboy and Heart Attack Man",
+    "role": "headliner",
+    "youtube_id": "BEIm0KQuVMk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-02-28T16:19:55.551574",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Old 97\u2019s",
+    "role": "headliner",
+    "youtube_id": "ZC-9kxsNGyc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:19:55.551592",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Be Kind & Rewind: The Ultimate 90s Experience",
+    "role": "headliner",
+    "youtube_id": "s43bm1Y4XCA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (76)",
+    "timestamp": "2026-02-28T16:19:55.551613",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Spafford",
+    "role": "headliner",
+    "youtube_id": "ipVbXyaFyRs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:19:55.551628",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "United We Dance: The Ultimate Rave Experience (Ages 18 & Up)",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 33,
+    "tier": "skip",
+    "explanation": "partial: rave, the | video: When security asks you leave the Rave but you can&#39;t \u26d4\ufe0f #psytrance #musicfestival #rave | channel: Trancentral",
+    "timestamp": "2026-02-28T16:19:55.890513",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "Daniel Donato\u2019s Cosmic Country",
+    "role": "headliner",
+    "youtube_id": "IxI7GsyHyDs",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Daniel Donato&#39;s Cosmic Country 6/15/2024 Red Rocks Amphitheater (Full Show) | channel: Daniel Donato",
+    "timestamp": "2026-02-28T16:19:56.615477",
+    "venue": "Elevation 27"
+  },
+  {
+    "artist": "LETDOWN",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:20:03.516430",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Yellow Days",
+    "role": "headliner",
+    "youtube_id": "jpYwsHTLv9o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516447",
+    "venue": "The Social"
+  },
+  {
+    "artist": "yung kai",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:20:03.516452",
+    "venue": "The Social"
+  },
+  {
+    "artist": "VARIALS",
+    "role": "headliner",
+    "youtube_id": "7WAJygma83A",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516456",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Allie X",
+    "role": "headliner",
+    "youtube_id": "LL7f-w6WNw4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516460",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Sports",
+    "role": "headliner",
+    "youtube_id": "A2_O5ZQJYMk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516465",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Indigo de Souza",
+    "role": "headliner",
+    "youtube_id": "ZstVTHCCcGs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516468",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Arcy Drive",
+    "role": "headliner",
+    "youtube_id": "9_7B85Po-es",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516479",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Krooked Kings",
+    "role": "headliner",
+    "youtube_id": "swZrJv5zNjE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:20:03.516485",
+    "venue": "The Social"
+  },
+  {
+    "artist": "DANCE",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:20:03.516489",
+    "venue": "The Social"
+  },
+  {
+    "artist": "Logan Michael",
+    "role": "headliner",
+    "youtube_id": "esE-hNF1lYU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Breaking Point (F U) | channel: Logan Michael - Topic",
+    "timestamp": "2026-02-28T16:21:11.859260",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "The Rikkies & SUM SUN",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "no_results",
+    "explanation": "no YouTube results found",
+    "timestamp": "2026-02-28T16:21:12.780175",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "The Ruckus",
+    "role": "headliner",
+    "youtube_id": "Ns3Ggwn8gjQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Ruckus - Seasons Change (Official Music Video) | channel: The Ruckus",
+    "timestamp": "2026-02-28T16:21:13.502444",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Freddie McClendon",
+    "role": "headliner",
+    "youtube_id": "P3poZuMNpbo",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: King Henry | channel: Freddie McClendon - Topic",
+    "timestamp": "2026-02-28T16:21:14.235663",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "BEAUTY SCHOOL DROPOUT",
+    "role": "headliner",
+    "youtube_id": "BTTQZtXZBK0",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: ASSASSIN - BEAUTY SCHOOL DROPOUT | channel: BEAUTY SCHOOL DROPOUT",
+    "timestamp": "2026-02-28T16:21:14.933986",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Harmony Dawn",
+    "role": "headliner",
+    "youtube_id": "n3czqWBzwjw",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Harmony Dawn | channel: Release - Topic",
+    "timestamp": "2026-02-28T16:21:15.705462",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Arianna Chetram",
+    "role": "headliner",
+    "youtube_id": "j95bawjCSEE",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Kiss Me Everywhere | channel: Arianna Chetram - Topic",
+    "timestamp": "2026-02-28T16:21:16.373731",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Muo Duo",
+    "role": "headliner",
+    "youtube_id": "2p2tuJcKpuY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Muo Duo - Ruby Rose (Official Music Video) | channel: Muo Duo",
+    "timestamp": "2026-02-28T16:21:17.230848",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Ben Milk",
+    "role": "headliner",
+    "youtube_id": "OSX_yqr4JI0",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: ben, milk | video: Ben Negative - Milk | channel: BenNegativeVEVO",
+    "timestamp": "2026-02-28T16:21:18.007136",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Ike Reilly Assassination",
+    "role": "headliner",
+    "youtube_id": "pMFGSdYg310",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Ike Reilly Assassination - Full Session - Daytrotter Session - 3/16/2018 | channel: Paste Magazine",
+    "timestamp": "2026-02-28T16:21:18.718123",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Residual Groove",
+    "role": "headliner",
+    "youtube_id": "BnaTkioAkEQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Cabana Beach - 10/4/25 - Syracuse, NY (4K HDR) | channel: Residual Groove",
+    "timestamp": "2026-02-28T16:21:19.511192",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Caroline Jones",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:21:19.812061",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Bryce Vine",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-02-28T16:21:19.812093",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Mike Viola",
+    "role": "headliner",
+    "youtube_id": "eftZf44nsPg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Mike Viola - Scientist Alexis  [OFFICIAL VIDEO] | channel: Mike Viola",
+    "timestamp": "2026-02-28T16:21:20.231421",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "greek",
+    "role": "headliner",
+    "youtube_id": "alOg6JtFHzU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: greek - ONE [Official Video] | channel: idkgreek",
+    "timestamp": "2026-02-28T16:21:20.943493",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "The Ramona Flowers",
+    "role": "headliner",
+    "youtube_id": "5eZoJBcf6BE",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Ramona Flowers ft. Nile Rodgers - Up All Night (Official Video) | channel: The Ramona Flowers",
+    "timestamp": "2026-02-28T16:21:21.695348",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "All Your Friends",
+    "role": "headliner",
+    "youtube_id": "E5a51OonZDE",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Coldplay - All Your Friends (Official Video) | channel: Coldplay",
+    "timestamp": "2026-02-28T16:21:22.444710",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Cure For Paranoia",
+    "role": "headliner",
+    "youtube_id": "Zvr8cyhQ2Aw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Cure for Paranoia - THE ARTSHOW - NPR Tiny Desk Submission 2025 | channel: Cure for Paranoia",
+    "timestamp": "2026-02-28T16:21:23.278462",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "TELYKAST",
+    "role": "headliner",
+    "youtube_id": "Dl3cAu7YSBM",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: TELYKAST - Better feat. Aly Ryan (Official Music Video) | channel: TELYKAST",
+    "timestamp": "2026-02-28T16:21:23.944804",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Surfing For Daisy",
+    "role": "headliner",
+    "youtube_id": "A85xNCC2Wvc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Surfing for Daisy Live at The Stone Pony (11/15/25) | channel: Surfing for Daisy",
+    "timestamp": "2026-02-28T16:21:24.699808",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Surfing For Daisy",
+    "role": "headliner",
+    "youtube_id": "A85xNCC2Wvc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Surfing for Daisy Live at The Stone Pony (11/15/25) | channel: Surfing for Daisy",
+    "timestamp": "2026-02-28T16:21:25.362504",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "True Jackson",
+    "role": "headliner",
+    "youtube_id": "IqAjWnrsTxA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: i hope she hates you (official video) | channel: True Jackson",
+    "timestamp": "2026-02-28T16:21:26.125879",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "NYC Barz Exam",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 33,
+    "tier": "skip",
+    "explanation": "partial: exam | video: Hot 97 Heavy Hitter DJ Drewski shouts out The Bars Exam #Hot97 #djdrewski #whatnycsoundslike #hiphop | channel: The Bars Exam",
+    "timestamp": "2026-02-28T16:21:26.843982",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Chasing Abbey *MOVED TO BOWERY BALLROOM*",
+    "role": "headliner",
+    "youtube_id": "Y43GhbUyamg",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Chasing Abbey - AR\u00cdS IS AR\u00cdS (Lyric Video) | channel: Chasing Abbey",
+    "timestamp": "2026-02-28T16:21:27.456857",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "Belle Blue",
+    "role": "headliner",
+    "youtube_id": "eNJ5Pr-mClg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Belle Blue | woof (Official Music video) | channel: Belle blue",
+    "timestamp": "2026-02-28T16:21:28.102505",
+    "venue": "Mercury East"
+  },
+  {
+    "artist": "JOSH LEVI",
+    "role": "headliner",
+    "youtube_id": "KQTDkKgffnY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:48.717230",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Doc 103",
+    "role": "headliner",
+    "youtube_id": "kh7l845u11I",
+    "confidence": 85,
+    "tier": "accept",
+    "explanation": "channel match: doc | video: Doc Rotten - &quot;Psych Ward 103&quot; (Official Music Video) | channel: Doc Rotten",
+    "timestamp": "2026-02-28T16:21:49.166341",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Jack Lawrence & Friends",
+    "role": "opener",
+    "youtube_id": "jfTj2pN9g2A",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:50.183699",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Haffway",
+    "role": "headliner",
+    "youtube_id": "EvrdgG7Q4qo",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:50.485057",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Lotus",
+    "role": "headliner",
+    "youtube_id": "A57rz0mMFkE",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:51.146778",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ROBERT JON & THE WRECK",
+    "role": "headliner",
+    "youtube_id": "XORinLiOz0g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:21:51.448592",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "special guest Sam Morrow",
+    "role": "opener",
+    "youtube_id": "tu8cWLgE7tg",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:52.215917",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "MO LOWDA & THE HUMBLE",
+    "role": "headliner",
+    "youtube_id": "TZT3GMehz7s",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:52.217493",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALEXSUCKS",
+    "role": "headliner",
+    "youtube_id": "kwfLBGgUpuQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:52.217503",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Dogma Society",
+    "role": "opener",
+    "youtube_id": "9jE-dCQNIP4",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:52.869983",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "SATSANG",
+    "role": "headliner",
+    "youtube_id": "T-t75r0XGSM",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:53.606824",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Los Straitjackets & Deke Dickerson",
+    "role": "headliner",
+    "youtube_id": "A-MOMaDr3tU",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:54.551327",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "CARTER FAITH",
+    "role": "headliner",
+    "youtube_id": "FTGq4amVO4k",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:55.731964",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Eggy",
+    "role": "headliner",
+    "youtube_id": "oa0WTcgEkFU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:21:56.033572",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:21:56.033601",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "ALL YOUR FRIENDS",
+    "role": "headliner",
+    "youtube_id": "E5a51OonZDE",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:56.710676",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "OLD CROW MEDICINE SHOW",
+    "role": "headliner",
+    "youtube_id": "1gX1EP6mG-E",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:57.782158",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Natalie Jane",
+    "role": "headliner",
+    "youtube_id": "LyPNx_wlJx8",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:58.791024",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "yi0ho-hTG-U",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:59.092726",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "1300SAINT",
+    "role": "headliner",
+    "youtube_id": "q2XenePkZbI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:21:59.092756",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Walter Trout",
+    "role": "headliner",
+    "youtube_id": "UKXxImxkJjE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:21:59.092802",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JESSE ROPER + BEN CHAPMAN",
+    "role": "headliner",
+    "youtube_id": "BaUYa8_ece8",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:21:59.746877",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "The Rock & Roll Playhouse",
+    "role": "headliner",
+    "youtube_id": "CyT6V1cJKSs",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:00.833010",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "JOHN COWAN TRIO",
+    "role": "headliner",
+    "youtube_id": "ZrkgP4dokoQ",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:01.869467",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "WALKER MONTGOMERY",
+    "role": "headliner",
+    "youtube_id": "RYcYWbjE8UQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:02.171249",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Eddie 9V",
+    "role": "headliner",
+    "youtube_id": "Kz47bLW5lds",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:02.811512",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Emo Night Brooklyn",
+    "role": "headliner",
+    "youtube_id": "4Sr869eJbm0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:03.113308",
+    "venue": "Neighborhood Theatre"
+  },
+  {
+    "artist": "Dexter and the Moonrocks",
+    "role": "headliner",
+    "youtube_id": "t3yQfuZaQJg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:05.544112",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fox N' Vead",
+    "role": "opener",
+    "youtube_id": "-KL3ffgEeCM",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:05.544127",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Aly & AJ",
+    "role": "headliner",
+    "youtube_id": "LdJps8LBKLE",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:06.343239",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Hayden Blount",
+    "role": "opener",
+    "youtube_id": "GMlK_e3hinE",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:07.113343",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tab Benoit",
+    "role": "headliner",
+    "youtube_id": "38DiyACiHc4",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:07.414747",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "SunSquabi",
+    "role": "headliner",
+    "youtube_id": "h7vGOr3P4no",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:07.989822",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Phyphr",
+    "role": "opener",
+    "youtube_id": "dZ3TCHIti7E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:07.991092",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Donna The Buffalo",
+    "role": "headliner",
+    "youtube_id": "IXPexLWhNRg",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:09.087818",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Evan Honer",
+    "role": "headliner",
+    "youtube_id": "uqgYgbZMtFA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:09.389581",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nicholas Jamerson",
+    "role": "opener",
+    "youtube_id": "gyZuv54KOXY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:09.389599",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Fringe Revival",
+    "role": "headliner",
+    "youtube_id": "8bL4yrvCFlA",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:10.043830",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Jordan Jensen",
+    "role": "headliner",
+    "youtube_id": "wxduIABdfDQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:10.345539",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Gary Numan",
+    "role": "headliner",
+    "youtube_id": "lHomCiPFknY",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:10.943015",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Tremours",
+    "role": "opener",
+    "youtube_id": "WMgya2uKoYw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:10.944567",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Cat Power",
+    "role": "headliner",
+    "youtube_id": "f-Tsk-cPXxI",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:11.986969",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Hives",
+    "role": "headliner",
+    "youtube_id": "Uz1Jwyxd4tE",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:12.966976",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "The Chats",
+    "role": "opener",
+    "youtube_id": "1LGM82uPuvA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:12.968660",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Nolen Durham",
+    "role": "headliner",
+    "youtube_id": "L2q8DVsBdFY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:13.268794",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Prince of Eden and Fifth Floor",
+    "role": "opener",
+    "youtube_id": "MbpDmYY21EY",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:14.156076",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mike Gordon",
+    "role": "headliner",
+    "youtube_id": "0TI90-WWzWA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:14.157666",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Alla Prima",
+    "role": "headliner",
+    "youtube_id": "d3tnnNE2618",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:14.157676",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Robert Earl Keen",
+    "role": "headliner",
+    "youtube_id": "ieY1hOwhuKA",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:14.901080",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Olivia Wolf",
+    "role": "opener",
+    "youtube_id": "FkJdIyC81QI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:14.902661",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "a6cNgEMzZok",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:15.202791",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "moe.",
+    "role": "headliner",
+    "youtube_id": "a6cNgEMzZok",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:15.202819",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Old Crow Medicine Show",
+    "role": "headliner",
+    "youtube_id": "4-NaZzG5eAU",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:15.202827",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Drain",
+    "role": "headliner",
+    "youtube_id": "1Zni52X1K3I",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:15.842719",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "No Pressure",
+    "role": "opener",
+    "youtube_id": "KcGGHSUAbM0",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:16.481279",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Mammoth",
+    "role": "headliner",
+    "youtube_id": "7w7rAEnMXDI",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:17.457558",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "10 Years",
+    "role": "opener",
+    "youtube_id": "59amjf3qCCQ",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:18.217010",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Lee Fields & Monophonics",
+    "role": "headliner",
+    "youtube_id": "BqH6SycMMdI",
+    "confidence": null,
+    "tier": "scrape_fallback",
+    "explanation": "scraped (no confidence score)",
+    "timestamp": "2026-02-28T16:22:19.115006",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Reverend Horton Heat",
+    "role": "headliner",
+    "youtube_id": "H96XcNWKZVg",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-02-28T16:22:19.416732",
+    "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Black Joe Lewis, Pi\u00f1ata Protest",
+    "role": "opener",
+    "youtube_id": "XGgw2bhxznQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-02-28T16:22:19.416749",
+    "venue": "The Orange Peel"
   }
 ]

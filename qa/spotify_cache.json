@@ -6967,5 +6967,29 @@
     "enriched_date": "2026-02-28T08:57:07.862716+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "Belle Blue": {
+    "spotify_id": "2HM8lglYidPbpbtfaZN9Fj",
+    "spotify_name": "Belle Blue",
+    "popularity": 6,
+    "followers": 504,
+    "genres": [],
+    "enriched_date": "2026-02-28T16:22:20.316689+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.006
+  },
+  "Chasing Abbey *MOVED TO BOWERY BALLROOM*": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-28T16:22:20.972238+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Daniel Donato\u2019s Cosmic Country": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-28T16:22:21.409490+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

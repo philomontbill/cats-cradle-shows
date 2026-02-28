@@ -6,34 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Colony House",
-      "date": "Fri, Feb 27",
-      "venue": "Mohawk Outdoor",
-      "opener": "Mercury",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
-      "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
-      "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "Os8d8eyGhiA",
-      "expired": true
-    },
-    {
-      "artist": "Cory Branan",
-      "date": "Fri, Feb 27",
-      "venue": "Mohawk Indoor",
-      "opener": "Fugitive Visions",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
-      "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
-      "youtube_id": "4EGi-dPtt9U",
-      "opener_youtube_id": "tGqIgl2vztQ",
-      "expired": true
-    },
-    {
       "artist": "SZN4",
       "date": "Sat, Feb 28",
       "venue": "Mohawk Outdoor",
@@ -327,11 +299,37 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593580159",
       "ticket_url": "https://www.etix.com/ticket/p/90006677/modelactriz-austin-resound-presents",
       "youtube_id": "37ptdYkJ1d0",
+      "opener_youtube_id": "yhhnvGtB9Wc"
+    },
+    {
+      "artist": "Drug Church, White Reaper",
+      "date": "Sat, Apr 04",
+      "venue": "Mohawk Outdoor",
+      "opener": "Death Lens",
+      "notice": null,
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
+      "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
+      "youtube_id": "vjyK81x0fzk",
       "opener_youtube_id": null
+    },
+    {
+      "artist": "Sarah Kinsley",
+      "date": "Tue, Apr 07",
+      "venue": "Mohawk Outdoor",
+      "opener": "Girlpuppy",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648569899340",
+      "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
+      "youtube_id": "Nm7EPfSeqGs",
+      "opener_youtube_id": "Rp6jCtnhCDs"
     }
   ],
-  "total_shows": 23,
-  "shows_with_video": 12,
-  "shows_with_image": 23,
-  "last_updated": "2026-02-28T08:55:19.137975"
+  "total_shows": 25,
+  "shows_with_video": 19,
+  "shows_with_image": 25,
+  "last_updated": "2026-02-28T16:19:51.738941"
 }

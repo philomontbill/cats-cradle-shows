@@ -238,7 +238,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -282,7 +282,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 20,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T08:55:09.559482"
+  "last_updated": "2026-02-28T16:19:33.305261"
 }
