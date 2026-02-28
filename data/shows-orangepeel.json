@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Jesse Welles",
-      "date": "Fri, Feb 27",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "S.G. Goodman",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/08/etix-Jesse_1036081754590693.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/58802733/jesse-welles-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
-      "youtube_id": null,
-      "opener_youtube_id": "oi5t3i2sbsk"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Dexter and the Moonrocks",
       "date": "Sat, Feb 28",
       "doors": "7 pm",
@@ -279,10 +266,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/36225987/lee-fields-monophonics-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Reverend Horton Heat",
+      "date": "Fri, Apr 03",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Black Joe Lewis, Piñata Protest",
+      "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": "H96XcNWKZVg",
+      "opener_youtube_id": "XGgw2bhxznQ"
     }
   ],
   "total_shows": 22,
-  "shows_with_video": 22,
+  "shows_with_video": 11,
   "shows_with_image": 22,
-  "last_updated": "2026-02-27T15:10:36.763596"
+  "last_updated": "2026-02-28T08:57:03.590866"
 }

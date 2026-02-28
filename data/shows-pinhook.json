@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Le Frique: Disco Afrique, An All Afrocentric Cabaret and Dance Party",
-      "date": "Fri, Feb 27",
-      "doors": "10 pm",
-      "showtime": "10:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/le-frique-discover-afrique-an-all-afrocentric-cabaret-dance-party.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/52555205/le-friquedisco-afriquean-all-afrocentric-cabaret-and-dance-party-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "A Beacon School / le Lotus",
       "date": "Sat, Feb 28",
       "doors": "7 pm",
@@ -249,7 +238,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/35095552/the-buzzard-company-charles-latham-and-the-borrowed-band-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "gKrVMfgdPrA"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Cor de Lux / Optic Sink / Hex Files",
+      "date": "Sat, Mar 28",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/cor-de-lux-optic-sink-hex-files.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/64648751/cor-de-lux-optic-sink-hex-files-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "nLk9zyLBfCc"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-02-27T15:07:01.128413"
+  "last_updated": "2026-02-28T08:55:09.559482"
 }

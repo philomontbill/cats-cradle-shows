@@ -15,7 +15,7 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/letdown/",
-      "youtube_id": "PsKg8dEWWco"
+      "youtube_id": null
     },
     {
       "artist": "Yellow Days",
@@ -39,7 +39,7 @@
       "showtime": "7:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/250303_MSOLIE_071-683x1024.jpg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/yung-kai/",
-      "youtube_id": "iQmvTvGJfQs"
+      "youtube_id": null
     },
     {
       "artist": "VARIALS",
@@ -127,7 +127,7 @@
     }
   ],
   "total_shows": 10,
-  "shows_with_video": 9,
+  "shows_with_video": 7,
   "shows_with_image": 10,
-  "last_updated": "2026-02-27T15:07:33.073807"
+  "last_updated": "2026-02-28T08:55:26.745982"
 }

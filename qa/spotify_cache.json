@@ -6893,5 +6893,79 @@
     "enriched_date": "2026-02-27T15:10:37.984257+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "Black Joe Lewis, Pi\u00f1ata Protest": {
+    "spotify_id": "4hFguSNiDDWFzkdaxoBYF7",
+    "spotify_name": "Black Joe Lewis",
+    "popularity": 11,
+    "followers": 12648,
+    "genres": [
+      "modern blues",
+      "blues rock"
+    ],
+    "enriched_date": "2026-02-28T08:57:04.487963+00:00",
+    "match_confidence": "close",
+    "match_score": 0.911
+  },
+  "Certain Seas": {
+    "spotify_id": "4o9znZj9rbLXSwa3zpqCd3",
+    "spotify_name": "Certain Seas",
+    "popularity": 0,
+    "followers": 148,
+    "genres": [],
+    "enriched_date": "2026-02-28T08:57:04.937708+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.0
+  },
+  "Cor de Lux / Optic Sink / Hex Files": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-28T08:57:05.519324+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Emo Night Brooklyn": {
+    "spotify_id": "57Ssjwp93IK7DekBrNHvtQ",
+    "spotify_name": "Emo Night Brooklyn",
+    "popularity": 3,
+    "followers": 1852,
+    "genres": [],
+    "enriched_date": "2026-02-28T08:57:05.836820+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.003
+  },
+  "Erie Choir and Neon Ruins": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-28T08:57:06.416802+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "John Wood": {
+    "spotify_id": "7I0pNadpl4NXHNi67paxjh",
+    "spotify_name": "John Wood",
+    "popularity": 14,
+    "followers": 1240,
+    "genres": [],
+    "enriched_date": "2026-02-28T08:57:07.006560+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.014
+  },
+  "Senses, Good Boy Daisy": {
+    "spotify_id": "48LeC49ZUI6oXfZrTA2QlL",
+    "spotify_name": "Good Boy Daisy",
+    "popularity": 36,
+    "followers": 29510,
+    "genres": [],
+    "enriched_date": "2026-02-28T08:57:07.478699+00:00",
+    "match_confidence": "close",
+    "match_score": 0.936
+  },
+  "Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-02-28T08:57:07.862716+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

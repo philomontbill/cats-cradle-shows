@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Fri, Feb 27",
-      "artist": "SINIESTRE Latin Goth Prom: Tesoro\u2019s Eternal Youth Edition",
-      "opener": "hosts Tesoro, Kali Fuchis, & Saga Wolf",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/siniestre-latin-goth-prom-tesoros-eternal-youth-edition",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/INABSENTIA-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "84vvHdNMmxQ"
-    },
-    {
-      "venue": "Kings",
       "date": "Sat, Feb 28",
       "artist": "Jed Harrelson",
       "opener": "Carson Mac",
@@ -47,18 +34,7 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 3",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 3",
-      "artist": "Braden Bales \u2013 \u2018The FML\u2019 Tour",
+      "artist": "Braden Bales – ‘The FML’ Tour",
       "opener": "Ezra",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/braden-bales-the-fml-tour",
@@ -67,6 +43,17 @@
       "doors": null,
       "youtube_id": "g53JdQbI38k",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 3",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -132,7 +119,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
+      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -145,7 +132,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -213,13 +200,13 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/ks-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": "uCEGV2weoPs",
+      "youtube_id": null,
       "opener_youtube_id": "I8EpCcQbO18"
     },
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
+      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -256,7 +243,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream \u2013 EP Release Show",
+      "artist": "Psychic Scream – EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -269,11 +256,11 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/rcf-150x150.jpg",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/Friday-_-8_00pm-_-Kings-_-Jourdain-Fisher-150x150.png",
       "notice": null,
       "doors": null,
       "youtube_id": null,
@@ -282,11 +269,11 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/rcf-150x150.jpg",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/Saturday-_-8_00pm-_-Kings-_-Al-Flynn-150x150.png",
       "notice": null,
       "doors": null,
       "youtube_id": null,
@@ -315,10 +302,23 @@
       "doors": null,
       "youtube_id": null,
       "opener_youtube_id": "JgHMGvq14eA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Apr 2",
+      "artist": "Scarhaven",
+      "opener": "Honeyknife",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/scarhaven",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/scarhaven-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "n2S-3h_Pocw",
+      "opener_youtube_id": "xv5kfOZ8VyA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-02-27T15:07:10.659820"
+  "last_updated": "2026-02-28T08:55:16.237855"
 }

@@ -16,7 +16,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654061035",
       "ticket_url": "https://www.etix.com/ticket/p/34792958/colony-house-austin-resound-presents",
       "youtube_id": "NRiOvSqn8aw",
-      "opener_youtube_id": "Os8d8eyGhiA"
+      "opener_youtube_id": "Os8d8eyGhiA",
+      "expired": true
     },
     {
       "artist": "Cory Branan",
@@ -29,7 +30,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648607827458",
       "ticket_url": "https://www.etix.com/ticket/p/92872530/cory-branan-austin-resound-presents",
       "youtube_id": "4EGi-dPtt9U",
-      "opener_youtube_id": "tGqIgl2vztQ"
+      "opener_youtube_id": "tGqIgl2vztQ",
+      "expired": true
     },
     {
       "artist": "SZN4",
@@ -61,7 +63,7 @@
       "artist": "The Summer Set",
       "date": "Mon, Mar 02",
       "venue": "Mohawk Outdoor",
-      "opener": "With Senses, Good Boy Daisy",
+      "opener": "Senses, Good Boy Daisy",
       "notice": null,
       "doors": "6:00pm",
       "showtime": "7:00pm",
@@ -145,7 +147,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": "SkkIwO_X4i4",
+      "youtube_id": null,
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
@@ -272,7 +274,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": "-E4HZt8u5QI",
+      "youtube_id": null,
       "opener_youtube_id": "t8cgqqYItgA"
     },
     {
@@ -328,8 +330,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 21,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-27T15:07:20.719406"
+  "total_shows": 23,
+  "shows_with_video": 12,
+  "shows_with_image": 23,
+  "last_updated": "2026-02-28T08:55:19.137975"
 }

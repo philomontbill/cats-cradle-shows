@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "Guitarricadelafuente",
-      "date": "Fri, Feb 27",
+      "date": "Sat, Feb 27",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -15,11 +15,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/64a/c11cbd67-1415-4b47-b492-2fb2d014e64a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/guitarricadelafuente/",
-      "youtube_id": "b_f2qiL_nP4"
+      "youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Sheer Mag",
-      "date": "Fri, Feb 27",
+      "date": "Sat, Feb 27",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,7 +28,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/8c2/4868ec44-2045-4025-b4f9-2206c49458c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sheer-mag/",
-      "youtube_id": null
+      "youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Logan Michael",
@@ -171,7 +173,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
-      "youtube_id": "yy0S5UN1X10"
+      "youtube_id": null
     },
     {
       "artist": "Bryce Vine",
@@ -183,7 +185,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/af8/fe4ccad7-46f0-4000-b7a6-560b07c83af8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/bryce-vine/",
-      "youtube_id": "o_tUi4U1pG4"
+      "youtube_id": null
     },
     {
       "artist": "Mike Viola",
@@ -306,8 +308,8 @@
       "youtube_id": null
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 23,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-27T15:09:42.344242"
+  "total_shows": 23,
+  "shows_with_video": 3,
+  "shows_with_image": 23,
+  "last_updated": "2026-02-28T08:56:40.270237"
 }

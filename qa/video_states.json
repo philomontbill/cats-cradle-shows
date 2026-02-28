@@ -1404,20 +1404,26 @@
   },
   "Reverend Horton Heat": {
     "status": "verified",
-    "video_id": "4eVujNG04mg",
-    "verified_date": "2026-02-23T11:23:07.065440",
-    "confidence": "221,521 views",
+    "video_id": "H96XcNWKZVg",
+    "verified_date": "2026-02-28T08:57:16.636076",
+    "confidence": "VEVO",
     "metadata": {
-      "video_title": "Reverend Horton Heat - Scenery Going By",
+      "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 221521,
-      "published": "2014-02-26T00:01:00Z",
+      "view_count": 5331743,
+      "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
       "is_topic": false,
       "channel_match": false,
-      "channel_warning": "channel 'RevHortonHeatVEVO' doesn't match artist",
-      "video_age_years": 12.0
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 12.3,
+      "spotify_match": "exact",
+      "spotify_popularity": 1
     }
   },
   "Black Joe Lewis and Pinata Protest": {
@@ -2068,19 +2074,23 @@
   },
   "Honeyknife": {
     "status": "verified",
-    "video_id": "Anx2xrhcEKg",
-    "verified_date": "2026-02-23T11:23:25.105713",
-    "confidence": "channel match, 2,244 views",
+    "video_id": "xv5kfOZ8VyA",
+    "verified_date": "2026-02-28T08:57:11.819067",
+    "confidence": "channel match, 1,958 views",
     "metadata": {
-      "video_title": "Honeyknife - Stay Bored (Official Music Video)",
+      "video_title": "Honeyknife - Dope Utopia (Official Music Video)",
       "channel_name": "Honeyknife",
-      "view_count": 2244,
-      "published": "2024-06-28T15:00:06Z",
-      "channel_subscribers": 188,
+      "view_count": 1958,
+      "published": "2024-06-07T14:00:19Z",
+      "channel_subscribers": 190,
       "channel_videos": 6,
       "is_topic": false,
       "channel_match": true,
-      "video_age_years": 1.7
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 12",
+      "video_age_years": 1.7,
+      "spotify_match": "exact",
+      "spotify_popularity": 12
     }
   },
   "Boys Go To Jupiter \u2013 \u2018Now You\u2019re A Circle\u2019 Tour": {
@@ -6336,5 +6346,160 @@
     "rejected_date": "2026-02-27T15:10:57.806914",
     "reason": "could not fetch video metadata",
     "metadata": {}
+  },
+  "John Wood": {
+    "status": "verified",
+    "video_id": "MyONQHbpkCA",
+    "verified_date": "2026-02-28T08:57:09.350435",
+    "confidence": "3,768 views",
+    "metadata": {
+      "video_title": "I Can't Help Myself - Jon Wood",
+      "channel_name": "Jon Wood",
+      "view_count": 3768,
+      "published": "2025-09-18T21:17:23Z",
+      "channel_subscribers": 3400,
+      "channel_videos": 51,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 14",
+      "channel_warning": "channel 'Jon Wood' doesn't match artist",
+      "video_age_years": 0.4,
+      "spotify_match": "exact",
+      "spotify_popularity": 14
+    }
+  },
+  "Voyage Hot Club, ft. Sam Farthing & Paulus Schaefer": {
+    "status": "rejected",
+    "video_id": "zlSHpBaJ1ZM",
+    "rejected_date": "2026-02-28T08:57:10.582641",
+    "reason": "not found on Spotify + channel mismatch",
+    "metadata": {
+      "video_title": "The Hot Club of Dublin - Fin Voyage",
+      "channel_name": "Gustavo",
+      "view_count": 1268,
+      "published": "2012-08-17T22:20:41Z",
+      "channel_subscribers": 55,
+      "channel_videos": 21,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "channel_warning": "channel 'Gustavo' doesn't match artist",
+      "video_age_years": 13.5,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "Certain Seas": {
+    "status": "verified",
+    "video_id": "LbYxP11rbSM",
+    "verified_date": "2026-02-28T08:57:13.024754",
+    "confidence": "passed all checks",
+    "metadata": {
+      "video_title": "Echo & The Bunnymen - Seven Seas (Official Music Video)",
+      "channel_name": "Echo & the Bunnymen",
+      "view_count": 4033658,
+      "published": "2014-06-24T19:46:45Z",
+      "channel_subscribers": 117000,
+      "channel_videos": 8,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 0",
+      "channel_warning": "channel 'Echo & the Bunnymen' doesn't match artist",
+      "video_age_years": 11.7,
+      "spotify_match": "exact",
+      "spotify_popularity": 0
+    }
+  },
+  "Senses, Good Boy Daisy": {
+    "status": "verified",
+    "video_id": "960AM_-TTZs",
+    "verified_date": "2026-02-28T08:57:14.275341",
+    "confidence": "VEVO, 255,614 views",
+    "metadata": {
+      "video_title": "senses - Sleepwalking",
+      "channel_name": "sensesrockVEVO",
+      "view_count": 255614,
+      "published": "2023-05-02T19:43:03Z",
+      "channel_subscribers": 6,
+      "channel_videos": 3,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 2.8,
+      "spotify_match": "close",
+      "spotify_popularity": 36,
+      "spotify_warning": "Spotify matched 'Good Boy Daisy' (not exact) and channel doesn't match"
+    }
+  },
+  "Emo Night Brooklyn": {
+    "status": "verified",
+    "video_id": "4Sr869eJbm0",
+    "verified_date": "2026-02-28T08:57:15.440991",
+    "confidence": "3,930 views",
+    "metadata": {
+      "video_title": "I Played LIVE at Emo Night Brooklyn!",
+      "channel_name": "Kristina Schiano",
+      "view_count": 3930,
+      "published": "2026-02-04T15:42:57Z",
+      "channel_subscribers": 1520000,
+      "channel_videos": 472,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 3",
+      "channel_warning": "channel 'Kristina Schiano' doesn't match artist",
+      "video_age_years": 0.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 3
+    }
+  },
+  "Black Joe Lewis, Pi\u00f1ata Protest": {
+    "status": "verified",
+    "video_id": "XGgw2bhxznQ",
+    "verified_date": "2026-02-28T08:57:17.797699",
+    "confidence": "channel match, 219,804 views",
+    "metadata": {
+      "video_title": "Black Joe Lewis & The Honeybears - PTP (Official Video)",
+      "channel_name": "Black Joe Lewis",
+      "view_count": 219804,
+      "published": "2017-01-23T21:42:23Z",
+      "channel_subscribers": 10600,
+      "channel_videos": 29,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 11",
+      "video_age_years": 9.1,
+      "spotify_match": "close",
+      "spotify_popularity": 11
+    }
+  },
+  "Cor de Lux / Optic Sink / Hex Files": {
+    "status": "verified",
+    "video_id": "nLk9zyLBfCc",
+    "verified_date": "2026-02-28T08:57:18.979842",
+    "confidence": "channel match, 1,248 views",
+    "metadata": {
+      "video_title": "Cor de Lux - Rumors (Official Music Video)",
+      "channel_name": "Cor de Lux",
+      "view_count": 1248,
+      "published": "2023-07-18T04:00:21Z",
+      "channel_subscribers": 297,
+      "channel_videos": 9,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "video_age_years": 2.6,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
   }
 }

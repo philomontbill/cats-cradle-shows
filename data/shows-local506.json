@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Blood Red River 20th Anniversary Show",
-      "date": "Fri, Feb 27",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "The Malamondos, Severed Fingers, and The King Teen",
-      "image": "https://local506.com/wp-content/uploads/2026/01/blood-red-river-20th-anniversary-show-with-the-malamondos-severed-fingers-and-the-king-teen.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/62534469/blood-red-river-20th-anniversary-show-with-the-malamondossevered-fingersand-the-king-teen-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "43kWMq9EHk4",
-      "opener_youtube_id": "ZaQfVUOF3po"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Early Exit",
       "date": "Sat, Feb 28",
       "doors": "7 pm",
@@ -79,7 +66,7 @@
       "image": "https://local506.com/wp-content/uploads/2025/10/dreamivory-1-scaled.jpg",
       "ticket_url": "https://local506.com/event/dream-ivory/",
       "notice": null,
-      "youtube_id": "99PzeVVVCn8"
+      "youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -144,7 +131,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
+      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -183,7 +170,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
+      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -235,7 +222,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
+      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -323,10 +310,23 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Certain Seas",
+      "date": "Fri, Apr 10",
+      "doors": "8 pm",
+      "showtime": "9 pm",
+      "opener": "Erie Choir and Neon Ruins",
+      "image": "https://local506.com/wp-content/uploads/2026/02/certain-seas-with-erie-choir-and-neon-ruins.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/35972553/certain-seas-with-erie-choir-and-neon-ruins-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": "LbYxP11rbSM",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 24,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-02-27T15:06:55.136112"
+  "last_updated": "2026-02-28T08:55:05.375378"
 }
