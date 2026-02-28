@@ -1477,9 +1477,43 @@ Also cleared 94 "could not fetch video metadata" entries from `video_states.json
 ### Reminders
 - **Mar 14, 2026** — Manual re-check: run a full scrape and compare results against current rejected list. Did any previously-rejected artists gain videos? This determines whether automatic re-checking has value and whether we should add it back.
 
+### Role-Based Accuracy Tracking (Headliner vs Opener)
+
+Headliners are the primary reason customers visit a venue page — getting the headliner video right matters more than the opener. We now track accuracy separately for both roles so we can prioritize manual reviews on headliners first.
+
+**Key insight:** The show data doesn't have an explicit `role` field, but the role is implicit in the data structure (`artist` + `youtube_id` = headliner, `opener` + `opener_youtube_id` = opener). The verifier already iterated both roles but discarded the role value before writing to reports.
+
+**Changes to `verify_videos.py`:**
+- Verified/rejected dicts now carry `"role"` field
+- CSV has new "Role" column (3rd column, between Artist and Venue)
+- `compute_inventory()` counts by role: `headliner_verified/total`, `opener_verified/total`
+- `accuracy_history.json` entries get 6 new fields per role (verified, total, accuracy)
+- Daily report Accuracy section shows Headliner and Opener percentages
+- No Preview loop now iterates both headliners AND openers (was headliner-only — openers without videos were invisible)
+
+**Changes to `weekly_qc_report.py`:**
+- Accuracy trend table has Headliner % and Opener % columns
+- Week delta shows role-level changes
+- Sheets row includes both percentages
+
+**Sheets headers updated:** Daily Video Reports (added Role), Weekly QC (added Headliner %, Opener %)
+
+**Current numbers (Feb 28):** 302 headliners (203 with video = 67.2%), 119 openers (84 with video = 70.6%). Tonight's run writes the first role-aware accuracy_history entry.
+
+**Backward compatible:** Older history entries show "—" in role columns.
+
+### Architectural Note
+
+`verify_videos.py` is approaching a complexity threshold at ~1000 lines. It currently handles verification, reporting, CSV generation, GitHub Issues, email delivery, and Sheets writing. All in one script. This works today but each new feature (like the role split) touches more surface area than it should. When we add the next major feature, consider splitting into:
+- `verify_videos.py` — verification logic only
+- `build_report.py` — report generation (issue body, CSV, accuracy history)
+- `report_delivery.py` — already exists for email/Sheets
+
+Not urgent — the code is solid and the patterns are consistent. Just a note for when the next big change comes.
+
 ### Next Steps
-- Monitor tonight's nightly run (3:30 AM ET) — 94 cleared artists should get fresh searches
-- Check that email arrives and Sheets populate from the nightly run
+- Monitor tonight's nightly run (3:30 AM ET) — 94 cleared artists should get fresh searches + first role-aware report
+- Check that email arrives and Sheets populate with new Role column
 - Verify first automated weekly report + QC report Monday Mar 2
 - Continue adding venues (Central + West Coast — timing now supports them)
 - Video duration check (parked, zero extra API cost)

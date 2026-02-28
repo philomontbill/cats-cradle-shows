@@ -428,11 +428,17 @@ def save_accuracy_history(history):
 def compute_inventory(states, all_shows_data):
     """Count verified/rejected/no-preview per venue across all shows.
 
+    Counts both headliners and openers, with per-role breakdowns.
+
     Returns (totals_dict, venue_dict) where:
-      totals = {"verified": N, "rejected": N, "no_preview": N, "override": N, "total": N}
+      totals = {"verified": N, "rejected": N, "no_preview": N, "override": N, "total": N,
+                "headliner_verified": N, "headliner_total": N,
+                "opener_verified": N, "opener_total": N}
       venues = {"Venue Name": {"with_video": N, "total": N}, ...}
     """
-    totals = {"verified": 0, "rejected": 0, "no_preview": 0, "override": 0, "total": 0}
+    totals = {"verified": 0, "rejected": 0, "no_preview": 0, "override": 0, "total": 0,
+              "headliner_verified": 0, "headliner_total": 0,
+              "opener_verified": 0, "opener_total": 0}
     venues = {}
 
     for filepath, data in all_shows_data:
@@ -440,29 +446,37 @@ def compute_inventory(states, all_shows_data):
         for show in shows:
             if not isinstance(show, dict):
                 continue
-            artist = show.get("artist", "")
-            if not artist:
-                continue
-            venue = show.get("venue", "Unknown")
-            yt_id = show.get("youtube_id")
 
+            venue = show.get("venue", "Unknown")
             if venue not in venues:
                 venues[venue] = {"with_video": 0, "total": 0}
-            venues[venue]["total"] += 1
-            totals["total"] += 1
 
-            if yt_id:
-                venues[venue]["with_video"] += 1
-                totals["verified"] += 1
-            else:
-                state = states.get(artist, {})
-                status = state.get("status", "")
-                if status == "rejected":
-                    totals["rejected"] += 1
-                elif status == "override_null":
-                    totals["override"] += 1
+            for role, name_key, id_key in [
+                ("headliner", "artist", "youtube_id"),
+                ("opener", "opener", "opener_youtube_id"),
+            ]:
+                artist = show.get(name_key, "")
+                if not artist:
+                    continue
+                yt_id = show.get(id_key)
+
+                venues[venue]["total"] += 1
+                totals["total"] += 1
+                totals[f"{role}_total"] += 1
+
+                if yt_id:
+                    venues[venue]["with_video"] += 1
+                    totals["verified"] += 1
+                    totals[f"{role}_verified"] += 1
                 else:
-                    totals["no_preview"] += 1
+                    state = states.get(artist, {})
+                    status = state.get("status", "")
+                    if status == "rejected":
+                        totals["rejected"] += 1
+                    elif status == "override_null":
+                        totals["override"] += 1
+                    else:
+                        totals["no_preview"] += 1
 
     return totals, venues
 
@@ -608,6 +622,19 @@ def build_issue_body(tonight, states, all_shows_data, old_states,
             f"| {avg_7_conf or '—'} |"
         )
         lines.append(f"| Overrides | {override_count} | | |")
+        # Role accuracy breakdown
+        hl_total = totals.get("headliner_total", 0)
+        hl_verified = totals.get("headliner_verified", 0)
+        op_total = totals.get("opener_total", 0)
+        op_verified = totals.get("opener_verified", 0)
+        hl_pct = f"{round(hl_verified / hl_total * 100, 1)}%" if hl_total else "—"
+        op_pct = f"{round(op_verified / op_total * 100, 1)}%" if op_total else "—"
+        lines.append(
+            f"| **Headliner** | **{hl_pct}** ({hl_verified}/{hl_total}) | | |"
+        )
+        lines.append(
+            f"| **Opener** | **{op_pct}** ({op_verified}/{op_total}) | | |"
+        )
     else:
         lines.append("No audit data available yet.")
     lines.append("")
@@ -629,7 +656,7 @@ def build_csv(tonight, states, all_shows_data, old_states,
 
     output = io.StringIO()
     writer = csv.writer(output)
-    writer.writerow(["Section", "Artist", "Venue", "Date", "Video URL",
+    writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
                      "Spotify Match", "Spotify Popularity", "Detail",
                      "Changed"])
 
@@ -639,7 +666,8 @@ def build_csv(tonight, states, all_shows_data, old_states,
         sp_match = entry.get("match_confidence", "")
         sp_pop = entry.get("popularity", "")
         changed = "Recovered" if v["artist"] in recovered_artists else "New"
-        writer.writerow(["Verified", v["artist"], v["venue"], v["date"], url,
+        writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
+                         v["venue"], v["date"], url,
                          sp_match, sp_pop, v["confidence"], changed])
 
     for r in tonight["rejected"]:
@@ -648,20 +676,27 @@ def build_csv(tonight, states, all_shows_data, old_states,
         entry = spotify_cache.get(r["artist"], {})
         sp_match = entry.get("match_confidence", "")
         sp_pop = entry.get("popularity", "")
-        writer.writerow(["Rejected", r["artist"], r["venue"], r["date"], url,
+        writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
+                         r["venue"], r["date"], url,
                          sp_match, sp_pop, reason_str, "New"])
 
-    # No preview queue
+    # No preview queue — check both headliners and openers
     for filepath, data in all_shows_data:
         shows = data.get("shows", data) if isinstance(data, dict) else data
         for show in shows:
             if not isinstance(show, dict):
                 continue
-            artist = show.get("artist", "")
-            yt_id = show.get("youtube_id")
-            if not yt_id and artist:
-                venue = show.get("venue", "Unknown")
-                date = show.get("date", "TBD")
+            venue = show.get("venue", "Unknown")
+            date = show.get("date", "TBD")
+
+            for role, name_key, id_key in [
+                ("headliner", "artist", "youtube_id"),
+                ("opener", "opener", "opener_youtube_id"),
+            ]:
+                artist = show.get(name_key, "")
+                yt_id = show.get(id_key)
+                if not artist or yt_id:
+                    continue
                 state = states.get(artist, {})
                 state_status = state.get("status", "")
                 if state_status == "rejected":
@@ -675,7 +710,7 @@ def build_csv(tonight, states, all_shows_data, old_states,
                 entry = spotify_cache.get(artist, {})
                 sp_match = entry.get("match_confidence", "")
                 sp_pop = entry.get("popularity", "")
-                writer.writerow(["No Preview", artist, venue, date, "",
+                writer.writerow(["No Preview", artist, role, venue, date, "",
                                  sp_match, sp_pop, status, ""])
 
     return output.getvalue()
@@ -890,6 +925,7 @@ def main():
                         "date": date,
                         "video_id": video_id,
                         "confidence": conf_str,
+                        "role": role,
                     })
                     print(f"    ✓ Verified ({conf_str})")
                 else:
@@ -907,6 +943,7 @@ def main():
                         "date": date,
                         "video_id": video_id,
                         "reasons": reasons,
+                        "role": role,
                     })
                     # Null out the rejected video in show data
                     if not args.dry_run:
@@ -955,6 +992,14 @@ def main():
         audit = load_latest_audit()
         totals, _ = compute_inventory(states, all_shows_data)
         history = load_accuracy_history()
+        # Compute per-role accuracy from inventory counts
+        hl_total = totals["headliner_total"]
+        hl_verified = totals["headliner_verified"]
+        op_total = totals["opener_total"]
+        op_verified = totals["opener_verified"]
+        hl_accuracy = round(hl_verified / hl_total * 100, 1) if hl_total > 0 else 0
+        op_accuracy = round(op_verified / op_total * 100, 1) if op_total > 0 else 0
+
         entry = {
             "date": datetime.now().strftime("%Y-%m-%d"),
             "total_shows": totals["total"],
@@ -962,6 +1007,12 @@ def main():
             "rejected": totals["rejected"],
             "no_preview": totals["no_preview"],
             "overrides": totals["override"],
+            "headliner_verified": hl_verified,
+            "headliner_total": hl_total,
+            "headliner_accuracy": hl_accuracy,
+            "opener_verified": op_verified,
+            "opener_total": op_total,
+            "opener_accuracy": op_accuracy,
         }
         if audit:
             entry["accuracy_rate"] = audit.get("accuracy_rate", 0)

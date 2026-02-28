@@ -107,15 +107,19 @@ def build_report(days=7):
 
     lines.append("## Accuracy Trend")
     if week_entries:
-        lines.append("| Date | Accuracy | Avg Confidence | Verified | Rejected | No Preview | Total |")
-        lines.append("|------|----------|---------------|----------|----------|------------|-------|")
+        lines.append("| Date | Accuracy | Headliner | Opener | Avg Confidence | Verified | Rejected | Total |")
+        lines.append("|------|----------|-----------|--------|---------------|----------|----------|-------|")
         for e in week_entries:
+            hl_acc = e.get("headliner_accuracy", "—")
+            op_acc = e.get("opener_accuracy", "—")
+            hl_str = f"{hl_acc}%" if hl_acc != "—" else "—"
+            op_str = f"{op_acc}%" if op_acc != "—" else "—"
             lines.append(
                 f"| {e['date']} | {e.get('accuracy_rate', '—')}% "
+                f"| {hl_str} | {op_str} "
                 f"| {e.get('avg_confidence', '—')} "
                 f"| {e.get('verified', '—')} "
                 f"| {e.get('rejected', '—')} "
-                f"| {e.get('no_preview', '—')} "
                 f"| {e.get('total_shows', '—')} |"
             )
 
@@ -136,9 +140,22 @@ def build_report(days=7):
             rej_end = last.get("rejected", 0)
             rej_delta = rej_end - rej_start
 
+            # Role deltas (graceful for older entries without role data)
+            hl_start = first.get("headliner_accuracy", 0) or 0
+            hl_end = last.get("headliner_accuracy", 0) or 0
+            op_start = first.get("opener_accuracy", 0) or 0
+            op_end = last.get("opener_accuracy", 0) or 0
+
             lines.append("")
-            lines.append(f"**Week delta:** Accuracy {sign}{acc_delta:.1f}% "
-                         f"| Verified {ver_delta:+d} | Rejected {rej_delta:+d}")
+            delta_parts = [f"Accuracy {sign}{acc_delta:.1f}%"]
+            if hl_end:
+                hl_sign = "+" if (hl_end - hl_start) >= 0 else ""
+                delta_parts.append(f"Headliner {hl_sign}{hl_end - hl_start:.1f}%")
+            if op_end:
+                op_sign = "+" if (op_end - op_start) >= 0 else ""
+                delta_parts.append(f"Opener {op_sign}{op_end - op_start:.1f}%")
+            delta_parts.extend([f"Verified {ver_delta:+d}", f"Rejected {rej_delta:+d}"])
+            lines.append(f"**Week delta:** {' | '.join(delta_parts)}")
     else:
         lines.append("No accuracy data for this period.")
     lines.append("")
@@ -295,6 +312,8 @@ def deliver_qc_report(report_text, days):
         row = [
             date_label,
             last.get("accuracy_rate", ""),
+            last.get("headliner_accuracy", ""),
+            last.get("opener_accuracy", ""),
             last.get("avg_confidence", ""),
             last.get("verified", ""),
             last.get("rejected", ""),
