@@ -1469,8 +1469,16 @@ Moved nightly scrape from 11 PM ET to **3:30 AM ET** (8:30 AM UTC) to accommodat
 ### HTML Phone Report — Deferred
 Discussed whether to build a separate phone-friendly HTML summary page. Decided the existing HTML email delivery is sufficient — it already pushes to the inbox and is mobile-readable. No additional work needed.
 
+### Rejection Retry Eliminated
+Removed the 7-day rejection retry window. Rejected artists are now permanently skipped — no automatic re-search. Rationale: artists without videos today are unlikely to have them in 7 days. The daily reports already show which artists have no video, so we monitor manually and only re-check when we have reason to (improved search logic, new venue patterns, etc.).
+
+Also cleared 94 "could not fetch video metadata" entries from `video_states.json` — these were caused by API quota exhaustion, not real quality issues. 25 legitimate rejections remain. The 94 cleared artists will be re-searched on tonight's run with the fixed scrapers and separate verifier API key.
+
+### Reminders
+- **Mar 14, 2026** — Manual re-check: run a full scrape and compare results against current rejected list. Did any previously-rejected artists gain videos? This determines whether automatic re-checking has value and whether we should add it back.
+
 ### Next Steps
-- Monitor tonight's nightly run (3:30 AM ET) — first with report delivery + quota fix live
+- Monitor tonight's nightly run (3:30 AM ET) — 94 cleared artists should get fresh searches
 - Check that email arrives and Sheets populate from the nightly run
 - Verify first automated weekly report + QC report Monday Mar 2
 - Continue adding venues (Central + West Coast — timing now supports them)
