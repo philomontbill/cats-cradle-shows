@@ -419,14 +419,14 @@ class BaseScraper:
         return scores
 
     def _load_video_states(self):
-        """Load recent rejections from qa/video_states.json.
+        """Load all rejections from qa/video_states.json.
 
-        Returns a dict of artist_name -> rejected_date for artists rejected
-        in the last 7 days. These should not be re-searched.
+        Returns a dict of artist_name -> rejected_date for all rejected artists.
+        Rejected artists are permanently skipped — no automatic re-search.
+        Daily reports surface missing videos for manual review.
         """
-        recent_rejections = {}
+        rejections = {}
         states_path = os.path.join(_PROJECT_ROOT, "qa", "video_states.json")
-        cutoff = datetime.now() - timedelta(days=7)
         try:
             with open(states_path) as f:
                 states = json.load(f)
@@ -435,16 +435,10 @@ class BaseScraper:
                     continue
                 if state.get("status") != "rejected":
                     continue
-                rejected_date = state.get("rejected_date", "")
-                try:
-                    dt = datetime.fromisoformat(rejected_date)
-                    if dt.replace(tzinfo=None) > cutoff:
-                        recent_rejections[artist] = rejected_date
-                except (ValueError, TypeError):
-                    pass
+                rejections[artist] = state.get("rejected_date", "")
         except (FileNotFoundError, json.JSONDecodeError):
             pass
-        return recent_rejections
+        return rejections
 
     def _should_search(self, artist_name, existing_matches, audit_scores,
                        recent_rejections=None):
@@ -455,9 +449,9 @@ class BaseScraper:
         if not artist_name:
             return False, None, "no artist name"
 
-        # Skip artists rejected by the verifier in the last 7 days
+        # Skip artists rejected by the verifier — no automatic re-search
         if recent_rejections and artist_name in recent_rejections:
-            return False, None, "recently rejected by verifier (skipping 7 days)"
+            return False, None, "rejected by verifier (permanent skip)"
 
         # Always search if no existing match
         if artist_name not in existing_matches:
