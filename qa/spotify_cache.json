@@ -6991,5 +6991,104 @@
     "enriched_date": "2026-02-28T16:22:21.409490+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "Crystal Spiders and Insomniac": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-01T08:59:44.508549+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Danny Brown": {
+    "spotify_id": "7aA592KWirLsnfb5ulGWvU",
+    "spotify_name": "Danny Brown",
+    "popularity": 60,
+    "followers": 927528,
+    "genres": [
+      "experimental hip hop",
+      "alternative hip hop"
+    ],
+    "enriched_date": "2026-03-01T08:59:44.911223+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.06
+  },
+  "Eva Slongo Violin Workshop": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-01T08:59:45.330400+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Evil Eye": {
+    "spotify_id": "2yFfnfKVCXj3tiu34dV2hW",
+    "spotify_name": "Evil Eye",
+    "popularity": 0,
+    "followers": 230,
+    "genres": [
+      "stoner rock",
+      "stoner metal",
+      "space rock",
+      "sludge metal"
+    ],
+    "enriched_date": "2026-03-01T08:59:45.773948+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.0
+  },
+  "Future Footwerk Dance Party": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-01T08:59:46.178609+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Gouge Away": {
+    "spotify_id": "1Gi5tHYi0ptGG0G3tX9PkU",
+    "spotify_name": "Gouge Away",
+    "popularity": 28,
+    "followers": 59421,
+    "genres": [
+      "hardcore punk",
+      "hardcore",
+      "noise rock",
+      "queercore",
+      "riot grrrl"
+    ],
+    "enriched_date": "2026-03-01T08:59:46.565780+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.028
+  },
+  "RARE OF BREED": {
+    "spotify_id": "3GdRdoJomMK2f8xGjEZbHH",
+    "spotify_name": "Rare of Breed",
+    "popularity": 47,
+    "followers": 146482,
+    "genres": [
+      "christian hip hop",
+      "country christian",
+      "country hip hop",
+      "christian"
+    ],
+    "enriched_date": "2026-03-01T08:59:46.944077+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.047
+  },
+  "Sam Farthing & Jimmy Grant Guitar Workshop": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-01T08:59:47.350936+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Wednesday": {
+    "spotify_id": "4j7DrazfBZLLD0OrVoAtEe",
+    "spotify_name": "Wednesday",
+    "popularity": 53,
+    "followers": 149309,
+    "genres": [
+      "alt country"
+    ],
+    "enriched_date": "2026-03-01T08:59:47.744183+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.053
   }
 }

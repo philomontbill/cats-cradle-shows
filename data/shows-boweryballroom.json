@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "Logan Michael",
-      "date": "Sat, Feb 28",
+      "date": "Sun, Feb 28",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -15,11 +15,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "esE-hNF1lYU"
+      "youtube_id": "esE-hNF1lYU",
+      "expired": true
     },
     {
       "artist": "The Rikkies & SUM SUN w/ So Impartial",
-      "date": "Sat, Feb 28",
+      "date": "Sun, Feb 28",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,11 +28,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
-      "youtube_id": null
+      "youtube_id": null,
+      "expired": true
     },
     {
       "artist": "The Ruckus",
-      "date": "Sat, Feb 28",
+      "date": "Sun, Feb 28",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -39,7 +41,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": "Ns3Ggwn8gjQ"
+      "youtube_id": "Ns3Ggwn8gjQ",
+      "expired": true
     },
     {
       "artist": "Freddie McClendon",
@@ -243,7 +246,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/ac3/e8b2a963-5c88-4123-8b2c-55b0ecd0eac3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy/",
-      "youtube_id": "A85xNCC2Wvc"
+      "youtube_id": "LFV-p4zCz5Y"
     },
     {
       "artist": "Surfing For Daisy",
@@ -255,7 +258,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/33f/2fbb1745-d233-412d-bf05-19b2213a633f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy-2/",
-      "youtube_id": "A85xNCC2Wvc"
+      "youtube_id": "LFV-p4zCz5Y"
     },
     {
       "artist": "True Jackson, Charlie Jacoby, Jennys Setlist",
@@ -306,8 +309,8 @@
       "youtube_id": "eNJ5Pr-mClg"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 21,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:21:28.440704"
+  "total_shows": 22,
+  "shows_with_video": 18,
+  "shows_with_image": 22,
+  "last_updated": "2026-03-01T08:59:09.711666"
 }

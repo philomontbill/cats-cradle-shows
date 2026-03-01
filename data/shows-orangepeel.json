@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Dexter and the Moonrocks",
-      "date": "Sat, Feb 28",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Fox N' Vead",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Dexter_1041691762544673.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/51991372/dexter-and-the-moonrocks-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "t3yQfuZaQJg",
-      "opener_youtube_id": "-KL3ffgEeCM"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Aly & AJ",
       "date": "Sun, Mar 01",
       "doors": "7 pm",
@@ -265,7 +252,7 @@
       "image": "https://theorangepeel.net/wp-content/uploads/2026/01/lee-fields-monophonics.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/36225987/lee-fields-monophonics-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "BqH6SycMMdI"
+      "youtube_id": "0izlYypNyu0"
     },
     {
       "venue": "The Orange Peel",
@@ -273,16 +260,29 @@
       "date": "Fri, Apr 03",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Black Joe Lewis, Pi\u00f1ata Protest",
+      "opener": "Black Joe Lewis, Piñata Protest",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": "H96XcNWKZVg",
       "opener_youtube_id": "XGgw2bhxznQ"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Wednesday",
+      "date": "Sat, Apr 04",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Gouge Away",
+      "image": "https://theorangepeel.net/wp-content/uploads/2025/09/etix-Wednesday_1038071758215679.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/71192527/wednesday-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": "Sold Out",
+      "youtube_id": "qGNRGk5TOLE",
+      "opener_youtube_id": "kWDcqjcvwbA"
     }
   ],
   "total_shows": 22,
   "shows_with_video": 22,
   "shows_with_image": 22,
-  "last_updated": "2026-02-28T16:22:19.451735"
+  "last_updated": "2026-03-01T08:59:43.616553"
 }

@@ -15,7 +15,8 @@
       "showtime": "8 pm",
       "image": "https://i.ticketweb.com/i/00/13/33/39/73_Original.jpg?v=3",
       "ticket_url": "https://www.ticketweb.com/event/nirvani-a-nirvana-tribute-experience-elevation-27-tickets/14720533?REFID=clientsitewp",
-      "youtube_id": "c9lp2mb3rXI"
+      "youtube_id": "c9lp2mb3rXI",
+      "expired": true
     },
     {
       "artist": "Austin Meade and Goodbye June",
@@ -166,7 +167,7 @@
       "youtube_id": "yi0ho-hTG-U"
     },
     {
-      "artist": "It’s A 2000’s Party by Slacker University (Ages 18 & Up)",
+      "artist": "It\u2019s A 2000\u2019s Party by Slacker University (Ages 18 & Up)",
       "date": "Fri, Mar 27",
       "venue": "Elevation 27",
       "opener": null,
@@ -252,7 +253,7 @@
       "youtube_id": "BEIm0KQuVMk"
     },
     {
-      "artist": "Old 97’s",
+      "artist": "Old 97\u2019s",
       "date": "Thu, Apr 09",
       "venue": "Elevation 27",
       "opener": null,
@@ -300,7 +301,7 @@
       "youtube_id": null
     },
     {
-      "artist": "Daniel Donato’s Cosmic Country",
+      "artist": "Daniel Donato\u2019s Cosmic Country",
       "date": "Sat, Apr 18",
       "venue": "Elevation 27",
       "opener": null,
@@ -312,8 +313,8 @@
       "youtube_id": "IxI7GsyHyDs"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 19,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:56.951794"
+  "total_shows": 24,
+  "shows_with_video": 18,
+  "shows_with_image": 24,
+  "last_updated": "2026-03-01T08:57:56.238338"
 }

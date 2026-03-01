@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "A Beacon School / le Lotus",
-      "date": "Sat, Feb 28",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-A_1298521768150556.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/71230565/a-beacon-school-le-lotus-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "8yGDEpMCB3U"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "The Faux Paws / Eleanor Buckland",
       "date": "Sun, Mar 01",
       "doors": "6:30 pm",
@@ -238,7 +227,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/64648751/cor-de-lux-optic-sink-hex-files-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "nLk9zyLBfCc"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Future Footwerk Dance Party",
+      "date": "Sat, Mar 28",
+      "doors": "10 pm",
+      "showtime": "10:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/future-footwerk-dance-party.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/76084626/future-footwerk-dance-party-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 21,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:33.305261"
+  "last_updated": "2026-03-01T08:57:38.929733"
 }

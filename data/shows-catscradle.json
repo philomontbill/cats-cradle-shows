@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
-      "date": "Sat, Feb 28",
-      "venue": "Cat's Cradle",
-      "opener": "special guest Bobcat Goldthwait",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Michael_1934951757951928.jpg",
-      "event_url": "https://catscradle.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "YfO1MVkPRp8",
-      "opener_youtube_id": "kAlbzm-Ppbw"
-    },
-    {
-      "artist": "Nep",
-      "date": "Sat, Feb 28",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "briZB",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nep_2027011762682847.jpg",
-      "event_url": "https://catscradle.com/event/nep/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "KRIIc-tqDAE",
-      "opener_youtube_id": "1Qn8mLzvqMw"
-    },
-    {
       "artist": "Al Olender",
       "date": "Tue, Mar 03",
       "venue": "Cat's Cradle Back Room",
@@ -123,7 +97,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire \u2013 Universal Language Tour",
+      "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -322,10 +296,34 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
       "event_url": "https://catscradle.com/event/voyage-hot-club-ft-sam-farthing-paulus-schaefer/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": null
+    },
+    {
+      "artist": "Eva Slongo Violin Workshop",
+      "date": "Sat, Mar 21",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "10:30 am",
+      "showtime": "11 am",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
+      "event_url": "https://catscradle.com/event/eva-slongo-violin-workshop/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "JI01aMRcAtM"
+    },
+    {
+      "artist": "Sam Farthing & Jimmy Grant Guitar Workshop",
+      "date": "Sat, Mar 21",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "1 pm",
+      "showtime": "1:30 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
+      "event_url": "https://catscradle.com/event/sam-farthing-jimmy-grant-guitar-workshop/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:19.268711"
+  "last_updated": "2026-03-01T08:57:26.697917"
 }

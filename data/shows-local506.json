@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Early Exit",
-      "date": "Sat, Feb 28",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "FoundiT and ColorMeKrazy!",
-      "image": "https://local506.com/wp-content/uploads/2026/01/early-exit-with-foundit-and-colormekrazy.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/89298582/early-exit-with-foundit-and-colormekrazy-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "rnrL2bbTSUI",
-      "opener_youtube_id": "NrffhgNVUGA"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Wasted Life",
       "date": "Tue, Mar 03",
       "doors": "6:30 pm",
@@ -323,10 +310,23 @@
       "notice": null,
       "youtube_id": "LbYxP11rbSM",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Crystal Spiders and Insomniac",
+      "date": "Wed, Apr 15",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Evil Eye",
+      "image": "https://local506.com/wp-content/uploads/2026/02/crystal-spiders-and-insomniac-with-evil-eye.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/97044463/crystal-spiders-and-insomniac-with-evil-eye-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": "IIR5vBiC3ig"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:27.911957"
+  "last_updated": "2026-03-01T08:57:33.718437"
 }

@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Sat, Feb 28",
-      "artist": "Jed Harrelson",
-      "opener": "Carson Mac",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/jed-harrelson",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/022826-1-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "XNOJnGb-3V4",
-      "opener_youtube_id": "8zxEuoVlaN0"
-    },
-    {
-      "venue": "Kings",
       "date": "Sun, Mar 1",
       "artist": "Matt OX",
       "opener": "Evlo, Justo, Preme, Spg, Choco",
@@ -34,7 +21,7 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 3",
-      "artist": "Braden Bales \u2013 \u2018The FML\u2019 Tour",
+      "artist": "Braden Bales – ‘The FML’ Tour",
       "opener": "Ezra",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/braden-bales-the-fml-tour",
@@ -119,7 +106,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
+      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -132,7 +119,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -206,7 +193,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
+      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -243,7 +230,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream \u2013 EP Release Show",
+      "artist": "Psychic Scream – EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -256,7 +243,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
@@ -269,7 +256,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
@@ -300,7 +287,7 @@
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/lalalala-150x150.jpeg",
       "notice": null,
       "doors": null,
-      "youtube_id": null,
+      "youtube_id": "UiFKFo6nmAI",
       "opener_youtube_id": "JgHMGvq14eA"
     },
     {
@@ -315,10 +302,23 @@
       "doors": null,
       "youtube_id": "n2S-3h_Pocw",
       "opener_youtube_id": "xv5kfOZ8VyA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Apr 3",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "opener": "Paul Siler",
+      "showtime": "7:15pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": "_JkUpouxAzk"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:40.959907"
+  "last_updated": "2026-03-01T08:57:48.036813"
 }

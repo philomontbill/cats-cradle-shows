@@ -142,7 +142,8 @@
       "image": null,
       "ticket_url": "https://dice.fm/event/mxldol",
       "youtube_id": "o_tUi4U1pG4",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Eggy",
@@ -288,8 +289,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 12,
-  "shows_with_video": 12,
+  "total_shows": 11,
+  "shows_with_video": 11,
   "shows_with_image": 0,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

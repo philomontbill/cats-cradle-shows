@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "JOSH LEVI",
-      "date": "Sat, Feb 28",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/77c/52b07ffb-b7c5-4c68-92cd-6c321773577c_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/josh-levi-the-hydraulic-tour-18-charlotte-north-carolina-02-28-2026/event/2D006383BDEC6889",
-      "youtube_id": "KQTDkKgffnY"
-    },
-    {
       "artist": "Doc 103",
       "date": "Sun, Mar 01",
       "venue": "Neighborhood Theatre",
@@ -295,10 +283,22 @@
       "image": "https://s1.ticketm.net/dam/e/9b2/7e74fc21-dc64-40ae-a0c5-1565450679b2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/emo-night-brooklyn-18-charlotte-north-carolina-04-11-2026/event/2D0064522286728D",
       "youtube_id": "4Sr869eJbm0"
+    },
+    {
+      "artist": "RARE OF BREED",
+      "date": "Sun, Apr 12",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/096/cc137bd7-51ba-4d30-bd6f-70b1d6d74096_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/rare-of-breed-the-restoration-tour-charlotte-north-carolina-04-12-2026/event/2D00643D9ADEC820",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 24,
+  "shows_with_video": 22,
   "shows_with_image": 24,
-  "last_updated": "2026-02-28T16:22:03.149205"
+  "last_updated": "2026-03-01T08:59:39.530537"
 }

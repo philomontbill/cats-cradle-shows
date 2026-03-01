@@ -16,7 +16,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
       "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
       "youtube_id": "87l-84irDlo",
-      "opener_youtube_id": "BEildxKZrMs"
+      "opener_youtube_id": "BEildxKZrMs",
+      "expired": true
     },
     {
       "artist": "RIP MTV",
@@ -29,7 +30,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "The Summer Set",
@@ -328,8 +330,8 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 19,
-  "shows_with_image": 25,
-  "last_updated": "2026-02-28T16:19:51.738941"
+  "total_shows": 23,
+  "shows_with_video": 13,
+  "shows_with_image": 23,
+  "last_updated": "2026-03-01T08:57:51.802426"
 }
