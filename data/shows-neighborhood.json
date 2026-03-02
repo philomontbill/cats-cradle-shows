@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Doc 103",
-      "date": "Sun, Mar 01",
-      "venue": "Neighborhood Theatre",
-      "opener": "Jack Lawrence & Friends ft. Peter Rowan, Graham Sharp & more",
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/932/9f3f5395-d727-4024-acef-cfddfff61932_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/doc-103-celebrating-doc-watson-ft-charlotte-north-carolina-03-01-2026/event/2D00637323EBB646",
-      "youtube_id": "kh7l845u11I",
-      "opener_youtube_id": null
-    },
-    {
       "artist": "Haffway",
       "date": "Tue, Mar 03",
       "venue": "Neighborhood Theatre",
@@ -295,10 +282,22 @@
       "image": "https://s1.ticketm.net/dam/e/096/cc137bd7-51ba-4d30-bd6f-70b1d6d74096_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/rare-of-breed-the-restoration-tour-charlotte-north-carolina-04-12-2026/event/2D00643D9ADEC820",
       "youtube_id": null
+    },
+    {
+      "artist": "THE BAND OF HEATHENS",
+      "date": "Thu, Apr 16",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/002/99f4e7bd-5a31-4278-849b-5b0102960002_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/the-band-of-heathens-country-sides-charlotte-north-carolina-04-16-2026/event/2D006374A660AF7E",
+      "youtube_id": "75X4bWf5fIs"
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-01T08:59:39.530537"
+  "last_updated": "2026-03-02T09:13:55.811592"
 }

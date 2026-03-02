@@ -7090,5 +7090,116 @@
     "enriched_date": "2026-03-01T08:59:47.744183+00:00",
     "match_confidence": "exact",
     "match_score": 1.053
+  },
+  "American Aquarium": {
+    "spotify_id": "7nSYcucRT6IGiMepEmiZgT",
+    "spotify_name": "American Aquarium",
+    "popularity": 39,
+    "followers": 78226,
+    "genres": [
+      "red dirt",
+      "alt country",
+      "texas country",
+      "americana"
+    ],
+    "enriched_date": "2026-03-02T09:14:00.920060+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "Chasing Abbey": {
+    "spotify_id": "6toMXnM9tcozz7OmgxWtZg",
+    "spotify_name": "Chasing Abbey",
+    "popularity": 45,
+    "followers": 85738,
+    "genres": [],
+    "enriched_date": "2026-03-02T09:14:01.265403+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.045
+  },
+  "Conjunto Breve / Africa Unplugged": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-02T09:14:01.680064+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Glitterer": {
+    "spotify_id": "2bTjArGDYivNxnYFH5jUcj",
+    "spotify_name": "Glitterer",
+    "popularity": 37,
+    "followers": 43965,
+    "genres": [
+      "shoegaze"
+    ],
+    "enriched_date": "2026-03-02T09:14:02.168717+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.037
+  },
+  "Juvenile\u2019s Boiling Point Album Release Tour": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-02T09:14:02.561912+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Noah Pope, Renny Conti, James Eichman": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-02T09:14:02.926742+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Radium Dolls": {
+    "spotify_id": "5XdOr2J2sgTI4mEE6j9KYr",
+    "spotify_name": "Radium Dolls",
+    "popularity": 42,
+    "followers": 16054,
+    "genres": [],
+    "enriched_date": "2026-03-02T09:14:03.338089+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.042
+  },
+  "SXSW: The Billboard House": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-02T09:14:03.785002+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "THE BAND OF HEATHENS": {
+    "spotify_id": "5K4gVy6DhNd39mSjuK95Y7",
+    "spotify_name": "The Band Of Heathens",
+    "popularity": 49,
+    "followers": 149809,
+    "genres": [
+      "red dirt",
+      "texas country",
+      "alt country",
+      "americana",
+      "outlaw country",
+      "southern rock"
+    ],
+    "enriched_date": "2026-03-02T09:14:04.339656+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.049
+  },
+  "The 400 Degreez Band & Special Guests": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-02T09:14:04.796020+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Yo Guys": {
+    "spotify_id": "311zzsEvmZnEKligD6uVm5",
+    "spotify_name": "Yo Guys",
+    "popularity": 0,
+    "followers": 168,
+    "genres": [
+      "power pop"
+    ],
+    "enriched_date": "2026-03-02T09:14:05.231360+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.0
   }
 }

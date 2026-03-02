@@ -6,34 +6,6 @@
   },
   "shows": [
     {
-      "artist": "SZN4",
-      "date": "Sat, Feb 28",
-      "venue": "Mohawk Outdoor",
-      "opener": "Grace Womack",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648654022549",
-      "ticket_url": "https://www.etix.com/ticket/p/94188736/szn4-next-stopthe-tour-austin-resound-presents",
-      "youtube_id": "87l-84irDlo",
-      "opener_youtube_id": "BEildxKZrMs",
-      "expired": true
-    },
-    {
-      "artist": "RIP MTV",
-      "date": "Sat, Feb 28",
-      "venue": "Mohawk Indoor",
-      "opener": "Unplugged Sets, TRL photobooth, Throwback Videos",
-      "notice": null,
-      "doors": "8:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648505273044",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648506469354",
-      "youtube_id": null,
-      "opener_youtube_id": null,
-      "expired": true
-    },
-    {
       "artist": "The Summer Set",
       "date": "Mon, Mar 02",
       "venue": "Mohawk Outdoor",
@@ -125,7 +97,7 @@
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
-      "artist": "SXSW: The Billboard Disruptor House",
+      "artist": "SXSW: The Billboard House",
       "date": "Fri, Mar 13",
       "venue": "Mohawk Outdoor",
       "opener": "To Be Announced",
@@ -138,7 +110,7 @@
       "opener_youtube_id": null
     },
     {
-      "artist": "SXSW: The Billboard Disruptor House",
+      "artist": "SXSW: The Billboard House",
       "date": "Sat, Mar 14",
       "venue": "Mohawk Outdoor",
       "opener": "To Be Announced",
@@ -147,7 +119,7 @@
       "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186764",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186800",
-      "youtube_id": null,
+      "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
     },
     {
@@ -328,10 +300,36 @@
       "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
       "youtube_id": "Nm7EPfSeqGs",
       "opener_youtube_id": "Rp6jCtnhCDs"
+    },
+    {
+      "artist": "Touch\u00e9 Amor\u00e9",
+      "date": "Wed, Apr 08",
+      "venue": "Mohawk Outdoor",
+      "opener": "Jeromes Dream, Porcelain",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
+      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
+      "youtube_id": "Ijmhb8is-vc",
+      "opener_youtube_id": "-n20fV-hyg8"
+    },
+    {
+      "artist": "My Life With the Thrill Kill Kult",
+      "date": "Thu, Apr 09",
+      "venue": "Mohawk Outdoor",
+      "opener": "Light Asylum, Die Sexual, DEVORA, Heavy Halo",
+      "notice": null,
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648542460182",
+      "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
+      "youtube_id": "YgaZwOHjTwI",
+      "opener_youtube_id": "WNiKCRUpbqA"
     }
   ],
-  "total_shows": 23,
-  "shows_with_video": 13,
-  "shows_with_image": 23,
-  "last_updated": "2026-03-01T08:57:51.802426"
+  "total_shows": 25,
+  "shows_with_video": 17,
+  "shows_with_image": 25,
+  "last_updated": "2026-03-02T09:12:11.211888"
 }

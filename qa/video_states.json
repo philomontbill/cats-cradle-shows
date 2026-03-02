@@ -1237,12 +1237,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-01T09:00:02.835807",
+    "verified_date": "2026-03-02T09:14:24.030911",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5332569,
+      "view_count": 5333333,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -1923,19 +1923,24 @@
   },
   "Miki Fiki": {
     "status": "verified",
-    "video_id": "5HCZsXqiCBc",
-    "verified_date": "2026-02-23T11:23:25.917862",
-    "confidence": "channel match, 295 views",
+    "video_id": "LIZCRKurJ2I",
+    "verified_date": "2026-03-02T09:14:16.678843",
+    "confidence": "4,333 views",
     "metadata": {
-      "video_title": "Miki Fiki - Paint (Official Video)",
-      "channel_name": "Miki Fiki",
-      "view_count": 295,
-      "published": "2025-11-07T06:00:06Z",
-      "channel_subscribers": 1760,
-      "channel_videos": 153,
+      "video_title": "Miki Fiki - Little Bit | OurVinyl Sessions",
+      "channel_name": "OurVinyl",
+      "view_count": 4333,
+      "published": "2022-02-15T18:00:06Z",
+      "channel_subscribers": 401000,
+      "channel_videos": 1275,
       "is_topic": false,
-      "channel_match": true,
-      "video_age_years": 0.3
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 30 (>=30)",
+      "channel_warning": "channel 'OurVinyl' doesn't match artist",
+      "video_age_years": 4.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 30
     }
   },
   "rum.gold": {
@@ -3868,20 +3873,23 @@
   },
   "Light Asylum, Die Sexual, DEVORA, Heavy Halo": {
     "status": "verified",
-    "video_id": "9Ynrc_1f5vE",
-    "verified_date": "2026-02-23T11:24:21.762362",
-    "confidence": "2,437 views",
+    "video_id": "WNiKCRUpbqA",
+    "verified_date": "2026-03-02T09:14:20.383962",
+    "confidence": "channel match, Topic channel, 613,796 views",
     "metadata": {
-      "video_title": "Light Asylum   Dark Allies OFFICIAL VIDEO",
-      "channel_name": "Gravewave",
-      "view_count": 2437,
-      "published": "2018-05-22T12:08:10Z",
-      "channel_subscribers": 317,
-      "channel_videos": 61,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'Gravewave' doesn't match artist",
-      "video_age_years": 7.8
+      "video_title": "Dark Allies",
+      "channel_name": "Light Asylum - Topic",
+      "view_count": 613796,
+      "published": "2021-03-02T02:10:41Z",
+      "channel_subscribers": 3340,
+      "channel_videos": 14,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 5.0,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
     }
   },
   "Music For The Masses": {
@@ -6307,12 +6315,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-01T08:59:59.196999",
-    "confidence": "channel match, 13,557 views",
+    "verified_date": "2026-03-02T09:14:21.613246",
+    "confidence": "channel match, 13,559 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13557,
+      "view_count": 13559,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -7492,6 +7500,219 @@
       "video_age_years": 2.1,
       "spotify_match": "exact",
       "spotify_popularity": 28
+    }
+  },
+  "Chasing Abbey": {
+    "status": "verified",
+    "video_id": "Y43GhbUyamg",
+    "verified_date": "2026-03-02T09:14:06.707577",
+    "confidence": "channel match, 442,970 views",
+    "metadata": {
+      "video_title": "Chasing Abbey - AR\u00cdS IS AR\u00cdS (Lyric Video)",
+      "channel_name": "Chasing Abbey",
+      "view_count": 442970,
+      "published": "2025-07-22T23:00:37Z",
+      "channel_subscribers": 31100,
+      "channel_videos": 72,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 45 (>=30)",
+      "video_age_years": 0.6,
+      "spotify_match": "exact",
+      "spotify_popularity": 45
+    }
+  },
+  "Glitterer": {
+    "status": "verified",
+    "video_id": "WNygkxYbU6w",
+    "verified_date": "2026-03-02T09:14:07.967068",
+    "confidence": "channel match, Topic channel, 4,979 views",
+    "metadata": {
+      "video_title": "Not Forever",
+      "channel_name": "Glitterer - Topic",
+      "view_count": 4979,
+      "published": "2025-11-10T10:03:28Z",
+      "channel_subscribers": 9,
+      "channel_videos": 67,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.3,
+      "spotify_match": "exact",
+      "spotify_popularity": 37
+    }
+  },
+  "Radium Dolls": {
+    "status": "verified",
+    "video_id": "2gMvWwjlZTA",
+    "verified_date": "2026-03-02T09:14:09.235466",
+    "confidence": "channel match, 7,251 views",
+    "metadata": {
+      "video_title": "Daddy - Radium Dolls (Official Music Video)",
+      "channel_name": "Radium Dolls",
+      "view_count": 7251,
+      "published": "2026-01-19T20:00:06Z",
+      "channel_subscribers": 1430,
+      "channel_videos": 42,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 42 (>=30)",
+      "video_age_years": 0.1,
+      "spotify_match": "exact",
+      "spotify_popularity": 42
+    }
+  },
+  "Noah Pope, Renny Conti, James Eichman": {
+    "status": "verified",
+    "video_id": "b1gx_VtE21A",
+    "verified_date": "2026-03-02T09:14:10.457194",
+    "confidence": "channel match, 1,240 views",
+    "metadata": {
+      "video_title": "Noah Pope - When I'm Blue (Official Music Video)",
+      "channel_name": "Noah Pope",
+      "view_count": 1240,
+      "published": "2023-02-01T03:04:42Z",
+      "channel_subscribers": 91,
+      "channel_videos": 4,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "video_age_years": 3.1,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "American Aquarium": {
+    "status": "verified",
+    "video_id": "_6RRUkzREEE",
+    "verified_date": "2026-03-02T09:14:14.215865",
+    "confidence": "channel match, 109,152 views",
+    "metadata": {
+      "video_title": "American Aquarium - \"The Long Haul\" [Official Video]",
+      "channel_name": "American Aquarium",
+      "view_count": 109152,
+      "published": "2020-03-05T15:33:02Z",
+      "channel_subscribers": 13100,
+      "channel_videos": 54,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "Spotify popularity 39 (>=30)",
+      "video_age_years": 6.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 39
+    }
+  },
+  "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show": {
+    "status": "rejected",
+    "video_id": "VMePxmKXCH0",
+    "rejected_date": "2026-03-02T09:14:15.431225",
+    "reason": "not found on Spotify + channel mismatch",
+    "metadata": {
+      "video_title": "Julie Likes Her Fish to Smell like Fish - JULIA. the Band",
+      "channel_name": "JULIA. The Band",
+      "view_count": 685,
+      "published": "2024-10-29T18:42:05Z",
+      "channel_subscribers": 81,
+      "channel_videos": 6,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "channel_warning": "channel 'JULIA. The Band' doesn't match artist",
+      "video_age_years": 1.3,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "SXSW: The Billboard House": {
+    "status": "verified",
+    "video_id": "u5jeMiqAq8E",
+    "verified_date": "2026-03-02T09:14:19.192904",
+    "confidence": "channel match, 101,411 views",
+    "metadata": {
+      "video_title": "Austra - \"Beat and the Pulse\" | Music 2011 | SXSW",
+      "channel_name": "SXSW",
+      "view_count": 101411,
+      "published": "2011-03-19T19:24:06Z",
+      "channel_subscribers": 362000,
+      "channel_videos": 3344,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "video_age_years": 15.0,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "THE BAND OF HEATHENS": {
+    "status": "verified",
+    "video_id": "75X4bWf5fIs",
+    "verified_date": "2026-03-02T09:14:22.803144",
+    "confidence": "channel match, Topic channel",
+    "metadata": {
+      "video_title": "Hurricane",
+      "channel_name": "The Band of Heathens - Topic",
+      "view_count": 66671027,
+      "published": "2017-03-13T23:28:27Z",
+      "channel_subscribers": 27100,
+      "channel_videos": 253,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 9.0,
+      "spotify_match": "exact",
+      "spotify_popularity": 49
+    }
+  },
+  "The 400 Degreez Band & Special Guests": {
+    "status": "rejected",
+    "video_id": "pKqxgaSHo-Y",
+    "rejected_date": "2026-03-02T09:14:25.268088",
+    "reason": "not found on Spotify + channel mismatch",
+    "metadata": {
+      "video_title": "Juvenile & The 400 Degreez Band 4K St. Pete FLORIDA",
+      "channel_name": "R&B4Life",
+      "view_count": 188,
+      "published": "2024-11-16T06:39:51Z",
+      "channel_subscribers": 5870,
+      "channel_videos": 37,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "channel_warning": "channel 'R&B4Life' doesn't match artist",
+      "video_age_years": 1.3,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
+    }
+  },
+  "Conjunto Breve / Africa Unplugged": {
+    "status": "rejected",
+    "video_id": "y0nmfw176XA",
+    "rejected_date": "2026-03-02T09:14:26.537756",
+    "reason": "not found on Spotify + channel mismatch",
+    "metadata": {
+      "video_title": "Breve Espacio - Conjunto Irresistible",
+      "channel_name": "CONJUNTO IRRESISTIBLE",
+      "view_count": 467,
+      "published": "2016-01-14T00:35:20Z",
+      "channel_subscribers": 3560,
+      "channel_videos": 161,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "view_cap_reason": "default (no trust signals)",
+      "channel_warning": "channel 'CONJUNTO IRRESISTIBLE' doesn't match artist",
+      "video_age_years": 10.1,
+      "spotify_match": "no_match",
+      "spotify_popularity": null
     }
   }
 }

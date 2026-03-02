@@ -6,81 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Logan Michael",
-      "date": "Sun, Feb 28",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/362/2548b955-192b-4de1-9e1e-467ff0893362_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/logan-michael/",
-      "youtube_id": "esE-hNF1lYU",
-      "expired": true
-    },
-    {
-      "artist": "The Rikkies & SUM SUN w/ So Impartial",
-      "date": "Sun, Feb 28",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/af5/52683d92-f0c1-4d6f-942b-9459d8992af5_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-rikkies/",
-      "youtube_id": null,
-      "expired": true
-    },
-    {
-      "artist": "The Ruckus",
-      "date": "Sun, Feb 28",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/625/f64c0973-4d72-4606-b56f-c6bc9bbd4625_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ruckus/",
-      "youtube_id": "Ns3Ggwn8gjQ",
-      "expired": true
-    },
-    {
-      "artist": "Freddie McClendon",
-      "date": "Sun, Mar 01",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "5pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/6e2/2e3c71bf-0d93-477e-8483-8812060916e2_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/freddie-mcclendon/",
-      "youtube_id": "P3poZuMNpbo"
-    },
-    {
-      "artist": "BEAUTY SCHOOL DROPOUT PRESENTS: WHERE DID ALL THE BUTTERFLIES GO?",
-      "date": "Sun, Mar 01",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "7pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/12d/a896c5ad-48e9-4902-9790-cb4c0c51712d_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/beauty-school-dropout-presents-where-did-all-the-butterflies-go/",
-      "youtube_id": "BTTQZtXZBK0"
-    },
-    {
-      "artist": "Harmony Dawn, Meera Dahlmann, Lizzy Campbell, Alex Michelle",
-      "date": "Sun, Mar 01",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/854/2a68ad28-f6b7-4f8d-880a-eecee661d854_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/harmony-dawn-meera-dahlmann-lizzy-campbell-alex-michelle/",
-      "youtube_id": "n3czqWBzwjw"
-    },
-    {
       "artist": "Arianna Chetram, Malik English, lady t",
       "date": "Mon, Mar 02",
       "venue": "Bowery Ballroom",
@@ -307,10 +232,82 @@
       "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
       "youtube_id": "eNJ5Pr-mClg"
+    },
+    {
+      "artist": "Chasing Abbey",
+      "date": "Tue, Mar 10",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-3/",
+      "youtube_id": "Y43GhbUyamg"
+    },
+    {
+      "artist": "Chasing Abbey",
+      "date": "Wed, Mar 11",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey/",
+      "youtube_id": "Y43GhbUyamg"
+    },
+    {
+      "artist": "Glitterer",
+      "date": "Wed, Mar 11",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
+      "youtube_id": "WNygkxYbU6w"
+    },
+    {
+      "artist": "Radium Dolls",
+      "date": "Wed, Mar 11",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/269/426750e0-8481-4cef-bdf5-40169a566269_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/radium-dolls/",
+      "youtube_id": "2gMvWwjlZTA"
+    },
+    {
+      "artist": "Noah Pope, Renny Conti, James Eichman",
+      "date": "Thu, Mar 12",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/noah-pope-flyer.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/renny-conti-noah-pope-james-eichman-solo-acoustic/",
+      "youtube_id": "b1gx_VtE21A"
+    },
+    {
+      "artist": "Yo Guys",
+      "date": "Thu, Mar 12",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/3-12-yo-guys-scaled.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/yo-guys/",
+      "youtube_id": null
     }
   ],
-  "total_shows": 22,
-  "shows_with_video": 18,
-  "shows_with_image": 22,
-  "last_updated": "2026-03-01T08:59:09.711666"
+  "total_shows": 25,
+  "shows_with_video": 20,
+  "shows_with_image": 25,
+  "last_updated": "2026-03-02T09:13:31.389021"
 }

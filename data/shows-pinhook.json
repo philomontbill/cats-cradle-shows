@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "The Faux Paws / Eleanor Buckland",
-      "date": "Sun, Mar 01",
-      "doors": "6:30 pm",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/the-faux-paws.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/81881470/the-faux-paws-eleanor-buckland-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "5ixEhwIxqD8"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Queer Country Night",
       "date": "Tue, Mar 03",
       "doors": "7 pm",
@@ -227,7 +216,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/76084626/future-footwerk-dance-party-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Conjunto Breve / Africa Unplugged",
+      "date": "Sun, Mar 29",
+      "doors": "3:30 pm",
+      "showtime": "4 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/conjunto-breve-africa-unplugged.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/81992746/conjunto-breve-africa-unplugged-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-01T08:57:38.929733"
+  "last_updated": "2026-03-02T09:11:56.341317"
 }

@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Aly & AJ",
-      "date": "Sun, Mar 01",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Hayden Blount",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/12/etix-Aly_1042931764945496.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/91789582/aly-aj-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "LdJps8LBKLE",
-      "opener_youtube_id": "GMlK_e3hinE"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Tab Benoit",
       "date": "Wed, Mar 04",
       "doors": "7 pm",
@@ -260,7 +247,7 @@
       "date": "Fri, Apr 03",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Black Joe Lewis, Piñata Protest",
+      "opener": "Black Joe Lewis, Pi\u00f1ata Protest",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
@@ -279,10 +266,23 @@
       "notice": "Sold Out",
       "youtube_id": "qGNRGk5TOLE",
       "opener_youtube_id": "kWDcqjcvwbA"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Juvenile\u2019s Boiling Point Album Release Tour",
+      "date": "Sun, Apr 05",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "The 400 Degreez Band & Special Guests",
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-Juveniles_1044251768308458.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/35088256/juveniles-boiling-point-album-release-tour-with-the-400-degreez-band-special-guests-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 22,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 22,
-  "last_updated": "2026-03-01T08:59:43.616553"
+  "last_updated": "2026-03-02T09:13:59.923275"
 }
