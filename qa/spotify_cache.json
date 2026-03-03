@@ -7201,5 +7201,43 @@
     "enriched_date": "2026-03-02T09:14:05.231360+00:00",
     "match_confidence": "exact",
     "match_score": 1.0
+  },
+  "Babychiefdo It, The Paradox, Sosocamo, DJ Set From Illykimchi, Oogie Mane, Knox Write, Rickfromtexas, + More!": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-03T09:12:45.389211+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Cailin Russo": {
+    "spotify_id": "2org0PubBAxTvjVvLo9PJ0",
+    "spotify_name": "Cailin Russo",
+    "popularity": 58,
+    "followers": 52599,
+    "genres": [],
+    "enriched_date": "2026-03-03T09:12:45.760697+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.058
+  },
+  "SXSW: Pudgy Rodeo": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-03T09:12:46.167623+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Votive Album Release Show": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-03T09:12:46.538815+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Votive, Shoganai, Clairvoyance, A Letter To Autumn": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-03T09:12:46.912684+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

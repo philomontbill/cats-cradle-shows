@@ -247,7 +247,7 @@
       "date": "Fri, Apr 03",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Black Joe Lewis, Pi\u00f1ata Protest",
+      "opener": "Black Joe Lewis, Piñata Protest",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
@@ -269,7 +269,7 @@
     },
     {
       "venue": "The Orange Peel",
-      "artist": "Juvenile\u2019s Boiling Point Album Release Tour",
+      "artist": "Juvenile’s Boiling Point Album Release Tour",
       "date": "Sun, Apr 05",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -284,5 +284,5 @@
   "total_shows": 22,
   "shows_with_video": 21,
   "shows_with_image": 22,
-  "last_updated": "2026-03-02T09:13:59.923275"
+  "last_updated": "2026-03-03T09:12:44.529751"
 }

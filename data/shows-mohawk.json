@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "The Summer Set",
-      "date": "Mon, Mar 02",
-      "venue": "Mohawk Outdoor",
-      "opener": "Senses, Good Boy Daisy",
-      "notice": null,
-      "doors": "6:00pm",
-      "showtime": "7:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648624143649",
-      "ticket_url": "https://www.etix.com/ticket/p/39723046/the-summer-set-austin-resound-presents",
-      "youtube_id": "8UgIX_uL-zM",
-      "opener_youtube_id": "960AM_-TTZs"
-    },
-    {
       "artist": "Rusty Santos",
       "date": "Thu, Mar 05",
       "venue": "Mohawk Indoor",
@@ -32,19 +19,6 @@
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
-      "artist": "Clover County",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Indoor",
-      "opener": "Ethansroom",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:30pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
-      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
-      "youtube_id": "tNr4SrwNcmc",
-      "opener_youtube_id": "DMbAjG_pK28"
-    },
-    {
       "artist": "Yellow Days",
       "date": "Fri, Mar 06",
       "venue": "Mohawk Outdoor",
@@ -56,6 +30,19 @@
       "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
       "youtube_id": "jpYwsHTLv9o",
       "opener_youtube_id": "Q83W9q34RDs"
+    },
+    {
+      "artist": "Clover County",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Indoor",
+      "opener": "Ethansroom",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:30pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
+      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
+      "youtube_id": "tNr4SrwNcmc",
+      "opener_youtube_id": "DMbAjG_pK28"
     },
     {
       "artist": "HBO QUIZZO: Heated Rivalry",
@@ -106,7 +93,7 @@
       "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485192012",
       "ticket_url": "https://www.billboard.com/music/music-news/don-toliver-juniorh-mau-p-sxsw-billbaord-presents-the-stage-1236133001/",
-      "youtube_id": null,
+      "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
     },
     {
@@ -123,7 +110,7 @@
       "opener_youtube_id": null
     },
     {
-      "artist": "SXSW: The Billboard Disruptor House",
+      "artist": "SXSW: The Billboard House",
       "date": "Sun, Mar 15",
       "venue": "Mohawk Outdoor",
       "opener": "To Be Announced",
@@ -132,7 +119,7 @@
       "showtime": "",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186457",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186496",
-      "youtube_id": null,
+      "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
     },
     {
@@ -146,6 +133,19 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648483887724",
       "ticket_url": "https://www.etix.com/ticket/p/33246312/marshall-day-party-austin-resound-presents",
       "youtube_id": null
+    },
+    {
+      "artist": "SXSW: Pudgy Rodeo",
+      "date": "Mon, Mar 16",
+      "venue": "Mohawk Outdoor",
+      "opener": "Babychiefdo It, The Paradox, Sosocamo, DJ Set From Illykimchi, Oogie Mane, Knox Write, Rickfromtexas, + More!",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648479562597",
+      "ticket_url": "https://partiful.com/e/d3cnBH2jop4L1gCpMCqH",
+      "youtube_id": null,
+      "opener_youtube_id": null
     },
     {
       "artist": "SXSW: Very Necessary Showcase",
@@ -263,6 +263,19 @@
       "opener_youtube_id": "xAnNUkkNUFY"
     },
     {
+      "artist": "Votive Album Release Show",
+      "date": "Thu, Apr 02",
+      "venue": "Mohawk Indoor",
+      "opener": "Votive, Shoganai, Clairvoyance, A Letter To Autumn",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "9:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648479516552",
+      "ticket_url": "https://www.etix.com/ticket/p/36751766/votive-album-release-show-austin-mohawk-austintxindoor",
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
       "artist": "Model/Actriz",
       "date": "Fri, Apr 03",
       "venue": "Mohawk Outdoor",
@@ -313,23 +326,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
       "youtube_id": "Ijmhb8is-vc",
       "opener_youtube_id": "-n20fV-hyg8"
-    },
-    {
-      "artist": "My Life With the Thrill Kill Kult",
-      "date": "Thu, Apr 09",
-      "venue": "Mohawk Outdoor",
-      "opener": "Light Asylum, Die Sexual, DEVORA, Heavy Halo",
-      "notice": null,
-      "doors": "6:00pm",
-      "showtime": "7:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648542460182",
-      "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
-      "youtube_id": "YgaZwOHjTwI",
-      "opener_youtube_id": "WNiKCRUpbqA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-02T09:12:11.211888"
+  "last_updated": "2026-03-03T09:10:40.123553"
 }
