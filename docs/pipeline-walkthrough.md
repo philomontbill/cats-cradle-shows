@@ -457,7 +457,7 @@ After scoring every show, the audit computes:
 - **Average confidence** — mean score across all videos
 - Per-venue breakdowns of the same
 
-These numbers are what the verifier pulls into the daily report's Accuracy section (Step 5e).
+These numbers are what the verifier pulls into the daily report's Quality Metrics section (Step 5e).
 
 ### 6e. What "Accuracy" Actually Measures
 
@@ -472,7 +472,7 @@ The audit saves a timestamped JSON file to `qa/audits/YYYY-MM-DD_HHMM.json` cont
 - **Per-venue stats** — same breakdown for each venue
 - **Per-show entries** — every show with its artist, video, score, explanation, and tier
 
-The verifier's `load_latest_audit()` function reads the most recent file from this directory to populate the Accuracy section of the daily report.
+The verifier's `load_latest_audit()` function reads the most recent file from this directory to populate the Quality Metrics section of the daily report.
 
 ### Key files
 - `qa/audit_accuracy.py` — the audit script
@@ -490,9 +490,52 @@ Key points:
 
 ---
 
-## Step 7: Commit & Report Delivery
+## Step 7: Commit, Push, and Alert
 
-*To be documented during walkthrough*
+After all processing steps finish, the pipeline commits the results to git and checks whether anything broke.
+
+### 7a. Commit and Push
+
+The GitHub Actions runner configures a bot identity (`github-actions[bot]`) and stages a specific set of files:
+
+- `data/shows-*.json` — updated show data from all scrapers
+- `logs/` — scrape history and report logs
+- `qa/match_log.json` — scraper match decisions
+- `qa/audits/` — tonight's audit snapshot
+- `qa/video_states.json` — updated verification states
+- `qa/video-report-*.csv` — tonight's CSV report
+- `qa/validation_baseline.json` — updated warning hashes
+- `qa/accuracy_history.json` — appended accuracy snapshot
+
+Only these files are staged — not the entire repository. This prevents accidental commits of local-only files or configuration changes.
+
+After staging, the pipeline checks if anything actually changed (`git diff --staged --quiet`). If nothing changed (rare — show dates shift almost every night), no commit is created. If there are changes, it commits with the message "Update show data YYYY-MM-DD".
+
+Before pushing, it runs `git pull --rebase` to handle any commits that may have landed on main since the workflow started (e.g., a manual push during the pipeline run). Then it pushes to main. Since Vercel auto-deploys on push, this commit is what updates the live site.
+
+### 7b. Alert on Failure
+
+After the commit step, the pipeline checks whether any previous step failed. Every step in the pipeline uses `continue-on-error: true`, meaning a failure in one step doesn't stop the others — the pipeline always runs to completion. But failures still need attention.
+
+The alert checks all 15 steps: 12 scrapers + monitor + validate + verify. If any of them failed, it creates a GitHub Issue (label: `scrape-alert`) with a table showing every step and its status (pass or fail), plus a link to the full workflow logs.
+
+This is separate from the daily video report (which is an informational summary). The scrape alert only fires when something actually broke — a scraper crashed, the monitor detected a problem, or the verifier errored out.
+
+### Key files
+- `.github/workflows/scrape.yml` — the workflow definition (all steps above)
+
+### Summary of Step 7
+
+The commit step is mechanical — stage specific files, commit if changed, rebase, push. The push triggers a Vercel deploy, which updates the live site.
+
+The alert step is the safety net. Because every step uses `continue-on-error: true`, the pipeline always runs from start to finish. The alert catches failures after the fact and creates a visible GitHub Issue so they don't go unnoticed.
+
+Key points:
+- Only specific files are staged — prevents accidental commits of local config or secrets.
+- The commit only happens if files actually changed — no empty commits.
+- `git pull --rebase` before push handles any concurrent commits gracefully.
+- The Vercel deploy is automatic — the commit IS the deploy trigger.
+- Alert issues are separate from daily reports — alerts mean something broke, reports are routine summaries.
 
 ---
 
