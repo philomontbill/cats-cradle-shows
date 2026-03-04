@@ -422,7 +422,7 @@ def build_issue_body(tonight, states, all_shows_data, old_states):
     Sections:
       1. Tonight's Delta — newly verified, rejected, and recovered
       2. Full Inventory — coverage stats by venue
-      3. Accuracy — from latest audit + history
+      3. Quality Metrics — match confidence, coverage, from latest audit + history
     """
     date_str = datetime.now().strftime("%b %d, %Y")
     csv_filename = f"video-report-{datetime.now().strftime('%Y-%m-%d')}.csv"
@@ -510,10 +510,10 @@ def build_issue_body(tonight, states, all_shows_data, old_states):
     lines.append(f"Full detail: `qa/{csv_filename}`")
     lines.append("")
 
-    # --- Section 3: Accuracy ---
+    # --- Section 3: Quality Metrics ---
     audit = load_latest_audit()
     history = load_accuracy_history()
-    lines.append("## Accuracy")
+    lines.append("## Quality Metrics")
     if audit:
         today_acc = audit.get("accuracy_rate", 0)
         today_conf = audit.get("avg_confidence", 0)
@@ -541,18 +541,24 @@ def build_issue_body(tonight, states, all_shows_data, old_states):
         overrides = load_overrides()
         override_count = len(overrides.get("artist_youtube", {}))
 
+        # Overall coverage
+        coverage_pct = round(totals["verified"] / total * 100, 1) if total > 1 else 0
+
         lines.append("| Metric | Today | Yesterday | 7-day avg |")
         lines.append("|--------|------:|----------:|----------:|")
         lines.append(
-            f"| Accuracy | {today_acc}% | {yesterday_acc or '—'} "
+            f"| Match Confidence | {today_acc}% | {yesterday_acc or '—'} "
             f"| {avg_7_acc or '—'} |"
         )
         lines.append(
-            f"| Avg confidence | {today_conf} | {yesterday_conf or '—'} "
+            f"| Avg Score | {today_conf} | {yesterday_conf or '—'} "
             f"| {avg_7_conf or '—'} |"
         )
+        lines.append(
+            f"| Coverage | {coverage_pct}% ({totals['verified']}/{totals['total']}) | | |"
+        )
         lines.append(f"| Overrides | {override_count} | | |")
-        # Role accuracy breakdown
+        # Role breakdown
         hl_total = totals.get("headliner_total", 0)
         hl_verified = totals.get("headliner_verified", 0)
         op_total = totals.get("opener_total", 0)

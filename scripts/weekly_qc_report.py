@@ -3,7 +3,7 @@
 Weekly QC Report — Video matching quality summary.
 
 Runs weekly (alongside the analytics report) and summarizes:
-- Accuracy trend for the week (daily snapshots)
+- Match confidence trend for the week (daily snapshots)
 - Inventory changes (start of week vs end of week)
 - Total verified/rejected/recovered for the week
 - Top rejection reasons
@@ -95,7 +95,7 @@ def build_report(days=7):
 
     lines = [f"# Weekly QC Report — {start_date} to {end_date}", ""]
 
-    # --- Section 1: Accuracy Trend ---
+    # --- Section 1: Match Confidence Trend ---
     week_entries = []
     for entry in history:
         try:
@@ -105,10 +105,10 @@ def build_report(days=7):
         except (ValueError, KeyError):
             continue
 
-    lines.append("## Accuracy Trend")
+    lines.append("## Match Confidence Trend")
     if week_entries:
-        lines.append("| Date | Accuracy | Headliner | Opener | Avg Confidence | Verified | Rejected | Total |")
-        lines.append("|------|----------|-----------|--------|---------------|----------|----------|-------|")
+        lines.append("| Date | Match Confidence | Headliner | Opener | Avg Score | Verified | Rejected | Total |")
+        lines.append("|------|-----------------|-----------|--------|----------|----------|----------|-------|")
         for e in week_entries:
             hl_acc = e.get("headliner_accuracy", "—")
             op_acc = e.get("opener_accuracy", "—")
@@ -147,7 +147,7 @@ def build_report(days=7):
             op_end = last.get("opener_accuracy", 0) or 0
 
             lines.append("")
-            delta_parts = [f"Accuracy {sign}{acc_delta:.1f}%"]
+            delta_parts = [f"Match Confidence {sign}{acc_delta:.1f}%"]
             if hl_end:
                 hl_sign = "+" if (hl_end - hl_start) >= 0 else ""
                 delta_parts.append(f"Headliner {hl_sign}{hl_end - hl_start:.1f}%")
@@ -157,7 +157,7 @@ def build_report(days=7):
             delta_parts.extend([f"Verified {ver_delta:+d}", f"Rejected {rej_delta:+d}"])
             lines.append(f"**Week delta:** {' | '.join(delta_parts)}")
     else:
-        lines.append("No accuracy data for this period.")
+        lines.append("No match confidence data for this period.")
     lines.append("")
 
     # --- Section 2: Current Inventory ---

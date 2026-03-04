@@ -262,13 +262,231 @@ After evaluating its effectiveness: out of 414 total verified/rejected videos, S
 
 ## Step 5: Video Verifier
 
-*To be documented during walkthrough*
+The verifier is the quality gate. It takes every unverified video candidate the scrapers found and decides: does this video actually belong to this artist? If yes, the video goes live on the site. If no, the video is removed and the artist shows a "No Preview" popup instead.
+
+The verifier also builds the daily report — the main document you review each morning.
+
+### 5a. Startup
+
+The verifier loads four things:
+
+1. **YouTube API key** — prefers `YOUTUBE_VERIFIER_API_KEY` (dedicated quota), falls back to `YOUTUBE_API_KEY` (shared with scrapers). Having a separate key means the verifier doesn't compete with the scrapers for quota.
+2. **overrides.json** — manual overrides are locked. The verifier never touches them.
+3. **video_states.json** — the verification state for every artist (verified, rejected, override, unverified). This is the verifier's memory of what it has already decided.
+4. **All show data** — every `data/shows-*.json` file.
+
+Before starting verification, it takes a snapshot of the current states. This is used later to detect "recoveries" — artists that were previously rejected but now pass with a different video.
+
+### 5b. Main Loop
+
+For each show across all venues, the verifier looks at both the headliner and the opener:
+
+1. **Does the artist have a video?** If `youtube_id` is empty, skip — nothing to verify.
+2. **Is the artist in overrides?** If yes, skip — overrides are locked. Count it for the report.
+3. **Is the artist already verified with this same video?** If the video_id matches what was previously verified, skip — no need to re-check. Count it for the report.
+4. **Otherwise** — this video needs verification. Proceed to the checks.
+
+A 1-second pause between each verification prevents hitting YouTube's per-second rate limits. Each verification makes 2 API calls (1 unit each): one for video metadata, one for channel metadata. With ~60-70 unverified videos per night, that's ~140 quota units — well within the verifier's 10,000-unit daily budget.
+
+### 5c. Verification Checks
+
+The `verify_video()` function runs five checks against each candidate. It collects rejection reasons in a list — if the list is empty at the end, the video passes. If anything is in the list, the video is rejected.
+
+**Check 1: Venue placeholder image** (free — no API call)
+If the show's image URL contains a known venue placeholder filename (e.g., `cradlevenue.png` for Cat's Cradle), flag it. A venue using their own default artwork instead of the artist's artwork suggests this is an event listing, not a performing artist.
+
+**Check 2: Video metadata** (1 quota unit)
+Pull the video's title, channel name, channel ID, publish date, and view count from YouTube's `videos` endpoint. If this call fails, the video is immediately rejected — we can't verify what we can't see.
+
+**Check 3: Channel metadata** (1 quota unit)
+Pull the channel's name, subscriber count, and video count from YouTube's `channels` endpoint. This gives us context about who uploaded the video.
+
+**Check 4: Evaluate all signals together**
+
+These signals are evaluated using the video and channel metadata:
+
+- **Topic channel?** YouTube auto-generates "{ArtistName} - Topic" channels. If the channel name matches this pattern and the artist name matches, it's a strong identity signal — skip the view count check entirely.
+
+- **Trusted channel?** Normalize the channel name (lowercase, strip all non-alphanumeric characters) and check against two lists: 14 known record labels (Nuclear Blast, Epitaph, etc.) and VEVO channels (normalized name ends with "vevo"). Trusted channels get a raised view count cap (50M instead of 5M) and bypass the channel mismatch and upload age checks.
+
+- **View count** — Default cap is 5M views. Trusted channels get 50M. Topic channels with matching artist name have no cap. If the video exceeds its cap, it's rejected. The logic: bands playing 100-750 capacity venues rarely have videos with 5M+ views. A high view count on a non-matching channel usually means the scraper found a famous song by a different artist with a similar name.
+
+- **Channel match** — Does the channel name relate to the artist name? (Normalized containment check — "artist in channel" or "channel in artist".) If the channel doesn't match AND isn't trusted AND has 2M+ subscribers, reject. A massive channel that doesn't match the artist name is almost certainly the wrong video. If the channel doesn't match but has fewer subscribers, log a warning but don't reject — small channels often use non-obvious names.
+
+- **Upload date** — If the video is more than 15 years old AND the channel doesn't match the artist AND the channel isn't trusted, reject. Very old videos with no channel connection are usually wrong matches. Trusted channels bypass this because labels have legitimate old catalog videos.
+
+**Check 5: Final decision**
+If the rejection reasons list is empty, the video passed all checks. If anything is in the list, the video failed. This is deliberately conservative — failing any single check means rejection. The philosophy: a wrong video is worse than no video.
+
+### 5d. After Verification
+
+**If the video passed:**
+- Update `video_states.json`: status = "verified", store the video_id, date, confidence signals, and all metadata.
+- Add to tonight's "verified" list for the report.
+- The video stays assigned in the show data — it's now live on the site.
+
+**If the video failed:**
+- Update `video_states.json`: status = "rejected", store the video_id, date, rejection reasons, and metadata.
+- Add to tonight's "rejected" list for the report.
+- **Null out the youtube_id in the show's JSON file.** This is the verifier's enforcement — the rejected video is removed from the show data. The artist will show a "No Preview" popup on the site until a better match is found or a manual override is added.
+- The show file is rewritten only if something actually changed.
+
+After processing all shows, the updated `video_states.json` is saved. Any null overrides (artists manually set to no video) are also marked in states so the report counts them correctly.
+
+### 5e. Daily Report — GitHub Issue
+
+The report has three sections:
+
+**Section 1: Tonight's Delta**
+A summary line showing counts: verified, rejected, recovered, unchanged, overrides. Then three tables:
+- **Newly Verified** — artist, venue, date, confidence signals (channel match, Topic, label, view count)
+- **Newly Rejected** — artist, venue, date, specific rejection reasons
+- **Recovered** — artists that were previously rejected but passed tonight with a different video
+
+**Section 2: Full Inventory**
+Overall coverage stats (verified, rejected, no preview, override counts with percentages), then a per-venue breakdown showing how many shows have videos vs. total shows.
+
+**Section 3: Quality Metrics**
+Renamed from "Accuracy" (Mar 4, 2026). The original label was misleading — the audit's score measures whether the artist's name appears in the video title or channel name, not whether the video is truly correct for the artist. A video can score 95 (name match) and still be the wrong song. True accuracy requires manual review.
+
+The section now reports two complementary metrics:
+- **Match Confidence** — percentage of assigned videos scoring 70+ in name matching (from the audit, Step 6). A smoke detector: stable or rising means the system is working, a drop means investigate.
+- **Coverage** — percentage of active shows that have a video assigned at all. Tracks how well the scrapers are finding matches.
+
+Reading the two together tells the story: confidence stable + coverage rising = good. Confidence dropping = bad matches getting through. Coverage dropping = scrapers struggling.
+
+Also shows average score, override count, and headliner vs. opener breakdown. Pulls historical data from accuracy_history.json for yesterday and 7-day average columns.
+
+The report is posted as a GitHub Issue with the label `daily-video-report`. Before posting, the verifier closes any previous open issues with that label — so there's only ever one open daily report at a time. The CSV is saved to `qa/video-report-YYYY-MM-DD.csv`.
+
+### 5f. Daily Report — CSV
+
+The CSV has the same data as the GitHub Issue but in a flat format suitable for Google Sheets. Eight columns: Section, Artist, Role, Venue, Date, Video URL, Detail, Skip Reason.
+
+Three sections in each CSV:
+- **Verified** — tonight's newly verified videos
+- **Rejected** — tonight's newly rejected candidates
+- **No Preview** — all artists currently without a video, with their current state in the Detail column (Rejected, Override, No video from scraper, No video assigned) and their scraper decision in the Skip Reason column (pulled from match_log.json — values like `reused`, `no_results`, `skip`, `api_error`, `code_error`)
+
+### 5g. Daily Report — Email and Sheets
+
+After posting the GitHub Issue, the report is also delivered via two additional channels:
+
+**HTML email** (via Gmail SMTP)
+The markdown report is converted to styled HTML with inline CSS. The CSV is attached as a file. Sent from soundchecklocal@gmail.com using an app-specific password. The email includes a footer linking to the Google Sheet for full detail.
+
+**Google Sheets** (via Sheets API)
+Each row from the CSV is appended to the "Daily Video Reports" tab with a "Report Date" column prepended. This builds a running log — one tab with all daily data, filterable by date.
+
+Both delivery channels use graceful failure — if email or Sheets fails, a warning is printed but the pipeline continues. The GitHub Issue is the primary record.
+
+### 5h. Accuracy History
+
+After the report is posted, the verifier appends a snapshot to `qa/accuracy_history.json`. Each entry records: date, total shows, verified count, rejected count, no-preview count, override count, headliner and opener accuracy broken out separately, and the accuracy rate and average confidence from the latest audit.
+
+This history is what powers the "yesterday" and "7-day average" columns in the Accuracy section of the report. It's also used by the weekly QC report for trend analysis.
+
+### Key files
+- `scripts/verify_videos.py` — the verifier (all logic above)
+- `scripts/report_delivery.py` — shared email and Sheets utilities
+- `qa/video_states.json` — verification state for every artist (read and updated)
+- `qa/match_log.json` — scraper decisions (read for Skip Reason column)
+- `qa/accuracy_history.json` — daily accuracy snapshots (appended)
+- `qa/video-report-YYYY-MM-DD.csv` — CSV output per run
+
+### Summary of Step 5
+
+The verifier is the quality gate between the scrapers and the user. Every video the scrapers find goes through five checks. Passing all five means the video goes live. Failing any one means the video is removed and the artist gets a "No Preview" popup.
+
+Key points:
+- The verifier never modifies overrides — they're locked.
+- Already-verified videos with the same video_id are skipped — no wasted API calls.
+- The 1-second throttle between verifications keeps us under YouTube's per-second rate limits.
+- The daily report is the main feedback loop — verified videos are spot-check opportunities, rejected candidates are calibration opportunities, and the No Preview queue is the manual review work queue.
+- Three delivery channels (GitHub Issue, email, Sheets) ensure visibility. GitHub Issues are the audit trail, email is the morning notification, Sheets is the historical log.
+- Accuracy history builds over time, enabling trend analysis in the weekly QC report.
 
 ---
 
 ## Step 6: Audit
 
-*To be documented during walkthrough*
+The audit is an independent quality check. It asks a simple question for every video we've assigned: does the artist's name actually appear in the video's title or channel name? It scores each match and saves the results. The verifier (Step 5) uses the audit's accuracy numbers in the daily report.
+
+### 6a. How It Works — oEmbed
+
+The audit uses YouTube's oEmbed endpoint, which returns two things for any video ID: the video title and the channel name (called "author_name" in oEmbed). No API key required, no quota cost. The tradeoff is less data — oEmbed doesn't return view counts, subscriber counts, or publish dates. But for the audit's purpose (does the name match?), title and channel name are all it needs.
+
+Each oEmbed call takes about 0.3 seconds. With ~200-250 active shows across all venues, a full audit takes about 1-2 minutes.
+
+### 6b. Scoring
+
+The `score_match()` function compares the artist name against the video title and channel name. It tries several matching strategies in order, returning the first one that hits:
+
+1. **Artist name found in channel name** (95) — strongest signal. The channel belongs to the artist.
+2. **Compact match with channel** (93) — same check but with all spaces and punctuation stripped. Catches "DRUG DEALER" matching "Drugdealer" or "MODEL / ACTRIZ" matching "ModelActriz".
+3. **Artist name found in video title** (90) — good signal, but titles can contain other artist names too.
+4. **Channel name found in artist name** (85) — reverse containment (short channel name inside longer artist name).
+5. **VEVO or Topic channel match** (93) — if the channel ends with "VEVO" or "- Topic" and the base name matches the artist after stripping those suffixes.
+6. **Compact match with title** (88) — collapsed-name check against the video title.
+7. **Channel word overlap** (70-90) — at least 50% of the artist's words (3+ characters) found in the channel name. Score scales with overlap ratio.
+8. **Title word overlap** (60-80) — same as above but against the video title. Lower scores because titles are noisier.
+9. **Partial word overlap** (30-60) — any word overlap between artist name and the combined title/channel text.
+10. **No match** (5) — nothing matched.
+
+Before comparing, names go through normalization: lowercase, strip "the", remove tour suffixes, remove parentheticals, strip VEVO/Topic suffixes, remove punctuation, collapse whitespace.
+
+### 6c. Per-Show Audit
+
+For each active (non-expired) show across all venues:
+
+- **Headliner with video** — fetch oEmbed, score the match, assign a confidence tier.
+- **Headliner without video** — mark as "no_video" (no score possible).
+- **Opener with video** — same as headliner. For openers with comma-separated names, only the first name is scored.
+- **Opener without video** — mark as "no_video".
+
+Confidence tiers:
+- **High** (70+) — the name match is strong
+- **Medium** (40-69) — partial match, worth reviewing
+- **Low** (below 40) — weak match, likely wrong video
+- **Error** — oEmbed call failed (video deleted, private, or YouTube hiccup)
+
+### 6d. Summary Stats
+
+After scoring every show, the audit computes:
+- **Accuracy rate** — percentage of videos with high confidence (70+ score)
+- **Average confidence** — mean score across all videos
+- Per-venue breakdowns of the same
+
+These numbers are what the verifier pulls into the daily report's Accuracy section (Step 5e).
+
+### 6e. What "Accuracy" Actually Measures
+
+Important caveat: the audit's "accuracy rate" measures **name similarity between artist and video**, not whether the video is truly correct. A video can score 95 (channel name contains artist name) and still be the wrong song by the right artist. Or a video can score 50 (partial word overlap) and actually be correct — just with a channel name that doesn't obviously match.
+
+The audit catches the obvious wrong matches (artist name nowhere in the video or channel) but can't catch subtle wrong matches (right artist, wrong song; or a different artist with the same name). That's why the daily report exists as a manual review layer on top of the automated scoring.
+
+### 6f. Output
+
+The audit saves a timestamped JSON file to `qa/audits/YYYY-MM-DD_HHMM.json` containing:
+- **Overall stats** — accuracy rate, average confidence, counts by tier
+- **Per-venue stats** — same breakdown for each venue
+- **Per-show entries** — every show with its artist, video, score, explanation, and tier
+
+The verifier's `load_latest_audit()` function reads the most recent file from this directory to populate the Accuracy section of the daily report.
+
+### Key files
+- `qa/audit_accuracy.py` — the audit script
+- `qa/audits/YYYY-MM-DD_HHMM.json` — timestamped audit snapshots
+
+### Summary of Step 6
+
+The audit is a second opinion. The scraper (Step 1) uses its own scoring to decide which video to assign. The verifier (Step 5) uses YouTube API data to decide whether to accept or reject. The audit independently re-checks every assignment by comparing the artist name against the video's actual title and channel name via oEmbed.
+
+Key points:
+- Zero API cost — uses oEmbed (free, no key required).
+- Independent signal — different scoring logic from both the scraper and the verifier. Catches problems the other steps might miss.
+- "Accuracy" is a proxy — it measures name matching, not true correctness. Manual review remains the final quality check.
+- Historical snapshots enable trend analysis — is accuracy improving over time as we add overrides and tune thresholds?
 
 ---
 
