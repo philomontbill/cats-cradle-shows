@@ -280,7 +280,8 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
         trusted_reason = f"session: {TRUSTED_SESSION_CHANNELS[norm_channel]}"
         metadata["session_channel"] = TRUSTED_SESSION_CHANNELS[norm_channel]
     metadata["trusted_channel"] = trusted_channel
-    metadata["session_channel"] = session_channel
+    if not session_channel:
+        metadata["session_channel"] = False
     if trusted_reason:
         metadata["trusted_reason"] = trusted_reason
 
