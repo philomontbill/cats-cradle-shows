@@ -297,10 +297,19 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
                 f"with {channel_meta['subscriber_count']:,} subscribers"
             )
         else:
-            # Weak signal — channel doesn't match but not a hard reject alone
-            metadata["channel_warning"] = (
-                f"channel '{video_meta['channel_name']}' doesn't match artist"
-            )
+            # Channel doesn't match — check if artist name appears in video title
+            norm_title = _normalize(video_meta["title"])
+            norm_artist = _normalize(artist_name)
+            if norm_artist and norm_title and norm_artist not in norm_title:
+                # No identity link: artist name not in channel OR title
+                reasons.append(
+                    "artist name not found in channel or title"
+                )
+            else:
+                # Artist name found in title — weak but acceptable
+                metadata["channel_warning"] = (
+                    f"channel '{video_meta['channel_name']}' doesn't match artist (title match)"
+                )
 
     # --- Evaluate: Upload date ---
     if video_meta["published"]:
