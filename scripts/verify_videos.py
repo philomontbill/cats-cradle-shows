@@ -73,6 +73,19 @@ TRUSTED_LABELS = {
 
 TRUSTED_CHANNEL_VIEW_CAP = 50_000_000  # 50M — raised cap for trusted labels/VEVO
 
+# Trusted session channels — music performance channels that feature many artists.
+# Channel name won't match artist, but artist name should appear in video title.
+# Bypasses channel mismatch and upload age checks (like labels), but requires title match.
+# Keys are pre-normalized (lowercase, non-alphanumeric stripped).
+TRUSTED_SESSION_CHANNELS = {
+    "kexp": "KEXP",
+    "audiotree": "Audiotree",
+    "nprmusic": "NPR Music",
+    "pastemagazine": "Paste Magazine",
+}
+
+SESSION_CHANNEL_VIEW_CAP = 20_000_000  # 20M — lower than labels, higher than default
+
 
 def load_api_key():
     """Load YouTube API key from environment or .env file.
@@ -249,8 +262,9 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
     )
     metadata["channel_match"] = artist_channel_match
 
-    # --- Evaluate: Trusted channel (label allowlist / VEVO) ---
+    # --- Evaluate: Trusted channel (label allowlist / VEVO / session channels) ---
     trusted_channel = False
+    session_channel = False
     trusted_reason = ""
     norm_channel = _normalize(video_meta["channel_name"])
     if norm_channel in TRUSTED_LABELS:
@@ -261,7 +275,12 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
         trusted_channel = True
         trusted_reason = "VEVO"
         metadata["vevo_channel"] = True
+    elif norm_channel in TRUSTED_SESSION_CHANNELS:
+        session_channel = True
+        trusted_reason = f"session: {TRUSTED_SESSION_CHANNELS[norm_channel]}"
+        metadata["session_channel"] = TRUSTED_SESSION_CHANNELS[norm_channel]
     metadata["trusted_channel"] = trusted_channel
+    metadata["session_channel"] = session_channel
     if trusted_reason:
         metadata["trusted_reason"] = trusted_reason
 
@@ -275,6 +294,9 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
         if trusted_channel:
             effective_cap = TRUSTED_CHANNEL_VIEW_CAP
             metadata["view_cap_reason"] = f"trusted channel ({trusted_reason})"
+        elif session_channel:
+            effective_cap = SESSION_CHANNEL_VIEW_CAP
+            metadata["view_cap_reason"] = f"session channel ({trusted_reason})"
         else:
             effective_cap = VIEW_COUNT_CAP
             metadata["view_cap_reason"] = "default (5M cap)"
@@ -291,6 +313,18 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
             metadata["channel_override"] = (
                 f"trusted {trusted_reason}, skipping mismatch check"
             )
+        elif session_channel:
+            # Session channel — bypass mismatch but require artist in title
+            norm_title = _normalize(video_meta["title"])
+            norm_artist = _normalize(artist_name)
+            if norm_artist and norm_title and norm_artist in norm_title:
+                metadata["channel_override"] = (
+                    f"{trusted_reason}, artist confirmed in title"
+                )
+            else:
+                reasons.append(
+                    f"session channel ({trusted_reason}) but artist name not in title"
+                )
         elif channel_meta and channel_meta["subscriber_count"] > 2_000_000:
             reasons.append(
                 f"non-matching channel '{video_meta['channel_name']}' "
@@ -320,7 +354,7 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key):
             age_years = (datetime.now(pub_date.tzinfo) - pub_date).days / 365.25
             metadata["video_age_years"] = round(age_years, 1)
             if age_years > VIDEO_AGE_FLAG_YEARS and not artist_channel_match:
-                if trusted_channel:
+                if trusted_channel or session_channel:
                     metadata["age_override"] = (
                         f"trusted {trusted_reason}, skipping age check"
                     )
