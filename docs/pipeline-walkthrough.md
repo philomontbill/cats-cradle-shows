@@ -2,7 +2,7 @@
 
 Plain-English, section-by-section walkthrough of every step in the nightly pipeline.
 
-Last updated: Mar 3, 2026
+Last updated: Mar 4, 2026
 
 ---
 
@@ -307,13 +307,20 @@ These signals are evaluated using the video and channel metadata:
 
 - **Topic channel?** YouTube auto-generates "{ArtistName} - Topic" channels. If the channel name matches this pattern and the artist name matches, it's a strong identity signal — skip the view count check entirely.
 
-- **Trusted channel?** Normalize the channel name (lowercase, strip all non-alphanumeric characters) and check against two lists: 14 known record labels (Nuclear Blast, Epitaph, etc.) and VEVO channels (normalized name ends with "vevo"). Trusted channels get a raised view count cap (50M instead of 5M) and bypass the channel mismatch and upload age checks.
+- **Trusted channel?** Normalize the channel name (lowercase, strip all non-alphanumeric characters) and check against three lists:
+  1. **Labels** (14 known record labels: Nuclear Blast, Epitaph, etc.) — full trust. View cap raised to 50M, bypass channel mismatch and upload age checks.
+  2. **VEVO** (normalized name ends with "vevo") — same full trust as labels.
+  3. **Session channels** (KEXP, Audiotree, NPR Music, Paste Magazine) — semi-trusted. These channels host live performances by many different artists, so the channel name will never match the artist. Session channels bypass the channel mismatch and upload age checks, but require the artist name to appear in the video title. View cap set to 20M (between the 5M default and 50M for labels). If the artist name isn't in the title, the video is rejected — a session video we can't confirm belongs to the right artist isn't useful.
 
-- **View count** — Default cap is 5M views. Trusted channels get 50M. Topic channels with matching artist name have no cap. If the video exceeds its cap, it's rejected. The logic: bands playing 100-750 capacity venues rarely have videos with 5M+ views. A high view count on a non-matching channel usually means the scraper found a famous song by a different artist with a similar name.
+- **View count** — Default cap is 5M views. Labels/VEVO get 50M. Session channels get 20M. Topic channels with matching artist name have no cap. If the video exceeds its cap, it's rejected. The logic: bands playing 100-750 capacity venues rarely have videos with 5M+ views. A high view count on a non-matching channel usually means the scraper found a famous song by a different artist with a similar name.
 
-- **Channel match** — Does the channel name relate to the artist name? (Normalized containment check — "artist in channel" or "channel in artist".) If the channel doesn't match AND isn't trusted AND has 2M+ subscribers, reject. A massive channel that doesn't match the artist name is almost certainly the wrong video. If the channel doesn't match but has fewer subscribers, log a warning but don't reject — small channels often use non-obvious names.
+- **Channel match** — Does the channel name relate to the artist name? (Normalized containment check — "artist in channel" or "channel in artist".) Evaluated in priority order:
+  1. **Trusted label/VEVO** — skip the mismatch check entirely.
+  2. **Session channel** — skip the subscriber check, but require artist name in the video title.
+  3. **2M+ subscribers** — reject. A massive channel that doesn't match the artist name is almost certainly the wrong video.
+  4. **Small channel, no match** — check if the artist name appears in the video title. If the artist name is in neither the channel name nor the video title, reject — there's no identity link at all. If the artist name is in the title, keep the video with a warning logged.
 
-- **Upload date** — If the video is more than 15 years old AND the channel doesn't match the artist AND the channel isn't trusted, reject. Very old videos with no channel connection are usually wrong matches. Trusted channels bypass this because labels have legitimate old catalog videos.
+- **Upload date** — If the video is more than 15 years old AND the channel doesn't match the artist AND the channel isn't trusted or a session channel, reject. Very old videos with no channel connection are usually wrong matches. Trusted and session channels bypass this because they have legitimate older content.
 
 **Check 5: Final decision**
 If the rejection reasons list is empty, the video passed all checks. If anything is in the list, the video failed. This is deliberately conservative — failing any single check means rejection. The philosophy: a wrong video is worse than no video.
