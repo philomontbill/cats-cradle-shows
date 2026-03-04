@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night",
-      "date": "Tue, Mar 03",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/60402598/queer-country-night-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "hU_hAY8yyvQ"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Blends With Friends (Open Decks)",
       "date": "Wed, Mar 04",
       "doors": "7:30 pm",
@@ -29,14 +18,14 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Fish Hunt / People I Love / GLOWR",
+      "artist": "Fish Hunt / People I Love / Kelly Reidy",
       "date": "Thu, Mar 05",
       "doors": "7:30 pm",
       "showtime": "8 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/fish-hunt-people-i-know.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/84695097/fish-hunt-people-i-love-glowr-durham-the-pinhook?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/84695097/fish-hunt-people-i-love-kelly-reidy-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "rVieMw_GLSU"
+      "youtube_id": null
     },
     {
       "venue": "The Pinhook",
@@ -128,12 +117,12 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "SIREN Sound the Alarm for the Pisces Queen followed by a Piscine Dance Party!",
+      "artist": "SIREN: Pisces Drag Show and Dance Party",
       "date": "Sat, Mar 14",
       "doors": "9:30 pm",
       "showtime": "10 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/siren-sound-the-alarm-for-the-pisces-queen-followed-by-a-piscine-dance-party.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/55479687/siren-sound-the-alarm-for-the-pisces-queen-followed-by-a-piscine-dance-party-durham-the-pinhook?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/55479687/sirenpisces-drag-show-and-dance-party-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
     },
@@ -194,7 +183,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Who Run It?? PARTY!!",
+      "artist": "Who Run It?! Party",
       "date": "Sat, Mar 21",
       "doors": "10 pm",
       "showtime": "10:30 pm",
@@ -216,7 +205,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/81992746/conjunto-breve-africa-unplugged-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "blair / Polo Perks / Doris",
+      "date": "Thu, Apr 02",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/blair-polo-perks-doris.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/57735922/blair-polo-perks-doris-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:10:29.092482"
+  "last_updated": "2026-03-04T09:07:53.881252"
 }

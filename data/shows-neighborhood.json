@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Haffway",
-      "date": "Tue, Mar 03",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/c88/6f740ab6-9eac-4f42-b70b-dd34aefd3c88_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/haffway-the-wither-tour-charlotte-north-carolina-03-03-2026/event/2D006355E71DA6F7",
-      "youtube_id": "EvrdgG7Q4qo"
-    },
-    {
       "artist": "Lotus",
       "date": "Wed, Mar 04",
       "venue": "Neighborhood Theatre",
@@ -294,10 +282,22 @@
       "image": "https://s1.ticketm.net/dam/e/002/99f4e7bd-5a31-4278-849b-5b0102960002_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/the-band-of-heathens-country-sides-charlotte-north-carolina-04-16-2026/event/2D006374A660AF7E",
       "youtube_id": "75X4bWf5fIs"
+    },
+    {
+      "artist": "WEST 22ND",
+      "date": "Sat, Apr 18",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/367/39ce8693-2052-4ffd-86b9-e9fe1f4f4367_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/west-22nd-the-to-be-or-charlotte-north-carolina-04-18-2026/event/2D0064269D2D636F",
+      "youtube_id": "4GysR0gpsWw"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-03T09:12:41.419269"
+  "last_updated": "2026-03-04T09:09:27.517162"
 }

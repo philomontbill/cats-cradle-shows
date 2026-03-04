@@ -19,19 +19,6 @@
       "opener_youtube_id": "VBSJTfmNnFI"
     },
     {
-      "artist": "Yellow Days",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Outdoor",
-      "opener": "Rue Jacobs",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
-      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
-      "youtube_id": "jpYwsHTLv9o",
-      "opener_youtube_id": "Q83W9q34RDs"
-    },
-    {
       "artist": "Clover County",
       "date": "Fri, Mar 06",
       "venue": "Mohawk Indoor",
@@ -43,6 +30,19 @@
       "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
       "youtube_id": "tNr4SrwNcmc",
       "opener_youtube_id": "DMbAjG_pK28"
+    },
+    {
+      "artist": "Yellow Days",
+      "date": "Fri, Mar 06",
+      "venue": "Mohawk Outdoor",
+      "opener": "Rue Jacobs",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
+      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
+      "youtube_id": "jpYwsHTLv9o",
+      "opener_youtube_id": "Q83W9q34RDs"
     },
     {
       "artist": "HBO QUIZZO: Heated Rivalry",
@@ -144,7 +144,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648479562597",
       "ticket_url": "https://partiful.com/e/d3cnBH2jop4L1gCpMCqH",
-      "youtube_id": null,
+      "youtube_id": "RY-PpBPi7dA",
       "opener_youtube_id": null
     },
     {
@@ -250,6 +250,18 @@
       "opener_youtube_id": "TIKFfi9qD98"
     },
     {
+      "artist": "Yoga for Reproductive Rights",
+      "date": "Sun, Mar 29",
+      "venue": "Mohawk Indoor",
+      "opener": null,
+      "notice": null,
+      "doors": "11:00am",
+      "showtime": "11:00am",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648478125414",
+      "ticket_url": "https://partiful.com/e/R5w2DHMywXMm551Mf4d0",
+      "youtube_id": null
+    },
+    {
       "artist": "Sweet Pill",
       "date": "Sun, Mar 29",
       "venue": "Mohawk Outdoor",
@@ -313,23 +325,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
       "youtube_id": "Nm7EPfSeqGs",
       "opener_youtube_id": "Rp6jCtnhCDs"
-    },
-    {
-      "artist": "Touch\u00e9 Amor\u00e9",
-      "date": "Wed, Apr 08",
-      "venue": "Mohawk Outdoor",
-      "opener": "Jeromes Dream, Porcelain",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
-      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
-      "youtube_id": "Ijmhb8is-vc",
-      "opener_youtube_id": "-n20fV-hyg8"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:10:40.123553"
+  "last_updated": "2026-03-04T09:08:08.629784"
 }

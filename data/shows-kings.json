@@ -7,32 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Mar 3",
-      "artist": "[Late] Sub Rosa",
-      "opener": "Ezra",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 3",
-      "artist": "Braden Bales – ‘The FML’ Tour",
-      "opener": "Ezra",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/braden-bales-the-fml-tour",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/023A5337-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "g53JdQbI38k",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Kings",
       "date": "Fri, Mar 6",
       "artist": "The Bleeding Hearts",
       "opener": "Dallas Tetnus, The Sonic Blooms",
@@ -58,17 +32,6 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 10",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 10",
       "artist": "Meet Me @ The Altar [Rescheduled from 1/26]",
       "opener": "Pollyanna, Weymouth",
       "showtime": "7:30pm",
@@ -78,6 +41,17 @@
       "doors": null,
       "youtube_id": "waQ9BKMacII",
       "opener_youtube_id": "f1EVoVOSK5k"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 10",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -95,7 +69,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -108,7 +82,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -182,7 +156,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -207,6 +181,32 @@
     },
     {
       "venue": "Kings",
+      "date": "Sun, Mar 22",
+      "artist": "Merch Madness",
+      "opener": "Band merch,",
+      "showtime": "1:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/merch-madness",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/03/MERCH-MADNESS.PNG-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "N5NQOnB9YHI",
+      "opener_youtube_id": "0r2OEDe3WwA"
+    },
+    {
+      "venue": "Kings",
+      "date": "Mon, Mar 23",
+      "artist": "Sesame / Emily Grimm",
+      "opener": "Laurence Hope, Cement Block Pillow Fight",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sesame-emily-grimm",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/03/flyerkings-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": "ZFrphq5tkXQ"
+    },
+    {
+      "venue": "Kings",
       "date": "Tue, Mar 24",
       "artist": "Sub Rosa",
       "showtime": "10:00pm",
@@ -219,7 +219,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream – EP Release Show",
+      "artist": "Psychic Scream \u2013 EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -232,7 +232,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
@@ -245,7 +245,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
@@ -254,6 +254,17 @@
       "doors": null,
       "youtube_id": null,
       "opener_youtube_id": "G-P1pYW-mVU"
+    },
+    {
+      "venue": "Kings",
+      "date": "Sun, Mar 29",
+      "artist": "Chain Gang",
+      "showtime": "7:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/chain-gang",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/03/chaingang-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "qhLNk3PwTJQ"
     },
     {
       "venue": "Kings",
@@ -295,7 +306,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
@@ -304,23 +315,10 @@
       "doors": null,
       "youtube_id": null,
       "opener_youtube_id": "_JkUpouxAzk"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Apr 9",
-      "artist": "Boys Go To Jupiter – ‘Now You’re A Circle’ Tour",
-      "opener": "Miki Fiki",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "LIZCRKurJ2I"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:10:34.775428"
+  "last_updated": "2026-03-04T09:08:03.448676"
 }

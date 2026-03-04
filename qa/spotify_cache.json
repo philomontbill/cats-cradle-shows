@@ -7239,5 +7239,209 @@
     "enriched_date": "2026-03-03T09:12:46.912684+00:00",
     "match_confidence": "no_match",
     "note": "No Spotify artist found"
+  },
+  "*LOW TIX* Bryce Vine": {
+    "spotify_id": "1ShZZUjkbXCjhwrb18BA8I",
+    "spotify_name": "Bryce Vine",
+    "popularity": 60,
+    "followers": 539900,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:31.611277+00:00",
+    "match_confidence": "close",
+    "match_score": 0.96
+  },
+  "*LOW TIX* Caroline Jones": {
+    "spotify_id": "3xl6isKUFqJNui79kpdT0Y",
+    "spotify_name": "Caroline Jones",
+    "popularity": 37,
+    "followers": 48158,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:31.971151+00:00",
+    "match_confidence": "close",
+    "match_score": 0.937
+  },
+  "BAYLI": {
+    "spotify_id": "2bvUCoFViWtg9pSkOX9du9",
+    "spotify_name": "BAYLI",
+    "popularity": 43,
+    "followers": 56030,
+    "genres": [
+      "indie r&b",
+      "ballroom vogue"
+    ],
+    "enriched_date": "2026-03-04T09:09:32.337728+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.043
+  },
+  "BENEE": {
+    "spotify_id": "0Cp8WN4V8Tu4QJQwCN5Md4",
+    "spotify_name": "BENEE",
+    "popularity": 62,
+    "followers": 891397,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:32.655615+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.062
+  },
+  "Band merch,": {
+    "spotify_id": "4utuxVajMpLPz5EsaLhk9R",
+    "spotify_name": "Merchant Band",
+    "popularity": 2,
+    "followers": 4851,
+    "genres": [
+      "ccm",
+      "worship"
+    ],
+    "enriched_date": "2026-03-04T09:09:33.140012+00:00",
+    "match_confidence": "partial",
+    "match_score": 0.5
+  },
+  "CONCRETE BOYS: IT\u2019S US \u2013 VOL. 2 TOUR": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:33.530341+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Chain Gang": {
+    "spotify_id": "5AObl9OjD4VBLsQd3dUkV3",
+    "spotify_name": "Chain Gang",
+    "popularity": 28,
+    "followers": 10705,
+    "genres": [
+      "hardcore",
+      "deathcore"
+    ],
+    "enriched_date": "2026-03-04T09:09:33.949806+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.028
+  },
+  "Fish Hunt / People I Love / Kelly Reidy": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:34.358023+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "HLWA": {
+    "spotify_id": "1uFstDfzHjdGuzOrnrzOTy",
+    "spotify_name": "HLWA",
+    "popularity": 25,
+    "followers": 785,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:34.692640+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.025
+  },
+  "Laurence Hope, Cement Block Pillow Fight": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:35.021734+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Merch Madness": {
+    "spotify_id": "01wsWLjaa8bxDV2d8gi8qh",
+    "spotify_name": "Merch Money",
+    "popularity": 5,
+    "followers": 81,
+    "genres": [
+      "chicago drill"
+    ],
+    "enriched_date": "2026-03-04T09:09:35.428449+00:00",
+    "match_confidence": "partial",
+    "match_score": 0.5
+  },
+  "Paulus Schaefer and Friends": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:35.811302+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "SIREN: Pisces Drag Show and Dance Party": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:36.196144+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Sesame / Emily Grimm": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:36.610970+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "VISION ARCADE": {
+    "spotify_id": "21tnncEE8gHj8B6C7iOCFX",
+    "spotify_name": "VISION ARCADE",
+    "popularity": 37,
+    "followers": 10893,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:36.982940+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.037
+  },
+  "WEST 22ND": {
+    "spotify_id": "2FKnkloMDcNrUeLDfQJf8i",
+    "spotify_name": "West 22nd",
+    "popularity": 51,
+    "followers": 40757,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:37.484713+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.051
+  },
+  "WHATMORE": {
+    "spotify_id": "2y4kS2ljmS41pNDNA01P2Q",
+    "spotify_name": "WHATMORE",
+    "popularity": 39,
+    "followers": 38464,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:37.812296+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.039
+  },
+  "Who Run It?! Party": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:38.252444+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Will McBride Group": {
+    "spotify_id": "1rPdg5GZIG15lbScoUDQH1",
+    "spotify_name": "The Will McBride Group",
+    "popularity": 0,
+    "followers": 94,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:38.665897+00:00",
+    "match_confidence": "close",
+    "match_score": 0.9
+  },
+  "Yoga for Reproductive Rights": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:39.114827+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
+  },
+  "Your Neighbors": {
+    "spotify_id": "6mpyU2azr3zfZDY9k8w5GP",
+    "spotify_name": "Your Neighbors",
+    "popularity": 45,
+    "followers": 52050,
+    "genres": [],
+    "enriched_date": "2026-03-04T09:09:39.634774+00:00",
+    "match_confidence": "exact",
+    "match_score": 1.045
+  },
+  "blair / Polo Perks / Doris": {
+    "spotify_id": null,
+    "spotify_name": null,
+    "enriched_date": "2026-03-04T09:09:39.956052+00:00",
+    "match_confidence": "no_match",
+    "note": "No Spotify artist found"
   }
 }

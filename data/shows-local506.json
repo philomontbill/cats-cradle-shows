@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Wasted Life",
-      "date": "Tue, Mar 03",
-      "doors": "6:30 pm",
-      "showtime": "7:30 pm",
-      "opener": "Fading Signal, Twisted Fate, Laurence Hope, and Get Wise",
-      "image": "https://local506.com/wp-content/uploads/2026/02/wasted-life-with-fading-signal-twisted-fate-laurence-hope-and-get-wise.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/99133721/wasted-life-with-fading-signaltwisted-fatelaurence-hopeand-get-wise-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "MEjXK2JGW0E",
-      "opener_youtube_id": "HpEKsI44RFk"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Oort Patrol",
       "date": "Thu, Mar 05",
       "doors": "7 pm",
@@ -118,7 +105,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
+      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -157,7 +144,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
+      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -209,7 +196,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
+      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -323,10 +310,23 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": "IIR5vBiC3ig"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Your Neighbors",
+      "date": "Thu, Apr 16",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "VISION ARCADE",
+      "image": "https://local506.com/wp-content/uploads/2026/01/yourneighbors.jpg",
+      "ticket_url": "https://local506.com/event/your-neighbors-with-vision-arcade/",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": "qv19lL_HtxY"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:10:23.973497"
+  "last_updated": "2026-03-04T09:07:46.522979"
 }

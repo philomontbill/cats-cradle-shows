@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Muo Duo, Evan Isaac, Segami, Annabel Asher",
-      "date": "Tue, Mar 03",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/bbc/63af2035-112d-46d3-b969-253a6283dbbc_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/muo-duo-evan-isaac-segami-annabel-asher/",
-      "youtube_id": "2p2tuJcKpuY"
-    },
-    {
-      "artist": "Ben Milk, Brady Dorrington, ChatChat",
-      "date": "Tue, Mar 03",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/ben-milk.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/ben-milk-brady-dorrington-chatchat/",
-      "youtube_id": "OSX_yqr4JI0"
-    },
-    {
       "artist": "Ike Reilly Assassination",
       "date": "Wed, Mar 04",
       "venue": "Bowery Ballroom",
@@ -54,7 +30,7 @@
       "youtube_id": "BnaTkioAkEQ"
     },
     {
-      "artist": "Caroline Jones",
+      "artist": "*LOW TIX* Caroline Jones",
       "date": "Thu, Mar 05",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -63,10 +39,10 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
-      "youtube_id": null
+      "youtube_id": "_wcQe166mt4"
     },
     {
-      "artist": "Bryce Vine",
+      "artist": "*LOW TIX* Bryce Vine",
       "date": "Thu, Mar 05",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -75,7 +51,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/af8/fe4ccad7-46f0-4000-b7a6-560b07c83af8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/bryce-vine/",
-      "youtube_id": null
+      "youtube_id": "ivRYJ1DOhn8"
     },
     {
       "artist": "Mike Viola",
@@ -95,7 +71,7 @@
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
-      "doors": "7pm",
+      "doors": "6:30pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
@@ -219,7 +195,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
-      "youtube_id": "0JiqcQLClXE"
+      "youtube_id": "FZAOpMM-FxE"
     },
     {
       "artist": "Chasing Abbey",
@@ -304,10 +280,34 @@
       "image": "https://s1.ticketm.net/dam/a/f62/ceae0603-bebc-447e-8a5c-c3d0a3084f62_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cailin-russo/",
       "youtube_id": "ePbjWGnEzk4"
+    },
+    {
+      "artist": "WHATMORE",
+      "date": "Fri, Mar 13",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/85b/194de982-69c3-4b61-bdd0-ebaff52e885b_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/whatmore/",
+      "youtube_id": "L-9QwatubPo"
+    },
+    {
+      "artist": "HLWA",
+      "date": "Fri, Mar 13",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/a16/4963dbd5-d7cd-435b-acb6-1668d4781a16_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/hlwa/",
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:12:12.691932"
+  "last_updated": "2026-03-04T09:09:02.868087"
 }

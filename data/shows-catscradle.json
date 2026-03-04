@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Al Olender",
-      "date": "Tue, Mar 03",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Abigail Dempsey",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Al_2103601765879871.jpg",
-      "event_url": "https://catscradle.com/event/al-olender/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "q7Dn8hKTGOM",
-      "opener_youtube_id": "XyUeYV1LDPw"
-    },
-    {
-      "artist": "Goldie Boutilier",
-      "date": "Tue, Mar 03",
-      "venue": "Cat's Cradle",
-      "opener": "Syd Taylor",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Goldie_2021131762431071.jpg",
-      "event_url": "https://catscradle.com/event/goldie-boutilier/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "2-weJSyo00s",
-      "opener_youtube_id": "MnXwCdoNnmc"
-    },
-    {
       "artist": "Coma Cinema",
       "date": "Wed, Mar 04",
       "venue": "Cat's Cradle Back Room",
@@ -52,7 +26,7 @@
       "notice": null,
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
+      "image": "https://catscradle.com/wp-content/uploads/2026/03/rivalry-night-with-dialtone-duke-red-kanoo-unc-weekend-therapy-duke-jackson-slater-unc.jpg",
       "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": null,
       "opener_youtube_id": null
@@ -97,7 +71,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire – Universal Language Tour",
+      "artist": "Dirtwire \u2013 Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -320,10 +294,35 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
       "event_url": "https://catscradle.com/event/sam-farthing-jimmy-grant-guitar-workshop/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": null
+    },
+    {
+      "artist": "BENEE",
+      "date": "Sat, Mar 21",
+      "venue": "Cat's Cradle",
+      "opener": "BAYLI",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-BENEE_2027191762690272.jpg",
+      "event_url": "https://catscradle.com/event/benee/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": null,
+      "opener_youtube_id": "2nYr6pZQ0QI"
+    },
+    {
+      "artist": "Paulus Schaefer and Friends",
+      "date": "Sat, Mar 21",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
+      "event_url": "https://catscradle.com/event/paulus-schaefer-and-friends/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-03-03T09:10:17.002407"
+  "last_updated": "2026-03-04T09:07:37.356635"
 }
