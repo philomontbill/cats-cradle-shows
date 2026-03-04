@@ -4,7 +4,7 @@ Scrape monitoring script. Runs after each daily scrape.
 
 - Compares current show counts to previous counts (stored in logs/scrape-history.json)
 - Logs every run to logs/scrape-report.txt
-- Prints ALERT lines for: zero shows, 50%+ drop from previous scrape
+- Prints ALERT lines for: zero shows, 25%+ drop from previous scrape, below 20 shows
 - Exit code 1 if any alerts fired (used by GitHub Actions to trigger email)
 """
 
@@ -16,7 +16,8 @@ from datetime import datetime
 
 HISTORY_FILE = "logs/scrape-history.json"
 REPORT_FILE = "logs/scrape-report.txt"
-DROP_THRESHOLD = 0.5  # 50% drop triggers alert
+DROP_THRESHOLD = 0.25  # 25% drop triggers alert
+MIN_SHOW_FLOOR = 20    # Alert if venue has fewer than this many shows
 
 
 def load_history():
@@ -57,6 +58,10 @@ def check_counts(current, previous):
             alerts.append(f"ALERT: {venue} — failed to read/parse JSON")
         elif count == 0:
             alerts.append(f"ALERT: {venue} — zero shows returned")
+        elif count < MIN_SHOW_FLOOR:
+            alerts.append(
+                f"ALERT: {venue} — only {count} shows (below floor of {MIN_SHOW_FLOOR})"
+            )
         elif prev is not None and prev > 0:
             drop = (prev - count) / prev
             if drop >= DROP_THRESHOLD:

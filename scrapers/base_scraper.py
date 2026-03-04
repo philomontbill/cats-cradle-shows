@@ -250,11 +250,13 @@ class BaseScraper:
 
             resp = requests.get(url, timeout=10)
             if resp.status_code == 403:
-                print(f"    ⚠ YouTube API quota exceeded, falling back to scraping")
-                return self._search_youtube_scrape(artist_name, is_opener)
+                print(f"    ⚠ YouTube API quota exceeded, skipping {artist_name}")
+                self._log_match(artist_name, None, 0, "skip", "quota exhausted — skipped", is_opener)
+                return None
             if resp.status_code != 200:
-                print(f"    ⚠ YouTube API error {resp.status_code}")
-                return self._search_youtube_scrape(artist_name, is_opener)
+                print(f"    ⚠ YouTube API error {resp.status_code}, skipping {artist_name}")
+                self._log_match(artist_name, None, 0, "skip", f"API error {resp.status_code} — skipped", is_opener)
+                return None
 
             data = resp.json()
             items = data.get("items", [])
@@ -325,46 +327,8 @@ class BaseScraper:
             return result_id
 
         except Exception as e:
-            print(f"    ⚠ API error: {e}")
-            return self._search_youtube_scrape(artist_name, is_opener)
-
-    def _search_youtube_scrape(self, artist_name, is_opener=False):
-        """Fallback: Search YouTube by scraping search results. Expects pre-cleaned name."""
-        try:
-            if not artist_name or len(artist_name) < 2:
-                return None
-
-            search_queries = [
-                f"{artist_name} band official video",
-                f"{artist_name} band music",
-                f"{artist_name} official music video",
-            ]
-
-            for query_text in search_queries:
-                query = quote_plus(query_text)
-                url = f"https://www.youtube.com/results?search_query={query}"
-
-                response = requests.get(url, headers=self.headers, timeout=10)
-
-                if response.status_code == 200:
-                    patterns = [
-                        r'"videoId":"([a-zA-Z0-9_-]{11})"',
-                        r'/watch\?v=([a-zA-Z0-9_-]{11})',
-                    ]
-
-                    for pattern in patterns:
-                        matches = re.findall(pattern, response.text)
-                        if matches:
-                            video_id = matches[0]
-                            self._log_match(artist_name, video_id, None, "scrape_fallback", "scraped (no confidence score)", is_opener)
-                            return video_id
-
-                time.sleep(0.3)
-
-            self._log_match(artist_name, None, 0, "no_results", "scrape fallback found nothing", is_opener)
-            return None
-
-        except Exception:
+            print(f"    ⚠ API error: {e}, skipping {artist_name}")
+            self._log_match(artist_name, None, 0, "skip", f"API exception — skipped: {e}", is_opener)
             return None
 
     # --- Smart search: reuse existing high-confidence matches ---

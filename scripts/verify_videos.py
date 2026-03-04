@@ -3,12 +3,11 @@
 Video Verifier — Phase 3 of the video matching pipeline.
 
 Checks unverified YouTube video assignments against multiple signals:
-- View count (tiered caps: 5M default, 10-50M with Spotify popularity, 50M for trusted labels/VEVO)
-- Trusted channel detection (label allowlist + VEVO — bypasses mismatch/age/Spotify rejections)
+- View count (5M default, 50M for trusted labels/VEVO)
+- Trusted channel detection (label allowlist + VEVO — bypasses mismatch/age rejections)
 - Channel analysis (name match, type, subscriber count as modifier)
 - Upload date (flag old videos with weak signals)
 - Venue placeholder image (flag events masquerading as bands)
-- Spotify identity (reject if not found on Spotify AND channel doesn't match AND not trusted)
 
 Runs after scrapers in the nightly GitHub Actions workflow.
 Reads all data/shows-*.json files and qa/video_states.json.
@@ -73,16 +72,6 @@ TRUSTED_LABELS = {
 }
 
 TRUSTED_CHANNEL_VIEW_CAP = 50_000_000  # 50M — raised cap for trusted labels/VEVO
-
-# Spotify-popularity-aware view count caps.
-# Higher popularity = higher acceptable view count.
-# Ordered highest to lowest; first matching tier wins.
-SPOTIFY_VIEW_CAPS = [
-    (70, None),          # popularity >= 70: no cap (major artist)
-    (50, 50_000_000),    # popularity >= 50: 50M cap
-    (30, 10_000_000),    # popularity >= 30: 10M cap
-]
-DEFAULT_VIEW_CAP = VIEW_COUNT_CAP  # 5M when no Spotify data or popularity < 30
 
 
 def load_api_key():
@@ -222,8 +211,7 @@ def channel_matches_artist(channel_name, artist_name):
     return ar in ch or ch in ar
 
 
-def verify_video(artist_name, video_id, venue_name, image_url, api_key,
-                  spotify_entry=None):
+def verify_video(artist_name, video_id, venue_name, image_url, api_key):
     """
     Run all verification checks on a single video.
     Returns (passed: bool, reasons: list[str], metadata: dict).
@@ -287,19 +275,9 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
         if trusted_channel:
             effective_cap = TRUSTED_CHANNEL_VIEW_CAP
             metadata["view_cap_reason"] = f"trusted channel ({trusted_reason})"
-        elif spotify_entry and spotify_entry.get("popularity") is not None:
-            sp_pop = spotify_entry.get("popularity", 0)
-            effective_cap = DEFAULT_VIEW_CAP
-            cap_reason = f"Spotify popularity {sp_pop}"
-            for min_pop, cap in SPOTIFY_VIEW_CAPS:
-                if sp_pop >= min_pop:
-                    effective_cap = cap
-                    cap_reason = f"Spotify popularity {sp_pop} (>={min_pop})"
-                    break
-            metadata["view_cap_reason"] = cap_reason
         else:
-            effective_cap = DEFAULT_VIEW_CAP
-            metadata["view_cap_reason"] = "default (no trust signals)"
+            effective_cap = VIEW_COUNT_CAP
+            metadata["view_cap_reason"] = "default (5M cap)"
 
         if effective_cap is not None and views > effective_cap:
             reasons.append(
@@ -344,52 +322,9 @@ def verify_video(artist_name, video_id, venue_name, image_url, api_key,
         except (ValueError, TypeError):
             pass
 
-    # --- Evaluate: Spotify identity check ---
-    # If Spotify can't confirm this is a real artist AND the channel doesn't
-    # match, that's a strong signal the video is wrong
-    if spotify_entry:
-        sp_conf = spotify_entry.get("match_confidence", "")
-        sp_pop = spotify_entry.get("popularity")
-        metadata["spotify_match"] = sp_conf
-        metadata["spotify_popularity"] = sp_pop
-
-        if sp_conf == "no_match" and not artist_channel_match and not topic:
-            if trusted_channel:
-                metadata["spotify_override"] = (
-                    f"trusted {trusted_reason}, skipping Spotify no_match rejection"
-                )
-            else:
-                reasons.append("not found on Spotify + channel mismatch")
-        elif (sp_conf in ("close", "partial")
-              and not artist_channel_match and not topic):
-            sp_name = spotify_entry.get("spotify_name", "?")
-            metadata["spotify_warning"] = (
-                f"Spotify matched '{sp_name}' (not exact)"
-                f" and channel doesn't match"
-            )
-
     passed = len(reasons) == 0
     return passed, reasons, metadata
 
-
-def load_spotify_cache():
-    """Load Spotify enrichment cache for report annotations."""
-    path = os.path.join(_PROJECT_ROOT, "qa", "spotify_cache.json")
-    try:
-        with open(path) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
-
-
-def spotify_csv_indicator(artist_name, spotify_cache):
-    """Return Spotify match/popularity as 'match (pop)' for CSV-friendly format."""
-    entry = spotify_cache.get(artist_name, {})
-    conf = entry.get("match_confidence", "")
-    pop = entry.get("popularity", "")
-    if conf:
-        return f"{conf} ({pop})" if pop != "" else conf
-    return ""
 
 
 def load_latest_audit():
@@ -481,8 +416,7 @@ def compute_inventory(states, all_shows_data):
     return totals, venues
 
 
-def build_issue_body(tonight, states, all_shows_data, old_states,
-                     spotify_cache=None):
+def build_issue_body(tonight, states, all_shows_data, old_states):
     """Build the daily video report as a GitHub-flavored markdown issue body.
 
     Sections:
@@ -490,8 +424,6 @@ def build_issue_body(tonight, states, all_shows_data, old_states,
       2. Full Inventory — coverage stats by venue
       3. Accuracy — from latest audit + history
     """
-    if spotify_cache is None:
-        spotify_cache = {}
     date_str = datetime.now().strftime("%b %d, %Y")
     csv_filename = f"video-report-{datetime.now().strftime('%Y-%m-%d')}.csv"
 
@@ -520,26 +452,24 @@ def build_issue_body(tonight, states, all_shows_data, old_states,
 
     if tonight["verified"]:
         lines.append("### Newly Verified")
-        lines.append("| Artist | Venue | Date | Spotify | Detail |")
-        lines.append("|--------|-------|------|---------|--------|")
+        lines.append("| Artist | Venue | Date | Detail |")
+        lines.append("|--------|-------|------|--------|")
         for v in tonight["verified"]:
-            sp = spotify_csv_indicator(v["artist"], spotify_cache)
             lines.append(
                 f"| {v['artist']} | {v['venue']} | {v['date']} "
-                f"| {sp} | {v['confidence']} |"
+                f"| {v['confidence']} |"
             )
         lines.append("")
 
     if tonight["rejected"]:
         lines.append("### Newly Rejected")
-        lines.append("| Artist | Venue | Date | Spotify | Reason |")
-        lines.append("|--------|-------|------|---------|--------|")
+        lines.append("| Artist | Venue | Date | Reason |")
+        lines.append("|--------|-------|------|--------|")
         for r in tonight["rejected"]:
             reason_str = "; ".join(r["reasons"])
-            sp = spotify_csv_indicator(r["artist"], spotify_cache)
             lines.append(
                 f"| {r['artist']} | {r['venue']} | {r['date']} "
-                f"| {sp} | {reason_str} |"
+                f"| {reason_str} |"
             )
         lines.append("")
 
@@ -642,11 +572,8 @@ def build_issue_body(tonight, states, all_shows_data, old_states,
     return "\n".join(lines)
 
 
-def build_csv(tonight, states, all_shows_data, old_states,
-              spotify_cache=None):
-    """Build a combined CSV with Spotify match, popularity, and Changed columns."""
-    if spotify_cache is None:
-        spotify_cache = {}
+def build_csv(tonight, states, all_shows_data, old_states):
+    """Build a combined CSV with Changed column."""
 
     # Build set of recovered artists (rejected before, verified now)
     recovered_artists = set()
@@ -657,28 +584,21 @@ def build_csv(tonight, states, all_shows_data, old_states,
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
-                     "Spotify Match", "Spotify Popularity", "Detail",
-                     "Changed"])
+                     "Detail", "Changed"])
 
     for v in tonight["verified"]:
         url = f"https://youtube.com/watch?v={v['video_id']}"
-        entry = spotify_cache.get(v["artist"], {})
-        sp_match = entry.get("match_confidence", "")
-        sp_pop = entry.get("popularity", "")
         changed = "Recovered" if v["artist"] in recovered_artists else "New"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
-                         sp_match, sp_pop, v["confidence"], changed])
+                         v["confidence"], changed])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
-        entry = spotify_cache.get(r["artist"], {})
-        sp_match = entry.get("match_confidence", "")
-        sp_pop = entry.get("popularity", "")
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
                          r["venue"], r["date"], url,
-                         sp_match, sp_pop, reason_str, "New"])
+                         reason_str, "New"])
 
     # No preview queue — check both headliners and openers
     for filepath, data in all_shows_data:
@@ -707,11 +627,8 @@ def build_csv(tonight, states, all_shows_data, old_states,
                     status = "No video from scraper"
                 else:
                     status = "No video assigned"
-                entry = spotify_cache.get(artist, {})
-                sp_match = entry.get("match_confidence", "")
-                sp_pop = entry.get("popularity", "")
                 writer.writerow(["No Preview", artist, role, venue, date, "",
-                                 sp_match, sp_pop, status, ""])
+                                 status, ""])
 
     return output.getvalue()
 
@@ -838,7 +755,6 @@ def main():
     artist_overrides = overrides.get("artist_youtube", {})
     opener_overrides = overrides.get("opener_youtube", {})
     states = load_video_states()
-    spotify_cache = load_spotify_cache()
     all_shows_data = load_all_shows()
 
     # Snapshot old states before verification (for recovery detection)
@@ -890,10 +806,8 @@ def main():
                 # --- Verify this video ---
                 time.sleep(1.0)  # Throttle API requests to avoid per-second rate limits
                 print(f"\n  Verifying: {artist} — {video_id}")
-                sp_entry = spotify_cache.get(artist)
                 passed, reasons, metadata = verify_video(
-                    artist, video_id, venue, image, api_key,
-                    spotify_entry=sp_entry
+                    artist, video_id, venue, image, api_key
                 )
                 api_calls += 2  # video + channel metadata
 
@@ -971,11 +885,11 @@ def main():
         if vid is None and artist not in states:
             states[artist] = {"status": "override_null"}
 
-    # Build issue body and CSV (spotify_cache already loaded above)
+    # Build issue body and CSV
     issue_body = build_issue_body(tonight, states, all_shows_data,
-                                  old_states, spotify_cache)
+                                  old_states)
     csv_text = build_csv(tonight, states, all_shows_data,
-                         old_states, spotify_cache)
+                         old_states)
 
     print("\n" + "=" * 50)
     print(issue_body)
