@@ -326,9 +326,13 @@ class BaseScraper:
 
             return result_id
 
+        except requests.RequestException as e:
+            print(f"    ⚠ YouTube API error: {e}, skipping {artist_name}")
+            self._log_match(artist_name, None, 0, "api_error", f"YouTube/network error — skipped: {e}", is_opener)
+            return None
         except Exception as e:
-            print(f"    ⚠ API error: {e}, skipping {artist_name}")
-            self._log_match(artist_name, None, 0, "skip", f"API exception — skipped: {e}", is_opener)
+            print(f"    ⚠ CODE ERROR scoring {artist_name}: {e}")
+            self._log_match(artist_name, None, 0, "code_error", f"code error — skipped: {e}", is_opener)
             return None
 
     # --- Smart search: reuse existing high-confidence matches ---

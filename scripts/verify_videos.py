@@ -572,33 +572,45 @@ def build_issue_body(tonight, states, all_shows_data, old_states):
     return "\n".join(lines)
 
 
-def build_csv(tonight, states, all_shows_data, old_states):
-    """Build a combined CSV with Changed column."""
+def load_match_log():
+    """Load match_log.json and return most recent tier per artist."""
+    path = os.path.join(_PROJECT_ROOT, "qa", "match_log.json")
+    try:
+        with open(path) as f:
+            entries = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    # Iterate forward — last entry per artist is most recent
+    latest = {}
+    for entry in entries:
+        artist = entry.get("artist", "")
+        if artist:
+            latest[artist] = entry.get("tier", "")
+    return latest
 
-    # Build set of recovered artists (rejected before, verified now)
-    recovered_artists = set()
-    for v in tonight["verified"]:
-        if old_states.get(v["artist"]) == "rejected":
-            recovered_artists.add(v["artist"])
+
+def build_csv(tonight, states, all_shows_data, old_states):
+    """Build a combined CSV with Skip Reason column."""
+
+    match_tiers = load_match_log()
 
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
-                     "Detail", "Changed"])
+                     "Detail", "Skip Reason"])
 
     for v in tonight["verified"]:
         url = f"https://youtube.com/watch?v={v['video_id']}"
-        changed = "Recovered" if v["artist"] in recovered_artists else "New"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
-                         v["confidence"], changed])
+                         v["confidence"], ""])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
                          r["venue"], r["date"], url,
-                         reason_str, "New"])
+                         reason_str, ""])
 
     # No preview queue — check both headliners and openers
     for filepath, data in all_shows_data:
@@ -627,8 +639,9 @@ def build_csv(tonight, states, all_shows_data, old_states):
                     status = "No video from scraper"
                 else:
                     status = "No video assigned"
+                skip_reason = match_tiers.get(artist, "")
                 writer.writerow(["No Preview", artist, role, venue, date, "",
-                                 status, ""])
+                                 status, skip_reason])
 
     return output.getvalue()
 
