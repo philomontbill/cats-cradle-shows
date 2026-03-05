@@ -6099,27 +6099,6 @@
       "spotify_popularity": 35
     }
   },
-  "TELYKAST": {
-    "status": "rejected",
-    "video_id": "0SvT0R3da8s",
-    "rejected_date": "2026-03-03T09:12:51.067912",
-    "reason": "non-matching channel 'Armada Music TV' with 5,540,000 subscribers",
-    "metadata": {
-      "video_title": "TELYKAST, x.o.anne - Free (Official Music Video)",
-      "channel_name": "Armada Music TV",
-      "view_count": 108260,
-      "published": "2024-05-17T19:00:00Z",
-      "channel_subscribers": 5540000,
-      "channel_videos": 15611,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 53 (>=50)",
-      "video_age_years": 1.8,
-      "spotify_match": "exact",
-      "spotify_popularity": 53
-    }
-  },
   "Surfing For Daisy": {
     "status": "verified",
     "video_id": "LFV-p4zCz5Y",

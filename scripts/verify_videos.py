@@ -69,6 +69,7 @@ TRUSTED_LABELS = {
     "flightlessrecords": "Flightless Records",
     "warnerrecords": "Warner Records",
     "carparkrecords": "Carpark Records",
+    "armadamusictv": "Armada Music",
 }
 
 TRUSTED_CHANNEL_VIEW_CAP = 50_000_000  # 50M — raised cap for trusted labels/VEVO
