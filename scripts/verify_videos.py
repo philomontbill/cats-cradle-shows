@@ -847,11 +847,7 @@ def deliver_daily_report(issue_body, csv_text):
             rows.append([report_date] + row)
         if rows:
             append_to_sheet(rows, "Daily Video Reports", header=sheet_header)
-            # Sort: most recent date first, headliners before openers
-            sort_sheet("Daily Video Reports", [
-                (0, "DESCENDING"),  # Report Date
-                (3, "ASCENDING"),   # Role (headliner < opener)
-            ])
+            # No sort — CSV row order preserves the actionable/expected layout
 
     # Ensure Definitions tab exists (no-op after first run)
     ensure_definitions_tab()
