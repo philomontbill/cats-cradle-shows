@@ -198,7 +198,7 @@ class ShowsApp {
                     });
                     this.togglePlayer(index, show.youtube_id, show.artist);
                 } else {
-                    this.showNoPreview(show.artist);
+                    this.showNoPreview(show.artist, 'headliner');
                 }
             };
             header.addEventListener('click', handleHeadliner);
@@ -227,7 +227,7 @@ class ShowsApp {
                     });
                     this.togglePlayer(index, show.opener_youtube_id, name);
                 } else {
-                    this.showNoPreview(name);
+                    this.showNoPreview(name, 'opener');
                 }
             };
             openerEl.addEventListener('click', handleOpener);
@@ -363,7 +363,7 @@ class ShowsApp {
 
     // --- Dialogs ---
 
-    showNoPreview(artist) {
+    showNoPreview(artist, role) {
         // Remove any existing popup
         const existing = document.querySelector('.no-preview-popup');
         if (existing) existing.remove();
@@ -371,12 +371,18 @@ class ShowsApp {
         // Save the element that triggered the modal so we can return focus
         const previousFocus = document.activeElement;
 
+        const escapedArtist = this.escapeHtml(artist);
+        const message = role === 'headliner'
+            ? `<p>No preview yet for <strong>${escapedArtist}</strong></p>
+               <p>This may be an event rather than an artist. If we got it wrong, <a href="mailto:info@localsoundcheck.com?subject=Correction for ${encodeURIComponent(artist)}&body=YouTube link:">send us a correction</a>.</p>`
+            : `<p>No preview yet for <strong>${escapedArtist}</strong></p>
+               <p>Are you the artist? <a href="mailto:info@localsoundcheck.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>`;
+
         const popup = document.createElement('div');
         popup.className = 'no-preview-popup';
         popup.innerHTML = `
-            <div class="no-preview-content" role="dialog" aria-modal="true" aria-label="No preview available for ${this.escapeHtml(artist)}">
-                <p>No preview yet for <strong>${this.escapeHtml(artist)}</strong></p>
-                <p>Are you the artist? <a href="mailto:info@localsoundcheck.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>
+            <div class="no-preview-content" role="dialog" aria-modal="true" aria-label="No preview available for ${escapedArtist}">
+                ${message}
                 <button class="no-preview-close" aria-label="Close dialog">&times;</button>
             </div>
         `;
