@@ -200,7 +200,13 @@ def ensure_definitions_tab():
         [],
         ["Quality Metric", "Definition"],
         ["Match Confidence", "% of assigned videos scoring 70+ in name matching (audit oEmbed score). Measures name similarity, not true video correctness."],
-        ["Coverage", "% of active shows with a video assigned."],
+        ["Coverage", "% of active shows with a video assigned. Excludes expired shows and override-null artists."],
+        [],
+        ["Report Filters (what is excluded)", ""],
+        ["Expired shows", "Shows past their date are excluded from No Preview rows and inventory counts."],
+        ["Override-null artists", "Artists with null overrides (events, not bands) are excluded from No Preview rows. Counted separately as Overrides in inventory."],
+        [],
+        ["Last updated", "2026-03-05"],
     ]
 
     try:
