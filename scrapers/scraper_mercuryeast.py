@@ -84,6 +84,8 @@ class MercuryEastScraper(BaseScraper):
                 matches = re.findall(pattern, response.text)
 
                 for value, url in matches:
+                    # Unescape JavaScript string escapes (e.g. \' → ')
+                    value = value.replace("\\'", "'")
                     event = self._parse_event_data(value, url)
                     if event and event not in events:
                         events.append(event)
