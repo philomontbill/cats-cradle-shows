@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Ike Reilly Assassination",
-      "date": "Wed, Mar 04",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/6a6/0c93dcad-6933-4277-a661-0e6738eec6a6_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/ike-reilly-assassination/",
-      "youtube_id": "dFE3GGhDEdM"
-    },
-    {
-      "artist": "Residual Groove, One Time Weekend",
-      "date": "Wed, Mar 04",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "9pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/12/social-graphic-3.4.png",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/residual-groove-one-time-weekend/",
-      "youtube_id": "BnaTkioAkEQ"
-    },
-    {
       "artist": "*LOW TIX* Caroline Jones",
       "date": "Thu, Mar 05",
       "venue": "Bowery Ballroom",
@@ -39,7 +15,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
-      "youtube_id": "_wcQe166mt4"
+      "youtube_id": "T9hhbxwPyTc"
     },
     {
       "artist": "*LOW TIX* Bryce Vine",
@@ -51,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/af8/fe4ccad7-46f0-4000-b7a6-560b07c83af8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/bryce-vine/",
-      "youtube_id": "ivRYJ1DOhn8"
+      "youtube_id": "Q7_wfC_QRkw"
     },
     {
       "artist": "Mike Viola",
@@ -75,7 +51,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
-      "youtube_id": "alOg6JtFHzU"
+      "youtube_id": null
     },
     {
       "artist": "The Ramona Flowers",
@@ -87,7 +63,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
-      "youtube_id": "F5VRAsN4VH0"
+      "youtube_id": "5eZoJBcf6BE"
     },
     {
       "artist": "All Your Friends: The Indie Party",
@@ -150,7 +126,7 @@
       "youtube_id": "LFV-p4zCz5Y"
     },
     {
-      "artist": "True Jackson, Charlie Jacoby, Jennys Setlist",
+      "artist": "True Jackson, Charlie Margaux, Jennys Setlist",
       "date": "Sun, Mar 08",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -159,7 +135,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a09/fe7a69bf-17e7-40fd-afad-44c6026a5a09_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/true-jackson-charlie-jacoby-jennys-setlist/",
-      "youtube_id": "IqAjWnrsTxA"
+      "youtube_id": null
     },
     {
       "artist": "NYC Barz Exam: Karl Dice Raw Jenkins + more",
@@ -195,7 +171,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
-      "youtube_id": "FZAOpMM-FxE"
+      "youtube_id": "rPpiNRVOJs8"
     },
     {
       "artist": "Chasing Abbey",
@@ -304,10 +280,34 @@
       "image": "https://s1.ticketm.net/dam/e/a16/4963dbd5-d7cd-435b-acb6-1668d4781a16_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/hlwa/",
       "youtube_id": null
+    },
+    {
+      "artist": "Kevin Devine & The Goddamn Band are Kenny O\\'Brien & The O\\'Douls",
+      "date": "Sat, Mar 14",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "6pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/fd0/9fcfcd98-6e7f-4f42-bb13-1e941ad88fd0_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/kevin-devine-the-goddamn-band-are-kenny-obrien-the-odouls/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Taiki Nulight - cheeky bugger tour",
+      "date": "Sat, Mar 14",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "8pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/82d/b3eb8cce-62dc-4d66-8517-0cc0a0d8982d_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/taiki-nulight-cheeky-bugger-tour/",
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 20,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-04T09:09:02.868087"
+  "last_updated": "2026-03-05T09:12:20.603258"
 }

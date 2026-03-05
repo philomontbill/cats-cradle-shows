@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Blends With Friends (Open Decks)",
-      "date": "Wed, Mar 04",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Blends_1298481768149959.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/67977725/blends-with-friends-open-decks-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Fish Hunt / People I Love / Kelly Reidy",
       "date": "Thu, Mar 05",
       "doors": "7:30 pm",
@@ -205,7 +194,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/57735922/blair-polo-perks-doris-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Persimmon / Bangzz / cardigan",
+      "date": "Fri, Apr 03",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/03/persimmon-bangzz-cardigan.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/55429043/persimmon-bangzz-cardigan-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "pJB73dMIABI"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 19,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-04T09:07:53.881252"
+  "last_updated": "2026-03-05T09:10:51.447774"
 }

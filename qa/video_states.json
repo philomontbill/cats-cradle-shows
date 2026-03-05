@@ -1217,32 +1217,34 @@
     }
   },
   "Por Vida and Embrace The Oblivion": {
-    "status": "verified",
-    "video_id": "oiUFDMCMp7U",
-    "verified_date": "2026-02-23T11:23:06.323026",
-    "confidence": "76,797 views",
+    "status": "rejected",
+    "video_id": "LlqOMYwqVWE",
+    "rejected_date": "2026-03-05T09:12:56.820195",
+    "reason": "artist name not found in channel or title",
     "metadata": {
-      "video_title": "FALLUJAH - Embrace Oblivion (OFFICIAL LYRIC VIDEO)",
-      "channel_name": "Fallujah",
-      "view_count": 76797,
-      "published": "2022-07-07T17:00:23Z",
-      "channel_subscribers": 14300,
-      "channel_videos": 43,
+      "video_title": "Sutura (Bra) - Into Oblivion The Embrace of Darkness (Single 2023)",
+      "channel_name": "Death Metal Promotion",
+      "view_count": 2111,
+      "published": "2023-06-05T14:00:12Z",
+      "channel_subscribers": 45800,
+      "channel_videos": 2383,
       "is_topic": false,
       "channel_match": false,
-      "channel_warning": "channel 'Fallujah' doesn't match artist",
-      "video_age_years": 3.6
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.7
     }
   },
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-04T09:10:07.526496",
+    "verified_date": "2026-03-05T09:13:06.347055",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5334818,
+      "view_count": 5335561,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -1250,12 +1252,11 @@
       "channel_match": false,
       "vevo_channel": true,
       "trusted_channel": true,
+      "session_channel": false,
       "trusted_reason": "VEVO",
       "view_cap_reason": "trusted channel (VEVO)",
       "channel_override": "trusted VEVO, skipping mismatch check",
-      "video_age_years": 12.3,
-      "spotify_match": "exact",
-      "spotify_popularity": 1
+      "video_age_years": 12.3
     }
   },
   "Black Joe Lewis and Pinata Protest": {
@@ -5022,24 +5023,22 @@
   },
   "The Ramona Flowers": {
     "status": "verified",
-    "video_id": "F5VRAsN4VH0",
-    "verified_date": "2026-03-03T09:12:49.807612",
-    "confidence": "61,564 views",
+    "video_id": "5eZoJBcf6BE",
+    "verified_date": "2026-03-05T09:12:52.077683",
+    "confidence": "channel match, 297,455 views",
     "metadata": {
-      "video_title": "The Ramona Flowers - Dismantle and Rebuild (Official Music Video)",
-      "channel_name": "DistillerRecords",
-      "view_count": 61564,
-      "published": "2012-09-28T16:40:38Z",
-      "channel_subscribers": 2790,
-      "channel_videos": 29,
+      "video_title": "The Ramona Flowers ft. Nile Rodgers - Up All Night (Official Video)",
+      "channel_name": "The Ramona Flowers",
+      "view_count": 297455,
+      "published": "2021-11-11T13:00:09Z",
+      "channel_subscribers": 8400,
+      "channel_videos": 166,
       "is_topic": false,
-      "channel_match": false,
+      "channel_match": true,
       "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 24",
-      "channel_warning": "channel 'DistillerRecords' doesn't match artist",
-      "video_age_years": 13.4,
-      "spotify_match": "exact",
-      "spotify_popularity": 24
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 4.3
     }
   },
   "The Early November & Hellogoodbye: 20 Years Young": {
@@ -6204,25 +6203,24 @@
   },
   "Belle Blue": {
     "status": "verified",
-    "video_id": "FZAOpMM-FxE",
-    "verified_date": "2026-03-04T09:09:43.858390",
-    "confidence": "channel match, VEVO, 2,862 views",
+    "video_id": "rPpiNRVOJs8",
+    "verified_date": "2026-03-05T09:12:54.431608",
+    "confidence": "channel match, VEVO, 645 views",
     "metadata": {
-      "video_title": "Belle Blue - woof (Official Music Video)",
+      "video_title": "Belle Blue - Jack (Official Music Video)",
       "channel_name": "BelleBlueVEVO",
-      "view_count": 2862,
-      "published": "2025-03-04T08:42:31Z",
+      "view_count": 645,
+      "published": "2026-01-30T08:01:07Z",
       "channel_subscribers": 97,
       "channel_videos": 4,
       "is_topic": false,
       "channel_match": true,
       "vevo_channel": true,
       "trusted_channel": true,
+      "session_channel": false,
       "trusted_reason": "VEVO",
       "view_cap_reason": "trusted channel (VEVO)",
-      "video_age_years": 1.0,
-      "spotify_match": "exact",
-      "spotify_popularity": 6
+      "video_age_years": 0.1
     }
   },
   "Rivalry Night": {
@@ -6316,22 +6314,21 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-04T09:10:05.189312",
-    "confidence": "channel match, 13,569 views",
+    "verified_date": "2026-03-05T09:13:04.025529",
+    "confidence": "channel match, 13,577 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13569,
+      "view_count": 13577,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 32 (>=30)",
-      "video_age_years": 11.4,
-      "spotify_match": "close",
-      "spotify_popularity": 32
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 11.4
     }
   },
   "h.pruz": {
@@ -7806,44 +7803,42 @@
   },
   "*LOW TIX* Caroline Jones": {
     "status": "verified",
-    "video_id": "_wcQe166mt4",
-    "verified_date": "2026-03-04T09:09:41.488582",
-    "confidence": "channel match, Topic channel, 9,404 views",
+    "video_id": "T9hhbxwPyTc",
+    "verified_date": "2026-03-05T09:12:49.700895",
+    "confidence": "Topic channel, 44 views",
     "metadata": {
-      "video_title": "All of the Boys (Dance Mix)",
-      "channel_name": "Caroline Jones - Topic",
-      "view_count": 9404,
-      "published": "2020-03-26T10:44:19Z",
-      "channel_subscribers": 1520,
-      "channel_videos": 174,
+      "video_title": "Caroline Jones",
+      "channel_name": "Dorsey - Topic",
+      "view_count": 44,
+      "published": "2015-07-24T12:08:57Z",
+      "channel_subscribers": 7,
+      "channel_videos": 48,
       "is_topic": true,
-      "channel_match": true,
+      "channel_match": false,
       "trusted_channel": false,
-      "view_check": "skipped (Topic channel match)",
-      "video_age_years": 5.9,
-      "spotify_match": "close",
-      "spotify_popularity": 37
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 10.6
     }
   },
   "*LOW TIX* Bryce Vine": {
     "status": "verified",
-    "video_id": "ivRYJ1DOhn8",
-    "verified_date": "2026-03-04T09:09:42.669244",
-    "confidence": "channel match, 1,710 views",
+    "video_id": "Q7_wfC_QRkw",
+    "verified_date": "2026-03-05T09:12:50.866176",
+    "confidence": "channel match, 1,432 views",
     "metadata": {
-      "video_title": "Bryce Vine - 'Right Thing, Wrong Time (Feat. State Champs)' [Official Audio]",
+      "video_title": "Bryce Vine - 'Happy Never After' [Official Audio]",
       "channel_name": "Bryce Vine",
-      "view_count": 1710,
-      "published": "2026-02-20T05:00:59Z",
+      "view_count": 1432,
+      "published": "2026-02-20T05:00:35Z",
       "channel_subscribers": 304000,
       "channel_videos": 232,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 60 (>=50)",
-      "video_age_years": 0.0,
-      "spotify_match": "close",
-      "spotify_popularity": 60
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
     }
   },
   "WHATMORE": {
@@ -8262,6 +8257,166 @@
       "video_age_years": 0.2,
       "spotify_match": "no_match",
       "spotify_popularity": null
+    }
+  },
+  "True Jackson, Charlie Margaux, Jennys Setlist": {
+    "status": "rejected",
+    "video_id": "S0bJynsqSGc",
+    "rejected_date": "2026-03-05T09:12:53.238466",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "True Jackson VP (Full Theme Song) HD + Lyrics",
+      "channel_name": "x4tash",
+      "view_count": 2158405,
+      "published": "2021-03-19T20:38:15Z",
+      "channel_subscribers": 3770,
+      "channel_videos": 111,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.0
+    }
+  },
+  "w/ Lizzie No.": {
+    "status": "verified",
+    "video_id": "MWoZ6DRUR6E",
+    "verified_date": "2026-03-05T09:12:59.196052",
+    "confidence": "channel match, Topic channel, 32,175 views",
+    "metadata": {
+      "video_title": "Please Don't Change Your Mind",
+      "channel_name": "Lizzie No - Topic",
+      "view_count": 32175,
+      "published": "2017-03-30T10:26:53Z",
+      "channel_subscribers": 249,
+      "channel_videos": 54,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 8.9
+    }
+  },
+  "Crystal Spiders and Insomniac": {
+    "status": "verified",
+    "video_id": "WWP0sxA7ZNw",
+    "verified_date": "2026-03-05T09:13:00.431700",
+    "confidence": "channel match, 6,331 views",
+    "metadata": {
+      "video_title": "EDC Week 2016 Charity Auction",
+      "channel_name": "Insomniac",
+      "view_count": 6331,
+      "published": "2016-04-27T19:00:16Z",
+      "channel_subscribers": 663000,
+      "channel_videos": 3689,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 9.9
+    }
+  },
+  "Marshall Live from Mohawk": {
+    "status": "rejected",
+    "video_id": "sowqLaGz5Ug",
+    "rejected_date": "2026-03-05T09:13:01.650663",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Capyac Live at Mohawk",
+      "channel_name": "Capyac",
+      "view_count": 2827,
+      "published": "2015-09-08T18:04:49Z",
+      "channel_subscribers": 5900,
+      "channel_videos": 76,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 10.5
+    }
+  },
+  "Water From Your Eyes, This Is Lorelei, Rocket, Meg Eliser, Cure For Paranoia, Diles Que No Me Maten, Ashaine White, Total Wife, Bloodsports, Gran Moreno, Almost Heaven, Worlds Worst, Dj Sets By Dj Devil Woman and Horse Opera!": {
+    "status": "verified",
+    "video_id": "1reSpJWbuYE",
+    "verified_date": "2026-03-05T09:13:02.833693",
+    "confidence": "channel match, 175,712 views",
+    "metadata": {
+      "video_title": "Water From Your Eyes - \"Life Signs\" (Official Music Video)",
+      "channel_name": "Water From Your Eyes",
+      "view_count": 175712,
+      "published": "2025-06-04T13:59:35Z",
+      "channel_subscribers": 8760,
+      "channel_videos": 77,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "JUMP": {
+    "status": "rejected",
+    "video_id": "kcQJDpj5TSY",
+    "rejected_date": "2026-03-05T09:13:05.168553",
+    "reason": "view count 42,450,878 exceeds 5,000,000 cap; non-matching channel 'Patty Shukla Kids TV - Children's songs' with 3,280,000 subscribers",
+    "metadata": {
+      "video_title": "Jump! Children's song by Patty Shukla (DVD version)",
+      "channel_name": "Patty Shukla Kids TV - Children's songs",
+      "view_count": 42450878,
+      "published": "2011-08-18T13:49:05Z",
+      "channel_subscribers": 3280000,
+      "channel_videos": 753,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 14.5
+    }
+  },
+  "Missbliss!": {
+    "status": "verified",
+    "video_id": "xNG2MUXtK4E",
+    "verified_date": "2026-03-05T09:13:07.557340",
+    "confidence": "channel match, 479 views",
+    "metadata": {
+      "video_title": "Miss Bliss- New Shit",
+      "channel_name": "MISSBLISSTV",
+      "view_count": 479,
+      "published": "2022-04-14T14:31:39Z",
+      "channel_subscribers": 409,
+      "channel_videos": 12,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.9
+    }
+  },
+  "Persimmon / Bangzz / cardigan": {
+    "status": "verified",
+    "video_id": "pJB73dMIABI",
+    "verified_date": "2026-03-05T09:13:08.717676",
+    "confidence": "Topic channel, 7,105 views",
+    "metadata": {
+      "video_title": "Persimmon",
+      "channel_name": "The Army, The Navy - Topic",
+      "view_count": 7105,
+      "published": "2026-01-20T23:32:26Z",
+      "channel_subscribers": 1800,
+      "channel_videos": 22,
+      "is_topic": true,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
     }
   }
 }

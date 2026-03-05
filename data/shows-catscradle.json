@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Coma Cinema",
-      "date": "Wed, Mar 04",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Trace Mountains, honeygaze",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Coma_2045081763505072.jpg",
-      "event_url": "https://catscradle.com/event/coma-cinema/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "HyP3ND7Xm4A",
-      "opener_youtube_id": "WzRufA4b3dg"
-    },
-    {
       "artist": "Rivalry Night",
       "date": "Thu, Mar 05",
       "venue": "Cat's Cradle Back Room",
@@ -155,7 +142,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Los_2028961762776674.jpg",
       "event_url": "https://catscradle.com/event/los-straitjackets-deke-dickerson/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "RiQj57xemJU"
+      "youtube_id": null
     },
     {
       "artist": "Puma Blue",
@@ -233,6 +220,19 @@
       "event_url": "https://catscradle.com/event/skullcrusher/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": "fvV-CIoeBrE",
       "opener_youtube_id": "7Lo4IjJS5G4"
+    },
+    {
+      "artist": "Six More Miles",
+      "date": "Wed, Mar 18",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "North State Grass",
+      "notice": "Carrboro Bluegrass Festival",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/03/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-with-slippery-hill-bluegrass-with-redbud-bluegrass.jpg",
+      "event_url": "https://catscradle.com/event/carrboro-bluegrass-festival-presents-bluegrass-in-the-backroom-3/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null,
+      "opener_youtube_id": "w54lLXcuv9g"
     },
     {
       "artist": "Pressing Strings and Driftwood",
@@ -322,7 +322,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 20,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-04T09:07:37.356635"
+  "last_updated": "2026-03-05T09:10:39.826963"
 }

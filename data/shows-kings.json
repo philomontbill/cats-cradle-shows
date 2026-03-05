@@ -69,7 +69,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
+      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -82,7 +82,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -156,7 +156,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
+      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -219,7 +219,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream \u2013 EP Release Show",
+      "artist": "Psychic Scream – EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -232,7 +232,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
@@ -245,7 +245,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
@@ -306,7 +306,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
+      "artist": "The Great Cover Up 2026 – Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
@@ -318,7 +318,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-04T09:08:03.448676"
+  "last_updated": "2026-03-05T09:10:56.818797"
 }

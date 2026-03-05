@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Lotus",
-      "date": "Wed, Mar 04",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/800/962e9723-d82c-464c-94bc-3ec13dc0f800_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/lotus-rise-of-the-anglerfish-tour-charlotte-north-carolina-03-04-2026/event/2D00635FDD07BF94",
-      "youtube_id": "A57rz0mMFkE"
-    },
-    {
       "artist": "ROBERT JON & THE WRECK",
       "date": "Thu, Mar 05",
       "venue": "Neighborhood Theatre",
@@ -294,10 +282,22 @@
       "image": "https://s1.ticketm.net/dam/e/367/39ce8693-2052-4ffd-86b9-e9fe1f4f4367_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/west-22nd-the-to-be-or-charlotte-north-carolina-04-18-2026/event/2D0064269D2D636F",
       "youtube_id": "4GysR0gpsWw"
+    },
+    {
+      "artist": "JUMP",
+      "date": "Sun, Apr 19",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/798/10048079-166d-432d-8921-9a16a707d798_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/jump-americas-van-halen-experience-vh1-charlotte-north-carolina-04-19-2026/event/2D006332DCFF88C3",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-04T09:09:27.517162"
+  "last_updated": "2026-03-05T09:12:45.780457"
 }

@@ -7,26 +7,14 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Tab Benoit",
-      "date": "Wed, Mar 04",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": null,
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Tab_1040341760967851.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/66452148/tab-benoit-paul-thorn-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "38DiyACiHc4"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "SunSquabi",
       "date": "Thu, Mar 05",
       "doors": "7 pm",
       "showtime": "8 pm",
       "opener": "Phyphr",
       "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-SunSquabi_1043841767797273.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/40922636/sunsquabi-manic-focus-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
+      "ticket_url": "https://theorangepeel.net/event/sunsquabi-manic-focus/the-orange-peel/asheville-north-carolina/",
+      "notice": "Cancelled",
       "youtube_id": "h7vGOr3P4no",
       "opener_youtube_id": "dZ3TCHIti7E"
     },
@@ -279,10 +267,22 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Missbliss!",
+      "date": "Thu, Apr 09",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": null,
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/02/missbliss-blankstate-mascons.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/55218521/missblissblankstatemascons-asheville-pulp?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": "xNG2MUXtK4E"
     }
   ],
   "total_shows": 22,
   "shows_with_video": 21,
   "shows_with_image": 22,
-  "last_updated": "2026-03-04T09:09:30.783784"
+  "last_updated": "2026-03-05T09:12:48.021611"
 }

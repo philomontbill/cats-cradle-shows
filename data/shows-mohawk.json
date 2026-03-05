@@ -123,16 +123,17 @@
       "opener_youtube_id": null
     },
     {
-      "artist": "A Special Marshall Day Party",
+      "artist": "Marshall Live from Mohawk",
       "date": "Mon, Mar 16",
       "venue": "Mohawk Outdoor",
-      "opener": null,
+      "opener": "Water From Your Eyes, This Is Lorelei, Rocket, Meg Eliser, Cure For Paranoia, Diles Que No Me Maten, Ashaine White, Total Wife, Bloodsports, Gran Moreno, Almost Heaven, Worlds Worst, Dj Sets By Dj Devil Woman and Horse Opera!",
       "notice": null,
       "doors": "Noon",
       "showtime": "Noon",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648483887724",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648476557461",
       "ticket_url": "https://www.etix.com/ticket/p/33246312/marshall-day-party-austin-resound-presents",
-      "youtube_id": null
+      "youtube_id": null,
+      "opener_youtube_id": "1reSpJWbuYE"
     },
     {
       "artist": "SXSW: Pudgy Rodeo",
@@ -330,5 +331,5 @@
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-04T09:08:08.629784"
+  "last_updated": "2026-03-05T09:11:01.530007"
 }
