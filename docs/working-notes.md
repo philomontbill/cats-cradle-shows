@@ -1519,3 +1519,126 @@ Not urgent — the code is solid and the patterns are consistent. Just a note fo
 - Video duration check (parked, zero extra API cost)
 - Finalize video disclaimer wording
 - Reddit post (outreach/reddit-post-triangle.txt)
+
+---
+
+## Session: Mar 5, 2026 (session 5): Override Authority + No Preview Restructure + Report QC
+
+### Overview
+Major session covering three areas: (1) override authority chain fixes, (2) No Preview report restructure, (3) manual QC review of actionable report rows. Also created `docs/sop.md` as a living operating procedures document.
+
+### Override Authority Chain — Fixed
+
+**Problem:** Overrides in `overrides.json` were silently ignored when `_should_search()` in base_scraper decided to skip or reuse an artist. The override check was only inside `get_youtube_id()`, but smart filtering could bypass that function entirely.
+
+**Fix:** Check overrides at the TOP of `process_shows_with_youtube()`, before `_should_search()` runs:
+- Headliner overrides checked against `artist_youtube` and `show_overrides`
+- Opener overrides checked against `opener_youtube`
+- Override hits skip all filtering/searching — applied directly
+- `get_youtube_id()` still checks as safety net
+- Verifier skips overridden artists (case-insensitive check)
+- Null overrides always overwrite prior `video_states.json` entries
+
+**Root cause discovered:** Gogol Bordello, Mint Field, Heated overrides were all silently ignored because `_should_search()` saw their rejected state in `video_states.json` and skipped them.
+
+### Cat's Cradle Venue Detection — Fixed
+
+**Problem:** The Cat's Cradle scraper lists shows for multiple sub-venues (Cat's Cradle, Back Room, Motorco, Pinhook). Full-text search for "motorco" in page HTML matched an artist bio mentioning Motorco as a past venue, misassigning the show.
+
+**Fix:** Use structured data first: CSS selector `div.rhpVenueContent a[href*="/venue/"]` extracts venue from the venue link. Only fall back to full-text search if structured extraction fails.
+
+### Report Filters — Expired + Override-Null
+
+**Problem:** Expired shows appeared in No Preview section (inflating count). Override-null shows appeared as "No video from scraper" because old `video_states.json` entries weren't being overwritten.
+
+**Fixes:**
+- Load expiry dates, skip expired shows in No Preview loop
+- Load override-null artists, skip them from No Preview (they're intentional)
+- Separate "Override" count in inventory stats
+- Null overrides overwrite any prior video_states entry
+
+### Mercury East Scraper — Apostrophe Fix
+
+The Mercury East (Bowery) scraper had JavaScript apostrophe escaping issues — `\'` in the source was being passed through literally instead of as `'`. Fixed in the JSON parsing step.
+
+### Armada Music — Added to Trusted Labels
+
+Added Armada Music to the verifier's trusted label list (now 15 labels total). Armada is a major electronic/trance label — their videos were being rejected for high view counts on non-matching channels.
+
+### Spotify API — Final Cleanup
+
+Removed residual Spotify artist normalizer from `weekly_qc_report.py`. Old Spotify entries in `video_states.json` left to expire naturally rather than manually purging.
+
+### SOP Document Created
+
+New file `docs/sop.md` — Standard Operating Procedures covering:
+1. Override authority chain (decision priority, where checked, lessons learned)
+2. Adding or changing overrides (when, steps, do-nots)
+3. Adding a new venue (pre-work, scraper, config, testing)
+4. Modifying pipeline logic (audit checklist, five decision systems)
+5. Report filters (what users see vs what we see)
+6. Quota management (safe local testing patterns)
+
+### No Preview Restructure — Completed
+
+**Problem:** No Preview section dumped all ~80+ shows every night. Most were expected (skips, reused, no_log). Only a handful were new or actionable.
+
+**Solution:** Split No Preview into two groups:
+- **Actionable** (top): flag, no_results, api_error, code_error — items needing review
+- **Expected** (bottom): skip, reused, no_log — routine items
+- `---` separator row with count between them
+- **NEW marker**: items not in yesterday's CSV get "NEW — " prefix in Detail column
+- Delta detection via `load_previous_no_preview()` reading `qa/video-report-{date}.csv`
+
+**Result:** 6 actionable rows on top, separator, 80 expected rows below. Morning review: scan rows after Verified/Rejected (actionable), optionally check NEW markers below separator.
+
+### Google Sheets Sort Removed
+
+**Problem:** `sort_sheet()` call after appending to Daily Video Reports re-sorted all rows, destroying the actionable/expected layout. The `---` separator ended up at row 90.
+
+**Fix:** Removed sort entirely. CSV row order is now preserved as-is in the sheet. The Definitions tab was updated to document the new layout.
+
+### Actionable Row Review — 6 Overrides Added
+
+Reviewed all 6 actionable No Preview rows from the test report:
+
+| Row | Artist | Action | Override |
+|-----|--------|--------|----------|
+| 4 | Taiki Nulight - cheeky bugger tour | Video found | `j6Xvo7DgJBg` (artist_youtube) |
+| 5 | Honoring JR feat. Audiohum... | Memorial event | `null` (artist_youtube) |
+| 6 | Por Vida and Embrace The Oblivion | Por Vida found | `3v7ykbja4aY` (opener_youtube) |
+| 7 | Catiline and Mantaray | No YouTube presence | `null` (opener_youtube) |
+| 8 | Hemlock Theory and Under The Catacombs of Paris | Hemlock Theory found | `FMYszBjptLs` (opener_youtube) |
+| 9 | JUMP | Van Halen tribute act | `qrQA2gFrwI4` (artist_youtube) |
+
+**JUMP discovery:** User identified JUMP as "JUMP — America's Van Halen Experience" by giving another LLM venue context. Initial null override updated to video override after user found their YouTube channel.
+
+### Algorithm Gaps Identified
+
+1. **Tour suffix stripping**: `_clean_artist_name()` doesn't strip "Artist - tour name" patterns. "Taiki Nulight - cheeky bugger tour" → no results.
+2. **And-joined opener splitting**: "Band A and Band B" in opener field should split and search first band only.
+3. **Tribute/event keywords to add**: Experience, Revue, Ultimate, Celebration, Music of, Tribute to, Songs of, Rave, vs, versus, Battle
+4. **Song-title tributes** (can't automate): "Jump", "Kashmir", "Thunderstruck" are real song titles used by tribute bands. Override-only.
+5. **Single-word generic names**: "Live", "Nothing", "Ride" produce massive false matches. Needs careful handling.
+6. **LLM-assisted disambiguation**: User demonstrated that providing venue context to an LLM correctly identified a tribute band. Potential pipeline enhancement.
+
+### Burning Witches — Diagnosed
+
+Already has override (`1OCmwMFKDlE`) but old rejected state in `video_states.json` was blocking it. Override authority fix should resolve on next nightly scrape. Task #16 created to verify.
+
+### Commits
+- Override authority chain + venue detection + report filters + SOP + Spotify cleanup (multiple commits early session)
+- `97b07c0` — Split No Preview into actionable and expected sections with NEW marker
+- `939bb7d` — Update Definitions tab with No Preview layout documentation
+- `850adcb` — Remove sort after Daily Video Reports append to preserve layout
+- `4d1f633` — Add Taiki Nulight video override
+- `c3513b8` — Add overrides from actionable No Preview review (batch)
+- `7f6302d` — Update JUMP override to tribute band's own live video
+
+### Next Steps
+- **Task #16**: Verify Burning Witches override applied after nightly scrape (Mar 6)
+- **Task #11**: Investigate Los Straitjackets / Reverend Horton Heat duplicate "New" verified entries
+- **Discussion**: LLM-assisted artist disambiguation — explore whether venue context + LLM can supplement keyword matching
+- **Algorithm backlog**: Tour suffix stripping, and-joined opener splitting, tribute keyword additions
+- Continue adding venues (next city TBD)
+- Video duration check (parked)
