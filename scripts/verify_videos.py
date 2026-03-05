@@ -643,6 +643,20 @@ def load_match_log():
     return latest
 
 
+SKIP_REASON_PRIORITY = {
+    "flag": 1,
+    "no_results": 2,
+    "api_error": 3,
+    "code_error": 4,
+    "reused": 5,
+    "skip": 6,
+    "no_log": 7,
+    "verified": 8,
+    "rejected": 9,
+    "override": 10,
+}
+
+
 def build_csv(tonight, states, all_shows_data, old_states):
     """Build a combined CSV with Skip Reason column."""
 
@@ -651,20 +665,22 @@ def build_csv(tonight, states, all_shows_data, old_states):
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
-                     "Detail", "Skip Reason"])
+                     "Detail", "Skip Reason", "Sort Priority"])
 
     for v in tonight["verified"]:
         url = f"https://youtube.com/watch?v={v['video_id']}"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
-                         v["confidence"], "verified"])
+                         v["confidence"], "verified",
+                         SKIP_REASON_PRIORITY.get("verified", 99)])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
                          r["venue"], r["date"], url,
-                         reason_str, "rejected"])
+                         reason_str, "rejected",
+                         SKIP_REASON_PRIORITY.get("rejected", 99)])
 
     # No preview queue — check both headliners and openers
     for filepath, data in all_shows_data:
@@ -696,8 +712,9 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 else:
                     status = "No video assigned"
                 skip_reason = match_tiers.get(artist, "") or "no_log"
+                priority = SKIP_REASON_PRIORITY.get(skip_reason, 99)
                 writer.writerow(["No Preview", artist, role, venue, date, "",
-                                 status, skip_reason])
+                                 status, skip_reason, priority])
 
     return output.getvalue()
 
@@ -800,10 +817,11 @@ def deliver_daily_report(issue_body, csv_text):
             rows.append([report_date] + row)
         if rows:
             append_to_sheet(rows, "Daily Video Reports", header=sheet_header)
-            # Sort: most recent date first, headliners before openers
+            # Sort: date desc, role (headliners first), actionable skip reasons first
             sort_sheet("Daily Video Reports", [
-                (0, "DESCENDING"),  # Report Date
-                (3, "ASCENDING"),   # Role (headliner < opener)
+                (0, "DESCENDING"),   # Report Date
+                (9, "ASCENDING"),    # Sort Priority (actionable items first)
+                (3, "ASCENDING"),    # Role (headliner < opener)
             ])
 
     # Ensure Definitions tab exists (no-op after first run)
