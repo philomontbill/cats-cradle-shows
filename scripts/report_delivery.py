@@ -293,9 +293,18 @@ def sort_sheet(tab_name, sort_specs):
                 ],
             }
         }
+        freeze_request = {
+            "updateSheetProperties": {
+                "properties": {
+                    "sheetId": tab_id,
+                    "gridProperties": {"frozenRowCount": 1},
+                },
+                "fields": "gridProperties.frozenRowCount",
+            }
+        }
         service.spreadsheets().batchUpdate(
             spreadsheetId=sheet_id,
-            body={"requests": [sort_request]},
+            body={"requests": [sort_request, freeze_request]},
         ).execute()
         print(f"  Sheets: sorted '{tab_name}' ({row_count - 1} data rows)")
         return True
