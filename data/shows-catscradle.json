@@ -58,7 +58,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire \u2013 Universal Language Tour",
+      "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -73,7 +73,7 @@
     {
       "artist": "Slow Teeth, Scrape, Minor Stars",
       "date": "Sat, Mar 07",
-      "venue": "Motorco Music Hall",
+      "venue": "Cat's Cradle Back Room",
       "opener": null,
       "notice": null,
       "doors": "7 pm",
@@ -116,7 +116,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
       "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": null,
+      "youtube_id": "sUlsTs2ljaE",
       "opener_youtube_id": null
     },
     {
@@ -142,7 +142,7 @@
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Los_2028961762776674.jpg",
       "event_url": "https://catscradle.com/event/los-straitjackets-deke-dickerson/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null
+      "youtube_id": "jKuYeZTpbQM"
     },
     {
       "artist": "Puma Blue",
@@ -322,7 +322,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T09:10:39.826963"
+  "last_updated": "2026-03-05T21:25:48.682482"
 }

@@ -246,7 +246,7 @@
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/12/etix-The_913891765370740.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/52204172/the-band-of-heathens-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": null
+      "youtube_id": "KLxHd3XCrTw"
     },
     {
       "venue": "Lincoln Theatre",
@@ -265,12 +265,12 @@
       "date": "Fri, Apr 17",
       "doors": "7:30 pm",
       "showtime": "8:30 pm",
-      "opener": "TBA",
+      "opener": "The Wallabies",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/12/etix-Harvey_913841765368565.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/51681650/harvey-street-wtba-raleigh-lincoln-theatre?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/51681650/harvey-street-wthe-wallabies-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "MfuEWKTH64Y",
-      "opener_youtube_id": "vK-iJyZ16UQ"
+      "opener_youtube_id": null
     },
     {
       "venue": "Lincoln Theatre",
@@ -296,7 +296,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 21,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T09:10:54.298003"
+  "last_updated": "2026-03-05T21:25:58.127544"
 }
