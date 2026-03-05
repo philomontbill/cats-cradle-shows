@@ -210,8 +210,6 @@ def build_report(days=7):
                         reason = "non-matching channel (high subscribers)"
                     elif "could not fetch" in reason:
                         reason = "could not fetch video metadata"
-                    elif "not found on Spotify" in reason:
-                        reason = "not found on Spotify + channel mismatch"
                     elif "years old" in reason:
                         reason = "video too old + no channel match"
                     reason_counts[reason] += 1

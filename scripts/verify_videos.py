@@ -427,6 +427,8 @@ def compute_inventory(states, all_shows_data):
         for show in shows:
             if not isinstance(show, dict):
                 continue
+            if show.get("expired"):
+                continue
 
             venue = show.get("venue", "Unknown")
             if venue not in venues:
@@ -669,6 +671,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
         shows = data.get("shows", data) if isinstance(data, dict) else data
         for show in shows:
             if not isinstance(show, dict):
+                continue
+            if show.get("expired"):
                 continue
             venue = show.get("venue", "Unknown")
             date = show.get("date", "TBD")
