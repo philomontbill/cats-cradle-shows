@@ -649,14 +649,14 @@ class BaseScraper:
             if show.get('youtube_id'):
                 if headliner_overridden:
                     status = "override"
-                elif should_search:
+                elif not headliner_overridden and should_search:
                     status = "searched"
                 else:
                     status = "reused"
                 print(f"        YouTube: {show['youtube_id']} ({status})")
 
             processed.append(show)
-            if should_search:
+            if not headliner_overridden and should_search:
                 time.sleep(0.3)
 
         # Save match log after processing
