@@ -36,7 +36,7 @@ sys.path.insert(0, _PROJECT_ROOT)
 
 from scrapers.utils import load_env_var, normalize as _normalize
 from scripts.report_delivery import (
-    send_email, append_to_sheet, markdown_to_html, wrap_html_email,
+    send_email, append_to_sheet, sort_sheet, markdown_to_html, wrap_html_email,
 )
 
 # --- Configuration ---
@@ -794,6 +794,11 @@ def deliver_daily_report(issue_body, csv_text):
             rows.append([report_date] + row)
         if rows:
             append_to_sheet(rows, "Daily Video Reports", header=sheet_header)
+            # Sort: most recent date first, headliners before openers
+            sort_sheet("Daily Video Reports", [
+                (0, "DESCENDING"),  # Report Date
+                (3, "ASCENDING"),   # Role (headliner < opener)
+            ])
 
 
 def main():

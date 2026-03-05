@@ -156,6 +156,70 @@ def append_to_sheet(rows, tab_name, header=None):
         return False
 
 
+def sort_sheet(tab_name, sort_specs):
+    """Sort all data rows in a sheet tab (preserves header row).
+
+    Args:
+        tab_name: Sheet tab name (e.g., "Daily Video Reports").
+        sort_specs: List of (column_index, "ASCENDING"|"DESCENDING") tuples.
+                    Column indices are 0-based.
+
+    Returns True on success, False on failure.
+    """
+    sheet_id = load_env_var("REPORT_SHEETS_ID")
+    if not sheet_id:
+        return False
+
+    service = _get_sheets_service()
+    if not service:
+        return False
+
+    try:
+        # Look up the numeric tab ID
+        spreadsheet = service.spreadsheets().get(spreadsheetId=sheet_id).execute()
+        tab_id = None
+        for sheet in spreadsheet["sheets"]:
+            if sheet["properties"]["title"] == tab_name:
+                tab_id = sheet["properties"]["sheetId"]
+                break
+        if tab_id is None:
+            print(f"  Warning: tab '{tab_name}' not found — skipping sort")
+            return False
+
+        # Get row count to set sort range
+        result = service.spreadsheets().values().get(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A:A",
+        ).execute()
+        row_count = len(result.get("values", []))
+        if row_count < 3:
+            # Need at least header + 2 data rows to sort
+            return True
+
+        sort_request = {
+            "sortRange": {
+                "range": {
+                    "sheetId": tab_id,
+                    "startRowIndex": 1,  # skip header
+                    "endRowIndex": row_count,
+                },
+                "sortSpecs": [
+                    {"dimensionIndex": col, "sortOrder": order}
+                    for col, order in sort_specs
+                ],
+            }
+        }
+        service.spreadsheets().batchUpdate(
+            spreadsheetId=sheet_id,
+            body={"requests": [sort_request]},
+        ).execute()
+        print(f"  Sheets: sorted '{tab_name}' ({row_count - 1} data rows)")
+        return True
+    except Exception as e:
+        print(f"  Warning: Sheets sort failed — {e}")
+        return False
+
+
 # ---------------------------------------------------------------------------
 # Markdown → HTML conversion
 # ---------------------------------------------------------------------------
