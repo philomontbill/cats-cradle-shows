@@ -8220,26 +8220,6 @@
       "spotify_popularity": null
     }
   },
-  "True Jackson, Charlie Margaux, Jennys Setlist": {
-    "status": "rejected",
-    "video_id": "S0bJynsqSGc",
-    "rejected_date": "2026-03-05T09:12:53.238466",
-    "reason": "artist name not found in channel or title",
-    "metadata": {
-      "video_title": "True Jackson VP (Full Theme Song) HD + Lyrics",
-      "channel_name": "x4tash",
-      "view_count": 2158405,
-      "published": "2021-03-19T20:38:15Z",
-      "channel_subscribers": 3770,
-      "channel_videos": 111,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "session_channel": false,
-      "view_cap_reason": "default (5M cap)",
-      "video_age_years": 5.0
-    }
-  },
   "w/ Lizzie No.": {
     "status": "verified",
     "video_id": "MWoZ6DRUR6E",
