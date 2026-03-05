@@ -551,7 +551,8 @@ def deliver_weekly_report(report_text, date_range_label, report_data=None):
             report_data.get("events", ""),
             report_data.get("avg_engagement", ""),
         ]
-        append_to_sheet([row], "Weekly Analytics")
+        header = ["Week", "Users", "New Users", "Page Views", "Events", "Avg Engagement"]
+        append_to_sheet([row], "Weekly Analytics", header=header)
 
 
 def _extract_venue_scorecard(client, prop_id, date_range, date_label):
@@ -687,7 +688,11 @@ def main():
         venue_scorecard = _extract_venue_scorecard(
             client, prop_id, date_range_obj, date_label)
         if venue_scorecard:
-            append_to_sheet(venue_scorecard, "Venue Scorecard")
+            scorecard_header = [
+                "Week", "Venue", "Users", "New", "Returning",
+                "Plays", "Tix Clicks", "Avg Time", "Top Artist",
+            ]
+            append_to_sheet(venue_scorecard, "Venue Scorecard", header=scorecard_header)
 
 
 if __name__ == "__main__":

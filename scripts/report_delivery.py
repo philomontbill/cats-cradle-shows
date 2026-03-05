@@ -106,12 +106,14 @@ def _get_sheets_service():
     return build("sheets", "v4", credentials=credentials)
 
 
-def append_to_sheet(rows, tab_name):
+def append_to_sheet(rows, tab_name, header=None):
     """Append rows to a named tab in the report spreadsheet.
 
     Args:
         rows: List of lists (each inner list = one row of cell values).
         tab_name: Sheet tab name (e.g., "Daily Video Reports").
+        header: Optional header row (list of strings). Written automatically
+                if the tab is empty.
 
     Returns True on success, False on failure.
     """
@@ -129,6 +131,16 @@ def append_to_sheet(rows, tab_name):
         return False
 
     try:
+        # Check if the tab is empty and needs a header
+        if header:
+            result = service.spreadsheets().values().get(
+                spreadsheetId=sheet_id,
+                range=f"'{tab_name}'!A1",
+            ).execute()
+            if not result.get("values"):
+                rows = [header] + rows
+                print(f"  Sheets: tab '{tab_name}' was empty — adding header row")
+
         body = {"values": rows}
         service.spreadsheets().values().append(
             spreadsheetId=sheet_id,

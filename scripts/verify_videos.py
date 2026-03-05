@@ -787,14 +787,13 @@ def deliver_daily_report(issue_body, csv_text):
     if csv_text:
         report_date = datetime.now().strftime("%Y-%m-%d")
         reader = csv.reader(io.StringIO(csv_text))
-        header = next(reader, None)
+        csv_header = next(reader, None)
+        sheet_header = ["Report Date"] + csv_header if csv_header else None
         rows = []
         for row in reader:
             rows.append([report_date] + row)
         if rows:
-            # Prepend "Report Date" to the header concept — but we only
-            # append data rows (header written once when sheet is created)
-            append_to_sheet(rows, "Daily Video Reports")
+            append_to_sheet(rows, "Daily Video Reports", header=sheet_header)
 
 
 def main():

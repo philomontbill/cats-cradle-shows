@@ -322,7 +322,12 @@ def deliver_qc_report(report_text, days):
             verified_count,
             rejected_count,
         ]
-        append_to_sheet([row], "Weekly QC")
+        header = [
+            "Week", "Match Confidence", "Headliner Confidence", "Opener Confidence",
+            "Avg Score", "Verified", "Rejected", "No Preview", "Total Shows",
+            "Verified This Week", "Rejected This Week",
+        ]
+        append_to_sheet([row], "Weekly QC", header=header)
 
 
 def main():
