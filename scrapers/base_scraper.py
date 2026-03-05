@@ -418,6 +418,7 @@ class BaseScraper:
             return False, None, "no artist name"
 
         # Skip artists rejected by the verifier — no automatic re-search
+        # (Overrides are checked upstream in process_shows_with_youtube before this is called)
         if recent_rejections and artist_name in recent_rejections:
             return False, None, "rejected by verifier (permanent skip)"
 
@@ -595,31 +596,50 @@ class BaseScraper:
 
             artist = show.get('artist', '')
             opener = show.get('opener', '')
+            artist_overrides = self.overrides.get('artist_youtube', {})
+            opener_overrides = self.overrides.get('opener_youtube', {})
 
-            # Smart filter: check if we need to search for headliner
-            should_search, existing_id, reason = self._should_search(
-                artist, existing_matches, audit_scores, recent_rejections
-            )
-            if should_search:
-                show['youtube_id'] = self.get_youtube_id(artist)
-                api_calls += 1
+            # --- Overrides first (highest authority, no exceptions) ---
+            headliner_overridden = False
+            cleaned_artist = self._clean_artist_name(artist) if artist else None
+            if artist and (artist in artist_overrides or (cleaned_artist and cleaned_artist in artist_overrides)):
+                override_val = artist_overrides.get(artist, artist_overrides.get(cleaned_artist))
+                show['youtube_id'] = override_val
+                self._log_match(artist, override_val, 100, "override", "manual override")
+                headliner_overridden = True
             else:
-                show['youtube_id'] = existing_id
-                self._log_match(artist, existing_id, None, "reused", reason)
-                reused += 1
-
-            # Smart filter: check if we need to search for opener
-            if opener:
-                should_search_opener, existing_opener_id, opener_reason = self._should_search(
-                    opener, existing_matches, audit_scores, recent_rejections
+                # Smart filter: check if we need to search for headliner
+                should_search, existing_id, reason = self._should_search(
+                    artist, existing_matches, audit_scores, recent_rejections
                 )
-                if should_search_opener:
-                    show['opener_youtube_id'] = self.get_youtube_id(opener, is_opener=True)
+                if should_search:
+                    show['youtube_id'] = self.get_youtube_id(artist)
                     api_calls += 1
                 else:
-                    show['opener_youtube_id'] = existing_opener_id
-                    self._log_match(opener, existing_opener_id, None, "reused", opener_reason, is_opener=True)
+                    show['youtube_id'] = existing_id
+                    self._log_match(artist, existing_id, None, "reused", reason)
                     reused += 1
+
+            opener_overridden = False
+            if opener:
+                cleaned_opener = self._clean_artist_name(opener) if opener else None
+                if opener in opener_overrides or (cleaned_opener and cleaned_opener in opener_overrides):
+                    override_val = opener_overrides.get(opener, opener_overrides.get(cleaned_opener))
+                    show['opener_youtube_id'] = override_val
+                    self._log_match(opener, override_val, 100, "override", "manual override", is_opener=True)
+                    opener_overridden = True
+                else:
+                    # Smart filter: check if we need to search for opener
+                    should_search_opener, existing_opener_id, opener_reason = self._should_search(
+                        opener, existing_matches, audit_scores, recent_rejections
+                    )
+                    if should_search_opener:
+                        show['opener_youtube_id'] = self.get_youtube_id(opener, is_opener=True)
+                        api_calls += 1
+                    else:
+                        show['opener_youtube_id'] = existing_opener_id
+                        self._log_match(opener, existing_opener_id, None, "reused", opener_reason, is_opener=True)
+                        reused += 1
 
             # Progress output
             print(f"[{i}/{min(len(shows), limit)}] {artist} ({show.get('date', 'TBD')})")
@@ -627,7 +647,12 @@ class BaseScraper:
                 opener_display = opener[:40] + ('...' if len(opener) > 40 else '')
                 print(f"        Opener: {opener_display}")
             if show.get('youtube_id'):
-                status = "reused" if not should_search else "searched"
+                if headliner_overridden:
+                    status = "override"
+                elif should_search:
+                    status = "searched"
+                else:
+                    status = "reused"
                 print(f"        YouTube: {show['youtube_id']} ({status})")
 
             processed.append(show)

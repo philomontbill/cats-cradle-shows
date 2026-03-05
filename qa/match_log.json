@@ -66098,5 +66098,945 @@
     "explanation": "artist name found in channel name | video: Miss Bliss- New Shit | channel: MISSBLISSTV",
     "timestamp": "2026-03-05T09:12:47.664426",
     "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Rusty Santos",
+    "role": "headliner",
+    "youtube_id": "FEd3foWG2Hk",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Rusty Santos - Dream in Stereo (Official Music Video) | channel: Lo Recordings",
+    "timestamp": "2026-03-05T14:40:47.655754",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ama",
+    "role": "opener",
+    "youtube_id": "wZiPs0vqFFU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Ama - Same Old Ways (Official Music Video) | channel: AMALOUVEVO",
+    "timestamp": "2026-03-05T14:40:48.375177",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Clover County",
+    "role": "headliner",
+    "youtube_id": "tNr4SrwNcmc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Clover County - Ultraviolet (Lyric Video) | channel: Clover County",
+    "timestamp": "2026-03-05T14:40:49.317633",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ethansroom",
+    "role": "opener",
+    "youtube_id": "ZZczGelFxV8",
+    "confidence": 60,
+    "tier": "flag",
+    "explanation": "single-word artist at start of title (no channel match) | video: ethansroom - easier &amp; i still think of you (smallsongs) | channel: smallsongs",
+    "timestamp": "2026-03-05T14:40:49.935708",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Yellow Days",
+    "role": "headliner",
+    "youtube_id": "jpYwsHTLv9o",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Yellow Days - Baby, I&#39;m For Real (Official Music Video) | channel: Yellow Days",
+    "timestamp": "2026-03-05T14:40:50.835517",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rue Jacobs",
+    "role": "opener",
+    "youtube_id": "9UAYVaeCzSA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: 2 much vapor (feat. aaron longsleeves) | channel: Rue Jacobs - Topic",
+    "timestamp": "2026-03-05T14:40:51.444523",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "HBO QUIZZO: Heated Rivalry",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:40:51.749998",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Hosted By Anna Troxell",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:40:51.750014",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Nothing",
+    "role": "headliner",
+    "youtube_id": "JdtWI-QapFM",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: NOTHING - &#39;cannibal world&#39; (Official Music Video) | channel: Nothing",
+    "timestamp": "2026-03-05T14:40:52.719218",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Full Body 2",
+    "role": "opener",
+    "youtube_id": "c2mP5rpwlJ8",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: full body 2 - turn so slow (video) | channel: Full Body 2",
+    "timestamp": "2026-03-05T14:40:53.532994",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Gogol Bordello",
+    "role": "headliner",
+    "youtube_id": "SkkIwO_X4i4",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:40:53.835655",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Boris and the Joy",
+    "role": "opener",
+    "youtube_id": "6-jjpzWoeMA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Boris Pelekh - Are You that Somebody (Aaliyah Cover) Official Music Video | channel: Boris and the Joy",
+    "timestamp": "2026-03-05T14:40:54.478499",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): sxsw | video: Mad Decent @ SXSW 2011 [Music Video] | channel: Mad Decent",
+    "timestamp": "2026-03-05T14:40:55.782307",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:40:56.420327",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): sxsw | video: G$ Lil Ronnie - SXSW (Music Video) Shot By: @Nepheworld | channel: HalfpintFilmz",
+    "timestamp": "2026-03-05T14:40:57.238101",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:40:57.896785",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): sxsw | video: G$ Lil Ronnie - SXSW (Music Video) Shot By: @Nepheworld | channel: HalfpintFilmz",
+    "timestamp": "2026-03-05T14:40:58.819394",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:40:59.434688",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Marshall Live from Mohawk",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:40:59.740162",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Water From Your Eyes",
+    "role": "opener",
+    "youtube_id": "1reSpJWbuYE",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Water From Your Eyes - &quot;Life Signs&quot; (Official Music Video) | channel: Water From Your Eyes",
+    "timestamp": "2026-03-05T14:41:00.346741",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): sxsw | video: G$ Lil Ronnie - SXSW (Music Video) Shot By: @Nepheworld | channel: HalfpintFilmz",
+    "timestamp": "2026-03-05T14:41:00.910945",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Babychiefdo It",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: BabyChiefDoit - WENT WEST (Official Music Video) | channel: BabyChiefDoit",
+    "timestamp": "2026-03-05T14:41:01.478002",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Monster Children Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:01.783521",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rocket",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): rocket | video: The Smashing Pumpkins - Rocket (Official Music Video) | channel: SmashingPumpkinsVEVO",
+    "timestamp": "2026-03-05T14:41:02.385106",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Very Necessary Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:02.689942",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:02.690021",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heated Rivalry Dance Party",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:02.995116",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Recovery Takeover 2026",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:03.298026",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:03.298121",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Social Dissonance",
+    "role": "headliner",
+    "youtube_id": "GQE4yVkp3T0",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Social Dissonance - Automata (Official Visualizer) | channel: Social Dissonance",
+    "timestamp": "2026-03-05T14:41:04.215635",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Aztec Milk Temple",
+    "role": "opener",
+    "youtube_id": "eUNK1xIVSuM",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Milk | channel: Aztec Milk Temple - Topic",
+    "timestamp": "2026-03-05T14:41:04.804655",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "The California Honeydrops",
+    "role": "headliner",
+    "youtube_id": "z3_6oUS_JB4",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Live Learn [Official Music Video] | channel: The California Honeydrops",
+    "timestamp": "2026-03-05T14:41:05.677042",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Mint Field",
+    "role": "headliner",
+    "youtube_id": "-E4HZt8u5QI",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:41:05.982509",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lauren Lakis",
+    "role": "opener",
+    "youtube_id": "9d0wLyx1mBg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: TAKE MY HAND - LAUREN LAKIS - OFFICIAL MUSIC VIDEO | channel: Lauren Lakis",
+    "timestamp": "2026-03-05T14:41:06.598417",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Oof Fighters",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:06.903943",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lonestar Supernova",
+    "role": "opener",
+    "youtube_id": "dfcYZHJrRf0",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: supernova | video: Lone Star - Champagne Supernova (Official Audio) | channel: Lone Star",
+    "timestamp": "2026-03-05T14:41:07.725163",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ratboys",
+    "role": "headliner",
+    "youtube_id": "KYUMoL9FrIA",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:41:07.725739",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Villagerrr",
+    "role": "opener",
+    "youtube_id": "TJ4EX4VCwK0",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: villagerrr - Locket (Official Video) | channel: villagerrrVEVO",
+    "timestamp": "2026-03-05T14:41:08.287561",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Yoga for Reproductive Rights",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:08.287964",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Sweet Pill",
+    "role": "headliner",
+    "youtube_id": "wEpLZh6PhkY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Sweet Pill - Glow (Official Music Video) | channel: Sweet Pill",
+    "timestamp": "2026-03-05T14:41:08.881632",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heart To Gold",
+    "role": "opener",
+    "youtube_id": "scbj6SC_CXo",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Heart to Gold - &quot;Difficult&quot; | channel: Heart to Gold",
+    "timestamp": "2026-03-05T14:41:09.553400",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Votive Album Release Show",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:09.858891",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Votive, Shoganai, Clairvoyance, A Letter To Autumn",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:09.858953",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Model/Actriz",
+    "role": "headliner",
+    "youtube_id": "37ptdYkJ1d0",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Model/Actriz - Cinderella (Official Music Video) | channel: ModelActrizVEVO",
+    "timestamp": "2026-03-05T14:41:10.432269",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Touching Ice",
+    "role": "opener",
+    "youtube_id": "wuqirX41Y80",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Touching Ice - Praise Kink | channel: TouchingIceVEVO",
+    "timestamp": "2026-03-05T14:41:11.106034",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Drug Church",
+    "role": "headliner",
+    "youtube_id": "vjyK81x0fzk",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Drug Church &quot;Million Miles of Fun&quot; (Official Music Video) | channel: Pure Noise Records",
+    "timestamp": "2026-03-05T14:41:12.027987",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Death Lens",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:12.029618",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rusty Santos",
+    "role": "headliner",
+    "youtube_id": "4rp1mCX9nOQ",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233581",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ama, Joey Z, Ewe, Dj Fennec",
+    "role": "opener",
+    "youtube_id": "VBSJTfmNnFI",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233598",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Clover County",
+    "role": "headliner",
+    "youtube_id": "tNr4SrwNcmc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233609",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ethansroom",
+    "role": "opener",
+    "youtube_id": "DMbAjG_pK28",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233616",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Yellow Days",
+    "role": "headliner",
+    "youtube_id": "jpYwsHTLv9o",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233626",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rue Jacobs",
+    "role": "opener",
+    "youtube_id": "Q83W9q34RDs",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.233633",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "HBO QUIZZO: Heated Rivalry",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:29.233638",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Hosted By Anna Troxell",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:29.233640",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Nothing",
+    "role": "headliner",
+    "youtube_id": "xSZs27QQr1k",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-03-05T14:41:29.536703",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Full Body 2, Touch Girl Apple Blossom, Cryogeyser, Vmo A.k.a.. Violent Magic Orchestra, dottie",
+    "role": "opener",
+    "youtube_id": "xe7rEv5UgRA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-03-05T14:41:29.536770",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Gogol Bordello",
+    "role": "headliner",
+    "youtube_id": "SkkIwO_X4i4",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:41:29.536804",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Boris and the Joy, Puzzled Panther",
+    "role": "opener",
+    "youtube_id": "XiqXpTolqug",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:29.536840",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: The Billboard House",
+    "role": "headliner",
+    "youtube_id": "u5jeMiqAq8E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-03-05T14:41:29.536865",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:41:30.156159",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: The Billboard House",
+    "role": "headliner",
+    "youtube_id": "u5jeMiqAq8E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-03-05T14:41:30.157091",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:41:30.804636",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: The Billboard House",
+    "role": "headliner",
+    "youtube_id": "u5jeMiqAq8E",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-03-05T14:41:30.805082",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "To Be Announced",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Shatta Wale, Dj Mac, Crashdummy - Danger (Official Music Video ) | WYFL RIDDIM | channel: Shatta Wale",
+    "timestamp": "2026-03-05T14:41:31.464495",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Marshall Live from Mohawk",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:31.464861",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Water From Your Eyes, This Is Lorelei, Rocket, Meg Eliser, Cure For Paranoia, Diles Que No Me Maten, Ashaine White, Total Wife, Bloodsports, Gran Moreno, Almost Heaven, Worlds Worst, Dj Sets By Dj Devil Woman and Horse Opera!",
+    "role": "opener",
+    "youtube_id": "1reSpJWbuYE",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:31.464904",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Pudgy Rodeo",
+    "role": "headliner",
+    "youtube_id": "RY-PpBPi7dA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (85)",
+    "timestamp": "2026-03-05T14:41:31.464914",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Babychiefdo It",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: BabyChiefDoit - WENT WEST (Official Music Video) | channel: BabyChiefDoit",
+    "timestamp": "2026-03-05T14:41:32.145563",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Monster Children Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:32.145891",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Rocket",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 25,
+    "tier": "skip",
+    "explanation": "single-word title match (ambiguous): rocket | video: The Smashing Pumpkins - Rocket (Official Music Video) | channel: SmashingPumpkinsVEVO",
+    "timestamp": "2026-03-05T14:41:32.798874",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "SXSW: Very Necessary Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:33.104418",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.104495",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heated Rivalry Dance Party",
+    "role": "headliner",
+    "youtube_id": "46qw3T9lz3Y",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (75)",
+    "timestamp": "2026-03-05T14:41:33.406200",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Recovery Takeover 2026",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-05T14:41:33.406258",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Alien Ant Farm, Skating Polly, Nolo, Dossey, Elektric Animals, Sam Ehrnstein, Cynthia Welch, + More!",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.406350",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Social Dissonance",
+    "role": "headliner",
+    "youtube_id": "2wmHXmwubO8",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711489",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Aztec Milk Temple, Spirals",
+    "role": "opener",
+    "youtube_id": "5isB7Zo-jKw",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-03-05T14:41:33.711540",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "The California Honeydrops",
+    "role": "headliner",
+    "youtube_id": "fjLRldRjkF0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711583",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Mint Field",
+    "role": "headliner",
+    "youtube_id": "-E4HZt8u5QI",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:41:33.711612",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lauren Lakis",
+    "role": "opener",
+    "youtube_id": "t8cgqqYItgA",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711634",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Oof Fighters",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.711665",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Lonestar Supernova, Wicked Vixxen",
+    "role": "opener",
+    "youtube_id": "o6ybSsTn1w0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (93)",
+    "timestamp": "2026-03-05T14:41:33.711698",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Ratboys",
+    "role": "headliner",
+    "youtube_id": "KYUMoL9FrIA",
+    "confidence": 100,
+    "tier": "override",
+    "explanation": "manual override",
+    "timestamp": "2026-03-05T14:41:33.711720",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Villagerrr",
+    "role": "opener",
+    "youtube_id": "TIKFfi9qD98",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711743",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Yoga for Reproductive Rights",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.711777",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Sweet Pill",
+    "role": "headliner",
+    "youtube_id": "quI9Xd-En1g",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711800",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Heart To Gold, Spaced",
+    "role": "opener",
+    "youtube_id": "xAnNUkkNUFY",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-03-05T14:41:33.711835",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Votive Album Release Show",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.711869",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Votive, Shoganai, Clairvoyance, A Letter To Autumn",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.711911",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Model/Actriz",
+    "role": "headliner",
+    "youtube_id": "37ptdYkJ1d0",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (90)",
+    "timestamp": "2026-03-05T14:41:33.711936",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Touching Ice, Almost Heaven",
+    "role": "opener",
+    "youtube_id": "yhhnvGtB9Wc",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (95)",
+    "timestamp": "2026-03-05T14:41:33.711964",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Drug Church, White Reaper",
+    "role": "headliner",
+    "youtube_id": "vjyK81x0fzk",
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "existing high confidence (70)",
+    "timestamp": "2026-03-05T14:41:33.712000",
+    "venue": "Mohawk"
+  },
+  {
+    "artist": "Death Lens",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": null,
+    "tier": "reused",
+    "explanation": "rejected by verifier (permanent skip)",
+    "timestamp": "2026-03-05T14:41:33.712021",
+    "venue": "Mohawk"
   }
 ]

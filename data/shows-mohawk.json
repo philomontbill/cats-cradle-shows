@@ -80,7 +80,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
-      "youtube_id": null,
+      "youtube_id": "SkkIwO_X4i4",
       "opener_youtube_id": "XiqXpTolqug"
     },
     {
@@ -91,7 +91,7 @@
       "notice": null,
       "doors": "",
       "showtime": "",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485192012",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475642786",
       "ticket_url": "https://www.billboard.com/music/music-news/don-toliver-juniorh-mau-p-sxsw-billbaord-presents-the-stage-1236133001/",
       "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
@@ -104,7 +104,7 @@
       "notice": null,
       "doors": "",
       "showtime": "",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186764",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475643405",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186800",
       "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
@@ -117,7 +117,7 @@
       "notice": null,
       "doors": "",
       "showtime": "",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485186457",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475643082",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186496",
       "youtube_id": "u5jeMiqAq8E",
       "opener_youtube_id": null
@@ -146,6 +146,19 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648479562597",
       "ticket_url": "https://partiful.com/e/d3cnBH2jop4L1gCpMCqH",
       "youtube_id": "RY-PpBPi7dA",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "SXSW: Monster Children Showcase",
+      "date": "Tue, Mar 17",
+      "venue": "Mohawk Outdoor",
+      "opener": "Rocket, La Texana, Mainliners, Sex Mask, Very Nice Person, Swapmeet, Zastava",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475647385",
+      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648475692234",
+      "youtube_id": null,
       "opener_youtube_id": null
     },
     {
@@ -221,7 +234,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648513371021",
       "ticket_url": "http://etix.com/ticket/p/93911832/mint-field-austin-resound-presents",
-      "youtube_id": null,
+      "youtube_id": "-E4HZt8u5QI",
       "opener_youtube_id": "t8cgqqYItgA"
     },
     {
@@ -247,7 +260,7 @@
       "showtime": "8:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648707943645",
       "ticket_url": "https://www.etix.com/ticket/p/87764085/ratboys-austin-mohawk-outdoor",
-      "youtube_id": "lX5adLHQobY",
+      "youtube_id": "KYUMoL9FrIA",
       "opener_youtube_id": "TIKFfi9qD98"
     },
     {
@@ -313,23 +326,10 @@
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
       "youtube_id": "vjyK81x0fzk",
       "opener_youtube_id": null
-    },
-    {
-      "artist": "Sarah Kinsley",
-      "date": "Tue, Apr 07",
-      "venue": "Mohawk Outdoor",
-      "opener": "Girlpuppy",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648569899340",
-      "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
-      "youtube_id": "Nm7EPfSeqGs",
-      "opener_youtube_id": "Rp6jCtnhCDs"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T09:11:01.530007"
+  "last_updated": "2026-03-05T14:41:33.750092"
 }

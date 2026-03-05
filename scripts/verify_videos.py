@@ -867,8 +867,9 @@ def main():
                 date = show.get("date", "TBD")
                 image = show.get("image", "")
 
-                # Skip if overridden (locked)
-                if artist in override_dict:
+                # Skip if overridden (locked) — case-insensitive check
+                artist_lower = artist.lower()
+                if any(k.lower() == artist_lower for k in override_dict):
                     tonight["overrides"] += 1
                     continue
 
