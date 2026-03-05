@@ -687,10 +687,10 @@ def build_csv(tonight, states, all_shows_data, old_states):
                     continue
                 state = states.get(artist, {})
                 state_status = state.get("status", "")
+                if state_status == "override_null":
+                    continue
                 if state_status == "rejected":
                     status = f"Rejected: {state.get('reason', 'unknown')}"
-                elif state_status == "override_null":
-                    status = "Override: no video"
                 elif state_status == "verified":
                     status = "No video from scraper"
                 else:
@@ -953,12 +953,12 @@ def main():
         save_video_states(states)
         print(f"\nSaved {len(states)} video states to qa/video_states.json")
 
-    # Mark null overrides in states (for report)
+    # Mark null overrides in states (for report) — always wins over prior state
     for artist, vid in artist_overrides.items():
-        if vid is None and artist not in states:
+        if vid is None:
             states[artist] = {"status": "override_null"}
     for artist, vid in opener_overrides.items():
-        if vid is None and artist not in states:
+        if vid is None:
             states[artist] = {"status": "override_null"}
 
     # Build issue body and CSV
