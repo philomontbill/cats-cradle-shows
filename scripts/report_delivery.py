@@ -156,6 +156,90 @@ def append_to_sheet(rows, tab_name, header=None):
         return False
 
 
+def ensure_definitions_tab():
+    """Create and populate a Definitions tab if it doesn't already have content.
+
+    Writes skip reason definitions so the spreadsheet is self-documenting.
+    Only writes if the tab is empty (won't overwrite existing content).
+
+    Returns True on success, False on failure.
+    """
+    sheet_id = load_env_var("REPORT_SHEETS_ID")
+    if not sheet_id:
+        return False
+
+    service = _get_sheets_service()
+    if not service:
+        return False
+
+    tab_name = "Definitions"
+
+    definitions = [
+        ["Skip Reason", "Definition"],
+        ["verified", "Video passed verifier checks (view count, channel analysis, upload date). Assigned to show."],
+        ["rejected", "Video failed verifier checks. Removed from show."],
+        ["accept", "YouTube search found a video scoring 70+ (gate score). Assigned as candidate."],
+        ["flag", "YouTube search found a video scoring 40-69. Assigned but flagged for review."],
+        ["reused", "Existing match with high confidence kept from prior run. No new API search needed."],
+        ["override", "Manual override from overrides.json — specific video ID or null (no video)."],
+        ["skip", "Artist skipped before searching — event name, invalid name, too short, or recently rejected."],
+        ["no_results", "YouTube API search ran but returned zero results."],
+        ["api_error", "YouTube API or network error — scraper could not reach the API."],
+        ["code_error", "Bug in scraper code — unexpected exception during search."],
+        ["no_log", "No match log entry found for this artist. Typically a 2nd/3rd opener (only first opener is searched)."],
+        [],
+        ["Column", "Definition"],
+        ["Section", "Report section: Verified (new tonight), Rejected (failed tonight), No Preview (no video assigned)."],
+        ["Artist", "Artist or event name as scraped from venue website."],
+        ["Role", "headliner or opener."],
+        ["Venue", "Venue name."],
+        ["Date", "Show date as listed on venue website."],
+        ["Video URL", "YouTube video URL (blank for No Preview rows)."],
+        ["Detail", "Confidence score (Verified), rejection reasons (Rejected), or status note (No Preview)."],
+        ["Skip Reason", "How the scraper/verifier processed this artist. See definitions above."],
+        [],
+        ["Quality Metric", "Definition"],
+        ["Match Confidence", "% of assigned videos scoring 70+ in name matching (audit oEmbed score). Measures name similarity, not true video correctness."],
+        ["Coverage", "% of active shows with a video assigned."],
+    ]
+
+    try:
+        # Check if tab exists
+        spreadsheet = service.spreadsheets().get(spreadsheetId=sheet_id).execute()
+        tab_exists = any(
+            s["properties"]["title"] == tab_name
+            for s in spreadsheet["sheets"]
+        )
+
+        if not tab_exists:
+            service.spreadsheets().batchUpdate(
+                spreadsheetId=sheet_id,
+                body={"requests": [{"addSheet": {"properties": {"title": tab_name}}}]},
+            ).execute()
+            print(f"  Sheets: created '{tab_name}' tab")
+
+        # Check if already populated
+        result = service.spreadsheets().values().get(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A1",
+        ).execute()
+        if result.get("values"):
+            return True  # Already has content
+
+        # Write definitions
+        service.spreadsheets().values().update(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A1",
+            valueInputOption="USER_ENTERED",
+            body={"values": definitions},
+        ).execute()
+        print(f"  Sheets: wrote definitions to '{tab_name}' tab")
+        return True
+    except Exception as e:
+        print(f"  Warning: Definitions tab failed — {e}")
+        return False
+
+
 def sort_sheet(tab_name, sort_specs):
     """Sort all data rows in a sheet tab (preserves header row).
 

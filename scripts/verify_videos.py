@@ -36,7 +36,8 @@ sys.path.insert(0, _PROJECT_ROOT)
 
 from scrapers.utils import load_env_var, normalize as _normalize
 from scripts.report_delivery import (
-    send_email, append_to_sheet, sort_sheet, markdown_to_html, wrap_html_email,
+    send_email, append_to_sheet, sort_sheet, ensure_definitions_tab,
+    markdown_to_html, wrap_html_email,
 )
 
 # --- Configuration ---
@@ -654,14 +655,14 @@ def build_csv(tonight, states, all_shows_data, old_states):
         url = f"https://youtube.com/watch?v={v['video_id']}"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
-                         v["confidence"], ""])
+                         v["confidence"], "verified"])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
                          r["venue"], r["date"], url,
-                         reason_str, ""])
+                         reason_str, "rejected"])
 
     # No preview queue — check both headliners and openers
     for filepath, data in all_shows_data:
@@ -690,7 +691,7 @@ def build_csv(tonight, states, all_shows_data, old_states):
                     status = "No video from scraper"
                 else:
                     status = "No video assigned"
-                skip_reason = match_tiers.get(artist, "")
+                skip_reason = match_tiers.get(artist, "") or "no_log"
                 writer.writerow(["No Preview", artist, role, venue, date, "",
                                  status, skip_reason])
 
@@ -800,6 +801,9 @@ def deliver_daily_report(issue_body, csv_text):
                 (0, "DESCENDING"),  # Report Date
                 (3, "ASCENDING"),   # Role (headliner < opener)
             ])
+
+    # Ensure Definitions tab exists (no-op after first run)
+    ensure_definitions_tab()
 
 
 def main():
