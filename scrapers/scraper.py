@@ -178,18 +178,44 @@ class CatsCradleScraper(BaseScraper):
         return "TBD"
 
     def _extract_venue(self, soup, url=''):
-        """Determine which venue section"""
-        text = soup.get_text().lower()
-        url_lower = url.lower()
+        """Determine which venue from structured page data.
 
-        if 'motorco' in text or 'motorco' in url_lower:
+        Priority: 1) venue link in page header, 2) URL slug, 3) full-text fallback.
+        """
+        slug_to_venue = {
+            'cats-cradle-back-room': 'Cat\'s Cradle Back Room',
+            'cats-cradle': 'Cat\'s Cradle',
+            'motorco-music-hall': 'Motorco Music Hall',
+            'haw-river-ballroom': 'Haw River Ballroom',
+        }
+
+        # 1) Structured venue link (most reliable)
+        venue_link = soup.select_one('div.rhpVenueContent a[href*="/venue/"]')
+        if venue_link:
+            href = venue_link.get('href', '')
+            for slug, name in slug_to_venue.items():
+                if slug in href:
+                    return name
+
+        # 2) URL slug — second path segment from end: /event/{show}/{venue-slug}/{city}/
+        if url:
+            parts = [p for p in url.strip('/').split('/') if p]
+            if len(parts) >= 2:
+                venue_slug = parts[-2]
+                for slug, name in slug_to_venue.items():
+                    if venue_slug == slug:
+                        return name
+
+        # 3) Full-text fallback (least reliable — artist bios can false-match)
+        text = soup.get_text().lower()
+        if 'motorco' in text:
             return "Motorco Music Hall"
         elif 'back room' in text:
             return "Cat's Cradle Back Room"
         elif 'haw river' in text or 'ballroom' in text:
             return "Haw River Ballroom"
-        else:
-            return "Cat's Cradle"
+
+        return "Cat's Cradle"
 
     def _extract_opener(self, soup):
         """Extract opening act from the page"""
