@@ -28,7 +28,7 @@ import re
 import subprocess
 import tempfile
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
@@ -643,6 +643,29 @@ def load_match_log():
     return latest
 
 
+def load_previous_no_preview():
+    """Load No Preview artists from yesterday's CSV for delta detection."""
+    qa_dir = os.path.join(_PROJECT_ROOT, "qa")
+    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    csv_path = os.path.join(qa_dir, f"video-report-{yesterday}.csv")
+    artists = set()
+    try:
+        with open(csv_path) as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if row.get("Section") == "No Preview":
+                    artist = row.get("Artist", "").strip()
+                    if artist:
+                        artists.add(artist)
+    except (FileNotFoundError, KeyError):
+        pass
+    return artists
+
+
+# Skip reasons that indicate expected no-preview (not actionable)
+EXPECTED_SKIP_REASONS = {"skip", "reused", "no_log"}
+
+
 def build_csv(tonight, states, all_shows_data, old_states):
     """Build a combined CSV with Skip Reason column."""
 
@@ -666,7 +689,11 @@ def build_csv(tonight, states, all_shows_data, old_states):
                          r["venue"], r["date"], url,
                          reason_str, "rejected"])
 
-    # No preview queue — check both headliners and openers
+    # No preview queue — split into actionable (top) and expected (bottom)
+    prev_no_preview = load_previous_no_preview()
+    actionable_rows = []
+    expected_rows = []
+
     for filepath, data in all_shows_data:
         shows = data.get("shows", data) if isinstance(data, dict) else data
         for show in shows:
@@ -696,8 +723,28 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 else:
                     status = "No video assigned"
                 skip_reason = match_tiers.get(artist, "") or "no_log"
-                writer.writerow(["No Preview", artist, role, venue, date, "",
-                                 status, skip_reason])
+
+                # Mark new-tonight items (not in yesterday's report)
+                if artist not in prev_no_preview:
+                    status = f"NEW — {status}"
+
+                row = ["No Preview", artist, role, venue, date, "",
+                       status, skip_reason]
+                if skip_reason in EXPECTED_SKIP_REASONS:
+                    expected_rows.append(row)
+                else:
+                    actionable_rows.append(row)
+
+    # Write actionable items first
+    for row in actionable_rows:
+        writer.writerow(row)
+
+    # Separator row with count, then expected items
+    if expected_rows:
+        writer.writerow(["---", f"Expected ({len(expected_rows)} items below — skip/reused/no_log)",
+                         "", "", "", "", "", ""])
+        for row in expected_rows:
+            writer.writerow(row)
 
     return output.getvalue()
 
