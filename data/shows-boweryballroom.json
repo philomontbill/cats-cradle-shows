@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "*LOW TIX* Caroline Jones",
-      "date": "Thu, Mar 05",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/672/5b800569-8777-409a-ab1f-c107e617a672_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/caroline-jones/",
-      "youtube_id": null
-    },
-    {
-      "artist": "*LOW TIX* Bryce Vine",
-      "date": "Thu, Mar 05",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/af8/fe4ccad7-46f0-4000-b7a6-560b07c83af8_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/bryce-vine/",
-      "youtube_id": null
-    },
-    {
       "artist": "Mike Viola",
       "date": "Fri, Mar 06",
       "venue": "Bowery Ballroom",
@@ -39,7 +15,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/09/MV-Winter-26-Mercury-Lounge.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/mike-viola/",
-      "youtube_id": null
+      "youtube_id": "eftZf44nsPg"
     },
     {
       "artist": "greek: The Cedar's Tape Tour",
@@ -51,7 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
-      "youtube_id": null
+      "youtube_id": "alOg6JtFHzU"
     },
     {
       "artist": "The Ramona Flowers",
@@ -63,7 +39,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
-      "youtube_id": null
+      "youtube_id": "5eZoJBcf6BE"
     },
     {
       "artist": "All Your Friends: The Indie Party",
@@ -87,7 +63,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/CFP-WoA-NYC-030726.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cure-for-paranoia/",
-      "youtube_id": null
+      "youtube_id": "Zvr8cyhQ2Aw"
     },
     {
       "artist": "TELYKAST",
@@ -99,7 +75,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9b8/f86d7d26-bc86-4764-b665-96b188c0e9b8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/telykast/",
-      "youtube_id": null
+      "youtube_id": "0SvT0R3da8s"
     },
     {
       "artist": "Surfing For Daisy",
@@ -111,7 +87,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/ac3/e8b2a963-5c88-4123-8b2c-55b0ecd0eac3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy/",
-      "youtube_id": null
+      "youtube_id": "LFV-p4zCz5Y"
     },
     {
       "artist": "Surfing For Daisy",
@@ -159,7 +135,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-2/",
-      "youtube_id": null
+      "youtube_id": "Y43GhbUyamg"
     },
     {
       "artist": "Belle Blue",
@@ -171,7 +147,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
-      "youtube_id": null
+      "youtube_id": "FZAOpMM-FxE"
     },
     {
       "artist": "Chasing Abbey",
@@ -183,7 +159,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-3/",
-      "youtube_id": null
+      "youtube_id": "Y43GhbUyamg"
     },
     {
       "artist": "Chasing Abbey",
@@ -195,7 +171,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey/",
-      "youtube_id": null
+      "youtube_id": "Y43GhbUyamg"
     },
     {
       "artist": "Glitterer",
@@ -207,7 +183,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
-      "youtube_id": null
+      "youtube_id": "WNygkxYbU6w"
     },
     {
       "artist": "Radium Dolls",
@@ -219,7 +195,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/269/426750e0-8481-4cef-bdf5-40169a566269_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/radium-dolls/",
-      "youtube_id": null
+      "youtube_id": "tX44b9xd224"
     },
     {
       "artist": "Noah Pope, Renny Conti, James Eichman",
@@ -231,7 +207,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/noah-pope-flyer.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/renny-conti-noah-pope-james-eichman-solo-acoustic/",
-      "youtube_id": null
+      "youtube_id": "b1gx_VtE21A"
     },
     {
       "artist": "Yo Guys",
@@ -255,7 +231,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/f62/ceae0603-bebc-447e-8a5c-c3d0a3084f62_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cailin-russo/",
-      "youtube_id": null
+      "youtube_id": "ePbjWGnEzk4"
     },
     {
       "artist": "WHATMORE",
@@ -267,7 +243,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/85b/194de982-69c3-4b61-bdd0-ebaff52e885b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/whatmore/",
-      "youtube_id": null
+      "youtube_id": "L-9QwatubPo"
     },
     {
       "artist": "HLWA",
@@ -304,10 +280,35 @@
       "image": "https://s1.ticketm.net/dam/e/82d/b3eb8cce-62dc-4d66-8517-0cc0a0d8982d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/taiki-nulight-cheeky-bugger-tour/",
       "youtube_id": "j6Xvo7DgJBg"
+    },
+    {
+      "artist": "The Red Party: THE BOOTBLACKS + THE DISCUSSION LIVE!",
+      "date": "Sat, Mar 14",
+      "venue": "Bowery Ballroom",
+      "opener": "special guest DJ T.B.A. with your DJS Sean Templar + Jarek spinning the best POST PUNK - GOTH - DEATHROCK - COLDWAVE DOORS 10pm (come early) - 4am $15 ADV / $20 DOS Mercury Lounge 217 East Houston St. NYC",
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Red_0314_discussion_bootblacks.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-the-bootblacks-the-discussion-live/",
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "Kause",
+      "date": "Sun, Mar 15",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "5pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/505/9a30271b-d8cf-436e-9be2-790326295505_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/kause/",
+      "youtube_id": "h7Aw5cKC7Yc"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 3,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T21:27:50.733062"
+  "last_updated": "2026-03-06T09:07:16.973999"
 }

@@ -15,7 +15,7 @@
       "showtime": "6:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/letdown/",
-      "youtube_id": null
+      "youtube_id": "PsKg8dEWWco"
     },
     {
       "artist": "Yellow Days",
@@ -39,7 +39,7 @@
       "showtime": "7:00pm",
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/250303_MSOLIE_071-683x1024.jpg?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/yung-kai/",
-      "youtube_id": null
+      "youtube_id": "iQmvTvGJfQs"
     },
     {
       "artist": "VARIALS",
@@ -52,18 +52,6 @@
       "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/12/2026-Promo-1024x1024.png?lossy=1&strip=1&webp=1",
       "ticket_url": "https://tkx.live/events/varials/",
       "youtube_id": "7WAJygma83A"
-    },
-    {
-      "artist": "Allie X",
-      "date": "Sun, Apr 12",
-      "venue": "The Social",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": "7:00pm",
-      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/11/Screenshot-2025-05-17-at-2.41.50-PM-1024x750.jpg?lossy=1&strip=1&webp=1",
-      "ticket_url": "https://tkx.live/events/allie-x/",
-      "youtube_id": "LL7f-w6WNw4"
     },
     {
       "artist": "Sports",
@@ -126,8 +114,8 @@
       "youtube_id": null
     }
   ],
-  "total_shows": 10,
-  "shows_with_video": 7,
-  "shows_with_image": 10,
-  "last_updated": "2026-03-05T09:11:12.291028"
+  "total_shows": 9,
+  "shows_with_video": 8,
+  "shows_with_image": 9,
+  "last_updated": "2026-03-06T09:06:16.363581"
 }

@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Oort Patrol",
-      "date": "Thu, Mar 05",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Small Doses and Chiroptera",
-      "image": "https://local506.com/wp-content/uploads/2026/01/oort-patrol-with-small-doses-and-chiroptera.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/81292975/oort-patrol-with-small-doses-and-chiroptera-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "FgB7naB-gQ8",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Local 506",
       "artist": "The Buckets",
       "date": "Fri, Mar 06",
       "doors": "7 pm",
@@ -323,10 +310,23 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": "qv19lL_HtxY"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Glixen and Trauma Ray",
+      "date": "Fri, Apr 17",
+      "doors": "6:30 pm",
+      "showtime": "7:30 pm",
+      "opener": "Her New Knife and Knifeplay",
+      "image": "https://local506.com/wp-content/uploads/2026/01/glixentraumaray.jpg",
+      "ticket_url": "https://local506.com/event/glixen-and-trauma-ray-with-her-new-knife-and-knifeplay/",
+      "notice": null,
+      "youtube_id": "OWkiGvsuWWY",
+      "opener_youtube_id": "FQ1Tmz4SEBA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T21:25:51.776062"
+  "last_updated": "2026-03-06T09:05:50.698682"
 }

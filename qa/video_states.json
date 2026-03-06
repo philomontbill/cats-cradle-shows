@@ -1221,12 +1221,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-05T21:28:26.944205",
+    "verified_date": "2026-03-06T09:08:09.874432",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5335897,
+      "view_count": 5336311,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -3767,23 +3767,24 @@
   },
   "Sarah Kinsley": {
     "status": "verified",
-    "video_id": "Nm7EPfSeqGs",
-    "verified_date": "2026-02-28T16:23:11.229939",
-    "confidence": "channel match, 298,962 views",
+    "video_id": "6p4KTYTxyP8",
+    "verified_date": "2026-03-06T09:08:06.282495",
+    "confidence": "channel match, VEVO, 77,646 views",
     "metadata": {
-      "video_title": "Sarah Kinsley - Karma (Official Music Video)",
-      "channel_name": "Sarah Kinsley",
-      "view_count": 298962,
-      "published": "2021-03-11T05:00:09Z",
-      "channel_subscribers": 55400,
-      "channel_videos": 211,
+      "video_title": "Sarah Kinsley - Fleeting (Official Music Video)",
+      "channel_name": "SarahKinsleyVEVO",
+      "view_count": 77646,
+      "published": "2025-10-09T14:00:06Z",
+      "channel_subscribers": 2650,
+      "channel_videos": 24,
       "is_topic": false,
       "channel_match": true,
-      "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 55 (>=50)",
-      "video_age_years": 5.0,
-      "spotify_match": "exact",
-      "spotify_popularity": 55
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.4
     }
   },
   "Girlpuppy": {
@@ -6164,14 +6165,14 @@
   },
   "Belle Blue": {
     "status": "verified",
-    "video_id": "rPpiNRVOJs8",
-    "verified_date": "2026-03-05T09:12:54.431608",
-    "confidence": "channel match, VEVO, 645 views",
+    "video_id": "FZAOpMM-FxE",
+    "verified_date": "2026-03-06T09:07:49.387136",
+    "confidence": "channel match, VEVO, 2,867 views",
     "metadata": {
-      "video_title": "Belle Blue - Jack (Official Music Video)",
+      "video_title": "Belle Blue - woof (Official Music Video)",
       "channel_name": "BelleBlueVEVO",
-      "view_count": 645,
-      "published": "2026-01-30T08:01:07Z",
+      "view_count": 2867,
+      "published": "2025-03-04T08:42:31Z",
       "channel_subscribers": 97,
       "channel_videos": 4,
       "is_topic": false,
@@ -6181,7 +6182,7 @@
       "session_channel": false,
       "trusted_reason": "VEVO",
       "view_cap_reason": "trusted channel (VEVO)",
-      "video_age_years": 0.1
+      "video_age_years": 1.0
     }
   },
   "Rivalry Night": {
@@ -6275,12 +6276,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-05T21:28:25.719792",
-    "confidence": "channel match, 13,578 views",
+    "verified_date": "2026-03-06T09:08:07.472019",
+    "confidence": "channel match, 13,585 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13578,
+      "view_count": 13585,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -8341,23 +8342,23 @@
     }
   },
   "Persimmon / Bangzz / cardigan": {
-    "status": "verified",
-    "video_id": "pJB73dMIABI",
-    "verified_date": "2026-03-05T09:13:08.717676",
-    "confidence": "Topic channel, 7,105 views",
+    "status": "rejected",
+    "video_id": "t8hYwzBpaOg",
+    "rejected_date": "2026-03-06T09:08:11.079865",
+    "reason": "artist name not found in channel or title",
     "metadata": {
-      "video_title": "Persimmon",
-      "channel_name": "The Army, The Navy - Topic",
-      "view_count": 7105,
-      "published": "2026-01-20T23:32:26Z",
-      "channel_subscribers": 1800,
-      "channel_videos": 22,
-      "is_topic": true,
+      "video_title": "Be Your Animal - Cinnamon Persimmon (Music Video)",
+      "channel_name": "Cinnamon Persimmon",
+      "view_count": 859,
+      "published": "2019-11-22T04:30:02Z",
+      "channel_subscribers": 46,
+      "channel_videos": 7,
+      "is_topic": false,
       "channel_match": false,
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 0.1
+      "video_age_years": 6.3
     }
   },
   "greek: The Cedar's Tape Tour": {
@@ -8396,6 +8397,295 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 0.0
+    }
+  },
+  "TELYKAST": {
+    "status": "verified",
+    "video_id": "0SvT0R3da8s",
+    "verified_date": "2026-03-06T09:07:48.186778",
+    "confidence": "label: Armada Music, 108,436 views",
+    "metadata": {
+      "video_title": "TELYKAST, x.o.anne - Free (Official Music Video)",
+      "channel_name": "Armada Music TV",
+      "view_count": 108436,
+      "published": "2024-05-17T19:00:00Z",
+      "channel_subscribers": 5540000,
+      "channel_videos": 15614,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_label": "Armada Music",
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "label: Armada Music",
+      "view_cap_reason": "trusted channel (label: Armada Music)",
+      "channel_override": "trusted label: Armada Music, skipping mismatch check",
+      "video_age_years": 1.8
+    }
+  },
+  "Kevin Devine & The Goddamn Band are Kenny O'Brien & The O'Douls": {
+    "status": "rejected",
+    "video_id": "JlhN1qhmrQc",
+    "rejected_date": "2026-03-06T09:07:50.594211",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Kevin Devine Announces Kenny O\u2019Brien & the O\u2019Douls",
+      "channel_name": "Bad Timing Records",
+      "view_count": 1519,
+      "published": "2018-12-13T17:22:28Z",
+      "channel_subscribers": 3590,
+      "channel_videos": 233,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 7.2
+    }
+  },
+  "The Red Party: THE BOOTBLACKS + THE DISCUSSION LIVE!": {
+    "status": "rejected",
+    "video_id": "p4HdxOh82hE",
+    "rejected_date": "2026-03-06T09:07:51.810006",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Ella Red - Party Animal (Official Music Video)",
+      "channel_name": "Ella Red",
+      "view_count": 75333,
+      "published": "2025-11-21T05:10:38Z",
+      "channel_subscribers": 94700,
+      "channel_videos": 307,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Kause": {
+    "status": "verified",
+    "video_id": "h7Aw5cKC7Yc",
+    "verified_date": "2026-03-06T09:07:53.017340",
+    "confidence": "channel match, 10,976 views",
+    "metadata": {
+      "video_title": "Kause - The Valley (Official Video)",
+      "channel_name": "Kause",
+      "view_count": 10976,
+      "published": "2025-11-18T15:16:03Z",
+      "channel_subscribers": 781,
+      "channel_videos": 128,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Paulus Schaefer (Netherlands) Guitar Workshop": {
+    "status": "rejected",
+    "video_id": "dUC71gzxP4A",
+    "rejected_date": "2026-03-06T09:07:55.467590",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "join us at the GYPSY JAZZ WORKSHOP WEEK & learn a Paulus Sch\u00e4fer solo",
+      "channel_name": "Christiaan van Hemert",
+      "view_count": 1090,
+      "published": "2023-01-09T21:45:59Z",
+      "channel_subscribers": 36200,
+      "channel_videos": 776,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.2
+    }
+  },
+  "Andy Hull": {
+    "status": "verified",
+    "video_id": "BFa3jTSIsL8",
+    "verified_date": "2026-03-06T09:07:56.676310",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "paris jackson - eyelids ft. andy hull (official music video)",
+      "channel_name": "ParisJacksonVEVO",
+      "view_count": 1426716,
+      "published": "2021-01-23T01:30:09Z",
+      "channel_subscribers": 1540,
+      "channel_videos": 5,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 5.1
+    }
+  },
+  "Brother Bird": {
+    "status": "verified",
+    "video_id": "1hpkmjDAGxs",
+    "verified_date": "2026-03-06T09:07:57.860013",
+    "confidence": "25,122 views",
+    "metadata": {
+      "video_title": "Brother Bird - Leave It Alone | OurVinyl Sessions",
+      "channel_name": "OurVinyl",
+      "view_count": 25122,
+      "published": "2018-10-03T16:12:02Z",
+      "channel_subscribers": 401000,
+      "channel_videos": 1275,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'OurVinyl' doesn't match artist (title match)",
+      "video_age_years": 7.4
+    }
+  },
+  "Ivy Lab": {
+    "status": "verified",
+    "video_id": "3YY84FHcJ9E",
+    "verified_date": "2026-03-06T09:08:00.263419",
+    "confidence": "616,464 views",
+    "metadata": {
+      "video_title": "Ivy Lab - \"Cake\" (Official Music Video)",
+      "channel_name": "Twenty Twenty London",
+      "view_count": 616464,
+      "published": "2018-03-22T13:32:13Z",
+      "channel_subscribers": 15000,
+      "channel_videos": 281,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'Twenty Twenty London' doesn't match artist (title match)",
+      "video_age_years": 8.0
+    }
+  },
+  "The Wallabies": {
+    "status": "rejected",
+    "video_id": "OwvzNxpQrN8",
+    "rejected_date": "2026-03-06T09:08:01.493702",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Wallabies - Despertar (Video Oficial)",
+      "channel_name": "Wallabies mx",
+      "view_count": 4397,
+      "published": "2017-08-24T00:00:03Z",
+      "channel_subscribers": 283,
+      "channel_videos": 16,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 8.5
+    }
+  },
+  "Glixen and Trauma Ray": {
+    "status": "verified",
+    "video_id": "OWkiGvsuWWY",
+    "verified_date": "2026-03-06T09:08:02.662846",
+    "confidence": "channel match, 35,631 views",
+    "metadata": {
+      "video_title": "trauma ray - \"Spectre\" (Official Video)",
+      "channel_name": "trauma ray",
+      "view_count": 35631,
+      "published": "2024-09-24T14:00:22Z",
+      "channel_subscribers": 3900,
+      "channel_videos": 6,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.4
+    }
+  },
+  "Her New Knife and Knifeplay": {
+    "status": "verified",
+    "video_id": "FQ1Tmz4SEBA",
+    "verified_date": "2026-03-06T09:08:03.841061",
+    "confidence": "channel match, Topic channel, 1,041 views",
+    "metadata": {
+      "video_title": "vesselera (SILICONE VALLEY: re)",
+      "channel_name": "Her New Knife - Topic",
+      "view_count": 1041,
+      "published": "2025-09-01T10:03:03Z",
+      "channel_subscribers": 550,
+      "channel_videos": 36,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.5
+    }
+  },
+  "Rocket, La Texana, Mainliners, Sex Mask, Very Nice Person, Swapmeet, Zastava": {
+    "status": "verified",
+    "video_id": "iZ4EikpB4RU",
+    "verified_date": "2026-03-06T09:08:05.030530",
+    "confidence": "channel match, 127,466 views",
+    "metadata": {
+      "video_title": "Rocket - Wide Awake (Official Video)",
+      "channel_name": "Rocket",
+      "view_count": 127466,
+      "published": "2025-07-09T14:00:01Z",
+      "channel_subscribers": 33800,
+      "channel_videos": 25,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "FALCO & BOOK PLAY JERRY GARCIA": {
+    "status": "verified",
+    "video_id": "W2tTk4BjXPs",
+    "verified_date": "2026-03-06T09:08:08.680431",
+    "confidence": "682 views",
+    "metadata": {
+      "video_title": "\"Althea\" - Falco & Book Play Jerry Garcia",
+      "channel_name": "The Official 5 Points Music Sanctuary YouTube",
+      "view_count": 682,
+      "published": "2023-01-31T20:48:18Z",
+      "channel_subscribers": 226,
+      "channel_videos": 76,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'The Official 5 Points Music Sanctuary YouTube' doesn't match artist (title match)",
+      "video_age_years": 3.1
+    }
+  },
+  "Mila Degray": {
+    "status": "verified",
+    "video_id": "jKBFHF7AEss",
+    "verified_date": "2026-03-06T09:08:12.292553",
+    "confidence": "channel match, 12,306 views",
+    "metadata": {
+      "video_title": "Mila Degray - Masculine Charm (Official Video)",
+      "channel_name": "Mila Degray",
+      "view_count": 12306,
+      "published": "2024-08-09T18:51:04Z",
+      "channel_subscribers": 1250,
+      "channel_videos": 13,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.6
     }
   }
 }

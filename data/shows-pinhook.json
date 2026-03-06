@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Fish Hunt / People I Love / Kelly Reidy",
-      "date": "Thu, Mar 05",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/fish-hunt-people-i-know.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/84695097/fish-hunt-people-i-love-kelly-reidy-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Temptress / Friendship Commanders / Holy Roller",
       "date": "Fri, Mar 06",
       "doors": "7 pm",
@@ -194,7 +183,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/55429043/persimmon-bangzz-cardigan-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Mila Degray",
+      "date": "Sun, Apr 05",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/mila-degray.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/45549200/mila-degray-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "jKBFHF7AEss"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 16,
+  "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T21:25:55.475429"
+  "last_updated": "2026-03-06T09:05:55.522789"
 }

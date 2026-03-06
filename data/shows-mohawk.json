@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Rusty Santos",
-      "date": "Thu, Mar 05",
-      "venue": "Mohawk Indoor",
-      "opener": "Ama, Joey Z, Ewe, Dj Fennec",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648507945963",
-      "ticket_url": "https://www.etix.com/ticket/p/70516319/rusty-santos-austin-mohawk-austintxindoor",
-      "youtube_id": "4rp1mCX9nOQ",
-      "opener_youtube_id": "VBSJTfmNnFI"
-    },
-    {
       "artist": "Clover County",
       "date": "Fri, Mar 06",
       "venue": "Mohawk Indoor",
@@ -159,7 +146,7 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475647385",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648475692234",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "iZ4EikpB4RU"
     },
     {
       "artist": "SXSW: Very Necessary Showcase",
@@ -326,10 +313,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
       "youtube_id": "vjyK81x0fzk",
       "opener_youtube_id": null
+    },
+    {
+      "artist": "Sarah Kinsley",
+      "date": "Tue, Apr 07",
+      "venue": "Mohawk Outdoor",
+      "opener": "Girlpuppy",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648569899340",
+      "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
+      "youtube_id": "6p4KTYTxyP8",
+      "opener_youtube_id": "Rp6jCtnhCDs"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T21:26:04.927409"
+  "last_updated": "2026-03-06T09:06:06.546795"
 }

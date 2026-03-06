@@ -16,7 +16,8 @@
       "ticket_url": "https://theorangepeel.net/event/sunsquabi-manic-focus/the-orange-peel/asheville-north-carolina/",
       "notice": "Cancelled",
       "youtube_id": "h7vGOr3P4no",
-      "opener_youtube_id": "dZ3TCHIti7E"
+      "opener_youtube_id": "dZ3TCHIti7E",
+      "expired": true
     },
     {
       "venue": "The Orange Peel",
@@ -235,7 +236,7 @@
       "date": "Fri, Apr 03",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Black Joe Lewis, Piñata Protest",
+      "opener": "Black Joe Lewis, Pi\u00f1ata Protest",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
@@ -257,7 +258,7 @@
     },
     {
       "venue": "The Orange Peel",
-      "artist": "Juvenile’s Boiling Point Album Release Tour",
+      "artist": "Juvenile\u2019s Boiling Point Album Release Tour",
       "date": "Sun, Apr 05",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -281,8 +282,8 @@
       "youtube_id": "xNG2MUXtK4E"
     }
   ],
-  "total_shows": 22,
-  "shows_with_video": 21,
-  "shows_with_image": 22,
+  "total_shows": 21,
+  "shows_with_video": 20,
+  "shows_with_image": 21,
   "last_updated": "2026-03-05T21:28:20.109326"
 }

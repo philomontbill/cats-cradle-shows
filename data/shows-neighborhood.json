@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "ROBERT JON & THE WRECK",
-      "date": "Thu, Mar 05",
-      "venue": "Neighborhood Theatre",
-      "opener": "special guest Sam Morrow",
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/977/f062aa60-fbf6-4e8d-ac74-bbd6c6cf8977_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/robert-jon-the-wreck-with-special-charlotte-north-carolina-03-05-2026/event/2D00634E0684BDF7",
-      "youtube_id": "XORinLiOz0g",
-      "opener_youtube_id": null
-    },
-    {
       "artist": "MO LOWDA & THE HUMBLE",
       "date": "Fri, Mar 06",
       "venue": "Neighborhood Theatre",
@@ -294,10 +281,22 @@
       "image": "https://s1.ticketm.net/dam/e/798/10048079-166d-432d-8921-9a16a707d798_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/jump-americas-van-halen-experience-vh1-charlotte-north-carolina-04-19-2026/event/2D006332DCFF88C3",
       "youtube_id": "qrQA2gFrwI4"
+    },
+    {
+      "artist": "FALCO & BOOK PLAY JERRY GARCIA",
+      "date": "Wed, Apr 22",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/a3a/4bbce290-de0f-4486-aa4e-fd127cdf0a3a_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/falco-book-play-jerry-garcia-charlotte-north-carolina-04-22-2026/event/2D006435B890DB30",
+      "youtube_id": "W2tTk4BjXPs"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-05T21:28:17.328621"
+  "last_updated": "2026-03-06T09:07:46.083880"
 }

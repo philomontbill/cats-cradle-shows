@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Rivalry Night",
-      "date": "Thu, Mar 05",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Dialtone (Duke), Red Kanoo (UNC), Weekend Therapy (Duke), Jackson Slater (UNC)",
-      "notice": null,
-      "doors": "6:30 pm",
-      "showtime": "7:30 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/03/rivalry-night-with-dialtone-duke-red-kanoo-unc-weekend-therapy-duke-jackson-slater-unc.jpg",
-      "event_url": "https://catscradle.com/event/rivalry-night-2/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null,
-      "opener_youtube_id": null
-    },
-    {
-      "artist": "Nothing",
-      "date": "Thu, Mar 05",
-      "venue": "Cat's Cradle",
-      "opener": "Full Body 2, Cryogeyser, VMO a.k.a. Violent Magic Orchestra",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Nothing_2079611765094891.jpg",
-      "event_url": "https://catscradle.com/event/nothing/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "xSZs27QQr1k",
-      "opener_youtube_id": "xe7rEv5UgRA"
-    },
-    {
       "artist": "Immortal Technique",
       "date": "Fri, Mar 06",
       "venue": "Cat's Cradle Back Room",
@@ -58,7 +32,7 @@
       "opener_youtube_id": "MAVev6WtbzI"
     },
     {
-      "artist": "Dirtwire – Universal Language Tour",
+      "artist": "Dirtwire \u2013 Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -319,10 +293,35 @@
       "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
       "event_url": "https://catscradle.com/event/paulus-schaefer-and-friends/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": null
+    },
+    {
+      "artist": "Paulus Schaefer (Netherlands) Guitar Workshop",
+      "date": "Sun, Mar 22",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "1 pm",
+      "showtime": "1:30 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
+      "event_url": "https://catscradle.com/event/paulus-schaefer-netherlands-guitar-workshop/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Andy Hull",
+      "date": "Wed, Jun 10",
+      "venue": "Haw River Ballroom",
+      "opener": "Brother Bird",
+      "notice": "Cat's Cradle Presents",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Andy_2161481768389065.jpg",
+      "event_url": "https://catscradle.com/event/andy-hull-3/haw-river-ballroom/saxapahaw-north-carolina/",
+      "youtube_id": "BFa3jTSIsL8",
+      "opener_youtube_id": "1hpkmjDAGxs"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-05T21:25:48.682482"
+  "last_updated": "2026-03-06T09:05:45.831073"
 }
