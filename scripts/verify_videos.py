@@ -36,7 +36,7 @@ sys.path.insert(0, _PROJECT_ROOT)
 
 from scrapers.utils import load_env_var, normalize as _normalize
 from scripts.report_delivery import (
-    send_email, append_to_sheet, sort_sheet, ensure_definitions_tab,
+    send_email, write_sheet, sort_sheet, ensure_definitions_tab,
     markdown_to_html, wrap_html_email,
 )
 
@@ -846,7 +846,7 @@ def deliver_daily_report(issue_body, csv_text):
         for row in reader:
             rows.append([report_date] + row)
         if rows:
-            append_to_sheet(rows, "Daily Video Reports", header=sheet_header)
+            write_sheet(rows, "Daily Video Reports", header=sheet_header)
             # No sort — CSV row order preserves the actionable/expected layout
 
     # Ensure Definitions tab exists (no-op after first run)

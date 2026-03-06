@@ -252,6 +252,54 @@ def ensure_definitions_tab():
         return False
 
 
+def write_sheet(rows, tab_name, header=None):
+    """Clear a sheet tab and write fresh data (replace, not append).
+
+    Args:
+        rows: List of lists (each inner list = one row of cell values).
+        tab_name: Sheet tab name (e.g., "Daily Video Reports").
+        header: Optional header row (list of strings). Written as row 1.
+
+    Returns True on success, False on failure.
+    """
+    sheet_id = load_env_var("REPORT_SHEETS_ID")
+    if not sheet_id:
+        print("  Warning: REPORT_SHEETS_ID not set — skipping Sheets")
+        return False
+
+    if not rows:
+        print("  Warning: no rows to write — skipping Sheets")
+        return False
+
+    service = _get_sheets_service()
+    if not service:
+        return False
+
+    try:
+        # Clear existing data
+        service.spreadsheets().values().clear(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A:Z",
+            body={},
+        ).execute()
+
+        # Build data with header
+        all_rows = [header] + rows if header else rows
+
+        # Write fresh data
+        service.spreadsheets().values().update(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A1",
+            valueInputOption="USER_ENTERED",
+            body={"values": all_rows},
+        ).execute()
+        print(f"  Sheets: wrote {len(all_rows)} rows to '{tab_name}' (replaced)")
+        return True
+    except Exception as e:
+        print(f"  Warning: Sheets write failed — {e}")
+        return False
+
+
 def sort_sheet(tab_name, sort_specs):
     """Sort all data rows in a sheet tab (preserves header row).
 
