@@ -153,12 +153,15 @@ class BaseScraper:
         if channel_norm and len(channel_norm) >= 3 and channel_norm in artist_norm:
             return 85, "channel name found in artist name"
 
-        # Strong channel word overlap
+        # Strong channel word overlap (require majority of words, not just half)
         channel_overlap = artist_words & channel_words
         if channel_overlap:
             ratio = len(channel_overlap) / len(artist_words)
-            if ratio >= 0.5:
+            if ratio > 0.5:
                 return int(70 + ratio * 20), f"channel match: {', '.join(sorted(channel_overlap))}"
+            # Exactly half (e.g. 1 of 2 words) — flag tier, not accept
+            if ratio == 0.5:
+                return int(40 + ratio * 20), f"partial channel match: {', '.join(sorted(channel_overlap))}"
 
         # --- TITLE-ONLY MATCHES (weaker, needs caution) ---
 
