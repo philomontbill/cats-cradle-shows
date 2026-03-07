@@ -663,15 +663,14 @@ def load_previous_no_preview():
 
 
 # Skip reasons that indicate expected no-preview (not actionable)
-EXPECTED_SKIP_REASONS = {"skip", "reused", "no_log"}
+EXPECTED_SKIP_REASONS = {"skip", "filtered", "reused", "no_log"}
 
 SKIP_REASON_DEFINITIONS = {
     "verified": "Scored 70+ gate score and passed verifier checks (views, channel, date). Assigned.",
     "rejected": "Failed verifier checks. Link shows rejected video; not assigned to show.",
     "flag": "YouTube search scored 40-69. Assigned, flagged for review.",
     "reused": "Prior match with high confidence kept. No new search.",
-    "override": "Manual override from overrides.json.",
-    "skip": "Skipped before search — event name, invalid, or recently rejected.",
+    "filtered": "Scraper identified as non-searchable — event name, too short, or invalid format.",
     "no_results": "YouTube search ran but returned zero results.",
     "api_error": "YouTube API or network error during search.",
     "code_error": "Bug in scraper code — unexpected exception.",
@@ -748,6 +747,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 skip_reason = match_tiers.get(artist, "") or "no_log"
                 if skip_reason == "accept":
                     skip_reason = "verified"
+                elif skip_reason == "skip":
+                    skip_reason = "filtered"
 
                 # Mark new-tonight items (not in yesterday's report)
                 if artist not in prev_no_preview:
@@ -767,7 +768,7 @@ def build_csv(tonight, states, all_shows_data, old_states):
 
     # Separator row with count, then expected items
     if expected_rows:
-        writer.writerow(["---", f"Expected ({len(expected_rows)} items below — skip/reused/no_log)",
+        writer.writerow(["---", f"Already Reviewed ({len(expected_rows)} items below — filtered/reused/no_log)",
                          "", "", "", "", "", "", ""])
         for row in expected_rows:
             writer.writerow(row)
