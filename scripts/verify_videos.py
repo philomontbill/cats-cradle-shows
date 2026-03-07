@@ -691,6 +691,9 @@ def build_csv(tonight, states, all_shows_data, old_states):
                      "Detail", "Skip Reason", "Definition"])
 
     for v in tonight["verified"]:
+        # Skip artists already verified in a prior run — only show new-tonight
+        if old_states.get(v["artist"]) == "verified":
+            continue
         url = f"https://youtube.com/watch?v={v['video_id']}"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
