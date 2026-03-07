@@ -705,6 +705,9 @@ def build_csv(tonight, states, all_shows_data, old_states):
                          reason_str, "rejected",
                          SKIP_REASON_DEFINITIONS.get("rejected", "")])
 
+    # Collect artists already reported in Rejected section — skip in No Preview
+    rejected_artists = {r["artist"].lower() for r in tonight["rejected"]}
+
     # No preview queue — split into actionable (top) and expected (bottom)
     prev_no_preview = load_previous_no_preview()
     actionable_rows = []
@@ -731,6 +734,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 state = states.get(artist, {})
                 state_status = state.get("status", "")
                 if state_status == "override_null":
+                    continue
+                if artist.lower() in rejected_artists:
                     continue
                 if state_status == "rejected":
                     status = f"Rejected: {state.get('reason', 'unknown')}"
