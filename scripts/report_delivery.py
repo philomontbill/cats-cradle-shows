@@ -176,9 +176,8 @@ def ensure_definitions_tab():
 
     definitions = [
         ["Skip Reason", "Definition"],
-        ["verified", "Video passed verifier checks (view count, channel analysis, upload date). Assigned to show."],
+        ["verified", "Scored 70+ gate score and passed verifier checks (views, channel, date). Assigned to show."],
         ["rejected", "Video failed verifier checks. Link shows rejected video; not assigned to show."],
-        ["accept", "YouTube search found a video scoring 70+ (gate score). Assigned as candidate."],
         ["flag", "YouTube search found a video scoring 40-69. Assigned but flagged for review."],
         ["reused", "Existing match with high confidence kept from prior run. No new API search needed."],
         ["override", "Manual override from overrides.json — specific video ID or null (no video)."],

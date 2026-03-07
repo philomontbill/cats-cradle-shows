@@ -666,9 +666,8 @@ def load_previous_no_preview():
 EXPECTED_SKIP_REASONS = {"skip", "reused", "no_log"}
 
 SKIP_REASON_DEFINITIONS = {
-    "verified": "Passed verifier checks (views, channel, date). Assigned.",
+    "verified": "Scored 70+ gate score and passed verifier checks (views, channel, date). Assigned.",
     "rejected": "Failed verifier checks. Link shows rejected video; not assigned to show.",
-    "accept": "YouTube search scored 70+. Assigned as candidate.",
     "flag": "YouTube search scored 40-69. Assigned, flagged for review.",
     "reused": "Prior match with high confidence kept. No new search.",
     "override": "Manual override from overrides.json.",
@@ -747,6 +746,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 else:
                     status = "No video assigned"
                 skip_reason = match_tiers.get(artist, "") or "no_log"
+                if skip_reason == "accept":
+                    skip_reason = "verified"
 
                 # Mark new-tonight items (not in yesterday's report)
                 if artist not in prev_no_preview:
