@@ -665,29 +665,45 @@ def load_previous_no_preview():
 # Skip reasons that indicate expected no-preview (not actionable)
 EXPECTED_SKIP_REASONS = {"skip", "reused", "no_log"}
 
+SKIP_REASON_DEFINITIONS = {
+    "verified": "Passed verifier checks (views, channel, date). Assigned.",
+    "rejected": "Failed verifier checks. Removed from show.",
+    "accept": "YouTube search scored 70+. Assigned as candidate.",
+    "flag": "YouTube search scored 40-69. Assigned, flagged for review.",
+    "reused": "Prior match with high confidence kept. No new search.",
+    "override": "Manual override from overrides.json.",
+    "skip": "Skipped before search — event name, invalid, or recently rejected.",
+    "no_results": "YouTube search ran but returned zero results.",
+    "api_error": "YouTube API or network error during search.",
+    "code_error": "Bug in scraper code — unexpected exception.",
+    "no_log": "No match log entry. Typically a 2nd/3rd opener (only first searched).",
+}
+
 
 def build_csv(tonight, states, all_shows_data, old_states):
-    """Build a combined CSV with Skip Reason column."""
+    """Build a combined CSV with Skip Reason and Definition columns."""
 
     match_tiers = load_match_log()
 
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
-                     "Detail", "Skip Reason"])
+                     "Detail", "Skip Reason", "Definition"])
 
     for v in tonight["verified"]:
         url = f"https://youtube.com/watch?v={v['video_id']}"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
                          v["venue"], v["date"], url,
-                         v["confidence"], "verified"])
+                         v["confidence"], "verified",
+                         SKIP_REASON_DEFINITIONS.get("verified", "")])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
                          r["venue"], r["date"], url,
-                         reason_str, "rejected"])
+                         reason_str, "rejected",
+                         SKIP_REASON_DEFINITIONS.get("rejected", "")])
 
     # No preview queue — split into actionable (top) and expected (bottom)
     prev_no_preview = load_previous_no_preview()
@@ -729,7 +745,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
                     status = f"NEW — {status}"
 
                 row = ["No Preview", artist, role, venue, date, "",
-                       status, skip_reason]
+                       status, skip_reason,
+                       SKIP_REASON_DEFINITIONS.get(skip_reason, "")]
                 if skip_reason in EXPECTED_SKIP_REASONS:
                     expected_rows.append(row)
                 else:
@@ -742,7 +759,7 @@ def build_csv(tonight, states, all_shows_data, old_states):
     # Separator row with count, then expected items
     if expected_rows:
         writer.writerow(["---", f"Expected ({len(expected_rows)} items below — skip/reused/no_log)",
-                         "", "", "", "", "", ""])
+                         "", "", "", "", "", "", ""])
         for row in expected_rows:
             writer.writerow(row)
 

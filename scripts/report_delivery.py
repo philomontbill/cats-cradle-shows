@@ -197,6 +197,7 @@ def ensure_definitions_tab():
         ["Video URL", "YouTube video URL (blank for No Preview rows)."],
         ["Detail", "Confidence score (Verified), rejection reasons (Rejected), or status note (No Preview). Items prefixed with NEW appeared for the first time (not in yesterday's report)."],
         ["Skip Reason", "How the scraper/verifier processed this artist. See definitions above."],
+        ["Definition", "Human-readable explanation of the skip reason for quick reference."],
         [],
         ["Quality Metric", "Definition"],
         ["Match Confidence", "% of assigned videos scoring 70+ in name matching (audit oEmbed score). Measures name similarity, not true video correctness."],
