@@ -667,7 +667,7 @@ EXPECTED_SKIP_REASONS = {"skip", "reused", "no_log"}
 
 SKIP_REASON_DEFINITIONS = {
     "verified": "Passed verifier checks (views, channel, date). Assigned.",
-    "rejected": "Failed verifier checks. Removed from show.",
+    "rejected": "Failed verifier checks. Link shows rejected video; not assigned to show.",
     "accept": "YouTube search scored 70+. Assigned as candidate.",
     "flag": "YouTube search scored 40-69. Assigned, flagged for review.",
     "reused": "Prior match with high confidence kept. No new search.",
