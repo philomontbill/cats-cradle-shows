@@ -78,7 +78,8 @@
       "image": "https://motorcomusic.com/wp-content/uploads/2026/01/bc21b55aa248b053e0b8cd16178e2045f4b5201120188dab0a5afc1ad1a458b9_b31ff63c87931c2db3984382e6d30be80f59b87e6ebbf2fe3587d061b6b9054e.png",
       "notice": null,
       "doors": null,
-      "youtube_id": null
+      "youtube_id": null,
+      "expired": true
     },
     {
       "venue": "Motorco Music Hall",
@@ -310,8 +311,8 @@
       "youtube_id": "Wr7kMQirAAc"
     }
   ],
-  "total_shows": 20,
+  "total_shows": 19,
   "shows_with_video": 17,
-  "shows_with_image": 20,
+  "shows_with_image": 19,
   "last_updated": "2026-02-04T14:20:28.019807"
 }

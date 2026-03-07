@@ -6,33 +6,7 @@
   },
   "shows": [
     {
-      "artist": "Immortal Technique",
-      "date": "Fri, Mar 06",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Poison Pen, DJ Static",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Immortal_2172071768819653.jpg",
-      "event_url": "https://catscradle.com/event/immortal-technique/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "OqgIKOXykHo",
-      "opener_youtube_id": "toLv5DvCrNE"
-    },
-    {
-      "artist": "The Nude Party",
-      "date": "Fri, Mar 06",
-      "venue": "Cat's Cradle",
-      "opener": "Six Foot Blonde",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_1969181760875663.jpg",
-      "event_url": "https://catscradle.com/event/the-nude-party/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "K-cM0SX0ghw",
-      "opener_youtube_id": "MAVev6WtbzI"
-    },
-    {
-      "artist": "Dirtwire \u2013 Universal Language Tour",
+      "artist": "Dirtwire – Universal Language Tour",
       "date": "Sat, Mar 07",
       "venue": "Cat's Cradle",
       "opener": "Max Lane",
@@ -72,13 +46,14 @@
       "artist": "Rachel Bochner",
       "date": "Sun, Mar 08",
       "venue": "Cat's Cradle Back Room",
-      "opener": null,
+      "opener": "Pretty Crimes",
       "notice": null,
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Rachel_2161341768381850.jpg",
       "event_url": "https://catscradle.com/event/rachel-bochner/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "xttrqNl8EaY"
+      "youtube_id": "xttrqNl8EaY",
+      "opener_youtube_id": "2Nywjo8gegE"
     },
     {
       "artist": "Aterciopelados",
@@ -307,6 +282,31 @@
       "youtube_id": null
     },
     {
+      "artist": "Gangstagrass",
+      "date": "Tue, Mar 24",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/02/gangstagrass.jpg",
+      "event_url": "https://catscradle.com/event/gangstagrass/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "XG7Ujh0XVH0"
+    },
+    {
+      "artist": "Rosenau & Sanborn",
+      "date": "Tue, Mar 24",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Joe Westerlund",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/02/rosenau-sanborn-with-joe-westerlund.jpg",
+      "event_url": "https://catscradle.com/event/rosenau-sanborn/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "LWmAy_ufyqg",
+      "opener_youtube_id": "FKivhD5CdmQ"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -323,5 +323,5 @@
   "total_shows": 25,
   "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:05:45.831073"
+  "last_updated": "2026-03-07T08:57:26.656353"
 }

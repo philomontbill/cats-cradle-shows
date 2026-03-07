@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Temptress / Friendship Commanders / Holy Roller",
-      "date": "Fri, Mar 06",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/12/etix-Temptress_1297701765796788.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/34522440/temptress-friendship-commanders-holy-roller-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "ayVCMTXF13k"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Cartoon Smokeshow, a Drag and Burlesque Rewind",
       "date": "Sat, Mar 07",
       "doors": "7 pm",
@@ -183,7 +172,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/45549200/mila-degray-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "jKBFHF7AEss"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Queer Country Night",
+      "date": "Tue, Apr 07",
+      "doors": "7 pm",
+      "showtime": "7:30 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/queer-country-night.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/95923815/queer-country-night-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 16,
   "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:05:55.522789"
+  "last_updated": "2026-03-07T08:57:38.424001"
 }

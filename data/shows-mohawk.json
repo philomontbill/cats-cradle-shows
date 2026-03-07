@@ -16,7 +16,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
       "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
       "youtube_id": "tNr4SrwNcmc",
-      "opener_youtube_id": "DMbAjG_pK28"
+      "opener_youtube_id": "DMbAjG_pK28",
+      "expired": true
     },
     {
       "artist": "Yellow Days",
@@ -29,7 +30,8 @@
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
       "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
       "youtube_id": "jpYwsHTLv9o",
-      "opener_youtube_id": "Q83W9q34RDs"
+      "opener_youtube_id": "Q83W9q34RDs",
+      "expired": true
     },
     {
       "artist": "HBO QUIZZO: Heated Rivalry",
@@ -328,8 +330,8 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 17,
-  "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:06:06.546795"
+  "total_shows": 23,
+  "shows_with_video": 15,
+  "shows_with_image": 23,
+  "last_updated": "2026-03-07T08:57:49.354197"
 }

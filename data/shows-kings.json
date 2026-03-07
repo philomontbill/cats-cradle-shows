@@ -7,27 +7,27 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Fri, Mar 6",
-      "artist": "The Bleeding Hearts",
-      "opener": "Dallas Tetnus, The Sonic Blooms",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-bleeding-hearts",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/tbh-blocks-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "GrKi-eR9kdQ",
-      "opener_youtube_id": "qcBKyAujWFM"
-    },
-    {
-      "venue": "Kings",
       "date": "Sat, Mar 7",
       "artist": "Shakedown Citi",
+      "opener": "Pollyanna, Weymouth",
       "showtime": "8:30pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/shakedown-citi",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "T35qZFqno9o"
+      "youtube_id": "T35qZFqno9o",
+      "opener_youtube_id": "f1EVoVOSK5k"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 10",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -41,17 +41,6 @@
       "doors": null,
       "youtube_id": "waQ9BKMacII",
       "opener_youtube_id": "f1EVoVOSK5k"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 10",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -315,10 +304,23 @@
       "doors": null,
       "youtube_id": null,
       "opener_youtube_id": "_JkUpouxAzk"
+    },
+    {
+      "venue": "Kings",
+      "date": "Wed, Apr 8",
+      "artist": "Lowheaven",
+      "opener": ".memoria",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/lowheaven",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/03/lowheaven-1-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "23fWcvRoWzg",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:06:00.929076"
+  "last_updated": "2026-03-07T08:57:45.434171"
 }

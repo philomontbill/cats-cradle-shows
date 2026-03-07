@@ -7,7 +7,7 @@
   "shows": [
     {
       "artist": "Mike Viola",
-      "date": "Fri, Mar 06",
+      "date": "Sat, Mar 06",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -15,11 +15,12 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2025/09/MV-Winter-26-Mercury-Lounge.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/mike-viola/",
-      "youtube_id": "eftZf44nsPg"
+      "youtube_id": "eftZf44nsPg",
+      "expired": true
     },
     {
       "artist": "greek: The Cedar's Tape Tour",
-      "date": "Fri, Mar 06",
+      "date": "Sat, Mar 06",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -27,11 +28,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/eea/084c2850-211c-45dd-860c-90aa4c8e7eea_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/greek-the-cedars-tape-tour/",
-      "youtube_id": "alOg6JtFHzU"
+      "youtube_id": "alOg6JtFHzU",
+      "expired": true
     },
     {
       "artist": "The Ramona Flowers",
-      "date": "Fri, Mar 06",
+      "date": "Sat, Mar 06",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -39,11 +41,12 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/9a0/894a38f1-6136-480e-9894-bcd15f58f9a0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-ramona-flowers/",
-      "youtube_id": "5eZoJBcf6BE"
+      "youtube_id": "5eZoJBcf6BE",
+      "expired": true
     },
     {
       "artist": "All Your Friends: The Indie Party",
-      "date": "Fri, Mar 06",
+      "date": "Sat, Mar 06",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
@@ -51,7 +54,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/02c/39d220ac-566c-420b-888a-102fc07bf02c_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/all-your-friends-the-indie-party/",
-      "youtube_id": null
+      "youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Cure For Paranoia",
@@ -304,11 +308,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/505/9a30271b-d8cf-436e-9be2-790326295505_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kause/",
-      "youtube_id": "h7Aw5cKC7Yc"
+      "youtube_id": "XeLoU1fC_hA"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 21,
-  "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:07:16.973999"
+  "total_shows": 21,
+  "shows_with_video": 17,
+  "shows_with_image": 21,
+  "last_updated": "2026-03-07T08:59:22.420395"
 }

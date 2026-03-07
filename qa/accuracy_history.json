@@ -176,5 +176,21 @@
     "opener_accuracy": 79.5,
     "accuracy_rate": 99.3,
     "avg_confidence": 89.1
+  },
+  {
+    "date": "2026-03-07",
+    "total_shows": 389,
+    "verified": 309,
+    "rejected": 29,
+    "no_preview": 42,
+    "overrides": 9,
+    "headliner_verified": 222,
+    "headliner_total": 276,
+    "headliner_accuracy": 80.4,
+    "opener_verified": 87,
+    "opener_total": 113,
+    "opener_accuracy": 77.0,
+    "accuracy_rate": 99.1,
+    "avg_confidence": 89.1
   }
 ]

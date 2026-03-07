@@ -7,32 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "SunSquabi",
-      "date": "Thu, Mar 05",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Phyphr",
-      "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-SunSquabi_1043841767797273.jfif",
-      "ticket_url": "https://theorangepeel.net/event/sunsquabi-manic-focus/the-orange-peel/asheville-north-carolina/",
-      "notice": "Cancelled",
-      "youtube_id": "h7vGOr3P4no",
-      "opener_youtube_id": "dZ3TCHIti7E",
-      "expired": true
-    },
-    {
-      "venue": "The Orange Peel",
-      "artist": "Donna The Buffalo",
-      "date": "Fri, Mar 06",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": null,
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Donna_1040611761329966.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/34822209/donna-the-buffalo-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "IXPexLWhNRg"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Evan Honer",
       "date": "Sat, Mar 07",
       "doors": "7 pm",
@@ -194,6 +168,19 @@
     },
     {
       "venue": "The Orange Peel",
+      "artist": "McKinney\u2019s \u201cBones\u201d Album Release Show",
+      "date": "Mon, Mar 23",
+      "doors": "6 pm",
+      "showtime": "7 pm",
+      "opener": "support from Destinie Lynn",
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/03/mckinneys-bones-album-release-show-with-support-from-destinie-lynn.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/97770501/mckinneys-bonesalbum-release-show-with-support-from-destinie-lynn-asheville-pulp?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
       "artist": "Drain",
       "date": "Tue, Mar 24",
       "doors": "6 pm",
@@ -280,10 +267,22 @@
       "ticket_url": "https://www.etix.com/ticket/p/55218521/missblissblankstatemascons-asheville-pulp?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": "xNG2MUXtK4E"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "The Emo Night Tour",
+      "date": "Fri, Apr 10",
+      "doors": null,
+      "showtime": "7 pm",
+      "opener": null,
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/02/the-emo-night-tour.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/53339442/the-emo-night-tour-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
-  "total_shows": 21,
+  "total_shows": 22,
   "shows_with_video": 20,
-  "shows_with_image": 21,
-  "last_updated": "2026-03-05T21:28:20.109326"
+  "shows_with_image": 22,
+  "last_updated": "2026-03-07T08:59:53.458984"
 }

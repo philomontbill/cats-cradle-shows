@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "MO LOWDA & THE HUMBLE",
-      "date": "Fri, Mar 06",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/e42/c0900957-c61b-4d9e-b8a5-76c72a59be42_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/mo-lowda-the-humble-tailing-the-charlotte-north-carolina-03-06-2026/event/2D00633DFCB0A157",
-      "youtube_id": "TZT3GMehz7s"
-    },
-    {
       "artist": "ALEXSUCKS",
       "date": "Sat, Mar 07",
       "venue": "Neighborhood Theatre",
@@ -111,7 +99,7 @@
       "doors": null,
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/81e/e3f9d22e-b21d-4f3e-b286-39751e43481e_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/old-crow-medicine-show-ocms-big-charlotte-north-carolina-03-21-2026/event/2D006430C35CF3FD",
+      "ticket_url": "https://www.ticketmaster.com/old-crow-medicine-show-with-willie-charlotte-north-carolina-03-21-2026/event/2D006430C35CF3FD",
       "youtube_id": null
     },
     {
@@ -293,10 +281,22 @@
       "image": "https://s1.ticketm.net/dam/e/a3a/4bbce290-de0f-4486-aa4e-fd127cdf0a3a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/falco-book-play-jerry-garcia-charlotte-north-carolina-04-22-2026/event/2D006435B890DB30",
       "youtube_id": "W2tTk4BjXPs"
+    },
+    {
+      "artist": "BREAKFIELD",
+      "date": "Thu, Apr 23",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/de2/5a40ef38-db09-4942-b689-189fa18a3de2_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/breakfield-formerly-known-as-boy-named-charlotte-north-carolina-04-23-2026/event/2D006388B0D0B3CF",
+      "youtube_id": "mhuTyUTaygM"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-06T09:07:46.083880"
+  "last_updated": "2026-03-07T08:59:48.778017"
 }

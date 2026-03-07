@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Driver & Lexx",
-      "date": "Fri, Mar 06",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/driver-lexx.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/41086736/driver-lexx-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "qerLE-tOhGc"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "Shakedown Citi",
       "date": "Sat, Mar 07",
       "doors": "7:31 pm",
@@ -81,7 +70,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Mother\u2019s Finest",
+      "artist": "Mother’s Finest",
       "date": "Sat, Mar 14",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -116,7 +105,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Lily Rose \u2013 I Know What I Want",
+      "artist": "Lily Rose – I Know What I Want",
       "date": "Thu, Mar 19",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -159,7 +148,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Heads Up Penny \u2013 Presented by East Coast Entertainment",
+      "artist": "Heads Up Penny – Presented by East Coast Entertainment",
       "date": "Sun, Mar 22",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -170,7 +159,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Daniel Donato\u2019s Cosmic Country 3 Show Package",
+      "artist": "Daniel Donato’s Cosmic Country 3 Show Package",
       "date": "Fri, Mar 27",
       "showtime": "8:30 pm",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
@@ -180,7 +169,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Proving Ground \u2013 Widespread Panic Tribute",
+      "artist": "Proving Ground – Widespread Panic Tribute",
       "date": "Fri, Apr 03",
       "doors": "7:30 pm",
       "showtime": "8:30 pm",
@@ -202,7 +191,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Old 97\u2019s",
+      "artist": "Old 97’s",
       "date": "Tue, Apr 07",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -215,7 +204,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Knot Your Kind \u2013 A tribute to Slipknot",
+      "artist": "Knot Your Kind – A tribute to Slipknot",
       "date": "Fri, Apr 10",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -224,7 +213,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/98865715/knot-your-kind-a-tribute-to-slipknot-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "IK3hOYR6OaI",
-      "opener_youtube_id": "32vyLhQo4Y8"
+      "opener_youtube_id": null
     },
     {
       "venue": "Lincoln Theatre",
@@ -285,7 +274,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "CONCRETE BOYS: IT\u2019S US \u2013 VOL. 2 TOUR",
+      "artist": "CONCRETE BOYS: IT’S US – VOL. 2 TOUR",
       "date": "Tue, Apr 21",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -293,10 +282,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/65801074/concrete-boysits-us-vol2-tour-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "The Happy Fits w/ BEL",
+      "date": "Fri, Apr 24",
+      "doors": "6 pm",
+      "showtime": "7 pm",
+      "opener": "w/ BEL",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/the-happy-fits.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/76789834/the-happy-fits-wbel-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "oKf11AW1RbM",
+      "opener_youtube_id": "kGvHFYAaBOI"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-06T09:05:58.326827"
+  "last_updated": "2026-03-07T08:57:41.881134"
 }

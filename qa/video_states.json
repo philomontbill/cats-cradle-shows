@@ -1221,12 +1221,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-06T09:08:09.874432",
+    "verified_date": "2026-03-07T09:00:11.767435",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5336311,
+      "view_count": 5337160,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -6276,12 +6276,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-06T09:08:07.472019",
-    "confidence": "channel match, 13,585 views",
+    "verified_date": "2026-03-07T09:00:09.323286",
+    "confidence": "channel match, 13,590 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13585,
+      "view_count": 13590,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -8464,22 +8464,22 @@
   },
   "Kause": {
     "status": "verified",
-    "video_id": "h7Aw5cKC7Yc",
-    "verified_date": "2026-03-06T09:07:53.017340",
-    "confidence": "channel match, 10,976 views",
+    "video_id": "XeLoU1fC_hA",
+    "verified_date": "2026-03-07T08:59:55.106268",
+    "confidence": "channel match, 7,039 views",
     "metadata": {
-      "video_title": "Kause - The Valley (Official Video)",
+      "video_title": "Kause - Knight Nurse (Official Video)",
       "channel_name": "Kause",
-      "view_count": 10976,
-      "published": "2025-11-18T15:16:03Z",
-      "channel_subscribers": 781,
+      "view_count": 7039,
+      "published": "2026-01-13T17:01:02Z",
+      "channel_subscribers": 780,
       "channel_videos": 128,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 0.3
+      "video_age_years": 0.1
     }
   },
   "Paulus Schaefer (Netherlands) Guitar Workshop": {
@@ -8686,6 +8686,226 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 1.6
+    }
+  },
+  "Pretty Crimes": {
+    "status": "verified",
+    "video_id": "2Nywjo8gegE",
+    "verified_date": "2026-03-07T08:59:56.301190",
+    "confidence": "channel match, 391 views",
+    "metadata": {
+      "video_title": "Pretty Crimes - Still Waiting (Music Video)",
+      "channel_name": "Pretty Crimes",
+      "view_count": 391,
+      "published": "2024-01-26T05:00:02Z",
+      "channel_subscribers": 35,
+      "channel_videos": 12,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.1
+    }
+  },
+  "Gangstagrass": {
+    "status": "verified",
+    "video_id": "XG7Ujh0XVH0",
+    "verified_date": "2026-03-07T08:59:58.664159",
+    "confidence": "channel match, 610,134 views",
+    "metadata": {
+      "video_title": "Gangstagrass - All For One (Official Music Video)",
+      "channel_name": "Gangstagrass",
+      "view_count": 610134,
+      "published": "2014-05-19T18:30:37Z",
+      "channel_subscribers": 38600,
+      "channel_videos": 380,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 11.8
+    }
+  },
+  "Rosenau & Sanborn": {
+    "status": "verified",
+    "video_id": "LWmAy_ufyqg",
+    "verified_date": "2026-03-07T08:59:59.841770",
+    "confidence": "channel match, Topic channel, 749 views",
+    "metadata": {
+      "video_title": "Walrus",
+      "channel_name": "Rosenau & Sanborn - Topic",
+      "view_count": 749,
+      "published": "2026-02-17T10:04:31Z",
+      "channel_subscribers": 47,
+      "channel_videos": 10,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.0
+    }
+  },
+  "Joe Westerlund": {
+    "status": "verified",
+    "video_id": "FKivhD5CdmQ",
+    "verified_date": "2026-03-07T09:00:01.013216",
+    "confidence": "channel match, Topic channel, 36 views",
+    "metadata": {
+      "video_title": "The Reel",
+      "channel_name": "Joe Westerlund - Topic",
+      "view_count": 36,
+      "published": "2026-02-05T10:04:37Z",
+      "channel_subscribers": 2,
+      "channel_videos": 5,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.1
+    }
+  },
+  "All Your Friends: The Indie Party (Ages 18 & Up)": {
+    "status": "rejected",
+    "video_id": "zvFbIMxDk7o",
+    "rejected_date": "2026-03-07T09:00:03.400953",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "songs to show your indie friends",
+      "channel_name": "Worry Club",
+      "view_count": 785,
+      "published": "2022-11-17T17:00:47Z",
+      "channel_subscribers": 13800,
+      "channel_videos": 203,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.3
+    }
+  },
+  "Lowheaven": {
+    "status": "verified",
+    "video_id": "23fWcvRoWzg",
+    "verified_date": "2026-03-07T09:00:04.637082",
+    "confidence": "channel match, 21,505 views",
+    "metadata": {
+      "video_title": "lowheaven - Mercy Death (Official Music Video)",
+      "channel_name": "lowheaven",
+      "view_count": 21505,
+      "published": "2025-06-17T03:00:06Z",
+      "channel_subscribers": 338,
+      "channel_videos": 28,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "The Happy Fits w/ BEL": {
+    "status": "verified",
+    "video_id": "oKf11AW1RbM",
+    "verified_date": "2026-03-07T09:00:05.775876",
+    "confidence": "channel match, 253,210 views",
+    "metadata": {
+      "video_title": "The Happy Fits - Everything You Do (Official Music Video)",
+      "channel_name": "The Happy Fits",
+      "view_count": 253210,
+      "published": "2025-05-01T16:00:06Z",
+      "channel_subscribers": 69500,
+      "channel_videos": 315,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.8
+    }
+  },
+  "w/ BEL": {
+    "status": "verified",
+    "video_id": "kGvHFYAaBOI",
+    "verified_date": "2026-03-07T09:00:06.937432",
+    "confidence": "channel match, 2,976 views",
+    "metadata": {
+      "video_title": "Obsessed W U by BEL! (Official Music Video)",
+      "channel_name": "BEL!",
+      "view_count": 2976,
+      "published": "2025-10-23T21:01:02Z",
+      "channel_subscribers": 188,
+      "channel_videos": 4,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "Havana Syndrome, Mr. Piss, Country Fetish": {
+    "status": "verified",
+    "video_id": "fuOBmK0-I48",
+    "verified_date": "2026-03-07T09:00:08.133236",
+    "confidence": "channel match, Topic channel, 19 views",
+    "metadata": {
+      "video_title": "Rent",
+      "channel_name": "Havana Syndrome - Topic",
+      "view_count": 19,
+      "published": "2023-09-05T22:46:37Z",
+      "channel_subscribers": 21,
+      "channel_videos": 12,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 2.5
+    }
+  },
+  "BREAKFIELD": {
+    "status": "verified",
+    "video_id": "mhuTyUTaygM",
+    "verified_date": "2026-03-07T09:00:10.545846",
+    "confidence": "channel match, 6,434 views",
+    "metadata": {
+      "video_title": "Breakfield - Canyon Walls (Official Video)",
+      "channel_name": "Breakfield",
+      "view_count": 6434,
+      "published": "2025-10-03T04:02:53Z",
+      "channel_subscribers": 3880,
+      "channel_videos": 133,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "The Emo Night Tour": {
+    "status": "rejected",
+    "video_id": "Z6OwNmhUEK0",
+    "rejected_date": "2026-03-07T09:00:12.975396",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "The Roads Below - Emo Night (Official Music Video)",
+      "channel_name": "The Roads Below",
+      "view_count": 5693,
+      "published": "2024-03-15T05:00:06Z",
+      "channel_subscribers": 14500,
+      "channel_videos": 675,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.0
     }
   }
 }
