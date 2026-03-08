@@ -4,6 +4,14 @@ Living document. Updated as we learn. Claude references this before making pipel
 
 ---
 
+## 0. Reviewing Reports
+
+**Before reviewing the daily report, `git pull` to sync with the nightly pipeline commit (3:30 AM ET).**
+
+When the user references data from the live spreadsheet, treat it as ground truth. The Google Sheet is the authoritative report output — if the user says an entry exists, work with it. Don't waste cycles trying to locate it locally before engaging with the substance.
+
+---
+
 ## 1. Override Authority Chain
 
 **Rule: Overrides are the highest authority. They are checked first, everywhere, always.**

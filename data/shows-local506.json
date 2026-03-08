@@ -315,16 +315,16 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Post Sex Nachos and Kids That Fly",
+      "artist": "Post Sex Nachos",
       "date": "Sat, Apr 18",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Kid Sistr",
+      "opener": "Kids That Fly",
       "image": "https://local506.com/wp-content/uploads/2026/01/postsex.jpg",
       "ticket_url": "https://local506.com/event/post-sex-nachos-and-kids-that-fly/",
       "notice": null,
-      "youtube_id": null,
-      "opener_youtube_id": "kq4kOlIt1rA"
+      "youtube_id": "3m6UtwACBEI",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,

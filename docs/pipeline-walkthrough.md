@@ -108,7 +108,8 @@ Everything in Step 1 is about being efficient and accurate with YouTube searches
 
 Key points:
 - Overrides (1a) always win — checked before any smart filtering, never overwritten by automation.
-- The 25-show cap in 1g limits how many shows each venue processes per scrape.
+- The 25-show cap in 1g limits how many shows each venue processes per scrape. Most venue scrapers also have a fetch cap ([:25] or [:30]) that limits how many events are parsed from the website before processing. Both caps apply — the lower one wins.
+- Show overrides in `overrides.json` can restructure scraped data — splitting combined artist names (e.g., "Band A and Band B" → headliner + opener), correcting artist/opener assignments, and adding notices. These are applied at the top of `process_shows_with_youtube()` before any search logic runs.
 - Every decision is logged to match_log.json — search, reuse, skip, override — providing the audit trail for debugging.
 
 ---

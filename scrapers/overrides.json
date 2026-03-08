@@ -55,10 +55,16 @@
     "Taiki Nulight - cheeky bugger tour": "j6Xvo7DgJBg",
     "Kevin Devine & The Goddamn Band are Kenny O'Brien & The O'Douls": "HyxiK6_Uut8",
     "Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot": null,
-    "Slow Teeth, Scrape, Minor Stars": "4exUF48wQNQ"
+    "Slow Teeth, Scrape, Minor Stars": "4exUF48wQNQ",
+    "Post Sex Nachos": "3m6UtwACBEI",
+    "Sienna Spiro": "orp5Kpwweiw",
+    "Sienna Spiro - The Visitor Tour": "orp5Kpwweiw",
+    "The Brothers Comatose": "M9t72JGx02g",
+    "The Golden Hours": "ffsR4AcLlKw"
   },
   "opener_youtube": {
     "North State Grass": "w54lLXcuv9g",
+    "David Wax Museum / Lowland Hum": "w9zhaqp4l7k",
     "Por Vida and Embrace The Oblivion": "3v7ykbja4aY",
     "Catiline and Mantaray": null,
     "Hemlock Theory and Under The Catacombs of Paris": "FMYszBjptLs",
@@ -70,6 +76,14 @@
       "artist": "Six More Miles",
       "opener": "North State Grass",
       "notice": "Carrboro Bluegrass Festival"
+    },
+    "Post Sex Nachos and Kids That Fly": {
+      "artist": "Post Sex Nachos",
+      "opener": "Kids That Fly"
+    },
+    "The Golden Hours / David Wax Museum / Lowland Hum": {
+      "artist": "The Golden Hours",
+      "opener": "David Wax Museum / Lowland Hum"
     }
   }
 }

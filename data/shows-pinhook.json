@@ -271,14 +271,16 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "The Golden Hours / David Wax Museum / Lowland Hum",
+      "artist": "The Golden Hours",
       "date": "Wed, Apr 08",
       "doors": "6:30 pm",
       "showtime": "7 pm",
+      "opener": "David Wax Museum / Lowland Hum",
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299131768590366.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/51640009/the-golden-hours-david-wax-museum-lowland-hum-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": null
+      "youtube_id": "ffsR4AcLlKw",
+      "opener_youtube_id": "w9zhaqp4l7k"
     }
   ],
   "total_shows": 25,
