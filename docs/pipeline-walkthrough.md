@@ -2,7 +2,7 @@
 
 Plain-English, section-by-section walkthrough of every step in the nightly pipeline.
 
-Last updated: Mar 4, 2026
+Last updated: Mar 7, 2026
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: Mar 4, 2026
 scrapers → expire → monitor → validate → verify videos → audit → commit
 ```
 
-Triggered by GitHub Actions at 11 PM ET nightly, or manually via `gh workflow run scrape.yml`.
+Triggered by GitHub Actions at 3:30 AM ET nightly, or manually via `gh workflow run scrape.yml`.
 
 ---
 
@@ -368,12 +368,28 @@ The report is posted as a GitHub Issue with the label `daily-video-report`. Befo
 
 ### 5f. Daily Report — CSV
 
-The CSV has the same data as the GitHub Issue but in a flat format suitable for Google Sheets. Eight columns: Section, Artist, Role, Venue, Date, Video URL, Detail, Skip Reason.
+The CSV has the same data as the GitHub Issue but in a flat format suitable for Google Sheets. Nine columns: Section, Artist, Role, Venue, Date, Video URL, Detail, Skip Reason, Definition.
+
+**Skip Reasons** (what the pipeline decided for each artist):
+- **verified** — Scored 70+ gate score and passed verifier checks. Assigned to show.
+- **rejected** — Failed verifier checks. Link shows the rejected video; not assigned to show.
+- **flag** — YouTube search scored 40-69. Assigned, flagged for review.
+- **reused** — Prior match with high confidence kept from prior run. No new search.
+- **filtered** — Scraper identified as non-searchable (event name, too short, invalid format).
+- **no_results** — YouTube search ran but returned zero results.
+- **api_error** — YouTube API or network error during search.
+- **code_error** — Bug in scraper code during search.
+- **no_log** — No search record found. Artist may not have been processed by the scraper.
+
+**Definition column** — human-readable explanation of the skip reason for quick visual triage of the spreadsheet.
 
 Three sections in each CSV:
-- **Verified** — tonight's newly verified videos
+- **Verified** — tonight's newly verified videos (excludes artists already verified in prior runs)
 - **Rejected** — tonight's newly rejected candidates
-- **No Preview** — all artists currently without a video, with their current state in the Detail column (Rejected, Override, No video from scraper, No video assigned) and their scraper decision in the Skip Reason column (pulled from match_log.json — values like `reused`, `no_results`, `skip`, `api_error`, `code_error`)
+- **No Preview** — split into two groups by a separator row:
+  - **Actionable** (top) — items with skip reasons: flag, no_results, api_error, code_error. Need review.
+  - **Already Reviewed** (bottom) — items with skip reasons: filtered, reused, no_log. Previously reviewed or not expected to have a video.
+  - Artists already shown in the Rejected section are excluded from No Preview to avoid duplicates.
 
 ### 5g. Daily Report — Email and Sheets
 
@@ -383,7 +399,7 @@ After posting the GitHub Issue, the report is also delivered via two additional 
 The markdown report is converted to styled HTML with inline CSS. The CSV is attached as a file. Sent from soundchecklocal@gmail.com using an app-specific password. The email includes a footer linking to the Google Sheet for full detail.
 
 **Google Sheets** (via Sheets API)
-Each row from the CSV is appended to the "Daily Video Reports" tab with a "Report Date" column prepended. This builds a running log — one tab with all daily data, filterable by date.
+The CSV data is written to the "Daily Video Reports" tab with a "Report Date" column prepended. The tab is replaced (not appended) each night — one clean copy with no duplicate rows. CSV row order is preserved (Verified → Rejected → Actionable No Preview → Already Reviewed No Preview).
 
 Both delivery channels use graceful failure — if email or Sheets fails, a warning is printed but the pipeline continues. The GitHub Issue is the primary record.
 
@@ -546,10 +562,10 @@ Key points:
 
 ---
 
-## Known Issues
+## Known Issues — Resolved
 
-### No Preview Full Dump (Task #10)
-The No Preview section of the daily report iterates ALL shows without a youtube_id every night, writing ~80+ rows regardless of whether anything changed. The report never shrinks. Google Sheets accumulates duplicate No Preview rows nightly. Fix: add delta logic to only report new or changed entries.
+### ~~No Preview Full Dump (Task #10)~~ — Fixed Mar 7, 2026
+Daily Video Reports sheet is now replaced (not appended) each night. Rejected artists excluded from No Preview section. No more duplicate rows.
 
-### Duplicate "New" Verified Entries (Task #11)
-Some artists (Los Straitjackets, Reverend Horton Heat) appear as "New" verified on consecutive nights for the same venues and dates. Either the video_id changes between scrapes, or the artist key doesn't match exactly. Wastes API calls and creates duplicate Sheet rows.
+### ~~Duplicate "New" Verified Entries (Task #11)~~ — Fixed Mar 7, 2026
+Previously-verified artists are now excluded from the Verified section. Only genuinely new verifications appear. The verifier already skipped re-verifying same video IDs (line 941-946), but the CSV builder was still listing artists re-verified with different video IDs at different venues.

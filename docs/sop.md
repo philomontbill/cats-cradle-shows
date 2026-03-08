@@ -145,9 +145,9 @@ Overrides represent human decisions. No automated system — smart filtering, ve
 - **Override-null artists** — intentional "no video" decisions (events, DJ nights)
 
 ### Daily report includes:
-- **Verified** — new videos passing verifier tonight
+- **Verified** — new videos passing verifier tonight (excludes previously-verified artists)
 - **Rejected** — videos failing verifier tonight
-- **No Preview** — active shows without a video (the review queue)
+- **No Preview** — active shows without a video, split into Actionable (top) and Already Reviewed (bottom). Excludes artists already shown in Rejected section.
 
 ### Inventory stats include:
 - All active (non-expired) shows
@@ -173,5 +173,5 @@ Overrides represent human decisions. No automated system — smart filtering, ve
 
 ---
 
-*Last updated: 2026-03-05*
+*Last updated: 2026-03-07*
 *Document created after override authority chain audit revealed multiple decision conflicts.*
