@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "LETDOWN",
-      "date": "Sat, Mar 07",
-      "venue": "The Social",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": "6:00pm",
-      "image": "https://b3060585.smushcdn.com/3060585/wp-content/uploads/2025/10/9cVytmxC-1024x683.jpeg?lossy=1&strip=1&webp=1",
-      "ticket_url": "https://tkx.live/events/letdown/",
-      "youtube_id": "PsKg8dEWWco"
-    },
-    {
       "artist": "Yellow Days",
       "date": "Fri, Mar 13",
       "venue": "The Social",
@@ -114,8 +102,8 @@
       "youtube_id": null
     }
   ],
-  "total_shows": 9,
-  "shows_with_video": 8,
-  "shows_with_image": 9,
-  "last_updated": "2026-03-07T08:57:59.211616"
+  "total_shows": 8,
+  "shows_with_video": 7,
+  "shows_with_image": 8,
+  "last_updated": "2026-03-08T08:58:29.253798"
 }

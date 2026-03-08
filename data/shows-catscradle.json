@@ -6,31 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Dirtwire – Universal Language Tour",
-      "date": "Sat, Mar 07",
-      "venue": "Cat's Cradle",
-      "opener": "Max Lane",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Dirtwire_2031311762873762.jpg",
-      "event_url": "https://catscradle.com/event/dirtwire-universal-language-tour/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "M9ZAle73g_8",
-      "opener_youtube_id": "zE9rdEcJ2hs"
-    },
-    {
-      "artist": "Slow Teeth, Scrape, Minor Stars",
-      "date": "Sat, Mar 07",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Slow_1655861742119655.jpg",
-      "event_url": "https://catscradle.com/event/slow-teeth-scrape-minor-stars/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "4exUF48wQNQ"
-    },
-    {
       "artist": "The Nine Lives Flea Market",
       "date": "Sun, Mar 08",
       "venue": "Cat's Cradle",
@@ -242,7 +217,7 @@
       "showtime": "1:30 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
       "event_url": "https://catscradle.com/event/sam-farthing-jimmy-grant-guitar-workshop/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null
+      "youtube_id": "9oMOqGAjYY8"
     },
     {
       "artist": "BENEE",
@@ -307,6 +282,32 @@
       "opener_youtube_id": "FKivhD5CdmQ"
     },
     {
+      "artist": "Model/Actriz",
+      "date": "Wed, Mar 25",
+      "venue": "Motorco Music Hall",
+      "opener": "Touching Ice",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-ModelActriz_2044571763460027.jpg",
+      "event_url": "https://catscradle.com/event/model-actriz/motorco-music-hall/durham-north-carolina/",
+      "youtube_id": "37ptdYkJ1d0",
+      "opener_youtube_id": "wuqirX41Y80"
+    },
+    {
+      "artist": "Clover County",
+      "date": "Thu, Mar 26",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Ethansroom",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Clover_2080261765191983.jpg",
+      "event_url": "https://catscradle.com/event/clover-county/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "tNr4SrwNcmc",
+      "opener_youtube_id": "lGM2b-6P6kc"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -321,7 +322,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 19,
+  "shows_with_video": 20,
   "shows_with_image": 25,
-  "last_updated": "2026-03-07T08:57:26.656353"
+  "last_updated": "2026-03-08T08:57:54.465816"
 }

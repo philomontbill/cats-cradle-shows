@@ -7,32 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Shakedown Citi",
-      "date": "Sat, Mar 07",
-      "doors": "7:31 pm",
-      "showtime": "7:31 pm",
-      "opener": "@ Kings",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook.jpg",
-      "ticket_url": "https://www.etix.com/ticket/p/70025932/shakedown-citi-raleigh-kings-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "T35qZFqno9o",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Lincoln Theatre",
-      "artist": "Mo Lowda & the Humble",
-      "date": "Sat, Mar 07",
-      "doors": "7:30 pm",
-      "showtime": "8:30 pm",
-      "opener": "Deaf Andrews",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/09/etix-Mo_908081759231444.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/77373961/mo-lowda-the-humble-wdeaf-andrews-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "e-GFjxy8yHo",
-      "opener_youtube_id": "IclYceWSZOc"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "NC Songwriters Show Feat: Jon Wood/Steph Maguire/Tan Sanders/Drew Johnson/Sophie Taylor/Roy Stewart/Brent Underwood/Adam Fisher",
       "date": "Sun, Mar 08",
       "doors": "5 pm",
@@ -70,7 +44,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Mother’s Finest",
+      "artist": "Mother\u2019s Finest",
       "date": "Sat, Mar 14",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -105,7 +79,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Lily Rose – I Know What I Want",
+      "artist": "Lily Rose \u2013 I Know What I Want",
       "date": "Thu, Mar 19",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -148,7 +122,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Heads Up Penny – Presented by East Coast Entertainment",
+      "artist": "Heads Up Penny \u2013 Presented by East Coast Entertainment",
       "date": "Sun, Mar 22",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -159,7 +133,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Daniel Donato’s Cosmic Country 3 Show Package",
+      "artist": "Daniel Donato\u2019s Cosmic Country 3 Show Package",
       "date": "Fri, Mar 27",
       "showtime": "8:30 pm",
       "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Daniel_911981762855471.jfif",
@@ -169,7 +143,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Proving Ground – Widespread Panic Tribute",
+      "artist": "Proving Ground \u2013 Widespread Panic Tribute",
       "date": "Fri, Apr 03",
       "doors": "7:30 pm",
       "showtime": "8:30 pm",
@@ -191,7 +165,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Old 97’s",
+      "artist": "Old 97\u2019s",
       "date": "Tue, Apr 07",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -204,7 +178,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Knot Your Kind – A tribute to Slipknot",
+      "artist": "Knot Your Kind \u2013 A tribute to Slipknot",
       "date": "Fri, Apr 10",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -274,7 +248,7 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "CONCRETE BOYS: IT’S US – VOL. 2 TOUR",
+      "artist": "CONCRETE BOYS: IT\u2019S US \u2013 VOL. 2 TOUR",
       "date": "Tue, Apr 21",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -295,10 +269,34 @@
       "notice": null,
       "youtube_id": "oKf11AW1RbM",
       "opener_youtube_id": "kGvHFYAaBOI"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Trial By Fire (Tribute to Journey)",
+      "date": "Fri, May 01",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "She Bop (80\u2019s Tribute)",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/03/trial-by-fire-tribute-to-journey-w-she-bop-80s-tribute.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/74829660/trial-by-fire-tribute-to-journeywshe-bop-80s-tribute-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "2YqZuo1WKk4",
+      "opener_youtube_id": "KFq4E9XTueY"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "The Brothers Comatose",
+      "date": "Sat, May 02",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2025/12/etix-The_914181765795039.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/66650773/the-brothers-comatose-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-07T08:57:41.881134"
+  "last_updated": "2026-03-08T08:58:09.728138"
 }

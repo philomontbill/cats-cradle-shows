@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Cartoon Smokeshow, a Drag and Burlesque Rewind",
-      "date": "Sat, Mar 07",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/cartoon-smokeshow-a-drag-and-burlesque-rewind.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/57465951/cartoon-smokeshowa-drag-and-burlesque-rewind-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Plastic Flamingos / Hemlock Theory / Khallori",
       "date": "Sun, Mar 08",
       "doors": "6:30 pm",
@@ -172,7 +161,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -279,10 +268,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/95923815/queer-country-night-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "The Golden Hours / David Wax Museum / Lowland Hum",
+      "date": "Wed, Apr 08",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299131768590366.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/51640009/the-golden-hours-david-wax-museum-lowland-hum-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 16,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-07T08:57:38.424001"
+  "last_updated": "2026-03-08T08:58:05.912824"
 }

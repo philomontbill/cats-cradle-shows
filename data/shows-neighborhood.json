@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "ALEXSUCKS",
-      "date": "Sat, Mar 07",
-      "venue": "Neighborhood Theatre",
-      "opener": "Dogma Society",
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/e78/4598ab4b-7e84-4e07-bad3-9b4c99c75e78_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/alexsucks-charlotte-north-carolina-03-07-2026/event/2D006388B153B45A",
-      "youtube_id": "kwfLBGgUpuQ",
-      "opener_youtube_id": "9jE-dCQNIP4"
-    },
-    {
       "artist": "SATSANG",
       "date": "Sun, Mar 08",
       "venue": "Neighborhood Theatre",
@@ -293,10 +280,22 @@
       "image": "https://s1.ticketm.net/dam/e/de2/5a40ef38-db09-4942-b689-189fa18a3de2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/breakfield-formerly-known-as-boy-named-charlotte-north-carolina-04-23-2026/event/2D006388B0D0B3CF",
       "youtube_id": "mhuTyUTaygM"
+    },
+    {
+      "artist": "Pool Kids",
+      "date": "Fri, Apr 24",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/c61/3a13b201-6b42-4341-bc96-83e34ed10c61_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/pool-kids-charlotte-north-carolina-04-24-2026/event/2D00644BF2E56858",
+      "youtube_id": "lJ7uoGTzBgw"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-07T08:59:48.778017"
+  "last_updated": "2026-03-08T08:59:59.968389"
 }

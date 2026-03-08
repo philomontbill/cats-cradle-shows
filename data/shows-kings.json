@@ -7,15 +7,15 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Sat, Mar 7",
-      "artist": "Shakedown Citi",
+      "date": "Tue, Mar 10",
+      "artist": "Meet Me @ The Altar [Rescheduled from 1/26]",
       "opener": "Pollyanna, Weymouth",
-      "showtime": "8:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/shakedown-citi",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/Raleigh-NC-Facebook-150x150.jpg",
+      "showtime": "7:30pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/meet-me-the-altar-rescheduled-from-1-26",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/mmata-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": "T35qZFqno9o",
+      "youtube_id": "waQ9BKMacII",
       "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
@@ -28,19 +28,6 @@
       "notice": null,
       "doors": null,
       "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 10",
-      "artist": "Meet Me @ The Altar [Rescheduled from 1/26]",
-      "opener": "Pollyanna, Weymouth",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/meet-me-the-altar-rescheduled-from-1-26",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/mmata-150x150.jpg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "f1EVoVOSK5k"
     },
     {
       "venue": "Kings",
@@ -317,10 +304,23 @@
       "doors": null,
       "youtube_id": "23fWcvRoWzg",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Apr 9",
+      "artist": "Boys Go To Jupiter – ‘Now You’re A Circle’ Tour",
+      "opener": "Miki Fiki",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "wGbM7Qp0jlc",
+      "opener_youtube_id": "wzynrzRdqH4"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-07T08:57:45.434171"
+  "last_updated": "2026-03-08T08:58:13.862695"
 }

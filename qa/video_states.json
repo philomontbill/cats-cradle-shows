@@ -1221,12 +1221,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-07T09:00:11.767435",
+    "verified_date": "2026-03-08T09:00:35.514496",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5337160,
+      "view_count": 5338020,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -1889,41 +1889,42 @@
   },
   "Boys Go To Jupiter \u2013 \u2018Now You\u2019re A Circle\u2019 Tour": {
     "status": "verified",
-    "video_id": "KFtQ2S00_JU",
-    "verified_date": "2026-02-23T11:23:25.558173",
-    "confidence": "channel match, 6,361 views",
+    "video_id": "wGbM7Qp0jlc",
+    "verified_date": "2026-03-08T09:00:20.989631",
+    "confidence": "channel match, 1,477 views",
     "metadata": {
-      "video_title": "Boys Go To Jupiter \u2014 Revenge Tour (OFFICIAL LYRIC VIDEO)",
+      "video_title": "Now you\u2019re a circle",
       "channel_name": "Boys Go To Jupiter",
-      "view_count": 6361,
-      "published": "2025-10-10T12:22:50Z",
-      "channel_subscribers": 8920,
-      "channel_videos": 77,
+      "view_count": 1477,
+      "published": "2026-03-02T16:14:46Z",
+      "channel_subscribers": 8970,
+      "channel_videos": 84,
       "is_topic": false,
       "channel_match": true,
-      "video_age_years": 0.4
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
     }
   },
   "Miki Fiki": {
     "status": "verified",
-    "video_id": "LIZCRKurJ2I",
-    "verified_date": "2026-03-02T09:14:16.678843",
-    "confidence": "4,333 views",
+    "video_id": "wzynrzRdqH4",
+    "verified_date": "2026-03-08T09:00:22.193727",
+    "confidence": "channel match, Topic channel, 136 views",
     "metadata": {
-      "video_title": "Miki Fiki - Little Bit | OurVinyl Sessions",
-      "channel_name": "OurVinyl",
-      "view_count": 4333,
-      "published": "2022-02-15T18:00:06Z",
-      "channel_subscribers": 401000,
-      "channel_videos": 1275,
-      "is_topic": false,
-      "channel_match": false,
+      "video_title": "Patient",
+      "channel_name": "Miki Fiki - Topic",
+      "view_count": 136,
+      "published": "2025-01-13T16:43:17Z",
+      "channel_subscribers": 236,
+      "channel_videos": 61,
+      "is_topic": true,
+      "channel_match": true,
       "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 30 (>=30)",
-      "channel_warning": "channel 'OurVinyl' doesn't match artist",
-      "video_age_years": 4.0,
-      "spotify_match": "exact",
-      "spotify_popularity": 30
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 1.1
     }
   },
   "rum.gold": {
@@ -3416,19 +3417,23 @@
   },
   "Ethansroom": {
     "status": "verified",
-    "video_id": "DMbAjG_pK28",
-    "verified_date": "2026-02-23T11:24:09.156947",
-    "confidence": "channel match, 654 views",
+    "video_id": "lGM2b-6P6kc",
+    "verified_date": "2026-03-08T09:00:18.568462",
+    "confidence": "1,993 views",
     "metadata": {
-      "video_title": "Ethansroom - Indiana",
-      "channel_name": "Ethansroom",
-      "view_count": 654,
-      "published": "2020-10-22T01:11:54Z",
-      "channel_subscribers": 54,
-      "channel_videos": 3,
+      "video_title": "Ethansroom - Ma I Think I Found A Lady | Sofar Atlanta",
+      "channel_name": "Sofar Sounds",
+      "view_count": 1993,
+      "published": "2020-01-06T11:00:08Z",
+      "channel_subscribers": 1460000,
+      "channel_videos": 24565,
       "is_topic": false,
-      "channel_match": true,
-      "video_age_years": 5.3
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'Sofar Sounds' doesn't match artist (title match)",
+      "video_age_years": 6.2
     }
   },
   "Yellow Days": {
@@ -3806,19 +3811,22 @@
   },
   "Touch\u00e9 Amor\u00e9": {
     "status": "verified",
-    "video_id": "Ijmhb8is-vc",
-    "verified_date": "2026-02-23T11:24:20.172702",
-    "confidence": "channel match, 142,112 views",
+    "video_id": "w_lTS-XwFN4",
+    "verified_date": "2026-03-08T09:00:29.409286",
+    "confidence": "channel match, 107,257 views",
     "metadata": {
-      "video_title": "Touch\u00e9 Amor\u00e9 - Hal Ashby (Official Music Video)",
+      "video_title": "Touch\u00e9 Amor\u00e9 - Goodbye For Now (feat. Julien Baker) (Spiral In A Straight Line Visual Album)",
       "channel_name": "Touch\u00e9 Amor\u00e9",
-      "view_count": 142112,
-      "published": "2024-09-05T04:00:21Z",
-      "channel_subscribers": 14000,
-      "channel_videos": 46,
+      "view_count": 107257,
+      "published": "2024-10-11T04:00:44Z",
+      "channel_subscribers": 14100,
+      "channel_videos": 47,
       "is_topic": false,
       "channel_match": true,
-      "video_age_years": 1.5
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.4
     }
   },
   "Jeromes Dream, Porcelain": {
@@ -3840,19 +3848,22 @@
   },
   "My Life With the Thrill Kill Kult": {
     "status": "verified",
-    "video_id": "YgaZwOHjTwI",
-    "verified_date": "2026-02-23T11:24:20.940180",
-    "confidence": "channel match, 124,122 views",
+    "video_id": "qd3Ec0zvLLU",
+    "verified_date": "2026-03-08T09:00:30.636796",
+    "confidence": "channel match, 152,355 views",
     "metadata": {
-      "video_title": "And This Is What The Devil Does",
+      "video_title": "My Life With The Thrill Kill Kult - A Daisy Chain 4 Satan (Fan Video)",
       "channel_name": "My Life With The Thrill Kill Kult",
-      "view_count": 124122,
-      "published": "2016-02-11T02:55:28Z",
-      "channel_subscribers": 21200,
+      "view_count": 152355,
+      "published": "2024-03-07T06:22:39Z",
+      "channel_subscribers": 21300,
       "channel_videos": 32,
       "is_topic": false,
       "channel_match": true,
-      "video_age_years": 10.0
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.0
     }
   },
   "Light Asylum, Die Sexual, DEVORA, Heavy Halo": {
@@ -6276,12 +6287,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-07T09:00:09.323286",
-    "confidence": "channel match, 13,590 views",
+    "verified_date": "2026-03-08T09:00:31.869597",
+    "confidence": "channel match, 13,592 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13590,
+      "view_count": 13592,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -8906,6 +8917,378 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 2.0
+    }
+  },
+  "Gavin Marengi w/ The National Reserve, Rozlyn": {
+    "status": "verified",
+    "video_id": "ubVJTq5tQuQ",
+    "verified_date": "2026-03-08T09:00:06.436125",
+    "confidence": "channel match, Topic channel, 161 views",
+    "metadata": {
+      "video_title": "Breathing Years",
+      "channel_name": "Gavin Marengi - Topic",
+      "view_count": 161,
+      "published": "2026-01-08T10:02:06Z",
+      "channel_subscribers": 166,
+      "channel_videos": 29,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.2
+    }
+  },
+  "See Plus, Smilley, KAGE! & Blakestyle (duo)": {
+    "status": "verified",
+    "video_id": "ulrrAmFAryI",
+    "verified_date": "2026-03-08T09:00:07.683818",
+    "confidence": "channel match, 2,451 views",
+    "metadata": {
+      "video_title": "See Plus - Chemical Burns (Official Music Video)",
+      "channel_name": "See Plus",
+      "view_count": 2451,
+      "published": "2019-02-01T11:38:05Z",
+      "channel_subscribers": 741,
+      "channel_videos": 55,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 7.1
+    }
+  },
+  "Sienna Spiro - The Visitor Tour": {
+    "status": "rejected",
+    "video_id": "5RNy_1odv20",
+    "rejected_date": "2026-03-08T09:00:11.314468",
+    "reason": "non-matching channel 'Lyrical Lemonade' with 24,000,000 subscribers",
+    "metadata": {
+      "video_title": "SIENNA SPIRO - Die On This Hill (Official Music Video)",
+      "channel_name": "Lyrical Lemonade",
+      "view_count": 4709328,
+      "published": "2026-01-23T18:00:11Z",
+      "channel_subscribers": 24000000,
+      "channel_videos": 466,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
+    }
+  },
+  "Buffalo Traffic Jam": {
+    "status": "verified",
+    "video_id": "hdsGQYYgrbs",
+    "verified_date": "2026-03-08T09:00:10.114546",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "Buffalo Traffic Jam - Fool's Gold (Lyric Video)",
+      "channel_name": "BTJVEVO",
+      "view_count": 4054091,
+      "published": "2025-09-26T04:00:56Z",
+      "channel_subscribers": 6,
+      "channel_videos": 6,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 0.4
+    }
+  },
+  "Jordan Astra": {
+    "status": "verified",
+    "video_id": "PkDY8N2sC9M",
+    "verified_date": "2026-03-08T09:00:12.510206",
+    "confidence": "channel match, 62,757 views",
+    "metadata": {
+      "video_title": "Jordan Astra, Misha, Jussi Halme - 'After Midnight'",
+      "channel_name": "Jordan Astra",
+      "view_count": 62757,
+      "published": "2024-07-29T19:53:39Z",
+      "channel_subscribers": 1910,
+      "channel_videos": 224,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.6
+    }
+  },
+  "Aaron Abramowitz, Kate Keller": {
+    "status": "verified",
+    "video_id": "WtsMdmRBvjA",
+    "verified_date": "2026-03-08T09:00:13.676725",
+    "confidence": "channel match, 2,800 views",
+    "metadata": {
+      "video_title": "Aaron Abramowitz - America's Got Talent Audition",
+      "channel_name": "Aaron Abramowitz",
+      "view_count": 2800,
+      "published": "2012-12-14T23:24:42Z",
+      "channel_subscribers": 207,
+      "channel_videos": 66,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 13.2
+    }
+  },
+  "Sam Farthing & Jimmy Grant Guitar Workshop": {
+    "status": "verified",
+    "video_id": "9oMOqGAjYY8",
+    "verified_date": "2026-03-08T09:00:16.129778",
+    "confidence": "channel match, 364 views",
+    "metadata": {
+      "video_title": "Carborro Django Reinhardt Festival coming up soon!  #djangoreinhardt",
+      "channel_name": "Jimmy Grant",
+      "view_count": 364,
+      "published": "2026-03-07T16:50:01Z",
+      "channel_subscribers": 3880,
+      "channel_videos": 265,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
+    }
+  },
+  "Touching Ice": {
+    "status": "verified",
+    "video_id": "wuqirX41Y80",
+    "verified_date": "2026-03-08T09:00:17.340258",
+    "confidence": "channel match, VEVO, 3,182 views",
+    "metadata": {
+      "video_title": "Touching Ice - Praise Kink",
+      "channel_name": "TouchingIceVEVO",
+      "view_count": 3182,
+      "published": "2023-06-02T07:00:24Z",
+      "channel_subscribers": 40,
+      "channel_videos": 1,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 2.8
+    }
+  },
+  "Trial By Fire (Tribute to Journey)": {
+    "status": "verified",
+    "video_id": "2YqZuo1WKk4",
+    "verified_date": "2026-03-08T09:00:23.433666",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "Judas Priest - Trial By Fire (Official Video)",
+      "channel_name": "JudasPriestVEVO",
+      "view_count": 5660392,
+      "published": "2023-11-29T08:00:04Z",
+      "channel_subscribers": 249000,
+      "channel_videos": 348,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 2.3
+    }
+  },
+  "She Bop (80\u2019s Tribute)": {
+    "status": "verified",
+    "video_id": "KFq4E9XTueY",
+    "verified_date": "2026-03-08T09:00:24.591217",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "Cyndi Lauper - She Bop (Official HD Video)",
+      "channel_name": "CyndiLauperVEVO",
+      "view_count": 30154473,
+      "published": "2009-10-25T07:03:16Z",
+      "channel_subscribers": 919000,
+      "channel_videos": 100,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 16.4,
+      "age_override": "trusted VEVO, skipping age check"
+    }
+  },
+  "The Brothers Comatose": {
+    "status": "rejected",
+    "video_id": "ml22cp4ojHg",
+    "rejected_date": "2026-03-08T09:00:25.795616",
+    "reason": "view count 10,767,185 exceeds 5,000,000 cap",
+    "metadata": {
+      "video_title": "The Brothers Comatose & AJ Lee - \"Harvest Moon\" (by Neil Young)",
+      "channel_name": "The Brothers Comatose",
+      "view_count": 10767185,
+      "published": "2022-01-19T08:00:17Z",
+      "channel_subscribers": 83500,
+      "channel_videos": 542,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 4.1
+    }
+  },
+  "Pollute.": {
+    "status": "verified",
+    "video_id": "GveMD5WuNnI",
+    "verified_date": "2026-03-08T09:00:27.024573",
+    "confidence": "channel match, 1,575 views",
+    "metadata": {
+      "video_title": "Polluted - Lemongrabber (Official Music Video)",
+      "channel_name": "Polluted",
+      "view_count": 1575,
+      "published": "2025-01-23T05:00:25Z",
+      "channel_subscribers": 195,
+      "channel_videos": 18,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.1
+    }
+  },
+  "Kid Sistr": {
+    "status": "verified",
+    "video_id": "kq4kOlIt1rA",
+    "verified_date": "2026-03-08T09:00:28.218021",
+    "confidence": "channel match, 71,318 views",
+    "metadata": {
+      "video_title": "Kid Sistr - Shitshow (Official Music Video)",
+      "channel_name": "Kid Sistr",
+      "view_count": 71318,
+      "published": "2025-10-30T16:01:20Z",
+      "channel_subscribers": 9430,
+      "channel_videos": 86,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "Pool Kids": {
+    "status": "verified",
+    "video_id": "lJ7uoGTzBgw",
+    "verified_date": "2026-03-08T09:00:33.071559",
+    "confidence": "channel match, 13,251 views",
+    "metadata": {
+      "video_title": "Pool Kids | Audiotree Far Out",
+      "channel_name": "Pool Kids",
+      "view_count": 13251,
+      "published": "2026-02-02T18:00:18Z",
+      "channel_subscribers": 2580,
+      "channel_videos": 6,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
+    }
+  },
+  "support from Destinie Lynn": {
+    "status": "verified",
+    "video_id": "rPVG-QHwnsE",
+    "verified_date": "2026-03-08T09:00:34.315611",
+    "confidence": "channel match, 298 views",
+    "metadata": {
+      "video_title": "Shortnin' Bread - Official Music Video",
+      "channel_name": "Destinie Lynn",
+      "view_count": 298,
+      "published": "2025-10-20T18:32:11Z",
+      "channel_subscribers": 239,
+      "channel_videos": 112,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "Cameron Whitcomb": {
+    "status": "verified",
+    "video_id": "Oe7_hqPhgX4",
+    "verified_date": "2026-03-08T09:00:36.697631",
+    "confidence": "channel match, 196,156 views",
+    "metadata": {
+      "video_title": "Cameron Whitcomb - Options (Live Performance)",
+      "channel_name": "Cameron Whitcomb",
+      "view_count": 196156,
+      "published": "2025-08-28T18:00:19Z",
+      "channel_subscribers": 124000,
+      "channel_videos": 141,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.5
+    }
+  },
+  "Stella Lefty": {
+    "status": "verified",
+    "video_id": "9p6aR3xx1as",
+    "verified_date": "2026-03-08T09:00:37.887998",
+    "confidence": "channel match, Topic channel, 125,412 views",
+    "metadata": {
+      "video_title": "The Kill (From the Original Motion Picture \"Scream 7\")",
+      "channel_name": "STELLA LEFTY - Topic",
+      "view_count": 125412,
+      "published": "2026-02-26T10:02:32Z",
+      "channel_subscribers": 1240,
+      "channel_videos": 17,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.0
+    }
+  },
+  "The Golden Hours / David Wax Museum / Lowland Hum": {
+    "status": "rejected",
+    "video_id": "PEM0Vs8jf1w",
+    "rejected_date": "2026-03-08T09:00:39.102869",
+    "reason": "view count 299,914,984 exceeds 5,000,000 cap; non-matching channel 'JVKE' with 13,500,000 subscribers",
+    "metadata": {
+      "video_title": "JVKE - golden hour (official music video)",
+      "channel_name": "JVKE",
+      "view_count": 299914984,
+      "published": "2022-10-12T14:00:11Z",
+      "channel_subscribers": 13500000,
+      "channel_videos": 862,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.4
     }
   }
 }

@@ -6,34 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Clover County",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Indoor",
-      "opener": "Ethansroom",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:30pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648554346492",
-      "ticket_url": "https://www.etix.com/ticket/p/77914909/clover-county-austin-resound-presents",
-      "youtube_id": "tNr4SrwNcmc",
-      "opener_youtube_id": "DMbAjG_pK28",
-      "expired": true
-    },
-    {
-      "artist": "Yellow Days",
-      "date": "Fri, Mar 06",
-      "venue": "Mohawk Outdoor",
-      "opener": "Rue Jacobs",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648598195875",
-      "ticket_url": "https://www.etix.com/ticket/p/63199488/yellow-days-austin-resound-presents",
-      "youtube_id": "jpYwsHTLv9o",
-      "opener_youtube_id": "Q83W9q34RDs",
-      "expired": true
-    },
-    {
       "artist": "HBO QUIZZO: Heated Rivalry",
       "date": "Mon, Mar 09",
       "venue": "Mohawk Indoor",
@@ -328,10 +300,36 @@
       "ticket_url": "https://www.etix.com/ticket/p/95406470/sarah-kinsley-austin-resound-presents",
       "youtube_id": "6p4KTYTxyP8",
       "opener_youtube_id": "Rp6jCtnhCDs"
+    },
+    {
+      "artist": "Touché Amoré",
+      "date": "Wed, Apr 08",
+      "venue": "Mohawk Outdoor",
+      "opener": "Jeromes Dream, Porcelain",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648635194432",
+      "ticket_url": "https://www.etix.com/ticket/p/83721485/touch%C3%A9-amor%C3%A9-austin-resound-presents",
+      "youtube_id": "w_lTS-XwFN4",
+      "opener_youtube_id": "-n20fV-hyg8"
+    },
+    {
+      "artist": "My Life With the Thrill Kill Kult",
+      "date": "Thu, Apr 09",
+      "venue": "Mohawk Outdoor",
+      "opener": "Light Asylum, Die Sexual, DEVORA, Heavy Halo",
+      "notice": null,
+      "doors": "6:00pm",
+      "showtime": "7:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648542460182",
+      "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
+      "youtube_id": "qd3Ec0zvLLU",
+      "opener_youtube_id": "WNiKCRUpbqA"
     }
   ],
-  "total_shows": 23,
-  "shows_with_video": 15,
-  "shows_with_image": 23,
-  "last_updated": "2026-03-07T08:57:49.354197"
+  "total_shows": 25,
+  "shows_with_video": 17,
+  "shows_with_image": 25,
+  "last_updated": "2026-03-08T08:58:20.001709"
 }

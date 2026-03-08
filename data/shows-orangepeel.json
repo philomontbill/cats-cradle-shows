@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Evan Honer",
-      "date": "Sat, Mar 07",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Nicholas Jamerson",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/09/etix-Evan_1038321758542931.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/61765652/evan-honer-its-a-long-road-tour-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
-      "youtube_id": "uqgYgbZMtFA",
-      "opener_youtube_id": "gyZuv54KOXY"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Fringe Revival",
       "date": "Sun, Mar 08",
       "doors": "5 pm",
@@ -168,7 +155,7 @@
     },
     {
       "venue": "The Orange Peel",
-      "artist": "McKinney\u2019s \u201cBones\u201d Album Release Show",
+      "artist": "McKinney’s “Bones” Album Release Show",
       "date": "Mon, Mar 23",
       "doors": "6 pm",
       "showtime": "7 pm",
@@ -177,7 +164,7 @@
       "ticket_url": "https://www.etix.com/ticket/p/97770501/mckinneys-bonesalbum-release-show-with-support-from-destinie-lynn-asheville-pulp?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "rPVG-QHwnsE"
     },
     {
       "venue": "The Orange Peel",
@@ -223,7 +210,7 @@
       "date": "Fri, Apr 03",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Black Joe Lewis, Pi\u00f1ata Protest",
+      "opener": "Black Joe Lewis, Piñata Protest",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Reverend_1042061763138678.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/68046014/reverend-horton-heat-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
@@ -245,7 +232,7 @@
     },
     {
       "venue": "The Orange Peel",
-      "artist": "Juvenile\u2019s Boiling Point Album Release Tour",
+      "artist": "Juvenile’s Boiling Point Album Release Tour",
       "date": "Sun, Apr 05",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -279,10 +266,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/53339442/the-emo-night-tour-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Cameron Whitcomb",
+      "date": "Sat, Apr 11",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Stella Lefty",
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/01/cameron-whitcomb.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/93595518/cameron-whitcomb-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": "Oe7_hqPhgX4",
+      "opener_youtube_id": "9p6aR3xx1as"
     }
   ],
   "total_shows": 22,
-  "shows_with_video": 20,
+  "shows_with_video": 19,
   "shows_with_image": 22,
-  "last_updated": "2026-03-07T08:59:53.458984"
+  "last_updated": "2026-03-08T09:00:04.755639"
 }
