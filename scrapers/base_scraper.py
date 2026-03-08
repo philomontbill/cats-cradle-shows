@@ -228,14 +228,15 @@ class BaseScraper:
 
         # Use API if available, otherwise fall back to scraping
         if self.api_key:
-            return self._search_youtube_api(search_name, is_opener)
+            return self._search_youtube_api(search_name, is_opener, original_name=artist_name)
         else:
             return self._search_youtube_scrape(search_name, is_opener)
 
-    def _search_youtube_api(self, artist_name, is_opener=False):
+    def _search_youtube_api(self, artist_name, is_opener=False, original_name=None):
         """Search YouTube Data API with confidence scoring. Expects pre-cleaned name."""
+        log_name = original_name or artist_name
         if not artist_name or len(artist_name) < 2:
-            self._log_match(artist_name, None, 0, "skip", "name too short or invalid", is_opener)
+            self._log_match(log_name, None, 0, "skip", "name too short or invalid", is_opener)
             return None
 
         try:
@@ -254,11 +255,11 @@ class BaseScraper:
             resp = requests.get(url, timeout=10)
             if resp.status_code == 403:
                 print(f"    ⚠ YouTube API quota exceeded, skipping {artist_name}")
-                self._log_match(artist_name, None, 0, "skip", "quota exhausted — skipped", is_opener)
+                self._log_match(log_name, None, 0, "skip", "quota exhausted — skipped", is_opener)
                 return None
             if resp.status_code != 200:
                 print(f"    ⚠ YouTube API error {resp.status_code}, skipping {artist_name}")
-                self._log_match(artist_name, None, 0, "skip", f"API error {resp.status_code} — skipped", is_opener)
+                self._log_match(log_name, None, 0, "skip", f"API error {resp.status_code} — skipped", is_opener)
                 return None
 
             data = resp.json()
@@ -279,7 +280,7 @@ class BaseScraper:
                     items = resp2.json().get("items", [])
 
             if not items:
-                self._log_match(artist_name, None, 0, "no_results", "no YouTube results found", is_opener)
+                self._log_match(log_name, None, 0, "no_results", "no YouTube results found", is_opener)
                 return None
 
             # Score each candidate and pick the best
@@ -319,7 +320,7 @@ class BaseScraper:
                 result_id = None
 
             self._log_match(
-                artist_name, result_id, best_score, tier,
+                log_name, result_id, best_score, tier,
                 f"{best_explanation} | video: {best_title} | channel: {best_channel}",
                 is_opener
             )
@@ -331,11 +332,11 @@ class BaseScraper:
 
         except requests.RequestException as e:
             print(f"    ⚠ YouTube API error: {e}, skipping {artist_name}")
-            self._log_match(artist_name, None, 0, "api_error", f"YouTube/network error — skipped: {e}", is_opener)
+            self._log_match(log_name, None, 0, "api_error", f"YouTube/network error — skipped: {e}", is_opener)
             return None
         except Exception as e:
             print(f"    ⚠ CODE ERROR scoring {artist_name}: {e}")
-            self._log_match(artist_name, None, 0, "code_error", f"code error — skipped: {e}", is_opener)
+            self._log_match(log_name, None, 0, "code_error", f"code error — skipped: {e}", is_opener)
             return None
 
     # --- Smart search: reuse existing high-confidence matches ---
