@@ -107,6 +107,7 @@ Overrides represent human decisions. No automated system — smart filtering, ve
 
 ### What we learned:
 - **Cat's Cradle venue detection bug (Mar 5, 2026):** Full-text search for "motorco" in page content matched an artist bio that mentioned Motorco as a past venue. Fix: use structured venue indicators (CSS selectors, URL slugs) before falling back to text search.
+- **Heartwood Soundstage (Mar 8, 2026):** Webflow CMS caps collection lists at 100 items. Site had a hidden 100-item calendar (all past events) and a separate visible grid with upcoming shows. Scraper initially targeted the wrong collection, wasting 26 API calls on past events. **Always do a dry parse first** — print titles + dates without YouTube to confirm you're scraping the right data before enabling API calls.
 
 ---
 

@@ -41,6 +41,14 @@
       "name": "Florida",
       "regions": [
         {
+          "slug": "gainesville",
+          "name": "Gainesville",
+          "tagline": "What's playing in Gainesville tonight?",
+          "venues": [
+            { "slug": "heartwoodsoundstage", "name": "Heartwood Soundstage", "city": "Gainesville", "website": "https://www.heartwoodsoundstage.com" }
+          ]
+        },
+        {
           "slug": "orlando",
           "name": "Orlando",
           "tagline": "What's playing in Orlando tonight?",

@@ -88,6 +88,11 @@ jobs:
         continue-on-error: true
         run: python scrapers/scraper_orangepeel.py
 
+      - name: Run Heartwood Soundstage scraper
+        id: scrape_heartwoodsoundstage
+        continue-on-error: true
+        run: python scrapers/scraper_heartwoodsoundstage.py
+
       - name: Expire past shows
         run: python scripts/expire_shows.py
 

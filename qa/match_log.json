@@ -77818,5 +77818,595 @@
     "explanation": "artist name found in channel name | video: The Kill (From the Original Motion Picture &quot;Scream 7&quot;) | channel: STELLA LEFTY - Topic",
     "timestamp": "2026-03-08T09:00:04.395137",
     "venue": "The Orange Peel"
+  },
+  {
+    "artist": "Heartwood Music Festival IX",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T16:44:12.670897",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Nights (Outside Deck 6 to 9)",
+    "role": "headliner",
+    "youtube_id": "e9loPNpvg8A",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: nights | video: Accessory - Too Many Nights (Official Music Video - Twitch Community Edit) | channel: Accessory",
+    "timestamp": "2026-03-08T16:44:13.787586",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Kaleigh Baker",
+    "role": "headliner",
+    "youtube_id": "P-3zm8B8Gkw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Janis Joplin - Me and Bobby Mcgee (Cover by Kaleigh Baker) | channel: Kaleigh Baker",
+    "timestamp": "2026-03-08T16:44:14.632334",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "IndieLive Summer",
+    "role": "headliner",
+    "youtube_id": "qbGZDEFHBmc",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: summer | video: Jai Wolf - Indian Summer (Official Music Video) | channel: Jai Wolf",
+    "timestamp": "2026-03-08T16:44:15.584761",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Pride Dance Party",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T16:44:15.890236",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Nights (Outside Deck 6 to 9)",
+    "role": "headliner",
+    "youtube_id": "e9loPNpvg8A",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: nights | video: Accessory - Too Many Nights (Official Music Video - Twitch Community Edit) | channel: Accessory",
+    "timestamp": "2026-03-08T16:44:16.850789",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Rick Price",
+    "role": "headliner",
+    "youtube_id": "7wRYqzmtuTU",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Rick Price - Heaven Knows | channel: Rick Price",
+    "timestamp": "2026-03-08T16:44:17.751656",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Drivin N Cryin",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Drivin&#39; N&#39; Cryin&#39; - Fly Me Courageous | channel: DrivinAndCryinVEVO",
+    "timestamp": "2026-03-08T16:44:18.589945",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Orlas",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Orla Gartland - Little Chaos | channel: OrlaGartlandVEVO",
+    "timestamp": "2026-03-08T16:44:19.510984",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Nights (Outside Deck 6 to 9)",
+    "role": "headliner",
+    "youtube_id": "e9loPNpvg8A",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: nights | video: Accessory - Too Many Nights (Official Music Video - Twitch Community Edit) | channel: Accessory",
+    "timestamp": "2026-03-08T16:44:20.539582",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Oddities Market",
+    "role": "headliner",
+    "youtube_id": "SkEjCuqbwLk",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Captain Burton&#39;s Fun Time Sideshow Circus at Elysium Austin Oddities Market | channel: Instant Crush Productions",
+    "timestamp": "2026-03-08T16:44:21.463969",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Chappell Roan Dance Party",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T16:44:21.770599",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Selwyn Birchwood",
+    "role": "headliner",
+    "youtube_id": "hZMmMgSYpDY",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Selwyn Birchwood - The Church Of Electric Swamp Funkin&#39; Blues | channel: Alligator Records",
+    "timestamp": "2026-03-08T16:44:24.017303",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Dauzat St. Marie",
+    "role": "headliner",
+    "youtube_id": "kXJfxxYCKGg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Dauzat St  Marie - Where Were You? (Official Video) | channel: Dauzat St. Marie",
+    "timestamp": "2026-03-08T16:44:25.157251",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Susto Stringband",
+    "role": "headliner",
+    "youtube_id": "wVPQN6kjwjA",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Susto Stringband - &quot;Friends, Lovers, Ex-Lovers: Whatever&quot; [Official Music Video] | channel: sustoisreal",
+    "timestamp": "2026-03-08T16:44:26.018915",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Nights (Outside Deck 6 to 9)",
+    "role": "headliner",
+    "youtube_id": "e9loPNpvg8A",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: nights | video: Accessory - Too Many Nights (Official Music Video - Twitch Community Edit) | channel: Accessory",
+    "timestamp": "2026-03-08T16:44:26.908262",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Metal Show",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Megadeth - Let There Be Shred (Official Music Video) | channel: Megadeth",
+    "timestamp": "2026-03-08T16:44:27.808546",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Tango workshop",
+    "role": "headliner",
+    "youtube_id": "g3K1ckRUjCE",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: tango, workshop | video: Tango: Forward Step/ Paso Adelante. Gisela Natoli. Tango Technique Workshop | channel: Gisela Natoli",
+    "timestamp": "2026-03-08T16:44:28.801291",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Toots Lorraine(Blues Society)",
+    "role": "headliner",
+    "youtube_id": "urCGYWHoPgY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Toots Lorraine - Make It Easy | channel: Toots Lorraine",
+    "timestamp": "2026-03-08T16:44:29.687308",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Nights (Outside Deck 6 to 9)",
+    "role": "headliner",
+    "youtube_id": "e9loPNpvg8A",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: nights | video: Accessory - Too Many Nights (Official Music Video - Twitch Community Edit) | channel: Accessory",
+    "timestamp": "2026-03-08T16:44:30.574275",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "THE WIREBIRDS",
+    "role": "headliner",
+    "youtube_id": "9BOc4APtLhc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Everything | channel: Wirebirds - Topic",
+    "timestamp": "2026-03-08T16:44:31.390114",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Ceremony of Sound",
+    "role": "headliner",
+    "youtube_id": "b7zUjKKj3kg",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: ceremony, sound | video: Sound of My Ceremony | channel: Nipsey Hussle - Topic",
+    "timestamp": "2026-03-08T16:44:32.212171",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Community Night - Teen Open Mic",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T16:44:32.517673",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Grant Peeples",
+    "role": "headliner",
+    "youtube_id": "zymb-xgqbJY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: My People Come from the Dirt-Grant Peeples with Gurf Morlix | channel: Grant Peeples",
+    "timestamp": "2026-03-08T16:44:33.643898",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Passerine",
+    "role": "opener",
+    "youtube_id": "hFtoL5RYtLc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Reaching - Passerine [Official Music Video] | channel: Passerine",
+    "timestamp": "2026-03-08T16:44:34.361749",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Susmita Datta Quintet",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: John fernandes at squirrel | channel: Chris Yetter",
+    "timestamp": "2026-03-08T16:44:35.381620",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Aly & AJ - Places to Run Tour 2026",
+    "role": "headliner",
+    "youtube_id": "O34fuj6MgmE",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Aly &amp; AJ - Places To Run (Live from the Silver Deliverer Tour) | channel: Aly & AJ",
+    "timestamp": "2026-03-08T18:24:17.340971",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Gainesville Guitar Festival 2026",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T18:24:17.646351",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Josh Meloy",
+    "role": "headliner",
+    "youtube_id": "mzaFp2CSa38",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Porch Light | channel: Josh Meloy - Topic",
+    "timestamp": "2026-03-08T18:24:18.633221",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Trenton Fletcher",
+    "role": "opener",
+    "youtube_id": "-SS5ypVjGIA",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: It Ain&#39;t Me, It&#39;s You | channel: Trenton Fletcher - Topic",
+    "timestamp": "2026-03-08T18:24:19.313761",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Free Show: Live on the Lawn ft. The Shambles",
+    "role": "headliner",
+    "youtube_id": "A-MDlu0kt0U",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: I\u2019m Dru! - FREE SHOW (OFFICIAL MUSIC VIDEO) | channel: I'm Dru!",
+    "timestamp": "2026-03-08T18:24:20.254705",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "4 Cryin' Out Loud",
+    "role": "opener",
+    "youtube_id": "LOcjP3bvy4A",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: cryin, loud, out | video: FINNEAS - For Cryin\u2019 Out Loud! (Official Music Video) | channel: FINNEASVEVO",
+    "timestamp": "2026-03-08T18:24:20.829885",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Laugh Lab Comedy",
+    "role": "headliner",
+    "youtube_id": "IJj7F3PDrLw",
+    "confidence": 88,
+    "tier": "accept",
+    "explanation": "channel match: lab, laugh | video: WiFi Woes (Official Comedy AI Song) | Laugh Track Lab | channel: Laugh Track Lab",
+    "timestamp": "2026-03-08T18:24:21.791990",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "John Prine Music Matinee",
+    "role": "headliner",
+    "youtube_id": "SjzNKCpaXSk",
+    "confidence": 65,
+    "tier": "flag",
+    "explanation": "title match: john, prine | video: &quot;Angel From Montgomery&quot;, Andrew Waite with the John Prine classic. | channel: Kevin Simpson",
+    "timestamp": "2026-03-08T18:24:22.937915",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "MOE. BORN TO FLY TOUR",
+    "role": "headliner",
+    "youtube_id": "xYvBRRuN7xQ",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: moe. Gonna Fly Now12/31/2022 Official NYE Multi Cam video.  Set 2, Song 8. | channel: moe.",
+    "timestamp": "2026-03-08T18:24:24.222266",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Cassidy Daniels",
+    "role": "headliner",
+    "youtube_id": "kKayJiD37lw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Cassidy Daniels - White Mustang (Official Music Video) | channel: Cassidy Daniels",
+    "timestamp": "2026-03-08T18:24:25.171978",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "saturdays at your place",
+    "role": "headliner",
+    "youtube_id": "fn1iLAC8vNY",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: coffee cups | channel: saturdays at your place - Topic",
+    "timestamp": "2026-03-08T18:24:26.145626",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Retirement Party & Kerosene Heights",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 10,
+    "tier": "skip",
+    "explanation": "no match | video: Full (Audiotree Live Version) | channel: Release - Topic",
+    "timestamp": "2026-03-08T18:24:26.871495",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Theatre Connect Karaoke Night",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T18:24:27.178102",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Easy Honey",
+    "role": "headliner",
+    "youtube_id": "i2TVUWMyBZw",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Easy Honey - Orbiter (Official Music Video) | channel: EASY HONEY",
+    "timestamp": "2026-03-08T18:24:28.171028",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Thomas Allain",
+    "role": "opener",
+    "youtube_id": "WkxjXKFnyW0",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Thomas Allain // Take Time (live) | channel: Thomas Allain",
+    "timestamp": "2026-03-08T18:24:28.763129",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "The Ocho",
+    "role": "headliner",
+    "youtube_id": "MnSWR0_bz2Y",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Cigarettes with Barbacks (Official Music Video) | channel: The Ocho",
+    "timestamp": "2026-03-08T18:24:29.790281",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Heartwood Music Fest X",
+    "role": "headliner",
+    "youtube_id": "4dF8Vhi3Ry0",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: fest, heartwood, music | video: Heartwood Music Fest V | channel: Medusa Studios",
+    "timestamp": "2026-03-08T18:24:30.800651",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Ethan Regan",
+    "role": "headliner",
+    "youtube_id": "-JBl3frx6fc",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Ethan Regan - get by (Official Visualizer) | channel: EthanReganVEVO",
+    "timestamp": "2026-03-08T18:24:31.721022",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Abby Powledge",
+    "role": "opener",
+    "youtube_id": "DBd85tdhhNc",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: forgive | channel: Abby Powledge - Topic",
+    "timestamp": "2026-03-08T18:24:32.239060",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Holy River",
+    "role": "headliner",
+    "youtube_id": "YnFXBlhJEAo",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Prince - The Holy River (Official Video) | channel: princevevo",
+    "timestamp": "2026-03-08T18:24:33.256799",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Dexter and The Moonrocks",
+    "role": "headliner",
+    "youtube_id": "t3yQfuZaQJg",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Dexter and The Moonrocks \u2013 Ritalin (Official Lyric Video) | channel: Dexter and The Moonrocks",
+    "timestamp": "2026-03-08T18:24:34.144012",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Self Care Saturdays: Nia at Heartwood Soundstage",
+    "role": "headliner",
+    "youtube_id": "cPZ3u1z8kU0",
+    "confidence": 68,
+    "tier": "flag",
+    "explanation": "title match: care, self | video: Emmalyn - Self Care (Official Music Video) | channel: Emmalyn Estrada",
+    "timestamp": "2026-03-08T18:24:35.065338",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Phoneboy",
+    "role": "headliner",
+    "youtube_id": "BXx22pNY1tQ",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Phoneboy - Nevermind (feat. Justin Magnaye) [OFFICIAL MUSIC VIDEO] | channel: Phoneboy",
+    "timestamp": "2026-03-08T18:24:35.974360",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Heart Attack Man",
+    "role": "opener",
+    "youtube_id": "vz-kKRgqQAI",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Heart Attack Man - Like A Kennedy (Featuring. Awsten Knight) (OFFICIAL VIDEO) | channel: HEART ATTACK MAN",
+    "timestamp": "2026-03-08T18:24:36.741781",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Mountain Grass Unit",
+    "role": "headliner",
+    "youtube_id": "ZIIkLkYoQ1Y",
+    "confidence": 80,
+    "tier": "accept",
+    "explanation": "multi-word artist name found in video title | video: Mountain Grass Unit, &quot;One Way Track&quot; (DelFest Sessions) | channel: The Bluegrass Situation [BGS]",
+    "timestamp": "2026-03-08T18:24:37.718607",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Samantha Fish + Tab Benoit",
+    "role": "headliner",
+    "youtube_id": "TrMkAQSTuEs",
+    "confidence": 75,
+    "tier": "accept",
+    "explanation": "title match: benoit, fish, samantha, tab | video: Samantha Fish &amp; Tab Benoit @ The King Center in Melbourne, FL | channel: Brevard Music Group",
+    "timestamp": "2026-03-08T18:24:38.792802",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "The Happy Fits",
+    "role": "headliner",
+    "youtube_id": "oKf11AW1RbM",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: The Happy Fits - Everything You Do (Official Music Video) | channel: The Happy Fits",
+    "timestamp": "2026-03-08T18:24:39.610619",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "special guest BEL",
+    "role": "opener",
+    "youtube_id": null,
+    "confidence": 33,
+    "tier": "skip",
+    "explanation": "partial: bel | video: MALICE MIZER - Bel Air \u30f4\u30a7\u30eb\u30fb\u30a8\u30fc\u30eb\uff5e\u7a7a\u767d\u306e\u77ac\u9593\u306e\u4e2d\u3067\uff5e (OFFICIAL MUSIC VIDEO) | channel: MALICE MIZER",
+    "timestamp": "2026-03-08T18:24:40.213475",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Swamp Showcase",
+    "role": "headliner",
+    "youtube_id": null,
+    "confidence": 0,
+    "tier": "skip",
+    "explanation": "event name or invalid",
+    "timestamp": "2026-03-08T18:24:40.520656",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Harvey Street",
+    "role": "headliner",
+    "youtube_id": "MfuEWKTH64Y",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Harvey Street - Free Myself (Live from The Space) | channel: Harvey Street",
+    "timestamp": "2026-03-08T18:24:41.447466",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Buko Boys",
+    "role": "opener",
+    "youtube_id": "HgzmfLHtxbk",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: anime intro S2 (PROVE IT) | channel: buko boys - Topic",
+    "timestamp": "2026-03-08T18:24:42.170092",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Yonder Mountain String Band",
+    "role": "headliner",
+    "youtube_id": "-5QwLeOyq5k",
+    "confidence": 100,
+    "tier": "accept",
+    "explanation": "artist name found in channel name | video: Yonder Mountain String Band - &quot;Dancing In The Moonligh&quot; - Gondola Jams | channel: Yonder Mountain String Band",
+    "timestamp": "2026-03-08T18:24:43.029207",
+    "venue": "Heartwood Soundstage"
+  },
+  {
+    "artist": "Pump Action and The Retrograde",
+    "role": "headliner",
+    "youtube_id": "olMJuOFW4c8",
+    "confidence": 90,
+    "tier": "accept",
+    "explanation": "channel name found in artist name | video: Leave My Girl Alone - Pump Action (NPR Tiny Desk Contest 2025) | channel: Pump Action",
+    "timestamp": "2026-03-08T18:24:43.905893",
+    "venue": "Heartwood Soundstage"
   }
 ]
