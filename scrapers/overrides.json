@@ -60,7 +60,10 @@
     "Sienna Spiro": "orp5Kpwweiw",
     "Sienna Spiro - The Visitor Tour": "orp5Kpwweiw",
     "The Brothers Comatose": "M9t72JGx02g",
-    "The Golden Hours": "ffsR4AcLlKw"
+    "The Golden Hours": "ffsR4AcLlKw",
+    "Soulja Boy": "-2nUo2U_bmk",
+    "The Still Not Okay Tour": null,
+    "ear U.S.A": "RctbV7nQKto"
   },
   "opener_youtube": {
     "North State Grass": "w54lLXcuv9g",
@@ -84,6 +87,10 @@
     "The Golden Hours / David Wax Museum / Lowland Hum": {
       "artist": "The Golden Hours",
       "opener": "David Wax Museum / Lowland Hum"
+    },
+    "Soulja Boy's The Drip Tour with special guest Lil Xan": {
+      "artist": "Soulja Boy",
+      "opener": "Lil Xan"
     }
   }
 }

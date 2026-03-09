@@ -7,17 +7,16 @@
   "shows": [
     {
       "artist": "The Still Not Okay Tour",
-      "date": "Sun, Jan 24",
+      "date": "Fri, Mar 27",
       "venue": "Cat's Cradle",
       "opener": "Turtle Smash, Fake Happy, The Dirty Little Rejects, 2000s Era Emo After Party",
-      "notice": null,
+      "notice": "Rescheduled from Jan 24",
       "doors": "6 pm",
       "showtime": "7 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2149551767866474.jpg",
       "event_url": "https://catscradle.com/event/the-still-not-okay-tour/cats-cradle/carrboro-north-carolina/",
       "youtube_id": null,
-      "opener_youtube_id": "rctzAtZSTvA",
-      "expired": true
+      "opener_youtube_id": null
     },
     {
       "artist": "Aterciopelados",

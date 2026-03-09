@@ -11,6 +11,7 @@ import os
 import re
 import smtplib
 import sys
+from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -175,8 +176,9 @@ def ensure_definitions_tab():
     tab_name = "Definitions"
 
     definitions = [
-        ["Skip Reason", "Definition"],
+        ["Status", "Definition"],
         ["verified", "Scored 70+ gate score and passed verifier checks (views, channel, date). Assigned to show."],
+        ["confirmed", "Failed verifier checks + extended research. Human-verified."],
         ["rejected", "Video failed verifier checks. Link shows rejected video; not assigned to show."],
         ["flag", "YouTube search found a video scoring 40-69. Assigned but flagged for review."],
         ["reused", "Existing match with high confidence kept from prior run. No new API search needed."],
@@ -187,15 +189,15 @@ def ensure_definitions_tab():
         ["no_log", "No match log entry found for this artist. Typically a 2nd/3rd opener (only first opener is searched)."],
         [],
         ["Column", "Definition"],
-        ["Section", "Report section: Verified (new tonight), Rejected (failed tonight), No Preview (no video assigned). No Preview is split into actionable items (top) and expected items (bottom) separated by a --- row."],
+        ["Category", "Report category: Verified (new tonight), Rejected (failed tonight), No Preview (no video assigned). No Preview is split into actionable items (top) and expected items (bottom) separated by a --- row."],
         ["Artist", "Artist or event name as scraped from venue website."],
         ["Role", "headliner or opener."],
+        ["Status", "How the scraper/verifier processed this artist. See definitions above."],
         ["Venue", "Venue name."],
         ["Date", "Show date as listed on venue website."],
         ["Video URL", "YouTube video URL (blank for No Preview rows)."],
         ["Detail", "Confidence score (Verified), rejection reasons (Rejected), or status note (No Preview). Items prefixed with NEW appeared for the first time (not in yesterday's report)."],
-        ["Skip Reason", "How the scraper/verifier processed this artist. See definitions above."],
-        ["Definition", "Human-readable explanation of the skip reason for quick reference."],
+        ["Definition", "Human-readable explanation of the status for quick reference."],
         [],
         ["Quality Metric", "Definition"],
         ["Match Confidence", "% of assigned videos scoring 70+ in name matching (audit oEmbed score). Measures name similarity, not true video correctness."],
@@ -370,6 +372,72 @@ def sort_sheet(tab_name, sort_specs):
     except Exception as e:
         print(f"  Warning: Sheets sort failed — {e}")
         return False
+
+
+def harvest_qc_marks():
+    """Read QC Pass/Fail marks from the Daily Video Reports sheet before overwrite.
+
+    Scans column J for any non-blank entries, extracts the row data,
+    and appends to the QA Log tab for permanent storage.
+
+    Returns the number of marks harvested, or -1 on error.
+    """
+    sheet_id = load_env_var("REPORT_SHEETS_ID")
+    if not sheet_id:
+        print("  Warning: REPORT_SHEETS_ID not set — skipping QC harvest")
+        return -1
+
+    service = _get_sheets_service()
+    if not service:
+        return -1
+
+    try:
+        # Read all data from the daily report including column J
+        result = service.spreadsheets().values().get(
+            spreadsheetId=sheet_id,
+            range="'Daily Video Reports'!A:J",
+        ).execute()
+        rows = result.get("values", [])
+
+        if not rows:
+            print("  QC harvest: sheet is empty")
+            return 0
+
+        # Find rows with QC marks (column J = index 9)
+        today = datetime.now().strftime("%Y-%m-%d")
+        qc_rows = []
+        for row in rows[1:]:  # skip header
+            if len(row) >= 10 and row[9].strip():
+                qc_mark = row[9].strip()
+                # Column layout: Category(0), Artist(1), Role(2), Status(3),
+                #                Venue(4), Date(5), Video URL(6), Detail(7), Definition(8), QC(9)
+                qc_rows.append([
+                    today,
+                    row[1] if len(row) > 1 else "",   # Artist
+                    row[2] if len(row) > 2 else "",   # Role
+                    row[4] if len(row) > 4 else "",   # Venue
+                    qc_mark,                           # Pass/Fail
+                ])
+
+        if not qc_rows:
+            print("  QC harvest: no marks found")
+            return 0
+
+        # Append to QA Log tab
+        success = append_to_sheet(
+            qc_rows,
+            "QA Log",
+            header=["Date", "Artist", "Role", "Venue", "QC Result"],
+        )
+        if success:
+            print(f"  QC harvest: saved {len(qc_rows)} marks to QA Log")
+            return len(qc_rows)
+        else:
+            return -1
+
+    except Exception as e:
+        print(f"  Warning: QC harvest failed — {e}")
+        return -1
 
 
 # ---------------------------------------------------------------------------

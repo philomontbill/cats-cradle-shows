@@ -37,7 +37,7 @@ sys.path.insert(0, _PROJECT_ROOT)
 from scrapers.utils import load_env_var, normalize as _normalize
 from scripts.report_delivery import (
     send_email, write_sheet, sort_sheet, ensure_definitions_tab,
-    markdown_to_html, wrap_html_email,
+    markdown_to_html, wrap_html_email, harvest_qc_marks,
 )
 
 # --- Configuration ---
@@ -653,7 +653,7 @@ def load_previous_no_preview():
         with open(csv_path) as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row.get("Section") == "No Preview":
+                if row.get("Category", row.get("Section")) == "No Preview":
                     artist = row.get("Artist", "").strip()
                     if artist:
                         artists.add(artist)
@@ -667,6 +667,7 @@ EXPECTED_SKIP_REASONS = {"skip", "filtered", "reused", "no_log"}
 
 SKIP_REASON_DEFINITIONS = {
     "verified": "Scored 70+ gate score and passed verifier checks (views, channel, date). Assigned.",
+    "confirmed": "Failed verifier checks + extended research. Human-verified.",
     "rejected": "Failed verifier checks. Link shows rejected video; not assigned to show.",
     "flag": "YouTube search scored 40-69. Assigned, flagged for review.",
     "reused": "Prior match with high confidence kept. No new search.",
@@ -679,14 +680,14 @@ SKIP_REASON_DEFINITIONS = {
 
 
 def build_csv(tonight, states, all_shows_data, old_states):
-    """Build a combined CSV with Skip Reason and Definition columns."""
+    """Build a combined CSV with Status and Definition columns."""
 
     match_tiers = load_match_log()
 
     output = io.StringIO()
     writer = csv.writer(output)
-    writer.writerow(["Section", "Artist", "Role", "Venue", "Date", "Video URL",
-                     "Detail", "Skip Reason", "Definition"])
+    writer.writerow(["Category", "Artist", "Role", "Status", "Venue", "Date",
+                     "Video URL", "Detail", "Definition", "QC Pass/Fail"])
 
     for v in tonight["verified"]:
         # Skip artists already verified in a prior run — only show new-tonight
@@ -694,16 +695,16 @@ def build_csv(tonight, states, all_shows_data, old_states):
             continue
         url = f"https://youtube.com/watch?v={v['video_id']}"
         writer.writerow(["Verified", v["artist"], v.get("role", "headliner"),
-                         v["venue"], v["date"], url,
-                         v["confidence"], "verified",
+                         "verified", v["venue"], v["date"], url,
+                         v["confidence"],
                          SKIP_REASON_DEFINITIONS.get("verified", "")])
 
     for r in tonight["rejected"]:
         url = f"https://youtube.com/watch?v={r['video_id']}"
         reason_str = "; ".join(r["reasons"])
         writer.writerow(["Rejected", r["artist"], r.get("role", "headliner"),
-                         r["venue"], r["date"], url,
-                         reason_str, "rejected",
+                         "rejected", r["venue"], r["date"], url,
+                         reason_str,
                          SKIP_REASON_DEFINITIONS.get("rejected", "")])
 
     # Collect artists already reported in Rejected section — skip in No Preview
@@ -754,8 +755,8 @@ def build_csv(tonight, states, all_shows_data, old_states):
                 if artist not in prev_no_preview:
                     status = f"NEW — {status}"
 
-                row = ["No Preview", artist, role, venue, date, "",
-                       status, skip_reason,
+                row = ["No Preview", artist, role, skip_reason, venue, date,
+                       "", status,
                        SKIP_REASON_DEFINITIONS.get(skip_reason, "")]
                 if skip_reason in EXPECTED_SKIP_REASONS:
                     expected_rows.append(row)
@@ -864,6 +865,9 @@ def deliver_daily_report(issue_body, csv_text):
     )
 
     # --- Google Sheets ---
+    # Harvest QC marks before overwriting the daily report
+    harvest_qc_marks()
+
     if csv_text:
         report_date = datetime.now().strftime("%Y-%m-%d")
         reader = csv.reader(io.StringIO(csv_text))
