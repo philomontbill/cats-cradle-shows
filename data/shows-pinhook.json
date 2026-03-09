@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Plastic Flamingos / Hemlock Theory / Khallori",
-      "date": "Sun, Mar 08",
-      "doors": "6:30 pm",
-      "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/plastic-flamingos-hemlock-theory-khallori.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/82614400/plastic-flamingos-hemlock-theory-khallori-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "4-r4n749k3g"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Cootie Catcher / Edna Mode / Charlie Paso",
       "date": "Tue, Mar 10",
       "doors": "7:30 pm",
@@ -161,7 +150,7 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "Queer Country Night:  ALL Y\u2019ALL led LINE DANCING + some KARAOKE",
+      "artist": "Queer Country Night:  ALL Y’ALL led LINE DANCING + some KARAOKE",
       "date": "Tue, Mar 24",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -249,6 +238,17 @@
     },
     {
       "venue": "The Pinhook",
+      "artist": "Idle County / Charlie Paso / Hook of Moon",
+      "date": "Sat, Apr 04",
+      "doors": "6:30 pm",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/03/idle-county-charlie-paso-hook-of-moon.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/98189207/idle-county-charlie-paso-hook-of-moon-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "ZRplJ6uljLY"
+    },
+    {
+      "venue": "The Pinhook",
       "artist": "Mila Degray",
       "date": "Sun, Apr 05",
       "doors": "7 pm",
@@ -275,10 +275,10 @@
       "date": "Wed, Apr 08",
       "doors": "6:30 pm",
       "showtime": "7 pm",
-      "opener": "David Wax Museum / Lowland Hum",
       "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-The_1299131768590366.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/51640009/the-golden-hours-david-wax-museum-lowland-hum-durham-the-pinhook?partner_id=100",
       "notice": null,
+      "opener": "David Wax Museum / Lowland Hum",
       "youtube_id": "ffsR4AcLlKw",
       "opener_youtube_id": "w9zhaqp4l7k"
     }
@@ -286,5 +286,5 @@
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-08T08:58:05.912824"
+  "last_updated": "2026-03-09T09:11:51.888541"
 }

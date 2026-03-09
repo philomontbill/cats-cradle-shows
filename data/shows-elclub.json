@@ -198,7 +198,8 @@
       "image": null,
       "ticket_url": "https://dice.fm/event/5377wd",
       "youtube_id": "d1VqBzXvPnE",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Mindchatter",
@@ -292,8 +293,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 8,
-  "shows_with_video": 8,
+  "total_shows": 7,
+  "shows_with_video": 7,
   "shows_with_image": 0,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

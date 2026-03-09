@@ -50,7 +50,7 @@
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69a0983bc6adae51e74c1c80_Heartwood___South_Main_Station_Present.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/free-show-live-on-the-lawn-ft-the-shambles-w-4-cryin-out-loud-20-mar",
       "notice": null,
-      "youtube_id": "A-MDlu0kt0U",
+      "youtube_id": null,
       "opener_youtube_id": "LOcjP3bvy4A"
     },
     {
@@ -62,7 +62,7 @@
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/699772ca7e7bb5f62d374880_image0_%25281%2529.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/laugh-lab-comedy-21-mar",
       "notice": null,
-      "youtube_id": "IJj7F3PDrLw"
+      "youtube_id": null
     },
     {
       "venue": "Heartwood Soundstage",
@@ -73,7 +73,7 @@
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69705071b7205e06b747b239_Opendate_Template_%25284%2529.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/john-prine-music-matinee-22-mar",
       "notice": null,
-      "youtube_id": "SjzNKCpaXSk"
+      "youtube_id": null
     },
     {
       "venue": "Heartwood Soundstage",
@@ -154,7 +154,7 @@
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69a8b729d8c064b6d8696c70_APRIL_4__5_HEARTWOOD_MUSIC_FEST_X_1920_x_1080_px.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/heartwood-music-fest-x-04-apr",
       "notice": null,
-      "youtube_id": "4dF8Vhi3Ry0"
+      "youtube_id": null
     },
     {
       "venue": "Heartwood Soundstage",
@@ -200,7 +200,7 @@
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/698f3b4834d8d3ef80d32ccb_Sarit_Portland_sideleg_active.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/self-care-saturdays-nia-at-heartwood-soundstage-11-apr",
       "notice": null,
-      "youtube_id": "cPZ3u1z8kU0"
+      "youtube_id": null
     },
     {
       "venue": "Heartwood Soundstage",
@@ -248,7 +248,7 @@
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/the-happy-fits-17-apr",
       "notice": null,
       "youtube_id": "oKf11AW1RbM",
-      "opener_youtube_id": null
+      "opener_youtube_id": "kGvHFYAaBOI"
     },
     {
       "venue": "Heartwood Soundstage",
@@ -300,5 +300,5 @@
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-08T18:24:44.270649"
+  "last_updated": "2026-03-09T09:14:33.762320"
 }

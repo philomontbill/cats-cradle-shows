@@ -7,18 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Fringe Revival",
-      "date": "Sun, Mar 08",
-      "doors": "5 pm",
-      "showtime": "6 pm",
-      "opener": null,
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/11/etix-Fringe_1042201763741282.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/45743672/fringe-revival-asheville-pulp?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "8bL4yrvCFlA"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Jordan Jensen",
       "date": "Wed, Mar 11",
       "doors": "7 pm",
@@ -279,10 +267,23 @@
       "notice": null,
       "youtube_id": "Oe7_hqPhgX4",
       "opener_youtube_id": "9p6aR3xx1as"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Hail The Sun",
+      "date": "Sun, Apr 12",
+      "doors": "6 pm",
+      "showtime": "7 pm",
+      "opener": "Foxy Shazam, Makari, Mella",
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/01/etix-Hail_1044341768338073.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/44298500/hail-the-sun-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": "GQZryuPliQ0",
+      "opener_youtube_id": "LuvN9DWwN48"
     }
   ],
   "total_shows": 22,
   "shows_with_video": 19,
   "shows_with_image": 22,
-  "last_updated": "2026-03-08T09:00:04.755639"
+  "last_updated": "2026-03-09T09:14:29.049916"
 }

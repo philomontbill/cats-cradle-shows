@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Surfing For Daisy",
-      "date": "Sun, Mar 08",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "5pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/33f/2fbb1745-d233-412d-bf05-19b2213a633f_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/surfing-for-daisy-2/",
-      "youtube_id": "LFV-p4zCz5Y"
-    },
-    {
-      "artist": "True Jackson, Charlie Margaux, Jennys Setlist",
-      "date": "Sun, Mar 08",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "8pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/a09/fe7a69bf-17e7-40fd-afad-44c6026a5a09_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/true-jackson-charlie-jacoby-jennys-setlist/",
-      "youtube_id": "IqAjWnrsTxA"
-    },
-    {
       "artist": "NYC Barz Exam: Karl Dice Raw Jenkins + more",
       "date": "Mon, Mar 09",
       "venue": "Bowery Ballroom",
@@ -99,7 +75,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
-      "youtube_id": "WNygkxYbU6w"
+      "youtube_id": "0d0faXqtzXI"
     },
     {
       "artist": "Radium Dolls",
@@ -305,10 +281,34 @@
       "image": "https://s1.ticketm.net/dam/e/774/395e2c8c-24d3-4358-bd38-be696c4b8774_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/aaron-abramowitz-kate-keller/",
       "youtube_id": "WtsMdmRBvjA"
+    },
+    {
+      "artist": "ear U.S.A",
+      "date": "Thu, Mar 19",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/2f3/5c225782-b243-4ca7-aa43-a2ef75ba42f3_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ear-u-s-a/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Talk Radio",
+      "date": "Thu, Mar 19",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/d13/2fc91bc2-3a53-4369-80c9-df74951cdd13_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/talk-radio/",
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-03-08T08:59:40.497278"
+  "last_updated": "2026-03-09T09:13:57.293102"
 }

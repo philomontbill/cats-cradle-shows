@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Kurt Travis",
-      "date": "Sun, Mar 08",
-      "doors": "6:30 pm",
-      "showtime": "7:25 pm",
-      "image": "https://local506.com/wp-content/uploads/2026/02/kurt-travis-1.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/92761194/kurt-travis-chapel-hill-local-506-cil?partner_id=100",
-      "notice": null,
-      "youtube_id": "cZZwAdVHnc0"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Blax: The Money, Prayers & Abundance Tour",
       "date": "Tue, Mar 10",
       "doors": "7 pm",
@@ -324,11 +313,22 @@
       "ticket_url": "https://local506.com/event/post-sex-nachos-and-kids-that-fly/",
       "notice": null,
       "youtube_id": "3m6UtwACBEI",
-      "opener_youtube_id": null
+      "opener_youtube_id": "8MRUIEQePLo"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Maris",
+      "date": "Sun, Apr 19",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://local506.com/wp-content/uploads/2026/02/04_19_26-Maris-8.5x11-poster.jpg",
+      "ticket_url": "https://local506.com/event/maris/",
+      "notice": null,
+      "youtube_id": "v2VHCvagHWE"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-03-08T08:58:01.646622"
+  "last_updated": "2026-03-09T09:11:47.228237"
 }

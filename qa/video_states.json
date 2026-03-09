@@ -1149,17 +1149,20 @@
   "Yonder Mountain String Band": {
     "status": "verified",
     "video_id": "yi0ho-hTG-U",
-    "verified_date": "2026-02-23T11:23:04.522951",
-    "confidence": "channel match, 7,122 views",
+    "verified_date": "2026-03-09T09:15:29.140017",
+    "confidence": "channel match, 40,974 views",
     "metadata": {
       "video_title": "Yonder Mountain String Band - Blind (Official Music Video)",
       "channel_name": "Yonder Mountain String Band",
-      "view_count": 7122,
+      "view_count": 40974,
       "published": "2026-02-20T13:39:49Z",
       "channel_subscribers": 16700,
       "channel_videos": 232,
       "is_topic": false,
       "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
       "video_age_years": 0.0
     }
   },
@@ -1221,12 +1224,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-08T09:00:35.514496",
+    "verified_date": "2026-03-09T09:15:31.771675",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5338020,
+      "view_count": 5338693,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -6287,12 +6290,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-08T09:00:31.869597",
-    "confidence": "channel match, 13,592 views",
+    "verified_date": "2026-03-09T09:15:27.862554",
+    "confidence": "channel match, 13,597 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13592,
+      "view_count": 13597,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -7496,23 +7499,23 @@
   },
   "Glitterer": {
     "status": "verified",
-    "video_id": "WNygkxYbU6w",
-    "verified_date": "2026-03-02T09:14:07.967068",
-    "confidence": "channel match, Topic channel, 4,979 views",
+    "video_id": "0d0faXqtzXI",
+    "verified_date": "2026-03-09T09:14:35.712130",
+    "confidence": "29,498 views",
     "metadata": {
-      "video_title": "Not Forever",
-      "channel_name": "Glitterer - Topic",
-      "view_count": 4979,
-      "published": "2025-11-10T10:03:28Z",
-      "channel_subscribers": 9,
-      "channel_videos": 67,
-      "is_topic": true,
-      "channel_match": true,
+      "video_title": "Glitterer - \"Recollection / No One There\"",
+      "channel_name": "ANTI- Records",
+      "view_count": 29498,
+      "published": "2024-07-24T09:00:02Z",
+      "channel_subscribers": 413000,
+      "channel_videos": 3035,
+      "is_topic": false,
+      "channel_match": false,
       "trusted_channel": false,
-      "view_check": "skipped (Topic channel match)",
-      "video_age_years": 0.3,
-      "spotify_match": "exact",
-      "spotify_popularity": 37
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'ANTI- Records' doesn't match artist (title match)",
+      "video_age_years": 1.6
     }
   },
   "Radium Dolls": {
@@ -9289,6 +9292,843 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 3.4
+    }
+  },
+  "ear U.S.A": {
+    "status": "rejected",
+    "video_id": "EPhWR4d3FJQ",
+    "rejected_date": "2026-03-09T09:14:36.996087",
+    "reason": "view count 101,613,916 exceeds 50,000,000 cap",
+    "metadata": {
+      "video_title": "Bruce Springsteen - Born in the U.S.A. (Official Video)",
+      "channel_name": "BruceSpringsteenVEVO",
+      "view_count": 101613916,
+      "published": "2011-03-10T21:06:23Z",
+      "channel_subscribers": 430000,
+      "channel_videos": 755,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 15.0
+    }
+  },
+  "Talk Radio": {
+    "status": "rejected",
+    "video_id": "67F7lIXK9tw",
+    "rejected_date": "2026-03-09T09:14:38.223655",
+    "reason": "video is 17 years old with no channel match",
+    "metadata": {
+      "video_title": "The Dandy Warhols - Talk Radio",
+      "channel_name": "The Dandy Warhols",
+      "view_count": 552613,
+      "published": "2009-02-03T07:27:47Z",
+      "channel_subscribers": 70500,
+      "channel_videos": 258,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'The Dandy Warhols' doesn't match artist (title match)",
+      "video_age_years": 17.1
+    }
+  },
+  "The Still Not Okay Tour": {
+    "status": "rejected",
+    "video_id": "dhZTNgAs4Fc",
+    "rejected_date": "2026-03-09T09:14:39.487204",
+    "reason": "view count 141,939,741 exceeds 5,000,000 cap; non-matching channel 'My Chemical Romance' with 5,290,000 subscribers; video is 16 years old with no channel match",
+    "metadata": {
+      "video_title": "My Chemical Romance - I'm Not Okay (I Promise) [Official Music Video - 4K Film Restored]",
+      "channel_name": "My Chemical Romance",
+      "view_count": 141939741,
+      "published": "2010-02-26T22:25:33Z",
+      "channel_subscribers": 5290000,
+      "channel_videos": 175,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 16.0
+    }
+  },
+  "Turtle Smash, Fake Happy, The Dirty Little Rejects, 2000s Era Emo After Party": {
+    "status": "verified",
+    "video_id": "rctzAtZSTvA",
+    "verified_date": "2026-03-09T09:14:40.733614",
+    "confidence": "channel match, Topic channel, 360 views",
+    "metadata": {
+      "video_title": "Pink Pony Club",
+      "channel_name": "Turtle Smash - Topic",
+      "view_count": 360,
+      "published": "2025-08-14T10:03:20Z",
+      "channel_subscribers": 16,
+      "channel_videos": 1,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.6
+    }
+  },
+  "Hudson Freeman": {
+    "status": "verified",
+    "video_id": "m1yidEG3nm4",
+    "verified_date": "2026-03-09T09:14:43.277739",
+    "confidence": "channel match, 241,329 views",
+    "metadata": {
+      "video_title": "Hudson Freeman - If You Know Me [Official Music Video]",
+      "channel_name": "Hudson Freeman",
+      "view_count": 241329,
+      "published": "2025-11-13T13:46:43Z",
+      "channel_subscribers": 17400,
+      "channel_videos": 79,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Ruby Plume": {
+    "status": "verified",
+    "video_id": "v03fr0UR6MM",
+    "verified_date": "2026-03-09T09:14:44.565829",
+    "confidence": "channel match, Topic channel, 2,702 views",
+    "metadata": {
+      "video_title": "Cobalt Blue",
+      "channel_name": "Ruby Plume - Topic",
+      "view_count": 2702,
+      "published": "2026-01-22T10:01:46Z",
+      "channel_subscribers": 25,
+      "channel_videos": 5,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.1
+    }
+  },
+  "The Happy Fits": {
+    "status": "verified",
+    "video_id": "oKf11AW1RbM",
+    "verified_date": "2026-03-09T09:14:47.152005",
+    "confidence": "channel match, 254,459 views",
+    "metadata": {
+      "video_title": "The Happy Fits - Everything You Do (Official Music Video)",
+      "channel_name": "The Happy Fits",
+      "view_count": 254459,
+      "published": "2025-05-01T16:00:06Z",
+      "channel_subscribers": 69500,
+      "channel_videos": 316,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.9
+    }
+  },
+  "BEL": {
+    "status": "verified",
+    "video_id": "A1eqTn6au1Q",
+    "verified_date": "2026-03-09T09:14:48.414202",
+    "confidence": "channel match, 5,374 views",
+    "metadata": {
+      "video_title": "BEL - Drive (Official Music Video)",
+      "channel_name": "BEL",
+      "view_count": 5374,
+      "published": "2021-07-08T17:29:21Z",
+      "channel_subscribers": 2390,
+      "channel_videos": 57,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 4.7
+    }
+  },
+  "Aly & AJ - Places to Run Tour 2026": {
+    "status": "verified",
+    "video_id": "O34fuj6MgmE",
+    "verified_date": "2026-03-09T09:14:49.685414",
+    "confidence": "channel match, 4,092 views",
+    "metadata": {
+      "video_title": "Aly & AJ - Places To Run (Live from the Silver Deliverer Tour)",
+      "channel_name": "Aly & AJ",
+      "view_count": 4092,
+      "published": "2026-02-26T00:29:40Z",
+      "channel_subscribers": 260000,
+      "channel_videos": 109,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
+    }
+  },
+  "Josh Meloy": {
+    "status": "verified",
+    "video_id": "mzaFp2CSa38",
+    "verified_date": "2026-03-09T09:14:50.940901",
+    "confidence": "channel match, Topic channel",
+    "metadata": {
+      "video_title": "Porch Light",
+      "channel_name": "Josh Meloy - Topic",
+      "view_count": 24324387,
+      "published": "2022-11-17T10:04:39Z",
+      "channel_subscribers": 266,
+      "channel_videos": 55,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 3.3
+    }
+  },
+  "Trenton Fletcher": {
+    "status": "verified",
+    "video_id": "-SS5ypVjGIA",
+    "verified_date": "2026-03-09T09:14:52.268581",
+    "confidence": "channel match, Topic channel, 692 views",
+    "metadata": {
+      "video_title": "It Ain't Me, It's You",
+      "channel_name": "Trenton Fletcher - Topic",
+      "view_count": 692,
+      "published": "2025-09-25T10:03:56Z",
+      "channel_subscribers": 198,
+      "channel_videos": 48,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.4
+    }
+  },
+  "Free Show: Live on the Lawn ft. The Shambles": {
+    "status": "rejected",
+    "video_id": "A-MDlu0kt0U",
+    "rejected_date": "2026-03-09T09:14:53.506960",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "I\u2019m Dru! - FREE SHOW (OFFICIAL MUSIC VIDEO)",
+      "channel_name": "I'm Dru!",
+      "view_count": 349739,
+      "published": "2022-07-11T23:26:09Z",
+      "channel_subscribers": 4990,
+      "channel_videos": 230,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.7
+    }
+  },
+  "4 Cryin' Out Loud": {
+    "status": "verified",
+    "video_id": "LOcjP3bvy4A",
+    "verified_date": "2026-03-09T09:14:54.746757",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "FINNEAS - For Cryin\u2019 Out Loud! (Official Music Video)",
+      "channel_name": "FINNEASVEVO",
+      "view_count": 5157502,
+      "published": "2024-08-08T14:00:17Z",
+      "channel_subscribers": 2020,
+      "channel_videos": 61,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 1.6
+    }
+  },
+  "Laugh Lab Comedy": {
+    "status": "rejected",
+    "video_id": "IJj7F3PDrLw",
+    "rejected_date": "2026-03-09T09:14:56.037430",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "WiFi Woes (Official Comedy AI Song) | Laugh Track Lab",
+      "channel_name": "Laugh Track Lab",
+      "view_count": 27,
+      "published": "2025-05-08T16:30:06Z",
+      "channel_subscribers": 202,
+      "channel_videos": 120,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.8
+    }
+  },
+  "John Prine Music Matinee": {
+    "status": "rejected",
+    "video_id": "SjzNKCpaXSk",
+    "rejected_date": "2026-03-09T09:14:57.329679",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "\"Angel From Montgomery\", Andrew Waite with the John Prine classic.",
+      "channel_name": "Kevin Simpson",
+      "view_count": 170,
+      "published": "2015-01-25T00:01:50Z",
+      "channel_subscribers": 136,
+      "channel_videos": 328,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 11.1
+    }
+  },
+  "MOE. BORN TO FLY TOUR": {
+    "status": "verified",
+    "video_id": "xYvBRRuN7xQ",
+    "verified_date": "2026-03-09T09:14:58.602030",
+    "confidence": "channel match, 2,429 views",
+    "metadata": {
+      "video_title": "moe. Gonna Fly Now12/31/2022 Official NYE Multi Cam video.  Set 2, Song 8.",
+      "channel_name": "moe.",
+      "view_count": 2429,
+      "published": "2023-01-05T16:56:48Z",
+      "channel_subscribers": 15500,
+      "channel_videos": 284,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.2
+    }
+  },
+  "Cassidy Daniels": {
+    "status": "verified",
+    "video_id": "kKayJiD37lw",
+    "verified_date": "2026-03-09T09:14:59.929974",
+    "confidence": "channel match, 9,757 views",
+    "metadata": {
+      "video_title": "Cassidy Daniels - White Mustang (Official Music Video)",
+      "channel_name": "Cassidy Daniels",
+      "view_count": 9757,
+      "published": "2024-09-27T04:00:22Z",
+      "channel_subscribers": 2680,
+      "channel_videos": 36,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.4
+    }
+  },
+  "saturdays at your place": {
+    "status": "verified",
+    "video_id": "fn1iLAC8vNY",
+    "verified_date": "2026-03-09T09:15:01.191384",
+    "confidence": "channel match, Topic channel, 121,687 views",
+    "metadata": {
+      "video_title": "coffee cups",
+      "channel_name": "saturdays at your place - Topic",
+      "view_count": 121687,
+      "published": "2021-10-29T10:06:11Z",
+      "channel_subscribers": 415,
+      "channel_videos": 12,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 4.4
+    }
+  },
+  "Easy Honey": {
+    "status": "verified",
+    "video_id": "i2TVUWMyBZw",
+    "verified_date": "2026-03-09T09:15:02.528680",
+    "confidence": "channel match, 6,426 views",
+    "metadata": {
+      "video_title": "Easy Honey - Orbiter (Official Music Video)",
+      "channel_name": "EASY HONEY",
+      "view_count": 6426,
+      "published": "2023-01-27T21:06:22Z",
+      "channel_subscribers": 1730,
+      "channel_videos": 459,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.1
+    }
+  },
+  "Thomas Allain": {
+    "status": "verified",
+    "video_id": "WkxjXKFnyW0",
+    "verified_date": "2026-03-09T09:15:03.811971",
+    "confidence": "channel match, 85 views",
+    "metadata": {
+      "video_title": "Thomas Allain // Take Time (live)",
+      "channel_name": "Thomas Allain",
+      "view_count": 85,
+      "published": "2024-11-15T21:04:37Z",
+      "channel_subscribers": 64,
+      "channel_videos": 26,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.3
+    }
+  },
+  "The Ocho": {
+    "status": "verified",
+    "video_id": "MnSWR0_bz2Y",
+    "verified_date": "2026-03-09T09:15:05.105203",
+    "confidence": "channel match, 820 views",
+    "metadata": {
+      "video_title": "Cigarettes with Barbacks (Official Music Video)",
+      "channel_name": "The Ocho",
+      "view_count": 820,
+      "published": "2025-04-23T22:00:32Z",
+      "channel_subscribers": 353,
+      "channel_videos": 44,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.9
+    }
+  },
+  "Heartwood Music Fest X": {
+    "status": "rejected",
+    "video_id": "4dF8Vhi3Ry0",
+    "rejected_date": "2026-03-09T09:15:06.368465",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Heartwood Music Fest V",
+      "channel_name": "Medusa Studios",
+      "view_count": 922,
+      "published": "2021-02-28T17:02:22Z",
+      "channel_subscribers": 4120,
+      "channel_videos": 298,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.0
+    }
+  },
+  "Ethan Regan": {
+    "status": "verified",
+    "video_id": "-JBl3frx6fc",
+    "verified_date": "2026-03-09T09:15:07.636548",
+    "confidence": "channel match, VEVO, 67,409 views",
+    "metadata": {
+      "video_title": "Ethan Regan - get by (Official Visualizer)",
+      "channel_name": "EthanReganVEVO",
+      "view_count": 67409,
+      "published": "2025-05-16T04:00:00Z",
+      "channel_subscribers": 1,
+      "channel_videos": 15,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.8
+    }
+  },
+  "Abby Powledge": {
+    "status": "verified",
+    "video_id": "DBd85tdhhNc",
+    "verified_date": "2026-03-09T09:15:08.926195",
+    "confidence": "channel match, Topic channel, 14,806 views",
+    "metadata": {
+      "video_title": "forgive",
+      "channel_name": "Abby Powledge - Topic",
+      "view_count": 14806,
+      "published": "2025-01-30T10:03:25Z",
+      "channel_subscribers": 501,
+      "channel_videos": 29,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 1.1
+    }
+  },
+  "Holy River": {
+    "status": "verified",
+    "video_id": "YnFXBlhJEAo",
+    "verified_date": "2026-03-09T09:15:10.152010",
+    "confidence": "VEVO, 669,912 views",
+    "metadata": {
+      "video_title": "Prince - The Holy River (Official Video)",
+      "channel_name": "princevevo",
+      "view_count": 669912,
+      "published": "2018-11-09T08:00:04Z",
+      "channel_subscribers": 34000,
+      "channel_videos": 94,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 7.3
+    }
+  },
+  "Dexter and The Moonrocks": {
+    "status": "verified",
+    "video_id": "t3yQfuZaQJg",
+    "verified_date": "2026-03-09T09:15:11.440682",
+    "confidence": "channel match, 721,777 views",
+    "metadata": {
+      "video_title": "Dexter and The Moonrocks \u2013 Ritalin (Official Lyric Video)",
+      "channel_name": "Dexter and The Moonrocks",
+      "view_count": 721777,
+      "published": "2025-02-12T05:00:48Z",
+      "channel_subscribers": 48900,
+      "channel_videos": 356,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.1
+    }
+  },
+  "Self Care Saturdays: Nia at Heartwood Soundstage": {
+    "status": "rejected",
+    "video_id": "cPZ3u1z8kU0",
+    "rejected_date": "2026-03-09T09:15:12.660294",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Emmalyn - Self Care (Official Music Video)",
+      "channel_name": "Emmalyn Estrada",
+      "view_count": 72784,
+      "published": "2017-09-15T14:37:51Z",
+      "channel_subscribers": 77000,
+      "channel_videos": 17,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 8.5
+    }
+  },
+  "Phoneboy": {
+    "status": "verified",
+    "video_id": "BXx22pNY1tQ",
+    "verified_date": "2026-03-09T09:15:13.904937",
+    "confidence": "channel match, 781,400 views",
+    "metadata": {
+      "video_title": "Phoneboy - Nevermind (feat. Justin Magnaye) [OFFICIAL MUSIC VIDEO]",
+      "channel_name": "Phoneboy",
+      "view_count": 781400,
+      "published": "2021-04-07T14:48:51Z",
+      "channel_subscribers": 28800,
+      "channel_videos": 265,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 4.9
+    }
+  },
+  "Heart Attack Man": {
+    "status": "verified",
+    "video_id": "vz-kKRgqQAI",
+    "verified_date": "2026-03-09T09:15:15.144622",
+    "confidence": "channel match, 45,842 views",
+    "metadata": {
+      "video_title": "Heart Attack Man - Like A Kennedy (Featuring. Awsten Knight) (OFFICIAL VIDEO)",
+      "channel_name": "HEART ATTACK MAN",
+      "view_count": 45842,
+      "published": "2024-03-29T04:00:06Z",
+      "channel_subscribers": 5760,
+      "channel_videos": 88,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.9
+    }
+  },
+  "Mountain Grass Unit": {
+    "status": "verified",
+    "video_id": "ZIIkLkYoQ1Y",
+    "verified_date": "2026-03-09T09:15:16.398922",
+    "confidence": "95,860 views",
+    "metadata": {
+      "video_title": "Mountain Grass Unit, \"One Way Track\" (DelFest Sessions)",
+      "channel_name": "The Bluegrass Situation [BGS]",
+      "view_count": 95860,
+      "published": "2024-07-18T17:08:01Z",
+      "channel_subscribers": 41000,
+      "channel_videos": 429,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'The Bluegrass Situation [BGS]' doesn't match artist (title match)",
+      "video_age_years": 1.6
+    }
+  },
+  "Samantha Fish + Tab Benoit": {
+    "status": "verified",
+    "video_id": "TrMkAQSTuEs",
+    "verified_date": "2026-03-09T09:15:17.719527",
+    "confidence": "8,281 views",
+    "metadata": {
+      "video_title": "Samantha Fish & Tab Benoit @ The King Center in Melbourne, FL",
+      "channel_name": "Brevard Music Group",
+      "view_count": 8281,
+      "published": "2025-10-23T23:51:17Z",
+      "channel_subscribers": 296,
+      "channel_videos": 92,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'Brevard Music Group' doesn't match artist (title match)",
+      "video_age_years": 0.4
+    }
+  },
+  "special guest BEL": {
+    "status": "verified",
+    "video_id": "kGvHFYAaBOI",
+    "verified_date": "2026-03-09T09:15:18.978944",
+    "confidence": "channel match, 2,984 views",
+    "metadata": {
+      "video_title": "Obsessed W U by BEL! (Official Music Video)",
+      "channel_name": "BEL!",
+      "view_count": 2984,
+      "published": "2025-10-23T21:01:02Z",
+      "channel_subscribers": 190,
+      "channel_videos": 4,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "Buko Boys": {
+    "status": "verified",
+    "video_id": "HgzmfLHtxbk",
+    "verified_date": "2026-03-09T09:15:20.235328",
+    "confidence": "channel match, Topic channel, 525 views",
+    "metadata": {
+      "video_title": "anime intro S2 (PROVE IT)",
+      "channel_name": "buko boys - Topic",
+      "view_count": 525,
+      "published": "2025-10-16T10:03:40Z",
+      "channel_subscribers": 75,
+      "channel_videos": 22,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.4
+    }
+  },
+  "Pump Action and The Retrograde": {
+    "status": "verified",
+    "video_id": "olMJuOFW4c8",
+    "verified_date": "2026-03-09T09:15:22.783944",
+    "confidence": "channel match, 64,350 views",
+    "metadata": {
+      "video_title": "Leave My Girl Alone - Pump Action (NPR Tiny Desk Contest 2025)",
+      "channel_name": "Pump Action",
+      "view_count": 64350,
+      "published": "2025-02-08T18:32:13Z",
+      "channel_subscribers": 49300,
+      "channel_videos": 435,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.1
+    }
+  },
+  ".memoria": {
+    "status": "verified",
+    "video_id": "m1UV1nec4L8",
+    "verified_date": "2026-03-09T09:15:24.083224",
+    "confidence": "480,845 views",
+    "metadata": {
+      "video_title": "MEMORIA ( Official Lyrics Video)",
+      "channel_name": "ONE DAY Official",
+      "view_count": 480845,
+      "published": "2020-06-17T13:31:05Z",
+      "channel_subscribers": 7120,
+      "channel_videos": 10,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'ONE DAY Official' doesn't match artist (title match)",
+      "video_age_years": 5.7
+    }
+  },
+  "Kids That Fly": {
+    "status": "verified",
+    "video_id": "8MRUIEQePLo",
+    "verified_date": "2026-03-09T09:15:25.412090",
+    "confidence": "channel match, 117,736 views",
+    "metadata": {
+      "video_title": "Dead Beat City - Kids That Fly (Official Video)",
+      "channel_name": "Kids That Fly",
+      "view_count": 117736,
+      "published": "2025-03-13T16:00:31Z",
+      "channel_subscribers": 4810,
+      "channel_videos": 76,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.0
+    }
+  },
+  "Maris": {
+    "status": "verified",
+    "video_id": "v2VHCvagHWE",
+    "verified_date": "2026-03-09T09:15:26.632333",
+    "confidence": "channel match, VEVO, 21,868 views",
+    "metadata": {
+      "video_title": "MARIS - Body Is On Fire (Official Music Video)",
+      "channel_name": "MARISVEVO",
+      "view_count": 21868,
+      "published": "2026-02-05T18:00:06Z",
+      "channel_subscribers": 261,
+      "channel_videos": 23,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.1
+    }
+  },
+  "Marc Broussard": {
+    "status": "rejected",
+    "video_id": "Fa6bIXhGelk",
+    "rejected_date": "2026-03-09T09:15:30.436395",
+    "reason": "view count 41,290,431 exceeds 5,000,000 cap",
+    "metadata": {
+      "video_title": "Marc Broussard - \"Cry To Me\" (Solomon Burke) (Music & Memories Live)",
+      "channel_name": "Marc Broussard",
+      "view_count": 41290431,
+      "published": "2021-05-14T18:23:11Z",
+      "channel_subscribers": 399000,
+      "channel_videos": 535,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 4.8
+    }
+  },
+  "Hail The Sun": {
+    "status": "verified",
+    "video_id": "GQZryuPliQ0",
+    "verified_date": "2026-03-09T09:15:33.024330",
+    "confidence": "channel match, 459,097 views",
+    "metadata": {
+      "video_title": "Hail The Sun - Relax/Divide",
+      "channel_name": "Hail The Sun",
+      "view_count": 459097,
+      "published": "2015-08-04T19:08:53Z",
+      "channel_subscribers": 32100,
+      "channel_videos": 38,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 10.6
+    }
+  },
+  "Foxy Shazam, Makari, Mella": {
+    "status": "verified",
+    "video_id": "LuvN9DWwN48",
+    "verified_date": "2026-03-09T09:15:34.295095",
+    "confidence": "channel match, 50,152 views",
+    "metadata": {
+      "video_title": "Foxy Shazam - You Know My Name feat. Corey Feldman (Official Music Video)",
+      "channel_name": "Foxy Shazam",
+      "view_count": 50152,
+      "published": "2025-08-29T17:00:06Z",
+      "channel_subscribers": 7430,
+      "channel_videos": 39,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.5
+    }
+  },
+  "Idle County / Charlie Paso / Hook of Moon": {
+    "status": "verified",
+    "video_id": "ZRplJ6uljLY",
+    "verified_date": "2026-03-09T09:15:35.589028",
+    "confidence": "channel match, Topic channel, 163 views",
+    "metadata": {
+      "video_title": "Idle County",
+      "channel_name": "Idle County - Topic",
+      "view_count": 163,
+      "published": "2024-09-01T10:02:58Z",
+      "channel_subscribers": 8,
+      "channel_videos": 7,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 1.5
     }
   }
 }

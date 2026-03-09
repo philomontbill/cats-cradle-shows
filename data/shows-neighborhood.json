@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "SATSANG",
-      "date": "Sun, Mar 08",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/c9a/b96eeffe-fe4c-47c3-a889-e19989e48c9a_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/satsang-the-story-of-you-10-charlotte-north-carolina-03-08-2026/event/2D00636DD060663D",
-      "youtube_id": "T-t75r0XGSM"
-    },
-    {
       "artist": "Los Straitjackets & Deke Dickerson",
       "date": "Tue, Mar 10",
       "venue": "Neighborhood Theatre",
@@ -292,10 +280,22 @@
       "image": "https://s1.ticketm.net/dam/a/c61/3a13b201-6b42-4341-bc96-83e34ed10c61_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/pool-kids-charlotte-north-carolina-04-24-2026/event/2D00644BF2E56858",
       "youtube_id": "lJ7uoGTzBgw"
+    },
+    {
+      "artist": "Marc Broussard",
+      "date": "Sun, Apr 26",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/5b4/0e2a5f4b-43e1-478c-9f99-a8c5f8c2b5b4_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/marc-broussard-charlotte-north-carolina-04-26-2026/event/2D00642C16A2E0B4",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
   "shows_with_video": 21,
   "shows_with_image": 24,
-  "last_updated": "2026-03-08T08:59:59.968389"
+  "last_updated": "2026-03-09T09:14:25.675084"
 }

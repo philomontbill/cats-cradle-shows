@@ -6,29 +6,18 @@
   },
   "shows": [
     {
-      "artist": "The Nine Lives Flea Market",
-      "date": "Sun, Mar 08",
+      "artist": "The Still Not Okay Tour",
+      "date": "Sun, Jan 24",
       "venue": "Cat's Cradle",
-      "opener": null,
+      "opener": "Turtle Smash, Fake Happy, The Dirty Little Rejects, 2000s Era Emo After Party",
       "notice": null,
-      "doors": null,
-      "showtime": "11 am",
-      "image": "https://catscradle.com/wp-content/uploads/2026/02/Nine-Lives-Flea-at-Cats-Cradle-1000.jpg",
-      "event_url": "https://catscradle.com/event/the-nine-lives-flea-market/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "8GgTZ8TTwO4"
-    },
-    {
-      "artist": "Rachel Bochner",
-      "date": "Sun, Mar 08",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Pretty Crimes",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Rachel_2161341768381850.jpg",
-      "event_url": "https://catscradle.com/event/rachel-bochner/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "xttrqNl8EaY",
-      "opener_youtube_id": "2Nywjo8gegE"
+      "doors": "6 pm",
+      "showtime": "7 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2149551767866474.jpg",
+      "event_url": "https://catscradle.com/event/the-still-not-okay-tour/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": null,
+      "opener_youtube_id": "rctzAtZSTvA",
+      "expired": true
     },
     {
       "artist": "Aterciopelados",
@@ -308,6 +297,19 @@
       "opener_youtube_id": "lGM2b-6P6kc"
     },
     {
+      "artist": "Hudson Freeman",
+      "date": "Sat, Mar 28",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Ruby Plume",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Hudson_2043501763381357.jpg",
+      "event_url": "https://catscradle.com/event/hudson-freeman/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "m1yidEG3nm4",
+      "opener_youtube_id": "v03fr0UR6MM"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -321,8 +323,8 @@
       "opener_youtube_id": "1hpkmjDAGxs"
     }
   ],
-  "total_shows": 25,
-  "shows_with_video": 20,
-  "shows_with_image": 25,
-  "last_updated": "2026-03-08T08:57:54.465816"
+  "total_shows": 24,
+  "shows_with_video": 19,
+  "shows_with_image": 24,
+  "last_updated": "2026-03-09T09:11:40.426822"
 }
