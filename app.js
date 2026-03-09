@@ -422,7 +422,7 @@ class ShowsApp {
             }
             // Focus trap — keep Tab inside the dialog
             if (e.key === 'Tab') {
-                const focusable = [emailLink, closeBtn];
+                const focusable = [emailLink, closeBtn].filter(Boolean);
                 const first = focusable[0];
                 const last = focusable[focusable.length - 1];
                 if (e.shiftKey) {

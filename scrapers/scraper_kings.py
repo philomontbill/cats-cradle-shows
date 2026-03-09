@@ -170,7 +170,7 @@ class KingsScraper(BaseScraper):
                 month = match.group(2)[:3]
                 day = match.group(3)
                 return f"{day_name}, {month} {day}"
-        except:
+        except (ValueError, TypeError, AttributeError):
             pass
         return 'TBD'
 

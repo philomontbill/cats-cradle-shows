@@ -144,7 +144,7 @@ class MotorcoScraper(BaseScraper):
             # Format: "Sat, 07 Mar 2026 00:00:00 +0000"
             parsed = datetime.strptime(pub_date_str[:16], "%a, %d %b %Y")
             return parsed.strftime("%a, %b %d")
-        except:
+        except (ValueError, TypeError):
             return 'TBD'
 
     def _get_event_image(self, url):
@@ -165,7 +165,7 @@ class MotorcoScraper(BaseScraper):
                     src = img.get('src')
                     if src and 'logo' not in src.lower():
                         return src
-        except:
+        except (requests.RequestException, AttributeError, TypeError):
             pass
         return None
 

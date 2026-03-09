@@ -74,7 +74,7 @@ jobs:
         run: python scrapers/scraper_thesocial.py
 
       - name: Run Bowery Ballroom scraper
-        id: scrape_bowery
+        id: scrape_mercuryeast
         continue-on-error: true
         run: python scrapers/scraper_mercuryeast.py
 
@@ -143,7 +143,7 @@ jobs:
           steps.scrape_mohawk.outcome == 'failure' ||
           steps.scrape_elevation27.outcome == 'failure' ||
           steps.scrape_thesocial.outcome == 'failure' ||
-          steps.scrape_bowery.outcome == 'failure' ||
+          steps.scrape_mercuryeast.outcome == 'failure' ||
           steps.scrape_neighborhood.outcome == 'failure' ||
           steps.scrape_orangepeel.outcome == 'failure' ||
           steps.monitor.outcome == 'failure' ||
@@ -163,7 +163,7 @@ jobs:
               ['Mohawk', '${{ steps.scrape_mohawk.outcome }}'],
               ['Elevation 27', '${{ steps.scrape_elevation27.outcome }}'],
               ['The Social', '${{ steps.scrape_thesocial.outcome }}'],
-              ['Bowery Ballroom', '${{ steps.scrape_bowery.outcome }}'],
+              ['Bowery Ballroom', '${{ steps.scrape_mercuryeast.outcome }}'],
               ['Neighborhood Theatre', '${{ steps.scrape_neighborhood.outcome }}'],
               ['The Orange Peel', '${{ steps.scrape_orangepeel.outcome }}'],
               ['Scrape Monitor', '${{ steps.monitor.outcome }}'],

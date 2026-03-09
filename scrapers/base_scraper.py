@@ -549,7 +549,7 @@ class BaseScraper:
                     continue
 
             return date_str
-        except:
+        except (ValueError, TypeError, AttributeError):
             return date_str
 
     def sort_shows_by_date(self, shows):
@@ -564,7 +564,7 @@ class BaseScraper:
             try:
                 parsed = datetime.strptime(f"{date_str}, {current_year}", "%a, %b %d, %Y")
                 return parsed
-            except:
+            except (ValueError, TypeError):
                 return datetime(2099, 12, 31)
 
         return sorted(shows, key=date_key)

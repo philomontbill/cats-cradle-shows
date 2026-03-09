@@ -253,7 +253,7 @@ class MercuryEastScraper(BaseScraper):
                     parsed = parsed.replace(year=current_year + 1)
 
                 date = parsed.strftime("%a, %b %d")
-            except:
+            except (ValueError, TypeError):
                 date = event['date_raw']
 
         return {
