@@ -605,6 +605,7 @@ class BaseScraper:
 
             # --- Overrides first (highest authority, no exceptions) ---
             headliner_overridden = False
+            should_search = False
             cleaned_artist = self._clean_artist_name(artist) if artist else None
             if artist and (artist in artist_overrides or (cleaned_artist and cleaned_artist in artist_overrides)):
                 override_val = artist_overrides.get(artist, artist_overrides.get(cleaned_artist))

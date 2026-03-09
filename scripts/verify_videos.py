@@ -40,6 +40,13 @@ from scripts.report_delivery import (
     markdown_to_html, wrap_html_email, harvest_qc_marks,
 )
 
+# --- Exceptions ---
+
+class QuotaExhaustedError(Exception):
+    """Raised when YouTube API returns 403 (quota exceeded)."""
+    pass
+
+
 # --- Configuration ---
 
 VIEW_COUNT_CAP = 5_000_000  # 5M views — reject if exceeded (unless Topic channel)
@@ -157,6 +164,9 @@ def _youtube_api_get(url, resource_label, max_retries=2):
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
                 return resp.json().get("items", [])
+            if resp.status_code == 403:
+                print(f"  QUOTA EXHAUSTED: YouTube API returned 403 for {resource_label}")
+                raise QuotaExhaustedError(f"403 on {resource_label}")
             if resp.status_code in (429, 503) and attempt < max_retries:
                 print(f"  Retry {attempt + 1}/{max_retries}: YouTube API returned {resp.status_code} for {resource_label}")
                 time.sleep(2)
@@ -957,9 +967,15 @@ def main():
                 # --- Verify this video ---
                 time.sleep(1.0)  # Throttle API requests to avoid per-second rate limits
                 print(f"\n  Verifying: {artist} — {video_id}")
-                passed, reasons, metadata = verify_video(
-                    artist, video_id, venue, image, api_key
-                )
+                try:
+                    passed, reasons, metadata = verify_video(
+                        artist, video_id, venue, image, api_key
+                    )
+                except QuotaExhaustedError:
+                    print("\n  *** STOPPING: YouTube API quota exhausted. ***")
+                    print("  Remaining videos will keep their current status.")
+                    tonight["quota_exhausted"] = True
+                    break
                 api_calls += 2  # video + channel metadata
 
                 if passed:
@@ -1015,6 +1031,20 @@ def main():
                         show[id_key] = None
                         modified = True
                     print(f"    ✗ Rejected: {reason_str}")
+
+            # Break out of show loop if quota exhausted
+            if tonight.get("quota_exhausted"):
+                break
+
+        # Break out of file loop if quota exhausted
+        if tonight.get("quota_exhausted"):
+            # Still save any modifications made before quota hit
+            if modified and not args.dry_run:
+                with open(filepath, "w") as f:
+                    json.dump(data, f, indent=2)
+                    f.write("\n")
+                print(f"  Updated: {os.path.basename(filepath)}")
+            break
 
         # Save modified show data
         if modified and not args.dry_run:
