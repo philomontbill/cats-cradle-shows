@@ -224,12 +224,12 @@ def get_channel_metadata(channel_id, api_key):
 
 def is_topic_channel(channel_name):
     """Check if this is a YouTube auto-generated Topic channel."""
-    return channel_name.strip().endswith("- Topic")
+    return channel_name.strip().lower().endswith("- topic")
 
 
 def channel_matches_artist(channel_name, artist_name):
     """Check if the channel name relates to the artist."""
-    ch = _normalize(channel_name.replace("- Topic", ""))
+    ch = _normalize(re.sub(r'- Topic', '', channel_name, flags=re.IGNORECASE))
     ar = _normalize(artist_name)
     if not ch or not ar:
         return False
@@ -1053,18 +1053,18 @@ def main():
                 f.write("\n")
             print(f"  Updated: {os.path.basename(filepath)}")
 
-    # Save verification states
-    if not args.dry_run:
-        save_video_states(states)
-        print(f"\nSaved {len(states)} video states to qa/video_states.json")
-
-    # Mark null overrides in states (for report) — always wins over prior state
+    # Mark null overrides in states — always wins over prior state
     for artist, vid in artist_overrides.items():
         if vid is None:
             states[artist] = {"status": "override_null"}
     for artist, vid in opener_overrides.items():
         if vid is None:
             states[artist] = {"status": "override_null"}
+
+    # Save verification states (after null overrides applied)
+    if not args.dry_run:
+        save_video_states(states)
+        print(f"\nSaved {len(states)} video states to qa/video_states.json")
 
     # Build issue body and CSV
     issue_body = build_issue_body(tonight, states, all_shows_data,
