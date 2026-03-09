@@ -254,7 +254,7 @@ def ensure_definitions_tab():
 
 
 def write_sheet(rows, tab_name, header=None):
-    """Clear a sheet tab and write fresh data (replace, not append).
+    """Write fresh data to a sheet tab then clear leftover rows (replace, not append).
 
     Args:
         rows: List of lists (each inner list = one row of cell values).
@@ -277,23 +277,25 @@ def write_sheet(rows, tab_name, header=None):
         return False
 
     try:
-        # Clear existing data
-        service.spreadsheets().values().clear(
-            spreadsheetId=sheet_id,
-            range=f"'{tab_name}'!A:Z",
-            body={},
-        ).execute()
-
         # Build data with header
         all_rows = [header] + rows if header else rows
 
-        # Write fresh data
+        # Write fresh data first (overwrites from A1 down)
         service.spreadsheets().values().update(
             spreadsheetId=sheet_id,
             range=f"'{tab_name}'!A1",
             valueInputOption="USER_ENTERED",
             body={"values": all_rows},
         ).execute()
+
+        # Clear leftover rows below the new data
+        start_row = len(all_rows) + 1
+        service.spreadsheets().values().clear(
+            spreadsheetId=sheet_id,
+            range=f"'{tab_name}'!A{start_row}:Z",
+            body={},
+        ).execute()
+
         print(f"  Sheets: wrote {len(all_rows)} rows to '{tab_name}' (replaced)")
         return True
     except Exception as e:

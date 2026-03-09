@@ -52,7 +52,8 @@ def get_client():
     """Build an authenticated GA4 Data API client."""
     creds_raw = os.environ.get("GA4_SERVICE_ACCOUNT", "")
     if not creds_raw:
-        sys.exit("ERROR: GA4_SERVICE_ACCOUNT environment variable not set.")
+        print("ERROR: GA4_SERVICE_ACCOUNT environment variable not set.", file=sys.stderr)
+        sys.exit(1)
 
     # Support both a JSON string and a file path
     if creds_raw.strip().startswith("{"):
@@ -70,7 +71,8 @@ def get_client():
 def get_property_id():
     pid = os.environ.get("GA4_PROPERTY_ID", "")
     if not pid:
-        sys.exit("ERROR: GA4_PROPERTY_ID environment variable not set.")
+        print("ERROR: GA4_PROPERTY_ID environment variable not set.", file=sys.stderr)
+        sys.exit(1)
     return pid
 
 

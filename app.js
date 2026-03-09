@@ -238,6 +238,19 @@ class ShowsApp {
                 }
             });
         });
+
+        // Add click handlers for ticket buttons
+        container.querySelectorAll('.ticket-btn').forEach((btn, index) => {
+            const show = shows[index];
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                trackEvent('ticket_click', {
+                    artist: show.artist,
+                    venue_name: show.venue,
+                    ticket_url: show.ticket_url || ''
+                });
+            });
+        });
     }
 
     splitOpeners(openerStr) {
@@ -309,7 +322,7 @@ class ShowsApp {
                     </div>
                     <div class="card-right">
                         <div class="venue-tag">${this.escapeHtml(show.venue)}</div>
-                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" aria-label="Get Tickets for ${this.escapeHtml(show.artist)} (opens in new tab)" onclick="event.stopPropagation(); trackEvent('ticket_click', { artist: '${this.escapeHtml(show.artist).replace(/'/g, "\\'")}', venue_name: '${this.escapeHtml(show.venue).replace(/'/g, "\\'")}', ticket_url: '${this.escapeHtml(ticketUrl).replace(/'/g, "\\'")}' })">Get Tickets</a>
+                        <a href="${this.escapeHtml(ticketUrl)}" target="_blank" rel="noopener noreferrer" class="ticket-btn" aria-label="Get Tickets for ${this.escapeHtml(show.artist)} (opens in new tab)">Get Tickets</a>
                     </div>
                 </div>
                 <div class="player-container" id="player-${index}">
