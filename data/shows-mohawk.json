@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "HBO QUIZZO: Heated Rivalry",
-      "date": "Mon, Mar 09",
-      "venue": "Mohawk Indoor",
-      "opener": "Hosted By Anna Troxell",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494662341",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648494664811",
-      "youtube_id": null,
-      "opener_youtube_id": null
-    },
-    {
       "artist": "Nothing",
       "date": "Wed, Mar 11",
       "venue": "Mohawk Outdoor",
@@ -242,8 +229,8 @@
       "venue": "Mohawk Outdoor",
       "opener": "Heart To Gold, Spaced",
       "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
+      "doors": "6:30pm",
+      "showtime": "7:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556382599",
       "ticket_url": "https://www.etix.com/ticket/p/74972598/sweet-pill-austin-resound-presents",
       "youtube_id": "quI9Xd-En1g",
@@ -302,7 +289,7 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     },
     {
-      "artist": "Touché Amoré",
+      "artist": "Touch\u00e9 Amor\u00e9",
       "date": "Wed, Apr 08",
       "venue": "Mohawk Outdoor",
       "opener": "Jeromes Dream, Porcelain",
@@ -326,10 +313,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
       "youtube_id": "qd3Ec0zvLLU",
       "opener_youtube_id": "WNiKCRUpbqA"
+    },
+    {
+      "artist": "Collateral",
+      "date": "Fri, Apr 10",
+      "venue": "Mohawk Indoor",
+      "opener": "Leave No Doubt, It's the Limit, Paradise, Nemesis",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494668953",
+      "ticket_url": "https://www.etix.com/ticket/p/89827606/collateral-austin-mohawk-austintxindoor",
+      "youtube_id": "fsaDMSLFRh4",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:12:02.676581"
+  "last_updated": "2026-03-10T09:11:03.028803"
 }

@@ -6,16 +6,16 @@
   },
   "shows": [
     {
-      "artist": "NYC Barz Exam: Karl Dice Raw Jenkins + more",
-      "date": "Mon, Mar 09",
+      "artist": "Belle Blue",
+      "date": "Tue, Mar 10",
       "venue": "Bowery Ballroom",
       "opener": null,
       "notice": null,
       "doors": "6pm",
       "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/ea0/da679823-b0ec-4f93-80d9-e025610d6ea0_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/nyc-barz-exam-karl-dice-raw-jenkins-more/",
-      "youtube_id": null
+      "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
+      "youtube_id": "EAYTD_xNH1M"
     },
     {
       "artist": "Chasing Abbey *MOVED TO BOWERY BALLROOM*",
@@ -27,19 +27,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-2/",
-      "youtube_id": "Y43GhbUyamg"
-    },
-    {
-      "artist": "Belle Blue",
-      "date": "Tue, Mar 10",
-      "venue": "Bowery Ballroom",
-      "opener": null,
-      "notice": null,
-      "doors": "6pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
-      "youtube_id": "FZAOpMM-FxE"
+      "youtube_id": null
     },
     {
       "artist": "Chasing Abbey",
@@ -75,7 +63,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
-      "youtube_id": "0d0faXqtzXI"
+      "youtube_id": "WNygkxYbU6w"
     },
     {
       "artist": "Radium Dolls",
@@ -208,7 +196,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/9b3/c0de1411-ea22-40d5-9f81-a65e13fa09b3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/gavin-marengi-w-the-national-reserve-rozlyn/",
-      "youtube_id": "ubVJTq5tQuQ"
+      "youtube_id": "TXUpTpM-9GE"
     },
     {
       "artist": "See Plus, Smilley, KAGE! & Blakestyle (duo)",
@@ -245,6 +233,18 @@
       "image": "https://s1.ticketm.net/dam/e/d7d/396eb455-5e72-4c15-afed-a66ecd8c6d7d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/buffalo-traffic-jam/",
       "youtube_id": "hdsGQYYgrbs"
+    },
+    {
+      "artist": "Jenny Kern, Mari, Allison Strong",
+      "date": "Wed, Mar 18",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/1b4/a6108cf4-3ef9-427e-9696-88e0676a21b4_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/jenny-kern-mari-allison-strong/",
+      "youtube_id": "nnPQ4y7POJU"
     },
     {
       "artist": "Sienna Spiro - The Visitor Tour",
@@ -310,5 +310,5 @@
   "total_shows": 25,
   "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:13:57.293102"
+  "last_updated": "2026-03-10T09:12:39.911816"
 }

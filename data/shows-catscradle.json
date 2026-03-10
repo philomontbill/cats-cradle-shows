@@ -7,16 +7,17 @@
   "shows": [
     {
       "artist": "The Still Not Okay Tour",
-      "date": "Fri, Mar 27",
+      "date": "Sun, Jan 24",
       "venue": "Cat's Cradle",
       "opener": "Turtle Smash, Fake Happy, The Dirty Little Rejects, 2000s Era Emo After Party",
-      "notice": "Rescheduled from Jan 24",
+      "notice": null,
       "doors": "6 pm",
       "showtime": "7 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-The_2149551767866474.jpg",
       "event_url": "https://catscradle.com/event/the-still-not-okay-tour/cats-cradle/carrboro-north-carolina/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "rctzAtZSTvA",
+      "expired": true
     },
     {
       "artist": "Aterciopelados",
@@ -245,6 +246,19 @@
       "youtube_id": null
     },
     {
+      "artist": "The Big Pop Show",
+      "date": "Mon, Mar 23",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Good Flying Birds, Touch Girl Apple Blossom, Little Chair, Memory Card, Sacred Heart Academy",
+      "notice": null,
+      "doors": "5:30 pm",
+      "showtime": "6 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
+      "event_url": "https://catscradle.com/event/the-big-pop-show/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
       "artist": "Gangstagrass",
       "date": "Tue, Mar 24",
       "venue": "Cat's Cradle",
@@ -296,19 +310,6 @@
       "opener_youtube_id": "lGM2b-6P6kc"
     },
     {
-      "artist": "Hudson Freeman",
-      "date": "Sat, Mar 28",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Ruby Plume",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Hudson_2043501763381357.jpg",
-      "event_url": "https://catscradle.com/event/hudson-freeman/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "m1yidEG3nm4",
-      "opener_youtube_id": "v03fr0UR6MM"
-    },
-    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -325,5 +326,5 @@
   "total_shows": 24,
   "shows_with_video": 19,
   "shows_with_image": 24,
-  "last_updated": "2026-03-09T09:11:40.426822"
+  "last_updated": "2026-03-10T09:10:37.264584"
 }

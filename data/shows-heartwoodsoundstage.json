@@ -252,6 +252,17 @@
     },
     {
       "venue": "Heartwood Soundstage",
+      "artist": "It's a 2000s Party: Gainesville",
+      "date": "Sat, Apr 18",
+      "showtime": "8:00 pm",
+      "doors": null,
+      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69ab4d3b054365a703646419_ITSA2000SPARTY_HORIZ_Gainesville.jpeg",
+      "ticket_url": "https://www.heartwoodsoundstage.com/shows/it-s-a-2000s-party-gainesville-18-apr",
+      "notice": null,
+      "youtube_id": null
+    },
+    {
+      "venue": "Heartwood Soundstage",
       "artist": "Swamp Showcase",
       "date": "Sun, Apr 19",
       "showtime": "6:00 pm",
@@ -284,21 +295,10 @@
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/yonder-mountain-string-band-23-apr",
       "notice": null,
       "youtube_id": "-5QwLeOyq5k"
-    },
-    {
-      "venue": "Heartwood Soundstage",
-      "artist": "Pump Action and The Retrograde",
-      "date": "Fri, Apr 24",
-      "showtime": "8:00 pm",
-      "doors": null,
-      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/695d4ecf10d4780f7208f48f_Copy_of_JSG-5.jpeg",
-      "ticket_url": "https://www.heartwoodsoundstage.com/shows/pump-action-and-the-retrograde-24-apr",
-      "notice": null,
-      "youtube_id": "olMJuOFW4c8"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 16,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:14:33.762320"
+  "last_updated": "2026-03-10T09:13:13.447193"
 }

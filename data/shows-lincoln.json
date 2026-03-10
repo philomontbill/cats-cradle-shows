@@ -285,19 +285,18 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Soulja Boy",
+      "artist": "Soulja Boy’s The Drip Tour with special guest Lil Xan",
       "date": "Wed, May 06",
-      "opener": "Lil Xan",
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/soulja-boys-the-drip-tour-with-special-guest-lil-xan.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/36561117/soulja-boys-the-drip-tour-with-special-guest-lil-xan-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
-      "youtube_id": "-2nUo2U_bmk"
+      "youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:11:55.124991"
+  "last_updated": "2026-03-10T09:10:52.502953"
 }

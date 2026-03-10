@@ -1149,12 +1149,12 @@
   "Yonder Mountain String Band": {
     "status": "verified",
     "video_id": "yi0ho-hTG-U",
-    "verified_date": "2026-03-09T09:15:29.140017",
-    "confidence": "channel match, 40,974 views",
+    "verified_date": "2026-03-10T09:13:34.679122",
+    "confidence": "channel match, 40,998 views",
     "metadata": {
       "video_title": "Yonder Mountain String Band - Blind (Official Music Video)",
       "channel_name": "Yonder Mountain String Band",
-      "view_count": 40974,
+      "view_count": 40998,
       "published": "2026-02-20T13:39:49Z",
       "channel_subscribers": 16700,
       "channel_videos": 232,
@@ -1224,12 +1224,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-09T09:15:31.771675",
+    "verified_date": "2026-03-10T09:13:37.137154",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5338693,
+      "view_count": 5339187,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -2332,22 +2332,7 @@
     }
   },
   "w/ Enrage (tribute to Rage Against The Machine)": {
-    "status": "verified",
-    "video_id": "32vyLhQo4Y8",
-    "verified_date": "2026-02-23T11:23:36.411449",
-    "confidence": "passed all checks",
-    "metadata": {
-      "video_title": "SEMBLANT - Enrage (Official Video)",
-      "channel_name": "SEMBLANT",
-      "view_count": 1949662,
-      "published": "2022-03-25T15:00:31Z",
-      "channel_subscribers": 215000,
-      "channel_videos": 37,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'SEMBLANT' doesn't match artist",
-      "video_age_years": 3.9
-    }
+    "status": "override_null"
   },
   "BERTHA: Grateful Drag": {
     "status": "verified",
@@ -3997,58 +3982,13 @@
     }
   },
   "Heated": {
-    "status": "verified",
-    "video_id": "3CokWIQBK-M",
-    "verified_date": "2026-02-23T11:24:24.326522",
-    "confidence": "390,024 views",
-    "metadata": {
-      "video_title": "H.E.A.T - Disaster (Official Video)",
-      "channel_name": "earMUSIC",
-      "view_count": 390024,
-      "published": "2025-01-24T08:30:02Z",
-      "channel_subscribers": 986000,
-      "channel_videos": 1956,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'earMUSIC' doesn't match artist",
-      "video_age_years": 1.1
-    }
+    "status": "override_null"
   },
   "LUEWWD XX": {
-    "status": "rejected",
-    "video_id": "Pib8eYDSFEI",
-    "rejected_date": "2026-02-23T11:24:24.784074",
-    "reason": "view count 88,454,343 exceeds 5,000,000 cap; video is 17 years old with no channel match",
-    "metadata": {
-      "video_title": "The xx - Crystalised (Official Video)",
-      "channel_name": "The xx",
-      "view_count": 88454343,
-      "published": "2009-04-27T17:41:26Z",
-      "channel_subscribers": 1150000,
-      "channel_videos": 136,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'The xx' doesn't match artist",
-      "video_age_years": 16.8
-    }
+    "status": "override_null"
   },
   "DISCO, ALWAYS": {
-    "status": "rejected",
-    "video_id": "G0DZwz2k3VU",
-    "rejected_date": "2026-02-23T11:24:25.239425",
-    "reason": "view count 7,604,843 exceeds 5,000,000 cap",
-    "metadata": {
-      "video_title": "[ Scotch ] - Disco Band.  ( HQ )",
-      "channel_name": "Typhoon160m",
-      "view_count": 7604843,
-      "published": "2011-07-31T13:14:15Z",
-      "channel_subscribers": 43900,
-      "channel_videos": 48,
-      "is_topic": false,
-      "channel_match": false,
-      "channel_warning": "channel 'Typhoon160m' doesn't match artist",
-      "video_age_years": 14.6
-    }
+    "status": "override_null"
   },
   "SODA WATER SEA": {
     "status": "verified",
@@ -5002,21 +4942,7 @@
     }
   },
   "DANCE": {
-    "status": "rejected",
-    "video_id": "ULqxiUK6kOs",
-    "rejected_date": "2026-02-23T11:24:49.629399",
-    "reason": "view count 20,472,741 exceeds 5,000,000 cap",
-    "metadata": {
-      "video_title": "Goombay Dance Band - Seven Tears (Official Video)",
-      "channel_name": "Goombay Dance Band",
-      "view_count": 20472741,
-      "published": "2020-12-11T09:00:20Z",
-      "channel_subscribers": 115000,
-      "channel_videos": 185,
-      "is_topic": false,
-      "channel_match": true,
-      "video_age_years": 5.2
-    }
+    "status": "override_null"
   },
   "The Ramona Flowers": {
     "status": "verified",
@@ -6073,25 +5999,7 @@
     }
   },
   "All Your Friends: The Indie Party": {
-    "status": "rejected",
-    "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-28T16:22:34.785848",
-    "reason": "non-matching channel 'Coldplay' with 28,400,000 subscribers; not found on Spotify + channel mismatch",
-    "metadata": {
-      "video_title": "Coldplay - All Your Friends (Official Video)",
-      "channel_name": "Coldplay",
-      "view_count": 4927316,
-      "published": "2014-11-07T19:54:24Z",
-      "channel_subscribers": 28400000,
-      "channel_videos": 550,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "view_cap_reason": "default (no trust signals)",
-      "video_age_years": 11.3,
-      "spotify_match": "no_match",
-      "spotify_popularity": null
-    }
+    "status": "override_null"
   },
   "Cure For Paranoia": {
     "status": "verified",
@@ -6179,24 +6087,22 @@
   },
   "Belle Blue": {
     "status": "verified",
-    "video_id": "FZAOpMM-FxE",
-    "verified_date": "2026-03-06T09:07:49.387136",
-    "confidence": "channel match, VEVO, 2,867 views",
+    "video_id": "EAYTD_xNH1M",
+    "verified_date": "2026-03-10T09:13:15.014177",
+    "confidence": "channel match, 380 views",
     "metadata": {
-      "video_title": "Belle Blue - woof (Official Music Video)",
-      "channel_name": "BelleBlueVEVO",
-      "view_count": 2867,
-      "published": "2025-03-04T08:42:31Z",
-      "channel_subscribers": 97,
-      "channel_videos": 4,
+      "video_title": "Belle Blue - \u201cJack\u201d [Official Video]",
+      "channel_name": "Belle blue",
+      "view_count": 380,
+      "published": "2026-01-29T19:08:48Z",
+      "channel_subscribers": 149,
+      "channel_videos": 12,
       "is_topic": false,
       "channel_match": true,
-      "vevo_channel": true,
-      "trusted_channel": true,
+      "trusted_channel": false,
       "session_channel": false,
-      "trusted_reason": "VEVO",
-      "view_cap_reason": "trusted channel (VEVO)",
-      "video_age_years": 1.0
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
     }
   },
   "Rivalry Night": {
@@ -6290,12 +6196,12 @@
   "Los Straitjackets & Deke Dickerson": {
     "status": "verified",
     "video_id": "A-MOMaDr3tU",
-    "verified_date": "2026-03-09T09:15:27.862554",
-    "confidence": "channel match, 13,597 views",
+    "verified_date": "2026-03-10T09:13:33.417068",
+    "confidence": "channel match, 13,602 views",
     "metadata": {
       "video_title": "Los Straitjackets - Fury (Official Audio)",
       "channel_name": "Los Straitjackets",
-      "view_count": 13597,
+      "view_count": 13602,
       "published": "2014-09-29T17:50:05Z",
       "channel_subscribers": 13700,
       "channel_videos": 58,
@@ -6796,25 +6702,7 @@
     }
   },
   "ALL YOUR FRIENDS": {
-    "status": "rejected",
-    "video_id": "E5a51OonZDE",
-    "rejected_date": "2026-02-28T16:23:21.820263",
-    "reason": "non-matching channel 'Coldplay' with 28,400,000 subscribers",
-    "metadata": {
-      "video_title": "Coldplay - All Your Friends (Official Video)",
-      "channel_name": "Coldplay",
-      "view_count": 4927316,
-      "published": "2014-11-07T19:54:24Z",
-      "channel_subscribers": 28400000,
-      "channel_videos": 550,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "view_cap_reason": "Spotify popularity 7",
-      "video_age_years": 11.3,
-      "spotify_match": "exact",
-      "spotify_popularity": 7
-    }
+    "status": "override_null"
   },
   "OLD CROW MEDICINE SHOW": {
     "status": "rejected",
@@ -7499,23 +7387,22 @@
   },
   "Glitterer": {
     "status": "verified",
-    "video_id": "0d0faXqtzXI",
-    "verified_date": "2026-03-09T09:14:35.712130",
-    "confidence": "29,498 views",
+    "video_id": "WNygkxYbU6w",
+    "verified_date": "2026-03-10T09:13:16.211258",
+    "confidence": "channel match, Topic channel, 5,314 views",
     "metadata": {
-      "video_title": "Glitterer - \"Recollection / No One There\"",
-      "channel_name": "ANTI- Records",
-      "view_count": 29498,
-      "published": "2024-07-24T09:00:02Z",
-      "channel_subscribers": 413000,
-      "channel_videos": 3035,
-      "is_topic": false,
-      "channel_match": false,
+      "video_title": "Not Forever",
+      "channel_name": "Glitterer - Topic",
+      "view_count": 5314,
+      "published": "2025-11-10T10:03:28Z",
+      "channel_subscribers": 9,
+      "channel_videos": 67,
+      "is_topic": true,
+      "channel_match": true,
       "trusted_channel": false,
       "session_channel": false,
-      "view_cap_reason": "default (5M cap)",
-      "channel_warning": "channel 'ANTI- Records' doesn't match artist (title match)",
-      "video_age_years": 1.6
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.3
     }
   },
   "Radium Dolls": {
@@ -8582,24 +8469,7 @@
     }
   },
   "The Wallabies": {
-    "status": "rejected",
-    "video_id": "OwvzNxpQrN8",
-    "rejected_date": "2026-03-06T09:08:01.493702",
-    "reason": "artist name not found in channel or title",
-    "metadata": {
-      "video_title": "Wallabies - Despertar (Video Oficial)",
-      "channel_name": "Wallabies mx",
-      "view_count": 4397,
-      "published": "2017-08-24T00:00:03Z",
-      "channel_subscribers": 283,
-      "channel_videos": 16,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "session_channel": false,
-      "view_cap_reason": "default (5M cap)",
-      "video_age_years": 8.5
-    }
+    "status": "override_null"
   },
   "Glixen and Trauma Ray": {
     "status": "verified",
@@ -8924,14 +8794,14 @@
   },
   "Gavin Marengi w/ The National Reserve, Rozlyn": {
     "status": "verified",
-    "video_id": "ubVJTq5tQuQ",
-    "verified_date": "2026-03-08T09:00:06.436125",
-    "confidence": "channel match, Topic channel, 161 views",
+    "video_id": "TXUpTpM-9GE",
+    "verified_date": "2026-03-10T09:13:18.682084",
+    "confidence": "channel match, Topic channel, 2,220 views",
     "metadata": {
-      "video_title": "Breathing Years",
+      "video_title": "Hold On",
       "channel_name": "Gavin Marengi - Topic",
-      "view_count": 161,
-      "published": "2026-01-08T10:02:06Z",
+      "view_count": 2220,
+      "published": "2023-03-30T10:03:50Z",
       "channel_subscribers": 166,
       "channel_videos": 29,
       "is_topic": true,
@@ -8939,7 +8809,7 @@
       "trusted_channel": false,
       "session_channel": false,
       "view_check": "skipped (Topic channel match)",
-      "video_age_years": 0.2
+      "video_age_years": 2.9
     }
   },
   "See Plus, Smilley, KAGE! & Blakestyle (duo)": {
@@ -9339,24 +9209,7 @@
     }
   },
   "The Still Not Okay Tour": {
-    "status": "rejected",
-    "video_id": "dhZTNgAs4Fc",
-    "rejected_date": "2026-03-09T09:14:39.487204",
-    "reason": "view count 141,939,741 exceeds 5,000,000 cap; non-matching channel 'My Chemical Romance' with 5,290,000 subscribers; video is 16 years old with no channel match",
-    "metadata": {
-      "video_title": "My Chemical Romance - I'm Not Okay (I Promise) [Official Music Video - 4K Film Restored]",
-      "channel_name": "My Chemical Romance",
-      "view_count": 141939741,
-      "published": "2010-02-26T22:25:33Z",
-      "channel_subscribers": 5290000,
-      "channel_videos": 175,
-      "is_topic": false,
-      "channel_match": false,
-      "trusted_channel": false,
-      "session_channel": false,
-      "view_cap_reason": "default (5M cap)",
-      "video_age_years": 16.0
-    }
+    "status": "override_null"
   },
   "Turtle Smash, Fake Happy, The Dirty Little Rejects, 2000s Era Emo After Party": {
     "status": "verified",
@@ -10130,5 +9983,224 @@
       "view_check": "skipped (Topic channel match)",
       "video_age_years": 1.5
     }
+  },
+  "Yo Guys": {
+    "status": "rejected",
+    "video_id": "dH9A6zKvSDo",
+    "rejected_date": "2026-03-10T09:13:17.427415",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "The Guys - Triple Six (Official Music Video)",
+      "channel_name": "The Guys",
+      "view_count": 192735,
+      "published": "2025-09-08T20:10:44Z",
+      "channel_subscribers": 71100,
+      "channel_videos": 40,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.5
+    }
+  },
+  "Jenny Kern, Mari, Allison Strong": {
+    "status": "verified",
+    "video_id": "nnPQ4y7POJU",
+    "verified_date": "2026-03-10T09:13:19.880230",
+    "confidence": "channel match, 816 views",
+    "metadata": {
+      "video_title": "Jenny Kern - bones (Official Lyric Video)",
+      "channel_name": "Jenny Kern",
+      "view_count": 816,
+      "published": "2025-11-03T12:52:00Z",
+      "channel_subscribers": 2490,
+      "channel_videos": 59,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "The Big Pop Show": {
+    "status": "rejected",
+    "video_id": "5a2BEEZwsJw",
+    "rejected_date": "2026-03-10T09:13:22.360809",
+    "reason": "venue placeholder image (cradlevenue.png); artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Big Pop Show 2015 - Motown (Schnelldurchlauf)",
+      "channel_name": "RSGkanal",
+      "view_count": 3079,
+      "published": "2016-02-17T20:39:08Z",
+      "channel_subscribers": 713,
+      "channel_videos": 47,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 10.1
+    }
+  },
+  "Good Flying Birds, Touch Girl Apple Blossom, Little Chair, Memory Card, Sacred Heart Academy": {
+    "status": "rejected",
+    "video_id": "TkQpidd5YNk",
+    "rejected_date": "2026-03-10T09:13:23.618766",
+    "reason": "venue placeholder image (cradlevenue.png)",
+    "metadata": {
+      "video_title": "Good Flying Birds - \"Fall Away\" (Official Music Video)",
+      "channel_name": "Carpark Records",
+      "view_count": 19155,
+      "published": "2025-08-19T13:40:01Z",
+      "channel_subscribers": 88500,
+      "channel_videos": 538,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_label": "Carpark Records",
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "label: Carpark Records",
+      "view_cap_reason": "trusted channel (label: Carpark Records)",
+      "channel_override": "trusted label: Carpark Records, skipping mismatch check",
+      "video_age_years": 0.6
+    }
+  },
+  "Honeyknife, Sub Empty": {
+    "status": "verified",
+    "video_id": "xv5kfOZ8VyA",
+    "verified_date": "2026-03-10T09:13:27.254691",
+    "confidence": "channel match, 1,982 views",
+    "metadata": {
+      "video_title": "Honeyknife - Dope Utopia (Official Music Video)",
+      "channel_name": "Honeyknife",
+      "view_count": 1982,
+      "published": "2024-06-07T14:00:19Z",
+      "channel_subscribers": 190,
+      "channel_videos": 6,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.8
+    }
+  },
+  "ALEC LOMAMI, MICKY SLICKS, SEX ON DECKS": {
+    "status": "verified",
+    "video_id": "x8_oa8GjMvc",
+    "verified_date": "2026-03-10T09:13:28.465295",
+    "confidence": "channel match, Topic channel, 30 views",
+    "metadata": {
+      "video_title": "Cruise control (3am in Kinshasa)",
+      "channel_name": "Alec Lomami - Topic",
+      "view_count": 30,
+      "published": "2025-08-28T10:02:29Z",
+      "channel_subscribers": 1,
+      "channel_videos": 4,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.5
+    }
+  },
+  "Roxanne Fortney": {
+    "status": "verified",
+    "video_id": "uaSI4Bl3ZwY",
+    "verified_date": "2026-03-10T09:13:29.696650",
+    "confidence": "channel match, Topic channel, 18 views",
+    "metadata": {
+      "video_title": "Down the street",
+      "channel_name": "Roxanne Fortney - Topic",
+      "view_count": 18,
+      "published": "2025-05-15T10:04:06Z",
+      "channel_subscribers": 5,
+      "channel_videos": 14,
+      "is_topic": true,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_check": "skipped (Topic channel match)",
+      "video_age_years": 0.8
+    }
+  },
+  "Collateral": {
+    "status": "verified",
+    "video_id": "fsaDMSLFRh4",
+    "verified_date": "2026-03-10T09:13:30.953995",
+    "confidence": "channel match, 1,894 views",
+    "metadata": {
+      "video_title": "Collateral - Born [Official Video]",
+      "channel_name": "Collateral Official",
+      "view_count": 1894,
+      "published": "2018-01-20T23:00:01Z",
+      "channel_subscribers": 5,
+      "channel_videos": 3,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 8.1
+    }
+  },
+  "Leave No Doubt, It's the Limit, Paradise, Nemesis": {
+    "status": "rejected",
+    "video_id": "TR3Vdo5etCQ",
+    "rejected_date": "2026-03-10T09:13:32.189531",
+    "reason": "view count 1,244,401,382 exceeds 50,000,000 cap",
+    "metadata": {
+      "video_title": "No Doubt - Don't Speak (Official 4K Music Video)",
+      "channel_name": "NoDoubtVEVO",
+      "view_count": 1244401382,
+      "published": "2009-10-07T19:43:56Z",
+      "channel_subscribers": 622000,
+      "channel_videos": 30,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 16.4,
+      "age_override": "trusted VEVO, skipping age check"
+    }
+  },
+  "founding member Willie Watson": {
+    "status": "verified",
+    "video_id": "NedEQ6sHloE",
+    "verified_date": "2026-03-10T09:13:35.905572",
+    "confidence": "channel match",
+    "metadata": {
+      "video_title": "Willie Watson - Gallows Pole (Official Video)",
+      "channel_name": "Willie Watson",
+      "view_count": 4519412,
+      "published": "2017-09-26T18:14:27Z",
+      "channel_subscribers": 21200,
+      "channel_videos": 31,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 8.4
+    }
+  },
+  "Six More Miles": {
+    "status": "override_null"
+  },
+  "HEATED": {
+    "status": "override_null"
+  },
+  "Honoring JR feat. Audiohum, Riverboys, Krunch, Wonderland, & Buckshot": {
+    "status": "override_null"
+  },
+  "Catiline and Mantaray": {
+    "status": "override_null"
   }
 }

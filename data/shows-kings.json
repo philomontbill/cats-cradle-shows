@@ -270,7 +270,7 @@
       "venue": "Kings",
       "date": "Thu, Apr 2",
       "artist": "Scarhaven",
-      "opener": "Honeyknife",
+      "opener": "Honeyknife, Sub Empty",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/scarhaven",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/01/scarhaven-150x150.png",
@@ -294,6 +294,19 @@
     },
     {
       "venue": "Kings",
+      "date": "Sat, Apr 4",
+      "artist": "NO VISA feat. NATIVESUN & AMARJI KING",
+      "opener": "ALEC LOMAMI, MICKY SLICKS, SEX ON DECKS",
+      "showtime": "9:30pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/no-visa-feat-nativesun-amarji-king",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/03/040426-150x150.jpg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": null,
+      "opener_youtube_id": "x8_oa8GjMvc"
+    },
+    {
+      "venue": "Kings",
       "date": "Wed, Apr 8",
       "artist": "Lowheaven",
       "opener": ".memoria",
@@ -304,23 +317,10 @@
       "doors": null,
       "youtube_id": "23fWcvRoWzg",
       "opener_youtube_id": "m1UV1nec4L8"
-    },
-    {
-      "venue": "Kings",
-      "date": "Thu, Apr 9",
-      "artist": "Boys Go To Jupiter – ‘Now You’re A Circle’ Tour",
-      "opener": "Miki Fiki",
-      "showtime": "8:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "wGbM7Qp0jlc",
-      "opener_youtube_id": "wzynrzRdqH4"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:11:58.461314"
+  "last_updated": "2026-03-10T09:10:57.273189"
 }

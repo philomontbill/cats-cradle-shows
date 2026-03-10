@@ -37,10 +37,12 @@
       "date": "Fri, Mar 13",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "image": "https://local506.com/wp-content/uploads/2026/02/who-they-fear-and-varia-the-visions-2026-tour.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/81900275/who-they-fear-and-variathe-visions-2026-tour-chapel-hill-local-506?partner_id=100",
+      "opener": "Infinxty and As Above So Below",
+      "image": "https://local506.com/wp-content/uploads/2026/03/who-they-fear-and-varia-the-visions-2026-tour-with-infinxty-and-as-above-so-below.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/81900275/who-they-fear-and-variathe-visions-2026-tour-with-infinxty-and-as-above-so-below-chapel-hill-local-506?partner_id=100",
       "notice": null,
-      "youtube_id": "5T--s-V4rk0"
+      "youtube_id": "5T--s-V4rk0",
+      "opener_youtube_id": null
     },
     {
       "venue": "Local 506",
@@ -213,6 +215,19 @@
     },
     {
       "venue": "Local 506",
+      "artist": "Roxanne Fortney",
+      "date": "Fri, Apr 03",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Lisa Pigeon & Friends and Myka Lace",
+      "image": "https://local506.com/wp-content/uploads/2026/03/roxanne-fortney-with-lisa-pigeon-friends-and-myka-lace.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/30794391/roxanne-fortney-with-lisa-pigeon-friends-and-myka-lace-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": "uaSI4Bl3ZwY",
+      "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
       "artist": "Pollute.",
       "date": "Mon, Apr 06",
       "doors": "7 pm",
@@ -314,21 +329,10 @@
       "notice": null,
       "youtube_id": "3m6UtwACBEI",
       "opener_youtube_id": "8MRUIEQePLo"
-    },
-    {
-      "venue": "Local 506",
-      "artist": "Maris",
-      "date": "Sun, Apr 19",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://local506.com/wp-content/uploads/2026/02/04_19_26-Maris-8.5x11-poster.jpg",
-      "ticket_url": "https://local506.com/event/maris/",
-      "notice": null,
-      "youtube_id": "v2VHCvagHWE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-03-09T09:11:47.228237"
+  "last_updated": "2026-03-10T09:10:44.329303"
 }

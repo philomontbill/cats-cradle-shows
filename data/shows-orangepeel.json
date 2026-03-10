@@ -135,11 +135,12 @@
       "date": "Sun, Mar 22",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": null,
+      "opener": "founding member Willie Watson",
       "image": "https://theorangepeel.net/wp-content/uploads/2026/01/old-crow-medicine-show.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/98889913/old-crow-medicine-show-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
-      "youtube_id": "4-NaZzG5eAU"
+      "youtube_id": "4-NaZzG5eAU",
+      "opener_youtube_id": "NedEQ6sHloE"
     },
     {
       "venue": "The Orange Peel",
@@ -285,5 +286,5 @@
   "total_shows": 22,
   "shows_with_video": 19,
   "shows_with_image": 22,
-  "last_updated": "2026-03-09T09:14:29.049916"
+  "last_updated": "2026-03-10T09:13:08.938045"
 }
