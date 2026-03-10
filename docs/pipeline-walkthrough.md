@@ -2,7 +2,7 @@
 
 Plain-English, section-by-section walkthrough of every step in the nightly pipeline.
 
-Last updated: Mar 7, 2026
+Last updated: Mar 10, 2026
 
 ---
 
@@ -19,6 +19,8 @@ Triggered by GitHub Actions at 3:30 AM ET nightly, or manually via `gh workflow 
 ## Step 1: Scrapers
 
 Each venue has its own scraper that inherits from `scrapers/base_scraper.py`. The venue scraper handles getting show data from the venue's website. The base class handles everything after — cleaning artist names, finding YouTube videos, and deciding when to skip searches.
+
+Some scrapers handle multiple sub-venues from the same site. The Mercury East scraper produces separate data files for Bowery Ballroom and Mercury Lounge — both owned by Mercury East Presents and listed on mercuryeastpresents.com. The Cat's Cradle scraper handles Cat's Cradle, Back Room, Motorco, and Haw River Ballroom from catscradle.com. In both cases, the scraper uses structured data (venue-specific pages or CSS selectors) to identify which sub-venue each event belongs to — never full-text search of page content, which picks up venue names from site headers and navigation.
 
 ### 1a. Startup
 
@@ -389,7 +391,7 @@ Three sections in each CSV:
 - **Rejected** — tonight's newly rejected candidates
 - **No Preview** — split into two groups by a separator row:
   - **Actionable** (top) — items with skip reasons: flag, no_results, api_error, code_error. Need review.
-  - **Already Reviewed** (bottom) — items with skip reasons: filtered, reused, no_log. Previously reviewed or not expected to have a video.
+  - **Already Reviewed** (bottom) — items with skip reasons: filtered, reused, no_log. Previously reviewed or not expected to have a video. Within this section, items with "NEW" in the Detail column sort to the top for easier morning triage.
   - Artists already shown in the Rejected section are excluded from No Preview to avoid duplicates.
 
 ### 5g. Daily Report — Email and Sheets
