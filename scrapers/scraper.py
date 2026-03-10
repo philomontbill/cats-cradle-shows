@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import time
+import json
 from base_scraper import BaseScraper
 
 
@@ -131,6 +132,15 @@ class CatsCradleScraper(BaseScraper):
             name = name.strip()
             if name and len(name) > 1 and 'cat' not in name.lower():
                 return name
+
+        # Fallback: JSON-LD structured data (catches broken pages with valid schema)
+        for script in soup.find_all('script', type='application/ld+json'):
+            try:
+                data = json.loads(script.string)
+                if isinstance(data, dict) and data.get('name'):
+                    return data['name'].strip()
+            except (json.JSONDecodeError, TypeError):
+                continue
 
         return None
 

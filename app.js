@@ -385,11 +385,8 @@ class ShowsApp {
         const previousFocus = document.activeElement;
 
         const escapedArtist = this.escapeHtml(artist);
-        const message = role === 'headliner'
-            ? `<p>No preview yet for <strong>${escapedArtist}</strong></p>
-               <p>This may be an event rather than an artist. If we got it wrong, <a href="mailto:info@localsoundcheck.com?subject=Correction for ${encodeURIComponent(artist)}&body=YouTube link:">send us a correction</a>.</p>`
-            : `<p>No preview yet for <strong>${escapedArtist}</strong></p>
-               <p>Are you the artist? <a href="mailto:info@localsoundcheck.com?subject=Preview link for ${encodeURIComponent(artist)}&body=YouTube link:">Send us your link</a></p>`;
+        const message = `<p>No preview yet for <strong>${escapedArtist}</strong>.</p>
+               <p>If you are the band or event and have video we are happy to add it! <a href="mailto:info@localsoundcheck.com?subject=Video for ${encodeURIComponent(artist)}&body=YouTube link:">info@localsoundcheck.com</a></p>`;
 
         const popup = document.createElement('div');
         popup.className = 'no-preview-popup';

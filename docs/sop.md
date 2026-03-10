@@ -182,5 +182,11 @@ Overrides represent human decisions. No automated system — smart filtering, ve
 
 ---
 
-*Last updated: 2026-03-07*
+## 7. Communication Protocol
+
+- When the user ends a request with **"Understand?"** — respond with your understanding and **take no action** until the user confirms you understood correctly. Do not write code, edit files, or make changes until agreement is reached.
+
+---
+
+*Last updated: 2026-03-10*
 *Document created after override authority chain audit revealed multiple decision conflicts.*

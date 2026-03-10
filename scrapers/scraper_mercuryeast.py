@@ -28,14 +28,14 @@ class MercuryEastScraper(BaseScraper):
             'location': 'New York, NY',
             'website': 'https://www.boweryballroom.com',
             'output': 'data/shows-boweryballroom.json',
-            'filter': 'bowery'
+            'venue_page': '/tm-venue/bowery-ballroom/'
         },
         'mercurylounge': {
             'name': 'Mercury Lounge',
             'location': 'New York, NY',
             'website': 'https://www.mercuryloungenyc.com',
             'output': 'data/shows-mercurylounge.json',
-            'filter': 'mercury lounge'
+            'venue_page': '/tm-venue/mercury-lounge/'
         }
     }
 
@@ -68,77 +68,102 @@ class MercuryEastScraper(BaseScraper):
         return self.all_events
 
     def _fetch_all_events(self):
-        """Fetch and parse all events from the main page."""
-        try:
-            # Fetch both venue pages to get all events
-            events = []
+        """Fetch events from venue-specific pages (/tm-venue/) for reliable separation.
 
-            for venue_key in self.VENUES.keys():
-                url = f"{self.base_url}/{venue_key}"
+        Uses structured HTML (tw-details-container cards) which include artist,
+        date, doors, opener, and venue — no full-text guessing needed.
+        """
+        events = []
+
+        for venue_key, venue_config in self.VENUES.items():
+            url = f"{self.base_url}{venue_config['venue_page']}"
+            try:
                 response = requests.get(url, headers=self.headers, timeout=15)
                 response.raise_for_status()
+            except requests.RequestException as e:
+                print(f"Error fetching {venue_config['name']} events: {e}")
+                continue
 
-                # Parse EventData.events.push() calls from JavaScript
-                # Pattern handles nested braces in the data object
-                pattern = r'EventData\.events\.push\(\{"value"\s*:\s*"([^"]+)"[^}]+?"url"\s*:\s*"([^"]+)"'
-                matches = re.findall(pattern, response.text)
+            soup = BeautifulSoup(response.text, 'html.parser')
 
-                for value, url in matches:
-                    # Unescape JavaScript string escapes (e.g. \' → ')
-                    value = value.replace("\\'", "'")
-                    event = self._parse_event_data(value, url)
-                    if event and event not in events:
-                        events.append(event)
+            for card in soup.find_all('div', class_='tw-details-container'):
+                # Artist name
+                name_el = card.find('div', class_='tw-name')
+                if not name_el:
+                    continue
+                link = name_el.find('a', href=re.compile(r'/tm-event/'))
+                if not link:
+                    continue
 
-            return events
+                artist = link.get_text(strip=True)
+                event_url = link.get('href', '')
+                if not artist or not event_url:
+                    continue
 
-        except Exception as e:
-            print(f"Error fetching events: {e}")
-            return []
+                # Clean SOLD OUT prefix
+                artist = artist.replace('&amp;', '&')
+                artist = re.sub(r'^\*?SOLD OUT\*?\s*', '', artist, flags=re.IGNORECASE)
 
-    def _parse_event_data(self, value, url):
-        """Parse event data from value and url."""
-        try:
-            # Parse artist and date from value like "The Veldt 02/03"
-            date_match = re.search(r'\s+(\d{2}/\d{2})$', value)
-            if date_match:
-                date_str = date_match.group(1)
-                artist = value[:date_match.start()].strip()
-            else:
-                date_str = ""
-                artist = value.strip()
+                # Date (e.g. "Tue Mar 10, 2026")
+                date_el = card.find('span', class_='tw-event-date')
+                date_raw = date_el.get_text(strip=True) if date_el else ''
 
-            # Clean up HTML entities
-            artist = artist.replace('&amp;', '&')
+                # Doors (e.g. "Doors: 7:00 pm")
+                time_el = card.find('span', class_='tw-event-time')
+                doors = None
+                if time_el:
+                    time_text = time_el.get_text(strip=True)
+                    doors_match = re.search(r'(\d{1,2}(?::\d{2})?\s*[ap]m)', time_text, re.IGNORECASE)
+                    if doors_match:
+                        doors = doors_match.group(1).lower()
 
-            # Skip if artist contains "SOLD OUT" prefix - we'll get this from the page
-            artist = re.sub(r'^\*?SOLD OUT\*?\s*', '', artist, flags=re.IGNORECASE)
+                # Opener (e.g. "with Niall Connolly")
+                opener_el = card.find('div', class_='tw-attractions')
+                opener = None
+                if opener_el:
+                    opener_text = opener_el.get_text(strip=True)
+                    with_match = re.match(r'with\s*(.+)', opener_text, re.IGNORECASE)
+                    if with_match:
+                        opener = with_match.group(1).strip()
 
-            return {
-                'artist': artist,
-                'date_raw': date_str,
-                'event_url': url
-            }
+                # Sold out
+                notice = None
+                if 'sold out' in (name_el.get_text(strip=True)).lower():
+                    notice = 'Sold Out'
 
-        except Exception:
-            return None
+                # Deduplicate by URL
+                if any(e['event_url'] == event_url for e in events):
+                    continue
+
+                events.append({
+                    'artist': artist,
+                    'date_raw': date_raw,
+                    'event_url': event_url,
+                    'source_venue': venue_key,
+                    'doors': doors,
+                    'opener': opener,
+                    'notice': notice
+                })
+
+        return events
 
     def _process_venue(self, venue_key, venue_config):
         """Process events for a specific venue."""
         shows = []
 
-        # Filter events by fetching each event page and checking venue
+        # Filter events by source venue tag (set during fetch)
         venue_events = []
 
         print(f"Checking events for {venue_config['name']}...")
 
         for event in self.all_events:
-            # Fetch event page to get venue and details
+            if event.get('source_venue') != venue_key:
+                continue
+            # Fetch event detail page for image (artist/date/opener already from venue page)
             details = self._fetch_event_details(event['event_url'])
-
-            if details and venue_config['filter'].lower() in details.get('venue', '').lower():
-                event.update(details)
-                venue_events.append(event)
+            if details:
+                event['image'] = details.get('image')
+            venue_events.append(event)
 
         print(f"Found {len(venue_events)} events at {venue_config['name']}\n")
 
@@ -146,6 +171,8 @@ class MercuryEastScraper(BaseScraper):
             return
 
         # Build show list
+        # TODO: /tm-venue/ pages currently return only ~20 events each.
+        # Investigate if they paginate — goal is 40+ per venue so each gets 20+ with videos.
         for event in venue_events[:25]:
             show = self._create_show(event, venue_config)
             if show:
@@ -178,23 +205,10 @@ class MercuryEastScraper(BaseScraper):
             details = self._parse_description(description)
             details['image'] = image
 
-            # Try to determine venue from page content
-            page_text = soup.get_text().lower()
-            if 'bowery ballroom' in page_text:
-                details['venue'] = 'Bowery Ballroom'
-            elif 'mercury lounge' in page_text:
-                details['venue'] = 'Mercury Lounge'
-            else:
-                # Check URL or other indicators
-                if 'bowery' in url.lower():
-                    details['venue'] = 'Bowery Ballroom'
-                else:
-                    details['venue'] = 'Mercury Lounge'
-
             return details
 
-        except Exception as e:
-            return {'venue': ''}
+        except Exception:
+            return None
 
     def _parse_description(self, description):
         """Parse event description for opener, door time, etc."""
@@ -240,18 +254,11 @@ class MercuryEastScraper(BaseScraper):
 
     def _create_show(self, event, venue_config):
         """Create a show dict from event data."""
-        # Format date
+        # Format date — venue page gives "Tue Mar 10, 2026", we want "Tue, Mar 10"
         date = "TBD"
         if event.get('date_raw'):
             try:
-                # Parse MM/DD format
-                current_year = datetime.now().year
-                parsed = datetime.strptime(f"{event['date_raw']}/{current_year}", "%m/%d/%Y")
-
-                # If date is in the past, assume next year
-                if parsed.date() < datetime.now().date():
-                    parsed = parsed.replace(year=current_year + 1)
-
+                parsed = datetime.strptime(event['date_raw'], "%a %b %d, %Y")
                 date = parsed.strftime("%a, %b %d")
             except (ValueError, TypeError):
                 date = event['date_raw']

@@ -81,7 +81,8 @@
           "name": "New York City",
           "tagline": "What's playing in New York tonight?",
           "venues": [
-            { "slug": "boweryballroom", "name": "Bowery Ballroom", "city": "New York", "website": "https://www.boweryballroom.com" }
+            { "slug": "boweryballroom", "name": "Bowery Ballroom", "city": "New York", "website": "https://www.boweryballroom.com" },
+            { "slug": "mercurylounge", "name": "Mercury Lounge", "city": "New York", "website": "https://www.mercuryloungenyc.com" }
           ]
         }
       ]

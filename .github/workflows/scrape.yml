@@ -163,7 +163,7 @@ jobs:
               ['Mohawk', '${{ steps.scrape_mohawk.outcome }}'],
               ['Elevation 27', '${{ steps.scrape_elevation27.outcome }}'],
               ['The Social', '${{ steps.scrape_thesocial.outcome }}'],
-              ['Bowery Ballroom', '${{ steps.scrape_mercuryeast.outcome }}'],
+              ['Bowery Ballroom / Mercury Lounge', '${{ steps.scrape_mercuryeast.outcome }}'],
               ['Neighborhood Theatre', '${{ steps.scrape_neighborhood.outcome }}'],
               ['The Orange Peel', '${{ steps.scrape_orangepeel.outcome }}'],
               ['Scrape Monitor', '${{ steps.monitor.outcome }}'],
