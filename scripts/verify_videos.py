@@ -777,8 +777,9 @@ def build_csv(tonight, states, all_shows_data, old_states):
     for row in actionable_rows:
         writer.writerow(row)
 
-    # Separator row with count, then expected items
+    # Separator row with count, then expected items (NEW first)
     if expected_rows:
+        expected_rows.sort(key=lambda r: (0 if r[7].startswith("NEW") else 1))
         writer.writerow(["---", f"Already Reviewed ({len(expected_rows)} items below — filtered/reused/no_log)",
                          "", "", "", "", "", "", ""])
         for row in expected_rows:
