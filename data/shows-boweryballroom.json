@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Chasing Abbey",
-      "date": "Tue, Mar 10",
-      "venue": "Bowery Ballroom",
-      "opener": "Niall Connolly",
-      "notice": null,
-      "doors": "7:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-3/",
-      "youtube_id": "Y43GhbUyamg",
-      "opener_youtube_id": "MQZw_x7pc_U"
-    },
-    {
       "artist": "Glitterer",
       "date": "Wed, Mar 11",
       "venue": "Bowery Ballroom",
@@ -29,7 +16,7 @@
       "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
       "youtube_id": "WNygkxYbU6w",
-      "opener_youtube_id": "DcMiK_FLW7Y"
+      "opener_youtube_id": null
     },
     {
       "artist": "WHATMORE",
@@ -45,7 +32,7 @@
       "opener_youtube_id": "jarVx2qCh18"
     },
     {
-      "artist": "Taiki Nulight – cheeky bugger tour",
+      "artist": "Taiki Nulight \u2013 cheeky bugger tour",
       "date": "Sat, Mar 14",
       "venue": "Bowery Ballroom",
       "opener": "Rohaan",
@@ -58,7 +45,7 @@
       "opener_youtube_id": "I6TuqnTDEeA"
     },
     {
-      "artist": "Sienna Spiro – The Visitor Tour",
+      "artist": "Sienna Spiro \u2013 The Visitor Tour",
       "date": "Tue, Mar 17",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -70,7 +57,7 @@
       "youtube_id": "orp5Kpwweiw"
     },
     {
-      "artist": "Sienna Spiro – The Visitor Tour",
+      "artist": "Sienna Spiro \u2013 The Visitor Tour",
       "date": "Wed, Mar 18",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -130,7 +117,7 @@
       "image": "https://s1.ticketm.net/dam/e/f5f/b4bc0ee7-0a29-48e7-8a1b-a3727df64f5f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/slomosa/",
       "youtube_id": "bXcUtP_O0J4",
-      "opener_youtube_id": null
+      "opener_youtube_id": "Tsm2ZpD8fpM"
     },
     {
       "artist": "Club 90s: Heated RivalRave",
@@ -154,11 +141,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/1c5/afb4ceeb-968c-4f2d-9d94-c62d49cc41c5_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/9th-st-groove/",
-      "youtube_id": null,
+      "youtube_id": "R3CovVLDGeI",
       "opener_youtube_id": null
     },
     {
-      "artist": "Sons of Legion – Soul to SØL Tour",
+      "artist": "Sons of Legion \u2013 Soul to S\u00d8L Tour",
       "date": "Tue, Mar 31",
       "venue": "Bowery Ballroom",
       "opener": "Benny G",
@@ -167,11 +154,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sons-of-legion-soul-to-sol-tour-3/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "1jELuAbaEM4",
+      "opener_youtube_id": "_IAr7SK6mzA"
     },
     {
-      "artist": "Sons of Legion – Soul to SØL Tour",
+      "artist": "Sons of Legion \u2013 Soul to S\u00d8L Tour",
       "date": "Wed, Apr 01",
       "venue": "Bowery Ballroom",
       "opener": "Benny G",
@@ -180,8 +167,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sons-of-legion-soul-to-sol-tour-4/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "1jELuAbaEM4",
+      "opener_youtube_id": "_IAr7SK6mzA"
     },
     {
       "artist": "Luna",
@@ -194,7 +181,7 @@
       "image": "https://s1.ticketm.net/dam/e/280/42549ac5-f976-4d01-9a33-7ba7c973e280_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/luna/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "PjIRos72N0Y"
     },
     {
       "artist": "Luna",
@@ -207,7 +194,7 @@
       "image": "https://s1.ticketm.net/dam/e/465/d10051a6-1dcd-4d88-bdff-d026f3a45465_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/luna-2/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "bEyhHv9Y4eE"
     },
     {
       "artist": "Luna",
@@ -232,10 +219,10 @@
       "image": "https://s1.ticketm.net/dam/a/b3a/e4ea5722-4b7e-4e40-9a54-da1e7be04b3a_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/yung-kai/",
       "youtube_id": "iQmvTvGJfQs",
-      "opener_youtube_id": null
+      "opener_youtube_id": "8UgjNbjJrjY"
     },
     {
-      "artist": "Glen Hansard – Don’t Settle",
+      "artist": "Glen Hansard \u2013 Don\u2019t Settle",
       "date": "Thu, Apr 09",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -244,10 +231,22 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c7f/45fd4a47-b81b-4b2f-bd0c-c2a98dbb2c7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glen-hansard-dont-settle/",
+      "youtube_id": "2em8B4ARSTE"
+    },
+    {
+      "artist": "All Your Friends: The Indie Party",
+      "date": "Fri, Apr 10",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "9:30 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/02c/39d220ac-566c-420b-888a-102fc07bf02c_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/all-your-friends-the-indie-party-2/",
       "youtube_id": null
     },
     {
-      "artist": "Poison Ruïn",
+      "artist": "Poison Ru\u00efn",
       "date": "Sat, Apr 11",
       "venue": "Bowery Ballroom",
       "opener": null,
@@ -256,11 +255,11 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/36b/4bbe3b36-dba7-4ad9-8ca2-5108cc01c36b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/poison-ruin/",
-      "youtube_id": null
+      "youtube_id": "zvXfdWbS5W4"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 10,
+  "shows_with_video": 15,
   "shows_with_image": 20,
-  "last_updated": "2026-03-10T11:31:43.434478"
+  "last_updated": "2026-03-11T09:11:42.375045"
 }

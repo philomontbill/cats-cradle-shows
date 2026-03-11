@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Blax: The Money, Prayers & Abundance Tour",
-      "date": "Tue, Mar 10",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Product of Hip Hop and Concept",
-      "image": "https://local506.com/wp-content/uploads/2026/01/blax-the-money-prayers-abundance-tour-with-product-of-hip-hop-and-concept-1.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/68443483/blaxthe-moneyprayers-abundance-tour-with-product-of-hip-hop-and-concept-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "ZYBtarkEQZU",
-      "opener_youtube_id": "Lxtbhqklnwo"
-    },
-    {
-      "venue": "Local 506",
       "artist": "The Unsustainables and Bad Leavers",
       "date": "Wed, Mar 11",
       "doors": "7 pm",
@@ -329,10 +316,21 @@
       "notice": null,
       "youtube_id": "3m6UtwACBEI",
       "opener_youtube_id": "8MRUIEQePLo"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Maris",
+      "date": "Sun, Apr 19",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://local506.com/wp-content/uploads/2026/02/04_19_26-Maris-8.5x11-poster.jpg",
+      "ticket_url": "https://local506.com/event/maris/",
+      "notice": null,
+      "youtube_id": "v2VHCvagHWE"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 23,
   "shows_with_image": 25,
-  "last_updated": "2026-03-10T09:10:44.329303"
+  "last_updated": "2026-03-11T09:10:53.489826"
 }

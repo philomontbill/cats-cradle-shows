@@ -7,30 +7,6 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Tue, Mar 10",
-      "artist": "Meet Me @ The Altar [Rescheduled from 1/26]",
-      "opener": "Pollyanna, Weymouth",
-      "showtime": "7:30pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/meet-me-the-altar-rescheduled-from-1-26",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/mmata-150x150.jpg",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "waQ9BKMacII",
-      "opener_youtube_id": "f1EVoVOSK5k"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 10",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-2",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
       "date": "Wed, Mar 11",
       "artist": "Two-Piece",
       "opener": "Recount, Chained, Vanta",
@@ -45,7 +21,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 13",
-      "artist": "JULIA. – ‘Fish in the Percolator’ Album Release Show",
+      "artist": "JULIA. \u2013 \u2018Fish in the Percolator\u2019 Album Release Show",
       "opener": "Zack Mexico, Zones",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/julia-fish-in-the-percolator-album-release-show",
@@ -58,7 +34,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
@@ -95,17 +71,6 @@
     {
       "venue": "Kings",
       "date": "Tue, Mar 17",
-      "artist": "[Late] Sub Rosa",
-      "showtime": "10:00pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": "FdoBIPwu5HA"
-    },
-    {
-      "venue": "Kings",
-      "date": "Tue, Mar 17",
       "artist": "[Early show] Westerman",
       "opener": "Otto Benson",
       "showtime": "7:30pm",
@@ -115,6 +80,17 @@
       "doors": null,
       "youtube_id": "Ch1lNNwwa90",
       "opener_youtube_id": "x5830sQZWNg"
+    },
+    {
+      "venue": "Kings",
+      "date": "Tue, Mar 17",
+      "artist": "[Late] Sub Rosa",
+      "showtime": "10:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/sub-rosa-3",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/06/SRkings_4x5main-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "FdoBIPwu5HA"
     },
     {
       "venue": "Kings",
@@ -132,7 +108,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 20",
-      "artist": "Moondoggy – ‘Around the Fire’ US Tour",
+      "artist": "Moondoggy \u2013 \u2018Around the Fire\u2019 US Tour",
       "opener": "Magenta Wave",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/moondoggy",
@@ -195,7 +171,7 @@
     {
       "venue": "Kings",
       "date": "Thu, Mar 26",
-      "artist": "Psychic Scream – EP Release Show",
+      "artist": "Psychic Scream \u2013 EP Release Show",
       "opener": "Summer of Snakes, Le Mona, Delver",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/psychic-scream-ep-release-show",
@@ -208,7 +184,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Mar 27",
-      "artist": "Raleigh Comedy Festival 2026 – Friday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Friday Night",
       "opener": "Jourdain Fisher",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-friday-night",
@@ -221,7 +197,7 @@
     {
       "venue": "Kings",
       "date": "Sat, Mar 28",
-      "artist": "Raleigh Comedy Festival 2026 – Saturday Night",
+      "artist": "Raleigh Comedy Festival 2026 \u2013 Saturday Night",
       "opener": "Al Flynn",
       "showtime": "8:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/raleigh-comedy-festival-2026-saturday-night",
@@ -282,7 +258,7 @@
     {
       "venue": "Kings",
       "date": "Fri, Apr 3",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
+      "artist": "The Great Cover Up 2026 \u2013 Make-Up Night!",
       "opener": "Paul Siler",
       "showtime": "7:15pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night-2",
@@ -317,10 +293,36 @@
       "doors": null,
       "youtube_id": "23fWcvRoWzg",
       "opener_youtube_id": "m1UV1nec4L8"
+    },
+    {
+      "venue": "Kings",
+      "date": "Thu, Apr 9",
+      "artist": "Boys Go To Jupiter \u2013 \u2018Now You\u2019re A Circle\u2019 Tour",
+      "opener": "Miki Fiki",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/boys-go-to-jupiter",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/bgtj-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "wGbM7Qp0jlc",
+      "opener_youtube_id": "GRrYWrAE6kk"
+    },
+    {
+      "venue": "Kings",
+      "date": "Fri, Apr 10",
+      "artist": "rum.gold",
+      "opener": "Nathan Bajar",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/rum-gold",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/11/bf8a165e10057ab9a97d53c1f84b4fc9e22879e76f74fb476abfa9879c49d4e5_a31efe33798b5305c69fbe91f8d508dd6724e667090cf834c765657671571201-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "m-tdDgamyTI",
+      "opener_youtube_id": "wuSWM7FHLnE"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 18,
   "shows_with_image": 25,
-  "last_updated": "2026-03-10T09:10:57.273189"
+  "last_updated": "2026-03-11T09:11:06.626933"
 }

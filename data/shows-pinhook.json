@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Cootie Catcher / Edna Mode / Charlie Paso",
-      "date": "Tue, Mar 10",
-      "doors": "7:30 pm",
-      "showtime": "8 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2025/11/etix-Cootie_1296501764489999.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/33741141/cootie-catcher-edna-mode-charlie-paso-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "W3XYuydCAe4"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Secret Monkey Weekend / Kenmujo / Kid Alumni",
       "date": "Wed, Mar 11",
       "doors": "7:30 pm",
@@ -141,9 +130,9 @@
       "venue": "The Pinhook",
       "artist": "BIG POP SHOW: Lifeguard / Mail / Sects / Warm Frames",
       "date": "Sun, Mar 22",
-      "doors": "6:30 pm",
+      "doors": "6 pm",
       "showtime": "7 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/big-pop-up-show.jfif",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/03/big-pop-show-lifeguard-mail-sects-warm-frames.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/35739706/big-pop-showlifeguard-mail-sects-warm-frames-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "Bjn2LoYQ2KY"
@@ -211,6 +200,17 @@
       "showtime": "4 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/conjunto-breve-africa-unplugged.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/81992746/conjunto-breve-africa-unplugged-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Blends With Friends (Open Decks)",
+      "date": "Wed, Apr 01",
+      "doors": "7:30 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Blends_1298481768149959.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/71366228/blends-with-friends-open-decks-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": null
     },
@@ -284,7 +284,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 16,
   "shows_with_image": 25,
-  "last_updated": "2026-03-10T09:10:49.224301"
+  "last_updated": "2026-03-11T09:10:57.400166"
 }

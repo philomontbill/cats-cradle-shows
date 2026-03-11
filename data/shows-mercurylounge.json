@@ -6,31 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Chasing Abbey *MOVED TO BOWERY BALLROOM*",
-      "date": "Tue, Mar 10",
-      "venue": "Mercury Lounge",
-      "opener": null,
-      "notice": null,
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey-2/",
-      "youtube_id": null
-    },
-    {
-      "artist": "Belle Blue",
-      "date": "Tue, Mar 10",
-      "venue": "Mercury Lounge",
-      "opener": "King Falcon",
-      "notice": null,
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/7f8/b6e5dff6-2683-479b-b781-9c58cc1eb7f8_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/belle-blue/",
-      "youtube_id": null,
-      "opener_youtube_id": null
-    },
-    {
       "artist": "Chasing Abbey",
       "date": "Wed, Mar 11",
       "venue": "Mercury Lounge",
@@ -40,8 +15,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "Y43GhbUyamg",
+      "opener_youtube_id": "MQZw_x7pc_U"
     },
     {
       "artist": "Radium Dolls",
@@ -53,8 +28,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/269/426750e0-8481-4cef-bdf5-40169a566269_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/radium-dolls/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "tX44b9xd224",
+      "opener_youtube_id": "W4ND6sH-Q8w"
     },
     {
       "artist": "Noah Pope, Renny Conti, James Eichman",
@@ -66,7 +41,7 @@
       "showtime": null,
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/noah-pope-flyer.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/renny-conti-noah-pope-james-eichman-solo-acoustic/",
-      "youtube_id": null
+      "youtube_id": "b1gx_VtE21A"
     },
     {
       "artist": "Yo Guys",
@@ -90,7 +65,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/f62/ceae0603-bebc-447e-8a5c-c3d0a3084f62_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/cailin-russo/",
-      "youtube_id": null
+      "youtube_id": "ePbjWGnEzk4"
     },
     {
       "artist": "HLWA",
@@ -103,10 +78,10 @@
       "image": "https://s1.ticketm.net/dam/e/a16/4963dbd5-d7cd-435b-acb6-1668d4781a16_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/hlwa/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "CqyIxcHxaXg"
     },
     {
-      "artist": "Kevin Devine & The Goddamn Band are Kenny O’Brien & The O’Douls",
+      "artist": "Kevin Devine & The Goddamn Band are Kenny O\u2019Brien & The O\u2019Douls",
       "date": "Sat, Mar 14",
       "venue": "Mercury Lounge",
       "opener": "Casey Jost",
@@ -116,7 +91,7 @@
       "image": "https://s1.ticketm.net/dam/e/fd0/9fcfcd98-6e7f-4f42-bb13-1e941ad88fd0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kevin-devine-the-goddamn-band-are-kenny-obrien-the-odouls/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "qdPWmOYkjvg"
     },
     {
       "artist": "The Red Party: THE BOOTBLACKS + THE DISCUSSION LIVE!",
@@ -129,7 +104,7 @@
       "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Red_0314_discussion_bootblacks.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-the-bootblacks-the-discussion-live/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "9uKhCouPVXU"
     },
     {
       "artist": "Kause",
@@ -141,7 +116,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/505/9a30271b-d8cf-436e-9be2-790326295505_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kause/",
-      "youtube_id": null,
+      "youtube_id": "XeLoU1fC_hA",
       "opener_youtube_id": null
     },
     {
@@ -154,8 +129,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/9b3/c0de1411-ea22-40d5-9f81-a65e13fa09b3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/gavin-marengi-w-the-national-reserve-rozlyn/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "TXUpTpM-9GE",
+      "opener_youtube_id": "qZe9xLJu7x8"
     },
     {
       "artist": "See Plus, Smilley, KAGE! & Blakestyle (duo)",
@@ -167,7 +142,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/e37/09bfa68b-d09b-49a3-940e-8da205dc4e37_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/see-plus-smilley-kage-blakestyle-duo/",
-      "youtube_id": null,
+      "youtube_id": "ulrrAmFAryI",
       "opener_youtube_id": null
     },
     {
@@ -175,12 +150,12 @@
       "date": "Tue, Mar 17",
       "venue": "Mercury Lounge",
       "opener": "Barrett",
-      "notice": null,
+      "notice": "Sold Out",
       "doors": "9:00 pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d7d/396eb455-5e72-4c15-afed-a66ecd8c6d7d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/buffalo-traffic-jam/",
-      "youtube_id": null,
+      "youtube_id": "hdsGQYYgrbs",
       "opener_youtube_id": null
     },
     {
@@ -193,7 +168,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/bc8/ca54d00f-80f2-4029-8d9d-e26ab2e02bc8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jenny-kern-mari-allison-strong/",
-      "youtube_id": null,
+      "youtube_id": "nnPQ4y7POJU",
       "opener_youtube_id": null
     },
     {
@@ -206,8 +181,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a3d/60466518-5195-4ddb-b5ec-d83203eb6a3d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jordan-astra/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "PkDY8N2sC9M",
+      "opener_youtube_id": "Lo_u-oMGMgQ"
     },
     {
       "artist": "Aaron Abramowitz, Kate Keller",
@@ -219,7 +194,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/774/395e2c8c-24d3-4358-bd38-be696c4b8774_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/aaron-abramowitz-kate-keller/",
-      "youtube_id": null
+      "youtube_id": "WtsMdmRBvjA"
     },
     {
       "artist": "Talk Radio",
@@ -232,7 +207,7 @@
       "image": "https://s1.ticketm.net/dam/e/d13/2fc91bc2-3a53-4369-80c9-df74951cdd13_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/talk-radio/",
       "youtube_id": null,
-      "opener_youtube_id": null
+      "opener_youtube_id": "-I_OqtdDrkY"
     },
     {
       "artist": "The Sophs",
@@ -244,8 +219,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c78/54104858-7213-4e84-a009-ad54f351bc78_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/the-sophs/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "KxSEC_0qBg0",
+      "opener_youtube_id": "pZpqM8kfx3c"
     },
     {
       "artist": "Grrrl Gang",
@@ -257,12 +232,38 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/bc8/899be1f8-d84f-42e7-8de2-5f3b95c8bbc8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/grrrl-gang/",
-      "youtube_id": null,
-      "opener_youtube_id": null
+      "youtube_id": "WGYZo3VzdTc",
+      "opener_youtube_id": "Fdrrrym4ZB8"
+    },
+    {
+      "artist": "Darryl Rahn",
+      "date": "Sat, Mar 21",
+      "venue": "Mercury Lounge",
+      "opener": "mer marcum",
+      "notice": null,
+      "doors": "6:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/6ab/3591d2a0-bf99-46e2-a7dc-1adce5adf6ab_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/darryl-rahn/",
+      "youtube_id": "13vJM2mDUjw",
+      "opener_youtube_id": "b445Q99zX7c"
+    },
+    {
+      "artist": "Ulrika Spacek",
+      "date": "Sat, Mar 21",
+      "venue": "Mercury Lounge",
+      "opener": "Gloorp",
+      "notice": null,
+      "doors": "9:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/406/a4734b9b-2f50-4a8e-badd-a822ca7fd406_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ulrika-spacek/",
+      "youtube_id": "AR_uf1a0sJ4",
+      "opener_youtube_id": "ZZihpKjynYU"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 0,
+  "shows_with_video": 16,
   "shows_with_image": 20,
-  "last_updated": "2026-03-10T11:32:05.725187"
+  "last_updated": "2026-03-11T09:12:04.035153"
 }

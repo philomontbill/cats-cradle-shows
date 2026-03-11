@@ -20,32 +20,6 @@
       "expired": true
     },
     {
-      "artist": "Aterciopelados",
-      "date": "Tue, Mar 10",
-      "venue": "Cat's Cradle",
-      "opener": "An Evening With",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Aterciopelados_2143351767717983.jpg",
-      "event_url": "https://catscradle.com/event/aterciopelados-2/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "sUlsTs2ljaE",
-      "opener_youtube_id": null
-    },
-    {
-      "artist": "Bedroom Division & William Hinson",
-      "date": "Tue, Mar 10",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Lennon KC",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Bedroom_2131571767184778.jpg",
-      "event_url": "https://catscradle.com/event/bedroom-division-william-hinson/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "2jEdgHG09gI",
-      "opener_youtube_id": "c1BRzAEkDCU"
-    },
-    {
       "artist": "Los Straitjackets & Deke Dickerson",
       "date": "Wed, Mar 11",
       "venue": "Cat's Cradle Back Room",
@@ -310,6 +284,31 @@
       "opener_youtube_id": "lGM2b-6P6kc"
     },
     {
+      "artist": "Emerson Bruno and The Undercurrents",
+      "date": "Fri, Mar 27",
+      "venue": "Cat's Cradle Back Room",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/03/emerson-bruno-and-the-undercurrents.jpg",
+      "event_url": "https://catscradle.com/event/emerson-bruno-and-the-undercurrents/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Hudson Freeman",
+      "date": "Sat, Mar 28",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Ruby Plume",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Hudson_2043501763381357.jpg",
+      "event_url": "https://catscradle.com/event/hudson-freeman/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "m1yidEG3nm4",
+      "opener_youtube_id": "v03fr0UR6MM"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -324,7 +323,7 @@
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 19,
+  "shows_with_video": 17,
   "shows_with_image": 24,
-  "last_updated": "2026-03-10T09:10:37.264584"
+  "last_updated": "2026-03-11T09:10:46.691300"
 }

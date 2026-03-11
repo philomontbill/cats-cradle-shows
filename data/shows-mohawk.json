@@ -22,14 +22,14 @@
       "artist": "Gogol Bordello",
       "date": "Thu, Mar 12",
       "venue": "Mohawk Outdoor",
-      "opener": "Boris and the Joy, Puzzled Panther",
+      "opener": "Boris and the Joy, Puzzled Panther, Grace Bergere, Pons, Tipa Tipo",
       "notice": "Sold Out",
       "doors": "7:00pm",
-      "showtime": "8:00pm",
+      "showtime": "7:30pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648596598035",
       "ticket_url": "https://www.etix.com/ticket/p/98041219/gogol-bordello-austin-resound-presents",
       "youtube_id": "SkkIwO_X4i4",
-      "opener_youtube_id": "XiqXpTolqug"
+      "opener_youtube_id": "6-jjpzWoeMA"
     },
     {
       "artist": "SXSW: The Billboard House",
@@ -87,7 +87,7 @@
       "artist": "SXSW: Pudgy Rodeo",
       "date": "Mon, Mar 16",
       "venue": "Mohawk Outdoor",
-      "opener": "Babychiefdo It, The Paradox, Sosocamo, DJ Set From Illykimchi, Oogie Mane, Knox Write, Rickfromtexas, + More!",
+      "opener": "Babychiefdo It, The Paradox, Sosocamo, Stevie Bill, DJ Set From Illykimchi, Oogie Mane, Max Evasion, Knox Write, Rickfromtexas",
       "notice": null,
       "doors": "8:00pm",
       "showtime": "8:00pm",
@@ -100,27 +100,14 @@
       "artist": "SXSW: Monster Children Showcase",
       "date": "Tue, Mar 17",
       "venue": "Mohawk Outdoor",
-      "opener": "Rocket, La Texana, Mainliners, Sex Mask, Very Nice Person, Swapmeet, Zastava",
+      "opener": "Rocket, La Texana, Mainliners, Sex Mask, Very Nice Person, Swapmeet, Zastava, Torture and the Desert Spiders, Glaze, Pink Breath of Heaven, Horsepower, Victor Jones",
       "notice": null,
       "doors": "7:00pm",
       "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648475647385",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648468490755",
       "ticket_url": "http://www.prekindle.com/promo/id/-2852852648475692234",
       "youtube_id": null,
       "opener_youtube_id": "iZ4EikpB4RU"
-    },
-    {
-      "artist": "SXSW: Very Necessary Showcase",
-      "date": "Wed, Mar 18",
-      "venue": "Mohawk Indoor",
-      "opener": "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, + Special Guests!",
-      "notice": null,
-      "doors": "7:00pm",
-      "showtime": "8:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648485198246",
-      "ticket_url": "https://www.verynecessary.co/",
-      "youtube_id": null,
-      "opener_youtube_id": null
     },
     {
       "artist": "Heated Rivalry Dance Party",
@@ -266,14 +253,14 @@
       "artist": "Drug Church, White Reaper",
       "date": "Sat, Apr 04",
       "venue": "Mohawk Outdoor",
-      "opener": "Death Lens",
+      "opener": "Death Lens, Drip-Fed",
       "notice": null,
       "doors": "6:00pm",
       "showtime": "7:00pm",
       "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648540107010",
       "ticket_url": "https://www.etix.com/ticket/p/32469192/drug-church-x-white-reaper-austin-resound-presents",
       "youtube_id": "vjyK81x0fzk",
-      "opener_youtube_id": null
+      "opener_youtube_id": "vUwRnKgPR1Y"
     },
     {
       "artist": "Sarah Kinsley",
@@ -289,7 +276,7 @@
       "opener_youtube_id": "Rp6jCtnhCDs"
     },
     {
-      "artist": "Touch\u00e9 Amor\u00e9",
+      "artist": "Touché Amoré",
       "date": "Wed, Apr 08",
       "venue": "Mohawk Outdoor",
       "opener": "Jeromes Dream, Porcelain",
@@ -326,10 +313,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/89827606/collateral-austin-mohawk-austintxindoor",
       "youtube_id": "fsaDMSLFRh4",
       "opener_youtube_id": null
+    },
+    {
+      "artist": "Indigo De Souza",
+      "date": "Sat, Apr 11",
+      "venue": "Mohawk Outdoor",
+      "opener": "Mothé",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "9:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593523714",
+      "ticket_url": "https://www.etix.com/ticket/p/66902831/indigo-de-souza-austin-resound-presents",
+      "youtube_id": "Vac5K2i8Blk",
+      "opener_youtube_id": "VCtWfh4N80s"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 18,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-10T09:11:03.028803"
+  "last_updated": "2026-03-11T09:11:12.292734"
 }

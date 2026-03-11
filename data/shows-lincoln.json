@@ -111,14 +111,14 @@
     },
     {
       "venue": "Lincoln Theatre",
-      "artist": "Heads Up Penny – Presented by East Coast Entertainment",
+      "artist": "Heads Up Penny – Presented by EastCoast Entertainment",
       "date": "Sun, Mar 22",
       "doors": "7 pm",
       "showtime": "7:30 pm",
       "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/Heads-Up-Penny.jpg",
       "ticket_url": "https://lincolntheatre.com/event/heads-up-penny-presented-by-east-coast-entertainment/",
       "notice": null,
-      "youtube_id": "gPF2aTZilBY"
+      "youtube_id": "TFanSbJImMY"
     },
     {
       "venue": "Lincoln Theatre",
@@ -298,5 +298,5 @@
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-10T09:10:52.502953"
+  "last_updated": "2026-03-11T09:11:01.372349"
 }

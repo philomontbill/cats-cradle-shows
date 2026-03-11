@@ -26,7 +26,7 @@
       "opener": "Tremours",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Gary_1040171760894904.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/58266482/gary-numan-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
+      "notice": "Sold Out",
       "youtube_id": "lHomCiPFknY",
       "opener_youtube_id": "WMgya2uKoYw"
     },
@@ -39,7 +39,7 @@
       "opener": null,
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Cat_1040921761859142.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/48898368/cat-power-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
+      "notice": null,
       "youtube_id": "f-Tsk-cPXxI"
     },
     {
@@ -286,5 +286,5 @@
   "total_shows": 22,
   "shows_with_video": 19,
   "shows_with_image": 22,
-  "last_updated": "2026-03-10T09:13:08.938045"
+  "last_updated": "2026-03-11T09:12:09.092611"
 }

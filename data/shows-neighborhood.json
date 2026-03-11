@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Los Straitjackets & Deke Dickerson",
-      "date": "Tue, Mar 10",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/05d/4b1412fb-7700-4664-aab9-33c82fa6605d_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/los-straitjackets-deke-dickerson-charlotte-north-carolina-03-10-2026/event/2D006388B111B41A",
-      "youtube_id": "A-MOMaDr3tU"
-    },
-    {
       "artist": "CARTER FAITH",
       "date": "Fri, Mar 13",
       "venue": "Neighborhood Theatre",
@@ -114,7 +102,7 @@
       "youtube_id": "q2XenePkZbI"
     },
     {
-      "artist": "Walter Trout",
+      "artist": "WALTER TROUT *Canceled*",
       "date": "Thu, Apr 02",
       "venue": "Neighborhood Theatre",
       "opener": null,
@@ -292,10 +280,22 @@
       "image": "https://s1.ticketm.net/dam/e/5b4/0e2a5f4b-43e1-478c-9f99-a8c5f8c2b5b4_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/marc-broussard-charlotte-north-carolina-04-26-2026/event/2D00642C16A2E0B4",
       "youtube_id": null
+    },
+    {
+      "artist": "PROTOJE",
+      "date": "Tue, Apr 28",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/774/6049299c-f8c3-47c7-8430-ea06fc0cc774_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/protoje-reggae-invasion-18-charlotte-north-carolina-04-28-2026/event/2D006434C5E5C44A",
+      "youtube_id": null
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 20,
+  "shows_with_video": 19,
   "shows_with_image": 24,
-  "last_updated": "2026-03-10T09:13:04.815664"
+  "last_updated": "2026-03-11T09:12:05.600101"
 }
