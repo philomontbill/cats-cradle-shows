@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Rare of Breed:  The Restoration Tour",
-      "date": "Wed, Mar 11",
-      "doors": "6 pm",
-      "showtime": "7 pm",
-      "opener": "Just Nate Musik & DJ Winn",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/rare-of-breed-the-restoration-tour-w-just-nate-musik-dj-winn.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/85995412/rare-of-breedthe-restoration-tour-wjust-nate-musik-dj-winn-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "sXJ0ZqV8q9E",
-      "opener_youtube_id": "Y1lcNoiAGMQ"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "Fireside Collective",
       "date": "Fri, Mar 13",
       "doors": "7:30 pm",
@@ -293,10 +280,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/36561117/soulja-boys-the-drip-tour-with-special-guest-lil-xan-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Yarn",
+      "date": "Fri, May 08",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "w/ Funkamongus",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/yarn.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/83807469/yarn-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "Kg0y-Ti6rbg",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-11T09:11:01.372349"
+  "last_updated": "2026-03-12T09:12:11.571058"
 }

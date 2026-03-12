@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Nothing",
-      "date": "Wed, Mar 11",
-      "venue": "Mohawk Outdoor",
-      "opener": "Full Body 2, Touch Girl Apple Blossom, Cryogeyser, Vmo A.k.a.. Violent Magic Orchestra, dottie",
-      "notice": null,
-      "doors": "6:00pm",
-      "showtime": "6:30pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648556404443",
-      "ticket_url": "https://www.etix.com/ticket/p/60966702/nothing-austin-resound-presents",
-      "youtube_id": "xSZs27QQr1k",
-      "opener_youtube_id": "xe7rEv5UgRA"
-    },
-    {
       "artist": "Gogol Bordello",
       "date": "Thu, Mar 12",
       "venue": "Mohawk Outdoor",
@@ -326,10 +313,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/66902831/indigo-de-souza-austin-resound-presents",
       "youtube_id": "Vac5K2i8Blk",
       "opener_youtube_id": "VCtWfh4N80s"
+    },
+    {
+      "artist": "Sulfuric Cautery",
+      "date": "Mon, Apr 13",
+      "venue": "Mohawk Indoor",
+      "opener": "Raw Addict, Chest Pain, Blastochist, Deprivation",
+      "notice": null,
+      "doors": "7:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648479508954",
+      "ticket_url": "https://www.etix.com/ticket/p/74574461/sulfuric-cautery-austin-mohawk-austintxindoor",
+      "youtube_id": "6wZBDyhf_RA",
+      "opener_youtube_id": "-Nxnb_89RwI"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-11T09:11:12.292734"
+  "last_updated": "2026-03-12T09:12:20.209164"
 }

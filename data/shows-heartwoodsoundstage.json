@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "Heartwood Soundstage",
-      "artist": "Aly & AJ - Places to Run Tour 2026",
-      "date": "Wed, Mar 11",
-      "showtime": "7:00 pm",
-      "doors": null,
-      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69383a9f5bb3ae4f53eb64cc_Untitled_%252850%2529.jpeg",
-      "ticket_url": "https://www.heartwoodsoundstage.com/shows/aly-aj-places-to-run-tour-2026-11-mar",
-      "notice": null,
-      "youtube_id": "O34fuj6MgmE"
-    },
-    {
-      "venue": "Heartwood Soundstage",
       "artist": "Gainesville Guitar Festival 2026",
       "date": "Fri, Mar 13",
       "showtime": "7:00 pm",
@@ -109,6 +98,17 @@
       "notice": null,
       "youtube_id": "fn1iLAC8vNY",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Heartwood Soundstage",
+      "artist": "Emerging In Color 3.0",
+      "date": "Mon, Mar 30",
+      "showtime": "6:30 pm",
+      "doors": null,
+      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69b197609b8e9acc664f5599_Black_History_Month_Instagram_Post.jpeg",
+      "ticket_url": "https://www.heartwoodsoundstage.com/shows/emerging-in-color-3-0-30-mar",
+      "notice": null,
+      "youtube_id": null
     },
     {
       "venue": "Heartwood Soundstage",
@@ -298,7 +298,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 16,
+  "shows_with_video": 15,
   "shows_with_image": 25,
-  "last_updated": "2026-03-11T09:12:12.249465"
+  "last_updated": "2026-03-12T09:13:40.545072"
 }

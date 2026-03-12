@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Glitterer",
-      "date": "Wed, Mar 11",
-      "venue": "Bowery Ballroom",
-      "opener": "Graham Hunt,Prize Horse",
-      "notice": null,
-      "doors": "7:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/24e/3ae8ad0d-126c-4745-b08e-1a642712c24e_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/glitterer/",
-      "youtube_id": "WNygkxYbU6w",
-      "opener_youtube_id": null
-    },
-    {
       "artist": "WHATMORE",
       "date": "Fri, Mar 13",
       "venue": "Bowery Ballroom",
@@ -104,7 +91,7 @@
       "image": "https://s1.ticketm.net/dam/a/a12/0d488903-cd6d-43ef-b2e5-385c5eea7a12_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/kaivon-2/",
       "youtube_id": "GsEEDXUFfDQ",
-      "opener_youtube_id": "MBqBTtoQyd8"
+      "opener_youtube_id": "IIFIueDrp-s"
     },
     {
       "artist": "Slomosa",
@@ -155,7 +142,7 @@
       "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sons-of-legion-soul-to-sol-tour-3/",
       "youtube_id": "1jELuAbaEM4",
-      "opener_youtube_id": "_IAr7SK6mzA"
+      "opener_youtube_id": "pUNJMp_14V4"
     },
     {
       "artist": "Sons of Legion \u2013 Soul to S\u00d8L Tour",
@@ -256,10 +243,23 @@
       "image": "https://s1.ticketm.net/dam/a/36b/4bbe3b36-dba7-4ad9-8ca2-5108cc01c36b_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/poison-ruin/",
       "youtube_id": "zvXfdWbS5W4"
+    },
+    {
+      "artist": "Ashes To Amber",
+      "date": "Sun, Apr 12",
+      "venue": "Bowery Ballroom",
+      "opener": "Nature TV",
+      "notice": null,
+      "doors": "7:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/518/0206be85-3070-4080-83c7-7ae3f0cf7518_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/ashes-to-amber/",
+      "youtube_id": "eo_0CdDmmLU",
+      "opener_youtube_id": "BbO25y5oBr8"
     }
   ],
   "total_shows": 20,
   "shows_with_video": 15,
   "shows_with_image": 20,
-  "last_updated": "2026-03-11T09:11:42.375045"
+  "last_updated": "2026-03-12T09:13:02.242565"
 }

@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Chasing Abbey",
-      "date": "Wed, Mar 11",
-      "venue": "Mercury Lounge",
-      "opener": "Niall Connolly",
-      "notice": "Sold Out",
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/a1b/e9e82c48-7272-4a9a-b783-405a3bdeca1b_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/chasing-abbey/",
-      "youtube_id": "Y43GhbUyamg",
-      "opener_youtube_id": "MQZw_x7pc_U"
-    },
-    {
-      "artist": "Radium Dolls",
-      "date": "Wed, Mar 11",
-      "venue": "Mercury Lounge",
-      "opener": "Scarhaven",
-      "notice": null,
-      "doors": "9:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/269/426750e0-8481-4cef-bdf5-40169a566269_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/radium-dolls/",
-      "youtube_id": "tX44b9xd224",
-      "opener_youtube_id": "W4ND6sH-Q8w"
-    },
-    {
       "artist": "Noah Pope, Renny Conti, James Eichman",
       "date": "Thu, Mar 12",
       "venue": "Mercury Lounge",
@@ -78,14 +52,14 @@
       "image": "https://s1.ticketm.net/dam/e/a16/4963dbd5-d7cd-435b-acb6-1668d4781a16_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/hlwa/",
       "youtube_id": null,
-      "opener_youtube_id": "CqyIxcHxaXg"
+      "opener_youtube_id": null
     },
     {
       "artist": "Kevin Devine & The Goddamn Band are Kenny O\u2019Brien & The O\u2019Douls",
       "date": "Sat, Mar 14",
       "venue": "Mercury Lounge",
       "opener": "Casey Jost",
-      "notice": "Sold Out",
+      "notice": null,
       "doors": "6:00 pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/fd0/9fcfcd98-6e7f-4f42-bb13-1e941ad88fd0_TABLET_LANDSCAPE_16_9.jpg",
@@ -130,7 +104,7 @@
       "image": "https://s1.ticketm.net/dam/e/9b3/c0de1411-ea22-40d5-9f81-a65e13fa09b3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/gavin-marengi-w-the-national-reserve-rozlyn/",
       "youtube_id": "TXUpTpM-9GE",
-      "opener_youtube_id": "qZe9xLJu7x8"
+      "opener_youtube_id": "N0tTiYeR5sE"
     },
     {
       "artist": "See Plus, Smilley, KAGE! & Blakestyle (duo)",
@@ -181,7 +155,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a3d/60466518-5195-4ddb-b5ec-d83203eb6a3d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jordan-astra/",
-      "youtube_id": "PkDY8N2sC9M",
+      "youtube_id": "JyS66_d3TVM",
       "opener_youtube_id": "Lo_u-oMGMgQ"
     },
     {
@@ -194,7 +168,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/774/395e2c8c-24d3-4358-bd38-be696c4b8774_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/aaron-abramowitz-kate-keller/",
-      "youtube_id": "WtsMdmRBvjA"
+      "youtube_id": "Ho90uXE9i5Y"
     },
     {
       "artist": "Talk Radio",
@@ -259,11 +233,37 @@
       "image": "https://s1.ticketm.net/dam/e/406/a4734b9b-2f50-4a8e-badd-a822ca7fd406_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ulrika-spacek/",
       "youtube_id": "AR_uf1a0sJ4",
-      "opener_youtube_id": "ZZihpKjynYU"
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "Rin",
+      "date": "Sun, Mar 22",
+      "venue": "Mercury Lounge",
+      "opener": "Sierra Sikora",
+      "notice": "Sold Out",
+      "doors": "5:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/1c5/39b96ced-5bf1-46e3-94c1-7ba31c8401c5_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/rin/",
+      "youtube_id": null,
+      "opener_youtube_id": "7kGheaKoDs8"
+    },
+    {
+      "artist": "Truly",
+      "date": "Mon, Mar 23",
+      "venue": "Mercury Lounge",
+      "opener": "Catatonic Suns",
+      "notice": null,
+      "doors": "6:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/3ae/f011e86a-0ad5-4e2d-80fc-bdfa78f243ae_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/truly/",
+      "youtube_id": "GtVmRydqp6o",
+      "opener_youtube_id": "z9wd5MsRspU"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 16,
+  "shows_with_video": 15,
   "shows_with_image": 20,
-  "last_updated": "2026-03-11T09:12:04.035153"
+  "last_updated": "2026-03-12T09:13:29.887455"
 }

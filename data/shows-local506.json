@@ -7,26 +7,13 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "The Unsustainables and Bad Leavers",
-      "date": "Wed, Mar 11",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Sound System Seven",
-      "image": "https://local506.com/wp-content/uploads/2026/01/the-unsustainables-and-bad-leavers-with-sound-system-seven-1.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/38683288/the-unsustainables-and-bad-leavers-with-sound-system-seven-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "nja5zxXqBhw",
-      "opener_youtube_id": "GrS0lrO2zFE"
-    },
-    {
-      "venue": "Local 506",
       "artist": "Who They Fear and Varia: The Visions 2026 Tour",
       "date": "Fri, Mar 13",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Infinxty and As Above So Below",
+      "opener": "Distant Fires, Infinxty, and As Above So Below",
       "image": "https://local506.com/wp-content/uploads/2026/03/who-they-fear-and-varia-the-visions-2026-tour-with-infinxty-and-as-above-so-below.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/81900275/who-they-fear-and-variathe-visions-2026-tour-with-infinxty-and-as-above-so-below-chapel-hill-local-506?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/81900275/who-they-fear-and-variathe-visions-2026-tour-with-distant-firesinfinxtyand-as-above-so-below-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "5T--s-V4rk0",
       "opener_youtube_id": null
@@ -46,7 +33,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
+      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -85,7 +72,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
+      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -137,7 +124,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
+      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -267,6 +254,19 @@
     },
     {
       "venue": "Local 506",
+      "artist": "The Mothmen",
+      "date": "Sun, Apr 12",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "All Night Boogie Band and Georgia Moon & The Wrong Band",
+      "image": "https://local506.com/wp-content/uploads/2026/03/the-mothmen-with-all-night-boogie-band-and-georgia-moon-the-wrong-band-1.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/67878983/the-mothmen-with-all-night-boogie-band-and-georgia-moon-the-wrong-band-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
       "artist": "Crystal Spiders and Insomniac",
       "date": "Wed, Apr 15",
       "doors": "7 pm",
@@ -330,7 +330,7 @@
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 23,
+  "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-11T09:10:53.489826"
+  "last_updated": "2026-03-12T09:12:03.852351"
 }

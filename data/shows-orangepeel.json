@@ -7,18 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Jordan Jensen",
-      "date": "Wed, Mar 11",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": null,
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/12/etix-Jordan_1042601765539976.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/82623286/jordan-jensen-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
-      "youtube_id": "wxduIABdfDQ"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Gary Numan",
       "date": "Thu, Mar 12",
       "doors": "7 pm",
@@ -26,7 +14,7 @@
       "opener": "Tremours",
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Gary_1040171760894904.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/58266482/gary-numan-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
+      "notice": null,
       "youtube_id": "lHomCiPFknY",
       "opener_youtube_id": "WMgya2uKoYw"
     },
@@ -39,7 +27,7 @@
       "opener": null,
       "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Cat_1040921761859142.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/48898368/cat-power-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
+      "notice": "Sold Out",
       "youtube_id": "f-Tsk-cPXxI"
     },
     {
@@ -281,10 +269,23 @@
       "notice": null,
       "youtube_id": "GQZryuPliQ0",
       "opener_youtube_id": "LuvN9DWwN48"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Penny & Sparrow",
+      "date": "Thu, Apr 16",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Caleb Elliott",
+      "image": "https://theorangepeel.net/wp-content/uploads/2025/09/etix-Penny_1038681758903972.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/77397531/penny-sparrow-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": "dvFimLs-TLU",
+      "opener_youtube_id": "iN3ZS1TCozU"
     }
   ],
   "total_shows": 22,
   "shows_with_video": 19,
   "shows_with_image": 22,
-  "last_updated": "2026-03-11T09:12:09.092611"
+  "last_updated": "2026-03-12T09:13:36.463311"
 }

@@ -20,30 +20,6 @@
       "expired": true
     },
     {
-      "artist": "Los Straitjackets & Deke Dickerson",
-      "date": "Wed, Mar 11",
-      "venue": "Cat's Cradle Back Room",
-      "opener": null,
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Los_2028961762776674.jpg",
-      "event_url": "https://catscradle.com/event/los-straitjackets-deke-dickerson/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "jKuYeZTpbQM"
-    },
-    {
-      "artist": "Puma Blue",
-      "date": "Wed, Mar 11",
-      "venue": "Cat's Cradle",
-      "opener": null,
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Puma_1973651760958669.jpg",
-      "event_url": "https://catscradle.com/event/puma-blue-2/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "IuVFMVX2eY0"
-    },
-    {
       "artist": "Dogpark",
       "date": "Fri, Mar 13",
       "venue": "Cat's Cradle",
@@ -309,6 +285,32 @@
       "opener_youtube_id": "v03fr0UR6MM"
     },
     {
+      "artist": "Madison Cunningham \u2013 The Ace Tour",
+      "date": "Mon, Mar 30",
+      "venue": "Cat's Cradle",
+      "opener": "Annika Bennett",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Madison_1933711757585303.jpg",
+      "event_url": "https://catscradle.com/event/madison-cunningham-the-ace-tour/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "EMLiUl5EIRE",
+      "opener_youtube_id": "o6W91HVCVwM"
+    },
+    {
+      "artist": "Indigo de Souza",
+      "date": "Tue, Mar 31",
+      "venue": "Cat's Cradle",
+      "opener": "Moth\u00e9",
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Indigo_2045011763503689.jpg",
+      "event_url": "https://catscradle.com/event/indigo-de-souza-3/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": "Vac5K2i8Blk",
+      "opener_youtube_id": "VCtWfh4N80s"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -325,5 +327,5 @@
   "total_shows": 24,
   "shows_with_video": 17,
   "shows_with_image": 24,
-  "last_updated": "2026-03-11T09:10:46.691300"
+  "last_updated": "2026-03-12T09:11:55.920256"
 }
