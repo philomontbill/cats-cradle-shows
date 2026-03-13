@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Emanuel Wynter / Tre Charles",
-      "date": "Thu, Mar 12",
-      "doors": "7 pm",
-      "showtime": "7:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/01/etix-Emanuel_1298851768400754.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/77563078/emanuel-wynter-tre-charles-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "Rw1suYWh39w"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Mellow Swells Album Release w/ Sonny Miles",
       "date": "Fri, Mar 13",
       "doors": "8 pm",
@@ -150,14 +139,14 @@
     },
     {
       "venue": "The Pinhook",
-      "artist": "The Buzzard Company / Charles Latham and the Borrowed Band",
+      "artist": "Charles Latham and the Borrowed Band / Dragmatic / The Buzzard Company",
       "date": "Thu, Mar 26",
       "doors": "7 pm",
       "showtime": "7:30 pm",
       "image": "https://thepinhook.com/wp-content/uploads/2026/02/the-buzzard-company-charles-latham-and-the-borrowed-band.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/35095552/the-buzzard-company-charles-latham-and-the-borrowed-band-durham-the-pinhook?partner_id=100",
+      "ticket_url": "https://www.etix.com/ticket/p/35095552/charles-latham-and-the-borrowed-band-dragmatic-the-buzzard-company-durham-the-pinhook?partner_id=100",
       "notice": null,
-      "youtube_id": "gKrVMfgdPrA"
+      "youtube_id": "dR8dirS0DBs"
     },
     {
       "venue": "The Pinhook",
@@ -281,10 +270,23 @@
       "opener": "David Wax Museum / Lowland Hum",
       "youtube_id": "ffsR4AcLlKw",
       "opener_youtube_id": "w9zhaqp4l7k"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "BLNDER w. Sol / CARCRASHERS / Möfle",
+      "date": "Thu, Apr 09",
+      "doors": "8:30 pm",
+      "showtime": "9 pm",
+      "opener": "Friends / Open Decks Presents:",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/03/blnder-w-sol-carcrashers-mofle.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/33800304/blnder-wsol-carcrashers-m%C3%B6fle-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 15,
+  "shows_with_video": 14,
   "shows_with_image": 25,
-  "last_updated": "2026-03-12T09:12:08.430391"
+  "last_updated": "2026-03-13T09:09:10.819908"
 }

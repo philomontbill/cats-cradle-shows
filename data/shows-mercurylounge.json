@@ -6,30 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Noah Pope, Renny Conti, James Eichman",
-      "date": "Thu, Mar 12",
-      "venue": "Mercury Lounge",
-      "opener": null,
-      "notice": null,
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/noah-pope-flyer.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/renny-conti-noah-pope-james-eichman-solo-acoustic/",
-      "youtube_id": "b1gx_VtE21A"
-    },
-    {
-      "artist": "Yo Guys",
-      "date": "Thu, Mar 12",
-      "venue": "Mercury Lounge",
-      "opener": null,
-      "notice": null,
-      "doors": "9:00 pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/3-12-yo-guys-scaled.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/yo-guys/",
-      "youtube_id": null
-    },
-    {
       "artist": "Cailin Russo",
       "date": "Fri, Mar 13",
       "venue": "Mercury Lounge",
@@ -104,7 +80,7 @@
       "image": "https://s1.ticketm.net/dam/e/9b3/c0de1411-ea22-40d5-9f81-a65e13fa09b3_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/gavin-marengi-w-the-national-reserve-rozlyn/",
       "youtube_id": "TXUpTpM-9GE",
-      "opener_youtube_id": "N0tTiYeR5sE"
+      "opener_youtube_id": "qZe9xLJu7x8"
     },
     {
       "artist": "See Plus, Smilley, KAGE! & Blakestyle (duo)",
@@ -117,7 +93,7 @@
       "image": "https://s1.ticketm.net/dam/a/e37/09bfa68b-d09b-49a3-940e-8da205dc4e37_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/see-plus-smilley-kage-blakestyle-duo/",
       "youtube_id": "ulrrAmFAryI",
-      "opener_youtube_id": null
+      "opener_youtube_id": "OfVroh2Ixco"
     },
     {
       "artist": "Buffalo Traffic Jam",
@@ -125,7 +101,7 @@
       "venue": "Mercury Lounge",
       "opener": "Barrett",
       "notice": "Sold Out",
-      "doors": "9:00 pm",
+      "doors": "7:00 pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/d7d/396eb455-5e72-4c15-afed-a66ecd8c6d7d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/buffalo-traffic-jam/",
@@ -155,7 +131,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/a3d/60466518-5195-4ddb-b5ec-d83203eb6a3d_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/jordan-astra/",
-      "youtube_id": "JyS66_d3TVM",
+      "youtube_id": "PkDY8N2sC9M",
       "opener_youtube_id": "Lo_u-oMGMgQ"
     },
     {
@@ -168,7 +144,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/774/395e2c8c-24d3-4358-bd38-be696c4b8774_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/aaron-abramowitz-kate-keller/",
-      "youtube_id": "Ho90uXE9i5Y"
+      "youtube_id": "WtsMdmRBvjA"
     },
     {
       "artist": "Talk Radio",
@@ -233,7 +209,7 @@
       "image": "https://s1.ticketm.net/dam/e/406/a4734b9b-2f50-4a8e-badd-a822ca7fd406_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ulrika-spacek/",
       "youtube_id": "AR_uf1a0sJ4",
-      "opener_youtube_id": null
+      "opener_youtube_id": "ZZihpKjynYU"
     },
     {
       "artist": "Rin",
@@ -260,10 +236,36 @@
       "ticket_url": "https://mercuryeastpresents.com/tm-event/truly/",
       "youtube_id": "GtVmRydqp6o",
       "opener_youtube_id": "z9wd5MsRspU"
+    },
+    {
+      "artist": "LEAP",
+      "date": "Tue, Mar 24",
+      "venue": "Mercury Lounge",
+      "opener": "Woz",
+      "notice": null,
+      "doors": "6:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/203/460175fe-b4be-4952-bb9e-648445201203_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/leap/",
+      "youtube_id": "7wz1eX4k-Vg",
+      "opener_youtube_id": "w7QRSlNdymU"
+    },
+    {
+      "artist": "Pink Skies",
+      "date": "Wed, Mar 25",
+      "venue": "Mercury Lounge",
+      "opener": "Cal in Red",
+      "notice": null,
+      "doors": "6:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/767/6dbc7d7c-1bc2-4ed2-ab47-0035223c3767_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/pink-skies/",
+      "youtube_id": "D9Tr1X-BpNg",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 20,
   "shows_with_video": 15,
   "shows_with_image": 20,
-  "last_updated": "2026-03-12T09:13:29.887455"
+  "last_updated": "2026-03-13T09:10:27.186810"
 }

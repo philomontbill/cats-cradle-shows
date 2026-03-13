@@ -1149,12 +1149,12 @@
   "Yonder Mountain String Band": {
     "status": "verified",
     "video_id": "yi0ho-hTG-U",
-    "verified_date": "2026-03-12T09:14:12.013381",
-    "confidence": "channel match, 41,060 views",
+    "verified_date": "2026-03-13T09:11:11.891872",
+    "confidence": "channel match, 41,094 views",
     "metadata": {
       "video_title": "Yonder Mountain String Band - Blind (Official Music Video)",
       "channel_name": "Yonder Mountain String Band",
-      "view_count": 41060,
+      "view_count": 41094,
       "published": "2026-02-20T13:39:49Z",
       "channel_subscribers": 16700,
       "channel_videos": 232,
@@ -1224,12 +1224,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-12T09:14:14.378113",
+    "verified_date": "2026-03-13T09:11:13.137217",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5340327,
+      "view_count": 5340967,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -4905,15 +4905,15 @@
   "Indigo de Souza": {
     "status": "verified",
     "video_id": "ZstVTHCCcGs",
-    "verified_date": "2026-03-12T09:14:17.891972",
-    "confidence": "channel match, 256,726 views",
+    "verified_date": "2026-03-13T09:11:15.570634",
+    "confidence": "channel match, 256,762 views",
     "metadata": {
       "video_title": "Indigo De Souza - Hold U [Official Music Video]",
       "channel_name": "Indigo De Souza",
-      "view_count": 256726,
+      "view_count": 256762,
       "published": "2021-07-21T14:00:11Z",
-      "channel_subscribers": 25800,
-      "channel_videos": 86,
+      "channel_subscribers": 25900,
+      "channel_videos": 88,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
@@ -5125,23 +5125,24 @@
   },
   "Skullcrusher": {
     "status": "verified",
-    "video_id": "fvV-CIoeBrE",
-    "verified_date": "2026-02-26T05:26:40.736860",
-    "confidence": "channel match, VEVO, 72,590 views",
+    "video_id": "88igVuZ9zks",
+    "verified_date": "2026-03-13T09:11:09.503118",
+    "confidence": "channel match, VEVO, 92,490 views",
     "metadata": {
-      "video_title": "Skullcrusher - Whatever Fits Together (Official Video)",
+      "video_title": "Skullcrusher - Exhale (Official Music Video)",
       "channel_name": "SkullcrusherVEVO",
-      "view_count": 72590,
-      "published": "2022-07-20T14:00:11Z",
+      "view_count": 92490,
+      "published": "2025-07-16T13:00:11Z",
+      "channel_subscribers": 128,
+      "channel_videos": 14,
       "is_topic": false,
       "channel_match": true,
       "vevo_channel": true,
       "trusted_channel": true,
+      "session_channel": false,
       "trusted_reason": "VEVO",
       "view_cap_reason": "trusted channel (VEVO)",
-      "video_age_years": 3.6,
-      "spotify_match": "exact",
-      "spotify_popularity": 37
+      "video_age_years": 0.7
     }
   },
   "JOSH LEVI": {
@@ -8892,14 +8893,14 @@
   },
   "Jordan Astra": {
     "status": "verified",
-    "video_id": "JyS66_d3TVM",
-    "verified_date": "2026-03-12T09:14:02.498601",
-    "confidence": "channel match, 5,869 views",
+    "video_id": "PkDY8N2sC9M",
+    "verified_date": "2026-03-13T09:10:52.441133",
+    "confidence": "channel match, 63,126 views",
     "metadata": {
-      "video_title": "Jordan Astra - 'Pocket Change'",
+      "video_title": "Jordan Astra, Misha, Jussi Halme - 'After Midnight'",
       "channel_name": "Jordan Astra",
-      "view_count": 5869,
-      "published": "2024-11-15T05:00:15Z",
+      "view_count": 63126,
+      "published": "2024-07-29T19:53:39Z",
       "channel_subscribers": 1910,
       "channel_videos": 225,
       "is_topic": false,
@@ -8907,19 +8908,19 @@
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 1.3
+      "video_age_years": 1.6
     }
   },
   "Aaron Abramowitz, Kate Keller": {
     "status": "verified",
-    "video_id": "Ho90uXE9i5Y",
-    "verified_date": "2026-03-12T09:14:03.689947",
-    "confidence": "channel match, 675 views",
+    "video_id": "WtsMdmRBvjA",
+    "verified_date": "2026-03-13T09:10:53.651280",
+    "confidence": "channel match, 2,800 views",
     "metadata": {
-      "video_title": "Story of My Life (Don't Judge Me) - Original Song by Aaron Abramowitz",
+      "video_title": "Aaron Abramowitz - America's Got Talent Audition",
       "channel_name": "Aaron Abramowitz",
-      "view_count": 675,
-      "published": "2013-03-06T20:36:53Z",
+      "view_count": 2800,
+      "published": "2012-12-14T23:24:42Z",
       "channel_subscribers": 207,
       "channel_videos": 66,
       "is_topic": false,
@@ -8927,7 +8928,7 @@
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 13.0
+      "video_age_years": 13.2
     }
   },
   "Sam Farthing & Jimmy Grant Guitar Workshop": {
@@ -10240,16 +10241,16 @@
   },
   "DERBY": {
     "status": "verified",
-    "video_id": "jarVx2qCh18",
-    "verified_date": "2026-03-11T09:12:15.074000",
+    "video_id": "dWw2CD15uqo",
+    "verified_date": "2026-03-13T09:10:40.331343",
     "confidence": "channel match, VEVO",
     "metadata": {
-      "video_title": "Eli Derby, 6LACK - Lately",
-      "channel_name": "EliDerbyVEVO",
-      "view_count": 2523353,
-      "published": "2022-05-18T16:00:11Z",
-      "channel_subscribers": 231,
-      "channel_videos": 6,
+      "video_title": "Derby - Tuhan Tolong (Video Clip)",
+      "channel_name": "DerbyVEVO",
+      "view_count": 24628081,
+      "published": "2011-04-08T01:44:06Z",
+      "channel_subscribers": 48600,
+      "channel_videos": 3,
       "is_topic": false,
       "channel_match": true,
       "vevo_channel": true,
@@ -10257,7 +10258,7 @@
       "session_channel": false,
       "trusted_reason": "VEVO",
       "view_cap_reason": "trusted channel (VEVO)",
-      "video_age_years": 3.8
+      "video_age_years": 14.9
     }
   },
   "Rohaan": {
@@ -10363,22 +10364,22 @@
   },
   "The Mainliners": {
     "status": "verified",
-    "video_id": "Tsm2ZpD8fpM",
-    "verified_date": "2026-03-11T09:12:22.208916",
-    "confidence": "channel match, 234,017 views",
+    "video_id": "Pw8eMLyHdnU",
+    "verified_date": "2026-03-13T09:10:41.546545",
+    "confidence": "channel match, 48,208 views",
     "metadata": {
-      "video_title": "THE MAINLINERS - NO MAS TEQUILA (official video)",
+      "video_title": "THE MAINLINERS - CHROME PIT (official video)",
       "channel_name": "The Mainliners",
-      "view_count": 234017,
-      "published": "2024-09-26T04:00:28Z",
-      "channel_subscribers": 4440,
+      "view_count": 48208,
+      "published": "2026-01-11T19:55:39Z",
+      "channel_subscribers": 4480,
       "channel_videos": 14,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 1.5
+      "video_age_years": 0.2
     }
   },
   "Club 90s: Heated RivalRave": {
@@ -10748,14 +10749,14 @@
   },
   "The National Reserve,Rozlyn": {
     "status": "verified",
-    "video_id": "N0tTiYeR5sE",
-    "verified_date": "2026-03-12T09:14:01.309321",
-    "confidence": "channel match, 3,367 views",
+    "video_id": "qZe9xLJu7x8",
+    "verified_date": "2026-03-13T09:10:50.068534",
+    "confidence": "channel match, 36,360 views",
     "metadata": {
-      "video_title": "The National Reserve \"White Freightliner Blues\" @ The Shanty",
+      "video_title": "The National Reserve - Shotgun Willie - Live at Skinny Dennis",
       "channel_name": "The National Reserve",
-      "view_count": 3367,
-      "published": "2015-12-31T19:20:08Z",
+      "view_count": 36360,
+      "published": "2015-12-31T06:36:40Z",
       "channel_subscribers": 516,
       "channel_videos": 20,
       "is_topic": false,
@@ -11492,6 +11493,376 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 0.5
+    }
+  },
+  "Violin Workshop": {
+    "status": "rejected",
+    "video_id": "Yq2q4TjyNLY",
+    "rejected_date": "2026-03-13T09:10:42.747229",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Watch me Transform a Violin \ud83c\udfbb from unplayable straight from the workshop to beautiful Instrument \ud83c\udfb6",
+      "channel_name": "Ask Olaf the Violinmaker",
+      "view_count": 25691,
+      "published": "2024-07-29T14:00:27Z",
+      "channel_subscribers": 98100,
+      "channel_videos": 252,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.6
+    }
+  },
+  "Nonpoint | The Outta Control Tour": {
+    "status": "rejected",
+    "video_id": "kqHSGVtfXhc",
+    "rejected_date": "2026-03-13T09:10:46.350094",
+    "reason": "view count 7,778,235 exceeds 5,000,000 cap",
+    "metadata": {
+      "video_title": "Nonpoint - Bullet With A Name (Official Music Video)",
+      "channel_name": "Nonpoint",
+      "view_count": 7778235,
+      "published": "2016-05-07T14:27:14Z",
+      "channel_subscribers": 127000,
+      "channel_videos": 83,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 9.8
+    }
+  },
+  "Made In America: A Tribute To Toby Keith": {
+    "status": "verified",
+    "video_id": "MaAF_3WMJGM",
+    "verified_date": "2026-03-13T09:10:47.540043",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "Toby Keith - Made In America (Official Music Video)",
+      "channel_name": "TobyKeithVEVO",
+      "view_count": 30548429,
+      "published": "2011-07-28T07:00:00Z",
+      "channel_subscribers": 460000,
+      "channel_videos": 84,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 14.6
+    }
+  },
+  "Smilley,KAGE!,Blakestyle": {
+    "status": "verified",
+    "video_id": "OfVroh2Ixco",
+    "verified_date": "2026-03-13T09:10:51.259313",
+    "confidence": "channel match, 471 views",
+    "metadata": {
+      "video_title": "Smilley - Rail (Official Video)",
+      "channel_name": "Smilley",
+      "view_count": 471,
+      "published": "2026-01-30T17:00:06Z",
+      "channel_subscribers": 286,
+      "channel_videos": 14,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
+    }
+  },
+  "LEAP": {
+    "status": "verified",
+    "video_id": "7wz1eX4k-Vg",
+    "verified_date": "2026-03-13T09:10:54.876999",
+    "confidence": "channel match, 426,171 views",
+    "metadata": {
+      "video_title": "LEAP - \"Sinking Feeling\" (Official Video)",
+      "channel_name": "LEAP",
+      "view_count": 426171,
+      "published": "2026-02-11T14:00:06Z",
+      "channel_subscribers": 11100,
+      "channel_videos": 135,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
+    }
+  },
+  "Woz": {
+    "status": "verified",
+    "video_id": "w7QRSlNdymU",
+    "verified_date": "2026-03-13T09:10:56.069946",
+    "confidence": "channel match, 66,787 views",
+    "metadata": {
+      "video_title": "Child Support - Woz \ud83d\udc68\ud83c\udffb\ud83c\udfb8 #newmusic #singersongwriter #rockmusic #indiemusic #singing",
+      "channel_name": "Woz",
+      "view_count": 66787,
+      "published": "2025-11-19T23:02:02Z",
+      "channel_subscribers": 12200,
+      "channel_videos": 60,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Pink Skies": {
+    "status": "verified",
+    "video_id": "D9Tr1X-BpNg",
+    "verified_date": "2026-03-13T09:10:57.309541",
+    "confidence": "365,089 views",
+    "metadata": {
+      "video_title": "Zach Bryan - Pink Skies (music video)",
+      "channel_name": "JohnFrankLyke",
+      "view_count": 365089,
+      "published": "2024-07-10T08:45:30Z",
+      "channel_subscribers": 1740,
+      "channel_videos": 62,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'JohnFrankLyke' doesn't match artist (title match)",
+      "video_age_years": 1.7
+    }
+  },
+  "Cal in Red": {
+    "status": "rejected",
+    "video_id": "Sb5aq5HcS1A",
+    "rejected_date": "2026-03-13T09:10:58.550039",
+    "reason": "view count 408,025,699 exceeds 5,000,000 cap; non-matching channel 'Red Hot Chili Peppers' with 8,530,000 subscribers; video is 16 years old with no channel match",
+    "metadata": {
+      "video_title": "Red Hot Chili Peppers - Dani California [Official Music Video]",
+      "channel_name": "Red Hot Chili Peppers",
+      "view_count": 408025699,
+      "published": "2009-10-27T02:33:19Z",
+      "channel_subscribers": 8530000,
+      "channel_videos": 201,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 16.4
+    }
+  },
+  "Conversations With, All American Rejects, Mark Cuban, don toliver, Performances By, Dizzy Fae, Alicia Creti, Kairo Keyz, Baby Fxce E": {
+    "status": "rejected",
+    "video_id": "OcQ71ubUXAE",
+    "rejected_date": "2026-03-13T09:10:59.812688",
+    "reason": "view count 74,117,385 exceeds 5,000,000 cap; non-matching channel 'Juice WRLD' with 13,800,000 subscribers",
+    "metadata": {
+      "video_title": "Juice WRLD-  Conversations (Official Music Video)",
+      "channel_name": "Juice WRLD",
+      "view_count": 74117385,
+      "published": "2021-02-22T18:00:15Z",
+      "channel_subscribers": 13800000,
+      "channel_videos": 191,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.0
+    }
+  },
+  "Loud Luxury": {
+    "status": "verified",
+    "video_id": "D_rqZm231HY",
+    "verified_date": "2026-03-13T09:11:01.021325",
+    "confidence": "label: Armada Music",
+    "metadata": {
+      "video_title": "Loud Luxury feat. brando - Body (Official Music Video)",
+      "channel_name": "Armada Music TV",
+      "view_count": 21402450,
+      "published": "2018-02-01T20:00:02Z",
+      "channel_subscribers": 5540000,
+      "channel_videos": 15625,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_label": "Armada Music",
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "label: Armada Music",
+      "view_cap_reason": "trusted channel (label: Armada Music)",
+      "channel_override": "trusted label: Armada Music, skipping mismatch check",
+      "video_age_years": 8.1
+    }
+  },
+  "Conversations With, Ravyn Lenae and Corinne Bailey Rae, Jesse Coren and Andrew Spelman, Junior H, Performances By, Karina Galicia, Eddyjae, Mosmo, Oscar Ortiz, Lena Dardelet, Sofish, Brunog, Hermanos Espinoza": {
+    "status": "rejected",
+    "video_id": "OcQ71ubUXAE",
+    "rejected_date": "2026-03-13T09:11:02.213924",
+    "reason": "view count 74,117,385 exceeds 5,000,000 cap; non-matching channel 'Juice WRLD' with 13,800,000 subscribers",
+    "metadata": {
+      "video_title": "Juice WRLD-  Conversations (Official Music Video)",
+      "channel_name": "Juice WRLD",
+      "view_count": 74117385,
+      "published": "2021-02-22T18:00:15Z",
+      "channel_subscribers": 13800000,
+      "channel_videos": 191,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.0
+    }
+  },
+  "Los Guitarrazos": {
+    "status": "verified",
+    "video_id": "mBs0ZSO64IE",
+    "verified_date": "2026-03-13T09:11:03.429152",
+    "confidence": "5,114 views",
+    "metadata": {
+      "video_title": "Eres - Meme del Real Los Guitarrazos",
+      "channel_name": "El Ampli ",
+      "view_count": 5114,
+      "published": "2025-08-20T18:25:12Z",
+      "channel_subscribers": 9500,
+      "channel_videos": 1058,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'El Ampli ' doesn't match artist (title match)",
+      "video_age_years": 0.6
+    }
+  },
+  "Conversations With, Noah Kahan and Nick Sweeney, Jon\u00e1s Cuar\u00f3n and Edgar Barrera, Mau P, Performances By, The Gringos, Feel Trip., Sassy 009, Amie Blu, Momo Boyd, Ink, Ttssfu, Panic Shack, THEBROSFRESH": {
+    "status": "rejected",
+    "video_id": "OcQ71ubUXAE",
+    "rejected_date": "2026-03-13T09:11:04.652442",
+    "reason": "view count 74,117,385 exceeds 5,000,000 cap; non-matching channel 'Juice WRLD' with 13,800,000 subscribers",
+    "metadata": {
+      "video_title": "Juice WRLD-  Conversations (Official Music Video)",
+      "channel_name": "Juice WRLD",
+      "view_count": 74117385,
+      "published": "2021-02-22T18:00:15Z",
+      "channel_subscribers": 13800000,
+      "channel_videos": 191,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.0
+    }
+  },
+  "The Offline Sessions, A Phone-free Sxsw Afterparty, exclusive performances": {
+    "status": "rejected",
+    "video_id": "n-UPf8wJEAM",
+    "rejected_date": "2026-03-13T09:11:05.842882",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "The Offline In Session (Full Video)",
+      "channel_name": "DeepMatter Records",
+      "view_count": 2778,
+      "published": "2025-05-27T06:14:46Z",
+      "channel_subscribers": 4600,
+      "channel_videos": 736,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.8
+    }
+  },
+  "Geordie Greep, Radium Dolls, Banged Out, Swapmeet, Horsepower, Worlds Worst, Balaclava, on being an angel, Victor Jones, Creature Canyon": {
+    "status": "rejected",
+    "video_id": "GsxNhZGGYNk",
+    "rejected_date": "2026-03-13T09:11:07.119667",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Geordie Greep: \"Holy, Holy\" (Live, In-Studio)",
+      "channel_name": "New Sounds",
+      "view_count": 231220,
+      "published": "2024-10-03T04:00:11Z",
+      "channel_subscribers": 23900,
+      "channel_videos": 1531,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.4
+    }
+  },
+  "Valee, Bobby Raps, Pyrex, Ozer, Wiardon, Moscato J, Avon, BbyKodie, Nook Da Crook, Stock2, Negus Fresh": {
+    "status": "rejected",
+    "video_id": "RpL1GyLOblE",
+    "rejected_date": "2026-03-13T09:11:08.313203",
+    "reason": "non-matching channel 'ELEVATOR' with 2,040,000 subscribers",
+    "metadata": {
+      "video_title": "Valee' - \"I Got Whatever\" (Official Music Video)",
+      "channel_name": "ELEVATOR",
+      "view_count": 4190470,
+      "published": "2016-10-19T16:31:02Z",
+      "channel_subscribers": 2040000,
+      "channel_videos": 2744,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 9.4
+    }
+  },
+  "H.pruz": {
+    "status": "verified",
+    "video_id": "lcvRUy_Mfkk",
+    "verified_date": "2026-03-13T09:11:10.702495",
+    "confidence": "channel match, VEVO, 2,039 views",
+    "metadata": {
+      "video_title": "h. pruz - After always (Official Video)",
+      "channel_name": "hpruzVEVO",
+      "view_count": 2039,
+      "published": "2025-11-03T05:00:54Z",
+      "channel_subscribers": 75,
+      "channel_videos": 5,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.4
+    }
+  },
+  "Charles Latham and the Borrowed Band / Dragmatic / The Buzzard Company": {
+    "status": "verified",
+    "video_id": "dR8dirS0DBs",
+    "verified_date": "2026-03-13T09:11:14.353048",
+    "confidence": "channel match, 2,321 views",
+    "metadata": {
+      "video_title": "Charles Latham & the Borrowed Band - Left On Red [Official Music Video]",
+      "channel_name": "Charles Latham and the Borrowed Band",
+      "view_count": 2321,
+      "published": "2020-09-18T20:15:10Z",
+      "channel_subscribers": 71,
+      "channel_videos": 15,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 5.5
     }
   }
 }

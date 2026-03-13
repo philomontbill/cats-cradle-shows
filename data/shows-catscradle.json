@@ -135,7 +135,7 @@
       "youtube_id": null
     },
     {
-      "artist": "Eva Slongo Violin Workshop",
+      "artist": "Violin Workshop",
       "date": "Sat, Mar 21",
       "venue": "Cat's Cradle Back Room",
       "opener": null,
@@ -143,8 +143,8 @@
       "doors": "10:30 am",
       "showtime": "11 am",
       "image": "https://catscradle.com/wp-content/uploads/2026/01/voyage-hot-club-featuring-sam-farthing.jpg",
-      "event_url": "https://catscradle.com/event/eva-slongo-violin-workshop/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "JI01aMRcAtM"
+      "event_url": "https://catscradle.com/event/violin-workshop/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": null
     },
     {
       "artist": "Sam Farthing & Jimmy Grant Guitar Workshop",
@@ -327,5 +327,5 @@
   "total_shows": 24,
   "shows_with_video": 17,
   "shows_with_image": 24,
-  "last_updated": "2026-03-12T09:11:55.920256"
+  "last_updated": "2026-03-13T09:08:57.828713"
 }

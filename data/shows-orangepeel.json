@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "Gary Numan",
-      "date": "Thu, Mar 12",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Tremours",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-Gary_1040171760894904.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/58266482/gary-numan-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": null,
-      "youtube_id": "lHomCiPFknY",
-      "opener_youtube_id": "WMgya2uKoYw"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Cat Power",
       "date": "Fri, Mar 13",
       "doors": "7 pm",
@@ -282,10 +269,22 @@
       "notice": null,
       "youtube_id": "dvFimLs-TLU",
       "opener_youtube_id": "iN3ZS1TCozU"
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "Color Me Asheville by Goodwill",
+      "date": "Fri, Apr 17",
+      "doors": "6 pm",
+      "showtime": "7 pm",
+      "opener": null,
+      "image": "https://theorangepeel.net/wp-content/uploads/2026/02/color-me-asheville-by-goodwill.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/67829460/color-me-asheville-by-goodwill-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": null,
+      "youtube_id": null
     }
   ],
   "total_shows": 22,
-  "shows_with_video": 19,
+  "shows_with_video": 18,
   "shows_with_image": 22,
-  "last_updated": "2026-03-12T09:13:36.463311"
+  "last_updated": "2026-03-13T09:10:32.567710"
 }

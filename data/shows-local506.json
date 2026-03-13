@@ -33,7 +33,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
+      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -72,7 +72,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
+      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -124,7 +124,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
+      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -332,5 +332,5 @@
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-12T09:12:03.852351"
+  "last_updated": "2026-03-13T09:09:03.269158"
 }
