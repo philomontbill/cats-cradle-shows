@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "WHATMORE",
-      "date": "Fri, Mar 13",
-      "venue": "Bowery Ballroom",
-      "opener": "DERBY",
-      "notice": null,
-      "doors": "8:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/85b/194de982-69c3-4b61-bdd0-ebaff52e885b_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/whatmore/",
-      "youtube_id": "L-9QwatubPo",
-      "opener_youtube_id": "dWw2CD15uqo"
-    },
-    {
       "artist": "Taiki Nulight – cheeky bugger tour",
       "date": "Sat, Mar 14",
       "venue": "Bowery Ballroom",
@@ -104,7 +91,7 @@
       "image": "https://s1.ticketm.net/dam/e/f5f/b4bc0ee7-0a29-48e7-8a1b-a3727df64f5f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/slomosa/",
       "youtube_id": "bXcUtP_O0J4",
-      "opener_youtube_id": "Pw8eMLyHdnU"
+      "opener_youtube_id": "Tsm2ZpD8fpM"
     },
     {
       "artist": "Club 90s: Heated RivalRave",
@@ -212,13 +199,14 @@
       "artist": "Glen Hansard – Don’t Settle",
       "date": "Thu, Apr 09",
       "venue": "Bowery Ballroom",
-      "opener": null,
+      "opener": "Margaret Glaspy",
       "notice": "Sold Out",
       "doors": "8:00 pm",
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/c7f/45fd4a47-b81b-4b2f-bd0c-c2a98dbb2c7f_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/glen-hansard-dont-settle/",
-      "youtube_id": "2em8B4ARSTE"
+      "youtube_id": "2em8B4ARSTE",
+      "opener_youtube_id": "Yepr1BEkRrs"
     },
     {
       "artist": "All Your Friends: The Indie Party",
@@ -256,10 +244,22 @@
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ashes-to-amber/",
       "youtube_id": "eo_0CdDmmLU",
       "opener_youtube_id": "BbO25y5oBr8"
+    },
+    {
+      "artist": "Pacifica",
+      "date": "Wed, Apr 15",
+      "venue": "Bowery Ballroom",
+      "opener": null,
+      "notice": null,
+      "doors": "7:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/0c2/10de46d8-1fd1-426e-9adf-6e6d723e10c2_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/pacifica/",
+      "youtube_id": "rlxRAezg2qs"
     }
   ],
   "total_shows": 20,
   "shows_with_video": 14,
   "shows_with_image": 20,
-  "last_updated": "2026-03-13T09:10:01.569502"
+  "last_updated": "2026-03-14T09:03:32.705708"
 }

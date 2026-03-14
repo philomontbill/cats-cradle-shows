@@ -7,17 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Mellow Swells Album Release w/ Sonny Miles",
-      "date": "Fri, Mar 13",
-      "doors": "8 pm",
-      "showtime": "9 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/mellow-swells-album-release.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/82256035/mellow-swells-album-release-wsonny-miles-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "U48wJqFfWBM"
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Minorcan / Lalitree Darnielle / Celestogramme",
       "date": "Sat, Mar 14",
       "doors": "6 pm",
@@ -283,10 +272,21 @@
       "notice": null,
       "youtube_id": null,
       "opener_youtube_id": null
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Telescreens / The Wallabies",
+      "date": "Fri, Apr 10",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/telescreens.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/56791004/telescreens-the-wallabies-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "l5bC24eTtzs"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 14,
   "shows_with_image": 25,
-  "last_updated": "2026-03-13T09:09:10.819908"
+  "last_updated": "2026-03-14T09:02:46.597644"
 }

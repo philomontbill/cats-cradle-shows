@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Fireside Collective",
-      "date": "Fri, Mar 13",
-      "doors": "7:30 pm",
-      "showtime": "8:30 pm",
-      "opener": "Of Good Nature",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Fireside_912491763287469.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/68612864/fireside-collective-wof-good-nature-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "9sDZrahivvA",
-      "opener_youtube_id": "PR_O_Impm9U"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "Mother’s Finest",
       "date": "Sat, Mar 14",
       "doors": "7 pm",
@@ -293,10 +280,21 @@
       "notice": null,
       "youtube_id": "Kg0y-Ti6rbg",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Disciple of The Garden – Tribute to Chris Cornell, Soundgarden, Audioslave",
+      "date": "Sat, May 09",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/02/disciple-of-the-garden-tribute-to-chris-cornell-soundgarden-audioslave.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/69019434/disciple-of-the-garden-tribute-to-chris-cornellsoundgardenaudioslave-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "IOnXfdZNQrk"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-13T09:09:14.922850"
+  "last_updated": "2026-03-14T09:02:51.154663"
 }

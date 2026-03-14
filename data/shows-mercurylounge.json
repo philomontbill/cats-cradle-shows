@@ -6,31 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Cailin Russo",
-      "date": "Fri, Mar 13",
-      "venue": "Mercury Lounge",
-      "opener": null,
-      "notice": "Sold Out",
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/f62/ceae0603-bebc-447e-8a5c-c3d0a3084f62_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/cailin-russo/",
-      "youtube_id": "ePbjWGnEzk4"
-    },
-    {
-      "artist": "HLWA",
-      "date": "Fri, Mar 13",
-      "venue": "Mercury Lounge",
-      "opener": "Cataract,Trader O",
-      "notice": null,
-      "doors": "9:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/a16/4963dbd5-d7cd-435b-acb6-1668d4781a16_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/hlwa/",
-      "youtube_id": null,
-      "opener_youtube_id": null
-    },
-    {
       "artist": "Kevin Devine & The Goddamn Band are Kenny O\u2019Brien & The O\u2019Douls",
       "date": "Sat, Mar 14",
       "venue": "Mercury Lounge",
@@ -93,7 +68,7 @@
       "image": "https://s1.ticketm.net/dam/a/e37/09bfa68b-d09b-49a3-940e-8da205dc4e37_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/see-plus-smilley-kage-blakestyle-duo/",
       "youtube_id": "ulrrAmFAryI",
-      "opener_youtube_id": "OfVroh2Ixco"
+      "opener_youtube_id": null
     },
     {
       "artist": "Buffalo Traffic Jam",
@@ -183,7 +158,7 @@
       "image": "https://s1.ticketm.net/dam/e/bc8/899be1f8-d84f-42e7-8de2-5f3b95c8bbc8_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/grrrl-gang/",
       "youtube_id": "WGYZo3VzdTc",
-      "opener_youtube_id": "Fdrrrym4ZB8"
+      "opener_youtube_id": null
     },
     {
       "artist": "Darryl Rahn",
@@ -209,7 +184,7 @@
       "image": "https://s1.ticketm.net/dam/e/406/a4734b9b-2f50-4a8e-badd-a822ca7fd406_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ulrika-spacek/",
       "youtube_id": "AR_uf1a0sJ4",
-      "opener_youtube_id": "ZZihpKjynYU"
+      "opener_youtube_id": null
     },
     {
       "artist": "Rin",
@@ -262,10 +237,35 @@
       "ticket_url": "https://mercuryeastpresents.com/tm-event/pink-skies/",
       "youtube_id": "D9Tr1X-BpNg",
       "opener_youtube_id": null
+    },
+    {
+      "artist": "Nanseera",
+      "date": "Wed, Mar 25",
+      "venue": "Mercury Lounge",
+      "opener": "Phoebe Zara",
+      "notice": null,
+      "doors": "9:00 pm",
+      "showtime": null,
+      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/02/Nanseera-1-scaled.png",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/nanseera-w-evelia-phoebe-zara/",
+      "youtube_id": "EIibDbMadpw",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "Juice",
+      "date": "Thu, Mar 26",
+      "venue": "Mercury Lounge",
+      "opener": null,
+      "notice": null,
+      "doors": "9:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/ae0/ad1e519f-037c-4d55-98de-020c07ebbae0_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/juice/",
+      "youtube_id": "LW_BSEjgBss"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 15,
+  "shows_with_video": 16,
   "shows_with_image": 20,
-  "last_updated": "2026-03-13T09:10:27.186810"
+  "last_updated": "2026-03-14T09:03:54.257278"
 }

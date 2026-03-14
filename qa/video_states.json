@@ -1149,12 +1149,12 @@
   "Yonder Mountain String Band": {
     "status": "verified",
     "video_id": "yi0ho-hTG-U",
-    "verified_date": "2026-03-13T09:11:11.891872",
-    "confidence": "channel match, 41,094 views",
+    "verified_date": "2026-03-14T09:04:27.872374",
+    "confidence": "channel match, 41,137 views",
     "metadata": {
       "video_title": "Yonder Mountain String Band - Blind (Official Music Video)",
       "channel_name": "Yonder Mountain String Band",
-      "view_count": 41094,
+      "view_count": 41137,
       "published": "2026-02-20T13:39:49Z",
       "channel_subscribers": 16700,
       "channel_videos": 232,
@@ -1224,12 +1224,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-13T09:11:13.137217",
+    "verified_date": "2026-03-14T09:04:30.290288",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5340967,
+      "view_count": 5341784,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -4905,15 +4905,15 @@
   "Indigo de Souza": {
     "status": "verified",
     "video_id": "ZstVTHCCcGs",
-    "verified_date": "2026-03-13T09:11:15.570634",
-    "confidence": "channel match, 256,762 views",
+    "verified_date": "2026-03-14T09:04:32.615595",
+    "confidence": "channel match, 256,811 views",
     "metadata": {
       "video_title": "Indigo De Souza - Hold U [Official Music Video]",
       "channel_name": "Indigo De Souza",
-      "view_count": 256762,
+      "view_count": 256811,
       "published": "2021-07-21T14:00:11Z",
       "channel_subscribers": 25900,
-      "channel_videos": 88,
+      "channel_videos": 89,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
@@ -5126,12 +5126,12 @@
   "Skullcrusher": {
     "status": "verified",
     "video_id": "88igVuZ9zks",
-    "verified_date": "2026-03-13T09:11:09.503118",
-    "confidence": "channel match, VEVO, 92,490 views",
+    "verified_date": "2026-03-14T09:04:26.706668",
+    "confidence": "channel match, VEVO, 92,539 views",
     "metadata": {
       "video_title": "Skullcrusher - Exhale (Official Music Video)",
       "channel_name": "SkullcrusherVEVO",
-      "view_count": 92490,
+      "view_count": 92539,
       "published": "2025-07-16T13:00:11Z",
       "channel_subscribers": 128,
       "channel_videos": 14,
@@ -10364,22 +10364,22 @@
   },
   "The Mainliners": {
     "status": "verified",
-    "video_id": "Pw8eMLyHdnU",
-    "verified_date": "2026-03-13T09:10:41.546545",
-    "confidence": "channel match, 48,208 views",
+    "video_id": "Tsm2ZpD8fpM",
+    "verified_date": "2026-03-14T09:04:07.471918",
+    "confidence": "channel match, 240,576 views",
     "metadata": {
-      "video_title": "THE MAINLINERS - CHROME PIT (official video)",
+      "video_title": "THE MAINLINERS - NO MAS TEQUILA (official video)",
       "channel_name": "The Mainliners",
-      "view_count": 48208,
-      "published": "2026-01-11T19:55:39Z",
-      "channel_subscribers": 4480,
+      "view_count": 240576,
+      "published": "2024-09-26T04:00:28Z",
+      "channel_subscribers": 4500,
       "channel_videos": 14,
       "is_topic": false,
       "channel_match": true,
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "video_age_years": 0.2
+      "video_age_years": 1.5
     }
   },
   "Club 90s: Heated RivalRave": {
@@ -10909,26 +10909,23 @@
     }
   },
   "Vivian,Disconesia": {
-    "status": "verified",
-    "video_id": "Fdrrrym4ZB8",
-    "verified_date": "2026-03-11T09:13:03.002842",
-    "confidence": "VEVO",
+    "status": "rejected",
+    "video_id": "qtqQ7ZFgdxI",
+    "rejected_date": "2026-03-14T09:04:21.881757",
+    "reason": "artist name not found in channel or title",
     "metadata": {
-      "video_title": "Vivian Green - Get Right Back To My Baby",
-      "channel_name": "VivianGreenVEVO",
-      "view_count": 10608600,
-      "published": "2015-04-07T07:00:01Z",
-      "channel_subscribers": 114000,
-      "channel_videos": 14,
+      "video_title": "Vivian - Charm ft Jose Chameleone (Official Video) [Skiza 8541101 ]",
+      "channel_name": "Vivian Kenya Official",
+      "view_count": 4998272,
+      "published": "2016-11-23T11:17:52Z",
+      "channel_subscribers": 127000,
+      "channel_videos": 116,
       "is_topic": false,
       "channel_match": false,
-      "vevo_channel": true,
-      "trusted_channel": true,
+      "trusted_channel": false,
       "session_channel": false,
-      "trusted_reason": "VEVO",
-      "view_cap_reason": "trusted channel (VEVO)",
-      "channel_override": "trusted VEVO, skipping mismatch check",
-      "video_age_years": 10.9
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 9.3
     }
   },
   "Darryl Rahn": {
@@ -11863,6 +11860,253 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 5.5
+    }
+  },
+  "Margaret Glaspy": {
+    "status": "verified",
+    "video_id": "Yepr1BEkRrs",
+    "verified_date": "2026-03-14T09:04:08.676100",
+    "confidence": "channel match, VEVO, 314,202 views",
+    "metadata": {
+      "video_title": "Margaret Glaspy - Act Natural (Official Video)",
+      "channel_name": "MargaretGlaspyVEVO",
+      "view_count": 314202,
+      "published": "2023-05-31T09:00:16Z",
+      "channel_subscribers": 7460,
+      "channel_videos": 67,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 2.8
+    }
+  },
+  "Pacifica": {
+    "status": "verified",
+    "video_id": "rlxRAezg2qs",
+    "verified_date": "2026-03-14T09:04:09.901149",
+    "confidence": "channel match, 432,422 views",
+    "metadata": {
+      "video_title": "Pacifica - \"Soltame!\" (Official Video)",
+      "channel_name": "Pacifica",
+      "view_count": 432422,
+      "published": "2025-08-27T14:00:07Z",
+      "channel_subscribers": 307000,
+      "channel_videos": 465,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.5
+    }
+  },
+  "Bee Million,  Ranford Almond": {
+    "status": "verified",
+    "video_id": "VV4pVs_1Ju8",
+    "verified_date": "2026-03-14T09:04:12.310337",
+    "confidence": "channel match, 2,942 views",
+    "metadata": {
+      "video_title": "Lost on Me: Official Video",
+      "channel_name": "Bee Million",
+      "view_count": 2942,
+      "published": "2026-03-10T05:09:36Z",
+      "channel_subscribers": 12,
+      "channel_videos": 1,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
+    }
+  },
+  "Rigometrics \u2013 Rigossance Tour": {
+    "status": "verified",
+    "video_id": "lQ-4LMFbRy8",
+    "verified_date": "2026-03-14T09:04:14.743464",
+    "confidence": "channel match, 1,551 views",
+    "metadata": {
+      "video_title": "Rigometrics \"Couldn't Tell Ya\" Music Video",
+      "channel_name": "Rigometrics",
+      "view_count": 1551,
+      "published": "2025-06-29T14:03:43Z",
+      "channel_subscribers": 210,
+      "channel_videos": 56,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "Pollen": {
+    "status": "verified",
+    "video_id": "7bJjMdu1F9I",
+    "verified_date": "2026-03-14T09:04:15.953524",
+    "confidence": "channel match, 76 views",
+    "metadata": {
+      "video_title": "Menu - pollen (Official Music Video)",
+      "channel_name": "Pollen",
+      "view_count": 76,
+      "published": "2025-10-20T04:00:06Z",
+      "channel_subscribers": 35,
+      "channel_videos": 5,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
+    }
+  },
+  "Disciple of The Garden \u2013 Tribute to Chris Cornell, Soundgarden, Audioslave": {
+    "status": "verified",
+    "video_id": "IOnXfdZNQrk",
+    "verified_date": "2026-03-14T09:04:19.507872",
+    "confidence": "channel match, 2,002 views",
+    "metadata": {
+      "video_title": "Outshined (Soundgarden cover) Chris Cornell Tribute #soundgarden #outshined #chriscornelltribute",
+      "channel_name": "Disciple of the Garden ",
+      "view_count": 2002,
+      "published": "2025-11-06T17:47:59Z",
+      "channel_subscribers": 275,
+      "channel_videos": 66,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Landowner": {
+    "status": "verified",
+    "video_id": "WgmBkgqJwUU",
+    "verified_date": "2026-03-14T09:04:20.702381",
+    "confidence": "2,449 views",
+    "metadata": {
+      "video_title": "Landowner - \"Rival Males\" (Official Video)",
+      "channel_name": "explodinginsound",
+      "view_count": 2449,
+      "published": "2026-01-13T05:04:33Z",
+      "channel_subscribers": 6250,
+      "channel_videos": 422,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "channel_warning": "channel 'explodinginsound' doesn't match artist (title match)",
+      "video_age_years": 0.2
+    }
+  },
+  "Nanseera": {
+    "status": "verified",
+    "video_id": "EIibDbMadpw",
+    "verified_date": "2026-03-14T09:04:23.109308",
+    "confidence": "channel match, 852 views",
+    "metadata": {
+      "video_title": "Nanseera - Dance Like You [Official Music Video]",
+      "channel_name": "Nanseera",
+      "view_count": 852,
+      "published": "2026-03-06T17:00:06Z",
+      "channel_subscribers": 793,
+      "channel_videos": 119,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.0
+    }
+  },
+  "Phoebe Zara": {
+    "status": "rejected",
+    "video_id": "ecINYVamTuE",
+    "rejected_date": "2026-03-14T09:04:24.370598",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Phoebe Austin - I Came here to win - Official video - Anti Bullying",
+      "channel_name": "Shlepp Entertainment",
+      "view_count": 1007,
+      "published": "2019-05-04T17:41:50Z",
+      "channel_subscribers": 2690,
+      "channel_videos": 422,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 6.9
+    }
+  },
+  "Juice": {
+    "status": "verified",
+    "video_id": "LW_BSEjgBss",
+    "verified_date": "2026-03-14T09:04:25.537550",
+    "confidence": "channel match, VEVO",
+    "metadata": {
+      "video_title": "Juice WRLD, Marshmello - We Don't Get Along (Official Video)",
+      "channel_name": "JuiceWRLDVEVO",
+      "view_count": 2683152,
+      "published": "2026-03-06T05:00:29Z",
+      "channel_subscribers": 31400,
+      "channel_videos": 19,
+      "is_topic": false,
+      "channel_match": true,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "video_age_years": 0.0
+    }
+  },
+  "Shinyribs": {
+    "status": "verified",
+    "video_id": "4M9tCya79Go",
+    "verified_date": "2026-03-14T09:04:29.141784",
+    "confidence": "249,373 views",
+    "metadata": {
+      "video_title": "Shinyribs - Bitch Better Have My Money (Rihanna) / Long Train Runnin' (The Doobie Brothers)",
+      "channel_name": "Paste Magazine",
+      "view_count": 249373,
+      "published": "2022-01-22T20:50:35Z",
+      "channel_subscribers": 778000,
+      "channel_videos": 21728,
+      "is_topic": false,
+      "channel_match": false,
+      "session_channel": "Paste Magazine",
+      "trusted_channel": false,
+      "trusted_reason": "session: Paste Magazine",
+      "view_cap_reason": "session channel (session: Paste Magazine)",
+      "channel_override": "session: Paste Magazine, artist confirmed in title",
+      "video_age_years": 4.1
+    }
+  },
+  "Telescreens / The Wallabies": {
+    "status": "verified",
+    "video_id": "l5bC24eTtzs",
+    "verified_date": "2026-03-14T09:04:31.452805",
+    "confidence": "channel match, 283,843 views",
+    "metadata": {
+      "video_title": "Telescreens - Nothing (Official Music Video)",
+      "channel_name": "Telescreens",
+      "view_count": 283843,
+      "published": "2025-10-28T14:00:00Z",
+      "channel_subscribers": 1290,
+      "channel_videos": 33,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.4
     }
   }
 }

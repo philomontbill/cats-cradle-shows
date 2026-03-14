@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "CARTER FAITH",
-      "date": "Fri, Mar 13",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/cfd/2af92abf-a018-4a9e-9303-520e8066bcfd_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/carter-faith-the-cherry-valley-tour-charlotte-north-carolina-03-13-2026/event/2D006379C47BAFE9",
-      "youtube_id": "FTGq4amVO4k"
-    },
-    {
       "artist": "Eggy",
       "date": "Sat, Mar 14",
       "venue": "Neighborhood Theatre",
@@ -292,10 +280,22 @@
       "image": "https://s1.ticketm.net/dam/e/774/6049299c-f8c3-47c7-8430-ea06fc0cc774_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/protoje-reggae-invasion-18-charlotte-north-carolina-04-28-2026/event/2D006434C5E5C44A",
       "youtube_id": null
+    },
+    {
+      "artist": "Shinyribs",
+      "date": "Fri, May 01",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/21e/bea012ea-f971-4f9b-9891-18b5cba1221e_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/shinyribs-charlotte-north-carolina-05-01-2026/event/2D00644AFFF53AA9",
+      "youtube_id": "4M9tCya79Go"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 19,
   "shows_with_image": 24,
-  "last_updated": "2026-03-13T09:10:27.778938"
+  "last_updated": "2026-03-14T09:03:56.844635"
 }

@@ -8,13 +8,14 @@
     {
       "venue": "Heartwood Soundstage",
       "artist": "Gainesville Guitar Festival 2026",
-      "date": "Fri, Mar 13",
+      "date": "Sat, Mar 13",
       "showtime": "7:00 pm",
       "doors": null,
       "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69b2cf196fd76166f45bf3f5_651221343_18569636782062807_7675103465361936968_n.jpeg",
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/gainesville-guitar-festival-2026-13-mar",
       "notice": null,
-      "youtube_id": null
+      "youtube_id": null,
+      "expired": true
     },
     {
       "venue": "Heartwood Soundstage",
@@ -297,8 +298,8 @@
       "youtube_id": "-5QwLeOyq5k"
     }
   ],
-  "total_shows": 25,
+  "total_shows": 24,
   "shows_with_video": 15,
-  "shows_with_image": 25,
-  "last_updated": "2026-03-13T09:10:38.581292"
+  "shows_with_image": 24,
+  "last_updated": "2026-03-14T09:04:05.832759"
 }

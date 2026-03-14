@@ -20,32 +20,6 @@
       "expired": true
     },
     {
-      "artist": "Dogpark",
-      "date": "Fri, Mar 13",
-      "venue": "Cat's Cradle",
-      "opener": "John Wood",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Dogpark_2174341769003839-1.jpg",
-      "event_url": "https://catscradle.com/event/dogpark/cats-cradle/carrboro-north-carolina/",
-      "youtube_id": "gvifMWDdZTA",
-      "opener_youtube_id": "MyONQHbpkCA"
-    },
-    {
-      "artist": "Surfing for Daisy",
-      "date": "Fri, Mar 13",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Jack The Radio",
-      "notice": null,
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Surfing_2066901764669992.jpg",
-      "event_url": "https://catscradle.com/event/surfing-for-daisy/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "DogDoFcSK-Q",
-      "opener_youtube_id": "JuvMfMIfQIg"
-    },
-    {
       "artist": "Twen",
       "date": "Sat, Mar 14",
       "venue": "Cat's Cradle Back Room",
@@ -203,7 +177,7 @@
       "notice": null,
       "doors": "5:30 pm",
       "showtime": "6 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2021/04/cradlevenue.png",
+      "image": "https://catscradle.com/wp-content/uploads/2026/03/the-big-pop-show-with-good-flying-birds-touch-girl-apple-blossom-little-chair-memory-card-sacred-heart-academy.jpg",
       "event_url": "https://catscradle.com/event/the-big-pop-show/cats-cradle-back-room/carrboro-north-carolina/",
       "youtube_id": null,
       "opener_youtube_id": null
@@ -263,13 +237,14 @@
       "artist": "Emerson Bruno and The Undercurrents",
       "date": "Fri, Mar 27",
       "venue": "Cat's Cradle Back Room",
-      "opener": null,
+      "opener": "Bee Million,  Ranford Almond",
       "notice": null,
       "doors": "7 pm",
       "showtime": "8 pm",
       "image": "https://catscradle.com/wp-content/uploads/2026/03/emerson-bruno-and-the-undercurrents.jpg",
       "event_url": "https://catscradle.com/event/emerson-bruno-and-the-undercurrents/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": null
+      "youtube_id": null,
+      "opener_youtube_id": "VV4pVs_1Ju8"
     },
     {
       "artist": "Hudson Freeman",
@@ -311,6 +286,31 @@
       "opener_youtube_id": "VCtWfh4N80s"
     },
     {
+      "artist": "Big Star Quintet \u2013 Celebrates Five Decades of the Influential Band\u2019s Legacy",
+      "date": "Wed, Apr 01",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": null,
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Big_2082981765274819.jpg",
+      "event_url": "https://catscradle.com/event/big-star-quintet-celebrates-five-decades-of-the-influential-bands-legacy/cats-cradle/carrboro-north-carolina/",
+      "youtube_id": null
+    },
+    {
+      "artist": "Rigometrics \u2013 Rigossance Tour",
+      "date": "Thu, Apr 02",
+      "venue": "Cat's Cradle Back Room",
+      "opener": "Pollen",
+      "notice": "sold out",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2026/02/rigometrics-rigossance-tour-with-pollen.jpg",
+      "event_url": "https://catscradle.com/event/rigometrics-rigossance-tour/cats-cradle-back-room/carrboro-north-carolina/",
+      "youtube_id": "lQ-4LMFbRy8",
+      "opener_youtube_id": "7bJjMdu1F9I"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -325,7 +325,7 @@
     }
   ],
   "total_shows": 24,
-  "shows_with_video": 17,
+  "shows_with_video": 15,
   "shows_with_image": 24,
-  "last_updated": "2026-03-13T09:08:57.828713"
+  "last_updated": "2026-03-14T09:02:31.775101"
 }

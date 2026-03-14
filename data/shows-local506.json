@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Who They Fear and Varia: The Visions 2026 Tour",
-      "date": "Fri, Mar 13",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Distant Fires, Infinxty, and As Above So Below",
-      "image": "https://local506.com/wp-content/uploads/2026/03/who-they-fear-and-varia-the-visions-2026-tour-with-infinxty-and-as-above-so-below.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/81900275/who-they-fear-and-variathe-visions-2026-tour-with-distant-firesinfinxtyand-as-above-so-below-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "5T--s-V4rk0",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Local 506",
       "artist": "Snide and Knub",
       "date": "Sat, Mar 14",
       "doors": "7 pm",
@@ -327,10 +314,23 @@
       "ticket_url": "https://local506.com/event/maris/",
       "notice": null,
       "youtube_id": "v2VHCvagHWE"
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Landowner",
+      "date": "Mon, Apr 20",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Döltz and Franky & The Slight Incline",
+      "image": "https://local506.com/wp-content/uploads/2026/03/landowner-with-doltz-and-franky-the-slight-incline.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/56091033/landowner-with-d%C3%B6ltz-and-franky-the-slight-incline-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": "WgmBkgqJwUU",
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-13T09:09:03.269158"
+  "last_updated": "2026-03-14T09:02:40.654393"
 }
