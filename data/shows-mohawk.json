@@ -7,32 +7,6 @@
   "shows": [
     {
       "artist": "SXSW: The Billboard House",
-      "date": "Sat, Mar 14",
-      "venue": "Mohawk Outdoor",
-      "opener": "Conversations With, Ravyn Lenae and Corinne Bailey Rae, Jesse Coren and Andrew Spelman, Junior H, Performances By, Karina Galicia, Eddyjae, Mosmo, Oscar Ortiz, Lena Dardelet, Sofish, Brunog, Hermanos Espinoza",
-      "notice": null,
-      "doors": "",
-      "showtime": "",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648465814817",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648485186800",
-      "youtube_id": "u5jeMiqAq8E",
-      "opener_youtube_id": null
-    },
-    {
-      "artist": "SXSW: The Billboard House",
-      "date": "Sat, Mar 14",
-      "venue": "Mohawk Outdoor",
-      "opener": "Los Guitarrazos",
-      "notice": null,
-      "doors": "10:00pm",
-      "showtime": "10:00pm",
-      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648465810848",
-      "ticket_url": "http://www.prekindle.com/promo/id/-2852852648465811134",
-      "youtube_id": "u5jeMiqAq8E",
-      "opener_youtube_id": "mBs0ZSO64IE"
-    },
-    {
-      "artist": "SXSW: The Billboard House",
       "date": "Sun, Mar 15",
       "venue": "Mohawk Outdoor",
       "opener": "Conversations With, Noah Kahan and Nick Sweeney, Jonás Cuarón and Edgar Barrera, Mau P, Performances By, The Gringos, Feel Trip., Sassy 009, Amie Blu, Momo Boyd, Ink, Ttssfu, Panic Shack, THEBROSFRESH",
@@ -326,10 +300,36 @@
       "ticket_url": "https://www.etix.com/ticket/p/69386166/my-life-with-the-thrill-kill-kult-austin-resound-presents",
       "youtube_id": "qd3Ec0zvLLU",
       "opener_youtube_id": "WNiKCRUpbqA"
+    },
+    {
+      "artist": "Collateral",
+      "date": "Fri, Apr 10",
+      "venue": "Mohawk Indoor",
+      "opener": "Leave No Doubt, It's the Limit, Paradise, Nemesis",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "8:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648494668953",
+      "ticket_url": "https://www.etix.com/ticket/p/89827606/collateral-austin-mohawk-austintxindoor",
+      "youtube_id": "fsaDMSLFRh4",
+      "opener_youtube_id": null
+    },
+    {
+      "artist": "Indigo De Souza",
+      "date": "Sat, Apr 11",
+      "venue": "Mohawk Outdoor",
+      "opener": "Mothé",
+      "notice": null,
+      "doors": "8:00pm",
+      "showtime": "9:00pm",
+      "image": "https://d1yf68t7nbxlyn.cloudfront.net/image/id/-2852852648593523714",
+      "ticket_url": "https://www.etix.com/ticket/p/66902831/indigo-de-souza-austin-resound-presents",
+      "youtube_id": "Vac5K2i8Blk",
+      "opener_youtube_id": "VCtWfh4N80s"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 17,
   "shows_with_image": 25,
-  "last_updated": "2026-03-14T09:02:59.514273"
+  "last_updated": "2026-03-15T09:04:47.187775"
 }

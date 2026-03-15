@@ -7,18 +7,6 @@
   "shows": [
     {
       "venue": "Heartwood Soundstage",
-      "artist": "Gainesville Guitar Festival 2026",
-      "date": "Sat, Mar 13",
-      "showtime": "7:00 pm",
-      "doors": null,
-      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/69b2cf196fd76166f45bf3f5_651221343_18569636782062807_7675103465361936968_n.jpeg",
-      "ticket_url": "https://www.heartwoodsoundstage.com/shows/gainesville-guitar-festival-2026-13-mar",
-      "notice": null,
-      "youtube_id": null,
-      "expired": true
-    },
-    {
-      "venue": "Heartwood Soundstage",
       "artist": "Josh Meloy",
       "opener": "Trenton Fletcher",
       "date": "Thu, Mar 19",
@@ -296,10 +284,21 @@
       "ticket_url": "https://www.heartwoodsoundstage.com/shows/yonder-mountain-string-band-23-apr",
       "notice": null,
       "youtube_id": "-5QwLeOyq5k"
+    },
+    {
+      "venue": "Heartwood Soundstage",
+      "artist": "Pump Action and The Retrograde",
+      "date": "Fri, Apr 24",
+      "showtime": "8:00 pm",
+      "doors": null,
+      "image": "https://cdn.prod.website-files.com/6880024e8f96bbd1e6ff9c03/695d4ecf10d4780f7208f48f_Copy_of_JSG-5.jpeg",
+      "ticket_url": "https://www.heartwoodsoundstage.com/shows/pump-action-and-the-retrograde-24-apr",
+      "notice": null,
+      "youtube_id": null
     }
   ],
-  "total_shows": 24,
+  "total_shows": 25,
   "shows_with_video": 15,
-  "shows_with_image": 24,
-  "last_updated": "2026-03-14T09:04:05.832759"
+  "shows_with_image": 25,
+  "last_updated": "2026-03-15T09:05:55.953353"
 }

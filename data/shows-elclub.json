@@ -226,7 +226,8 @@
       "image": null,
       "ticket_url": "https://dice.fm/event/xe22qa",
       "youtube_id": "VzJa8Eql6A8",
-      "opener_youtube_id": null
+      "opener_youtube_id": null,
+      "expired": true
     },
     {
       "artist": "Hieroglyphics",
@@ -294,8 +295,8 @@
       "opener_youtube_id": null
     }
   ],
-  "total_shows": 6,
-  "shows_with_video": 6,
+  "total_shows": 5,
+  "shows_with_video": 5,
   "shows_with_image": 0,
   "last_updated": "2026-02-11T00:00:00.000000"
 }

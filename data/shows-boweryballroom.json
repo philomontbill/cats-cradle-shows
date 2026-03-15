@@ -6,19 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Taiki Nulight – cheeky bugger tour",
-      "date": "Sat, Mar 14",
-      "venue": "Bowery Ballroom",
-      "opener": "Rohaan",
-      "notice": null,
-      "doors": "8:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/82d/b3eb8cce-62dc-4d66-8517-0cc0a0d8982d_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/taiki-nulight-cheeky-bugger-tour/",
-      "youtube_id": null,
-      "opener_youtube_id": "I6TuqnTDEeA"
-    },
-    {
       "artist": "Sienna Spiro – The Visitor Tour",
       "date": "Tue, Mar 17",
       "venue": "Bowery Ballroom",
@@ -129,7 +116,7 @@
       "image": "https://s1.ticketm.net/dam/a/395/839b6a5f-48f8-4ae0-88be-2a168e4c4395_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/sons-of-legion-soul-to-sol-tour-3/",
       "youtube_id": "1jELuAbaEM4",
-      "opener_youtube_id": "_IAr7SK6mzA"
+      "opener_youtube_id": "pUNJMp_14V4"
     },
     {
       "artist": "Sons of Legion – Soul to SØL Tour",
@@ -256,10 +243,23 @@
       "image": "https://s1.ticketm.net/dam/a/0c2/10de46d8-1fd1-426e-9adf-6e6d723e10c2_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/pacifica/",
       "youtube_id": "rlxRAezg2qs"
+    },
+    {
+      "artist": "Boys Go To Jupiter",
+      "date": "Fri, Apr 17",
+      "venue": "Bowery Ballroom",
+      "opener": "Similar Kind,Wormy",
+      "notice": null,
+      "doors": "8:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/e28/ee2232a1-dd03-472c-be58-cc04969c1e28_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/boys-go-to-jupiter/",
+      "youtube_id": "LWccvJRW1fA",
+      "opener_youtube_id": "QUFiiX6hO0Y"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 14,
+  "shows_with_video": 15,
   "shows_with_image": 20,
-  "last_updated": "2026-03-14T09:03:32.705708"
+  "last_updated": "2026-03-15T09:05:21.708431"
 }

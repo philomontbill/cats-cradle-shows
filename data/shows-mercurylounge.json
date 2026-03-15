@@ -6,32 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Kevin Devine & The Goddamn Band are Kenny O\u2019Brien & The O\u2019Douls",
-      "date": "Sat, Mar 14",
-      "venue": "Mercury Lounge",
-      "opener": "Casey Jost",
-      "notice": null,
-      "doors": "6:00 pm",
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/e/fd0/9fcfcd98-6e7f-4f42-bb13-1e941ad88fd0_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/kevin-devine-the-goddamn-band-are-kenny-obrien-the-odouls/",
-      "youtube_id": null,
-      "opener_youtube_id": "qdPWmOYkjvg"
-    },
-    {
-      "artist": "The Red Party: THE BOOTBLACKS + THE DISCUSSION LIVE!",
-      "date": "Sat, Mar 14",
-      "venue": "Mercury Lounge",
-      "opener": "Bootblacks",
-      "notice": null,
-      "doors": "10:00 pm",
-      "showtime": null,
-      "image": "http://mercuryeastpresents.com/wp-content/uploads/2026/01/Red_0314_discussion_bootblacks.jpg",
-      "ticket_url": "https://mercuryeastpresents.com/tm-event/the-red-party-the-bootblacks-the-discussion-live/",
-      "youtube_id": null,
-      "opener_youtube_id": "9uKhCouPVXU"
-    },
-    {
       "artist": "Kause",
       "date": "Sun, Mar 15",
       "venue": "Mercury Lounge",
@@ -183,8 +157,8 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/e/406/a4734b9b-2f50-4a8e-badd-a822ca7fd406_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/ulrika-spacek/",
-      "youtube_id": "AR_uf1a0sJ4",
-      "opener_youtube_id": null
+      "youtube_id": "ZEh-f0Dwmqw",
+      "opener_youtube_id": "ZZihpKjynYU"
     },
     {
       "artist": "Rin",
@@ -235,7 +209,7 @@
       "showtime": null,
       "image": "https://s1.ticketm.net/dam/a/767/6dbc7d7c-1bc2-4ed2-ab47-0035223c3767_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/pink-skies/",
-      "youtube_id": "D9Tr1X-BpNg",
+      "youtube_id": "5zQAdSiVeBk",
       "opener_youtube_id": null
     },
     {
@@ -262,10 +236,35 @@
       "image": "https://s1.ticketm.net/dam/e/ae0/ad1e519f-037c-4d55-98de-020c07ebbae0_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://mercuryeastpresents.com/tm-event/juice/",
       "youtube_id": "LW_BSEjgBss"
+    },
+    {
+      "artist": "Jarv and RDGLDGRN",
+      "date": "Fri, Mar 27",
+      "venue": "Mercury Lounge",
+      "opener": "Damn Skippy",
+      "notice": null,
+      "doors": "6:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/7a2/0a39381f-3674-4fb7-beb0-52d933a9c7a2_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/jarv-and-rdgldgrn/",
+      "youtube_id": "aKfdwItg-qM",
+      "opener_youtube_id": "gPaW5dKR9Ss"
+    },
+    {
+      "artist": "Big Shrimp",
+      "date": "Fri, Mar 27",
+      "venue": "Mercury Lounge",
+      "opener": null,
+      "notice": null,
+      "doors": "9:00 pm",
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/a/fe0/1658295d-d08a-4bd9-ba7a-4c6c69742fe0_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://mercuryeastpresents.com/tm-event/big-shrimp/",
+      "youtube_id": "PGheCUDC4CY"
     }
   ],
   "total_shows": 20,
-  "shows_with_video": 16,
+  "shows_with_video": 18,
   "shows_with_image": 20,
-  "last_updated": "2026-03-14T09:03:54.257278"
+  "last_updated": "2026-03-15T09:05:45.029800"
 }

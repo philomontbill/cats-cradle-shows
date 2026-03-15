@@ -1149,12 +1149,12 @@
   "Yonder Mountain String Band": {
     "status": "verified",
     "video_id": "yi0ho-hTG-U",
-    "verified_date": "2026-03-14T09:04:27.872374",
-    "confidence": "channel match, 41,137 views",
+    "verified_date": "2026-03-15T09:06:24.252129",
+    "confidence": "channel match, 41,169 views",
     "metadata": {
       "video_title": "Yonder Mountain String Band - Blind (Official Music Video)",
       "channel_name": "Yonder Mountain String Band",
-      "view_count": 41137,
+      "view_count": 41169,
       "published": "2026-02-20T13:39:49Z",
       "channel_subscribers": 16700,
       "channel_videos": 232,
@@ -1224,12 +1224,12 @@
   "Reverend Horton Heat": {
     "status": "verified",
     "video_id": "H96XcNWKZVg",
-    "verified_date": "2026-03-14T09:04:30.290288",
+    "verified_date": "2026-03-15T09:06:26.662395",
     "confidence": "VEVO",
     "metadata": {
       "video_title": "Reverend Horton Heat - Let Me Teach You How To Eat",
       "channel_name": "RevHortonHeatVEVO",
-      "view_count": 5341784,
+      "view_count": 5342604,
       "published": "2013-11-27T23:41:01Z",
       "channel_subscribers": 19000,
       "channel_videos": 9,
@@ -4905,12 +4905,12 @@
   "Indigo de Souza": {
     "status": "verified",
     "video_id": "ZstVTHCCcGs",
-    "verified_date": "2026-03-14T09:04:32.615595",
-    "confidence": "channel match, 256,811 views",
+    "verified_date": "2026-03-15T09:06:32.662456",
+    "confidence": "channel match, 256,858 views",
     "metadata": {
       "video_title": "Indigo De Souza - Hold U [Official Music Video]",
       "channel_name": "Indigo De Souza",
-      "view_count": 256811,
+      "view_count": 256858,
       "published": "2021-07-21T14:00:11Z",
       "channel_subscribers": 25900,
       "channel_videos": 89,
@@ -5126,12 +5126,12 @@
   "Skullcrusher": {
     "status": "verified",
     "video_id": "88igVuZ9zks",
-    "verified_date": "2026-03-14T09:04:26.706668",
-    "confidence": "channel match, VEVO, 92,539 views",
+    "verified_date": "2026-03-15T09:06:23.058643",
+    "confidence": "channel match, VEVO, 92,579 views",
     "metadata": {
       "video_title": "Skullcrusher - Exhale (Official Music Video)",
       "channel_name": "SkullcrusherVEVO",
-      "view_count": 92539,
+      "view_count": 92579,
       "published": "2025-07-16T13:00:11Z",
       "channel_subscribers": 128,
       "channel_videos": 14,
@@ -10465,14 +10465,14 @@
   "Benny G": {
     "status": "verified",
     "video_id": "_IAr7SK6mzA",
-    "verified_date": "2026-03-12T09:13:44.552394",
-    "confidence": "channel match, VEVO, 400,696 views",
+    "verified_date": "2026-03-15T09:05:58.894491",
+    "confidence": "channel match, VEVO, 401,697 views",
     "metadata": {
       "video_title": "Benny G - I Got a Feeling (From the Studio)",
       "channel_name": "BennyGVEVO",
-      "view_count": 400696,
+      "view_count": 401697,
       "published": "2025-09-05T04:00:42Z",
-      "channel_subscribers": 2,
+      "channel_subscribers": 1,
       "channel_videos": 4,
       "is_topic": false,
       "channel_match": true,
@@ -10970,23 +10970,24 @@
   },
   "Ulrika Spacek": {
     "status": "verified",
-    "video_id": "AR_uf1a0sJ4",
-    "verified_date": "2026-03-11T09:13:06.591595",
-    "confidence": "56,640 views",
+    "video_id": "ZEh-f0Dwmqw",
+    "verified_date": "2026-03-15T09:06:16.988013",
+    "confidence": "58,523 views",
     "metadata": {
-      "video_title": "Ulrika Spacek - Square Root of None [Official Video]",
-      "channel_name": "Full Time Hobby",
-      "view_count": 56640,
-      "published": "2025-11-26T08:12:33Z",
-      "channel_subscribers": 19900,
-      "channel_videos": 391,
+      "video_title": "Ulrika Spacek - Full Performance (Live on KEXP)",
+      "channel_name": "KEXP",
+      "view_count": 58523,
+      "published": "2024-11-20T16:00:28Z",
+      "channel_subscribers": 3850000,
+      "channel_videos": 20820,
       "is_topic": false,
       "channel_match": false,
+      "session_channel": "KEXP",
       "trusted_channel": false,
-      "session_channel": false,
-      "view_cap_reason": "default (5M cap)",
-      "channel_warning": "channel 'Full Time Hobby' doesn't match artist (title match)",
-      "video_age_years": 0.3
+      "trusted_reason": "session: KEXP",
+      "view_cap_reason": "session channel (session: KEXP)",
+      "channel_override": "session: KEXP, artist confirmed in title",
+      "video_age_years": 1.3
     }
   },
   "Gloorp": {
@@ -11617,23 +11618,22 @@
   },
   "Pink Skies": {
     "status": "verified",
-    "video_id": "D9Tr1X-BpNg",
-    "verified_date": "2026-03-13T09:10:57.309541",
-    "confidence": "365,089 views",
+    "video_id": "5zQAdSiVeBk",
+    "verified_date": "2026-03-15T09:06:18.222318",
+    "confidence": "channel match, 181,666 views",
     "metadata": {
-      "video_title": "Zach Bryan - Pink Skies (music video)",
-      "channel_name": "JohnFrankLyke",
-      "view_count": 365089,
-      "published": "2024-07-10T08:45:30Z",
-      "channel_subscribers": 1740,
-      "channel_videos": 62,
+      "video_title": "Pink Skies - Santa Barbara Fireflies (Official Music Video)",
+      "channel_name": "Pink Skies",
+      "view_count": 181666,
+      "published": "2021-05-05T17:00:13Z",
+      "channel_subscribers": 3040,
+      "channel_videos": 173,
       "is_topic": false,
-      "channel_match": false,
+      "channel_match": true,
       "trusted_channel": false,
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
-      "channel_warning": "channel 'JohnFrankLyke' doesn't match artist (title match)",
-      "video_age_years": 1.7
+      "video_age_years": 4.9
     }
   },
   "Cal in Red": {
@@ -12107,6 +12107,372 @@
       "session_channel": false,
       "view_cap_reason": "default (5M cap)",
       "video_age_years": 0.4
+    }
+  },
+  "Boys Go To Jupiter": {
+    "status": "verified",
+    "video_id": "LWccvJRW1fA",
+    "verified_date": "2026-03-15T09:06:00.102208",
+    "confidence": "channel match, 37,075 views",
+    "metadata": {
+      "video_title": "Boys Go To Jupiter \u2013 Virginia (OFFICIAL MUSIC VIDEO)",
+      "channel_name": "Boys Go To Jupiter",
+      "view_count": 37075,
+      "published": "2025-01-15T17:00:06Z",
+      "channel_subscribers": 9010,
+      "channel_videos": 86,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.2
+    }
+  },
+  "Similar Kind,Wormy": {
+    "status": "verified",
+    "video_id": "QUFiiX6hO0Y",
+    "verified_date": "2026-03-15T09:06:01.339351",
+    "confidence": "channel match, 11,269 views",
+    "metadata": {
+      "video_title": "Similar Kind - search party (Official Video)",
+      "channel_name": "Similar Kind",
+      "view_count": 11269,
+      "published": "2025-04-18T16:00:49Z",
+      "channel_subscribers": 2040,
+      "channel_videos": 58,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.9
+    }
+  },
+  "Lucius \u2013 A History Worth Repeating: Songs and Stories from Lucius": {
+    "status": "verified",
+    "video_id": "dqgmQtZ4xbk",
+    "verified_date": "2026-03-15T09:06:04.952828",
+    "confidence": "channel match, 43,007 views",
+    "metadata": {
+      "video_title": "Lucius \u2014 Dusty Trails (Live)",
+      "channel_name": "Lucius",
+      "view_count": 43007,
+      "published": "2023-08-03T16:00:10Z",
+      "channel_subscribers": 40500,
+      "channel_videos": 441,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.6
+    }
+  },
+  "Jay Electronica": {
+    "status": "verified",
+    "video_id": "6cA010JeecE",
+    "verified_date": "2026-03-15T09:06:07.339204",
+    "confidence": "channel match, 669,316 views",
+    "metadata": {
+      "video_title": "Jay Electronica: Dear Moleskine. (prod. by Just Blaze)",
+      "channel_name": "Jay Electronica",
+      "view_count": 669316,
+      "published": "2009-07-26T00:00:50Z",
+      "channel_subscribers": 95000,
+      "channel_videos": 39,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 16.6
+    }
+  },
+  "Zack Keim": {
+    "status": "verified",
+    "video_id": "3dkCNDnSrSA",
+    "verified_date": "2026-03-15T09:06:09.767800",
+    "confidence": "channel match, 20,636 views",
+    "metadata": {
+      "video_title": "Zack Keim - Battery Lane (Official Video)",
+      "channel_name": "Zack Keim",
+      "view_count": 20636,
+      "published": "2024-12-04T05:03:00Z",
+      "channel_subscribers": 790,
+      "channel_videos": 144,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.3
+    }
+  },
+  "David Shane": {
+    "status": "verified",
+    "video_id": "AqiKsx2yEmE",
+    "verified_date": "2026-03-15T09:06:10.962763",
+    "confidence": "channel match, 22,522 views",
+    "metadata": {
+      "video_title": "DAVID SHANE - Shooting Star ft. Demari Thompson (4K)",
+      "channel_name": "David Shane",
+      "view_count": 22522,
+      "published": "2018-02-01T07:00:02Z",
+      "channel_subscribers": 930,
+      "channel_videos": 11,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 8.1
+    }
+  },
+  "The Belair Lip Bombs / dust": {
+    "status": "verified",
+    "video_id": "KOqJfu-QS6k",
+    "verified_date": "2026-03-15T09:06:12.162019",
+    "confidence": "channel match, 185,587 views",
+    "metadata": {
+      "video_title": "The Belair Lip Bombs - Hey You (Official Video)",
+      "channel_name": "The Belair Lip Bombs",
+      "view_count": 185587,
+      "published": "2025-08-13T15:30:18Z",
+      "channel_subscribers": 5060,
+      "channel_videos": 13,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.6
+    }
+  },
+  "Laveda": {
+    "status": "verified",
+    "video_id": "MQ4uHYcqWGg",
+    "verified_date": "2026-03-15T09:06:13.413999",
+    "confidence": "channel match, 7,359 views",
+    "metadata": {
+      "video_title": "Laveda - Cellphone (Official Video)",
+      "channel_name": "Laveda",
+      "view_count": 7359,
+      "published": "2025-07-15T15:10:00Z",
+      "channel_subscribers": 1390,
+      "channel_videos": 34,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "Magnolia Park \u2013 Nights After VAMP Tour": {
+    "status": "verified",
+    "video_id": "g9Oty97D6vA",
+    "verified_date": "2026-03-15T09:06:14.600931",
+    "confidence": "channel match",
+    "metadata": {
+      "video_title": "Magnolia Park - \"SHALLOW\"",
+      "channel_name": "Magnolia Park",
+      "view_count": 3525496,
+      "published": "2024-06-26T15:00:04Z",
+      "channel_subscribers": 114000,
+      "channel_videos": 135,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 1.7
+    }
+  },
+  "Tim Dahl and Matt Nelson, Genre is Death, and Crowmeat Christensen": {
+    "status": "rejected",
+    "video_id": "in3N6Ni0IgY",
+    "rejected_date": "2026-03-15T09:06:15.796538",
+    "reason": "artist name not found in channel or title",
+    "metadata": {
+      "video_title": "Tim Dahl and Tamio Shiraishi on 20170201",
+      "channel_name": "fjkamome",
+      "view_count": 280,
+      "published": "2017-02-02T23:17:09Z",
+      "channel_subscribers": 350,
+      "channel_videos": 74,
+      "is_topic": false,
+      "channel_match": false,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 9.1
+    }
+  },
+  "Jarv and RDGLDGRN": {
+    "status": "verified",
+    "video_id": "aKfdwItg-qM",
+    "verified_date": "2026-03-15T09:06:19.415755",
+    "confidence": "channel match, 1,786 views",
+    "metadata": {
+      "video_title": "RDGLDGRN ft. JARV- SUGARCANE (Official Audio )",
+      "channel_name": "RDGLDGRN",
+      "view_count": 1786,
+      "published": "2025-11-21T12:53:45Z",
+      "channel_subscribers": 19600,
+      "channel_videos": 102,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Damn Skippy": {
+    "status": "verified",
+    "video_id": "gPaW5dKR9Ss",
+    "verified_date": "2026-03-15T09:06:20.620450",
+    "confidence": "channel match, 3,649 views",
+    "metadata": {
+      "video_title": "Damn Skippy \"BOP-IT\" OFFICIAL MUSIC VIDEO",
+      "channel_name": "Damn Skippy",
+      "view_count": 3649,
+      "published": "2025-07-03T00:00:06Z",
+      "channel_subscribers": 2580,
+      "channel_videos": 128,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.7
+    }
+  },
+  "Big Shrimp": {
+    "status": "verified",
+    "video_id": "PGheCUDC4CY",
+    "verified_date": "2026-03-15T09:06:21.867864",
+    "confidence": "channel match, 105 views",
+    "metadata": {
+      "video_title": "Big Shrimp - \"Melting Over Nothing\" - The Coterie - Kokomo, IN 01/17/26",
+      "channel_name": "Big Shrimp",
+      "view_count": 105,
+      "published": "2026-02-22T22:58:28Z",
+      "channel_subscribers": 845,
+      "channel_videos": 140,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.1
+    }
+  },
+  "THE NUDE PARTY": {
+    "status": "verified",
+    "video_id": "K-cM0SX0ghw",
+    "verified_date": "2026-03-15T09:06:25.447471",
+    "confidence": "channel match, 118,297 views",
+    "metadata": {
+      "video_title": "The Nude Party - \"Ride On\" (Official Music Video)",
+      "channel_name": "The Nude Party",
+      "view_count": 118297,
+      "published": "2023-03-01T17:00:10Z",
+      "channel_subscribers": 5930,
+      "channel_videos": 75,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 3.0
+    }
+  },
+  "St. Paul & The Broken Bones": {
+    "status": "verified",
+    "video_id": "ZlR8JwdB8Qk",
+    "verified_date": "2026-03-15T09:06:27.847268",
+    "confidence": "VEVO, 370,044 views",
+    "metadata": {
+      "video_title": "St. Paul & The Broken Bones - Sushi and Coca-Cola (Official Video)",
+      "channel_name": "StPBrokenBonesVEVO",
+      "view_count": 370044,
+      "published": "2025-07-18T04:00:54Z",
+      "channel_subscribers": 3410,
+      "channel_videos": 62,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 0.7
+    }
+  },
+  "Brother Wallace": {
+    "status": "verified",
+    "video_id": "ekyFaEsEFRI",
+    "verified_date": "2026-03-15T09:06:29.046400",
+    "confidence": "channel match, 117,188 views",
+    "metadata": {
+      "video_title": "Brother Wallace \u2013 Who\u2019s That? (Official Video)",
+      "channel_name": "Brother Wallace",
+      "view_count": 117188,
+      "published": "2025-11-11T12:01:31Z",
+      "channel_subscribers": 201,
+      "channel_videos": 23,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 0.3
+    }
+  },
+  "Sheer Mag / Daniel Romano\u2019s Outfit / Fast Kids": {
+    "status": "verified",
+    "video_id": "hCl-hJY0T9Y",
+    "verified_date": "2026-03-15T09:06:30.237463",
+    "confidence": "channel match, 242,199 views",
+    "metadata": {
+      "video_title": "Sheer Mag - Moonstruck (Official Video)",
+      "channel_name": "SHEER MAG",
+      "view_count": 242199,
+      "published": "2024-01-09T15:00:36Z",
+      "channel_subscribers": 3810,
+      "channel_videos": 18,
+      "is_topic": false,
+      "channel_match": true,
+      "trusted_channel": false,
+      "session_channel": false,
+      "view_cap_reason": "default (5M cap)",
+      "video_age_years": 2.2
+    }
+  },
+  "A Wu-Tang Experience: Live at Red Rocks Amphitheater": {
+    "status": "verified",
+    "video_id": "xaVXrDnQRKM",
+    "verified_date": "2026-03-15T09:06:31.419883",
+    "confidence": "VEVO",
+    "metadata": {
+      "video_title": "2 Chainz, Ronald Isley, The Isley Brothers - THE ATL EXPERIENCE (Official Video)",
+      "channel_name": "2ChainzVEVO",
+      "view_count": 3450252,
+      "published": "2025-05-02T04:01:08Z",
+      "channel_subscribers": 1810000,
+      "channel_videos": 176,
+      "is_topic": false,
+      "channel_match": false,
+      "vevo_channel": true,
+      "trusted_channel": true,
+      "session_channel": false,
+      "trusted_reason": "VEVO",
+      "view_cap_reason": "trusted channel (VEVO)",
+      "channel_override": "trusted VEVO, skipping mismatch check",
+      "video_age_years": 0.9
     }
   }
 }

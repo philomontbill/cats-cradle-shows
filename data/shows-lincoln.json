@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "Lincoln Theatre",
-      "artist": "Mother’s Finest",
-      "date": "Sat, Mar 14",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Will McBride Group",
-      "image": "https://lincolntheatre.com/wp-content/uploads/2025/11/etix-Mothers_911861762780476.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/76769153/mothers-finest-wwill-mcbride-group-raleigh-lincoln-theatre?partner_id=100",
-      "notice": null,
-      "youtube_id": "6BcdaRmGtoU",
-      "opener_youtube_id": "RQPysoHYUWs"
-    },
-    {
-      "venue": "Lincoln Theatre",
       "artist": "Eggy",
       "date": "Sun, Mar 15",
       "doors": "7 pm",
@@ -291,10 +278,21 @@
       "ticket_url": "https://www.etix.com/ticket/p/69019434/disciple-of-the-garden-tribute-to-chris-cornellsoundgardenaudioslave-raleigh-lincoln-theatre?partner_id=100",
       "notice": null,
       "youtube_id": "IOnXfdZNQrk"
+    },
+    {
+      "venue": "Lincoln Theatre",
+      "artist": "Magnolia Park – Nights After VAMP Tour",
+      "date": "Sun, May 10",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://lincolntheatre.com/wp-content/uploads/2026/01/magnolia-park-nights-after-vamp-tour.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/57742045/magnolia-park-nights-after-vamp-tour-raleigh-lincoln-theatre?partner_id=100",
+      "notice": null,
+      "youtube_id": "g9Oty97D6vA"
     }
   ],
   "total_shows": 25,
   "shows_with_video": 22,
   "shows_with_image": 25,
-  "last_updated": "2026-03-14T09:02:51.154663"
+  "last_updated": "2026-03-15T09:04:37.027439"
 }

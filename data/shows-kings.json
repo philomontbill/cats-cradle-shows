@@ -7,40 +7,16 @@
   "shows": [
     {
       "venue": "Kings",
-      "date": "Sat, Mar 14",
-      "artist": "Rescheduled from 1/24The Great Cover Up 2026 – Make-Up Night!",
-      "opener": "Paul Siler",
-      "showtime": "7:15pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-1-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "_JkUpouxAzk"
-    },
-    {
-      "venue": "Kings",
-      "date": "Sat, Mar 14",
-      "artist": "The Great Cover Up 2026 – Make-Up Night!",
-      "opener": "Paul Siler",
-      "showtime": "7:15pm",
-      "ticket_url": "https://www.kingsraleigh.com/shows/the-great-cover-up-2026-make-up-night",
-      "image": "https://www.kingsraleigh.com/wp-content/uploads/2024/11/Untitled-design-2-1-150x150.png",
-      "notice": null,
-      "doors": null,
-      "youtube_id": null,
-      "opener_youtube_id": "_JkUpouxAzk"
-    },
-    {
-      "venue": "Kings",
       "date": "Sun, Mar 15",
       "artist": "GrrrlBands: Sountrack Season Showcase",
+      "opener": "Samy Sharif",
       "showtime": "7:00pm",
       "ticket_url": "https://www.kingsraleigh.com/shows/grrrlbands-sountrack-season-showcase",
       "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/12/031526B-150x150.jpg",
       "notice": null,
       "doors": null,
-      "youtube_id": null
+      "youtube_id": null,
+      "opener_youtube_id": "xRrtYZphW7g"
     },
     {
       "venue": "Kings",
@@ -319,10 +295,36 @@
       "doors": null,
       "youtube_id": "v7rLqalWqm8",
       "opener_youtube_id": "ngZT2Tyfuf0"
+    },
+    {
+      "venue": "Kings",
+      "date": "Sun, Apr 12",
+      "artist": "Zack Keim",
+      "opener": "David Shane",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/zack-keim",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2026/02/041226-150x150.png",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "3dkCNDnSrSA",
+      "opener_youtube_id": "AqiKsx2yEmE"
+    },
+    {
+      "venue": "Kings",
+      "date": "Mon, Apr 13",
+      "artist": "The Belair Lip Bombs / dust",
+      "opener": "Laveda",
+      "showtime": "8:00pm",
+      "ticket_url": "https://www.kingsraleigh.com/shows/the-belair-lip-bombs-dust",
+      "image": "https://www.kingsraleigh.com/wp-content/uploads/2025/10/balb-150x150.jpeg",
+      "notice": null,
+      "doors": null,
+      "youtube_id": "KOqJfu-QS6k",
+      "opener_youtube_id": "MQ4uHYcqWGg"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 17,
+  "shows_with_video": 19,
   "shows_with_image": 25,
-  "last_updated": "2026-03-14T09:02:54.052100"
+  "last_updated": "2026-03-15T09:04:41.898055"
 }

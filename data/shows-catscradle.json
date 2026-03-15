@@ -20,19 +20,6 @@
       "expired": true
     },
     {
-      "artist": "Twen",
-      "date": "Sat, Mar 14",
-      "venue": "Cat's Cradle Back Room",
-      "opener": "Monsoon",
-      "notice": "Sold Out",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "image": "https://catscradle.com/wp-content/uploads/2026/01/etix-Twen_1941601759228155.jpg",
-      "event_url": "https://catscradle.com/event/twen/cats-cradle-back-room/carrboro-north-carolina/",
-      "youtube_id": "7aI0OF1kGH4",
-      "opener_youtube_id": "Yen1gSMpqxQ"
-    },
-    {
       "artist": "The Early November & Hellogoodbye: 20 Years Young",
       "date": "Sun, Mar 15",
       "venue": "Cat's Cradle",
@@ -311,6 +298,18 @@
       "opener_youtube_id": "7bJjMdu1F9I"
     },
     {
+      "artist": "Lucius \u2013 A History Worth Repeating: Songs and Stories from Lucius",
+      "date": "Fri, Apr 03",
+      "venue": "Cat's Cradle",
+      "opener": null,
+      "notice": "Cat's Cradle Presents",
+      "doors": "6:30 pm",
+      "showtime": "7:30 pm",
+      "image": "https://catscradle.com/wp-content/uploads/2025/12/LUCIUS_PRESS-PHOTO_CREDIT_-DANA-TRIPPE-1000.jpg",
+      "event_url": "https://catscradle.com/event/lucius-a-history-worth-repeating-songs-and-stories-from-lucius/a-j-fletcher-opera-theater/raleigh-north-carolina/",
+      "youtube_id": "dqgmQtZ4xbk"
+    },
+    {
       "artist": "Andy Hull",
       "date": "Wed, Jun 10",
       "venue": "Haw River Ballroom",
@@ -327,5 +326,5 @@
   "total_shows": 24,
   "shows_with_video": 15,
   "shows_with_image": 24,
-  "last_updated": "2026-03-14T09:02:31.775101"
+  "last_updated": "2026-03-15T09:04:20.463183"
 }

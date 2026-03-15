@@ -6,18 +6,6 @@
   },
   "shows": [
     {
-      "artist": "Eggy",
-      "date": "Sat, Mar 14",
-      "venue": "Neighborhood Theatre",
-      "opener": null,
-      "notice": null,
-      "doors": null,
-      "showtime": null,
-      "image": "https://s1.ticketm.net/dam/a/acb/e99d96fb-04e7-480c-bb63-521286ebcacb_TABLET_LANDSCAPE_16_9.jpg",
-      "ticket_url": "https://www.ticketmaster.com/eggy-something-in-the-air-tour-charlotte-north-carolina-03-14-2026/event/2D00636AA46BB1F6",
-      "youtube_id": "oa0WTcgEkFU"
-    },
-    {
       "artist": "Mike Gordon",
       "date": "Thu, Mar 19",
       "venue": "Neighborhood Theatre",
@@ -292,10 +280,22 @@
       "image": "https://s1.ticketm.net/dam/a/21e/bea012ea-f971-4f9b-9891-18b5cba1221e_TABLET_LANDSCAPE_16_9.jpg",
       "ticket_url": "https://www.ticketmaster.com/shinyribs-charlotte-north-carolina-05-01-2026/event/2D00644AFFF53AA9",
       "youtube_id": "4M9tCya79Go"
+    },
+    {
+      "artist": "THE NUDE PARTY",
+      "date": "Sun, May 03",
+      "venue": "Neighborhood Theatre",
+      "opener": null,
+      "notice": null,
+      "doors": null,
+      "showtime": null,
+      "image": "https://s1.ticketm.net/dam/e/21e/a7d142b0-52c9-42d7-8020-8a5c9264a21e_TABLET_LANDSCAPE_16_9.jpg",
+      "ticket_url": "https://www.ticketmaster.com/the-nude-party-charlotte-north-carolina-05-03-2026/event/2D0063511085EAD7",
+      "youtube_id": "K-cM0SX0ghw"
     }
   ],
   "total_shows": 24,
   "shows_with_video": 19,
   "shows_with_image": 24,
-  "last_updated": "2026-03-14T09:03:56.844635"
+  "last_updated": "2026-03-15T09:05:46.226977"
 }

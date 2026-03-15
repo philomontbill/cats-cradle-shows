@@ -632,3 +632,27 @@ Venue Summary:
   orangepeel: 21 shows (was 22)
   pinhook: 25 shows (was 25)
 
+
+============================================================
+Scrape Monitor — 2026-03-15 09:05:56
+============================================================
+
+1 ALERT(s):
+  ALERT: thesocial — only 6 shows (below floor of 20)
+
+Venue Summary:
+  boweryballroom: 20 shows (was 20)
+  catscradle: 25 shows (was 25)
+  elclub: 21 shows (was 21)
+  elevation27: 25 shows (was 25)
+  heartwoodsoundstage: 25 shows (was 25)
+  kings: 25 shows (was 25)
+  lincoln: 25 shows (was 25)
+  local506: 25 shows (was 25)
+  mercurylounge: 20 shows (was 20)
+  mohawk: 25 shows (was 25)
+  motorco: 25 shows (was 25)
+  neighborhood: 24 shows (was 24)
+  orangepeel: 21 shows (was 21)
+  pinhook: 25 shows (was 25)
+

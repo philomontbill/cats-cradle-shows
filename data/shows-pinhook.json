@@ -7,28 +7,6 @@
   "shows": [
     {
       "venue": "The Pinhook",
-      "artist": "Minorcan / Lalitree Darnielle / Celestogramme",
-      "date": "Sat, Mar 14",
-      "doors": "6 pm",
-      "showtime": "6:30 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/minorcan-lalitree-darnielle-celestogramme.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/34408334/minorcan-lalitree-darnielle-celestogramme-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": "8iAe7o0Ol6o"
-    },
-    {
-      "venue": "The Pinhook",
-      "artist": "SIREN: Pisces Drag Show and Dance Party",
-      "date": "Sat, Mar 14",
-      "doors": "9:30 pm",
-      "showtime": "10 pm",
-      "image": "https://thepinhook.com/wp-content/uploads/2026/02/siren-sound-the-alarm-for-the-pisces-queen-followed-by-a-piscine-dance-party.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/55479687/sirenpisces-drag-show-and-dance-party-durham-the-pinhook?partner_id=100",
-      "notice": null,
-      "youtube_id": null
-    },
-    {
-      "venue": "The Pinhook",
       "artist": "Invisible Cities / Ravine / Violent Institution",
       "date": "Sun, Mar 15",
       "doors": "8:30 pm",
@@ -283,10 +261,31 @@
       "ticket_url": "https://www.etix.com/ticket/p/56791004/telescreens-the-wallabies-durham-the-pinhook?partner_id=100",
       "notice": null,
       "youtube_id": "l5bC24eTtzs"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "Sheer Mag / Daniel Romano’s Outfit / Fast Kids",
+      "date": "Mon, Apr 13",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/02/sheer-mag-daniel-romanos-outfit.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/82892730/sheer-mag-daniel-romanos-outfit-fast-kids-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "hCl-hJY0T9Y"
+    },
+    {
+      "venue": "The Pinhook",
+      "artist": "A Wu-Tang Experience: Live at Red Rocks Amphitheater",
+      "date": "Wed, Apr 15",
+      "showtime": "7 pm",
+      "image": "https://thepinhook.com/wp-content/uploads/2026/03/a-wu-tang-experience-live-at-red-rocks-amphitheater.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/37322728/a-wutang-experiencelive-at-red-rocks-amphitheater-durham-the-pinhook?partner_id=100",
+      "notice": null,
+      "youtube_id": "xaVXrDnQRKM"
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 14,
+  "shows_with_video": 15,
   "shows_with_image": 25,
-  "last_updated": "2026-03-14T09:02:46.597644"
+  "last_updated": "2026-03-15T09:04:33.482969"
 }

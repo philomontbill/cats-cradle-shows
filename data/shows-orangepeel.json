@@ -7,19 +7,6 @@
   "shows": [
     {
       "venue": "The Orange Peel",
-      "artist": "The Hives",
-      "date": "Sat, Mar 14",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "The Chats",
-      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-The_1039631760124444.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/62219798/the-hives-asheville-the-orange-peel?cobrand=1161&partner_id=100",
-      "notice": "Sold Out",
-      "youtube_id": "Uz1Jwyxd4tE",
-      "opener_youtube_id": "1LGM82uPuvA"
-    },
-    {
-      "venue": "The Orange Peel",
       "artist": "Nolen Durham",
       "date": "Sun, Mar 15",
       "doors": "7:30 pm",
@@ -269,10 +256,23 @@
       "ticket_url": "https://www.etix.com/ticket/p/67829460/color-me-asheville-by-goodwill-asheville-the-orange-peel?cobrand=1161&partner_id=100",
       "notice": null,
       "youtube_id": null
+    },
+    {
+      "venue": "The Orange Peel",
+      "artist": "St. Paul & The Broken Bones",
+      "date": "Sat, Apr 18",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Brother Wallace",
+      "image": "https://theorangepeel.net/wp-content/uploads/2025/10/etix-St_1039091759506987.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/39606978/stpaul-the-broken-bones-asheville-the-orange-peel?cobrand=1161&partner_id=100",
+      "notice": "Sold Out",
+      "youtube_id": "ZlR8JwdB8Qk",
+      "opener_youtube_id": "ekyFaEsEFRI"
     }
   ],
   "total_shows": 21,
   "shows_with_video": 17,
   "shows_with_image": 21,
-  "last_updated": "2026-03-14T09:04:01.357780"
+  "last_updated": "2026-03-15T09:05:51.181186"
 }

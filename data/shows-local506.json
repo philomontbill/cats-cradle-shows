@@ -7,20 +7,7 @@
   "shows": [
     {
       "venue": "Local 506",
-      "artist": "Snide and Knub",
-      "date": "Sat, Mar 14",
-      "doors": "7 pm",
-      "showtime": "8 pm",
-      "opener": "Snowblinder and Dead Halos",
-      "image": "https://local506.com/wp-content/uploads/2026/01/snide-and-knub-with-snowblinder-and-dead-halos.jfif",
-      "ticket_url": "https://www.etix.com/ticket/p/87689568/snide-and-knub-with-snowblinder-and-dead-halos-chapel-hill-local-506?partner_id=100",
-      "notice": null,
-      "youtube_id": "_DyW7jWaO-0",
-      "opener_youtube_id": null
-    },
-    {
-      "venue": "Local 506",
-      "artist": "Worry Club – ‘I’m Freaking Out Tour’",
+      "artist": "Worry Club \u2013 \u2018I\u2019m Freaking Out Tour\u2019",
       "date": "Tue, Mar 17",
       "doors": "6:30 pm",
       "showtime": "7:30 pm",
@@ -59,7 +46,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "flyingfish – ‘Death Of Isolation’ Tour",
+      "artist": "flyingfish \u2013 \u2018Death Of Isolation\u2019 Tour",
       "date": "Fri, Mar 20",
       "doors": "7 pm",
       "showtime": "7:30 pm",
@@ -111,7 +98,7 @@
     },
     {
       "venue": "Local 506",
-      "artist": "Robert Morton ‘Self Loathing Never Got Me Anywhere’ Album Release Show",
+      "artist": "Robert Morton \u2018Self Loathing Never Got Me Anywhere\u2019 Album Release Show",
       "date": "Fri, Mar 27",
       "doors": "7 pm",
       "showtime": "8 pm",
@@ -321,16 +308,29 @@
       "date": "Mon, Apr 20",
       "doors": "7 pm",
       "showtime": "8 pm",
-      "opener": "Döltz and Franky & The Slight Incline",
+      "opener": "D\u00f6ltz and Franky & The Slight Incline",
       "image": "https://local506.com/wp-content/uploads/2026/03/landowner-with-doltz-and-franky-the-slight-incline.jfif",
       "ticket_url": "https://www.etix.com/ticket/p/56091033/landowner-with-d%C3%B6ltz-and-franky-the-slight-incline-chapel-hill-local-506?partner_id=100",
       "notice": null,
       "youtube_id": "WgmBkgqJwUU",
       "opener_youtube_id": null
+    },
+    {
+      "venue": "Local 506",
+      "artist": "Lydia Lunch\u2019s Murderous Again",
+      "date": "Thu, Apr 23",
+      "doors": "7 pm",
+      "showtime": "8 pm",
+      "opener": "Tim Dahl and Matt Nelson, Genre is Death, and Crowmeat Christensen",
+      "image": "https://local506.com/wp-content/uploads/2026/03/lydia-lunchs-murderous-again-with-tim-dahl-and-matt-nelson-genre-is-death-and-crowmeat-christensen.jfif",
+      "ticket_url": "https://www.etix.com/ticket/p/72246012/lydia-lunchs-murderous-again-with-tim-dahl-and-matt-nelsongenre-is-deathand-crowmeat-christensen-chapel-hill-local-506?partner_id=100",
+      "notice": null,
+      "youtube_id": null,
+      "opener_youtube_id": null
     }
   ],
   "total_shows": 25,
-  "shows_with_video": 22,
+  "shows_with_video": 21,
   "shows_with_image": 25,
-  "last_updated": "2026-03-14T09:02:40.654393"
+  "last_updated": "2026-03-15T09:04:27.135552"
 }
